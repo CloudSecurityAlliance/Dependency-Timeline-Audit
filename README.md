@@ -17,4 +17,20 @@ Dependency Timeline Audit follows these steps to provide a comprehensive timelin
 
 This process ensures a thorough examination of your project's dependency timeline, providing valuable insights for risk management and maintenance planning.
 
-Future plans include integrating this functionality into SBOM tools like Syft, and vulnerability scanning tools like Grype.
+## Future plans include 
+
+* This functionality can be integrated into SBOM tools like Syft and vulnerability scanning tools like Grype
+* CI/CD compatible tooling so these checks can be easily integrated into build pipelines
+* Exceptions database (e.g. some old/unmaintained software is "done" and doesn't pose any significant risk
+* Language support:
+  * Ruby on Rails
+  * Python
+  * NPM
+  * Rust
+  * Go
+  * PHP
+  * Java
+  * Swift
+  * Perl
+  * Docker images
+  * Other image formats
