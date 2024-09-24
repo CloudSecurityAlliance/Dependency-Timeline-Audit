@@ -1,3 +1,4 @@
 vendor/
 Gemfile.lock
 *.gem
+.byebug_history

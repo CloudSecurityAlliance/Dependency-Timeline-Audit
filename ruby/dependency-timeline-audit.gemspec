@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir['lib/**/*.rb']
   s.require_paths = ['lib']
+  s.executables << 'dependency-timeline-audit'
 
   s.metadata = {
     'bug_tracker_uri'       => "#{repo_url}/issues",
@@ -29,4 +30,7 @@ Gem::Specification.new do |s|
     # 'source_code_uri'       => "#{repo_url}/tree/v#{version}",
     'rubygems_mfa_required' => 'true'
   }
+
+  s.add_dependency 'activesupport'
+  s.add_dependency 'bundler'
 end
