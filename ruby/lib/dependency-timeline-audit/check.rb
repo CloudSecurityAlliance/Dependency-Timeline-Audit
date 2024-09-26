@@ -8,24 +8,26 @@ module DependencyTimelineAudit
       1.year.ago
     end
 
-    def self.check(lockfile = 'Gemfile.lock')
+    def self.check(lockfile: 'Gemfile.lock', verbose: true)
       outdated_versions = []
       locked_gems.each do |gem|
         lock_released_at = GemInfo.version_created_at(gem[:name], gem[:locked_version])
         latest_version = GemInfo.latest_version(gem[:name])
         outdated_versions.push(gem[:name]) if gem_outdated?(lock_released_at)
-        print_info(gem, lock_released_at, latest_version)
+        print_info(gem, lock_released_at, latest_version) if verbose
       end
+
+      print "\n" if verbose
 
       if outdated_versions.any?
         set_text_color_red
-        puts "\nOutdated gems detected!"
+        puts "Outdated gems detected!"
         puts " - #{outdated_versions.join(', ')}"
 
         exit(1) # Failure
       else
         reset_text_style
-        puts "\nAll gems are within the accepted threshold!"
+        puts "All gems are within the accepted threshold!"
 
         exit(0) # Success
       end

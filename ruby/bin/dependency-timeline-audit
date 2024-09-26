@@ -1,5 +1,34 @@
 #!/usr/bin/env ruby
 
 require 'dependency-timeline-audit'
+require 'optparse'
 
-DependencyTimelineAudit::Check.check
+# See: https://docs.ruby-lang.org/en/master/OptionParser.html
+
+begin
+  options = {}
+  OptionParser.new do |opts|
+    opts.banner = "Usage: dependency-timeline-audit [options]\n"
+
+    opts.on('-i', '--interactive-ignore', 'Allows interactively generating an ignore file')
+    opts.on('-v', '--verbose', 'Provides more verbose output')
+    opts.on('--lockfile=LOCKFILE', 'Allows overwriting where the lockfile is located (default: "Gemfile.lock")')
+    opts.on('--outdated-threshold=YEARS', Integer, 'Allows overwriting the number of years before a gem is considered outdated (default: 1)')
+    opts.on_tail('-h', '--help', 'Prints this help') do
+      puts opts
+      exit
+    end
+    opts.on('-V', '--version', 'Prints the version of dependency-timeline-audit') do
+      puts "Dependency Timeline Audit (Ruby) - version: #{DependencyTimelineAudit.gem_version}"
+      exit
+    end
+  end.parse!(into: options)
+rescue OptionParser::InvalidOption, OptionParser::MissingArgument => e
+  puts e.message
+  exit(1)
+end
+
+DependencyTimelineAudit::Check.check(
+  lockfile: options[:lockfile],
+  verbose: options[:verbose]
+)
