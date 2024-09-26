@@ -35,7 +35,7 @@ module DependencyTimelineAudit
       # Find the version that matches the requested version string
       version_info = versions.find { |v| v['number'] == version }
 
-      version_info['created_at']
+      version_info.present? ? version_info['created_at'] : nil
     end
   end
 end
