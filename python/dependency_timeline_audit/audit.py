@@ -1,7 +1,7 @@
+import ast
 import importlib_metadata
 import importlib.util
 import sys
-import ast
 import requests
 
 # List of special modules to exclude
@@ -55,7 +55,6 @@ def get_package_version(package_name):
     except ModuleNotFoundError:
         return f"{package_name} not found."
 
-
 def extract_imports(file_path):
     with open(file_path, 'r') as file:
         tree = ast.parse(file.read(), filename=file_path)
@@ -72,6 +71,7 @@ def process_imports(file_path, processed_files=set()):
     imports = extract_imports(file_path)
     all_imports = set(imports)
 
+    # Recursively process imports from imported files
     for module in imports:
         try:
             module_path = importlib.util.find_spec(module).origin
@@ -79,6 +79,7 @@ def process_imports(file_path, processed_files=set()):
                 processed_files.add(module_path)
                 all_imports.update(process_imports(module_path, processed_files))
         except Exception:
-            continue
+            continue  # Skip built-in modules or modules not found
 
     return all_imports
+

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='dependency_timeline_audit',
-    version='0.1.12',
+    version='0.1.13',
     packages=find_packages(),
     install_requires=[
         'importlib-metadata',
@@ -14,5 +14,5 @@ setup(
     },
     author='Your Name',
     description='A tool to audit Python project dependencies and their versions.',
-    url='https://github.com/yourusername/dependency_timeline_audit',
+    url='https://github.com/CloudSecurityAlliance/Dependency-Timeline-Audit',
 )
