@@ -28,14 +28,37 @@ This process ensures a thorough examination of your project's dependency timelin
 * CI/CD compatible tooling so these checks can be easily integrated into build pipelines
 * Exceptions database (e.g. some old/unmaintained software is "done" and doesn't pose any significant risk
 * Language support:
-  * Ruby on Rails
-  * Python
-  * NPM
-  * Rust
-  * Go
-  * PHP
-  * Java
-  * Swift
-  * Perl
-  * Docker images
-  * Other image formats
+  * .NET (C#, F#, VB.NET) (NuGet)
+  * C++ (Conan, Vcpkg)
+  * Clojure (Clojars)
+  * Dart (Pub)
+  * Elixir (Hex)
+  * Go (Go Modules,)
+  * Haskell (Hackage)
+  * Java (Maven Central, JCenter)
+  * JavaScript/Node.js (NPM)
+  * Julia (Julia General Registry)
+  * Lua (LuaRocks)
+  * Objective-C (CocoaPods, Carthage)
+  * PHP (Packagist)
+  * Perl (CPAN)
+  * Python (PyPi)
+  * R (CRAN - Comprehensive R Archive Network)
+  * Ruby on Rails (rubygems)
+  * Rust (crates.io)
+  * Scala (Maven Central, Ivy, Bintray JCenter)
+  * Swift (Swift Package Index, CocoaPods)
+* Containers and VM support:
+  * App Container Image (appc) used by rkt
+  * Flatpak
+  * Linux Containers (LXC) used by Incus
+  * OVA/OVF: Open standard for virtual appliance packaging.
+  * Open Container Initiative (OCI) used by Docker, Podman
+  * QCOW2: Common with QEMU and KVM, supports advanced features.
+  * Singularity (now Apptainer)
+  * Snap
+  * Systemd-nspawn
+  * VDI: VirtualBox’s native format, convertible to other formats.
+  * VHD/VHDX: Microsoft’s formats, used in Hyper-V and Azure.
+  * VMDK: VMware’s format, also used in other hypervisors like VirtualBox.
+  * Wasm Containers
