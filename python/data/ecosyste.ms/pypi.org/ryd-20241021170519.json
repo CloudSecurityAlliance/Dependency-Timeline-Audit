@@ -1,0 +1,85 @@
+{
+  "id": 2908375,
+  "name": "ryd",
+  "ecosystem": "pypi",
+  "description": "Ruamel Yaml Doc preprocessor (pronounced: /r\u0251\u026at/, like the verb \"write\")",
+  "homepage": "https://sourceforge.net/p/ryd/",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://bitbucket.org/ruamel/yaml",
+  "keywords_array": [
+    "restructuredtext",
+    "markdown",
+    "markup",
+    "preprocessing"
+  ],
+  "namespace": null,
+  "versions_count": 20,
+  "first_release_published_at": "2017-07-17T21:28:54.000Z",
+  "latest_release_published_at": "2023-11-21T09:12:13.000Z",
+  "latest_release_number": "0.9.2",
+  "last_synced_at": "2024-10-12T06:08:35.165Z",
+  "created_at": "2022-04-10T12:31:12.559Z",
+  "updated_at": "2024-10-12T06:25:46.828Z",
+  "registry_url": "https://pypi.org/project/ryd/",
+  "install_command": "pip install ryd --index-url https://pypi.org/simple",
+  "documentation_url": "https://ryd.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python"
+    ],
+    "normalized_name": "ryd"
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-10-12T06:25:46.670Z",
+  "dependent_packages_count": 1,
+  "downloads": 915,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 5,
+  "rankings": {
+    "downloads": 8.540686587355879,
+    "dependent_repos_count": 6.630072894488381,
+    "dependent_packages_count": 4.74372965710212,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": null,
+    "average": 6.6381630463154595
+  },
+  "purl": "pkg:pypi/ryd",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/ryd",
+  "docker_dependents_count": null,
+  "docker_downloads_count": null,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/ryd",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/ryd/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/ryd/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/ryd/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/ryd/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/ryd/related_packages",
+  "maintainers": [
+    {
+      "uuid": "anthon",
+      "login": "anthon",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 69,
+      "html_url": "https://pypi.org/user/anthon/",
+      "role": null,
+      "created_at": "2023-02-25T09:34:59.432Z",
+      "updated_at": "2023-02-25T09:34:59.432Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/anthon/packages"
+    }
+  ]
+}

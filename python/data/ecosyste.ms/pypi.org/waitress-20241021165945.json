@@ -1,0 +1,1246 @@
+{
+  "id": 2967102,
+  "name": "waitress",
+  "ecosystem": "pypi",
+  "description": "Waitress WSGI server",
+  "homepage": "https://github.com/Pylons/waitress",
+  "licenses": "ZPL 2.1",
+  "normalized_licenses": [
+    "ZPL-2.1"
+  ],
+  "repository_url": "https://github.com/Pylons/waitress",
+  "keywords_array": [
+    "waitress",
+    "wsgi",
+    "server",
+    "http"
+  ],
+  "namespace": null,
+  "versions_count": 50,
+  "first_release_published_at": "2011-12-30T09:57:24.000Z",
+  "latest_release_published_at": "2024-02-04T23:33:53.000Z",
+  "latest_release_number": "3.0.0",
+  "last_synced_at": "2024-10-21T14:11:28.945Z",
+  "created_at": "2022-04-10T13:02:25.357Z",
+  "updated_at": "2024-10-21T14:11:28.945Z",
+  "registry_url": "https://pypi.org/project/waitress/",
+  "install_command": "pip install waitress --index-url https://pypi.org/simple",
+  "documentation_url": "https://docs.pylonsproject.org/projects/waitress/en/latest/index.html",
+  "metadata": {
+    "funding": null,
+    "documentation": "https://docs.pylonsproject.org/projects/waitress/en/latest/index.html",
+    "classifiers": [
+      "Development Status :: 6 - Mature",
+      "Environment :: Web Environment",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: Zope Public License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Topic :: Internet :: WWW/HTTP",
+      "Topic :: Internet :: WWW/HTTP :: WSGI"
+    ],
+    "normalized_name": "waitress"
+  },
+  "repo_metadata": {
+    "id": 2061569,
+    "uuid": "2999982",
+    "full_name": "Pylons/waitress",
+    "owner": "Pylons",
+    "description": "Waitress - A WSGI server for Python 3",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2024-06-22T21:10:08.000Z",
+    "size": 1765,
+    "stargazers_count": 1434,
+    "open_issues_count": 15,
+    "forks_count": 164,
+    "subscribers_count": 38,
+    "default_branch": "main",
+    "last_synced_at": "2024-08-30T07:11:59.398Z",
+    "etag": null,
+    "topics": [
+      "http-server",
+      "python",
+      "wsgi-server"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "https://docs.pylonsproject.org/projects/waitress/en/latest/",
+    "language": "Python",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": "shspage/illustrator-scripts",
+    "license": "other",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/Pylons.png",
+    "metadata": {
+      "files": {
+        "readme": "README.rst",
+        "changelog": "CHANGES.txt",
+        "contributing": "contributing.md",
+        "funding": null,
+        "license": "LICENSE.txt",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": null,
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null,
+        "publiccode": null,
+        "codemeta": null
+      }
+    },
+    "created_at": "2011-12-17T06:58:21.000Z",
+    "updated_at": "2024-08-29T10:17:41.000Z",
+    "dependencies_parsed_at": "2024-06-08T22:43:42.049Z",
+    "dependency_job_id": "02599c46-70cd-4073-b5ea-41a58c4c0505",
+    "html_url": "https://github.com/Pylons/waitress",
+    "commit_stats": {
+      "total_commits": 833,
+      "total_committers": 55,
+      "mean_commits": "15.145454545454545",
+      "dds": 0.6206482593037215,
+      "last_synced_commit": "455f2a5fd38cafab95893ca170c7504e4239d985"
+    },
+    "previous_names": [],
+    "tags_count": 50,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/Pylons",
+    "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 217589665,
+      "owners_count": 16201303,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "Pylons",
+      "name": "Pylons Project",
+      "uuid": "452227",
+      "kind": "organization",
+      "description": "The Pylons Project is composed of a disparate group of project leaders with experience going back to the very start of Python web frameworks.",
+      "email": "pylons-discuss@googlegroups.com",
+      "website": "https://pylonsproject.org",
+      "location": null,
+      "twitter": "pylonsproject",
+      "company": null,
+      "icon_url": "https://avatars.githubusercontent.com/u/452227?v=4",
+      "repositories_count": 104,
+      "last_synced_at": "2024-04-08T15:30:22.166Z",
+      "metadata": {
+        "has_sponsors_listing": false
+      },
+      "html_url": "https://github.com/Pylons",
+      "funding_links": [],
+      "total_stars": 9449,
+      "followers": 57,
+      "following": 0,
+      "created_at": "2022-11-02T16:25:30.152Z",
+      "updated_at": "2024-04-08T15:30:47.611Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/Pylons",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/Pylons/repositories"
+    },
+    "tags": [
+      {
+        "name": "v3.0.0",
+        "sha": "4e0d8c4a951e9a274889609f90fbe31d5253fa82",
+        "kind": "commit",
+        "published_at": "2024-02-04T23:30:32.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v3.0.0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v3.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v3.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v3.0.0/manifests"
+      },
+      {
+        "name": "v2.1.2",
+        "sha": "0aa4879d08b1fa816505dbb4f42342ba1d531644",
+        "kind": "commit",
+        "published_at": "2022-05-30T21:32:12.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v2.1.2",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v2.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.1.2/manifests"
+      },
+      {
+        "name": "v2.1.1",
+        "sha": "9e0b8c801e4d505c2ffc91b891af4ba48af715e0",
+        "kind": "commit",
+        "published_at": "2022-03-16T21:26:15.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v2.1.1",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v2.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.1.1/manifests"
+      },
+      {
+        "name": "v2.1.0",
+        "sha": "c87c899dc6b9c56ff8f1fc6a674a25b1109bad85",
+        "kind": "commit",
+        "published_at": "2022-03-05T19:30:55.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v2.1.0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v2.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.1.0/manifests"
+      },
+      {
+        "name": "v2.1.0b0",
+        "sha": "953f94e0cd5025d60303eb6cff6c3a2c3db8bfdf",
+        "kind": "commit",
+        "published_at": "2022-02-07T04:47:21.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v2.1.0b0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v2.1.0b0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.1.0b0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.1.0b0/manifests"
+      },
+      {
+        "name": "v2.0.0",
+        "sha": "4b6b5832f3a30d82dc8cb359cf04d2a8edf6712b",
+        "kind": "commit",
+        "published_at": "2021-03-08T07:24:23.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v2.0.0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v2.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.0.0/manifests"
+      },
+      {
+        "name": "v2.0.0b1",
+        "sha": "c159853bc9659adabd4c6af9cdee3a264d4d9a35",
+        "kind": "commit",
+        "published_at": "2020-11-29T21:32:45.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v2.0.0b1",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v2.0.0b1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.0.0b1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.0.0b1/manifests"
+      },
+      {
+        "name": "v2.0.0b0",
+        "sha": "665240e195bbe6a382249525174d8432932a33a6",
+        "kind": "commit",
+        "published_at": "2020-11-27T06:39:46.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v2.0.0b0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v2.0.0b0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.0.0b0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v2.0.0b0/manifests"
+      },
+      {
+        "name": "v1.4.4",
+        "sha": "743844b0ed52ed3d830863a4aeac8b8d8f9254e6",
+        "kind": "commit",
+        "published_at": "2020-06-01T23:34:12.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.4.4",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.4.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.4.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.4.4/manifests"
+      },
+      {
+        "name": "v1.4.3",
+        "sha": "cbc89bf742ef7cbca17671ec9acd3898491c378f",
+        "kind": "commit",
+        "published_at": "2020-02-03T05:50:27.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.4.3",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.4.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.4.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.4.3/manifests"
+      },
+      {
+        "name": "v1.4.2",
+        "sha": "8af9adb8e9078bfdbc3adf9153b04e2d4471222d",
+        "kind": "commit",
+        "published_at": "2020-01-02T23:02:43.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.4.2",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.4.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.4.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.4.2/manifests"
+      },
+      {
+        "name": "v1.4.1",
+        "sha": "cd8359864400592ba0db5d74e650a8fac4763d0d",
+        "kind": "commit",
+        "published_at": "2019-12-24T14:21:18.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.4.1",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.4.1/manifests"
+      },
+      {
+        "name": "v1.4.0",
+        "sha": "f11093a6b3240fc26830b6111e826128af7771c3",
+        "kind": "commit",
+        "published_at": "2019-12-20T10:30:59.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.4.0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.4.0/manifests"
+      },
+      {
+        "name": "v1.3.1",
+        "sha": "05e965e02f9d73fa6db18a120da1bebcfe429ca2",
+        "kind": "commit",
+        "published_at": "2019-08-27T20:36:58.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.3.1",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.3.1/manifests"
+      },
+      {
+        "name": "v1.3.0",
+        "sha": "e2210c9258702b7a46fa23f3f5e8389d56999748",
+        "kind": "commit",
+        "published_at": "2019-04-23T03:15:13.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.3.0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.3.0/manifests"
+      },
+      {
+        "name": "v1.3.0b0",
+        "sha": "a2fae8642d2730e780504541e007a0334321e80c",
+        "kind": "commit",
+        "published_at": "2019-04-11T21:20:10.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.3.0b0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.3.0b0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.3.0b0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.3.0b0/manifests"
+      },
+      {
+        "name": "v1.2.1",
+        "sha": "8111dd66188ffa225fd13ece31f6f9fcb34495ba",
+        "kind": "tag",
+        "published_at": "2019-01-26T05:33:24.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.2.1",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.2.1/manifests"
+      },
+      {
+        "name": "v1.2.0",
+        "sha": "25c862cd45b8ddf44011d0215ea365f52fbbf98b",
+        "kind": "commit",
+        "published_at": "2019-01-15T06:48:00.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.2.0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.2.0/manifests"
+      },
+      {
+        "name": "v1.2.0b3",
+        "sha": "360909e2b5ac695356d50436284466b68543721b",
+        "kind": "commit",
+        "published_at": "2019-01-08T00:32:22.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.2.0b3",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.2.0b3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.2.0b3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.2.0b3/manifests"
+      },
+      {
+        "name": "v1.2.0b2",
+        "sha": "4783a2b4bf29901d895720ec0bc01eb601c7d451",
+        "kind": "commit",
+        "published_at": "2019-01-02T20:46:09.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.2.0b2",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.2.0b2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.2.0b2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.2.0b2/manifests"
+      },
+      {
+        "name": "v1.2.0b1",
+        "sha": "55461fe2d2a9e1fa5b82e4d06e4b384f38c75aa7",
+        "kind": "commit",
+        "published_at": "2018-12-31T20:55:40.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.2.0b1",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.2.0b1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.2.0b1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.2.0b1/manifests"
+      },
+      {
+        "name": "v1.1.0",
+        "sha": "7bb27bb66322fc564e14005d29cb6fddd76a0ab6",
+        "kind": "commit",
+        "published_at": "2017-10-11T00:59:52.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.1.0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.1.0/manifests"
+      },
+      {
+        "name": "v1.0.2",
+        "sha": "76b34b8411cc84ef808f4ab266271bf6a77a1071",
+        "kind": "commit",
+        "published_at": "2017-02-04T23:07:57.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.0.2",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.0.2/manifests"
+      },
+      {
+        "name": "v1.0.1",
+        "sha": "6d4dcc762033e84a43db66d60097937c2585027e",
+        "kind": "commit",
+        "published_at": "2016-10-22T19:40:39.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.0.1",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.0.1/manifests"
+      },
+      {
+        "name": "v1.0.0",
+        "sha": "d74a67ba34115eb0eaf15f8f0e049f5b6b67fb5e",
+        "kind": "commit",
+        "published_at": "2016-09-01T04:44:13.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.0.0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.0.0/manifests"
+      },
+      {
+        "name": "v1.0a2",
+        "sha": "f154b34828bf11d44f1788893d366fc65aed67ac",
+        "kind": "commit",
+        "published_at": "2016-07-07T16:35:45.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.0a2",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.0a2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.0a2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.0a2/manifests"
+      },
+      {
+        "name": "v1.0a1",
+        "sha": "360d4c11f7fcd6410927857409c22e41630fd42e",
+        "kind": "commit",
+        "published_at": "2016-06-25T05:26:29.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v1.0a1",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v1.0a1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.0a1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v1.0a1/manifests"
+      },
+      {
+        "name": "v0.9.0",
+        "sha": "91717c52f26dde5f5e9175847f2f6051ef001062",
+        "kind": "commit",
+        "published_at": "2016-04-15T23:03:16.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v0.9.0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v0.9.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v0.9.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v0.9.0/manifests"
+      },
+      {
+        "name": "v0.9.0b1",
+        "sha": "9099695cbb137dbe1534b965525bea4cb2722795",
+        "kind": "commit",
+        "published_at": "2016-04-10T01:57:51.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/v0.9.0b1",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/v0.9.0b1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v0.9.0b1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/v0.9.0b1/manifests"
+      },
+      {
+        "name": "0.9.0b0",
+        "sha": "40ce3bad35f1c20fb530db716b3f59c51a678dac",
+        "kind": "commit",
+        "published_at": "2016-03-16T20:11:43.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.9.0b0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.9.0b0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.9.0b0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.9.0b0/manifests"
+      },
+      {
+        "name": "0.8.11b0",
+        "sha": "f1cdebbfe9f2207a0ddaf5943b403f9db831e2ab",
+        "kind": "commit",
+        "published_at": "2016-03-16T05:20:35.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.8.11b0",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.8.11b0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.11b0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.11b0/manifests"
+      },
+      {
+        "name": "0.8.10",
+        "sha": "3850e4c09aa9a55dc5c61985981b4ef719d5ebb8",
+        "kind": "commit",
+        "published_at": "2015-09-02T16:08:38.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.8.10",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.8.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.10/manifests"
+      },
+      {
+        "name": "0.8.9",
+        "sha": "b795d573a5a9e6e39b46a6e82da367a6a5db8dbd",
+        "kind": "commit",
+        "published_at": "2014-05-16T21:48:31.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.8.9",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.8.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.9/manifests"
+      },
+      {
+        "name": "0.8.8",
+        "sha": "29f24756cb5c4be9982b90a40583dd927a440233",
+        "kind": "commit",
+        "published_at": "2013-11-30T17:51:20.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.8.8",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.8.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.8/manifests"
+      },
+      {
+        "name": "0.8.7",
+        "sha": "c957f1d70ab82ba15ce0dce8fca7cf70fe2f2b97",
+        "kind": "commit",
+        "published_at": "2013-08-29T15:57:13.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.8.7",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.8.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.7/manifests"
+      },
+      {
+        "name": "0.8.6",
+        "sha": "ed50366801030f83f78c157059c9ba5f4f81169f",
+        "kind": "commit",
+        "published_at": "2013-08-12T05:03:17.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.8.6",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.8.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.6/manifests"
+      },
+      {
+        "name": "0.8.5",
+        "sha": "786a72f1a37fc93222198d3680755103e95003da",
+        "kind": "commit",
+        "published_at": "2013-05-28T00:57:07.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.8.5",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.8.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.5/manifests"
+      },
+      {
+        "name": "0.8.4",
+        "sha": "059291734c6977b28411570d07ae29bc7efc1215",
+        "kind": "commit",
+        "published_at": "2013-05-25T00:46:26.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.8.4",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.8.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.4/manifests"
+      },
+      {
+        "name": "0.8.3",
+        "sha": "5baf3d2f14f7543963e11948fb73cbea4f307172",
+        "kind": "commit",
+        "published_at": "2013-04-29T03:56:01.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.8.3",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.8.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.3/manifests"
+      },
+      {
+        "name": "0.8.2",
+        "sha": "4d16e0959d2bd00a6eff201f56fbf31da01e36b1",
+        "kind": "commit",
+        "published_at": "2012-11-14T19:27:51.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.8.2",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.8.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.2/manifests"
+      },
+      {
+        "name": "0.8.1",
+        "sha": "b2bf55972dc838e288256ad7650049ec243437e4",
+        "kind": "commit",
+        "published_at": "2012-02-13T16:22:53.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.8.1",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.8.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8.1/manifests"
+      },
+      {
+        "name": "0.8",
+        "sha": "77343397b7de6793cdb30c32a4544af3e789557f",
+        "kind": "commit",
+        "published_at": "2012-01-31T06:27:36.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.8",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.8/manifests"
+      },
+      {
+        "name": "0.7",
+        "sha": "e95e78158aa6d533044a3a80236a5db6fc70cdf1",
+        "kind": "commit",
+        "published_at": "2012-01-11T21:05:12.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.7",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.7/manifests"
+      },
+      {
+        "name": "0.6.1",
+        "sha": "e734fadcf293866e23446453bfa7dd4f4c499624",
+        "kind": "commit",
+        "published_at": "2012-01-08T22:53:34.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.6.1",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.6.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.6.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.6.1/manifests"
+      },
+      {
+        "name": "0.6",
+        "sha": "b1d85d424aa0966dcd315bae23ed78459abc889f",
+        "kind": "commit",
+        "published_at": "2012-01-07T17:04:27.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.6",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.6/manifests"
+      },
+      {
+        "name": "0.5",
+        "sha": "4e0ba3445624254d1926d37557103aace57c8bd4",
+        "kind": "commit",
+        "published_at": "2012-01-03T11:55:50.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.5",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.5/manifests"
+      },
+      {
+        "name": "0.4",
+        "sha": "3bf9c037480c1eae3904f61a1883b4810d8e15bc",
+        "kind": "commit",
+        "published_at": "2012-01-02T23:46:54.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.4",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.4/manifests"
+      },
+      {
+        "name": "0.3",
+        "sha": "f3ffb5d13e15235a49a159d8e727afe40a629c79",
+        "kind": "commit",
+        "published_at": "2012-01-02T09:35:04.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.3",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.3/manifests"
+      },
+      {
+        "name": "0.2",
+        "sha": "313fe24b225833e07bc2b12c58b5714f2ea0a675",
+        "kind": "commit",
+        "published_at": "2011-12-31T10:58:25.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.2",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.2/manifests"
+      },
+      {
+        "name": "0.1",
+        "sha": "f5810eae6cb25ae4eecb67d136d032ffc451bd1f",
+        "kind": "commit",
+        "published_at": "2011-12-30T08:56:34.000Z",
+        "download_url": "https://codeload.github.com/Pylons/waitress/tar.gz/0.1",
+        "html_url": "https://github.com/Pylons/waitress/releases/tag/0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/Pylons%2Fwaitress/tags/0.1/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-09-07T03:50:36.157Z",
+  "dependent_packages_count": 326,
+  "downloads": 5625692,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 25180,
+  "rankings": {
+    "downloads": 0.14114607574016202,
+    "dependent_repos_count": 0.04844178911674471,
+    "dependent_packages_count": 0.07845670158908065,
+    "stargazers_count": 1.8457271492482024,
+    "forks_count": 3.903736710592572,
+    "docker_downloads_count": 0.07674699138496024,
+    "average": 1.0157092362786204
+  },
+  "purl": "pkg:pypi/waitress",
+  "advisories": [
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWcyeGMtMzVqdy1jNjNw",
+      "url": "https://github.com/advisories/GHSA-g2xc-35jw-c63p",
+      "title": "HTTP Request Smuggling: Invalid Transfer-Encoding in Waitress",
+      "description": "### Impact\n\nWaitress would parse the `Transfer-Encoding` header and only look for a single string value, if that value was not `chunked` it would fall through and use the `Content-Length` header instead.\n\nAccording to the HTTP standard `Transfer-Encoding` should be a comma separated list, with the inner-most encoding first, followed by any further transfer codings, ending with `chunked`.\n\nRequests sent with:\n\n```\nTransfer-Encoding: gzip, chunked\n```\n\nWould incorrectly get ignored, and the request would use a `Content-Length` header instead to determine the body size of the HTTP message.\n\nThis could allow for Waitress to treat a single request as multiple requests in the case of HTTP pipelining.\n\n### Patches\n\nThis issue is fixed in Waitress 1.4.0. This brings a range of changes to harden Waitress against potential HTTP request confusions, and may change the behaviour of Waitress behind non-conformist proxies. \n\nWaitress will now return a 501 Not Implemented error if the `Transfer-Encoding` is not `chunked` or contains multiple elements. Waitress does not support any transfer codings such as `gzip` or `deflate`.\n\nThe Pylons Project recommends upgrading as soon as possible, while validating that the changes in Waitress don&#39;t cause any changes in behavior.\n\n### Workarounds\n\nVarious reverse proxies may have protections against sending potentially bad HTTP requests to the backend, and or hardening against potential issues like this. If the reverse proxy doesn&#39;t use HTTP/1.1 for connecting to the backend issues are also somewhat mitigated, as HTTP pipelining does not exist in HTTP/1.0 and Waitress will close the connection after every single request (unless the Keep Alive header is explicitly sent... so this is not a fool proof security method).\n\n### Issues/more security issues:\n\n* open an issue at https://github.com/Pylons/waitress/issues (if not sensitive or security related)\n* email the Pylons Security mailing list: pylons-project-security@googlegroups.com (if security related)",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2019-12-20T23:04:18.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:L/A:N",
+      "references": [
+        "https://github.com/Pylons/waitress/security/advisories/GHSA-g2xc-35jw-c63p",
+        "https://nvd.nist.gov/vuln/detail/CVE-2019-16786",
+        "https://github.com/Pylons/waitress/commit/f11093a6b3240fc26830b6111e826128af7771c3",
+        "https://docs.pylonsproject.org/projects/waitress/en/latest/#security-fixes",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GVDHR2DNKCNQ7YQXISJ45NT4IQDX3LJ7/",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LYEOTGWJZVKPRXX2HBNVIYWCX73QYPM5/",
+        "https://access.redhat.com/errata/RHSA-2020:0720",
+        "https://www.oracle.com/security-alerts/cpuapr2022.html",
+        "https://lists.debian.org/debian-lts-announce/2022/05/msg00011.html",
+        "https://github.com/advisories/GHSA-g2xc-35jw-c63p"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-g2xc-35jw-c63p",
+        "CVE-2019-16786"
+      ],
+      "repository_url": "https://github.com/Pylons/waitress",
+      "blast_radius": 31.24749565298009,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.4.0",
+              "vulnerable_version_range": "< 1.4.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "waitress"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:32.097Z",
+      "updated_at": "2023-09-05T21:00:24.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS00ZjdwLTI3amMtM2MzNs00Jg",
+      "url": "https://github.com/advisories/GHSA-4f7p-27jc-3c36",
+      "title": "HTTP Request Smuggling in waitress",
+      "description": "### Impact\n\nWhen using Waitress behind a proxy that does not properly validate the incoming HTTP request matches the RFC7230 standard, Waitress and the frontend proxy may disagree on where one request starts and where it ends.\n\nThis would allow requests to be smuggled via the front-end proxy to waitress and later behavior.\n\nThere are two classes of vulnerability that may lead to request smuggling that are addressed by this advisory:\n\n- The use of Python's `int()` to parse strings into integers, leading to `+10` to be parsed as `10`, or `0x01` to be parsed as `1`, where as the standard specifies that the string should contain only digits or hex digits.\n- Waitress does not support chunk extensions, however it was discarding them without validating that they did not contain illegal characters\n\n### Patches\n\nThis has been fixed in Waitress 2.1.1\n\n### Workarounds\n\nWhen deploying a proxy in front of waitress, turning on any and all functionality to make sure that the request matches the RFC7230 standard. Certain proxy servers may not have this functionality though and users are encouraged to upgrade to the latest version of waitress instead.\n\n### References\n\n- https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n* Open an issue in [the Github issue tracker](https://github.com/Pylons/waitress/issues) (if not security related/sensitive)\n* Email us at [pylons-project-security@googlegroups.com](mailto:pylons-project-security@googlegroups.com) (If security related or sensitive)\n",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-03-18T19:00:59.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://github.com/Pylons/waitress/security/advisories/GHSA-4f7p-27jc-3c36",
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-24761",
+        "https://github.com/Pylons/waitress/commit/9e0b8c801e4d505c2ffc91b891af4ba48af715e0",
+        "https://github.com/Pylons/waitress/releases/tag/v2.1.1",
+        "https://lists.debian.org/debian-lts-announce/2022/05/msg00011.html",
+        "https://www.debian.org/security/2022/dsa-5138",
+        "https://github.com/advisories/GHSA-4f7p-27jc-3c36"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-4f7p-27jc-3c36",
+        "CVE-2022-24761"
+      ],
+      "repository_url": "https://github.com/Pylons/waitress",
+      "blast_radius": 33.00791794328883,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.1.1",
+              "vulnerable_version_range": "< 2.1.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "waitress"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:33.073Z",
+      "updated_at": "2023-01-27T05:00:58.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXBnMzYtd3BtNS1nNTdw",
+      "url": "https://github.com/advisories/GHSA-pg36-wpm5-g57p",
+      "title": "HTTP Request Smuggling: LF vs CRLF handling in Waitress",
+      "description": "### Impact\n\nWaitress implemented a &amp;quot;MAY&amp;quot; part of the RFC7230 (https://tools.ietf.org/html/rfc7230#section-3.5) which states:\n\n      Although the line terminator for the start-line and header fields is\n      the sequence CRLF, a recipient MAY recognize a single LF as a line\n      terminator and ignore any preceding CR.\n\nUnfortunately if a front-end server does not parse header fields with an LF the same way as it does those with a CRLF it can lead to the front-end and the back-end server parsing the same HTTP message in two different ways. This can lead to a potential for HTTP request smuggling/splitting whereby Waitress may see two requests while the front-end server only sees a single HTTP message.\n\nExample:\n\n```\nContent-Length: 100[CRLF]\nX-Header: x[LF]Content-Length: 0[CRLF]\n```\n\nWould get treated by Waitress as if it were:\n\n```\nContent-Length: 100\nX-Header: x\nContent-Length: 0\n```\n\nThis could potentially get used by attackers to split the HTTP request and smuggle a second request in the body of the first.\n\n\n### Patches\n\nThis issue is fixed in Waitress 1.4.0. This brings a range of changes to harden Waitress against potential HTTP request confusions, and may change the behaviour of Waitress behind non-conformist proxies. \n\nWaitress no longer implements the MAY part of the specification and instead requires that all lines are terminated correctly with CRLF. If any lines are found with a bare CR or LF a 400 Bad Request is sent back to the requesting entity.\n\nThe Pylons Project recommends upgrading as soon as possible, while validating that the changes in Waitress don&amp;#39;t cause any changes in behavior.\n\n### Workarounds\n\nVarious reverse proxies may have protections against sending potentially bad HTTP requests to the backend, and or hardening against potential issues like this. If the reverse proxy doesn&amp;#39;t use HTTP/1.1 for connecting to the backend issues are also somewhat mitigated, as HTTP pipelining does not exist in HTTP/1.0 and Waitress will close the connection after every single request (unless the Keep Alive header is explicitly sent... so this is not a fool proof security method)\n\n### Issues/more security issues:\n\n* open an issue at https://github.com/Pylons/waitress/issues (if not sensitive or security related)\n* email the Pylons Security mailing list: pylons-project-security@googlegroups.com (if security related)",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2019-12-20T23:03:57.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:L/A:N",
+      "references": [
+        "https://github.com/Pylons/waitress/security/advisories/GHSA-pg36-wpm5-g57p",
+        "https://nvd.nist.gov/vuln/detail/CVE-2019-16785",
+        "https://github.com/Pylons/waitress/commit/8eba394ad75deaf9e5cd15b78a3d16b12e6b0eba",
+        "https://docs.pylonsproject.org/projects/waitress/en/latest/#security-fixes",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GVDHR2DNKCNQ7YQXISJ45NT4IQDX3LJ7/",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LYEOTGWJZVKPRXX2HBNVIYWCX73QYPM5/",
+        "https://access.redhat.com/errata/RHSA-2020:0720",
+        "https://www.oracle.com/security-alerts/cpuapr2022.html",
+        "https://lists.debian.org/debian-lts-announce/2022/05/msg00011.html",
+        "https://github.com/advisories/GHSA-pg36-wpm5-g57p"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-pg36-wpm5-g57p",
+        "CVE-2019-16785"
+      ],
+      "repository_url": "https://github.com/Pylons/waitress",
+      "blast_radius": 31.24749565298009,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.4.0",
+              "vulnerable_version_range": "< 1.4.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "waitress"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:32.106Z",
+      "updated_at": "2023-09-05T21:07:25.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTRwcHAtZ3Bjci03cWY2",
+      "url": "https://github.com/advisories/GHSA-4ppp-gpcr-7qf6",
+      "title": "HTTP Request Smuggling: Content-Length Sent Twice in Waitress",
+      "description": "### Impact\n\nWaitress would header fold a double `Content-Length` header and due to being unable to cast the now comma separated value to an integer would set the `Content-Length` to 0 internally.\n\nSo a request with:\n\n```\nContent-Length: 10\nContent-Length: 10\n```\n\nwould get transformed to:\n\n```\nContent-Length: 10, 10\n```\n\nWhich would Waitress would then internally set to `Content-Lenght: 0`.\n\nWaitress would then treat the request as having no body, thereby treating the body of the request as a new request in HTTP pipelining.\n\n### Patches\n\nThis issue is fixed in Waitress 1.4.0. This brings a range of changes to harden Waitress against potential HTTP request confusions, and may change the behaviour of Waitress behind non-conformist proxies. \n\nThe Pylons Project recommends upgrading as soon as possible, while validating that the changes in Waitress don't cause any changes in behavior.\n\n### Workarounds\n\nVarious reverse proxies may have protections against sending potentially bad HTTP requests to the backend, and or hardening against potential issues like this. If the reverse proxy doesn't use HTTP/1.1 for connecting to the backend issues are also somewhat mitigated, as HTTP pipelining does not exist in HTTP/1.0 and Waitress will close the connection after every single request (unless the Keep Alive header is explicitly sent... so this is not a fool proof security method).\n\n### Issues/more security issues:\n\n* open an issue at https://github.com/Pylons/waitress/issues (if not sensitive or security related)\n* email the Pylons Security mailing list: pylons-project-security@googlegroups.com (if security related)",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2019-12-20T23:04:35.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0.0,
+      "cvss_vector": null,
+      "references": [
+        "https://github.com/Pylons/waitress/security/advisories/GHSA-4ppp-gpcr-7qf6",
+        "https://github.com/Pylons/waitress/commit/575994cd42e83fd772a5f7ec98b2c56751bd3f65",
+        "https://docs.pylonsproject.org/projects/waitress/en/latest/#security-fixes",
+        "https://github.com/advisories/GHSA-j7j6-7hfx-5522",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/waitress/PYSEC-2020-178.yaml",
+        "https://github.com/advisories/GHSA-4ppp-gpcr-7qf6"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-4ppp-gpcr-7qf6"
+      ],
+      "repository_url": "https://github.com/Pylons/waitress",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.4.0",
+              "vulnerable_version_range": "< 1.4.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "waitress"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:32.133Z",
+      "updated_at": "2023-09-05T20:45:23.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLW01ZmYtM3dqMy04cGg0",
+      "url": "https://github.com/advisories/GHSA-m5ff-3wj3-8ph4",
+      "title": "HTTP Request Smuggling: Invalid whitespace characters in headers in Waitress",
+      "description": "### Impact\n\nIf a proxy server is used in front of waitress, an invalid request may be sent by an attacker that bypasses the front-end and is parsed differently by waitress leading to a potential for HTTP request smuggling.\n\n```\nContent-Length: 10\nTransfer-Encoding: [\\x0b]chunked\n```\n\nFor clarity:\n\n```\n0x0b == vertical tab\n```\n\nWould get parsed by Waitress as being a `chunked` request, but a front-end server would use the `Content-Length` instead as the `Transfer-Encoding` header is considered invalid due to containing invalid characters.\n\nIf a front-end server does HTTP pipelining to a backend Waitress server this could lead to HTTP request splitting which may lead to potential cache poisoning or unexpected information disclosure.\n\n### Patches\n\nPlease upgrade to Waitress 1.4.1 which fixes this issue with stricter HTTP field validation.\n\nWaitress 1.4.1 due to this change has become much more strict in what is allowed in header values, while the maintainers don't believe that these changes will cause any issues, it may cause failures with non-conformist reverse proxies or clients, and it is highly recommend that users validate the changes in their environment and make sure it won't cause any unacceptable failures.\n\n### Workarounds\n\nYou may enable additional protections on front-end servers, those that follow RFC7230 correctly would drop the request with a 400 Bad Request.\n\nWaitress will now correctly responds to the request with a 400 Bad Request, and will drop the connection to avoid any potential HTTP pipelining issues.\n\n### References\n\nThis was mentioned in https://portswigger.net/research/http-desync-attacks-what-happened-next and was specifically mentioned as being an issue in HAProxy which did not properly filter it in this article: https://nathandavison.com/blog/haproxy-http-request-smuggling\n\n### Thanks\n\nThe Pylons Project would like to thank ZeddYu Lu for doing extended testing against Waitress 1.4.0 and bringing this to our attention!\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n* open an issue at https://github.com/Pylons/waitress/issues (if not sensitive or security related)\n* email the Pylons Security mailing list: pylons-project-security@googlegroups.com (if security related)",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2019-12-26T16:34:38.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0.0,
+      "cvss_vector": null,
+      "references": [
+        "https://github.com/Pylons/waitress/security/advisories/GHSA-m5ff-3wj3-8ph4",
+        "https://github.com/Pylons/waitress/commit/11d9e138125ad46e951027184b13242a3c1de017",
+        "https://github.com/advisories/GHSA-m5ff-3wj3-8ph4"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-m5ff-3wj3-8ph4"
+      ],
+      "repository_url": "https://github.com/Pylons/waitress",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.4.1",
+              "vulnerable_version_range": "< 1.4.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "waitress"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:29.885Z",
+      "updated_at": "2023-09-05T21:03:24.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTk2OGYtNjZyNS01djc0",
+      "url": "https://github.com/advisories/GHSA-968f-66r5-5v74",
+      "title": "HTTP Request Smuggling in Waitress: Invalid whitespace characters in headers (Follow-up)",
+      "description": "### Impact\n\nThe patches introduced to fix https://github.com/Pylons/waitress/security/advisories/GHSA-m5ff-3wj3-8ph4 were not complete and still would allow an attacker to smuggle requests/split a HTTP request with invalid data.\n\nThis updates the existing CVE with ID: CVE-2019-16789\n\n### Patches\n\nWaitress version 1.4.2 has been updated to now validate HTTP headers better to avoid the issue, completely fixing all known issues with whitespace.\n\n### Workarounds\n\nThere are no work-arounds, upgrading to Waitress 1.4.2 is highly recommended.\n\n### References\n\nSee https://github.com/Pylons/waitress/security/advisories/GHSA-m5ff-3wj3-8ph4 for more information on the security issue.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n* open an issue at https://github.com/Pylons/waitress/issues (if not sensitive or security related)\n* email the Pylons Security mailing list: pylons-project-security@googlegroups.com (if security related)",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2020-01-06T18:44:21.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:N",
+      "references": [
+        "https://github.com/Pylons/waitress/security/advisories/GHSA-968f-66r5-5v74",
+        "https://nvd.nist.gov/vuln/detail/CVE-2019-16789",
+        "https://github.com/github/advisory-review/pull/14604",
+        "https://docs.pylonsproject.org/projects/waitress/en/latest/#security-fixes",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GVDHR2DNKCNQ7YQXISJ45NT4IQDX3LJ7/",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LYEOTGWJZVKPRXX2HBNVIYWCX73QYPM5/",
+        "https://access.redhat.com/errata/RHSA-2020:0720",
+        "https://www.oracle.com/security-alerts/cpuapr2022.html",
+        "https://lists.debian.org/debian-lts-announce/2022/05/msg00011.html",
+        "https://github.com/Pylons/waitress/commit/ddb65b489d01d696afa1695b75fdd5df3e4ffdf8",
+        "https://github.com/advisories/GHSA-968f-66r5-5v74"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-968f-66r5-5v74",
+        "CVE-2019-16789"
+      ],
+      "repository_url": "https://github.com/Pylons/waitress",
+      "blast_radius": 31.24749565298009,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.4.2",
+              "vulnerable_version_range": "< 1.4.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "waitress"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:29.893Z",
+      "updated_at": "2023-09-05T20:53:23.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTczbTItM3B3Zy01Zmdj",
+      "url": "https://github.com/advisories/GHSA-73m2-3pwg-5fgc",
+      "title": "Catastrophic backtracking in regex allows Denial of Service in Waitress",
+      "description": "### Impact\n\nWhen waitress receives a header that contains invalid characters it will cause the regular expression engine to catastrophically backtrack causing the process to use 100% CPU time and blocking any other interactions.\n\nThis would allow an attacker to send a single request with an invalid header and take the service offline.\n\nInvalid header example:\n\n```\nBad-header: xxxxxxxxxxxxxxx\\x10\n```\n\nIncreasing the number of `x`'s in the header will increase the amount of time Waitress spends in the regular expression engine.\n\nThis issue was introduced in version 1.4.2 when the regular expression was updated to attempt to match the behaviour required by errata associated with RFC7230.\n\n### Patches\n\nThe regular expression that is used to validate incoming headers has been updated in version 1.4.3, it is recommended that people upgrade to the new version of Waitress as soon as possible.\n\n### Workarounds\n\nIf you have deployed a reverse proxy in front of Waitress it may already be rejecting requests that include invalid headers.\n\n### Thanks\n\nThe Pylons Project would like to thank [Fil Zembowicz](https://github.com/fzembow) for reaching out and disclosing this vulnerability!\n\n### References\n\nCatastrophic backtracking explained: https://www.regular-expressions.info/catastrophic.html\n\n### For more information\nIf you have any questions or comments about this advisory:\n\n- open an issue at https://github.com/Pylons/waitress/issues (if not sensitive or security related)\n- email the Pylons Security mailing list: pylons-project-security@googlegroups.com (if security related)",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2020-02-04T03:07:31.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.7,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://github.com/Pylons/waitress/security/advisories/GHSA-73m2-3pwg-5fgc",
+        "https://github.com/Pylons/waitress/commit/6e46f9e3f014d64dd7d1e258eaf626e39870ee1f",
+        "https://nvd.nist.gov/vuln/detail/CVE-2020-5236",
+        "https://github.com/advisories/GHSA-73m2-3pwg-5fgc"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-73m2-3pwg-5fgc",
+        "CVE-2020-5236"
+      ],
+      "repository_url": "https://github.com/Pylons/waitress",
+      "blast_radius": 25.086017636899513,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.4.3",
+              "vulnerable_version_range": "= 1.4.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "waitress"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:32.124Z",
+      "updated_at": "2023-09-05T20:49:24.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1qN2o2LTdoZngtNTUyMs4AAjYE",
+      "url": "https://github.com/advisories/GHSA-j7j6-7hfx-5522",
+      "title": "Inconsistent Interpretation of HTTP Requests in Waitress",
+      "description": "Waitress through version 1.3.1 allows request smuggling by sending the Content-Length header twice. Waitress would header fold a double Content-Length header and due to being unable to cast the now comma separated value to an integer would set the Content-Length to 0 internally. If two Content-Length headers are sent in a single request, Waitress would treat the request as having no body, thereby treating the body of the request as a new request in HTTP pipelining. This issue is fixed in Waitress 1.4.0.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-24T17:07:06.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://github.com/Pylons/waitress/security/advisories/GHSA-4ppp-gpcr-7qf6",
+        "https://nvd.nist.gov/vuln/detail/CVE-2019-16792",
+        "https://github.com/Pylons/waitress/commit/575994cd42e83fd772a5f7ec98b2c56751bd3f65",
+        "https://docs.pylonsproject.org/projects/waitress/en/latest/#security-fixes",
+        "https://lists.debian.org/debian-lts-announce/2022/05/msg00011.html",
+        "https://www.oracle.com/security-alerts/cpuapr2022.html",
+        "https://github.com/advisories/GHSA-j7j6-7hfx-5522"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-j7j6-7hfx-5522",
+        "CVE-2019-16792"
+      ],
+      "repository_url": "https://github.com/Pylons/waitress",
+      "blast_radius": 33.00791794328883,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.4.0",
+              "vulnerable_version_range": "<= 1.3.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "waitress"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:16.849Z",
+      "updated_at": "2023-01-27T05:02:34.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1mNXg5LThqd2MtMjVyd84AArT8",
+      "url": "https://github.com/advisories/GHSA-f5x9-8jwc-25rw",
+      "title": "Uncaught Exception (due to a data race) leads to process termination in Waitress",
+      "description": "### Impact\n\nWaitress may terminate early due to a thread closing a socket while the main thread is about to call select(). This will lead to the main thread raising an exception that is not handled and then causing the entire application to be killed.\n\n### Patches\n\nThis issue has been fixed in Waitress 2.1.2 by no longer allowing the WSGI thread to close the socket, instead it is always delegated to the main thread.\n\n### Workarounds\n\nThere is no work-around, however users using waitress behind a reverse proxy server are less likely to have issues if the reverse proxy always reads the full response.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n* Open an issue in https://github.com/Pylons/waitress/issues (if not sensitive or security related)\n* email the Pylons Security mailing list: [pylons-project-security@googlegroups.com](mailto:pylons-project-security@googlegroups.com) (if security related)\n",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2022-06-02T20:37:48.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://github.com/Pylons/waitress/security/advisories/GHSA-f5x9-8jwc-25rw",
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-31015",
+        "https://github.com/Pylons/waitress/issues/374",
+        "https://github.com/Pylons/waitress/pull/377",
+        "https://github.com/Pylons/waitress/commit/4f6789b035610e0552738cdc4b35ca809a592d48",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/waitress/PYSEC-2022-205.yaml",
+        "https://github.com/advisories/GHSA-f5x9-8jwc-25rw"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-f5x9-8jwc-25rw",
+        "CVE-2022-31015"
+      ],
+      "repository_url": "https://github.com/Pylons/waitress",
+      "blast_radius": 28.606862217516984,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.1.2",
+              "vulnerable_version_range": ">= 2.1.0, < 2.1.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "waitress"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:21.477Z",
+      "updated_at": "2023-01-27T05:03:23.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/waitress",
+  "docker_dependents_count": 661,
+  "docker_downloads_count": 1055678317,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/waitress",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/waitress/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/waitress/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/waitress/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/waitress/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/waitress/related_packages",
+  "maintainers": [
+    {
+      "uuid": "chrism",
+      "login": "chrism",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 249,
+      "html_url": "https://pypi.org/user/chrism/",
+      "role": null,
+      "created_at": "2022-12-05T18:00:50.699Z",
+      "updated_at": "2022-12-05T18:00:50.699Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/chrism/packages"
+    },
+    {
+      "uuid": "xistence",
+      "login": "xistence",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 38,
+      "html_url": "https://pypi.org/user/xistence/",
+      "role": null,
+      "created_at": "2022-12-05T18:00:50.768Z",
+      "updated_at": "2022-12-05T18:00:50.768Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/xistence/packages"
+    },
+    {
+      "uuid": "mmerickel",
+      "login": "mmerickel",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 54,
+      "html_url": "https://pypi.org/user/mmerickel/",
+      "role": null,
+      "created_at": "2022-12-05T18:00:50.783Z",
+      "updated_at": "2022-12-05T18:00:50.783Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/mmerickel/packages"
+    },
+    {
+      "uuid": "pylonsbot",
+      "login": "pylonsbot",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 36,
+      "html_url": "https://pypi.org/user/pylonsbot/",
+      "role": null,
+      "created_at": "2022-12-05T18:00:50.740Z",
+      "updated_at": "2022-12-05T18:00:50.740Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/pylonsbot/packages"
+    }
+  ]
+}

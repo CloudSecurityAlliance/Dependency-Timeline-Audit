@@ -1,0 +1,355 @@
+{
+  "id": 1774842,
+  "name": "git-pull-or-clone",
+  "ecosystem": "npm",
+  "description": "Ensure a git repo exists on disk and that it's up-to-date",
+  "homepage": "https://github.com/feross/git-pull-or-clone",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/feross/git-pull-or-clone",
+  "keywords_array": [
+    "clone",
+    "git",
+    "git clone",
+    "git pull",
+    "git pull or clone",
+    "git sync",
+    "pull",
+    "pull or clone",
+    "sync"
+  ],
+  "namespace": null,
+  "versions_count": 7,
+  "first_release_published_at": "2017-04-28T01:36:10.217Z",
+  "latest_release_published_at": "2022-04-06T17:25:45.043Z",
+  "latest_release_number": "2.0.2",
+  "last_synced_at": "2024-10-19T08:01:43.696Z",
+  "created_at": "2022-04-09T16:24:16.738Z",
+  "updated_at": "2024-10-19T08:04:39.557Z",
+  "registry_url": "https://www.npmjs.com/package/git-pull-or-clone",
+  "install_command": "npm install git-pull-or-clone",
+  "documentation_url": null,
+  "metadata": {
+    "funding": [
+      {
+        "type": "github",
+        "url": "https://github.com/sponsors/feross"
+      },
+      {
+        "type": "patreon",
+        "url": "https://www.patreon.com/feross"
+      },
+      {
+        "type": "consulting",
+        "url": "https://feross.org/support"
+      }
+    ],
+    "dist-tags": {
+      "latest": "2.0.2"
+    }
+  },
+  "repo_metadata": {
+    "id": 20342341,
+    "uuid": "89655272",
+    "full_name": "feross/git-pull-or-clone",
+    "owner": "feross",
+    "description": "Ensure a git repo exists on disk and that it's up-to-date",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2023-03-29T12:25:57.000Z",
+    "size": 38,
+    "stargazers_count": 52,
+    "open_issues_count": 4,
+    "forks_count": 12,
+    "subscribers_count": 5,
+    "default_branch": "master",
+    "last_synced_at": "2024-10-17T17:23:51.674Z",
+    "etag": null,
+    "topics": [
+      "clone",
+      "git",
+      "javascript",
+      "nodejs",
+      "pull",
+      "repository"
+    ],
+    "latest_commit_sha": null,
+    "homepage": null,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "mit",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/feross.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": null,
+        "contributing": null,
+        "funding": null,
+        "license": "LICENSE",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": null,
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null,
+        "publiccode": null,
+        "codemeta": null
+      }
+    },
+    "created_at": "2017-04-28T01:30:20.000Z",
+    "updated_at": "2023-09-29T11:05:02.000Z",
+    "dependencies_parsed_at": "2024-06-18T18:19:31.118Z",
+    "dependency_job_id": "343400a5-de5c-4113-a2e5-9a116ed384e2",
+    "html_url": "https://github.com/feross/git-pull-or-clone",
+    "commit_stats": {
+      "total_commits": 34,
+      "total_committers": 6,
+      "mean_commits": 5.666666666666667,
+      "dds": "0.38235294117647056",
+      "last_synced_commit": "e04b98c88f45a652f29fa2df10584a68d908c0df"
+    },
+    "previous_names": [],
+    "tags_count": 7,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/feross",
+    "download_url": "https://codeload.github.com/feross/git-pull-or-clone/tar.gz/refs/heads/master",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 220488222,
+      "owners_count": 16655850,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "feross",
+      "name": "Feross Aboukhadijeh",
+      "uuid": "121766",
+      "kind": "user",
+      "description": "• Founder + CEO of Socket (@SocketDev) \r\n• Started @webtorrent and @standard \r\n• 100+ open source packages on npm\r\n• Stanford lecturer for Web Security",
+      "email": "",
+      "website": "https://feross.org",
+      "location": "Stanford, CA",
+      "twitter": "feross",
+      "company": "@SocketDev, @WebTorrent, @Standard",
+      "icon_url": "https://avatars.githubusercontent.com/u/121766?u=c9234b2a786d4d3722ab876563eb63069cd54959&v=4",
+      "repositories_count": 146,
+      "last_synced_at": "2024-05-20T14:39:50.900Z",
+      "metadata": {
+        "has_sponsors_listing": true
+      },
+      "html_url": "https://github.com/feross",
+      "funding_links": [
+        "https://github.com/sponsors/feross"
+      ],
+      "total_stars": 32516,
+      "followers": 14201,
+      "following": 291,
+      "created_at": "2022-11-02T16:18:50.801Z",
+      "updated_at": "2024-05-20T14:40:19.960Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/feross",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/feross/repositories"
+    },
+    "tags": [
+      {
+        "name": "v2.0.2",
+        "sha": "7c99adeaea03aeb31631d71037fd792db0bfdc83",
+        "kind": "tag",
+        "published_at": "2022-04-06T17:25:42.000Z",
+        "download_url": "https://codeload.github.com/feross/git-pull-or-clone/tar.gz/v2.0.2",
+        "html_url": "https://github.com/feross/git-pull-or-clone/releases/tag/v2.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v2.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v2.0.2/manifests"
+      },
+      {
+        "name": "v2.0.1",
+        "sha": "76a7f0cc97b63de534f91d228682f168d500ceee",
+        "kind": "tag",
+        "published_at": "2020-05-10T17:13:31.000Z",
+        "download_url": "https://codeload.github.com/feross/git-pull-or-clone/tar.gz/v2.0.1",
+        "html_url": "https://github.com/feross/git-pull-or-clone/releases/tag/v2.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v2.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v2.0.1/manifests"
+      },
+      {
+        "name": "v2.0.0",
+        "sha": "28c3e92c5e327dd474cf4757357882d72bab004d",
+        "kind": "tag",
+        "published_at": "2019-09-04T18:41:40.000Z",
+        "download_url": "https://codeload.github.com/feross/git-pull-or-clone/tar.gz/v2.0.0",
+        "html_url": "https://github.com/feross/git-pull-or-clone/releases/tag/v2.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v2.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v2.0.0/manifests"
+      },
+      {
+        "name": "v1.3.0",
+        "sha": "e7e9b67d20a64b3a982b200f9d97d4f16d26804a",
+        "kind": "tag",
+        "published_at": "2019-08-04T06:37:18.000Z",
+        "download_url": "https://codeload.github.com/feross/git-pull-or-clone/tar.gz/v1.3.0",
+        "html_url": "https://github.com/feross/git-pull-or-clone/releases/tag/v1.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v1.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v1.3.0/manifests"
+      },
+      {
+        "name": "v1.2.0",
+        "sha": "50c3cf4d513d034db6a768bb910d65f34859f869",
+        "kind": "tag",
+        "published_at": "2018-03-02T21:09:26.000Z",
+        "download_url": "https://codeload.github.com/feross/git-pull-or-clone/tar.gz/v1.2.0",
+        "html_url": "https://github.com/feross/git-pull-or-clone/releases/tag/v1.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v1.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v1.2.0/manifests"
+      },
+      {
+        "name": "v1.1.0",
+        "sha": "9522c7a80817c212950addfa7237758f9f907cc4",
+        "kind": "tag",
+        "published_at": "2017-06-16T00:17:47.000Z",
+        "download_url": "https://codeload.github.com/feross/git-pull-or-clone/tar.gz/v1.1.0",
+        "html_url": "https://github.com/feross/git-pull-or-clone/releases/tag/v1.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v1.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v1.1.0/manifests"
+      },
+      {
+        "name": "v1.0.0",
+        "sha": "4db251264b546feb7c674487624f4a3c1591bd8c",
+        "kind": "tag",
+        "published_at": "2017-04-28T01:35:59.000Z",
+        "download_url": "https://codeload.github.com/feross/git-pull-or-clone/tar.gz/v1.0.0",
+        "html_url": "https://github.com/feross/git-pull-or-clone/releases/tag/v1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/feross%2Fgit-pull-or-clone/tags/v1.0.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-10-19T08:04:39.556Z",
+  "dependent_packages_count": 56,
+  "downloads": 859,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 29,
+  "rankings": {
+    "downloads": 5.558172024039288,
+    "dependent_repos_count": 2.3915837095359214,
+    "dependent_packages_count": 0.5621263147221981,
+    "stargazers_count": 6.053003787765071,
+    "forks_count": 6.411684393592989,
+    "docker_downloads_count": null,
+    "average": 4.195314045931093
+  },
+  "purl": "pkg:npm/git-pull-or-clone",
+  "advisories": [
+    {
+      "uuid": "GSA_kwCzR0hTQS0zeDYyLXg0NTYtcTJ2bc3X5w",
+      "url": "https://github.com/advisories/GHSA-3x62-x456-q2vm",
+      "title": "OS Command Injection in git-pull-or-clone",
+      "description": "The package git-pull-or-clone before 2.0.2 is vulnerable to Command Injection due to the use of the --upload-pack feature of git which is also supported for git clone. The source includes the use of the secure child process API spawn(). However, the outpath parameter passed to it may be a command-line argument to the git clone command and result in arbitrary command injection.\n## Credits\n\nCredit @lirantal for discovering this vulnerability.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-05-03T00:00:46.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-24437",
+        "https://github.com/feross/git-pull-or-clone/commit/f9ce092be13cc32e685dfa26e7705e9c6e3108a3",
+        "https://gist.github.com/lirantal/327e9dd32686991b5a1fa6341aac2e7b",
+        "https://snyk.io/vuln/SNYK-JS-GITPULLORCLONE-2434307",
+        "https://github.com/advisories/GHSA-3x62-x456-q2vm"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-3x62-x456-q2vm",
+        "CVE-2022-24437"
+      ],
+      "repository_url": "https://github.com/feross/git-pull-or-clone",
+      "blast_radius": 14.331500379409771,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.0.2",
+              "vulnerable_version_range": "< 2.0.2"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "git-pull-or-clone"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:25.839Z",
+      "updated_at": "2023-01-27T05:02:14.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/git-pull-or-clone",
+  "docker_dependents_count": null,
+  "docker_downloads_count": null,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/git-pull-or-clone",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/git-pull-or-clone/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/feross",
+    "https://www.patreon.com/feross",
+    "https://feross.org/support"
+  ],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/git-pull-or-clone/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/git-pull-or-clone/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/git-pull-or-clone/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/git-pull-or-clone/related_packages",
+  "maintainers": [
+    {
+      "uuid": "feross",
+      "login": "feross",
+      "name": null,
+      "email": "feross@feross.org",
+      "url": null,
+      "packages_count": 396,
+      "html_url": "https://www.npmjs.com/~feross",
+      "role": null,
+      "created_at": "2022-11-12T13:13:58.397Z",
+      "updated_at": "2022-11-12T13:13:58.397Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/feross/packages"
+    }
+  ]
+}

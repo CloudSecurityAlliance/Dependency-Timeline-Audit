@@ -1,0 +1,1022 @@
+{
+  "id": 146508,
+  "name": "mercurial",
+  "ecosystem": "pypi",
+  "description": "Fast scalable distributed SCM (revision control, version control) system",
+  "homepage": "https://mercurial-scm.org/",
+  "licenses": "GNU GPLv2 or any later version",
+  "normalized_licenses": [
+    "GPL-2.0",
+    "GPL-2.0+"
+  ],
+  "repository_url": null,
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 248,
+  "first_release_published_at": "2013-11-05T16:28:38.000Z",
+  "latest_release_published_at": "2024-05-06T16:48:57.000Z",
+  "latest_release_number": "6.7.3",
+  "last_synced_at": "2024-10-21T21:30:23.014Z",
+  "created_at": "2022-04-05T16:01:07.242Z",
+  "updated_at": "2024-10-21T21:30:23.015Z",
+  "registry_url": "https://pypi.org/project/mercurial/",
+  "install_command": "pip install mercurial --index-url https://pypi.org/simple",
+  "documentation_url": "https://mercurial.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "Development Status :: 6 - Mature",
+      "Environment :: Console",
+      "Intended Audience :: Developers",
+      "Intended Audience :: System Administrators",
+      "License :: OSI Approved :: GNU General Public License (GPL)",
+      "Natural Language :: Danish",
+      "Natural Language :: English",
+      "Natural Language :: German",
+      "Natural Language :: Italian",
+      "Natural Language :: Japanese",
+      "Natural Language :: Portuguese (Brazilian)",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: OS Independent",
+      "Operating System :: POSIX",
+      "Programming Language :: C",
+      "Programming Language :: Python",
+      "Topic :: Software Development :: Version Control"
+    ],
+    "normalized_name": "mercurial"
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-09-07T15:30:14.915Z",
+  "dependent_packages_count": 15,
+  "downloads": 77423,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 1767,
+  "rankings": {
+    "downloads": 1.1365519527150196,
+    "dependent_repos_count": 0.2682325076482779,
+    "dependent_packages_count": 0.9465851305032471,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 0.0007894793975482717,
+    "average": 0.5880397675660233
+  },
+  "purl": "pkg:pypi/mercurial",
+  "advisories": [
+    {
+      "uuid": "GSA_kwCzR0hTQS00bXI0LTd2anYtOWhtNs4AAQWm",
+      "url": "https://github.com/advisories/GHSA-4mr4-7vjv-9hm6",
+      "title": "Mercurial Incorrect Access Control vulnerability",
+      "description": "Mercurial version 4.5 and earlier contains a Incorrect Access Control (CWE-285) vulnerability in Protocol server that can result in Unauthorized data access. This attack appear to be exploitable via network connectivity. This vulnerability appears to have been fixed in 4.5.1.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-05-13T01:24:55.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2018-1000132",
+        "https://access.redhat.com/errata/RHSA-2019:2276",
+        "https://lists.debian.org/debian-lts-announce/2018/03/msg00034.html",
+        "https://lists.debian.org/debian-lts-announce/2018/07/msg00005.html",
+        "https://lists.debian.org/debian-lts-announce/2020/07/msg00032.html",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_4.5.1_.2F_4.5.2_.282018-03-06.29",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2018-87.yaml",
+        "https://github.com/advisories/GHSA-4mr4-7vjv-9hm6"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-4mr4-7vjv-9hm6",
+        "CVE-2018-1000132"
+      ],
+      "repository_url": null,
+      "blast_radius": 29.549852600511553,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.5.1",
+              "vulnerable_version_range": "< 4.5.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T18:05:17.328Z",
+      "updated_at": "2024-09-24T21:28:03.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS12Mmd3LXg1amYtcGd3ds25UQ",
+      "url": "https://github.com/advisories/GHSA-v2gw-x5jf-pgwv",
+      "title": "Mercurial Directory traversal vulnerability",
+      "description": "Directory traversal vulnerability in patch.py in Mercurial before 1.0.2 allows user-assisted attackers to modify arbitrary files via \"..\" (dot dot) sequences in a patch file.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2022-05-01T23:55:06.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0.0,
+      "cvss_vector": null,
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2008-2942",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/43551",
+        "https://issues.rpath.com/browse/RPL-2633",
+        "http://lists.opensuse.org/opensuse-security-announce/2008-07/msg00006.html",
+        "http://secunia.com/advisories/31108",
+        "http://secunia.com/advisories/31110",
+        "http://secunia.com/advisories/31167",
+        "http://security.gentoo.org/glsa/glsa-200807-09.xml",
+        "http://wiki.rpath.com/Advisories:rPSA-2008-0211",
+        "http://www.openwall.com/lists/oss-security/2008/06/30/1",
+        "http://www.openwall.com/lists/oss-security/2008/07/01/1",
+        "http://www.securityfocus.com/archive/1/493881/100/0/threaded",
+        "http://www.securityfocus.com/bid/30072",
+        "http://www.selenic.com/hg/rev/87c704ac92d4",
+        "https://github.com/advisories/GHSA-v2gw-x5jf-pgwv"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-v2gw-x5jf-pgwv",
+        "CVE-2008-2942"
+      ],
+      "repository_url": null,
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.0.2",
+              "vulnerable_version_range": "< 1.0.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2023-09-22T23:05:40.824Z",
+      "updated_at": "2023-09-22T22:26:38.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS05dmpmLWpqY3EtM2doN84AAVEY",
+      "url": "https://github.com/advisories/GHSA-9vjf-jjcq-3gh7",
+      "title": "Mercurial arbitrary code execution vulnerability",
+      "description": "The binary delta decoder in Mercurial before 3.7.3 allows remote attackers to execute arbitrary code via a (1) clone, (2) push, or (3) pull command, related to (a) a list sizing rounding error and (b) short records.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-14T02:08:55.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2016-3630",
+        "https://security.gentoo.org/glsa/201612-19",
+        "https://selenic.com/repo/hg-stable/rev/b6ed2505d6cf",
+        "https://selenic.com/repo/hg-stable/rev/b9714d958e89",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_3.7.3_.282016-3-29.29",
+        "http://lists.fedoraproject.org/pipermail/package-announce/2016-April/181505.html",
+        "http://lists.fedoraproject.org/pipermail/package-announce/2016-April/181542.html",
+        "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00016.html",
+        "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00017.html",
+        "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00018.html",
+        "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00043.html",
+        "http://www.debian.org/security/2016/dsa-3542",
+        "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2016-29.yaml",
+        "https://github.com/advisories/GHSA-9vjf-jjcq-3gh7"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-9vjf-jjcq-3gh7",
+        "CVE-2016-3630"
+      ],
+      "repository_url": null,
+      "blast_radius": 28.575681635659528,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.7.3",
+              "vulnerable_version_range": "< 3.7.3"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T17:05:07.120Z",
+      "updated_at": "2024-09-24T20:45:00.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1wNTc1LWNmOWgtd3Y0Ms4AAUl-",
+      "url": "https://github.com/advisories/GHSA-p575-cf9h-wv42",
+      "title": "Mercurial Out-of-bounds Read vulnerability",
+      "description": "`cext/manifest.c` in Mercurial before 4.7.2 has an out-of-bounds read during parsing of a malformed manifest entry.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-14T01:49:39.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2018-17983",
+        "https://www.mercurial-scm.org/repo/hg/rev/5405cb1a7901",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_4.7.2_.282018-10-01.29",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2018-91.yaml",
+        "https://github.com/advisories/GHSA-p575-cf9h-wv42"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-p575-cf9h-wv42",
+        "CVE-2018-17983"
+      ],
+      "repository_url": null,
+      "blast_radius": 29.549852600511553,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.7.2",
+              "vulnerable_version_range": "< 4.7.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T17:05:07.144Z",
+      "updated_at": "2024-09-24T20:45:44.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS0zcG13LWg3ajQtcmY1NM4AAU_a",
+      "url": "https://github.com/advisories/GHSA-3pmw-h7j4-rf54",
+      "title": "Mercurial vulnerable to arbitrary command execution via a crafted repository name in a clone command",
+      "description": "The _validaterepo function in sshpeer in Mercurial before 3.2.4 allows remote attackers to execute arbitrary commands via a crafted repository name in a clone command.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-05-14T02:05:56.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2014-9462",
+        "https://security.gentoo.org/glsa/201612-19",
+        "http://chargen.matasano.com/chargen/2015/3/17/this-new-vulnerability-mercurial-command-injection-cve-2014-9462.html",
+        "http://lists.opensuse.org/opensuse-updates/2015-03/msg00085.html",
+        "http://mercurial.selenic.com/wiki/WhatsNew",
+        "http://www.debian.org/security/2015/dsa-3257",
+        "http://www.oracle.com/technetwork/topics/security/bulletinjul2015-2511963.html",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2015-14.yaml",
+        "https://github.com/advisories/GHSA-3pmw-h7j4-rf54"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-3pmw-h7j4-rf54",
+        "CVE-2014-9462"
+      ],
+      "repository_url": null,
+      "blast_radius": 31.82291818516629,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.2.4",
+              "vulnerable_version_range": "< 3.2.4"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T17:05:07.200Z",
+      "updated_at": "2024-09-24T20:38:20.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS00OWN3LTQzNGgtcWM1N84AAbaL",
+      "url": "https://github.com/advisories/GHSA-49cw-434h-qc57",
+      "title": "Mercurial vulnerable to arbitrary code execution when converting Git repos",
+      "description": "The convert extension in Mercurial before 3.8 might allow context-dependent attackers to execute arbitrary code via a crafted git repository name.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-17T02:37:31.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2016-3105",
+        "https://security.gentoo.org/glsa/201612-19",
+        "https://selenic.com/hg/rev/a56296f55a5e",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_3.8_.2F_3.8.1_.282016-5-1.29",
+        "http://lists.opensuse.org/opensuse-updates/2016-05/msg00082.html",
+        "http://www.debian.org/security/2016/dsa-3570",
+        "http://www.slackware.com/security/viewer.php?l=slackware-security&y=2016&m=slackware-security.533255",
+        "https://web.archive.org/web/20200228012056/http://www.securityfocus.com/bid/90536",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2016-28.yaml",
+        "https://github.com/advisories/GHSA-49cw-434h-qc57"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-49cw-434h-qc57",
+        "CVE-2016-3105"
+      ],
+      "repository_url": null,
+      "blast_radius": 28.575681635659528,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.8",
+              "vulnerable_version_range": "< 3.8"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T18:05:17.300Z",
+      "updated_at": "2024-09-30T20:45:26.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS0zdjYyLXd3OHctNzU4bc4AAQWh",
+      "url": "https://github.com/advisories/GHSA-3v62-ww8w-758m",
+      "title": "Mercurial Improper Input Validation vulnerability",
+      "description": "The `mpatch_decode` function in `mpatch.c` in Mercurial before 4.6.1 mishandles certain situations where there should be at least 12 bytes remaining after the current position in the patch data, but actually are not, aka OVE-20180430-0001.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-13T01:24:55.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2018-13348",
+        "https://lists.debian.org/debian-lts-announce/2020/07/msg00032.html",
+        "https://www.mercurial-scm.org/repo/hg/rev/90a274965de7",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_4.6.1_.282018-06-06.29",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2018-90.yaml",
+        "https://github.com/advisories/GHSA-3v62-ww8w-758m"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-3v62-ww8w-758m",
+        "CVE-2018-13348"
+      ],
+      "repository_url": null,
+      "blast_radius": 24.35427412130073,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.6.1",
+              "vulnerable_version_range": "< 4.6.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T18:05:17.390Z",
+      "updated_at": "2024-09-25T17:16:49.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS0zbWpqLW1yNGYtcXhteM4AAQWM",
+      "url": "https://github.com/advisories/GHSA-3mjj-mr4f-qxmx",
+      "title": "Mercurial mishandles integer addition and subtraction",
+      "description": "`mpatch.c` in Mercurial before 4.6.1 mishandles integer addition and subtraction, aka OVE-20180430-0002.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-05-13T01:24:55.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2018-13347",
+        "https://access.redhat.com/errata/RHSA-2019:2276",
+        "https://lists.debian.org/debian-lts-announce/2020/07/msg00032.html",
+        "https://www.mercurial-scm.org/repo/hg-committed/log?rev=modifies%28%22mercurial%2Fmpatch.c%22%29+and+4.5%3A%3A",
+        "https://www.mercurial-scm.org/repo/hg/rev/1acfc35d478c",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_4.6.1_.282018-06-06.29",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2018-89.yaml",
+        "https://github.com/advisories/GHSA-3mjj-mr4f-qxmx"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-3mjj-mr4f-qxmx",
+        "CVE-2018-13347"
+      ],
+      "repository_url": null,
+      "blast_radius": 31.82291818516629,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.6.1",
+              "vulnerable_version_range": "< 4.6.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T18:05:17.361Z",
+      "updated_at": "2024-09-25T19:57:22.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS05eHY0LXIyaGYtMjZnaM4AAQWN",
+      "url": "https://github.com/advisories/GHSA-9xv4-r2hf-26gh",
+      "title": "Mercurial Improper Input Validation vulnerability",
+      "description": "The `mpatch_apply` function in `mpatch.c` in Mercurial before 4.6.1 incorrectly proceeds in cases where the fragment start is past the end of the original data, aka OVE-20180430-0004.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-13T01:24:55.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2018-13346",
+        "https://access.redhat.com/errata/RHSA-2019:2276",
+        "https://lists.debian.org/debian-lts-announce/2020/07/msg00032.html",
+        "https://www.mercurial-scm.org/repo/hg/rev/faa924469635",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_4.6.1_.282018-06-06.29",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2018-88.yaml",
+        "https://github.com/advisories/GHSA-9xv4-r2hf-26gh"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-9xv4-r2hf-26gh",
+        "CVE-2018-13346"
+      ],
+      "repository_url": null,
+      "blast_radius": 24.35427412130073,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.6.1",
+              "vulnerable_version_range": "< 4.6.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T18:05:17.418Z",
+      "updated_at": "2024-09-25T17:45:01.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS02djU2LWNwZzYtM3JweM4AAQW7",
+      "url": "https://github.com/advisories/GHSA-6v56-cpg6-3rpx",
+      "title": "Mercurial vulnerable to arbitrary code injection",
+      "description": "In Mercurial before 4.4.1, it is possible that a specially malformed repository can cause Git subrepositories to run arbitrary code in the form of a `.git/hooks/post-update` script checked into the repository. Typical use of Mercurial prevents construction of such repositories, but they can be created programmatically.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-05-13T01:24:56.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2017-17458",
+        "https://bz.mercurial-scm.org/show_bug.cgi?id=5730",
+        "https://confluence.atlassian.com/sourcetreekb/sourcetree-security-advisory-2018-01-24-942834324.html",
+        "https://lists.debian.org/debian-lts-announce/2017/12/msg00027.html",
+        "https://lists.debian.org/debian-lts-announce/2018/07/msg00005.html",
+        "https://lists.debian.org/debian-lts-announce/2018/07/msg00041.html",
+        "https://lists.debian.org/debian-lts-announce/2020/07/msg00032.html",
+        "https://www.mercurial-scm.org/pipermail/mercurial-devel/2017-November/107333.html",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_4.4.1_.282017-11-07.29",
+        "https://web.archive.org/web/20200227132808/http://www.securityfocus.com/bid/102926",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2017-90.yaml",
+        "https://github.com/advisories/GHSA-6v56-cpg6-3rpx"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-6v56-cpg6-3rpx",
+        "CVE-2017-17458"
+      ],
+      "repository_url": null,
+      "blast_radius": 31.82291818516629,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.4.1",
+              "vulnerable_version_range": "< 4.4.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T18:05:17.444Z",
+      "updated_at": "2024-09-25T17:46:17.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS0zcW1nLWM5dmMtcjQ3as4AAR1w",
+      "url": "https://github.com/advisories/GHSA-3qmg-c9vc-r47j",
+      "title": "Mercurial is vulnerable to shell injection attack",
+      "description": "Mercurial prior to 4.3 did not adequately sanitize hostnames passed to ssh, leading to possible shell-injection attacks.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-05-13T01:40:56.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2017-1000116",
+        "https://access.redhat.com/errata/RHSA-2017:2489",
+        "https://security.gentoo.org/glsa/201709-18",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_4.3_.2F_4.3.1_.282017-08-10.29",
+        "http://www.debian.org/security/2017/dsa-3963",
+        "https://web.archive.org/web/20200227155758/http://www.securityfocus.com/bid/100290",
+        "https://wiki.mercurial-scm.org/WhatsNew/Archive",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2017-89.yaml",
+        "https://github.com/advisories/GHSA-3qmg-c9vc-r47j"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-3qmg-c9vc-r47j",
+        "CVE-2017-1000116"
+      ],
+      "repository_url": null,
+      "blast_radius": 31.82291818516629,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.3",
+              "vulnerable_version_range": "< 4.3"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T18:05:17.469Z",
+      "updated_at": "2024-09-25T20:08:44.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1odnI5LXdyOXAtZ3Jncs4AATfn",
+      "url": "https://github.com/advisories/GHSA-hvr9-wr9p-grgr",
+      "title": "Mercurial missing symlink check",
+      "description": "Mercurial prior to version 4.3 is vulnerable to a missing symlink check that can malicious repositories to modify files outside the repository",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-14T01:04:30.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2017-1000115",
+        "https://access.redhat.com/errata/RHSA-2017:2489",
+        "https://security.gentoo.org/glsa/201709-18",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_4.3_.2F_4.3.1_.282017-08-10.29",
+        "http://www.debian.org/security/2017/dsa-3963",
+        "https://web.archive.org/web/20200227155758/http://www.securityfocus.com/bid/100290",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2017-88.yaml",
+        "https://github.com/advisories/GHSA-hvr9-wr9p-grgr"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-hvr9-wr9p-grgr",
+        "CVE-2017-1000115"
+      ],
+      "repository_url": null,
+      "blast_radius": 24.35427412130073,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.3.1",
+              "vulnerable_version_range": "< 4.3.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T18:05:17.493Z",
+      "updated_at": "2024-09-24T20:47:21.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS03Z2Y3LTd3eDQtbXhtd80-GQ",
+      "url": "https://github.com/advisories/GHSA-7gf7-7wx4-mxmw",
+      "title": "Mercurial Improper Certificate Validation vulnerability",
+      "description": "Mercurial before 1.6.4 fails to verify the Common Name field of SSL certificates which allows remote attackers who acquire a certificate signed by a Certificate Authority to perform a man-in-the-middle attack.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2022-04-21T01:57:44.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2010-4237",
+        "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=598841",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-4237",
+        "https://bz.mercurial-scm.org/show_bug.cgi?id=2407",
+        "https://security-tracker.debian.org/tracker/CVE-2010-4237",
+        "https://github.com/dscho/hg/commit/4ea63fb25ceeeaaa4cd1026f733b7ea7672c30b3",
+        "https://github.com/dscho/hg/commit/89baabf4fb7abf30ef6fdcf3d455a7893e5cc145",
+        "https://repo.mercurial-scm.org/hg/rev/6ab4a7d3c179",
+        "https://repo.mercurial-scm.org/hg/rev/f2937d6492c5",
+        "https://github.com/advisories/GHSA-7gf7-7wx4-mxmw"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-7gf7-7wx4-mxmw",
+        "CVE-2010-4237"
+      ],
+      "repository_url": "https://github.com/dscho/hg",
+      "blast_radius": 19.15869564208991,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.6.4",
+              "vulnerable_version_range": "< 1.6.4"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-02T14:05:36.608Z",
+      "updated_at": "2024-05-02T13:14:04.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWdoangtM2pnNS1oNnIy",
+      "url": "https://github.com/advisories/GHSA-ghjx-3jg5-h6r2",
+      "title": "Mercurial has Incorrect Permission Assignment for Critical Resource",
+      "description": "In Mercurial before 4.1.3, \"hg serve --stdio\" allows remote authenticated users to launch the Python debugger, and consequently execute arbitrary code, by using --debugger as a repository name.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2018-07-13T15:17:10.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2017-9462",
+        "https://access.redhat.com/errata/RHSA-2017:1576",
+        "https://bugs.debian.org/861243",
+        "https://github.com/advisories/GHSA-ghjx-3jg5-h6r2",
+        "https://lists.debian.org/debian-lts-announce/2018/07/msg00005.html",
+        "https://security.gentoo.org/glsa/201709-18",
+        "https://www.mercurial-scm.org/repo/hg/rev/77eaf9539499",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_4.1.3_.282017-4-18.29",
+        "http://www.debian.org/security/2017/dsa-3963",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2017-91.yaml",
+        "https://web.archive.org/web/20200227162318/http://www.securityfocus.com/bid/99123"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-ghjx-3jg5-h6r2",
+        "CVE-2017-9462"
+      ],
+      "repository_url": null,
+      "blast_radius": 28.575681635659528,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.1.3",
+              "vulnerable_version_range": "< 4.1.3"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:33.303Z",
+      "updated_at": "2024-10-01T19:23:43.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS04Zm04LTczNjUtNXJoMs4AAVEJ",
+      "url": "https://github.com/advisories/GHSA-8fm8-7365-5rh2",
+      "title": "Mercurial vulnerable to arbitrary code execution via a crafted name when converting a Git repository",
+      "description": "Mercurial before 3.7.3 allows remote attackers to execute arbitrary code via a crafted name when converting a Git repository.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-14T02:08:52.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2016-3069",
+        "https://security.gentoo.org/glsa/201612-19",
+        "https://selenic.com/repo/hg-stable/rev/197eed39e3d5",
+        "https://selenic.com/repo/hg-stable/rev/80cac1de6aea",
+        "https://selenic.com/repo/hg-stable/rev/ae279d4a19e9",
+        "https://selenic.com/repo/hg-stable/rev/b732e7f2aba4",
+        "https://selenic.com/repo/hg-stable/rev/cdda7b96afff",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_3.7.3_.282016-3-29.29",
+        "http://lists.fedoraproject.org/pipermail/package-announce/2016-April/181505.html",
+        "http://lists.fedoraproject.org/pipermail/package-announce/2016-April/181542.html",
+        "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00016.html",
+        "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00017.html",
+        "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00018.html",
+        "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00043.html",
+        "http://rhn.redhat.com/errata/RHSA-2016-0706.html",
+        "http://www.debian.org/security/2016/dsa-3542",
+        "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html",
+        "http://www.oracle.com/technetwork/topics/security/linuxbulletinapr2016-2952096.html",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2016-27.yaml",
+        "https://github.com/advisories/GHSA-8fm8-7365-5rh2"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-8fm8-7365-5rh2",
+        "CVE-2016-3069"
+      ],
+      "repository_url": null,
+      "blast_radius": 28.575681635659528,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.7.3",
+              "vulnerable_version_range": "< 3.7.3"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T17:05:06.754Z",
+      "updated_at": "2024-09-24T20:42:48.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1qN2MyLXJxbTMtYzk3bc4AAVD8",
+      "url": "https://github.com/advisories/GHSA-j7c2-rqm3-c97m",
+      "title": "Mercurial arbitrary code execution via a crafted git ext:: URL ",
+      "description": "Mercurial before 3.7.3 allows remote attackers to execute arbitrary code via a crafted git ext:: URL when cloning a subrepository.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-14T02:08:47.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2016-3068",
+        "https://security.gentoo.org/glsa/201612-19",
+        "https://selenic.com/repo/hg-stable/rev/34d43cb85de8",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_3.7.3_.282016-3-29.29",
+        "http://lists.fedoraproject.org/pipermail/package-announce/2016-April/181505.html",
+        "http://lists.fedoraproject.org/pipermail/package-announce/2016-April/181542.html",
+        "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00016.html",
+        "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00017.html",
+        "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00018.html",
+        "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00043.html",
+        "http://rhn.redhat.com/errata/RHSA-2016-0706.html",
+        "http://www.debian.org/security/2016/dsa-3542",
+        "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html",
+        "http://www.oracle.com/technetwork/topics/security/linuxbulletinapr2016-2952096.html",
+        "https://web.archive.org/web/20200228003737/http://www.securityfocus.com/bid/85733",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2016-26.yaml",
+        "https://github.com/advisories/GHSA-j7c2-rqm3-c97m"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-j7c2-rqm3-c97m",
+        "CVE-2016-3068"
+      ],
+      "repository_url": null,
+      "blast_radius": 28.575681635659528,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.7.3",
+              "vulnerable_version_range": "< 3.7.3"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T17:05:07.171Z",
+      "updated_at": "2024-09-24T20:42:01.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS02dnZjLWMybTMtY2pmM84AAgWm",
+      "url": "https://github.com/advisories/GHSA-6vvc-c2m3-cjf3",
+      "title": "JGit Improper Input Validation vulnerability",
+      "description": "Git before 1.8.5.6, 1.9.x before 1.9.5, 2.0.x before 2.0.5, 2.1.x before 2.1.4, and 2.2.x before 2.2.1 on Windows and OS X; Mercurial before 3.2.3 on Windows and OS X; Apple Xcode before 6.2 beta 3; mine; libgit2; Egit; and JGit allow remote Git servers to execute arbitrary commands via a tree containing a crafted .git/config file with (1) an ignorable Unicode codepoint, (2) a git~1/config representation, or (3) mixed case that is improperly handled on a case-insensitive filesystem.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-05-17T19:57:29.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2014-9390",
+        "https://github.com/libgit2/libgit2/commit/928429c5c96a701bcbcafacb2421a82602b36915",
+        "https://github.com/blog/1938-git-client-vulnerability-announced",
+        "https://news.ycombinator.com/item?id=8769667",
+        "http://article.gmane.org/gmane.linux.kernel/1853266",
+        "http://git-blame.blogspot.com/2014/12/git-1856-195-205-214-and-221-and.html",
+        "http://mercurial.selenic.com/wiki/WhatsNew",
+        "http://support.apple.com/kb/HT204147",
+        "https://projects.eclipse.org/projects/technology.jgit/releases/3.5.3",
+        "https://web.archive.org/web/20211204220400/https://securitytracker.com/id?1031404",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2020-217.yaml",
+        "https://libgit2.org/security",
+        "http://securitytracker.com/id?1031404",
+        "https://github.com/advisories/GHSA-6vvc-c2m3-cjf3"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-6vvc-c2m3-cjf3",
+        "CVE-2014-9390"
+      ],
+      "repository_url": "https://github.com/libgit2/libgit2",
+      "blast_radius": 70.46576985288021,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.2.3",
+              "vulnerable_version_range": "< 3.2.3"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.5.3",
+              "vulnerable_version_range": "< 3.5.3"
+            }
+          ],
+          "ecosystem": "maven",
+          "package_name": "org.eclipse.jgit:org.eclipse.jgit"
+        }
+      ],
+      "created_at": "2023-01-27T00:03:01.364Z",
+      "updated_at": "2024-09-25T19:55:48.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLW1xNjYtdmNmYy04MjQ2",
+      "url": "https://github.com/advisories/GHSA-mq66-vcfc-8246",
+      "title": "Mercurial Path Traversal/Link Following vulnerability",
+      "description": "A flaw was found in Mercurial before 4.9. It was possible to use symlinks and subrepositories to defeat Mercurial's path-checking logic and write files outside a repository.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2022-02-15T01:13:11.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2019-3902",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-3902",
+        "https://lists.debian.org/debian-lts-announce/2019/04/msg00024.html",
+        "https://lists.debian.org/debian-lts-announce/2020/07/msg00032.html",
+        "https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_4.9_.282019-02-01.29",
+        "https://usn.ubuntu.com/4086-1",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2019-188.yaml",
+        "https://github.com/advisories/GHSA-mq66-vcfc-8246"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-mq66-vcfc-8246",
+        "CVE-2019-3902"
+      ],
+      "repository_url": null,
+      "blast_radius": 19.15869564208991,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.9",
+              "vulnerable_version_range": "< 4.9"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "mercurial"
+        }
+      ],
+      "created_at": "2024-05-01T17:05:07.225Z",
+      "updated_at": "2024-09-25T19:41:31.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/mercurial",
+  "docker_dependents_count": 20734,
+  "docker_downloads_count": 18998050401,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/mercurial",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/mercurial/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/mercurial/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/mercurial/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/mercurial/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/mercurial/related_packages",
+  "maintainers": [
+    {
+      "uuid": "marmoute",
+      "login": "marmoute",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 6,
+      "html_url": "https://pypi.org/user/marmoute/",
+      "role": "Maintainer",
+      "created_at": "2024-08-01T16:38:00.423Z",
+      "updated_at": "2024-08-01T16:38:00.423Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/marmoute/packages"
+    },
+    {
+      "uuid": "durin42",
+      "login": "durin42",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 4,
+      "html_url": "https://pypi.org/user/durin42/",
+      "role": null,
+      "created_at": "2022-12-13T17:46:49.285Z",
+      "updated_at": "2022-12-13T17:46:49.285Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/durin42/packages"
+    },
+    {
+      "uuid": "indygreg",
+      "login": "indygreg",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 6,
+      "html_url": "https://pypi.org/user/indygreg/",
+      "role": null,
+      "created_at": "2022-12-13T17:46:49.343Z",
+      "updated_at": "2022-12-13T17:46:49.343Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/indygreg/packages"
+    },
+    {
+      "uuid": "mpmselenic",
+      "login": "mpmselenic",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 2,
+      "html_url": "https://pypi.org/user/mpmselenic/",
+      "role": null,
+      "created_at": "2022-12-13T17:46:49.315Z",
+      "updated_at": "2022-12-13T17:46:49.315Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/mpmselenic/packages"
+    },
+    {
+      "uuid": "pulkitg",
+      "login": "pulkitg",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 1,
+      "html_url": "https://pypi.org/user/pulkitg/",
+      "role": null,
+      "created_at": "2022-12-13T17:46:49.329Z",
+      "updated_at": "2022-12-13T17:46:49.329Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/pulkitg/packages"
+    },
+    {
+      "uuid": "Alphare",
+      "login": "Alphare",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 6,
+      "html_url": "https://pypi.org/user/Alphare/",
+      "role": null,
+      "created_at": "2022-12-13T17:46:49.337Z",
+      "updated_at": "2022-12-13T17:46:49.337Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/Alphare/packages"
+    },
+    {
+      "uuid": "krbullock",
+      "login": "krbullock",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 2,
+      "html_url": "https://pypi.org/user/krbullock/",
+      "role": null,
+      "created_at": "2022-12-13T17:46:49.383Z",
+      "updated_at": "2022-12-13T17:46:49.383Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/krbullock/packages"
+    }
+  ]
+}

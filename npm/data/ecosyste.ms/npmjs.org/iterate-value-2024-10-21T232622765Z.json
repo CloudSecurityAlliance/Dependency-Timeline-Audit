@@ -1,0 +1,273 @@
+{
+  "id": 1883397,
+  "name": "iterate-value",
+  "ecosystem": "npm",
+  "description": "Iterate any iterable JS value. Works robustly in all environments, all versions.",
+  "homepage": "https://github.com/ljharb/iterate-value",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/ljharb/iterate-value",
+  "keywords_array": [
+    "iterate",
+    "map",
+    "set",
+    "collection",
+    "string",
+    "array",
+    "es2015",
+    "es6",
+    "iterator",
+    "symbol.iterator",
+    "symbol"
+  ],
+  "namespace": null,
+  "versions_count": 3,
+  "first_release_published_at": "2019-11-27T04:45:57.982Z",
+  "latest_release_published_at": "2020-01-18T16:50:43.928Z",
+  "latest_release_number": "1.0.2",
+  "last_synced_at": "2024-10-15T22:14:18.454Z",
+  "created_at": "2022-04-09T17:52:02.770Z",
+  "updated_at": "2024-10-15T22:14:19.037Z",
+  "registry_url": "https://www.npmjs.com/package/iterate-value",
+  "install_command": "npm install iterate-value",
+  "documentation_url": null,
+  "metadata": {
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "dist-tags": {
+      "latest": "1.0.2"
+    }
+  },
+  "repo_metadata": {
+    "id": 54830712,
+    "uuid": "223113366",
+    "full_name": "ljharb/iterate-value",
+    "owner": "ljharb",
+    "description": "Iterate any iterable JS value. Works robustly in all environments, all versions.",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2022-10-27T04:59:40.000Z",
+    "size": 56,
+    "stargazers_count": 3,
+    "open_issues_count": 1,
+    "forks_count": 0,
+    "subscribers_count": 3,
+    "default_branch": "main",
+    "last_synced_at": "2024-10-04T17:23:24.251Z",
+    "etag": null,
+    "topics": [
+      "iterate",
+      "iteration",
+      "iterator",
+      "javascript",
+      "value",
+      "value-iteration"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "",
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "mit",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/ljharb.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": "CHANGELOG.md",
+        "contributing": null,
+        "funding": ".github/FUNDING.yml",
+        "license": "LICENSE",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": null,
+        "support": null
+      },
+      "funding": {
+        "github": [
+          "ljharb"
+        ],
+        "patreon": null,
+        "open_collective": null,
+        "ko_fi": null,
+        "tidelift": null,
+        "community_bridge": null,
+        "liberapay": null,
+        "issuehunt": null,
+        "otechie": null,
+        "custom": null
+      }
+    },
+    "created_at": "2019-11-21T07:24:17.000Z",
+    "updated_at": "2024-06-09T22:45:06.000Z",
+    "dependencies_parsed_at": "2022-08-14T04:10:29.548Z",
+    "dependency_job_id": null,
+    "html_url": "https://github.com/ljharb/iterate-value",
+    "commit_stats": null,
+    "previous_names": [],
+    "tags_count": 3,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fiterate-value",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fiterate-value/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fiterate-value/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fiterate-value/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/ljharb",
+    "download_url": "https://codeload.github.com/ljharb/iterate-value/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 219842566,
+      "owners_count": 16556530,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "ljharb",
+      "name": "Jordan Harband",
+      "uuid": "45469",
+      "kind": "user",
+      "description": "software engineer/nerd/teacher/will try anything once; surgeon with git rebase. @TC39 ex @Coinbase @Airbnb @Twitter @MobBase. Fav punctuation ⸮, scent petrichor",
+      "email": "",
+      "website": null,
+      "location": "Hillsborough, CA",
+      "twitter": "LJHarb",
+      "company": "@herodevs @tc39 ",
+      "icon_url": "https://avatars.githubusercontent.com/u/45469?u=6ab74b3b934f9659a90b588062c2c4328e40c6be&v=4",
+      "repositories_count": 255,
+      "last_synced_at": "2024-06-11T15:41:32.189Z",
+      "metadata": {
+        "has_sponsors_listing": true,
+        "funding": {
+          "github": [
+            "ljharb"
+          ],
+          "patreon": null,
+          "open_collective": null,
+          "ko_fi": "ljharb",
+          "tidelift": null,
+          "community_bridge": null,
+          "liberapay": null,
+          "issuehunt": null,
+          "otechie": null,
+          "polar": null,
+          "buy_me_a_coffee": null,
+          "custom": null
+        }
+      },
+      "html_url": "https://github.com/ljharb",
+      "funding_links": [
+        "https://github.com/sponsors/ljharb",
+        "https://ko-fi.com/ljharb"
+      ],
+      "total_stars": 10683,
+      "followers": 6841,
+      "following": 380,
+      "created_at": "2022-11-02T16:19:00.017Z",
+      "updated_at": "2024-06-11T15:41:39.816Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/ljharb",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/ljharb/repositories"
+    },
+    "tags": [
+      {
+        "name": "v1.0.2",
+        "sha": "ce95188f526a840f3fa2e4ab2caa9cdfa8eea8ab",
+        "kind": "commit",
+        "published_at": "2020-01-18T09:02:46.000Z",
+        "download_url": "https://codeload.github.com/ljharb/iterate-value/tar.gz/v1.0.2",
+        "html_url": "https://github.com/ljharb/iterate-value/releases/tag/v1.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fiterate-value/tags/v1.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fiterate-value/tags/v1.0.2/manifests"
+      },
+      {
+        "name": "v1.0.1",
+        "sha": "605603a68503e9a9bb46fd3ad7c2dc2c4809c32d",
+        "kind": "commit",
+        "published_at": "2019-12-14T00:16:59.000Z",
+        "download_url": "https://codeload.github.com/ljharb/iterate-value/tar.gz/v1.0.1",
+        "html_url": "https://github.com/ljharb/iterate-value/releases/tag/v1.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fiterate-value/tags/v1.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fiterate-value/tags/v1.0.1/manifests"
+      },
+      {
+        "name": "v1.0.0",
+        "sha": "7d5d1d34f91db9c2a080ba645b8341b00fcb5994",
+        "kind": "commit",
+        "published_at": "2019-11-27T04:33:56.000Z",
+        "download_url": "https://codeload.github.com/ljharb/iterate-value/tar.gz/v1.0.0",
+        "html_url": "https://github.com/ljharb/iterate-value/releases/tag/v1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fiterate-value/tags/v1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fiterate-value/tags/v1.0.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-10-15T22:14:19.037Z",
+  "dependent_packages_count": 322,
+  "downloads": 8543236,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 81326,
+  "rankings": {
+    "downloads": 0.07969456490355639,
+    "dependent_repos_count": 0.10786657958103589,
+    "dependent_packages_count": 0.16353807362016504,
+    "stargazers_count": 13.146262041492434,
+    "forks_count": 15.38802090050726,
+    "docker_downloads_count": 0.052419569598892185,
+    "average": 4.822966954950558
+  },
+  "purl": "pkg:npm/iterate-value",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/iterate-value",
+  "docker_dependents_count": 700,
+  "docker_downloads_count": 1040113556,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/iterate-value",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/iterate-value/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/ljharb"
+  ],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/iterate-value/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/iterate-value/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/iterate-value/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/iterate-value/related_packages",
+  "maintainers": [
+    {
+      "uuid": "ljharb",
+      "login": "ljharb",
+      "name": null,
+      "email": "ljharb@gmail.com",
+      "url": null,
+      "packages_count": 523,
+      "html_url": "https://www.npmjs.com/~ljharb",
+      "role": null,
+      "created_at": "2022-11-12T21:12:07.617Z",
+      "updated_at": "2022-11-12T21:12:07.617Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/ljharb/packages"
+    }
+  ]
+}

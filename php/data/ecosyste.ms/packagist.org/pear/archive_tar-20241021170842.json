@@ -1,0 +1,732 @@
+{
+    "id": 664620,
+    "name": "pear\/archive_tar",
+    "ecosystem": "packagist",
+    "description": "Tar file management class with compression support (gzip, bzip2, lzma2)",
+    "homepage": "https:\/\/github.com\/pear\/Archive_Tar",
+    "licenses": "BSD-2-Clause",
+    "normalized_licenses": [
+        "BSD-2-Clause"
+    ],
+    "repository_url": "https:\/\/github.com\/pear\/Archive_Tar",
+    "keywords_array": [
+        "archive",
+        "tar"
+    ],
+    "namespace": "pear",
+    "versions_count": 22,
+    "first_release_published_at": "2013-02-09T11:44:32.000Z",
+    "latest_release_published_at": "2024-03-16T16:21:40.000Z",
+    "latest_release_number": "1.5.0",
+    "last_synced_at": "2024-10-21T15:35:39.504Z",
+    "created_at": "2022-04-07T10:38:29.508Z",
+    "updated_at": "2024-10-21T15:35:39.505Z",
+    "registry_url": "https:\/\/packagist.org\/packages\/pear\/archive_tar#",
+    "install_command": "composer require pear\/archive_tar",
+    "documentation_url": null,
+    "metadata": {
+        "funding": []
+    },
+    "repo_metadata": {
+        "id": 2998349,
+        "uuid": "4015457",
+        "full_name": "pear\/Archive_Tar",
+        "owner": "pear",
+        "description": null,
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2024-03-16T18:25:47.000Z",
+        "size": 359,
+        "stargazers_count": 75,
+        "open_issues_count": 1,
+        "forks_count": 36,
+        "subscribers_count": 18,
+        "default_branch": "master",
+        "last_synced_at": "2024-05-15T12:51:21.214Z",
+        "etag": null,
+        "topics": [],
+        "latest_commit_sha": null,
+        "homepage": "http:\/\/pear.php.net\/package\/Archive_Tar",
+        "language": "PHP",
+        "has_issues": true,
+        "has_wiki": null,
+        "has_pages": null,
+        "mirror_url": null,
+        "source_name": null,
+        "license": null,
+        "status": null,
+        "scm": "git",
+        "pull_requests_enabled": true,
+        "icon_url": "https:\/\/github.com\/pear.png",
+        "metadata": {
+            "files": {
+                "readme": "README.md",
+                "changelog": null,
+                "contributing": null,
+                "funding": ".github\/FUNDING.yml",
+                "license": null,
+                "code_of_conduct": null,
+                "threat_model": null,
+                "audit": null,
+                "citation": null,
+                "codeowners": null,
+                "security": "SECURITY.md",
+                "support": null,
+                "governance": null,
+                "roadmap": null,
+                "authors": null,
+                "dei": null,
+                "publiccode": null,
+                "codemeta": null
+            },
+            "funding": null
+        },
+        "created_at": "2012-04-13T11:59:26.000Z",
+        "updated_at": "2024-06-18T11:00:15.273Z",
+        "dependencies_parsed_at": "2024-03-16T18:11:49.321Z",
+        "dependency_job_id": "7b447b1d-8794-4a29-89bb-da8db28ed273",
+        "html_url": "https:\/\/github.com\/pear\/Archive_Tar",
+        "commit_stats": {
+            "total_commits": 271,
+            "total_committers": 37,
+            "mean_commits": 7.324324324324325,
+            "dds": 0.6162361623616236,
+            "last_synced_commit": "94e6e85c988ad7b4004c7f54f536a029edb8f984"
+        },
+        "previous_names": [],
+        "tags_count": 22,
+        "template": false,
+        "template_full_name": null,
+        "repository_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar",
+        "tags_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags",
+        "releases_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/releases",
+        "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/manifests",
+        "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/pear",
+        "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/refs\/heads\/master",
+        "host": {
+            "name": "GitHub",
+            "url": "https:\/\/github.com",
+            "kind": "github",
+            "repositories_count": 217589750,
+            "owners_count": 16201292,
+            "icon_url": "https:\/\/github.com\/github.png",
+            "version": null,
+            "created_at": "2022-05-30T11:31:42.601Z",
+            "updated_at": "2022-07-04T15:15:14.044Z",
+            "host_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories",
+            "repository_names_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repository_names",
+            "owners_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners"
+        },
+        "owner_record": {
+            "login": "pear",
+            "name": "PEAR - PHP Extension and Application Repository",
+            "uuid": "97917",
+            "kind": "organization",
+            "description": null,
+            "email": null,
+            "website": "http:\/\/pear.php.net",
+            "location": "Across the globe",
+            "twitter": null,
+            "company": null,
+            "icon_url": "https:\/\/avatars.githubusercontent.com\/u\/97917?v=4",
+            "repositories_count": 518,
+            "last_synced_at": "2023-04-10T05:10:59.821Z",
+            "metadata": {
+                "has_sponsors_listing": false
+            },
+            "html_url": "https:\/\/github.com\/pear",
+            "funding_links": [],
+            "total_stars": null,
+            "followers": null,
+            "following": null,
+            "created_at": "2022-11-02T16:39:47.604Z",
+            "updated_at": "2023-04-10T05:11:00.904Z",
+            "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/pear",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/pear\/repositories"
+        },
+        "tags": [
+            {
+                "name": "1.5.0",
+                "sha": "b439c859564f5cbb0f64ad6002d0afe84a889602",
+                "kind": "commit",
+                "published_at": "2024-03-16T16:21:40.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.5.0",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.5.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.5.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.5.0\/manifests"
+            },
+            {
+                "name": "1.4.14",
+                "sha": "4d761c5334c790e45ef3245f0864b8955c562caa",
+                "kind": "tag",
+                "published_at": "2021-07-20T19:35:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.14",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.14",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.14",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.14\/manifests"
+            },
+            {
+                "name": "1.4.13",
+                "sha": "2b87b41178cc6d4ad3cba678a46a1cae49786011",
+                "kind": "tag",
+                "published_at": "2021-02-16T10:51:18.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.13",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.13",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.13",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.13\/manifests"
+            },
+            {
+                "name": "1.4.12",
+                "sha": "19bb8e95490d3e3ad92fcac95500ca80bdcc7495",
+                "kind": "tag",
+                "published_at": "2021-01-18T19:33:47.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.12",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.12",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.12",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.12\/manifests"
+            },
+            {
+                "name": "1.4.11",
+                "sha": "17d355cb7d3c4ff08e5729f29cd7660145208d9d",
+                "kind": "tag",
+                "published_at": "2020-11-19T22:10:35.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.11",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.11",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.11",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.11\/manifests"
+            },
+            {
+                "name": "1.4.10",
+                "sha": "bbb4f10f71a1da2715ec6d9a683f4f23c507a49b",
+                "kind": "tag",
+                "published_at": "2020-09-15T14:13:56.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.10",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.10",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.10",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.10\/manifests"
+            },
+            {
+                "name": "1.4.9",
+                "sha": "c5b00053770e1d72128252c62c2c1a12c26639f0",
+                "kind": "tag",
+                "published_at": "2019-12-04T12:13:16.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.9",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.9",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.9",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.9\/manifests"
+            },
+            {
+                "name": "1.4.8",
+                "sha": "442bdffb7edb84c898cfd94f7ac8500e49d5bbb5",
+                "kind": "tag",
+                "published_at": "2019-10-21T13:32:00.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.8",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.8",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.8",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.8\/manifests"
+            },
+            {
+                "name": "1.4.7",
+                "sha": "7e48add6f8edc3027dd98ad15964b1a28fd0c845",
+                "kind": "tag",
+                "published_at": "2019-04-08T13:16:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.7",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.7",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.7",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.7\/manifests"
+            },
+            {
+                "name": "1.4.6",
+                "sha": "b8e33f9063a7cd1d20f079014f8382b3a7aee47e",
+                "kind": "tag",
+                "published_at": "2019-02-01T11:10:52.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.6",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.6",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.6",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.6\/manifests"
+            },
+            {
+                "name": "1.4.5",
+                "sha": "ff716ca697c5e9e8593212cb785ffd03ee11b01f",
+                "kind": "tag",
+                "published_at": "2019-01-02T21:50:56.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.5",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.5",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.5",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.5\/manifests"
+            },
+            {
+                "name": "1.4.4",
+                "sha": "b005152d4ed8f23bcc93637611fa94f39ef5b904",
+                "kind": "tag",
+                "published_at": "2018-12-20T20:49:42.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.4",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.4\/manifests"
+            },
+            {
+                "name": "1.4.3",
+                "sha": "43455c960da70e655c6bdf8ea2bc8cc1a6034afb",
+                "kind": "tag",
+                "published_at": "2017-06-11T17:28:55.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.3",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.3\/manifests"
+            },
+            {
+                "name": "1.4.2",
+                "sha": "bdd47347df76dbaa89227c5e1afd6f6809985b4c",
+                "kind": "tag",
+                "published_at": "2016-02-25T10:30:48.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.2",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.2\/manifests"
+            },
+            {
+                "name": "1.4.1",
+                "sha": "fc2937c0e5a2a1c62a378d16394893172f970064",
+                "kind": "commit",
+                "published_at": "2015-08-05T12:31:03.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.1",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.1\/manifests"
+            },
+            {
+                "name": "1.4.0",
+                "sha": "e337c40bf467a1fcde6b770fce8ca6dc32dcc38f",
+                "kind": "tag",
+                "published_at": "2015-08-02T20:38:28.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.4.0",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.4.0\/manifests"
+            },
+            {
+                "name": "1.3.16",
+                "sha": "fd358553f84a4587ad38f6da98936af494dda94b",
+                "kind": "tag",
+                "published_at": "2015-04-14T12:24:33.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.3.16",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.3.16",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.3.16",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.3.16\/manifests"
+            },
+            {
+                "name": "1.3.14",
+                "sha": "a484f9e1782faf14fa86e17a256588afd78f7318",
+                "kind": "tag",
+                "published_at": "2015-03-04T15:49:11.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.3.14",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.3.14",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.3.14",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.3.14\/manifests"
+            },
+            {
+                "name": "1.3.15",
+                "sha": "48ace7cdd7d8a9172d935dc2dd586df2d0f94779",
+                "kind": "tag",
+                "published_at": "2015-03-04T15:40:35.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.3.15",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.3.15",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.3.15",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.3.15\/manifests"
+            },
+            {
+                "name": "1.3.13",
+                "sha": "b433342172d4eae3957cba13cd3a51e8323b8dcd",
+                "kind": "tag",
+                "published_at": "2014-09-18T11:00:57.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.3.13",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.3.13",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.3.13",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.3.13\/manifests"
+            },
+            {
+                "name": "1.3.12",
+                "sha": "1a5bf4d16c849bb10d6ead329a0de5d95472b2d1",
+                "kind": "tag",
+                "published_at": "2014-08-04T13:21:36.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.3.12",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.3.12",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.3.12",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.3.12\/manifests"
+            },
+            {
+                "name": "1.3.11",
+                "sha": "23341344e19bbab1056cf2d2773f28cfccf787a3",
+                "kind": "commit",
+                "published_at": "2013-02-09T11:44:32.000Z",
+                "download_url": "https:\/\/codeload.github.com\/pear\/Archive_Tar\/tar.gz\/1.3.11",
+                "html_url": "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.3.11",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.3.11",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/pear%2FArchive_Tar\/tags\/1.3.11\/manifests"
+            }
+        ]
+    },
+    "repo_metadata_updated_at": "2024-09-08T02:08:15.425Z",
+    "dependent_packages_count": 70,
+    "downloads": 43727432,
+    "downloads_period": "total",
+    "dependent_repos_count": 4758,
+    "rankings": {
+        "downloads": 0.11001180793405159,
+        "dependent_repos_count": 0.13348099362664928,
+        "dependent_packages_count": 0.34543707691292197,
+        "stargazers_count": 2.2892234877654647,
+        "forks_count": 1.5144958892254434,
+        "docker_downloads_count": 0.016624006532256683,
+        "average": 0.7348788769994646
+    },
+    "purl": "pkg:composer\/pear\/archive_tar",
+    "advisories": [
+        {
+            "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXA4cTgtamZjdi1nMmgy",
+            "url": "https:\/\/github.com\/advisories\/GHSA-p8q8-jfcv-g2h2",
+            "title": "Directory Traversal in Archive_Tar",
+            "description": "In Archive_Tar before 1.4.14, symlinks can refer to targets outside of the extracted archive, a different vulnerability than CVE-2020-36193.",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2021-08-09T20:40:06.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 7.1,
+            "cvss_vector": "CVSS:3.1\/AV:L\/AC:L\/PR:L\/UI:N\/S:U\/C:H\/I:H\/A:N",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2021-32610",
+                "https:\/\/github.com\/pear\/Archive_Tar\/commit\/b5832439b1f37331fb4f87e67fe4f",
+                "https:\/\/github.com\/pear\/Archive_Tar\/releases\/tag\/1.4.14",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/07\/msg00023.html",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/CAODVMHGL5MHQWQAQTXQ7G7OE3VQZ7LS\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/G5LTY6COQYNMMHQJ3QIOJHEWCKD4XDFH\/",
+                "https:\/\/www.drupal.org\/sa-core-2021-004",
+                "https:\/\/github.com\/pear\/Archive_Tar\/commit\/7789ebb2f34f9e4adb3a4152ad0d1548930a9755",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/VJQQYDAOWHD6RDITDRPHFW7WY6BS3V5N\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/42GPGVVFTLJYAKRI75IVB5R45NYQGEUR\/",
+                "https:\/\/github.com\/advisories\/GHSA-p8q8-jfcv-g2h2"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-p8q8-jfcv-g2h2",
+                "CVE-2021-32610"
+            ],
+            "repository_url": "https:\/\/github.com\/pear\/Archive_Tar",
+            "blast_radius": 26.109713507678855,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.4.14",
+                            "vulnerable_version_range": "< 1.4.14"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "pear\/archive_tar"
+                }
+            ],
+            "created_at": "2022-12-21T16:12:57.055Z",
+            "updated_at": "2023-02-01T05:06:02.000Z"
+        },
+        {
+            "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTc1YzUtZjRndy0zOHI5",
+            "url": "https:\/\/github.com\/advisories\/GHSA-75c5-f4gw-38r9",
+            "title": "Multiple vulnerabilities through filename manipulation in Archive_Tar",
+            "description": "Archive_Tar through 1.4.10 has `:\/\/` filename sanitization only to address phar attacks, and thus any other stream-wrapper attack (such as `file:\/\/` to overwrite files) can still succeed. See: https:\/\/github.com\/pear\/Archive_Tar\/issues\/33",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2021-04-22T16:20:59.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 7.8,
+            "cvss_vector": "CVSS:3.1\/AV:L\/AC:L\/PR:N\/UI:R\/S:U\/C:H\/I:H\/A:H",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2020-28949",
+                "https:\/\/github.com\/pear\/Archive_Tar\/issues\/33",
+                "https:\/\/github.com\/pear\/Archive_Tar\/commit\/0670a05fdab997036a3fc3ef113b8f5922e574da",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2020\/11\/msg00045.html",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/4V35LBRM6HBCXBVCITKQ4UEBTXO2EG7B\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/5KSFM672XW3X6BR7TVKRD63SLZGKK437\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/KWM4CTMEGAC4I2CHYNJVSROY4CVXVEUT\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/NBYZSHYTIOBK6V7C4N7TP6KIKCRKLVWP\/",
+                "https:\/\/security.gentoo.org\/glsa\/202101-23",
+                "https:\/\/www.debian.org\/security\/2020\/dsa-4817",
+                "https:\/\/www.drupal.org\/sa-core-2020-013",
+                "http:\/\/packetstormsecurity.com\/files\/161095\/PEAR-Archive_Tar-Arbitrary-File-Write.html",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/pear\/archive_tar\/CVE-2020-28949.yaml",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/VJQQYDAOWHD6RDITDRPHFW7WY6BS3V5N\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/42GPGVVFTLJYAKRI75IVB5R45NYQGEUR\/",
+                "https:\/\/github.com\/advisories\/GHSA-75c5-f4gw-38r9"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-75c5-f4gw-38r9",
+                "CVE-2020-28949"
+            ],
+            "repository_url": "https:\/\/github.com\/pear\/Archive_Tar",
+            "blast_radius": 28.68391061406973,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.4.11",
+                            "vulnerable_version_range": "< 1.4.11"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "pear\/archive_tar"
+                }
+            ],
+            "created_at": "2022-12-21T16:13:09.862Z",
+            "updated_at": "2023-07-05T23:21:02.000Z"
+        },
+        {
+            "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXJwdzYtOXhmeC1qdmN4",
+            "url": "https:\/\/github.com\/advisories\/GHSA-rpw6-9xfx-jvcx",
+            "title": "Directory Traversal in Archive_Tar",
+            "description": "Tar.php in Archive_Tar through 1.4.11 allows write operations with Directory Traversal due to inadequate checking of symbolic links, a related issue to CVE-2020-28948.\n\n### :exclamation: Note: \nThere was an [initial fix](https:\/\/github.com\/pear\/Archive_Tar\/commit\/cde460582ff389404b5b3ccb59374e9b389de916) for this vulnerability made in version `1.4.12`. That fix introduced a bug which was [fixed in 1.4.13](https:\/\/github.com\/pear\/Archive_Tar\/pull\/36). Therefore we have set the first-patched-version to `1.4.13` which the earliest working version that avoids this vulnerability.",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2021-04-22T16:20:36.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 7.5,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:L\/PR:N\/UI:N\/S:U\/C:N\/I:H\/A:N",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2020-36193",
+                "https:\/\/github.com\/pear\/Archive_Tar\/issues\/35",
+                "https:\/\/github.com\/pear\/Archive_Tar\/commit\/cde460582ff389404b5b3ccb59374e9b389de916",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/01\/msg00018.html",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/FOZNK4FIIV7FSFCJNNFWMJZTTV7NFJV2\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/YKD5WEFA4WT6AVTMRAYBNXZNLWZHM7FH\/",
+                "https:\/\/security.gentoo.org\/glsa\/202101-23",
+                "https:\/\/www.drupal.org\/sa-core-2021-001",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/pear\/archive_tar\/CVE-2020-36193.yaml",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/04\/msg00007.html",
+                "https:\/\/www.debian.org\/security\/2021\/dsa-4894",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/VJQQYDAOWHD6RDITDRPHFW7WY6BS3V5N\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/42GPGVVFTLJYAKRI75IVB5R45NYQGEUR\/",
+                "https:\/\/github.com\/advisories\/GHSA-rpw6-9xfx-jvcx"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-rpw6-9xfx-jvcx",
+                "CVE-2020-36193"
+            ],
+            "repository_url": "https:\/\/github.com\/pear\/Archive_Tar",
+            "blast_radius": 27.580683282759356,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.4.13",
+                            "vulnerable_version_range": "<= 1.4.11"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "pear\/archive_tar"
+                }
+            ],
+            "created_at": "2022-12-21T16:13:05.923Z",
+            "updated_at": "2023-07-05T23:20:01.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS0zcTc2LWpxNm0tNTczcM4AA0fJ",
+            "url": "https:\/\/github.com\/advisories\/GHSA-3q76-jq6m-573p",
+            "title": "Archive_Tar contains Potential RCE if filename starts with phar:\/\/",
+            "description": "PEAR Archive_Tar version 1.4.3 and earlier contains a CWE-502, CWE-915 vulnerability in the Archive_Tar class. There are several file operations with `$v_header['filename']` as parameter (such as file_exists, is_file, is_dir, etc). When extract is called without a specific prefix path, we can trigger unserialization by crafting a tar file with `phar:\/\/[path_to_malicious_phar_file]` as path. Object injection can be used to trigger destruct in the loaded PHP classes, e.g. the Archive_Tar class itself. With Archive_Tar object injection, arbitrary file deletion can occur because `@unlink($this->_temp_tarname)` is called. If another class with useful gadget is loaded, it may possible to cause remote code execution that can result in files being deleted or possibly modified. This vulnerability appears to have been fixed in 1.4.4.",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2023-07-07T13:42:43.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 8.8,
+            "cvss_vector": "CVSS:3.0\/AV:N\/AC:L\/PR:N\/UI:R\/S:U\/C:H\/I:H\/A:H",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-1000888",
+                "https:\/\/github.com\/pear\/Archive_Tar\/commit\/59ace120ac5ceb5f0d36e40e48e1884de1badf76",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/pear\/archive_tar\/CVE-2018-1000888.yaml",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2019\/02\/msg00020.html",
+                "https:\/\/pear.php.net\/bugs\/bug.php?id=23782",
+                "https:\/\/security.gentoo.org\/glsa\/202006-14",
+                "https:\/\/usn.ubuntu.com\/3857-1\/",
+                "https:\/\/web.archive.org\/web\/20210328115328\/https:\/\/cdn2.hubspot.net\/hubfs\/3853213\/us-18-Thomas-It's-A-PHP-Unserialization-Vulnerability-Jim-But-Not-As-We-....pdf",
+                "https:\/\/web.archive.org\/web\/20220524160841\/https:\/\/blog.sonarsource.com\/new-php-exploitation-technique?redirect=rips",
+                "https:\/\/www.debian.org\/security\/2019\/dsa-4378",
+                "https:\/\/www.exploit-db.com\/exploits\/46108\/",
+                "https:\/\/github.com\/advisories\/GHSA-3q76-jq6m-573p"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-3q76-jq6m-573p",
+                "CVE-2018-1000888"
+            ],
+            "repository_url": "https:\/\/github.com\/pear\/Archive_Tar",
+            "blast_radius": 32.36133505177098,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.4.4",
+                            "vulnerable_version_range": "< 1.4.4"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "pear\/archive_tar"
+                }
+            ],
+            "created_at": "2023-07-07T14:03:50.713Z",
+            "updated_at": "2023-07-07T13:42:43.000Z"
+        },
+        {
+            "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWpoNXgtaGZoZy03OGpx",
+            "url": "https:\/\/github.com\/advisories\/GHSA-jh5x-hfhg-78jq",
+            "title": "Deserialization of Untrusted Data in Archive_Tar",
+            "description": "Archive_Tar through 1.4.10 allows an unserialization attack because `phar:` is blocked but `PHAR:` is not blocked. See: https:\/\/github.com\/pear\/Archive_Tar\/issues\/33",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2021-04-22T16:20:50.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 7.8,
+            "cvss_vector": "CVSS:3.1\/AV:L\/AC:L\/PR:N\/UI:R\/S:U\/C:H\/I:H\/A:H",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2020-28948",
+                "https:\/\/github.com\/pear\/Archive_Tar\/issues\/33",
+                "https:\/\/github.com\/pear\/Archive_Tar\/commit\/0670a05fdab997036a3fc3ef113b8f5922e574da",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2020\/11\/msg00045.html",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/4V35LBRM6HBCXBVCITKQ4UEBTXO2EG7B\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/5KSFM672XW3X6BR7TVKRD63SLZGKK437\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/KWM4CTMEGAC4I2CHYNJVSROY4CVXVEUT\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/NBYZSHYTIOBK6V7C4N7TP6KIKCRKLVWP\/",
+                "https:\/\/security.gentoo.org\/glsa\/202101-23",
+                "https:\/\/www.debian.org\/security\/2020\/dsa-4817",
+                "https:\/\/www.drupal.org\/sa-core-2020-013",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/VJQQYDAOWHD6RDITDRPHFW7WY6BS3V5N\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/42GPGVVFTLJYAKRI75IVB5R45NYQGEUR\/",
+                "https:\/\/github.com\/advisories\/GHSA-jh5x-hfhg-78jq"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-jh5x-hfhg-78jq",
+                "CVE-2020-28948"
+            ],
+            "repository_url": "https:\/\/github.com\/pear\/Archive_Tar",
+            "blast_radius": 28.68391061406973,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.4.11",
+                            "vulnerable_version_range": "< 1.4.11"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "pear\/archive_tar"
+                }
+            ],
+            "created_at": "2022-12-21T16:13:09.871Z",
+            "updated_at": "2023-07-05T23:21:42.000Z"
+        }
+    ],
+    "docker_usage_url": "https:\/\/docker.ecosyste.ms\/usage\/packagist\/pear\/archive_tar",
+    "docker_dependents_count": 274,
+    "docker_downloads_count": 1460866063,
+    "usage_url": "https:\/\/repos.ecosyste.ms\/usage\/packagist\/pear\/archive_tar",
+    "dependent_repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/usage\/packagist\/pear\/archive_tar\/dependencies",
+    "status": null,
+    "funding_links": [],
+    "critical": true,
+    "versions_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/pear%2Farchive_tar\/versions",
+    "version_numbers_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/pear%2Farchive_tar\/version_numbers",
+    "dependent_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/pear%2Farchive_tar\/dependent_packages",
+    "related_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/pear%2Farchive_tar\/related_packages",
+    "maintainers": [
+        {
+            "uuid": "cweiske",
+            "login": "cweiske",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 67,
+            "html_url": "https:\/\/packagist.org\/users\/cweiske",
+            "role": null,
+            "created_at": "2023-12-13T16:29:40.101Z",
+            "updated_at": "2023-12-13T16:29:40.101Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/cweiske\/packages"
+        },
+        {
+            "uuid": "ashnazg",
+            "login": "ashnazg",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 72,
+            "html_url": "https:\/\/packagist.org\/users\/ashnazg",
+            "role": null,
+            "created_at": "2022-11-20T01:54:36.182Z",
+            "updated_at": "2022-11-20T01:54:36.182Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/ashnazg\/packages"
+        },
+        {
+            "uuid": "saltybeagle",
+            "login": "saltybeagle",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 28,
+            "html_url": "https:\/\/packagist.org\/users\/saltybeagle",
+            "role": null,
+            "created_at": "2023-12-13T16:29:40.169Z",
+            "updated_at": "2023-12-13T16:29:40.169Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/saltybeagle\/packages"
+        }
+    ]
+}

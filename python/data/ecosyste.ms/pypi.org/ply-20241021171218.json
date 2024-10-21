@@ -1,0 +1,77 @@
+{
+  "id": 2855283,
+  "name": "ply",
+  "ecosystem": "pypi",
+  "description": "Python Lex & Yacc",
+  "homepage": "http://www.dabeaz.com/ply/",
+  "licenses": "BSD",
+  "normalized_licenses": [
+    "BSD-3-Clause"
+  ],
+  "repository_url": null,
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 15,
+  "first_release_published_at": "2012-04-18T14:24:41.000Z",
+  "latest_release_published_at": "2023-08-21T22:20:45.719Z",
+  "latest_release_number": "3.3",
+  "last_synced_at": "2024-10-20T19:30:43.323Z",
+  "created_at": "2022-04-10T12:04:40.259Z",
+  "updated_at": "2024-10-20T19:30:43.324Z",
+  "registry_url": "https://pypi.org/project/ply/",
+  "install_command": "pip install ply --index-url https://pypi.org/simple",
+  "documentation_url": "https://ply.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "Programming Language :: Python :: 2",
+      "Programming Language :: Python :: 3"
+    ],
+    "normalized_name": "ply"
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-09-07T19:27:55.882Z",
+  "dependent_packages_count": 259,
+  "downloads": 51212674,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 17718,
+  "rankings": {
+    "downloads": 0.03686673135157839,
+    "dependent_repos_count": 0.0601606362354115,
+    "dependent_packages_count": 0.08840678861423276,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 0.008070329251091787,
+    "average": 0.04837612136307861
+  },
+  "purl": "pkg:pypi/ply",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/ply",
+  "docker_dependents_count": 2321,
+  "docker_downloads_count": 4904575708,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/ply",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/ply/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/ply/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/ply/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/ply/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/ply/related_packages",
+  "maintainers": [
+    {
+      "uuid": "beazley",
+      "login": "beazley",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 1,
+      "html_url": "https://pypi.org/user/beazley/",
+      "role": null,
+      "created_at": "2023-01-30T17:54:53.852Z",
+      "updated_at": "2023-01-30T17:54:53.852Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/beazley/packages"
+    }
+  ]
+}

@@ -1,0 +1,1942 @@
+{
+  "id": 1813576,
+  "name": "handlebars",
+  "ecosystem": "npm",
+  "description": "Handlebars provides the power necessary to let you build semantic templates effectively with no frustration",
+  "homepage": "https://www.handlebarsjs.com/",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/handlebars-lang/handlebars.js",
+  "keywords_array": [
+    "handlebars",
+    "mustache",
+    "template",
+    "html"
+  ],
+  "namespace": null,
+  "versions_count": 80,
+  "first_release_published_at": "2011-08-22T07:43:36.484Z",
+  "latest_release_published_at": "2023-08-01T21:19:12.508Z",
+  "latest_release_number": "4.7.8",
+  "last_synced_at": "2024-10-21T15:06:16.693Z",
+  "created_at": "2022-04-09T16:55:29.206Z",
+  "updated_at": "2024-10-21T15:06:16.694Z",
+  "registry_url": "https://www.npmjs.com/package/handlebars",
+  "install_command": "npm install handlebars",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "4.7.8",
+      "legacy": "3.0.8"
+    }
+  },
+  "repo_metadata": {
+    "id": 998342,
+    "uuid": "809601",
+    "full_name": "handlebars-lang/handlebars.js",
+    "owner": "handlebars-lang",
+    "description": "Minimal templating on steroids.",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2023-12-13T23:07:16.000Z",
+    "size": 4058,
+    "stargazers_count": 17759,
+    "open_issues_count": 91,
+    "forks_count": 2037,
+    "subscribers_count": 451,
+    "default_branch": "master",
+    "last_synced_at": "2024-05-19T22:12:01.840Z",
+    "etag": null,
+    "topics": [
+      "handlebars",
+      "mustache",
+      "templates"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "http://handlebarsjs.com",
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": "linkedin/Burrow",
+    "license": "mit",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/handlebars-lang.png",
+    "metadata": {
+      "files": {
+        "readme": "README.markdown",
+        "changelog": null,
+        "contributing": "CONTRIBUTING.md",
+        "funding": null,
+        "license": "LICENSE",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": "SECURITY.md",
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null,
+        "publiccode": null,
+        "codemeta": null
+      }
+    },
+    "created_at": "2010-07-31T18:54:46.000Z",
+    "updated_at": "2024-06-18T10:42:39.788Z",
+    "dependencies_parsed_at": "2023-09-22T06:08:40.588Z",
+    "dependency_job_id": "704e5df2-5b6b-4f79-8e30-c8540825a30e",
+    "html_url": "https://github.com/handlebars-lang/handlebars.js",
+    "commit_stats": {
+      "total_commits": 1697,
+      "total_committers": 199,
+      "mean_commits": 8.527638190954773,
+      "dds": 0.5132586918090749,
+      "last_synced_commit": "e6686963ba1140ad6d8d10f7f302d1adf6b8740f"
+    },
+    "previous_names": [
+      "wycats/handlebars.js"
+    ],
+    "tags_count": 89,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/handlebars-lang",
+    "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/refs/heads/master",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 214553557,
+      "owners_count": 15750166,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "handlebars-lang",
+      "name": "The Handlebars Templating Language",
+      "uuid": "19378685",
+      "kind": "organization",
+      "description": "",
+      "email": null,
+      "website": "https://handlebarsjs.com/",
+      "location": null,
+      "twitter": null,
+      "company": null,
+      "icon_url": "https://avatars.githubusercontent.com/u/19378685?v=4",
+      "repositories_count": 8,
+      "last_synced_at": "2024-04-28T02:35:24.096Z",
+      "metadata": {
+        "has_sponsors_listing": false
+      },
+      "html_url": "https://github.com/handlebars-lang",
+      "funding_links": [],
+      "total_stars": 17814,
+      "followers": 61,
+      "following": 0,
+      "created_at": "2022-11-02T16:37:33.313Z",
+      "updated_at": "2024-04-28T02:35:25.495Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/handlebars-lang",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/handlebars-lang/repositories"
+    },
+    "tags": [
+      {
+        "name": "v4.7.8",
+        "sha": "8dc3d2517b41d12b1e06f88a449f30d27c137c21",
+        "kind": "tag",
+        "published_at": "2023-08-01T21:10:59.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.7.8",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.8/manifests"
+      },
+      {
+        "name": "v4.7.7",
+        "sha": "a9a8e403213583ca90cb7c872d3a22796c37d961",
+        "kind": "tag",
+        "published_at": "2021-02-15T09:36:12.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.7.7",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.7/manifests"
+      },
+      {
+        "name": "v4.7.6",
+        "sha": "e6ad93ea01bcde1f8ddaa4b4ebe572dd616abfaa",
+        "kind": "tag",
+        "published_at": "2020-04-03T17:56:25.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.7.6",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.6/manifests"
+      },
+      {
+        "name": "v4.7.5",
+        "sha": "1fd2edee2a12fb228061fcde807905c6b14339c4",
+        "kind": "tag",
+        "published_at": "2020-04-02T19:09:52.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.7.5",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.5/manifests"
+      },
+      {
+        "name": "v4.7.4",
+        "sha": "7adc19ab40917389fc1372d19677f1d024ec42b1",
+        "kind": "tag",
+        "published_at": "2020-04-01T17:20:34.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.7.4",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.4/manifests"
+      },
+      {
+        "name": "v3.0.8",
+        "sha": "16bd606fec0ada4c811eb7afe6bfd619d88f3d37",
+        "kind": "tag",
+        "published_at": "2020-02-23T10:02:00.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v3.0.8",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v3.0.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.8/manifests"
+      },
+      {
+        "name": "v4.7.3",
+        "sha": "c9789691af60b446f12f75dd9762f9d8fd3f36eb",
+        "kind": "tag",
+        "published_at": "2020-02-05T05:10:35.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.7.3",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.3/manifests"
+      },
+      {
+        "name": "v4.7.2",
+        "sha": "586e672c8bba7db787bc9bfe9a9fde4ec98d5b4f",
+        "kind": "tag",
+        "published_at": "2020-01-13T20:53:16.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.7.2",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.2/manifests"
+      },
+      {
+        "name": "v4.7.1",
+        "sha": "14ba3d0c43d75bcfcdbfb7c95c9fac99d88a17c8",
+        "kind": "tag",
+        "published_at": "2020-01-12T12:21:10.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.7.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.1/manifests"
+      },
+      {
+        "name": "v4.7.0",
+        "sha": "0d5c807017f8ba6c6d947f9d6852033c8faa2e49",
+        "kind": "tag",
+        "published_at": "2020-01-10T16:24:09.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.7.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.7.0/manifests"
+      },
+      {
+        "name": "v4.6.0",
+        "sha": "91a1b5d2f456cb733cbd88149fc9270973db79d7",
+        "kind": "tag",
+        "published_at": "2020-01-08T22:45:17.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.6.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.6.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.6.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.6.0/manifests"
+      },
+      {
+        "name": "v4.5.3",
+        "sha": "c819c8b533934d2ac18001d7eb27a3205b00c2f3",
+        "kind": "tag",
+        "published_at": "2019-11-18T07:10:26.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.5.3",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.5.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.5.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.5.3/manifests"
+      },
+      {
+        "name": "v4.5.2",
+        "sha": "8de121d21c88a6ab877e3a0eec9daaac483f3bf0",
+        "kind": "tag",
+        "published_at": "2019-11-13T21:07:27.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.5.2",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.5.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.5.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.5.2/manifests"
+      },
+      {
+        "name": "v4.5.1",
+        "sha": "7ef86173abb446cf564ad6dc2646a4c361e2ab9f",
+        "kind": "tag",
+        "published_at": "2019-10-29T04:42:23.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.5.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.5.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.5.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.5.1/manifests"
+      },
+      {
+        "name": "v4.5.0",
+        "sha": "b24797da01afd4e849fdb315dea8335792974522",
+        "kind": "tag",
+        "published_at": "2019-10-28T18:47:51.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.5.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.5.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.5.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.5.0/manifests"
+      },
+      {
+        "name": "v4.4.5",
+        "sha": "8e1cce79186ab6caeb8c6ec9c1f8bcfa1a40e83d",
+        "kind": "tag",
+        "published_at": "2019-10-20T21:08:10.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.4.5",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.4.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.4.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.4.5/manifests"
+      },
+      {
+        "name": "v4.4.4",
+        "sha": "2ab261eab7835e9c80ad1cb7ef9fc9b0f46d6a57",
+        "kind": "tag",
+        "published_at": "2019-10-20T19:33:00.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.4.4",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.4.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.4.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.4.4/manifests"
+      },
+      {
+        "name": "v4.4.3",
+        "sha": "2e53fba68f8c51f9aca97615944fdbdeba94ff62",
+        "kind": "tag",
+        "published_at": "2019-10-08T20:05:35.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.4.3",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.4.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.4.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.4.3/manifests"
+      },
+      {
+        "name": "v4.4.2",
+        "sha": "b793350fec0bb652c0bb2658089d7002af27a76b",
+        "kind": "tag",
+        "published_at": "2019-10-02T20:44:36.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.4.2",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.4.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.4.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.4.2/manifests"
+      },
+      {
+        "name": "v4.2.2",
+        "sha": "0d5c691f36baae183349c51c47228da45278c50a",
+        "kind": "tag",
+        "published_at": "2019-10-02T20:12:55.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.2.2",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.2.2/manifests"
+      },
+      {
+        "name": "v4.3.5",
+        "sha": "e96c1a5d86d8b2e8b152578fa37d5cdebc2964a3",
+        "kind": "tag",
+        "published_at": "2019-10-02T20:05:02.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.3.5",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.3.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.3.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.3.5/manifests"
+      },
+      {
+        "name": "v4.4.1",
+        "sha": "b8e769fcb624664a6bc7114c8739c2438d46dbe9",
+        "kind": "tag",
+        "published_at": "2019-10-02T19:52:34.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.4.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.4.1/manifests"
+      },
+      {
+        "name": "v4.4.0",
+        "sha": "059b33057925ebda96536421cfc7c4c75e5c61e3",
+        "kind": "tag",
+        "published_at": "2019-09-29T13:29:13.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.4.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.4.0/manifests"
+      },
+      {
+        "name": "v4.3.4",
+        "sha": "c958cc89550ca411a78fefa426b0acee80c702eb",
+        "kind": "tag",
+        "published_at": "2019-09-28T11:25:05.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.3.4",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.3.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.3.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.3.4/manifests"
+      },
+      {
+        "name": "v4.3.3",
+        "sha": "e4738491b3e8db97aa9b4f9967f04093ceba1a1f",
+        "kind": "tag",
+        "published_at": "2019-09-27T05:46:55.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.3.3",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.3.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.3.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.3.3/manifests"
+      },
+      {
+        "name": "v4.3.2",
+        "sha": "2357140c68d17cb4f8ab74431e8737de6b4b39b5",
+        "kind": "tag",
+        "published_at": "2019-09-26T21:58:48.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.3.2",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.3.2/manifests"
+      },
+      {
+        "name": "v4.3.1",
+        "sha": "050cca0866b3496852d9b198141807c32e4dae81",
+        "kind": "tag",
+        "published_at": "2019-09-24T22:32:32.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.3.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.3.1/manifests"
+      },
+      {
+        "name": "v4.3.0",
+        "sha": "a89081d440a9da9f3f25835f47de837907b0094a",
+        "kind": "tag",
+        "published_at": "2019-09-24T06:04:35.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.3.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.3.0/manifests"
+      },
+      {
+        "name": "v4.2.1",
+        "sha": "fff3e40402c9f9cd790984560658646a26e1c930",
+        "kind": "tag",
+        "published_at": "2019-09-20T17:40:48.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.2.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.2.1/manifests"
+      },
+      {
+        "name": "v4.2.0",
+        "sha": "164c7ceea4ce074f70f2fefeba81e2e551757ea6",
+        "kind": "tag",
+        "published_at": "2019-09-03T19:58:07.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.2.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.2.0/manifests"
+      },
+      {
+        "name": "v4.1.2-0",
+        "sha": "f98c6a54256fec0b36ae1adc4c36ab5412ca3b88",
+        "kind": "tag",
+        "published_at": "2019-08-25T16:06:35.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.1.2-0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.1.2-0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.1.2-0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.1.2-0/manifests"
+      },
+      {
+        "name": "v3.0.7",
+        "sha": "55e4d9d80d5dd834fcf53c528e7e0aa080f315a5",
+        "kind": "tag",
+        "published_at": "2019-06-30T08:53:59.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v3.0.7",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v3.0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.7/manifests"
+      },
+      {
+        "name": "v4.0.14",
+        "sha": "272362e44c66d0110a4c98c7c1d121971ce447a7",
+        "kind": "tag",
+        "published_at": "2019-04-13T14:39:19.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.14",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.14",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.14",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.14/manifests"
+      },
+      {
+        "name": "v4.1.2",
+        "sha": "10b5fcf92e6f3ddcbcec93c05c00cfdbb2e8d303",
+        "kind": "tag",
+        "published_at": "2019-04-13T14:19:22.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.1.2",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.1.2/manifests"
+      },
+      {
+        "name": "v4.1.1",
+        "sha": "f691db546e7563e1db3437d5a72f478f9e556714",
+        "kind": "tag",
+        "published_at": "2019-03-16T21:28:38.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.1.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.1.1/manifests"
+      },
+      {
+        "name": "v4.0.13",
+        "sha": "9d4fff19d438a390b4e34d0a175b2de5f196cea8",
+        "kind": "tag",
+        "published_at": "2019-02-07T10:26:00.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.13",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.13",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.13",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.13/manifests"
+      },
+      {
+        "name": "v4.1.0",
+        "sha": "7caca944b1ae64b5bc11cba67d21e4b51ba6196a",
+        "kind": "tag",
+        "published_at": "2019-02-07T09:46:32.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.1.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.1.0/manifests"
+      },
+      {
+        "name": "v4.0.13-beta.0",
+        "sha": "616f8c6fdb8b4224e5ab742e0ae400cfbc74086f",
+        "kind": "tag",
+        "published_at": "2019-02-02T20:26:35.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.13-beta.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.13-beta.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.13-beta.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.13-beta.0/manifests"
+      },
+      {
+        "name": "v4.0.13-0",
+        "sha": "0e56659f7bc9d5060bf791d58fd57c5f9a82ae17",
+        "kind": "tag",
+        "published_at": "2019-02-02T20:25:22.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.13-0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.13-0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.13-0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.13-0/manifests"
+      },
+      {
+        "name": "v3.0.6",
+        "sha": "5a427d2d2b7264a83ca6702fddf63a6c7ba281c4",
+        "kind": "tag",
+        "published_at": "2019-01-02T09:17:56.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v3.0.6",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v3.0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.6/manifests"
+      },
+      {
+        "name": "v3.0.5",
+        "sha": "64254b604b9d7fdf76d40b9c6675326eb4bda42b",
+        "kind": "tag",
+        "published_at": "2018-12-15T13:16:13.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v3.0.5",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v3.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.5/manifests"
+      },
+      {
+        "name": "v3.0.4",
+        "sha": "698c8a93a4066937977503d338bcd3b90d5035ca",
+        "kind": "tag",
+        "published_at": "2018-12-15T12:55:00.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v3.0.4",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v3.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.4/manifests"
+      },
+      {
+        "name": "v4.0.12",
+        "sha": "8d22e6f501dc0720fe0610bb4dab60cae18e7d20",
+        "kind": "tag",
+        "published_at": "2018-09-04T18:44:38.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.12",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.12",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.12",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.12/manifests"
+      },
+      {
+        "name": "v4.0.11",
+        "sha": "1e954ddf3c3ec6d2318e1fadc5e03aaf065b2fbd",
+        "kind": "tag",
+        "published_at": "2017-10-17T20:52:25.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.11",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.11",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.11",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.11/manifests"
+      },
+      {
+        "name": "v4.0.10",
+        "sha": "670ec6fafbf99986a70074a37f73d41bad60b083",
+        "kind": "tag",
+        "published_at": "2017-05-21T12:11:27.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.10",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.10/manifests"
+      },
+      {
+        "name": "v4.0.9",
+        "sha": "5ec78a8c70ac674f39a8408e04d59bd40340f6fe",
+        "kind": "tag",
+        "published_at": "2017-05-21T11:39:05.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.9",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.9/manifests"
+      },
+      {
+        "name": "v4.0.8",
+        "sha": "fed5818876ec325b2b48a61395fe0089bdda05e8",
+        "kind": "commit",
+        "published_at": "2017-05-02T20:55:44.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.8",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.8/manifests"
+      },
+      {
+        "name": "v4.0.7",
+        "sha": "606fa55b0a2fab4b22b810a21fc9ae1fd5fd8430",
+        "kind": "tag",
+        "published_at": "2017-04-29T20:52:09.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.7",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.7/manifests"
+      },
+      {
+        "name": "tmp-1252-backup",
+        "sha": "ee913e28bd34dc6e97f98a99f00b484195f72d6f",
+        "kind": "commit",
+        "published_at": "2017-01-02T09:13:49.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/tmp-1252-backup",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/tmp-1252-backup",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/tmp-1252-backup",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/tmp-1252-backup/manifests"
+      },
+      {
+        "name": "v4.0.6",
+        "sha": "ad3037cf54132fc5f589134d3bef961a5f751973",
+        "kind": "commit",
+        "published_at": "2016-11-12T18:32:45.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.6",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.6/manifests"
+      },
+      {
+        "name": "v4.0.5",
+        "sha": "205c61cfb1acdb599bbdfcf2d356641254e09e5c",
+        "kind": "tag",
+        "published_at": "2015-11-20T05:06:54.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.5",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.5/manifests"
+      },
+      {
+        "name": "v4.0.4",
+        "sha": "b7c95e9feb9b641af2fe83b23c3341ec624aae80",
+        "kind": "tag",
+        "published_at": "2015-10-29T06:54:17.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.4",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.4/manifests"
+      },
+      {
+        "name": "v4.0.3",
+        "sha": "9365b8290070f34bf797c836aed4335ce6a4094f",
+        "kind": "tag",
+        "published_at": "2015-09-24T03:41:14.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.3",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.3/manifests"
+      },
+      {
+        "name": "v4.0.2",
+        "sha": "a5a3ab01d3659b996234e3fa5a4a32350a145096",
+        "kind": "tag",
+        "published_at": "2015-09-04T14:13:16.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.2",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.2/manifests"
+      },
+      {
+        "name": "v4.0.1",
+        "sha": "c7b28a65dab1f1bb370f258fd65796d74c7b53cb",
+        "kind": "tag",
+        "published_at": "2015-09-03T02:21:36.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.1/manifests"
+      },
+      {
+        "name": "v4.0.0",
+        "sha": "bff5fab8f9d42e21950be00dcf1cedf4dc1a565b",
+        "kind": "tag",
+        "published_at": "2015-09-01T13:19:14.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v4.0.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v4.0.0/manifests"
+      },
+      {
+        "name": "v3.0.3",
+        "sha": "891f48b7e9c321dd9cbe7a898533eb6b2434b8a0",
+        "kind": "tag",
+        "published_at": "2015-04-28T19:52:04.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v3.0.3",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v3.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.3/manifests"
+      },
+      {
+        "name": "v3.0.2",
+        "sha": "2f0b86665f6080c065d67182ccfdca2ce6f243fa",
+        "kind": "tag",
+        "published_at": "2015-04-20T08:11:12.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v3.0.2",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v3.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.2/manifests"
+      },
+      {
+        "name": "v3.0.1",
+        "sha": "afe730e0594440dd17fdc43271fc4a7db19327f3",
+        "kind": "tag",
+        "published_at": "2015-03-24T19:22:38.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v3.0.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v3.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.1/manifests"
+      },
+      {
+        "name": "v3.0.0",
+        "sha": "0099e16a01bae4789c3560e2a658fdd7fecc9e12",
+        "kind": "tag",
+        "published_at": "2015-02-10T06:14:55.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v3.0.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v3.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v3.0.0/manifests"
+      },
+      {
+        "name": "v2.0.0",
+        "sha": "1eb2b04aa1468059172af16968e28ba3a9c07e6d",
+        "kind": "tag",
+        "published_at": "2014-09-02T02:28:59.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v2.0.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v2.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v2.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v2.0.0/manifests"
+      },
+      {
+        "name": "v2.0.0-beta.1",
+        "sha": "cee52ea68f85baf6812cbc6d303595a88b4ea4f8",
+        "kind": "tag",
+        "published_at": "2014-08-26T23:32:38.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v2.0.0-beta.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v2.0.0-beta.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v2.0.0-beta.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v2.0.0-beta.1/manifests"
+      },
+      {
+        "name": "v2.0.0-alpha.4",
+        "sha": "efad61b1b72a487c087f57ba85287f5682e57280",
+        "kind": "tag",
+        "published_at": "2014-05-20T04:15:51.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v2.0.0-alpha.4",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v2.0.0-alpha.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v2.0.0-alpha.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v2.0.0-alpha.4/manifests"
+      },
+      {
+        "name": "v2.0.0-alpha.3",
+        "sha": "f419838362ad6f3a6f10179bcd7ca683d527e030",
+        "kind": "tag",
+        "published_at": "2014-05-20T03:29:25.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v2.0.0-alpha.3",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v2.0.0-alpha.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v2.0.0-alpha.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v2.0.0-alpha.3/manifests"
+      },
+      {
+        "name": "v2.0.0-alpha.2",
+        "sha": "04c312649b0b9c61a245c4928f230935e9b8dd23",
+        "kind": "tag",
+        "published_at": "2014-03-06T07:26:26.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v2.0.0-alpha.2",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v2.0.0-alpha.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v2.0.0-alpha.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v2.0.0-alpha.2/manifests"
+      },
+      {
+        "name": "v2.0.0-alpha.1",
+        "sha": "a5ff1f3d22178b3889983be29b31b850a4528719",
+        "kind": "tag",
+        "published_at": "2014-02-19T23:49:09.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v2.0.0-alpha.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v2.0.0-alpha.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v2.0.0-alpha.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v2.0.0-alpha.1/manifests"
+      },
+      {
+        "name": "v1.3.0",
+        "sha": "0c6829f8af189622afd726bb72c195b5323bd6f9",
+        "kind": "tag",
+        "published_at": "2014-01-02T04:10:31.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.3.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.3.0/manifests"
+      },
+      {
+        "name": "v1.2.1",
+        "sha": "1c0614bd88b835b7cdfe1fb7f39650c18f645763",
+        "kind": "tag",
+        "published_at": "2013-12-26T22:25:42.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.2.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.2.1/manifests"
+      },
+      {
+        "name": "v1.2.0",
+        "sha": "096b8ccd2e376d621fd281e08d557a4632188aaa",
+        "kind": "tag",
+        "published_at": "2013-12-24T03:39:46.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.2.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.2.0/manifests"
+      },
+      {
+        "name": "v1.1.2",
+        "sha": "47d13cb23c968ada3878b8bacf2813fb01758475",
+        "kind": "tag",
+        "published_at": "2013-11-06T00:10:06.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.1.2",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.1.2/manifests"
+      },
+      {
+        "name": "v1.1.1",
+        "sha": "09cdc19a21cd15059f1982f533bc65e2daae904d",
+        "kind": "tag",
+        "published_at": "2013-11-04T16:48:59.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.1.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.1.1/manifests"
+      },
+      {
+        "name": "v1.1.0",
+        "sha": "c53e95414f4e74bf6dfb2379a6b9b2468b8fcb31",
+        "kind": "tag",
+        "published_at": "2013-11-04T05:00:42.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.1.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.1.0/manifests"
+      },
+      {
+        "name": "1.0.0",
+        "sha": "2a073e0993b40b81fbef82f681bb1dd171f2233b",
+        "kind": "tag",
+        "published_at": "2013-05-31T18:17:56.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/1.0.0",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/1.0.0/manifests"
+      },
+      {
+        "name": "v1.0.12",
+        "sha": "2a073e0993b40b81fbef82f681bb1dd171f2233b",
+        "kind": "tag",
+        "published_at": "2013-05-31T18:16:53.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.0.12",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.0.12",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.12",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.12/manifests"
+      },
+      {
+        "name": "v1.0.11",
+        "sha": "4cf0410b7cc3e06f09b98bbc42a3d2df8e561eba",
+        "kind": "tag",
+        "published_at": "2013-05-14T04:09:21.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.0.11",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.0.11",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.11",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.11/manifests"
+      },
+      {
+        "name": "1.0.0-rc.4",
+        "sha": "4cf0410b7cc3e06f09b98bbc42a3d2df8e561eba",
+        "kind": "commit",
+        "published_at": "2013-05-14T04:09:21.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/1.0.0-rc.4",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/1.0.0-rc.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/1.0.0-rc.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/1.0.0-rc.4/manifests"
+      },
+      {
+        "name": "v1.0.7",
+        "sha": "b5074a88ec17917309f5482de004076f3f676ad1",
+        "kind": "tag",
+        "published_at": "2013-05-10T04:51:50.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.0.7",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.7/manifests"
+      },
+      {
+        "name": "v1.0.10",
+        "sha": "948231a31d7d6786f1ea0a293a378b20928f6f2b",
+        "kind": "tag",
+        "published_at": "2013-02-27T13:52:34.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.0.10",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.0.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.10/manifests"
+      },
+      {
+        "name": "v1.0.9",
+        "sha": "b74711e63b7bab7971cb1267f7f0bd9a60b525d7",
+        "kind": "tag",
+        "published_at": "2013-02-16T01:43:52.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.0.9",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.0.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.9/manifests"
+      },
+      {
+        "name": "1.0.0-rc.3",
+        "sha": "bc8214cb7cb4b04180f4df33439ac61a92e1123f",
+        "kind": "commit",
+        "published_at": "2013-02-15T05:58:20.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/1.0.0-rc.3",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/1.0.0-rc.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/1.0.0-rc.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/1.0.0-rc.3/manifests"
+      },
+      {
+        "name": "v1.0.8",
+        "sha": "5ac29dcb50cea15bee830304e391afd7375d56aa",
+        "kind": "tag",
+        "published_at": "2013-01-19T08:12:36.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.0.8",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.0.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.8/manifests"
+      },
+      {
+        "name": "1.0.rc.2",
+        "sha": "9453c6d9d23f05c596123560ff9b5923e4eed954",
+        "kind": "commit",
+        "published_at": "2013-01-19T01:13:40.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/1.0.rc.2",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/1.0.rc.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/1.0.rc.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/1.0.rc.2/manifests"
+      },
+      {
+        "name": "1.0.rc.1",
+        "sha": "ce74c36118ffed1779889d97e6a2a1028ae61510",
+        "kind": "commit",
+        "published_at": "2012-09-16T04:11:36.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/1.0.rc.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/1.0.rc.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/1.0.rc.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/1.0.rc.1/manifests"
+      },
+      {
+        "name": "v1.0.6-2",
+        "sha": "08e580a23be5abd74bdb757063bb783f4f240ea3",
+        "kind": "commit",
+        "published_at": "2012-07-31T16:50:55.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.0.6-2",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.0.6-2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.6-2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.6-2/manifests"
+      },
+      {
+        "name": "v1.0.6",
+        "sha": "f5289a35ecdbd35898fa6d291600ac9427930b44",
+        "kind": "commit",
+        "published_at": "2012-07-23T20:40:07.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.0.6",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.6/manifests"
+      },
+      {
+        "name": "v1.0.6beta",
+        "sha": "fe7d16de9196718bbe716d684f2a1c349f24284b",
+        "kind": "commit",
+        "published_at": "2012-07-23T15:36:13.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.0.6beta",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.0.6beta",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.6beta",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.6beta/manifests"
+      },
+      {
+        "name": "v1.0.5beta",
+        "sha": "bef909f5cbf855f38f58c727d07dbe8330d4c370",
+        "kind": "commit",
+        "published_at": "2012-02-09T17:06:11.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/v1.0.5beta",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v1.0.5beta",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.5beta",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/v1.0.5beta/manifests"
+      },
+      {
+        "name": "1.0.0.beta.1",
+        "sha": "81071dd22c5295d796ab702d910e167029e178c4",
+        "kind": "commit",
+        "published_at": "2011-05-04T03:39:24.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/1.0.0.beta.1",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/1.0.0.beta.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/1.0.0.beta.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/1.0.0.beta.1/manifests"
+      },
+      {
+        "name": "0.9.0.pre.4",
+        "sha": "d7f93c09e7031b28b27296b1e8f8e8bc801e56c9",
+        "kind": "tag",
+        "published_at": "2011-02-15T21:44:08.000Z",
+        "download_url": "https://codeload.github.com/handlebars-lang/handlebars.js/tar.gz/0.9.0.pre.4",
+        "html_url": "https://github.com/handlebars-lang/handlebars.js/releases/tag/0.9.0.pre.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/0.9.0.pre.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/handlebars-lang%2Fhandlebars.js/tags/0.9.0.pre.4/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-09-07T09:04:55.993Z",
+  "dependent_packages_count": 15556,
+  "downloads": 60359616,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 1258975,
+  "rankings": {
+    "downloads": 0.027434586854835446,
+    "dependent_repos_count": 0.027626245645238485,
+    "dependent_packages_count": 0.006516398873703429,
+    "stargazers_count": 0.7289331395571697,
+    "forks_count": 0.8664620115849524,
+    "docker_downloads_count": 0.029241655450064123,
+    "average": 0.28103567299432725
+  },
+  "purl": "pkg:npm/handlebars",
+  "advisories": [
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXEyYzYtYzZwbS1nM2do",
+      "url": "https://github.com/advisories/GHSA-q2c6-c6pm-g3gh",
+      "title": "Arbitrary Code Execution in handlebars",
+      "description": "Versions of `handlebars` prior to 3.0.8 or 4.5.3 are vulnerable to Arbitrary Code Execution. The package's lookup helper fails to properly validate templates, allowing attackers to submit templates that execute arbitrary JavaScript in the system. It is due to an incomplete fix for a [previous issue](https://www.npmjs.com/advisories/1316). This vulnerability can be used to run arbitrary code in a server processing Handlebars templates or on a victim's browser (effectively serving as Cross-Site Scripting).\n\n\n## Recommendation\n\nUpgrade to version 3.0.8, 4.5.3 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2020-09-04T15:07:38.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://www.npmjs.com/advisories/1324",
+        "https://github.com/advisories/GHSA-q2c6-c6pm-g3gh"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-q2c6-c6pm-g3gh"
+      ],
+      "repository_url": null,
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.5.3",
+              "vulnerable_version_range": ">= 4.0.0, < 4.5.3"
+            },
+            {
+              "first_patched_version": "3.0.8",
+              "vulnerable_version_range": "< 3.0.8"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:15.480Z",
+      "updated_at": "2023-01-09T05:04:24.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWY1MmctNmpoeC01ODZw",
+      "url": "https://github.com/advisories/GHSA-f52g-6jhx-586p",
+      "title": "Denial of Service in handlebars",
+      "description": "Affected versions of `handlebars` are vulnerable to Denial of Service. The package's parser may be forced into an endless loop while processing specially-crafted templates. This may allow attackers to exhaust system resources leading to Denial of Service.\n\n\n## Recommendation\n\nUpgrade to version 4.4.5 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2020-09-03T23:20:12.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://www.npmjs.com/advisories/1300",
+        "https://github.com/advisories/GHSA-f52g-6jhx-586p"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-f52g-6jhx-586p"
+      ],
+      "repository_url": null,
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.4.5",
+              "vulnerable_version_range": ">= 4.0.0, < 4.4.5"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:15.647Z",
+      "updated_at": "2023-01-09T05:03:50.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTlwcmgtMjU3dy05Mjc3",
+      "url": "https://github.com/advisories/GHSA-9prh-257w-9277",
+      "title": "Cross-Site Scripting in handlebars",
+      "description": "Versions of `handlebars` prior to 4.0.0 are affected by a cross-site scripting vulnerability when attributes in handlebar templates are not quoted.\n\n\n## Proof of Concept\nTemplate:\n```<a href={{foo}}/>```\n\nInput:\n```{ 'foo' : 'test.com onload=alert(1)'}```\n\nRendered result:\n```<a href=test.com onload=alert(1)/>```\n\n\n## Recommendation\n\nUpdate to version 4.0.0 or later.\nAlternatively, ensure that all attributes in handlebars templates are encapsulated with quotes.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2018-10-23T17:20:12.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2015-8861",
+        "https://github.com/wycats/handlebars.js/pull/1083",
+        "https://blog.srcclr.com/handlebars_vulnerability_research_findings/",
+        "https://github.com/advisories/GHSA-9prh-257w-9277",
+        "https://www.npmjs.com/advisories/61",
+        "https://www.sourceclear.com/blog/handlebars_vulnerability_research_findings/",
+        "https://www.tenable.com/security/tns-2016-18",
+        "http://www.openwall.com/lists/oss-security/2016/04/20/11",
+        "http://www.securityfocus.com/bid/96434"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-9prh-257w-9277",
+        "CVE-2015-8861"
+      ],
+      "repository_url": "https://github.com/wycats/handlebars.js",
+      "blast_radius": 37.210104347966094,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.0.0",
+              "vulnerable_version_range": "< 4.0.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:32.514Z",
+      "updated_at": "2023-01-09T05:02:59.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTc2NWgtcWp4di01ZjQ0",
+      "url": "https://github.com/advisories/GHSA-765h-qjxv-5f44",
+      "title": "Prototype Pollution in handlebars",
+      "description": "The package handlebars before 4.7.7 are vulnerable to Prototype Pollution when selecting certain compiling options to compile templates coming from an untrusted source.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-02-10T23:51:42.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-23383",
+        "https://github.com/handlebars-lang/handlebars.js/commit/f0589701698268578199be25285b2ebea1c1e427",
+        "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1279031",
+        "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1279032",
+        "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1279030",
+        "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-1279029",
+        "https://www.npmjs.com/package/handlebars",
+        "https://security.netapp.com/advisory/ntap-20210618-0007/",
+        "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/handlebars-source/CVE-2021-23383.yml",
+        "https://github.com/advisories/GHSA-765h-qjxv-5f44"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-765h-qjxv-5f44",
+        "CVE-2021-23383"
+      ],
+      "repository_url": "https://github.com/handlebars-lang/handlebars.js",
+      "blast_radius": 59.78016764099471,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.7.7",
+              "vulnerable_version_range": "< 4.7.7"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:02.016Z",
+      "updated_at": "2024-01-19T19:49:23.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWc5cjQteHBtai1tajY1",
+      "url": "https://github.com/advisories/GHSA-g9r4-xpmj-mj65",
+      "title": "Prototype Pollution in handlebars",
+      "description": "Versions of `handlebars` prior to 3.0.8 or 4.5.3 are vulnerable to prototype pollution. It is possible to add or modify properties to the Object prototype through a malicious template. This may allow attackers to crash the application or execute Arbitrary Code in specific conditions.\n\n\n## Recommendation\n\nUpgrade to version 3.0.8, 4.5.3 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2020-09-04T15:06:32.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://www.npmjs.com/advisories/1325",
+        "https://github.com/advisories/GHSA-g9r4-xpmj-mj65"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-g9r4-xpmj-mj65"
+      ],
+      "repository_url": null,
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.5.3",
+              "vulnerable_version_range": ">= 4.0.0, < 4.5.3"
+            },
+            {
+              "first_patched_version": "3.0.8",
+              "vulnerable_version_range": "< 3.0.8"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:15.490Z",
+      "updated_at": "2023-01-09T05:04:02.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTNjcXItNThybS01N2Y4",
+      "url": "https://github.com/advisories/GHSA-3cqr-58rm-57f8",
+      "title": "Arbitrary Code Execution in Handlebars",
+      "description": "Handlebars before 3.0.8 and 4.x before 4.5.3 is vulnerable to Arbitrary Code Execution. The lookup helper fails to properly validate templates, allowing attackers to submit templates that execute arbitrary JavaScript. This can be used to run arbitrary code on a server processing Handlebars templates or in a victim's browser (effectively serving as XSS).",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-02-10T20:38:19.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:L/A:L",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2019-20920",
+        "https://github.com/handlebars-lang/handlebars.js/commit/d54137810a49939fd2ad01a91a34e182ece4528e",
+        "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-534478",
+        "https://www.npmjs.com/advisories/1316",
+        "https://www.npmjs.com/advisories/1324",
+        "https://www.npmjs.com/package/handlebars",
+        "https://github.com/handlebars-lang/handlebars.js/commit/156061eb7707575293613d7fdf90e2bdaac029ee",
+        "https://github.com/advisories/GHSA-3cqr-58rm-57f8"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-3cqr-58rm-57f8",
+        "CVE-2019-20920"
+      ],
+      "repository_url": "https://github.com/handlebars-lang/handlebars.js",
+      "blast_radius": 49.41013856041399,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.5.3",
+              "vulnerable_version_range": ">= 4.0.0, < 4.5.3"
+            },
+            {
+              "first_patched_version": "3.0.8",
+              "vulnerable_version_range": "< 3.0.8"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:06.313Z",
+      "updated_at": "2023-11-29T20:34:33.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWZtcjQtN2c5cS03aGM3",
+      "url": "https://github.com/advisories/GHSA-fmr4-7g9q-7hc7",
+      "title": "Moderate severity vulnerability that affects handlebars",
+      "description": "**Withdrawn:** Duplicate of GHSA-9prh-257w-9277",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2017-10-24T18:33:36.000Z",
+      "withdrawn_at": "2020-06-17T16:30:43.000Z",
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2015-8861",
+        "https://github.com/advisories/GHSA-fmr4-7g9q-7hc7"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-fmr4-7g9q-7hc7"
+      ],
+      "repository_url": null,
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.0.0",
+              "vulnerable_version_range": "< 4.0.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:39.273Z",
+      "updated_at": "2023-01-09T05:03:26.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTJjZjUtNHc3Ni1yOXF2",
+      "url": "https://github.com/advisories/GHSA-2cf5-4w76-r9qv",
+      "title": "Arbitrary Code Execution in handlebars",
+      "description": "Versions of `handlebars` prior to 3.0.8 or 4.5.2 are vulnerable to Arbitrary Code Execution. The package's lookup helper fails to properly validate templates, allowing attackers to submit templates that execute arbitrary JavaScript in the system. It can be used to run arbitrary code in a server processing Handlebars templates or on a victim's browser (effectively serving as Cross-Site Scripting).\n\nThe following template can be used to demonstrate the vulnerability:  \n```{{#with \"constructor\"}}\n\t{{#with split as |a|}}\n\t\t{{pop (push \"alert('Vulnerable Handlebars JS');\")}}\n\t\t{{#with (concat (lookup join (slice 0 1)))}}\n\t\t\t{{#each (slice 2 3)}}\n\t\t\t\t{{#with (apply 0 a)}}\n\t\t\t\t\t{{.}}\n\t\t\t\t{{/with}}\n\t\t\t{{/each}}\n\t\t{{/with}}\n\t{{/with}}\n{{/with}}```\n\n\n## Recommendation\n\nUpgrade to version 3.0.8, 4.5.2 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2020-09-04T14:57:38.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:L/I:H/A:L",
+      "references": [
+        "https://www.npmjs.com/advisories/1316",
+        "https://github.com/advisories/GHSA-2cf5-4w76-r9qv"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-2cf5-4w76-r9qv"
+      ],
+      "repository_url": null,
+      "blast_radius": 44.530124875434836,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.5.2",
+              "vulnerable_version_range": ">= 4.0.0, < 4.5.2"
+            },
+            {
+              "first_patched_version": "3.0.8",
+              "vulnerable_version_range": "< 3.0.8"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:15.557Z",
+      "updated_at": "2024-02-07T05:08:28.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTYyZ3ItNHFwOS1oOThm",
+      "url": "https://github.com/advisories/GHSA-62gr-4qp9-h98f",
+      "title": "Regular Expression Denial of Service in Handlebars",
+      "description": "Handlebars before 4.4.5 allows Regular Expression Denial of Service (ReDoS) because of eager matching. The parser may be forced into an endless loop while processing crafted templates. This may allow attackers to exhaust system resources.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-02-10T20:38:22.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2019-20922",
+        "https://github.com/handlebars-lang/handlebars.js/commit/8d5530ee2c3ea9f0aee3fde310b9f36887d00b8b",
+        "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-480388",
+        "https://www.npmjs.com/advisories/1300",
+        "https://www.npmjs.com/package/handlebars",
+        "https://github.com/advisories/GHSA-62gr-4qp9-h98f"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-62gr-4qp9-h98f",
+        "CVE-2019-20922"
+      ],
+      "repository_url": "https://github.com/handlebars-lang/handlebars.js",
+      "blast_radius": 45.75012829667963,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.4.5",
+              "vulnerable_version_range": ">= 4.0.0, < 4.4.5"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:06.322Z",
+      "updated_at": "2023-11-29T20:32:12.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXE0MnAtcGc4bS1jcWg2",
+      "url": "https://github.com/advisories/GHSA-q42p-pg8m-cqh6",
+      "title": "Prototype Pollution in handlebars",
+      "description": "Versions of `handlebars` prior to 4.0.14 are vulnerable to Prototype Pollution. Templates may alter an Objects' prototype, thus allowing an attacker to execute arbitrary code on the server.\n\n\n## Recommendation\n\nFor handlebars 4.1.x upgrade to 4.1.2 or later.\nFor handlebars 4.0.x upgrade to 4.0.14 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2019-06-05T14:07:48.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "references": [
+        "https://github.com/handlebars-lang/handlebars.js/issues/1495",
+        "https://github.com/handlebars-lang/handlebars.js/commit/7372d4e9dffc9d70c09671aa28b9392a1577fd86",
+        "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692",
+        "https://www.npmjs.com/advisories/755",
+        "https://github.com/handlebars-lang/handlebars.js/commit/0d6d8c335ad81bad1b672fc56b6a44f6aa472dac",
+        "https://github.com/handlebars-lang/handlebars.js/commit/85c8783b34fc6d36145d8b53885ad0b9e3c3f9c4",
+        "https://github.com/handlebars-lang/handlebars.js/commit/cd38583216dce3252831916323202749431c773e",
+        "https://github.com/advisories/GHSA-q42p-pg8m-cqh6"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-q42p-pg8m-cqh6"
+      ],
+      "repository_url": "https://github.com/handlebars-lang/handlebars.js",
+      "blast_radius": 44.530124875434836,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.0.7",
+              "vulnerable_version_range": "< 3.0.7"
+            },
+            {
+              "first_patched_version": "4.0.14",
+              "vulnerable_version_range": ">= 4.0.0, < 4.0.14"
+            },
+            {
+              "first_patched_version": "4.1.2",
+              "vulnerable_version_range": ">= 4.1.0, < 4.1.2"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:28.881Z",
+      "updated_at": "2023-11-29T20:32:55.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWYyanYtcjlyZi03OTg4",
+      "url": "https://github.com/advisories/GHSA-f2jv-r9rf-7988",
+      "title": "Remote code execution in handlebars when compiling templates",
+      "description": "The package handlebars before 4.7.7 are vulnerable to Remote Code Execution (RCE) when selecting certain compiling options to compile templates coming from an untrusted source.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2021-05-06T15:57:44.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-23369",
+        "https://github.com/handlebars-lang/handlebars.js/commit/b6d3de7123eebba603e321f04afdbae608e8fea8",
+        "https://github.com/handlebars-lang/handlebars.js/commit/f0589701698268578199be25285b2ebea1c1e427",
+        "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074950",
+        "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1074951",
+        "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074952",
+        "https://snyk.io/vuln/SNYK-JS-HANDLEBARS-1056767",
+        "https://security.netapp.com/advisory/ntap-20210604-0008/",
+        "https://github.com/advisories/GHSA-f2jv-r9rf-7988"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-f2jv-r9rf-7988",
+        "CVE-2021-23369"
+      ],
+      "repository_url": "https://github.com/handlebars-lang/handlebars.js",
+      "blast_radius": 79.20642572478249,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.7.7",
+              "vulnerable_version_range": "< 4.7.7"
+            }
+          ],
+          "ecosystem": "maven",
+          "package_name": "org.webjars.bowergithub.wycats:handlebars.js"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.7.7",
+              "vulnerable_version_range": "< 4.7.7"
+            }
+          ],
+          "ecosystem": "maven",
+          "package_name": "org.webjars.npm:handlebars"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.7.7",
+              "vulnerable_version_range": "< 4.7.7"
+            }
+          ],
+          "ecosystem": "maven",
+          "package_name": "org.webjars:handlebars"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.7.7",
+              "vulnerable_version_range": "< 4.7.7"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        }
+      ],
+      "created_at": "2022-12-21T16:11:56.348Z",
+      "updated_at": "2023-11-29T20:35:53.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS02cjV4LWhtZ2ctN2g1M84AAuAf",
+      "url": "https://github.com/advisories/GHSA-6r5x-hmgg-7h53",
+      "title": "Remote code execution in Handlebars.js",
+      "description": "Handlebars.js before 4.1.0 has Remote Code Execution (RCE)",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2019-07-15T19:46:01.000Z",
+      "withdrawn_at": "2019-07-15T19:46:01.000Z",
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://github.com/wycats/handlebars.js/issues/1267#issue-187151586",
+        "https://github.com/wycats/handlebars.js/commit/edc6220d51139b32c28e51641fadad59a543ae57",
+        "https://github.com/advisories/GHSA-6r5x-hmgg-7h53"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-6r5x-hmgg-7h53"
+      ],
+      "repository_url": "https://github.com/wycats/handlebars.js",
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.1.0",
+              "vulnerable_version_range": "< 4.1.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:01.378Z",
+      "updated_at": "2023-01-09T05:01:37.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXc0NTctNnE2eC1jZ3A5",
+      "url": "https://github.com/advisories/GHSA-w457-6q6x-cgp9",
+      "title": "Prototype Pollution in handlebars",
+      "description": "Versions of `handlebars` prior to 3.0.8 or 4.3.0 are vulnerable to Prototype Pollution leading to Remote Code Execution. Templates may alter an Objects' `__proto__` and `__defineGetter__` properties, which may allow an attacker to execute arbitrary code through crafted payloads.\n\n\n## Recommendation\n\nUpgrade to version 3.0.8, 4.3.0 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2019-12-26T17:58:13.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2019-19919",
+        "https://github.com/wycats/handlebars.js/issues/1558",
+        "https://github.com/wycats/handlebars.js/commit/2078c727c627f25d4a149962f05c1e069beb18bc",
+        "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19919",
+        "https://www.tenable.com/security/tns-2021-14",
+        "https://github.com/handlebars-lang/handlebars.js/commit/156061eb7707575293613d7fdf90e2bdaac029ee",
+        "https://github.com/handlebars-lang/handlebars.js/commit/90ad8d97ad2933852fb83fcc054699dc99e094db",
+        "https://github.com/Nerian/bootstrap-wysihtml5-rails/blob/master/vendor/assets/javascripts/bootstrap-wysihtml5/handlebars.runtime.min.js",
+        "https://github.com/Nerian/bootstrap-wysihtml5-rails/tree/master/vendor/assets/javascripts/bootstrap-wysihtml5",
+        "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/bootstrap-wysihtml5-rails/CVE-2019-19919.yml",
+        "https://github.com/advisories/GHSA-w457-6q6x-cgp9"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-w457-6q6x-cgp9",
+        "CVE-2019-19919"
+      ],
+      "repository_url": "https://github.com/wycats/handlebars.js",
+      "blast_radius": 87.71049356635444,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.0.8",
+              "vulnerable_version_range": "< 3.0.8"
+            },
+            {
+              "first_patched_version": "4.3.0",
+              "vulnerable_version_range": ">= 4.0.0, < 4.3.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "handlebars"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": null,
+              "vulnerable_version_range": ">= 0.3.3.5, <= 0.3.3.8"
+            }
+          ],
+          "ecosystem": "rubygems",
+          "package_name": "bootstrap-wysihtml5-rails"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:26.781Z",
+      "updated_at": "2023-11-29T02:13:10.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/handlebars",
+  "docker_dependents_count": 14519,
+  "docker_downloads_count": 4193931721,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/handlebars",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/handlebars/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/handlebars/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/handlebars/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/handlebars/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/handlebars/related_packages",
+  "maintainers": [
+    {
+      "uuid": "erisds",
+      "login": "erisds",
+      "name": null,
+      "email": "erisds@gmail.com",
+      "url": null,
+      "packages_count": 239,
+      "html_url": "https://www.npmjs.com/~erisds",
+      "role": null,
+      "created_at": "2022-11-10T11:03:58.168Z",
+      "updated_at": "2022-11-10T11:03:58.168Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/erisds/packages"
+    },
+    {
+      "uuid": "wycats",
+      "login": "wycats",
+      "name": null,
+      "email": "wycats@gmail.com",
+      "url": null,
+      "packages_count": 145,
+      "html_url": "https://www.npmjs.com/~wycats",
+      "role": null,
+      "created_at": "2022-11-10T11:03:58.160Z",
+      "updated_at": "2022-11-10T11:03:58.160Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/wycats/packages"
+    },
+    {
+      "uuid": "kpdecker",
+      "login": "kpdecker",
+      "name": null,
+      "email": "kpdecker@gmail.com",
+      "url": null,
+      "packages_count": 58,
+      "html_url": "https://www.npmjs.com/~kpdecker",
+      "role": null,
+      "created_at": "2022-11-10T11:03:58.157Z",
+      "updated_at": "2022-11-10T11:03:58.157Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/kpdecker/packages"
+    },
+    {
+      "uuid": "lawnsea",
+      "login": "lawnsea",
+      "name": null,
+      "email": "lawnsea@gmail.com",
+      "url": null,
+      "packages_count": 16,
+      "html_url": "https://www.npmjs.com/~lawnsea",
+      "role": null,
+      "created_at": "2022-11-10T11:03:58.164Z",
+      "updated_at": "2022-11-10T11:03:58.164Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/lawnsea/packages"
+    },
+    {
+      "uuid": "knappi",
+      "login": "knappi",
+      "name": null,
+      "email": "npm@knappi.org",
+      "url": null,
+      "packages_count": 61,
+      "html_url": "https://www.npmjs.com/~knappi",
+      "role": null,
+      "created_at": "2022-11-10T11:03:58.171Z",
+      "updated_at": "2022-11-10T11:03:58.171Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/knappi/packages"
+    },
+    {
+      "uuid": "jaylinski",
+      "login": "jaylinski",
+      "name": null,
+      "email": "jakob.linskeseder@gmail.com",
+      "url": null,
+      "packages_count": 7,
+      "html_url": "https://www.npmjs.com/~jaylinski",
+      "role": null,
+      "created_at": "2023-08-01T21:20:39.977Z",
+      "updated_at": "2023-08-01T21:20:39.977Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/jaylinski/packages"
+    }
+  ]
+}

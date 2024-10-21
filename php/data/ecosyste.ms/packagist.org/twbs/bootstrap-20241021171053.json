@@ -1,0 +1,2485 @@
+{
+    "id": 741354,
+    "name": "twbs\/bootstrap",
+    "ecosystem": "packagist",
+    "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+    "homepage": "https:\/\/getbootstrap.com\/",
+    "licenses": "MIT",
+    "normalized_licenses": [
+        "MIT"
+    ],
+    "repository_url": "https:\/\/github.com\/twbs\/bootstrap",
+    "keywords_array": [
+        "framework",
+        "css",
+        "JS",
+        "web",
+        "sass",
+        "responsive",
+        "front-end",
+        "mobile-first"
+    ],
+    "namespace": "twbs",
+    "versions_count": 74,
+    "first_release_published_at": "2012-12-08T20:57:21.000Z",
+    "latest_release_published_at": "2024-02-20T15:14:29.000Z",
+    "latest_release_number": "v5.3.3",
+    "last_synced_at": "2024-10-21T22:30:37.953Z",
+    "created_at": "2022-04-07T11:46:43.075Z",
+    "updated_at": "2024-10-21T22:30:37.954Z",
+    "registry_url": "https:\/\/packagist.org\/packages\/twbs\/bootstrap#",
+    "install_command": "composer require twbs\/bootstrap",
+    "documentation_url": null,
+    "metadata": {
+        "funding": []
+    },
+    "repo_metadata": {
+        "id": 37251635,
+        "uuid": "2126244",
+        "full_name": "twbs\/bootstrap",
+        "owner": "twbs",
+        "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2024-04-10T14:57:49.000Z",
+        "size": 260669,
+        "stargazers_count": 167348,
+        "open_issues_count": 551,
+        "forks_count": 78358,
+        "subscribers_count": 6756,
+        "default_branch": "main",
+        "last_synced_at": "2024-04-14T17:06:37.147Z",
+        "etag": null,
+        "topics": [
+            "bootstrap",
+            "css",
+            "css-framework",
+            "html",
+            "javascript",
+            "sass",
+            "scss"
+        ],
+        "latest_commit_sha": null,
+        "homepage": "https:\/\/getbootstrap.com",
+        "language": "JavaScript",
+        "has_issues": true,
+        "has_wiki": null,
+        "has_pages": null,
+        "mirror_url": null,
+        "source_name": null,
+        "license": "mit",
+        "status": null,
+        "scm": "git",
+        "pull_requests_enabled": true,
+        "icon_url": "https:\/\/github.com\/twbs.png",
+        "metadata": {
+            "files": {
+                "readme": "README.md",
+                "changelog": null,
+                "contributing": ".github\/CONTRIBUTING.md",
+                "funding": null,
+                "license": "LICENSE",
+                "code_of_conduct": "CODE_OF_CONDUCT.md",
+                "threat_model": null,
+                "audit": null,
+                "citation": null,
+                "codeowners": ".github\/CODEOWNERS",
+                "security": "SECURITY.md",
+                "support": ".github\/SUPPORT.md",
+                "governance": null,
+                "roadmap": null,
+                "authors": null,
+                "dei": null
+            },
+            "funding": {
+                "github": "twbs",
+                "open_collective": "bootstrap"
+            }
+        },
+        "created_at": "2011-07-29T21:19:00.000Z",
+        "updated_at": "2024-04-14T16:53:06.000Z",
+        "dependencies_parsed_at": "2022-07-09T11:00:24.032Z",
+        "dependency_job_id": "c055e501-253d-4977-8f3b-4a8653c0982a",
+        "html_url": "https:\/\/github.com\/twbs\/bootstrap",
+        "commit_stats": {
+            "total_commits": 18567,
+            "total_committers": 1634,
+            "mean_commits": "11.362913096695227",
+            "dds": 0.8378305595949803,
+            "last_synced_commit": "868705bed08f0824ec560e0397a023266786a26b"
+        },
+        "previous_names": [
+            "twitter\/bootstrap"
+        ],
+        "tags_count": 89,
+        "template": false,
+        "template_full_name": null,
+        "repository_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap",
+        "tags_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags",
+        "releases_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/releases",
+        "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/manifests",
+        "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/twbs",
+        "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/refs\/heads\/main",
+        "host": {
+            "name": "GitHub",
+            "url": "https:\/\/github.com",
+            "kind": "github",
+            "repositories_count": 217593169,
+            "owners_count": 16201569,
+            "icon_url": "https:\/\/github.com\/github.png",
+            "version": null,
+            "created_at": "2022-05-30T11:31:42.601Z",
+            "updated_at": "2022-07-04T15:15:14.044Z",
+            "host_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories",
+            "repository_names_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repository_names",
+            "owners_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners"
+        },
+        "owner_record": {
+            "login": "twbs",
+            "name": "Bootstrap",
+            "uuid": "2918581",
+            "kind": "organization",
+            "description": "Source code and more for the most popular front-end framework in the world.",
+            "email": null,
+            "website": "https:\/\/getbootstrap.com",
+            "location": "San Francisco",
+            "twitter": "getbootstrap",
+            "company": null,
+            "icon_url": "https:\/\/avatars.githubusercontent.com\/u\/2918581?v=4",
+            "repositories_count": 26,
+            "last_synced_at": "2024-04-15T08:17:36.466Z",
+            "metadata": {
+                "has_sponsors_listing": true,
+                "funding": {
+                    "github": "twbs",
+                    "open_collective": "bootstrap"
+                }
+            },
+            "html_url": "https:\/\/github.com\/twbs",
+            "funding_links": [
+                "https:\/\/github.com\/sponsors\/twbs",
+                "https:\/\/opencollective.com\/bootstrap"
+            ],
+            "total_stars": 212729,
+            "followers": 10283,
+            "following": 0,
+            "created_at": "2022-11-02T16:17:13.500Z",
+            "updated_at": "2024-04-15T08:17:36.838Z",
+            "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/twbs",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/twbs\/repositories"
+        },
+        "tags": [
+            {
+                "name": "v5.3.3",
+                "sha": "6e1f75f420f68e1d52733b8e407fc7c3766c9dba",
+                "kind": "commit",
+                "published_at": "2024-02-20T15:14:29.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.3.3",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.3.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.3\/manifests"
+            },
+            {
+                "name": "v5.3.2",
+                "sha": "344e912d04b5b6a04482113eff20ab416ff01048",
+                "kind": "commit",
+                "published_at": "2023-09-14T14:19:27.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.3.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.3.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.2\/manifests"
+            },
+            {
+                "name": "v5.3.1",
+                "sha": "2a1bf52b73fc9a97f6fef75aa1b29b3e9f0288b3",
+                "kind": "commit",
+                "published_at": "2023-07-26T07:46:38.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.3.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.3.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.1\/manifests"
+            },
+            {
+                "name": "v5.3.0",
+                "sha": "60098ac499d30aa50575b0b7137391c06ef25429",
+                "kind": "commit",
+                "published_at": "2023-05-30T15:15:55.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.3.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.3.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.0\/manifests"
+            },
+            {
+                "name": "v5.3.0-alpha3",
+                "sha": "ac576614a5515e429f27e756fad81d5aa05e95a6",
+                "kind": "commit",
+                "published_at": "2023-04-03T07:26:50.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.3.0-alpha3",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.3.0-alpha3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.0-alpha3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.0-alpha3\/manifests"
+            },
+            {
+                "name": "v5.3.0-alpha2",
+                "sha": "c877cefcef18d6a60c5eaec8df469933e64e212a",
+                "kind": "commit",
+                "published_at": "2023-03-24T14:30:16.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.3.0-alpha2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.3.0-alpha2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.0-alpha2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.0-alpha2\/manifests"
+            },
+            {
+                "name": "v5.3.0-alpha1",
+                "sha": "cf9454caa00872899215603e5e036d9a824b1b11",
+                "kind": "commit",
+                "published_at": "2022-12-24T16:37:22.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.3.0-alpha1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.3.0-alpha1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.0-alpha1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.3.0-alpha1\/manifests"
+            },
+            {
+                "name": "v5.2.3",
+                "sha": "cb021439c683d9805e2864c58095b92d405e9b11",
+                "kind": "commit",
+                "published_at": "2022-11-21T18:19:01.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.2.3",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.2.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.2.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.2.3\/manifests"
+            },
+            {
+                "name": "v5.2.2",
+                "sha": "961d5ff9844372a4e294980c667bbe7e0651cdeb",
+                "kind": "commit",
+                "published_at": "2022-10-03T07:44:02.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.2.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.2.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.2.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.2.2\/manifests"
+            },
+            {
+                "name": "v5.2.1",
+                "sha": "23e50829f958ea1d741d63e2781716be037e4644",
+                "kind": "commit",
+                "published_at": "2022-09-07T15:31:39.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.2.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.2.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.2.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.2.1\/manifests"
+            },
+            {
+                "name": "v4.6.2",
+                "sha": "e5643aaa89eb67327a5b4abe7db976f0ea276b70",
+                "kind": "tag",
+                "published_at": "2022-07-19T15:56:38.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.6.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.6.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.6.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.6.2\/manifests"
+            },
+            {
+                "name": "v5.2.0",
+                "sha": "edf9c40956d19e6ab3f9151bfe0dfac6be06fa21",
+                "kind": "commit",
+                "published_at": "2022-07-19T15:43:58.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.2.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.2.0\/manifests"
+            },
+            {
+                "name": "v5.2.0-beta1",
+                "sha": "fca04c07131a81e625a516cf7b98a8c7df0df1c1",
+                "kind": "commit",
+                "published_at": "2022-05-13T16:44:01.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.2.0-beta1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.2.0-beta1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.2.0-beta1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.2.0-beta1\/manifests"
+            },
+            {
+                "name": "v4.6.1",
+                "sha": "043a03c95a2ad6738f85b65e53b9dbdfb03b8d10",
+                "kind": "commit",
+                "published_at": "2021-10-28T14:45:21.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.6.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.6.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.6.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.6.1\/manifests"
+            },
+            {
+                "name": "v5.1.3",
+                "sha": "1a6fdfae6be09b09eaced8f0e442ca6f7680a61e",
+                "kind": "commit",
+                "published_at": "2021-10-09T06:43:19.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.1.3",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.1.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.1.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.1.3\/manifests"
+            },
+            {
+                "name": "v5.1.2",
+                "sha": "5ecef8ac010249536f92206af500f8670813c8a8",
+                "kind": "commit",
+                "published_at": "2021-10-05T15:50:18.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.1.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.1.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.1.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.1.2\/manifests"
+            },
+            {
+                "name": "v5.1.1",
+                "sha": "0d81d3cbc14dfcdca8a868e3f25189a4f1ab273c",
+                "kind": "commit",
+                "published_at": "2021-09-07T15:37:44.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.1.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.1.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.1.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.1.1\/manifests"
+            },
+            {
+                "name": "v5.1.0",
+                "sha": "f20fece3a8cdd0e76a42c2737524b7652bf54d26",
+                "kind": "commit",
+                "published_at": "2021-08-04T15:41:51.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.1.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.1.0\/manifests"
+            },
+            {
+                "name": "v5.0.2",
+                "sha": "688bce4fa695cc360a0d084e34f029b0c192b223",
+                "kind": "commit",
+                "published_at": "2021-06-22T18:29:16.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.0.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.0.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.2\/manifests"
+            },
+            {
+                "name": "v5.0.1",
+                "sha": "58b1be927f43c779377e478df2d119f2ddf956ca",
+                "kind": "commit",
+                "published_at": "2021-05-13T16:22:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.0.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.0.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.1\/manifests"
+            },
+            {
+                "name": "v5.0.0",
+                "sha": "bf0936748602c8109fd916c64b4560799fa1c3f8",
+                "kind": "commit",
+                "published_at": "2021-05-05T19:32:12.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.0.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0\/manifests"
+            },
+            {
+                "name": "v5.0.0-beta3",
+                "sha": "220139a89ffc3864bbb6e1b35471667318eadc1f",
+                "kind": "commit",
+                "published_at": "2021-03-23T16:26:54.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.0.0-beta3",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.0.0-beta3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0-beta3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0-beta3\/manifests"
+            },
+            {
+                "name": "v5.0.0-beta2",
+                "sha": "e50c11b8c6434b6d68ea5897771e4d35fe12f5c3",
+                "kind": "commit",
+                "published_at": "2021-02-10T16:14:51.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.0.0-beta2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.0.0-beta2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0-beta2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0-beta2\/manifests"
+            },
+            {
+                "name": "v4.6.0",
+                "sha": "6ffb0b48e455430f8a5359ed689ad64c1143fac2",
+                "kind": "commit",
+                "published_at": "2021-01-19T16:16:38.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.6.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.6.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.6.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.6.0\/manifests"
+            },
+            {
+                "name": "v5.0.0-beta1",
+                "sha": "63f3d939eaceeb84dcc77a7392953bcc8c5bc0a3",
+                "kind": "commit",
+                "published_at": "2020-12-07T16:18:16.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.0.0-beta1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.0.0-beta1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0-beta1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0-beta1\/manifests"
+            },
+            {
+                "name": "v5.0.0-alpha3",
+                "sha": "384eccbfaf3f234944f8d60ac70dd7966814c994",
+                "kind": "commit",
+                "published_at": "2020-11-11T17:07:37.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.0.0-alpha3",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.0.0-alpha3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0-alpha3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0-alpha3\/manifests"
+            },
+            {
+                "name": "v4.5.3",
+                "sha": "a716fb03f965dc0846df479e14388b1b4b93d7ce",
+                "kind": "commit",
+                "published_at": "2020-10-13T15:38:30.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.5.3",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.5.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.5.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.5.3\/manifests"
+            },
+            {
+                "name": "v5.0.0-alpha2",
+                "sha": "b083c9639fd9012e5cba57d6c4088d43b3c3e57d",
+                "kind": "commit",
+                "published_at": "2020-09-29T15:33:00.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.0.0-alpha2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.0.0-alpha2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0-alpha2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0-alpha2\/manifests"
+            },
+            {
+                "name": "v4.5.2",
+                "sha": "5f2480a90ab911babc53039835fe78c6fc12646d",
+                "kind": "commit",
+                "published_at": "2020-08-06T16:22:43.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.5.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.5.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.5.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.5.2\/manifests"
+            },
+            {
+                "name": "v4.5.1",
+                "sha": "89dc9750ec029a1479cba87f27ab936df6edb681",
+                "kind": "commit",
+                "published_at": "2020-08-04T16:24:33.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.5.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.5.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.5.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.5.1\/manifests"
+            },
+            {
+                "name": "v5.0.0-alpha1",
+                "sha": "a1708ec2a38d331c4c9eacac08ce9c9839649476",
+                "kind": "tag",
+                "published_at": "2020-06-16T19:12:01.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v5.0.0-alpha1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v5.0.0-alpha1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0-alpha1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v5.0.0-alpha1\/manifests"
+            },
+            {
+                "name": "v4.5.0",
+                "sha": "7a6da5e3e7ad7c749dde806546a35d4d4259d965",
+                "kind": "commit",
+                "published_at": "2020-05-12T17:44:42.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.5.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.5.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.5.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.5.0\/manifests"
+            },
+            {
+                "name": "v4.4.1",
+                "sha": "dca1ab7d877bc4b664b43604657a2b5fbe2b4ecb",
+                "kind": "commit",
+                "published_at": "2019-11-28T12:59:49.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.4.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.4.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.4.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.4.1\/manifests"
+            },
+            {
+                "name": "v4.4.0",
+                "sha": "593574d510050dc2d5eeafe70a58ae182f020480",
+                "kind": "commit",
+                "published_at": "2019-11-26T17:12:00.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.4.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.4.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.4.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.4.0\/manifests"
+            },
+            {
+                "name": "v4.3.1",
+                "sha": "8fa0d3010112dca5dd6dd501173415856001ba8b",
+                "kind": "commit",
+                "published_at": "2019-02-13T16:01:40.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.3.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.3.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.3.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.3.1\/manifests"
+            },
+            {
+                "name": "v3.4.1",
+                "sha": "68b0d231a13201eb14acd3dc84e51543d16e5f7e",
+                "kind": "commit",
+                "published_at": "2019-02-13T15:55:38.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.4.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.4.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.4.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.4.1\/manifests"
+            },
+            {
+                "name": "v4.3.0",
+                "sha": "1ded0d6a4eefb7daca62c44e4e735aec200f0b6f",
+                "kind": "commit",
+                "published_at": "2019-02-11T19:15:34.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.3.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.3.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.3.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.3.0\/manifests"
+            },
+            {
+                "name": "v4.2.1",
+                "sha": "9e4e94747bd698f4f61d48ed54c9c6d4d199bd32",
+                "kind": "commit",
+                "published_at": "2018-12-21T18:55:28.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.2.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.2.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.2.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.2.1\/manifests"
+            },
+            {
+                "name": "v4.2.0",
+                "sha": "d50ed9a2bde22067c0e5f21d1614e477e362165a",
+                "kind": "commit",
+                "published_at": "2018-12-21T17:03:29.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.2.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.2.0\/manifests"
+            },
+            {
+                "name": "v3.4.0",
+                "sha": "4c547f2175b9a05aa43551f6927da83fe249ce42",
+                "kind": "commit",
+                "published_at": "2018-12-13T23:45:51.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.4.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.4.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.4.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.4.0\/manifests"
+            },
+            {
+                "name": "v4.1.3",
+                "sha": "3b558734382ce58b51e5fc676453bfd53bba9201",
+                "kind": "commit",
+                "published_at": "2018-07-24T15:54:34.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.1.3",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.1.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.1.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.1.3\/manifests"
+            },
+            {
+                "name": "v4.1.2",
+                "sha": "1f46337a89ed21c94a7c37bc0c0e14a71fef7d97",
+                "kind": "commit",
+                "published_at": "2018-07-12T16:27:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.1.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.1.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.1.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.1.2\/manifests"
+            },
+            {
+                "name": "v4.1.1",
+                "sha": "779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
+                "kind": "commit",
+                "published_at": "2018-04-30T16:04:33.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.1.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.1.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.1.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.1.1\/manifests"
+            },
+            {
+                "name": "v4.1.0",
+                "sha": "8f7bd419935adfcd53c471a0202083464800619e",
+                "kind": "commit",
+                "published_at": "2018-04-09T16:00:23.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.1.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.1.0\/manifests"
+            },
+            {
+                "name": "v4.0.0",
+                "sha": "8a628b943cf31ca0a002c08af661a95772480225",
+                "kind": "commit",
+                "published_at": "2018-01-18T18:29:48.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.0.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0\/manifests"
+            },
+            {
+                "name": "v4.0.0-beta.3",
+                "sha": "ced70da441d487efb8589acbff445d6b5fa68bb9",
+                "kind": "commit",
+                "published_at": "2017-12-28T17:50:04.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.0.0-beta.3",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.0.0-beta.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-beta.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-beta.3\/manifests"
+            },
+            {
+                "name": "v4.0.0-beta.2",
+                "sha": "fc94de5b8b5b329a298eeeb76174b146ff17af2d",
+                "kind": "commit",
+                "published_at": "2017-10-19T19:23:29.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.0.0-beta.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.0.0-beta.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-beta.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-beta.2\/manifests"
+            },
+            {
+                "name": "v4.0.0-beta",
+                "sha": "35f80bb12e4e71fd777ee60ffa43711d8f84b1a6",
+                "kind": "commit",
+                "published_at": "2017-08-11T03:56:35.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.0.0-beta",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.0.0-beta",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-beta",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-beta\/manifests"
+            },
+            {
+                "name": "v4.0.0-alpha.6",
+                "sha": "65ffb1c3b6e94440812a2e228cb8e8be512652ec",
+                "kind": "commit",
+                "published_at": "2017-01-06T16:41:52.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.0.0-alpha.6",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.0.0-alpha.6",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-alpha.6",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-alpha.6\/manifests"
+            },
+            {
+                "name": "v4.0.0-alpha.5",
+                "sha": "b5890e0608ad2262cde4a38e90afa19f1cb5d852",
+                "kind": "commit",
+                "published_at": "2016-10-19T15:30:27.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.0.0-alpha.5",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.0.0-alpha.5",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-alpha.5",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-alpha.5\/manifests"
+            },
+            {
+                "name": "v4.0.0-alpha.4",
+                "sha": "295c93846c154fb461f85b30e663102f7e171104",
+                "kind": "commit",
+                "published_at": "2016-09-05T19:47:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.0.0-alpha.4",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.0.0-alpha.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-alpha.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-alpha.4\/manifests"
+            },
+            {
+                "name": "v4.0.0-alpha.3",
+                "sha": "c7de6107a86ebe65a6f5d5b88884256e5094ca92",
+                "kind": "commit",
+                "published_at": "2016-07-27T16:40:40.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.0.0-alpha.3",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.0.0-alpha.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-alpha.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-alpha.3\/manifests"
+            },
+            {
+                "name": "v3.3.7",
+                "sha": "0b9c4a4007c44201dce9a6cc1a38407005c26c86",
+                "kind": "commit",
+                "published_at": "2016-07-25T15:51:55.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.3.7",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.3.7",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.7",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.7\/manifests"
+            },
+            {
+                "name": "v4.0.0-alpha.2",
+                "sha": "48938155eb24b4ccdde09426066869504c6dab3c",
+                "kind": "commit",
+                "published_at": "2015-12-08T17:51:50.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.0.0-alpha.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.0.0-alpha.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-alpha.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-alpha.2\/manifests"
+            },
+            {
+                "name": "v3.3.6",
+                "sha": "81df608a40bf0629a1dc08e584849bb1e43e0b7a",
+                "kind": "commit",
+                "published_at": "2015-11-24T19:37:05.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.3.6",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.3.6",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.6",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.6\/manifests"
+            },
+            {
+                "name": "v4.0.0-alpha",
+                "sha": "980d8ea2d828fe1796a423f80d84d526b0252a89",
+                "kind": "commit",
+                "published_at": "2015-08-19T07:07:59.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v4.0.0-alpha",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.0.0-alpha",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-alpha",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v4.0.0-alpha\/manifests"
+            },
+            {
+                "name": "v3.3.5",
+                "sha": "16b48259a62f576e52c903c476bd42b90ab22482",
+                "kind": "commit",
+                "published_at": "2015-06-16T16:13:22.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.3.5",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.3.5",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.5",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.5\/manifests"
+            },
+            {
+                "name": "v3.3.4",
+                "sha": "a10eb60bc0b07b747fa0c4ebd8821eb7307bd07f",
+                "kind": "commit",
+                "published_at": "2015-03-16T15:44:41.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.3.4",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.3.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.4\/manifests"
+            },
+            {
+                "name": "v3.3.2",
+                "sha": "bcf7dd38b5ab180256e2e4fb5da0369551b3f082",
+                "kind": "commit",
+                "published_at": "2015-01-19T17:03:09.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.3.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.3.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.2\/manifests"
+            },
+            {
+                "name": "v3.3.1",
+                "sha": "9a7e365c2c4360335d25246dac11afb1f577210a",
+                "kind": "commit",
+                "published_at": "2014-11-12T17:03:16.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.3.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.3.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.1\/manifests"
+            },
+            {
+                "name": "v3.3.0",
+                "sha": "16dbdbd7a2c6cfa3be4e5dcc52249e577c02c84a",
+                "kind": "commit",
+                "published_at": "2014-10-29T18:56:48.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.3.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.3.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.3.0\/manifests"
+            },
+            {
+                "name": "v3.2.0",
+                "sha": "c068162161154a4b85110ea1e7dd3d7897ce2b72",
+                "kind": "commit",
+                "published_at": "2014-06-26T16:36:48.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.2.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.2.0\/manifests"
+            },
+            {
+                "name": "v3.1.1",
+                "sha": "a365d8689c3f3cee7f1acf86b61270ecca8e106d",
+                "kind": "commit",
+                "published_at": "2014-02-13T17:24:59.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.1.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.1.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.1.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.1.1\/manifests"
+            },
+            {
+                "name": "v3.1.0",
+                "sha": "1409cde7e800ca83fd761f87e5ad8f0d259e38d1",
+                "kind": "commit",
+                "published_at": "2014-01-30T16:30:37.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.1.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.1.0\/manifests"
+            },
+            {
+                "name": "v3.0.3",
+                "sha": "6d03173a1aad98e75f7d33e65b411c519176c59a",
+                "kind": "commit",
+                "published_at": "2013-12-05T16:09:10.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.0.3",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.0.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.0.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.0.3\/manifests"
+            },
+            {
+                "name": "v3.0.2",
+                "sha": "3887f540b978d593f433bfef15888bc2d103de72",
+                "kind": "commit",
+                "published_at": "2013-11-06T21:19:18.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.0.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.0.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.0.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.0.2\/manifests"
+            },
+            {
+                "name": "v3.0.1",
+                "sha": "867e2bef8d9c9b901022899227b306a532f5baf3",
+                "kind": "commit",
+                "published_at": "2013-10-30T17:03:56.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.0.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.0.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.0.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.0.1\/manifests"
+            },
+            {
+                "name": "v3.0.0",
+                "sha": "e8a1df5f060bf7e6631554648e0abde150aedbe4",
+                "kind": "commit",
+                "published_at": "2013-08-19T21:18:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.0.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.0.0\/manifests"
+            },
+            {
+                "name": "v3.0.0-rc.2",
+                "sha": "d1e18e55ac7ccc069671bed4314ca9f965a09de7",
+                "kind": "commit",
+                "published_at": "2013-08-13T23:00:05.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.0.0-rc.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.0.0-rc.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.0.0-rc.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.0.0-rc.2\/manifests"
+            },
+            {
+                "name": "v3.0.0-rc1",
+                "sha": "9c63ffa00fd55c7e61c51b58778b06b28f93e1a8",
+                "kind": "commit",
+                "published_at": "2013-07-27T08:06:59.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v3.0.0-rc1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.0.0-rc1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.0.0-rc1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v3.0.0-rc1\/manifests"
+            },
+            {
+                "name": "v2.3.2",
+                "sha": "b4c4072679943773a7582daa63f545ba818fa627",
+                "kind": "commit",
+                "published_at": "2013-07-27T06:36:38.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.3.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.3.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.3.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.3.2\/manifests"
+            },
+            {
+                "name": "v2.3.1",
+                "sha": "eb24718add4dd36fe92fdbdb79e6ff4ce5919300",
+                "kind": "tag",
+                "published_at": "2013-03-01T05:25:00.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.3.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.3.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.3.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.3.1\/manifests"
+            },
+            {
+                "name": "v2.3.0",
+                "sha": "8c7f9c66a7d12f47f50618ef420868fe836d0c33",
+                "kind": "tag",
+                "published_at": "2013-02-08T06:13:36.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.3.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.3.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.3.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.3.0\/manifests"
+            },
+            {
+                "name": "v2.2.2",
+                "sha": "9376a7c221a64c2bf508d02ea2ccd85748d10fcc",
+                "kind": "tag",
+                "published_at": "2012-12-08T21:51:48.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.2.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.2.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.2.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.2.2\/manifests"
+            },
+            {
+                "name": "v2.2.1",
+                "sha": "778ecbbfddda4cefd69857a30503cc5f751bff69",
+                "kind": "tag",
+                "published_at": "2012-10-31T04:34:53.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.2.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.2.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.2.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.2.1\/manifests"
+            },
+            {
+                "name": "v2.2.0",
+                "sha": "b5af762ef59e1fa97f4386f5feadb67aa5183fef",
+                "kind": "tag",
+                "published_at": "2012-10-30T05:02:46.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.2.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.2.0\/manifests"
+            },
+            {
+                "name": "v2.1.1",
+                "sha": "c52368d3c5984b28e6a71e5e1240afdd788fc2e6",
+                "kind": "tag",
+                "published_at": "2012-09-05T03:45:15.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.1.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.1.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.1.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.1.1\/manifests"
+            },
+            {
+                "name": "v2.1.0",
+                "sha": "9e0d87a4dd7488e0c3987ef2869924d6c5aa9f46",
+                "kind": "tag",
+                "published_at": "2012-08-20T23:45:21.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.1.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.1.0\/manifests"
+            },
+            {
+                "name": "v2.0.4",
+                "sha": "ebc69356637143c938c07904d10928c11e742196",
+                "kind": "tag",
+                "published_at": "2012-06-01T18:05:01.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.0.4",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.0.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.0.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.0.4\/manifests"
+            },
+            {
+                "name": "v2.0.3",
+                "sha": "aaabe2a46c64e7d9ffd5735dba2db4f3cf9906f5",
+                "kind": "tag",
+                "published_at": "2012-04-25T01:11:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.0.3",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.0.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.0.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.0.3\/manifests"
+            },
+            {
+                "name": "v2.0.2",
+                "sha": "59503e71ff06d0fd065c2fb981f55f4651ebc274",
+                "kind": "tag",
+                "published_at": "2012-03-12T21:10:50.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.0.2",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.0.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.0.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.0.2\/manifests"
+            },
+            {
+                "name": "v2.0.1",
+                "sha": "7ec09d0db9b1117d708682a08efaa55045e6926e",
+                "kind": "tag",
+                "published_at": "2012-02-17T06:50:24.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.0.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.0.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.0.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.0.1\/manifests"
+            },
+            {
+                "name": "v2.0.0",
+                "sha": "fd49d4a44f7fe73054b861461b9ec0f36a1bb29a",
+                "kind": "tag",
+                "published_at": "2012-02-01T01:38:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v2.0.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v2.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v2.0.0\/manifests"
+            },
+            {
+                "name": "v1.4.0",
+                "sha": "f92759b36db43e782e4235f1f214ac5851383f9b",
+                "kind": "tag",
+                "published_at": "2011-11-04T00:42:30.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v1.4.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v1.4.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v1.4.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v1.4.0\/manifests"
+            },
+            {
+                "name": "v1.3.0",
+                "sha": "f03f7da08beede6e6a92ecc6bf28ca978750cd7a",
+                "kind": "tag",
+                "published_at": "2011-09-16T19:31:13.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v1.3.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v1.3.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v1.3.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v1.3.0\/manifests"
+            },
+            {
+                "name": "v1.2.0",
+                "sha": "2589c0ac4ecc86feed81cfc5df344e0eb78cda64",
+                "kind": "tag",
+                "published_at": "2011-09-03T07:28:17.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v1.2.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v1.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v1.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v1.2.0\/manifests"
+            },
+            {
+                "name": "v1.1.1",
+                "sha": "842683b6dfd799a5b665875d981196a623ca0840",
+                "kind": "tag",
+                "published_at": "2011-08-26T22:22:05.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v1.1.1",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v1.1.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v1.1.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v1.1.1\/manifests"
+            },
+            {
+                "name": "v1.1.0",
+                "sha": "9a9161488248a274282cd78ed7c846a414d3bd32",
+                "kind": "tag",
+                "published_at": "2011-08-22T20:22:49.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v1.1.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v1.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v1.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v1.1.0\/manifests"
+            },
+            {
+                "name": "v1.0.0",
+                "sha": "ae02a8a30049844a8bd2f81e74c622196b4a8d2a",
+                "kind": "tag",
+                "published_at": "2011-08-18T18:45:49.000Z",
+                "download_url": "https:\/\/codeload.github.com\/twbs\/bootstrap\/tar.gz\/v1.0.0",
+                "html_url": "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v1.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v1.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/twbs%2Fbootstrap\/tags\/v1.0.0\/manifests"
+            }
+        ]
+    },
+    "repo_metadata_updated_at": "2024-09-07T23:08:55.774Z",
+    "dependent_packages_count": 377,
+    "downloads": 14029314,
+    "downloads_period": "total",
+    "dependent_repos_count": 5770,
+    "rankings": {
+        "downloads": 0.21073135737397838,
+        "dependent_repos_count": 0.12155662222045091,
+        "dependent_packages_count": 0.10262567285824953,
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "docker_downloads_count": 0.1504512291417056,
+        "average": 0.09756081359906406
+    },
+    "purl": "pkg:composer\/twbs\/bootstrap",
+    "advisories": [
+        {
+            "uuid": "GSA_kwCzR0hTQS0zd3FmLTR4ODktOWc3Oc3uvQ",
+            "url": "https:\/\/github.com\/advisories\/GHSA-3wqf-4x89-9g79",
+            "title": "Bootstrap vulnerable to Cross-Site Scripting (XSS)",
+            "description": "In Bootstrap starting in version 2.3.0 and prior to 3.4.0, as well as 4.x before 4.1.2, XSS is possible in the collapse data-parent attribute.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2022-05-13T01:07:54.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 6.1,
+            "cvss_vector": "CVSS:3.0\/AV:N\/AC:L\/PR:N\/UI:R\/S:C\/C:L\/I:L\/A:N",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-14040",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/26423",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/26625",
+                "https:\/\/github.com\/twbs\/bootstrap\/pull\/26630",
+                "https:\/\/lists.apache.org\/thread.html\/519eb0fd45642dcecd9ff74cb3e71c20a4753f7d82e2f07864b5108f@%3Cdev.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/52e0e6b5df827ee7f1e68f7cc3babe61af3b2160f5d74a85469b7b0e@%3Cdev.superset.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/b0656d359c7d40ec9f39c8cc61bca66802ef9a2a12ee199f5b0c1442@%3Cdev.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc@%3Cissues.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/r3dc0cac8d856bca02bd6997355d7ff83027dcfc82f8646a29b89b714@%3Cissues.hbase.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/rd0e44e8ef71eeaaa3cf3d1b8b41eb25894372e2995ec908ce7624d26@%3Ccommits.pulsar.apache.org%3E",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2018\/08\/msg00027.html",
+                "https:\/\/seclists.org\/bugtraq\/2019\/May\/18",
+                "https:\/\/www.oracle.com\/security-alerts\/cpuApr2021.html",
+                "https:\/\/www.tenable.com\/security\/tns-2021-14",
+                "http:\/\/packetstormsecurity.com\/files\/152787\/dotCMS-5.1.1-Vulnerable-Dependencies.html",
+                "http:\/\/packetstormsecurity.com\/files\/156743\/OctoberCMS-Insecure-Dependencies.html",
+                "http:\/\/seclists.org\/fulldisclosure\/2019\/May\/10",
+                "http:\/\/seclists.org\/fulldisclosure\/2019\/May\/11",
+                "http:\/\/seclists.org\/fulldisclosure\/2019\/May\/13",
+                "https:\/\/github.com\/twbs\/bootstrap\/blob\/v3.4.1\/js\/collapse.js#L140",
+                "https:\/\/github.com\/twbs\/bootstrap\/blob\/v3.4.1\/js\/scrollspy.js#L56",
+                "https:\/\/github.com\/twbs\/bootstrap\/blob\/v3.4.1\/js\/tooltip.js#L352",
+                "https:\/\/github.com\/twbs\/bootstrap-rubygem\/commit\/f34c43c936ac7d0ebb129289321d8c51cd56aed1#diff-4e736e880b7fc39eb5e85576b629f6e3cd08f02f45104a7b4581f82852e97a81R1306",
+                "https:\/\/github.com\/twbs\/bootstrap\/commit\/149096016f70fd815540d62c0989fd99cdc809e0",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap\/CVE-2018-14040.yml",
+                "https:\/\/github.com\/twbs\/bootstrap\/commit\/2a5ba23ce8f041f3548317acc992ed8a736b609d",
+                "https:\/\/blog.getbootstrap.com\/2018\/07\/12\/bootstrap-4-1-2",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap-sass\/CVE-2018-14040.yml",
+                "https:\/\/github.com\/advisories\/GHSA-3wqf-4x89-9g79"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-3wqf-4x89-9g79",
+                "CVE-2018-14040"
+            ],
+            "repository_url": "https:\/\/github.com\/twbs\/bootstrap",
+            "blast_radius": 150.3043045692804,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        },
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.3.0, < 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "twbs\/bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.3.0, < 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap-sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap.sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        },
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.3.0, < 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.3.0, < 3.4.0"
+                        },
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "maven",
+                    "package_name": "org.webjars:bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.3.0, < 3.4.0"
+                        },
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.3.0, < 3.4.0"
+                        },
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap"
+                }
+            ],
+            "created_at": "2022-12-21T16:11:57.856Z",
+            "updated_at": "2024-08-05T16:34:01.000Z"
+        },
+        {
+            "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTRwMjQtdm1jci00Z3Fq",
+            "url": "https:\/\/github.com\/advisories\/GHSA-4p24-vmcr-4gqj",
+            "title": "Bootstrap Cross-site Scripting vulnerability",
+            "description": "In Bootstrap 2.x from 2.0.4, 3.x before 3.4.0 and 4.x-beta before 4.0.0-beta.2, XSS is possible in the data-target attribute. Note that this is a different vulnerability than CVE-2018-14041.\n\nSee https:\/\/blog.getbootstrap.com\/2018\/12\/13\/bootstrap-3-4-0\/ for more info.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2019-01-17T13:57:27.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 6.1,
+            "cvss_vector": "CVSS:3.0\/AV:N\/AC:L\/PR:N\/UI:R\/S:C\/C:L\/I:L\/A:N",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2016-10735",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/20184",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/27915#issuecomment-452140906",
+                "https:\/\/github.com\/twbs\/bootstrap\/pull\/23679",
+                "https:\/\/github.com\/twbs\/bootstrap\/pull\/23687",
+                "https:\/\/github.com\/twbs\/bootstrap\/pull\/26460",
+                "https:\/\/access.redhat.com\/errata\/RHBA-2019:1076",
+                "https:\/\/access.redhat.com\/errata\/RHBA-2019:1570",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2019:1456",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2019:3023",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2020:0132",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2020:0133",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap-sass\/CVE-2016-10735.yml",
+                "https:\/\/github.com\/github\/advisory-database\/pull\/3281",
+                "https:\/\/blog.getbootstrap.com\/2018\/12\/13\/bootstrap-3-4-0",
+                "https:\/\/blog.getbootstrap.com\/2018\/07\/12\/bootstrap-4-1-2",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap\/CVE-2016-10735.yml",
+                "https:\/\/github.com\/advisories\/GHSA-4p24-vmcr-4gqj"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-4p24-vmcr-4gqj",
+                "CVE-2016-10735"
+            ],
+            "repository_url": "https:\/\/github.com\/twbs\/bootstrap",
+            "blast_radius": 150.3043045692804,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.0.0-beta.2",
+                            "vulnerable_version_range": ">= 4.0.0-beta, < 4.0.0-beta.2"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap.sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.0.4, < 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap-sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.0.4, < 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap-sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.0.0-beta.2",
+                            "vulnerable_version_range": ">= 4.0.0-beta, < 4.0.0-beta.2"
+                        },
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.0.4, < 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.0.0-beta.2",
+                            "vulnerable_version_range": ">= 4.0.0-beta, < 4.0.0-beta.2"
+                        },
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.0.4, < 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "twbs\/bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.0.0-beta.2",
+                            "vulnerable_version_range": "< 4.0.0-beta.2"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.0.0-beta.2",
+                            "vulnerable_version_range": ">= 4.0.0-beta, < 4.0.0-beta.2"
+                        },
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.0.4, < 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "maven",
+                    "package_name": "org.webjars:bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.0.4, < 3.4.0"
+                        },
+                        {
+                            "first_patched_version": "4.0.0-beta.2",
+                            "vulnerable_version_range": ">= 4.0.0-beta, < 4.0.0-beta.2"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap"
+                }
+            ],
+            "created_at": "2022-12-21T16:13:31.921Z",
+            "updated_at": "2024-08-05T16:29:12.000Z"
+        },
+        {
+            "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTdtdnItNXgyZy13ZmM4",
+            "url": "https:\/\/github.com\/advisories\/GHSA-7mvr-5x2g-wfc8",
+            "title": "Bootstrap Cross-site Scripting vulnerability",
+            "description": "In Bootstrap starting in version 2.3.0 and prior to versions 3.4.0 and 4.1.2, XSS is possible in the data-container property of tooltip.  This is similar to CVE-2018-14041.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2018-09-13T15:50:32.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 6.1,
+            "cvss_vector": "CVSS:3.0\/AV:N\/AC:L\/PR:N\/UI:R\/S:C\/C:L\/I:L\/A:N",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-14042",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/26423",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/26628",
+                "https:\/\/github.com\/twbs\/bootstrap\/pull\/26630",
+                "https:\/\/lists.apache.org\/thread.html\/519eb0fd45642dcecd9ff74cb3e71c20a4753f7d82e2f07864b5108f@%3Cdev.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/52e0e6b5df827ee7f1e68f7cc3babe61af3b2160f5d74a85469b7b0e@%3Cdev.superset.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/b0656d359c7d40ec9f39c8cc61bca66802ef9a2a12ee199f5b0c1442@%3Cdev.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc@%3Cissues.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/r3dc0cac8d856bca02bd6997355d7ff83027dcfc82f8646a29b89b714@%3Cissues.hbase.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/rd0e44e8ef71eeaaa3cf3d1b8b41eb25894372e2995ec908ce7624d26@%3Ccommits.pulsar.apache.org%3E",
+                "https:\/\/seclists.org\/bugtraq\/2019\/May\/18",
+                "https:\/\/www.oracle.com\/security-alerts\/cpuApr2021.html",
+                "http:\/\/packetstormsecurity.com\/files\/156743\/OctoberCMS-Insecure-Dependencies.html",
+                "http:\/\/seclists.org\/fulldisclosure\/2019\/May\/10",
+                "http:\/\/seclists.org\/fulldisclosure\/2019\/May\/11",
+                "http:\/\/seclists.org\/fulldisclosure\/2019\/May\/13",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/26428",
+                "https:\/\/github.com\/twbs\/bootstrap\/commit\/2d90d369bbc2bd2647620246c55cec8c4705e3d0",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap\/CVE-2018-14042.yml",
+                "https:\/\/www.tenable.com\/security\/tns-2021-14",
+                "https:\/\/github.com\/twbs\/bootstrap\/commit\/2a5ba23ce8f041f3548317acc992ed8a736b609d",
+                "https:\/\/blog.getbootstrap.com\/2018\/07\/12\/bootstrap-4-1-2",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap-sass\/CVE-2018-14042.yml",
+                "https:\/\/github.com\/advisories\/GHSA-7mvr-5x2g-wfc8"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-7mvr-5x2g-wfc8",
+                "CVE-2018-14042"
+            ],
+            "repository_url": "https:\/\/github.com\/twbs\/bootstrap",
+            "blast_radius": 150.3043045692804,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap.sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.0.4, < 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap-sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.3.0, < 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap-sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.3.0, < 3.4.0"
+                        },
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.3.0, < 3.4.0"
+                        },
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "twbs\/bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.3.0, < 3.4.0"
+                        },
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "maven",
+                    "package_name": "org.webjars:bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.3.0, < 3.4.0"
+                        },
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": ">= 2.3.0, < 3.4.0"
+                        },
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap"
+                }
+            ],
+            "created_at": "2022-12-21T16:13:36.257Z",
+            "updated_at": "2024-08-05T16:29:52.000Z"
+        },
+        {
+            "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXBqN20tZzUzbS03NjM4",
+            "url": "https:\/\/github.com\/advisories\/GHSA-pj7m-g53m-7638",
+            "title": "Bootstrap Cross-site Scripting vulnerability",
+            "description": "In Bootstrap 4.x before 4.1.2, XSS is possible in the data-target property of scrollspy. This is similar to CVE-2018-14042.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2018-09-13T15:49:56.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 6.1,
+            "cvss_vector": "CVSS:3.0\/AV:N\/AC:L\/PR:N\/UI:R\/S:C\/C:L\/I:L\/A:N",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-14041",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/26423",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/26627",
+                "https:\/\/github.com\/twbs\/bootstrap\/pull\/26630",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2019:1456",
+                "https:\/\/lists.apache.org\/thread.html\/519eb0fd45642dcecd9ff74cb3e71c20a4753f7d82e2f07864b5108f@%3Cdev.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/52e0e6b5df827ee7f1e68f7cc3babe61af3b2160f5d74a85469b7b0e@%3Cdev.superset.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/b0656d359c7d40ec9f39c8cc61bca66802ef9a2a12ee199f5b0c1442@%3Cdev.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc@%3Cissues.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/r3dc0cac8d856bca02bd6997355d7ff83027dcfc82f8646a29b89b714@%3Cissues.hbase.apache.org%3E",
+                "https:\/\/seclists.org\/bugtraq\/2019\/May\/18",
+                "https:\/\/www.oracle.com\/security-alerts\/cpuApr2021.html",
+                "http:\/\/packetstormsecurity.com\/files\/152787\/dotCMS-5.1.1-Vulnerable-Dependencies.html",
+                "http:\/\/packetstormsecurity.com\/files\/156743\/OctoberCMS-Insecure-Dependencies.html",
+                "http:\/\/seclists.org\/fulldisclosure\/2019\/May\/10",
+                "http:\/\/seclists.org\/fulldisclosure\/2019\/May\/11",
+                "http:\/\/seclists.org\/fulldisclosure\/2019\/May\/13",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/typo3\/cms-core\/CVE-2018-14041.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/typo3\/cms\/CVE-2018-14041.yaml",
+                "https:\/\/typo3.org\/security\/advisory\/typo3-core-sa-2019-006",
+                "https:\/\/blog.getbootstrap.com\/2018\/07\/12\/bootstrap-4-1-2",
+                "https:\/\/github.com\/advisories\/GHSA-pj7m-g53m-7638"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-pj7m-g53m-7638",
+                "CVE-2018-14041"
+            ],
+            "repository_url": "https:\/\/github.com\/twbs\/bootstrap",
+            "blast_radius": 146.0755436286439,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "maven",
+                    "package_name": "org.webjars:bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap.sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "twbs\/bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "9.5.4",
+                            "vulnerable_version_range": ">= 9.0.0, < 9.5.4"
+                        },
+                        {
+                            "first_patched_version": "8.7.23",
+                            "vulnerable_version_range": ">= 8.0.0, < 8.7.23"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "typo3\/cms"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "9.5.4",
+                            "vulnerable_version_range": ">= 9.0.0, < 9.5.4"
+                        },
+                        {
+                            "first_patched_version": "8.7.23",
+                            "vulnerable_version_range": ">= 8.0.0, < 8.7.23"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "typo3\/cms-core"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.1.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.2"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap"
+                }
+            ],
+            "created_at": "2022-12-21T16:13:32.190Z",
+            "updated_at": "2024-08-01T21:03:39.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS05bXZqLWY3dzgtcHZoMs4AA9zw",
+            "url": "https:\/\/github.com\/advisories\/GHSA-9mvj-f7w8-pvh2",
+            "title": "Bootstrap Cross-Site Scripting (XSS) vulnerability",
+            "description": "A vulnerability has been identified in Bootstrap that exposes users to Cross-Site Scripting (XSS) attacks. The issue is present in the carousel component, where the data-slide and data-slide-to attributes can be exploited through the href attribute of an <a> tag due to inadequate sanitization. This vulnerability could potentially enable attackers to execute arbitrary JavaScript within the victim's browser.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2024-07-11T18:31:14.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 6.4,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:H\/PR:N\/UI:R\/S:U\/C:H\/I:L\/A:L",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2024-6484",
+                "https:\/\/www.herodevs.com\/vulnerability-directory\/cve-2024-6484",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap-sass\/CVE-2024-6484.yml",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap\/CVE-2024-6484.yml",
+                "https:\/\/github.com\/advisories\/GHSA-9mvj-f7w8-pvh2"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-9mvj-f7w8-pvh2",
+                "CVE-2024-6484"
+            ],
+            "repository_url": null,
+            "blast_radius": 157.69631954809748,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": null,
+                            "vulnerable_version_range": ">= 2.0.0, <= 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "maven",
+                    "package_name": "org.webjars.npm:bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": null,
+                            "vulnerable_version_range": ">= 2.0.0, <= 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "maven",
+                    "package_name": "org.webjars:bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": null,
+                            "vulnerable_version_range": ">= 2.0.0, <= 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "twbs\/bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": null,
+                            "vulnerable_version_range": ">= 2.0.0, <= 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap.sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": null,
+                            "vulnerable_version_range": ">= 2.0.0, <= 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap-sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": null,
+                            "vulnerable_version_range": ">= 2.0.0, <= 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": null,
+                            "vulnerable_version_range": ">= 2.0.0, <= 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": null,
+                            "vulnerable_version_range": ">= 2.0.0, <= 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap"
+                }
+            ],
+            "created_at": "2024-08-01T22:05:33.004Z",
+            "updated_at": "2024-08-16T18:14:38.000Z"
+        },
+        {
+            "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXBoNTgtNHZyai13Nmhy",
+            "url": "https:\/\/github.com\/advisories\/GHSA-ph58-4vrj-w6hr",
+            "title": "bootstrap Cross-site Scripting vulnerability",
+            "description": "In Bootstrap before 3.4.0, XSS is possible in the affix configuration target property.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2019-01-17T13:57:56.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 6.1,
+            "cvss_vector": "CVSS:3.0\/AV:N\/AC:L\/PR:N\/UI:R\/S:C\/C:L\/I:L\/A:N",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-20677",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/27045",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/27915#issuecomment-452140906",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/27915#issuecomment-452196628",
+                "https:\/\/github.com\/twbs\/bootstrap\/pull\/27047",
+                "https:\/\/access.redhat.com\/errata\/RHBA-2019:1076",
+                "https:\/\/access.redhat.com\/errata\/RHBA-2019:1570",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2019:1456",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2019:3023",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2020:0132",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2020:0133",
+                "https:\/\/lists.apache.org\/thread.html\/52e0e6b5df827ee7f1e68f7cc3babe61af3b2160f5d74a85469b7b0e@%3Cdev.superset.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/rd0e44e8ef71eeaaa3cf3d1b8b41eb25894372e2995ec908ce7624d26@%3Ccommits.pulsar.apache.org%3E",
+                "https:\/\/github.com\/twbs\/bootstrap\/commit\/2a5ba23ce8f041f3548317acc992ed8a736b609d",
+                "https:\/\/blog.getbootstrap.com\/2018\/12\/13\/bootstrap-3-4-0",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap\/CVE-2018-20677.yml",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap-sass\/CVE-2018-20677.yml",
+                "https:\/\/github.com\/advisories\/GHSA-ph58-4vrj-w6hr"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-ph58-4vrj-w6hr",
+                "CVE-2018-20677"
+            ],
+            "repository_url": "https:\/\/github.com\/twbs\/bootstrap",
+            "blast_radius": 150.3043045692804,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap-sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "maven",
+                    "package_name": "org.webjars:bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "twbs\/bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap-sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap"
+                }
+            ],
+            "created_at": "2022-12-21T16:13:31.900Z",
+            "updated_at": "2024-08-05T16:30:12.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS12Yzh3LWpyOXYtdmo3Zs4AA90M",
+            "url": "https:\/\/github.com\/advisories\/GHSA-vc8w-jr9v-vj7f",
+            "title": "Bootstrap Cross-Site Scripting (XSS) vulnerability",
+            "description": "A vulnerability has been identified in Bootstrap that exposes users to Cross-Site Scripting (XSS) attacks. The issue is present in the carousel component, where the data-slide and data-slide-to attributes can be exploited through the href attribute of an <a> tag due to inadequate sanitization. This vulnerability could potentially enable attackers to execute arbitrary JavaScript within the victim's browser.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2024-07-11T18:31:14.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 6.4,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:H\/PR:N\/UI:R\/S:U\/C:H\/I:L\/A:L",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2024-6531",
+                "https:\/\/www.herodevs.com\/vulnerability-directory\/cve-2024-6531",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap\/CVE-2024-6531.yml",
+                "https:\/\/github.com\/advisories\/GHSA-vc8w-jr9v-vj7f"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-vc8w-jr9v-vj7f",
+                "CVE-2024-6531"
+            ],
+            "repository_url": null,
+            "blast_radius": 153.25958675792148,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "5.0.0",
+                            "vulnerable_version_range": ">= 4.0.0, <= 4.6.2"
+                        }
+                    ],
+                    "ecosystem": "maven",
+                    "package_name": "org.webjars.npm:bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "5.0.0",
+                            "vulnerable_version_range": ">= 4.0.0, <= 4.6.2"
+                        }
+                    ],
+                    "ecosystem": "maven",
+                    "package_name": "org.webjars:bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "5.0.0",
+                            "vulnerable_version_range": ">= 4.0.0, <= 4.6.2"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "twbs\/bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "5.0.0",
+                            "vulnerable_version_range": ">= 4.0.0, <= 4.6.2"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap.sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "5.0.0",
+                            "vulnerable_version_range": ">= 4.0.0, <= 4.6.2"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "5.0.0",
+                            "vulnerable_version_range": ">= 4.0.0, <= 4.6.2"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "5.0.0",
+                            "vulnerable_version_range": ">= 4.0.0, <= 4.6.2"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap"
+                }
+            ],
+            "created_at": "2024-08-01T22:05:32.607Z",
+            "updated_at": "2024-09-06T19:07:45.000Z"
+        },
+        {
+            "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTNtZ3AtZng5My05eHY1",
+            "url": "https:\/\/github.com\/advisories\/GHSA-3mgp-fx93-9xv5",
+            "title": "XSS vulnerability that affects bootstrap",
+            "description": "In Bootstrap before 3.4.0, XSS is possible in the tooltip data-viewport attribute.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2019-01-17T13:57:34.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 6.1,
+            "cvss_vector": "CVSS:3.0\/AV:N\/AC:L\/PR:N\/UI:R\/S:C\/C:L\/I:L\/A:N",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-20676",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/27044",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/27915#issuecomment-452140906",
+                "https:\/\/github.com\/twbs\/bootstrap\/issues\/27915#issuecomment-452196628",
+                "https:\/\/github.com\/twbs\/bootstrap\/pull\/27047",
+                "https:\/\/access.redhat.com\/errata\/RHBA-2019:1076",
+                "https:\/\/access.redhat.com\/errata\/RHBA-2019:1570",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2019:1456",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2019:3023",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2020:0132",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2020:0133",
+                "https:\/\/lists.apache.org\/thread.html\/rd0e44e8ef71eeaaa3cf3d1b8b41eb25894372e2995ec908ce7624d26@%3Ccommits.pulsar.apache.org%3E",
+                "https:\/\/github.com\/twbs\/bootstrap\/commit\/2a5ba23ce8f041f3548317acc992ed8a736b609d",
+                "https:\/\/blog.getbootstrap.com\/2018\/12\/13\/bootstrap-3-4-0",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap\/CVE-2018-20676.yml",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap-sass\/CVE-2018-20676.yml",
+                "https:\/\/github.com\/advisories\/GHSA-3mgp-fx93-9xv5"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-3mgp-fx93-9xv5",
+                "CVE-2018-20676"
+            ],
+            "repository_url": "https:\/\/github.com\/twbs\/bootstrap",
+            "blast_radius": 150.3043045692804,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap-sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "maven",
+                    "package_name": "org.webjars:bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "twbs\/bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap-sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.0",
+                            "vulnerable_version_range": "< 3.4.0"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap"
+                }
+            ],
+            "created_at": "2022-12-21T16:13:31.910Z",
+            "updated_at": "2024-08-05T16:28:42.000Z"
+        },
+        {
+            "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTl2M20tOGZwOC1tajk5",
+            "url": "https:\/\/github.com\/advisories\/GHSA-9v3m-8fp8-mj99",
+            "title": "Bootstrap Vulnerable to Cross-Site Scripting",
+            "description": "Versions of `bootstrap` prior to 3.4.1 for 3.x and 4.3.1 for 4.x are vulnerable to Cross-Site Scripting (XSS). The  `data-template` attribute of the tooltip and popover plugins lacks input sanitization and may allow attacker to execute arbitrary JavaScript.\n\n\n## Recommendation\n\nFor `bootstrap` 4.x upgrade to 4.3.1 or later.\nFor `bootstrap` 3.x upgrade to 3.4.1 or later.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2019-02-22T20:54:47.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 6.1,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:L\/PR:N\/UI:R\/S:C\/C:L\/I:L\/A:N",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2019-8331",
+                "https:\/\/cve.mitre.org\/cgi-bin\/cvename.cgi?name=CVE-2019-8331",
+                "https:\/\/github.com\/twbs\/bootstrap\/pull\/28236",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2019:1456",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2019:3023",
+                "https:\/\/access.redhat.com\/errata\/RHSA-2019:3024",
+                "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v3.4.1",
+                "https:\/\/github.com\/twbs\/bootstrap\/releases\/tag\/v4.3.1",
+                "https:\/\/lists.apache.org\/thread.html\/10f0f3aefd51444d1198c65f44ffdf2d78ca3359423dbc1c168c9731@%3Cdev.flink.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/17ff53f7999e74fbe3cc0ceb4e1c3b00b180b7c5afec8e978837bc49@%3Cuser.flink.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/519eb0fd45642dcecd9ff74cb3e71c20a4753f7d82e2f07864b5108f@%3Cdev.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/52bafac05ad174000ea465fe275fd3cc7bd5c25535a7631c0bc9bfb2@%3Cuser.flink.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/52e0e6b5df827ee7f1e68f7cc3babe61af3b2160f5d74a85469b7b0e@%3Cdev.superset.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/54df3aeb4239b64b50b356f0ca6f986e3c4ca5b84c515dce077c7854@%3Cuser.flink.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/b0656d359c7d40ec9f39c8cc61bca66802ef9a2a12ee199f5b0c1442@%3Cdev.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc@%3Cissues.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/r3dc0cac8d856bca02bd6997355d7ff83027dcfc82f8646a29b89b714@%3Cissues.hbase.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/rd0e44e8ef71eeaaa3cf3d1b8b41eb25894372e2995ec908ce7624d26@%3Ccommits.pulsar.apache.org%3E",
+                "https:\/\/seclists.org\/bugtraq\/2019\/May\/18",
+                "https:\/\/support.f5.com\/csp\/article\/K24383845",
+                "https:\/\/support.f5.com\/csp\/article\/K24383845?utm_source=f5support&amp;utm_medium=RSS",
+                "https:\/\/www.oracle.com\/security-alerts\/cpuApr2021.html",
+                "http:\/\/packetstormsecurity.com\/files\/156743\/OctoberCMS-Insecure-Dependencies.html",
+                "http:\/\/seclists.org\/fulldisclosure\/2019\/May\/10",
+                "http:\/\/seclists.org\/fulldisclosure\/2019\/May\/11",
+                "http:\/\/seclists.org\/fulldisclosure\/2019\/May\/13",
+                "https:\/\/www.tenable.com\/security\/tns-2021-14",
+                "https:\/\/web.archive.org\/web\/20200227083900\/http:\/\/www.securityfocus.com\/bid\/107375",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/bootstrap\/CVE-2019-8331.yml",
+                "https:\/\/github.com\/rubysec\/ruby-advisory-db\/blob\/master\/gems\/twitter-bootstrap-rails\/CVE-2019-8331.yml",
+                "https:\/\/github.com\/seyhunak\/twitter-bootstrap-rails\/tree\/master\/app\/assets\/javascripts\/twitter\/bootstrap",
+                "https:\/\/lists.apache.org\/thread.html\/10f0f3aefd51444d1198c65f44ffdf2d78ca3359423dbc1c168c9731%40%3Cdev.flink.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/17ff53f7999e74fbe3cc0ceb4e1c3b00b180b7c5afec8e978837bc49%40%3Cuser.flink.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/519eb0fd45642dcecd9ff74cb3e71c20a4753f7d82e2f07864b5108f%40%3Cdev.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/52bafac05ad174000ea465fe275fd3cc7bd5c25535a7631c0bc9bfb2%40%3Cuser.flink.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/52e0e6b5df827ee7f1e68f7cc3babe61af3b2160f5d74a85469b7b0e%40%3Cdev.superset.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/54df3aeb4239b64b50b356f0ca6f986e3c4ca5b84c515dce077c7854%40%3Cuser.flink.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/b0656d359c7d40ec9f39c8cc61bca66802ef9a2a12ee199f5b0c1442%40%3Cdev.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc%40%3Cissues.drill.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/r3dc0cac8d856bca02bd6997355d7ff83027dcfc82f8646a29b89b714%40%3Cissues.hbase.apache.org%3E",
+                "https:\/\/lists.apache.org\/thread.html\/rd0e44e8ef71eeaaa3cf3d1b8b41eb25894372e2995ec908ce7624d26%40%3Ccommits.pulsar.apache.org%3E",
+                "https:\/\/support.f5.com\/csp\/article\/K24383845?utm_source=f5support&amp%3Butm_medium=RSS",
+                "https:\/\/blog.getbootstrap.com\/2019\/02\/13\/bootstrap-4-3-1-and-3-4-1",
+                "https:\/\/github.com\/advisories\/GHSA-9v3m-8fp8-mj99"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-9v3m-8fp8-mj99",
+                "CVE-2019-8331"
+            ],
+            "repository_url": "https:\/\/github.com\/twbs\/bootstrap",
+            "blast_radius": 150.3043045692804,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.3.1",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.3.1"
+                        },
+                        {
+                            "first_patched_version": "3.4.1",
+                            "vulnerable_version_range": ">= 3.0.0, < 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "twbs\/bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.3.1",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.3.1"
+                        },
+                        {
+                            "first_patched_version": "3.4.1",
+                            "vulnerable_version_range": ">= 3.0.0, < 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "maven",
+                    "package_name": "org.webjars:bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": null,
+                            "vulnerable_version_range": "<= 5.0.0"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "twitter-bootstrap-rails"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.1",
+                            "vulnerable_version_range": ">= 3.0.0, < 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap-sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.1",
+                            "vulnerable_version_range": ">= 3.0.0, < 3.4.1"
+                        },
+                        {
+                            "first_patched_version": "4.3.1",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.3.1"
+                        }
+                    ],
+                    "ecosystem": "npm",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.3.1",
+                            "vulnerable_version_range": "< 4.3.1"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap.sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.1",
+                            "vulnerable_version_range": ">= 3.0.0, < 3.4.1"
+                        },
+                        {
+                            "first_patched_version": "4.3.1",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.3.1"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "bootstrap"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.1",
+                            "vulnerable_version_range": ">= 3.0.0, < 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "nuget",
+                    "package_name": "Bootstrap.Less"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.4.1",
+                            "vulnerable_version_range": ">= 3.0.0, < 3.4.1"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap-sass"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.3.1",
+                            "vulnerable_version_range": "< 4.3.1"
+                        }
+                    ],
+                    "ecosystem": "rubygems",
+                    "package_name": "bootstrap"
+                }
+            ],
+            "created_at": "2022-12-21T16:13:31.040Z",
+            "updated_at": "2024-08-01T21:03:14.000Z"
+        }
+    ],
+    "docker_usage_url": "https:\/\/docker.ecosyste.ms\/usage\/packagist\/twbs\/bootstrap",
+    "docker_dependents_count": 20,
+    "docker_downloads_count": 22313561,
+    "usage_url": "https:\/\/repos.ecosyste.ms\/usage\/packagist\/twbs\/bootstrap",
+    "dependent_repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/usage\/packagist\/twbs\/bootstrap\/dependencies",
+    "status": null,
+    "funding_links": [
+        "https:\/\/github.com\/sponsors\/twbs",
+        "https:\/\/opencollective.com\/bootstrap"
+    ],
+    "critical": null,
+    "versions_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/twbs%2Fbootstrap\/versions",
+    "version_numbers_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/twbs%2Fbootstrap\/version_numbers",
+    "dependent_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/twbs%2Fbootstrap\/dependent_packages",
+    "related_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/twbs%2Fbootstrap\/related_packages",
+    "maintainers": [
+        {
+            "uuid": "twbs",
+            "login": "twbs",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 2,
+            "html_url": "https:\/\/packagist.org\/users\/twbs",
+            "role": null,
+            "created_at": "2022-11-10T10:45:03.418Z",
+            "updated_at": "2022-11-10T10:45:03.418Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/twbs\/packages"
+        }
+    ]
+}

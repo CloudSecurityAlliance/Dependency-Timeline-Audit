@@ -1,0 +1,75 @@
+{
+  "id": 1495680,
+  "name": "buildman",
+  "ecosystem": "npm",
+  "description": "This package is no longer supported and has been deprecated. To avoid malicious use, npm is hanging on to the package name.",
+  "homepage": null,
+  "licenses": "ISC",
+  "normalized_licenses": [
+    "ISC"
+  ],
+  "repository_url": null,
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 54,
+  "first_release_published_at": "2013-10-11T07:48:24.160Z",
+  "latest_release_published_at": "2017-06-20T22:46:25.002Z",
+  "latest_release_number": "1.0.0",
+  "last_synced_at": "2024-04-02T19:51:04.893Z",
+  "created_at": "2022-04-09T03:20:12.882Z",
+  "updated_at": "2024-04-02T19:51:04.893Z",
+  "registry_url": "https://www.npmjs.com/package/buildman",
+  "install_command": "npm install buildman",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "1.0.0",
+      "next": "0.4.0-next.1"
+    }
+  },
+  "repo_metadata": null,
+  "repo_metadata_updated_at": "2023-02-21T11:29:30.693Z",
+  "dependent_packages_count": 21,
+  "downloads": 180,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 18127,
+  "rankings": {
+    "downloads": 6.283160564047341,
+    "dependent_repos_count": 0.19974829470504304,
+    "dependent_packages_count": 1.1450609792882265,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": null,
+    "average": 2.5426566126802035
+  },
+  "purl": "pkg:npm/buildman",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/buildman",
+  "docker_dependents_count": null,
+  "docker_downloads_count": null,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/buildman",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/buildman/dependencies",
+  "status": "deprecated",
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/buildman/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/buildman/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/buildman/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/buildman/related_packages",
+  "maintainers": [
+    {
+      "uuid": "npm",
+      "login": "npm",
+      "name": null,
+      "email": "npm@npmjs.com",
+      "url": null,
+      "packages_count": 37098,
+      "html_url": "https://www.npmjs.com/~npm",
+      "role": null,
+      "created_at": "2022-11-11T16:20:55.063Z",
+      "updated_at": "2022-11-11T16:20:55.063Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/npm/packages"
+    }
+  ]
+}

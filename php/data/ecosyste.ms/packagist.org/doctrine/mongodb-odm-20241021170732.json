@@ -1,0 +1,1494 @@
+{
+    "id": 521409,
+    "name": "doctrine\/mongodb-odm",
+    "ecosystem": "packagist",
+    "description": "PHP Doctrine MongoDB Object Document Mapper (ODM) provides transparent persistence for PHP objects to MongoDB.",
+    "homepage": "https:\/\/www.doctrine-project.org\/projects\/mongodb-odm.html",
+    "licenses": "MIT",
+    "normalized_licenses": [
+        "MIT"
+    ],
+    "repository_url": "https:\/\/github.com\/doctrine\/mongodb-odm",
+    "keywords_array": [
+        "mongodb",
+        "php",
+        "data",
+        "object",
+        "odm",
+        "mapping",
+        "mapper"
+    ],
+    "namespace": "doctrine",
+    "versions_count": 90,
+    "first_release_published_at": "2014-05-05T16:17:08.000Z",
+    "latest_release_published_at": "2024-03-06T14:24:19.000Z",
+    "latest_release_number": "2.7.0",
+    "last_synced_at": "2024-10-21T18:01:18.150Z",
+    "created_at": "2022-04-07T09:15:39.702Z",
+    "updated_at": "2024-10-21T18:01:18.151Z",
+    "registry_url": "https:\/\/packagist.org\/packages\/doctrine\/mongodb-odm#",
+    "install_command": "composer require doctrine\/mongodb-odm",
+    "documentation_url": null,
+    "metadata": {
+        "funding": [
+            {
+                "url": "https:\/\/www.doctrine-project.org\/sponsorship.html",
+                "type": "custom"
+            },
+            {
+                "url": "https:\/\/www.patreon.com\/phpdoctrine",
+                "type": "patreon"
+            },
+            {
+                "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/doctrine%2Fmongodb-odm",
+                "type": "tidelift"
+            }
+        ]
+    },
+    "repo_metadata": {
+        "uuid": "677781",
+        "full_name": "doctrine\/mongodb-odm",
+        "owner": "doctrine",
+        "description": "The Official PHP MongoDB ORM\/ODM",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2024-01-02T13:11:11.000Z",
+        "size": 11894,
+        "stargazers_count": 1073,
+        "open_issues_count": 101,
+        "forks_count": 540,
+        "subscribers_count": 49,
+        "default_branch": "2.7.x",
+        "last_synced_at": "2024-01-02T22:09:41.401Z",
+        "etag": null,
+        "topics": [
+            "mongodb",
+            "odm",
+            "orm",
+            "php",
+            "symfony"
+        ],
+        "latest_commit_sha": null,
+        "homepage": "https:\/\/www.doctrine-project.org\/projects\/doctrine-mongodb-odm\/en\/latest\/",
+        "language": "PHP",
+        "has_issues": true,
+        "has_wiki": null,
+        "has_pages": null,
+        "mirror_url": null,
+        "source_name": null,
+        "license": "mit",
+        "status": null,
+        "scm": "git",
+        "pull_requests_enabled": true,
+        "icon_url": "https:\/\/github.com\/doctrine.png",
+        "metadata": {
+            "files": {
+                "readme": "README.markdown",
+                "changelog": "CHANGELOG-2.0.md",
+                "contributing": null,
+                "funding": ".github\/FUNDING.yml",
+                "license": "LICENSE",
+                "code_of_conduct": null,
+                "threat_model": null,
+                "audit": null,
+                "citation": null,
+                "codeowners": null,
+                "security": null,
+                "support": null,
+                "governance": null,
+                "roadmap": null,
+                "authors": null
+            },
+            "funding": {
+                "patreon": "phpdoctrine",
+                "tidelift": "packagist\/doctrine%2Fmongodb-odm",
+                "custom": "https:\/\/www.doctrine-project.org\/sponsorship.html"
+            }
+        },
+        "created_at": "2010-05-20T20:20:00.000Z",
+        "updated_at": "2024-01-02T22:09:41.401Z",
+        "dependencies_parsed_at": "2023-07-05T14:54:22.234Z",
+        "dependency_job_id": "d6ea6703-0129-4b84-be02-ddab02710082",
+        "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm",
+        "commit_stats": {
+            "total_commits": 3513,
+            "total_committers": 362,
+            "mean_commits": 9.704419889502763,
+            "dds": 0.8092798178195275,
+            "last_synced_commit": "495b5833058903070077d5f5d5c49ec71353b3c8"
+        },
+        "previous_names": [],
+        "tags_count": 88,
+        "repository_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm",
+        "tags_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags",
+        "releases_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/releases",
+        "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/manifests",
+        "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/doctrine",
+        "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/refs\/heads\/2.7.x",
+        "host": {
+            "name": "GitHub",
+            "url": "https:\/\/github.com",
+            "kind": "github",
+            "repositories_count": 178893105,
+            "owners_count": 10741081,
+            "icon_url": "https:\/\/github.com\/github.png",
+            "version": null,
+            "created_at": "2022-05-30T11:31:42.601Z",
+            "updated_at": "2022-07-04T15:15:14.044Z",
+            "host_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories",
+            "repository_names_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repository_names",
+            "owners_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners"
+        },
+        "owner_record": {
+            "login": "doctrine",
+            "name": "Doctrine",
+            "uuid": "209254",
+            "kind": "organization",
+            "description": "The Doctrine Project is the home to several PHP libraries primarily focused on database storage and object mapping.",
+            "email": null,
+            "website": "https:\/\/www.doctrine-project.org",
+            "location": "Planet Earth",
+            "twitter": null,
+            "company": null,
+            "icon_url": "https:\/\/avatars.githubusercontent.com\/u\/209254?v=4",
+            "repositories_count": 75,
+            "last_synced_at": "2023-04-09T13:31:22.235Z",
+            "metadata": {
+                "has_sponsors_listing": true
+            },
+            "html_url": "https:\/\/github.com\/doctrine",
+            "created_at": "2022-11-02T16:26:47.143Z",
+            "updated_at": "2023-04-09T13:31:22.423Z",
+            "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/doctrine",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/doctrine\/repositories"
+        },
+        "tags": [
+            {
+                "name": "2.6.2",
+                "sha": "a51bfc01425d2c30b69f2c5ce13fe0d3c58bbd98",
+                "kind": "tag",
+                "published_at": "2023-12-19T13:20:43.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.6.2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.6.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.6.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.6.2\/manifests"
+            },
+            {
+                "name": "2.6.1",
+                "sha": "fc236daa1503a89283ec6d1fcf7b821999f9fdd1",
+                "kind": "tag",
+                "published_at": "2023-11-24T16:30:11.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.6.1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.6.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.6.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.6.1\/manifests"
+            },
+            {
+                "name": "2.6.0",
+                "sha": "66a6f3ff7f6502bd06e3225c147df1f93c4d3676",
+                "kind": "tag",
+                "published_at": "2023-11-24T08:03:47.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.6.0",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.6.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.6.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.6.0\/manifests"
+            },
+            {
+                "name": "2.5.5",
+                "sha": "92b0d2fa9cb7814c23891cf40f51ebf6d41fe1cc",
+                "kind": "tag",
+                "published_at": "2023-11-24T07:41:56.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.5.5",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.5.5",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.5.5",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.5.5\/manifests"
+            },
+            {
+                "name": "2.5.4",
+                "sha": "fa10f36b5ecad18e00593306b71d723ffd1fd2d9",
+                "kind": "tag",
+                "published_at": "2023-11-03T12:41:37.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.5.4",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.5.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.5.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.5.4\/manifests"
+            },
+            {
+                "name": "2.5.3",
+                "sha": "771c4b33ac58529bb4c197202ff90664f11f749a",
+                "kind": "tag",
+                "published_at": "2023-10-23T20:53:46.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.5.3",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.5.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.5.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.5.3\/manifests"
+            },
+            {
+                "name": "2.5.2",
+                "sha": "bce7e339e9c0bc60a262f887a90f7b99d97d14a6",
+                "kind": "tag",
+                "published_at": "2023-04-13T20:10:41.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.5.2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.5.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.5.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.5.2\/manifests"
+            },
+            {
+                "name": "2.5.1",
+                "sha": "10530b32c66b4f634d95b7fcdbd973d9cfdb1f5e",
+                "kind": "tag",
+                "published_at": "2023-04-05T11:10:40.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.5.1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.5.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.5.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.5.1\/manifests"
+            },
+            {
+                "name": "2.5.0",
+                "sha": "daa27d7a9814b247060abc074cb095c93b46e6f8",
+                "kind": "tag",
+                "published_at": "2023-03-03T03:31:09.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.5.0",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.5.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.5.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.5.0\/manifests"
+            },
+            {
+                "name": "2.4.3",
+                "sha": "eeedec20c25ae746b57c9881ff011502eed84a87",
+                "kind": "tag",
+                "published_at": "2022-12-20T15:55:36.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.4.3",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.4.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.4.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.4.3\/manifests"
+            },
+            {
+                "name": "2.4.2",
+                "sha": "9066f03ce94d1da7c9dd7d34e571d37abf27c460",
+                "kind": "tag",
+                "published_at": "2022-05-12T21:52:48.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.4.2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.4.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.4.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.4.2\/manifests"
+            },
+            {
+                "name": "2.4.1",
+                "sha": "21d650f15f07df708365f7dc3c8851bcbc806f9b",
+                "kind": "tag",
+                "published_at": "2022-05-10T07:41:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.4.1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.4.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.4.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.4.1\/manifests"
+            },
+            {
+                "name": "2.4.0",
+                "sha": "cdb60e2db3aed1de630bb1cd077e6ff2f3d45a4b",
+                "kind": "tag",
+                "published_at": "2022-05-08T14:28:44.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.4.0",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.4.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.4.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.4.0\/manifests"
+            },
+            {
+                "name": "2.3.3",
+                "sha": "1a8b2c37519383424f6f89573845346933af884f",
+                "kind": "tag",
+                "published_at": "2022-04-20T15:53:02.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.3.3",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.3.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.3.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.3.3\/manifests"
+            },
+            {
+                "name": "2.3.2",
+                "sha": "4cc90c39f8169078b0c6825384ccfea82559535d",
+                "kind": "tag",
+                "published_at": "2022-03-08T13:03:45.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.3.2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.3.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.3.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.3.2\/manifests"
+            },
+            {
+                "name": "2.3.1",
+                "sha": "40c27443475ba517bc1c5ab73a3237fb085c1382",
+                "kind": "tag",
+                "published_at": "2021-12-28T08:06:10.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.3.1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.3.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.3.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.3.1\/manifests"
+            },
+            {
+                "name": "2.3.0",
+                "sha": "9cb4d517f8d2b96071b6f38791c90614acf66f5b",
+                "kind": "tag",
+                "published_at": "2021-11-30T14:56:21.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.3.0",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.3.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.3.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.3.0\/manifests"
+            },
+            {
+                "name": "2.2.3",
+                "sha": "bc49b1e2f9fe9d224ecff8dd9fc1557c67dda983",
+                "kind": "tag",
+                "published_at": "2021-11-30T14:06:04.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.2.3",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.2.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.2.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.2.3\/manifests"
+            },
+            {
+                "name": "2.2.2",
+                "sha": "9ca6f5f9b0198da8ee930796255b4714c75db07d",
+                "kind": "tag",
+                "published_at": "2021-08-05T13:05:01.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.2.2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.2.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.2.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.2.2\/manifests"
+            },
+            {
+                "name": "2.2.1",
+                "sha": "5ca00af8b053404f1ae1a0662d702d1959f9a49d",
+                "kind": "tag",
+                "published_at": "2021-05-15T19:12:03.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.2.1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.2.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.2.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.2.1\/manifests"
+            },
+            {
+                "name": "2.2.0",
+                "sha": "fa967eadf9e226923a97b145e8018f94d6580f09",
+                "kind": "tag",
+                "published_at": "2021-01-22T17:16:40.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.2.0",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.2.0\/manifests"
+            },
+            {
+                "name": "2.1.3",
+                "sha": "efefcc17136731ffd7f0fa4f7eb4e4d6696f9a73",
+                "kind": "tag",
+                "published_at": "2020-12-20T11:55:51.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.1.3",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.1.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.1.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.1.3\/manifests"
+            },
+            {
+                "name": "2.1.2",
+                "sha": "5bc6803909705d3cc967554531f50439d2e89f3e",
+                "kind": "tag",
+                "published_at": "2020-06-30T10:14:28.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.1.2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.1.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.1.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.1.2\/manifests"
+            },
+            {
+                "name": "2.1.1",
+                "sha": "91e90a46dd63fa02b8acdfa89ae20b802ce70cca",
+                "kind": "tag",
+                "published_at": "2020-05-29T09:36:49.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.1.1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.1.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.1.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.1.1\/manifests"
+            },
+            {
+                "name": "2.1.0",
+                "sha": "e2d0595ec0b1f2c3213f4378a94008fa2e052541",
+                "kind": "tag",
+                "published_at": "2020-05-28T19:39:15.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.1.0",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.1.0\/manifests"
+            },
+            {
+                "name": "2.0.6",
+                "sha": "cdae04333cc592e3c0d388aa6745d1d486aed6e3",
+                "kind": "tag",
+                "published_at": "2020-05-28T19:37:27.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.0.6",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.0.6",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.6",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.6\/manifests"
+            },
+            {
+                "name": "1.3.7",
+                "sha": "d91c17bd2eeda0ca2a5576bea93e2468573e0d9f",
+                "kind": "tag",
+                "published_at": "2020-05-19T18:40:30.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.3.7",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.3.7",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.7",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.7\/manifests"
+            },
+            {
+                "name": "2.0.5",
+                "sha": "638c4ec715941e9cfcaeff0dc3cd33576735548e",
+                "kind": "tag",
+                "published_at": "2020-01-14T20:53:06.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.0.5",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.0.5",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.5",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.5\/manifests"
+            },
+            {
+                "name": "2.0.4",
+                "sha": "608d94ffbc20a787a0f7d40d5f142f020e969d20",
+                "kind": "tag",
+                "published_at": "2020-01-13T18:54:26.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.0.4",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.0.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.4\/manifests"
+            },
+            {
+                "name": "1.3.6",
+                "sha": "11243e32159145d8c9414dfc0e76c1a645ff6576",
+                "kind": "tag",
+                "published_at": "2020-01-13T18:34:05.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.3.6",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.3.6",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.6",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.6\/manifests"
+            },
+            {
+                "name": "2.0.3",
+                "sha": "72ca04db10f68d3e6f442ab861add63ce6069670",
+                "kind": "tag",
+                "published_at": "2019-11-26T08:29:46.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.0.3",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.0.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.3\/manifests"
+            },
+            {
+                "name": "1.3.5",
+                "sha": "3bfedc0347245682ac134b949bf97d00b6a4638c",
+                "kind": "tag",
+                "published_at": "2019-11-26T07:45:55.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.3.5",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.3.5",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.5",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.5\/manifests"
+            },
+            {
+                "name": "1.3.4",
+                "sha": "8cf8fa0188139be70de76b2315fc78a751db5d24",
+                "kind": "tag",
+                "published_at": "2019-11-13T12:17:51.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.3.4",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.3.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.4\/manifests"
+            },
+            {
+                "name": "2.0.2",
+                "sha": "1e5806a96e36890e9d804fa366ed771c41dd5bed",
+                "kind": "commit",
+                "published_at": "2019-11-06T13:58:59.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.0.2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.0.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.2\/manifests"
+            },
+            {
+                "name": "1.3.3",
+                "sha": "182a04b48ce02f4ff7b2b472c9816c0558342a9a",
+                "kind": "commit",
+                "published_at": "2019-11-06T13:34:08.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.3.3",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.3.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.3\/manifests"
+            },
+            {
+                "name": "2.0.1",
+                "sha": "2d0181b7390ad9067a08ac29027fa212447162ba",
+                "kind": "tag",
+                "published_at": "2019-10-09T07:25:24.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.0.1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.0.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.1\/manifests"
+            },
+            {
+                "name": "2.0.0",
+                "sha": "1d824e20357918e17cbd5dbf9517f92b5cc3f090",
+                "kind": "tag",
+                "published_at": "2019-10-02T14:26:48.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.0.0",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.0\/manifests"
+            },
+            {
+                "name": "1.3.2",
+                "sha": "083c3fe85ac811b902e6eb1536df5429518d9729",
+                "kind": "tag",
+                "published_at": "2019-10-02T14:26:18.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.3.2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.3.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.2\/manifests"
+            },
+            {
+                "name": "1.3.1",
+                "sha": "f02ec0fa999bdf3e253ce0e0207f874b356ca9cd",
+                "kind": "commit",
+                "published_at": "2019-09-26T08:56:27.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.3.1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.3.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.1\/manifests"
+            },
+            {
+                "name": "2.0.0-RC2",
+                "sha": "0e9376f9e5826453b34e4b4f76e4182296b437f9",
+                "kind": "tag",
+                "published_at": "2019-09-24T18:18:34.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.0.0-RC2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.0.0-RC2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.0-RC2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.0-RC2\/manifests"
+            },
+            {
+                "name": "1.3.0",
+                "sha": "acfc6db213311e883aafec7e5d69e9d138f182f1",
+                "kind": "tag",
+                "published_at": "2019-09-24T18:08:56.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.3.0",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.3.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.0\/manifests"
+            },
+            {
+                "name": "1.2.11",
+                "sha": "55ab55eeaca8cb9f6934a353b99e27b246111bd9",
+                "kind": "tag",
+                "published_at": "2019-09-24T13:21:00.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.2.11",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.2.11",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.11",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.11\/manifests"
+            },
+            {
+                "name": "1.2.10",
+                "sha": "1e6f9490456176ed25ba79c0230f24dd6be676df",
+                "kind": "commit",
+                "published_at": "2019-08-17T08:52:56.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.2.10",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.2.10",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.10",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.10\/manifests"
+            },
+            {
+                "name": "2.0.0-RC1",
+                "sha": "e4971557a8200456d87e2f1def8bde7fb07bbb3f",
+                "kind": "tag",
+                "published_at": "2019-06-05T07:23:15.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.0.0-RC1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.0.0-RC1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.0-RC1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.0-RC1\/manifests"
+            },
+            {
+                "name": "1.3.0-RC1",
+                "sha": "3dc2c8c7b9114df00a7c9d6ce3479defe5b99e2e",
+                "kind": "tag",
+                "published_at": "2019-06-05T07:22:31.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.3.0-RC1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.3.0-RC1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.0-RC1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.3.0-RC1\/manifests"
+            },
+            {
+                "name": "1.2.9",
+                "sha": "bb503652c819d09420184d05718db1e572e278f8",
+                "kind": "tag",
+                "published_at": "2019-05-09T13:32:34.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.2.9",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.2.9",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.9",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.9\/manifests"
+            },
+            {
+                "name": "1.2.8",
+                "sha": "4acb36955163b20e1ac3241c5fe354ea24337691",
+                "kind": "tag",
+                "published_at": "2019-03-14T06:42:45.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.2.8",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.2.8",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.8",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.8\/manifests"
+            },
+            {
+                "name": "1.2.7",
+                "sha": "0cd3c37dfc369abdb3cb8090a50def7ea161f469",
+                "kind": "tag",
+                "published_at": "2019-03-07T06:52:36.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.2.7",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.2.7",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.7",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.7\/manifests"
+            },
+            {
+                "name": "1.2.6",
+                "sha": "496ab5368afea176a1e368769a8eb643656cb7fb",
+                "kind": "tag",
+                "published_at": "2019-01-15T10:23:01.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.2.6",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.2.6",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.6",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.6\/manifests"
+            },
+            {
+                "name": "2.0.0-beta1",
+                "sha": "37b6123c80ac1ef5a3332a18bcd55b0faf82c7ba",
+                "kind": "tag",
+                "published_at": "2018-12-24T09:49:39.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.0.0-beta1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.0.0-beta1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.0-beta1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.0-beta1\/manifests"
+            },
+            {
+                "name": "2.0.0-alpha1",
+                "sha": "f3ed76beb4dea085f06a407c9e12681e8aa59375",
+                "kind": "tag",
+                "published_at": "2018-09-28T14:17:03.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/2.0.0-alpha1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/2.0.0-alpha1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.0-alpha1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/2.0.0-alpha1\/manifests"
+            },
+            {
+                "name": "1.2.5",
+                "sha": "e7c926b8a0cae830c0b7f48005afde83fd3921a2",
+                "kind": "commit",
+                "published_at": "2018-07-20T05:40:16.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.2.5",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.2.5",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.5",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.5\/manifests"
+            },
+            {
+                "name": "1.2.4",
+                "sha": "da55c86f66d3356b77965a5d571ea646b081a277",
+                "kind": "commit",
+                "published_at": "2018-05-18T04:25:07.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.2.4",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.2.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.4\/manifests"
+            },
+            {
+                "name": "1.2.3",
+                "sha": "a0b00cdcf1db97aead74e68d75bc7ff8d7eaf90a",
+                "kind": "commit",
+                "published_at": "2018-04-01T16:26:59.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.2.3",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.2.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.3\/manifests"
+            },
+            {
+                "name": "1.2.1",
+                "sha": "41ad7d98c3e74152b2b11d7743f9c05bea58be5b",
+                "kind": "commit",
+                "published_at": "2017-12-08T12:11:21.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.2.1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.2.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.1\/manifests"
+            },
+            {
+                "name": "1.2.0",
+                "sha": "8d8ff7745073aa29aeef479d6ee514a2193cf416",
+                "kind": "commit",
+                "published_at": "2017-10-24T05:39:55.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.2.0",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.2.0\/manifests"
+            },
+            {
+                "name": "1.1.7",
+                "sha": "df3c1208548eafca9e356b0125cc5aa08e7f25a8",
+                "kind": "commit",
+                "published_at": "2017-10-23T11:33:46.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.1.7",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.1.7",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.7",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.7\/manifests"
+            },
+            {
+                "name": "1.1.6",
+                "sha": "748df0da92f6b860fceac89cde1181fda2c26e78",
+                "kind": "commit",
+                "published_at": "2017-08-19T18:49:49.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.1.6",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.1.6",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.6",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.6\/manifests"
+            },
+            {
+                "name": "1.1.5",
+                "sha": "1775be6551c4456edf30b543a6d3f9cb5442bf05",
+                "kind": "commit",
+                "published_at": "2017-05-13T18:47:53.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.1.5",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.1.5",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.5",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.5\/manifests"
+            },
+            {
+                "name": "1.1.4",
+                "sha": "92d74b10c56c388f75089cbecc4f8d0250d6ec58",
+                "kind": "commit",
+                "published_at": "2017-03-27T18:02:34.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.1.4",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.1.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.4\/manifests"
+            },
+            {
+                "name": "1.1.3",
+                "sha": "12611cff4ff66cd6e1ebf0b56a7754a537572318",
+                "kind": "commit",
+                "published_at": "2017-01-14T17:19:01.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.1.3",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.1.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.3\/manifests"
+            },
+            {
+                "name": "1.1.2",
+                "sha": "e839648ef7649757aae3b9818236a6fa47c016cd",
+                "kind": "commit",
+                "published_at": "2016-10-07T09:18:05.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.1.2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.1.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.2\/manifests"
+            },
+            {
+                "name": "1.0.8",
+                "sha": "052971cd400fe0c6ea48dd3319fa98d145b0a843",
+                "kind": "commit",
+                "published_at": "2016-10-07T09:17:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.8",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.8",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.8",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.8\/manifests"
+            },
+            {
+                "name": "1.0.7",
+                "sha": "183ee0076aaad4950c0a07c7dd5bcbb0f379cc60",
+                "kind": "commit",
+                "published_at": "2016-07-27T13:22:24.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.7",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.7",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.7",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.7\/manifests"
+            },
+            {
+                "name": "1.1.1",
+                "sha": "9eedb38286805f8f084c9a530ef89379ed9bf4b5",
+                "kind": "commit",
+                "published_at": "2016-07-27T13:16:06.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.1.1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.1.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.1\/manifests"
+            },
+            {
+                "name": "1.1.0",
+                "sha": "1137922032d098a2e284575f2ce30e83abbecea2",
+                "kind": "commit",
+                "published_at": "2016-06-09T14:21:30.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.1.0",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.1.0\/manifests"
+            },
+            {
+                "name": "1.0.6",
+                "sha": "df0771f572dc3deefa5b36b7509440ce3d791ba6",
+                "kind": "commit",
+                "published_at": "2016-06-09T13:23:17.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.6",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.6",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.6",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.6\/manifests"
+            },
+            {
+                "name": "1.0.5",
+                "sha": "318c9651bdf18a3bcb6f88b0bddd385e1a82284e",
+                "kind": "commit",
+                "published_at": "2016-02-16T10:02:45.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.5",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.5",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.5",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.5\/manifests"
+            },
+            {
+                "name": "1.0.4",
+                "sha": "f14ee65af497ced2c01b3daeae8d9ee318265277",
+                "kind": "commit",
+                "published_at": "2015-12-15T14:42:32.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.4",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.4\/manifests"
+            },
+            {
+                "name": "1.0.3",
+                "sha": "cb327d1e15a17159247d70255b7fab6bea5ad4b0",
+                "kind": "commit",
+                "published_at": "2015-11-03T14:58:21.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.3",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.3\/manifests"
+            },
+            {
+                "name": "1.0.2",
+                "sha": "3f135950bbf31e72f544238acd9f0ce2084a1073",
+                "kind": "commit",
+                "published_at": "2015-08-31T14:34:50.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.2\/manifests"
+            },
+            {
+                "name": "1.0.1",
+                "sha": "502803f39c238fe03af9a99be80d180b4fdee555",
+                "kind": "commit",
+                "published_at": "2015-08-19T08:01:07.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.1\/manifests"
+            },
+            {
+                "name": "1.0.0",
+                "sha": "231bd0ee583448fb68e2033ed5b7f9cef1999c75",
+                "kind": "commit",
+                "published_at": "2015-08-18T18:09:01.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0\/manifests"
+            },
+            {
+                "name": "1.0.0-BETA13",
+                "sha": "f9d26e2839c657659dc129fe5b4aaa7f87d0ea55",
+                "kind": "commit",
+                "published_at": "2015-05-22T07:35:15.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0-BETA13",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0-BETA13",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA13",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA13\/manifests"
+            },
+            {
+                "name": "1.0.0-BETA12",
+                "sha": "89bb1af203e85019b97b0994818454d2ca8ccb52",
+                "kind": "commit",
+                "published_at": "2015-02-25T00:55:38.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0-BETA12",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0-BETA12",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA12",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA12\/manifests"
+            },
+            {
+                "name": "1.0.0-BETA11",
+                "sha": "d6110fa6840370fc49c5492cb6a30d8432ddfa8d",
+                "kind": "commit",
+                "published_at": "2014-06-06T17:50:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0-BETA11",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0-BETA11",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA11",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA11\/manifests"
+            },
+            {
+                "name": "1.0.0-BETA10",
+                "sha": "bd59fe6fdda8d564eb9e56840ca1ffe9c9ecd033",
+                "kind": "commit",
+                "published_at": "2014-05-05T16:17:08.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0-BETA10",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0-BETA10",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA10",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA10\/manifests"
+            },
+            {
+                "name": "1.0.0-BETA9",
+                "sha": "4aae9b0151b6661567873700be6ac52877822d6e",
+                "kind": "tag",
+                "published_at": "2013-06-06T19:20:11.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0-BETA9",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0-BETA9",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA9",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA9\/manifests"
+            },
+            {
+                "name": "1.0.0-BETA8",
+                "sha": "2e45d398fa68f89e9b8a439f796f0955d6461f5a",
+                "kind": "tag",
+                "published_at": "2013-03-04T21:27:09.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0-BETA8",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0-BETA8",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA8",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA8\/manifests"
+            },
+            {
+                "name": "1.0.0-BETA7",
+                "sha": "bb3d899dafe91bca9cd3ef9239aeaad003430acd",
+                "kind": "tag",
+                "published_at": "2012-12-19T02:26:07.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0-BETA7",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0-BETA7",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA7",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA7\/manifests"
+            },
+            {
+                "name": "1.0.0-BETA6",
+                "sha": "3f6779f5abaf5ee2d278e40d930e90d714074aae",
+                "kind": "tag",
+                "published_at": "2012-10-15T21:06:30.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0-BETA6",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0-BETA6",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA6",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA6\/manifests"
+            },
+            {
+                "name": "1.0.0-BETA5",
+                "sha": "2e5fa7cafd96240fc49783e4e02d1e577a1d34ac",
+                "kind": "tag",
+                "published_at": "2012-08-07T19:42:28.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0-BETA5",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0-BETA5",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA5",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA5\/manifests"
+            },
+            {
+                "name": "1.0.0-BETA4",
+                "sha": "885afaeeac71563a3fb134c102ad318a577d56e9",
+                "kind": "tag",
+                "published_at": "2012-08-07T19:40:09.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0-BETA4",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0-BETA4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0-BETA4\/manifests"
+            },
+            {
+                "name": "1.0.0BETA3",
+                "sha": "6b91d944e68bbf94702a38351f03c74b7d6a057a",
+                "kind": "tag",
+                "published_at": "2011-03-05T22:49:56.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0BETA3",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0BETA3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0BETA3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0BETA3\/manifests"
+            },
+            {
+                "name": "1.0.0BETA2",
+                "sha": "e1234386bcbcdfc351af3bd7ef4ea50e80d8d9d3",
+                "kind": "tag",
+                "published_at": "2011-02-19T20:08:30.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0BETA2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0BETA2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0BETA2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0BETA2\/manifests"
+            },
+            {
+                "name": "1.0.0BETA1",
+                "sha": "d76c8fca6d570cc96e4fc91faf8f876fc62c2f02",
+                "kind": "commit",
+                "published_at": "2010-08-18T03:12:01.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0BETA1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0BETA1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0BETA1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0BETA1\/manifests"
+            },
+            {
+                "name": "1.0.0ALPHA2",
+                "sha": "44bf7806c96c81b65ef8b7ada0a167cc07d15956",
+                "kind": "tag",
+                "published_at": "2010-07-30T17:20:10.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0ALPHA2",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0ALPHA2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0ALPHA2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0ALPHA2\/manifests"
+            },
+            {
+                "name": "1.0.0ALPHA1",
+                "sha": "52ea2ebb78e225b7163047c58613adbd472410bb",
+                "kind": "tag",
+                "published_at": "2010-06-09T21:03:06.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/mongodb-odm\/tar.gz\/1.0.0ALPHA1",
+                "html_url": "https:\/\/github.com\/doctrine\/mongodb-odm\/releases\/tag\/1.0.0ALPHA1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0ALPHA1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fmongodb-odm\/tags\/1.0.0ALPHA1\/manifests"
+            }
+        ]
+    },
+    "repo_metadata_updated_at": "2024-01-02T22:21:15.015Z",
+    "dependent_packages_count": 374,
+    "downloads": 17186483,
+    "downloads_period": "total",
+    "dependent_repos_count": 1245,
+    "rankings": {
+        "downloads": 0.1889237710406848,
+        "dependent_repos_count": 0.2584992779847753,
+        "dependent_packages_count": 0.09626869662881286,
+        "stargazers_count": 0.3211503345209868,
+        "forks_count": 0.11842577759893645,
+        "docker_downloads_count": null,
+        "average": 0.19665357155483926
+    },
+    "purl": "pkg:composer\/doctrine\/mongodb-odm",
+    "advisories": [
+        {
+            "uuid": "GSA_kwCzR0hTQS1wdzVjLXhxZjItNnhjMs4AAdEh",
+            "url": "https:\/\/github.com\/advisories\/GHSA-pw5c-xqf2-6xc2",
+            "title": "Doctrine Security Misconfiguration Vulnerability",
+            "description": "Doctrine Annotations before 1.2.7, Cache before 1.3.2 and 1.4.x before 1.4.2, Common before 2.4.3 and 2.5.x before 2.5.1, ORM before 2.4.8 or 2.5.x before 2.5.1, MongoDB ODM before 1.0.2, and MongoDB ODM Bundle before 3.0.1 use world-writable permissions for cache directories, which allows local users to execute arbitrary PHP code with additional privileges by leveraging an application with the umask set to 0 and that executes cache entries as code.",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2022-05-17T03:44:28.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 7.8,
+            "cvss_vector": "CVSS:3.0\/AV:L\/AC:L\/PR:L\/UI:N\/S:U\/C:H\/I:H\/A:H",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2015-5723",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/2IUUC7HPN4XE5NNTG4MR76OC662XRZUO\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/HPS7A54FQ2CR6PH4NDR6UIYJIRNFXW67\/",
+                "http:\/\/framework.zend.com\/security\/advisory\/ZF2015-07",
+                "http:\/\/www.debian.org\/security\/2015\/dsa-3369",
+                "http:\/\/www.doctrine-project.org\/2015\/08\/31\/security_misconfiguration_vulnerability_in_various_doctrine_projects.html",
+                "https:\/\/github.com\/aws\/aws-sdk-php\/releases\/tag\/3.2.1",
+                "https:\/\/framework.zend.com\/security\/advisory\/ZF2015-07",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/aws\/aws-sdk-php\/CVE-2015-5723.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/doctrine\/cache\/CVE-2015-5723.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/doctrine\/orm\/CVE-2015-5723.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/zendframework\/zend-cache\/CVE-2015-5723.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/zendframework\/zendframework\/CVE-2015-5723.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/zendframework\/zendframework1\/CVE-2015-5723.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/zfcampus\/zf-apigility-doctrine\/CVE-2015-5723.yaml",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/2IUUC7HPN4XE5NNTG4MR76OC662XRZUO\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/HPS7A54FQ2CR6PH4NDR6UIYJIRNFXW67\/",
+                "https:\/\/www.doctrine-project.org\/2015\/08\/31\/security_misconfiguration_vulnerability_in_various_doctrine_projects.html",
+                "https:\/\/github.com\/advisories\/GHSA-pw5c-xqf2-6xc2"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-pw5c-xqf2-6xc2",
+                "CVE-2015-5723"
+            ],
+            "repository_url": "https:\/\/github.com\/aws\/aws-sdk-php",
+            "blast_radius": 40.351216632149196,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.0.3",
+                            "vulnerable_version_range": ">= 1.0.0, < 1.0.3"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "zfcampus\/zf-apigility-doctrine"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "2.4.8",
+                            "vulnerable_version_range": ">= 2.4.0, < 2.4.8"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "zendframework\/zendframework"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "2.4.8",
+                            "vulnerable_version_range": ">= 2.4.0, < 2.4.8"
+                        },
+                        {
+                            "first_patched_version": "2.5.3",
+                            "vulnerable_version_range": ">= 2.5.0, < 2.5.3"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "zendframework\/zend-cache"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.3.2",
+                            "vulnerable_version_range": ">= 1.0.0, < 1.3.2"
+                        },
+                        {
+                            "first_patched_version": "1.4.2",
+                            "vulnerable_version_range": ">= 1.4.0, < 1.4.2"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "doctrine\/cache"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.2.1",
+                            "vulnerable_version_range": ">= 3.0.0, < 3.2.1"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "aws\/aws-sdk-php"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.12.16",
+                            "vulnerable_version_range": ">= 1.12.0, < 1.12.16"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "zendframework\/zendframework1"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.0.1",
+                            "vulnerable_version_range": "< 3.0.1"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "doctrine\/mongodb-odm-bundle"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.0.2",
+                            "vulnerable_version_range": "< 1.0.2"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "doctrine\/mongodb-odm"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "2.5.1",
+                            "vulnerable_version_range": ">= 2.5.0, < 2.5.1"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "doctrine\/orm"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "2.5.1",
+                            "vulnerable_version_range": ">= 2.5.0-stable, < 2.5.1"
+                        },
+                        {
+                            "first_patched_version": "2.4.3",
+                            "vulnerable_version_range": "< 2.4.3"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "doctrine\/common"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.2.7",
+                            "vulnerable_version_range": "< 1.2.7"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "doctrine\/annotations"
+                }
+            ],
+            "created_at": "2023-10-19T20:06:03.281Z",
+            "updated_at": "2024-02-05T10:27:56.000Z"
+        }
+    ],
+    "docker_usage_url": "https:\/\/docker.ecosyste.ms\/usage\/packagist\/doctrine\/mongodb-odm",
+    "docker_dependents_count": 2,
+    "docker_downloads_count": 76,
+    "usage_url": "https:\/\/repos.ecosyste.ms\/usage\/packagist\/doctrine\/mongodb-odm",
+    "dependent_repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/usage\/packagist\/doctrine\/mongodb-odm\/dependencies",
+    "status": null,
+    "funding_links": [
+        "https:\/\/www.doctrine-project.org\/sponsorship.html",
+        "https:\/\/www.patreon.com\/phpdoctrine",
+        "https:\/\/tidelift.com\/funding\/github\/packagist\/doctrine%2Fmongodb-odm",
+        "https:\/\/patreon.com\/phpdoctrine",
+        "https:\/\/github.com\/sponsors\/doctrine"
+    ],
+    "critical": null,
+    "versions_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/doctrine%2Fmongodb-odm\/versions",
+    "version_numbers_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/doctrine%2Fmongodb-odm\/version_numbers",
+    "dependent_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/doctrine%2Fmongodb-odm\/dependent_packages",
+    "related_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/doctrine%2Fmongodb-odm\/related_packages",
+    "maintainers": [
+        {
+            "uuid": "beberlei",
+            "login": "beberlei",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 119,
+            "html_url": "https:\/\/packagist.org\/users\/beberlei",
+            "role": null,
+            "created_at": "2022-11-10T10:39:08.418Z",
+            "updated_at": "2022-11-10T10:39:08.418Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/beberlei\/packages"
+        },
+        {
+            "uuid": "alcaeus",
+            "login": "alcaeus",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 15,
+            "html_url": "https:\/\/packagist.org\/users\/alcaeus",
+            "role": null,
+            "created_at": "2022-11-10T10:39:08.424Z",
+            "updated_at": "2022-11-10T10:39:08.424Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/alcaeus\/packages"
+        },
+        {
+            "uuid": "malarzm",
+            "login": "malarzm",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 12,
+            "html_url": "https:\/\/packagist.org\/users\/malarzm",
+            "role": null,
+            "created_at": "2022-11-10T10:39:08.427Z",
+            "updated_at": "2022-11-10T10:39:08.427Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/malarzm\/packages"
+        },
+        {
+            "uuid": "jwage",
+            "login": "jwage",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 22,
+            "html_url": "https:\/\/packagist.org\/users\/jwage",
+            "role": null,
+            "created_at": "2022-11-10T10:39:08.420Z",
+            "updated_at": "2022-11-10T10:39:08.420Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/jwage\/packages"
+        },
+        {
+            "uuid": "jmikola",
+            "login": "jmikola",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 18,
+            "html_url": "https:\/\/packagist.org\/users\/jmikola",
+            "role": null,
+            "created_at": "2022-11-10T10:39:08.422Z",
+            "updated_at": "2022-11-10T10:39:08.422Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/jmikola\/packages"
+        }
+    ]
+}

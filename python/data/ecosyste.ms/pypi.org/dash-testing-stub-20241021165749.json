@@ -1,0 +1,92 @@
+{
+  "id": 6293889,
+  "name": "dash-testing-stub",
+  "ecosystem": "pypi",
+  "description": "Package installed with dash[testing] for optional loading of pytest dash plugin.",
+  "homepage": "https://plotly.com/dash",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": null,
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 2,
+  "first_release_published_at": "2023-02-09T15:37:31.000Z",
+  "latest_release_published_at": "2023-02-09T16:52:03.000Z",
+  "latest_release_number": "0.0.2",
+  "last_synced_at": "2024-10-09T23:37:11.829Z",
+  "created_at": "2023-02-09T16:16:20.857Z",
+  "updated_at": "2024-10-09T23:37:11.830Z",
+  "registry_url": "https://pypi.org/project/dash-testing-stub/",
+  "install_command": "pip install dash-testing-stub --index-url https://pypi.org/simple",
+  "documentation_url": "https://dash-testing-stub.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "Environment :: Web Environment",
+      "Framework :: Dash",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License"
+    ],
+    "normalized_name": "dash-testing-stub"
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-08-08T23:53:06.662Z",
+  "dependent_packages_count": 2,
+  "downloads": 126846,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 14,
+  "rankings": {
+    "downloads": 1.6828576382075175,
+    "dependent_repos_count": 3.8626494908637587,
+    "dependent_packages_count": 3.1605581849082776,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 4.315908004016393,
+    "average": 3.2554933294989867
+  },
+  "purl": "pkg:pypi/dash-testing-stub",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/dash-testing-stub",
+  "docker_dependents_count": 2,
+  "docker_downloads_count": 183,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/dash-testing-stub",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/dash-testing-stub/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/dash-testing-stub/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/dash-testing-stub/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/dash-testing-stub/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/dash-testing-stub/related_packages",
+  "maintainers": [
+    {
+      "uuid": "alexcjohnson",
+      "login": "alexcjohnson",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 47,
+      "html_url": "https://pypi.org/user/alexcjohnson/",
+      "role": null,
+      "created_at": "2023-02-26T06:52:15.862Z",
+      "updated_at": "2023-02-26T06:52:15.862Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/alexcjohnson/packages"
+    },
+    {
+      "uuid": "T4rk",
+      "login": "T4rk",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 9,
+      "html_url": "https://pypi.org/user/T4rk/",
+      "role": null,
+      "created_at": "2023-02-26T06:52:15.868Z",
+      "updated_at": "2023-02-26T06:52:15.868Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/T4rk/packages"
+    }
+  ]
+}

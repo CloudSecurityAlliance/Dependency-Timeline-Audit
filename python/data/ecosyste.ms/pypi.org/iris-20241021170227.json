@@ -1,0 +1,97 @@
+{
+  "id": 2770007,
+  "name": "iris",
+  "ecosystem": "pypi",
+  "description": "A Python project for Illumon Iris",
+  "homepage": "https://deephaven.io/",
+  "licenses": "Apache 2.0",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "repository_url": null,
+  "keywords_array": [
+    "Illumon",
+    "Iris",
+    "Deephaven"
+  ],
+  "namespace": null,
+  "versions_count": 4,
+  "first_release_published_at": "2017-11-02T22:36:11.000Z",
+  "latest_release_published_at": "2020-02-07T15:51:26.000Z",
+  "latest_release_number": "1.0.7",
+  "last_synced_at": "2024-10-10T17:50:23.537Z",
+  "created_at": "2022-04-10T11:20:15.371Z",
+  "updated_at": "2024-10-10T17:50:23.537Z",
+  "registry_url": "https://pypi.org/project/iris/",
+  "install_command": "pip install iris --index-url https://pypi.org/simple",
+  "documentation_url": "https://iris.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: Apache Software License",
+      "Programming Language :: Python :: 2.7",
+      "Programming Language :: Python :: 3"
+    ],
+    "normalized_name": "iris"
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-08-10T10:36:59.551Z",
+  "dependent_packages_count": 4,
+  "downloads": 2344,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 39,
+  "rankings": {
+    "downloads": 6.207281537567309,
+    "dependent_repos_count": 2.349452248457261,
+    "dependent_packages_count": 2.334936380081297,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 4.203487624897138,
+    "average": 3.773789447750751
+  },
+  "purl": "pkg:pypi/iris",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/iris",
+  "docker_dependents_count": 1,
+  "docker_downloads_count": 8,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/iris",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/iris/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/iris/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/iris/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/iris/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/iris/related_packages",
+  "maintainers": [
+    {
+      "uuid": "thundza",
+      "login": "thundza",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 6,
+      "html_url": "https://pypi.org/user/thundza/",
+      "role": null,
+      "created_at": "2023-02-24T11:48:19.882Z",
+      "updated_at": "2023-02-24T11:48:19.882Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/thundza/packages"
+    },
+    {
+      "uuid": "illumon",
+      "login": "illumon",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 4,
+      "html_url": "https://pypi.org/user/illumon/",
+      "role": null,
+      "created_at": "2023-02-24T11:48:19.868Z",
+      "updated_at": "2023-02-24T11:48:19.868Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/illumon/packages"
+    }
+  ]
+}

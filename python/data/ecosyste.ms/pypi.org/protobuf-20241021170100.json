@@ -1,0 +1,343 @@
+{
+  "id": 444234,
+  "name": "protobuf",
+  "ecosystem": "pypi",
+  "description": null,
+  "homepage": "https://developers.google.com/protocol-buffers/",
+  "licenses": "3-Clause BSD License",
+  "normalized_licenses": [
+    "BSD-1-Clause"
+  ],
+  "repository_url": null,
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 172,
+  "first_release_published_at": "2008-07-10T22:36:10.000Z",
+  "latest_release_published_at": "2024-03-27T20:37:37.000Z",
+  "latest_release_number": "5.26.1",
+  "last_synced_at": "2024-10-21T11:33:12.361Z",
+  "created_at": "2022-04-07T01:13:42.519Z",
+  "updated_at": "2024-10-21T11:33:12.362Z",
+  "registry_url": "https://pypi.org/project/protobuf/",
+  "install_command": "pip install protobuf --index-url https://pypi.org/simple",
+  "documentation_url": "https://protobuf.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "normalized_name": "protobuf"
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-09-08T12:07:24.710Z",
+  "dependent_packages_count": 3080,
+  "downloads": 262818843,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 107822,
+  "rankings": {
+    "downloads": 0.005502497216653491,
+    "dependent_repos_count": 0.010271328137753184,
+    "dependent_packages_count": 0.008987412120534036,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 0.010271328137753184,
+    "average": 0.008758141403173474
+  },
+  "purl": "pkg:pypi/protobuf",
+  "advisories": [
+    {
+      "uuid": "GSA_kwCzR0hTQS03N3JtLTl4OWgteGozZ80mxQ",
+      "url": "https://github.com/advisories/GHSA-77rm-9x9h-xj3g",
+      "title": "NULL Pointer Dereference in Protocol Buffers",
+      "description": "Nullptr dereference when a null char is present in a proto symbol. The symbol is parsed incorrectly, leading to an unchecked call into the proto file's name during generation of the resulting error message. Since the symbol is incorrectly parsed, the file is nullptr. We recommend upgrading to version 3.15.0 or greater.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-01-27T00:01:15.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-22570",
+        "https://github.com/protocolbuffers/protobuf/releases/tag/v3.15.0",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IFX6KPNOFHYD6L4XES5PCM3QNSKZBOTQ/",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3DVUZPALAQ34TQP6KFNLM4IZS6B32XSA/",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTRGBRC5KGCA4SK5MUNLPYJRAGXMBIYY/",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NVTWVQRB5OCCTMKEQFY5MYED3DXDVSLP/",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5PAGL5M2KGYPN3VEQCRJJE6NA7D5YG5X/",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KQJB6ZPRLKV6WCMX2PRRRQBFAOXFBK6B/",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MRWRAXAFR3JR7XCFWTHC2KALSZKWACCE/",
+        "https://www.oracle.com/security-alerts/cpuapr2022.html",
+        "https://security.netapp.com/advisory/ntap-20220429-0005/",
+        "https://lists.debian.org/debian-lts-announce/2023/04/msg00019.html",
+        "https://github.com/advisories/GHSA-77rm-9x9h-xj3g"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-77rm-9x9h-xj3g",
+        "CVE-2021-22570"
+      ],
+      "repository_url": "https://github.com/protocolbuffers/protobuf",
+      "blast_radius": 111.29472582170476,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.15.0",
+              "vulnerable_version_range": "< 3.15.0"
+            }
+          ],
+          "ecosystem": "maven",
+          "package_name": "com.google.protobuf:protobuf-java"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.15.0",
+              "vulnerable_version_range": "< 3.15.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "protobuf"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.15.0",
+              "vulnerable_version_range": "< 3.15.0"
+            }
+          ],
+          "ecosystem": "go",
+          "package_name": "github.com/protocolbuffers/protobuf"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.15.0",
+              "vulnerable_version_range": "< 3.15.0"
+            }
+          ],
+          "ecosystem": "packagist",
+          "package_name": "google/protobuf"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.15.0",
+              "vulnerable_version_range": "< 3.15.0"
+            }
+          ],
+          "ecosystem": "nuget",
+          "package_name": "Google.Protobuf"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:36.823Z",
+      "updated_at": "2023-08-16T05:02:15.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1qd3Z3LXY3YzUtbTgyaM3tlQ",
+      "url": "https://github.com/advisories/GHSA-jwvw-v7c5-m82h",
+      "title": "protobuf susceptible to buffer overflow",
+      "description": "protobuf allows remote authenticated attackers to cause a heap-based buffer overflow.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-13T01:06:54.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2015-5237",
+        "https://github.com/google/protobuf/issues/760",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=1256426",
+        "https://lists.apache.org/thread.html/519eb0fd45642dcecd9ff74cb3e71c20a4753f7d82e2f07864b5108f@%3Cdev.drill.apache.org%3E",
+        "https://lists.apache.org/thread.html/b0656d359c7d40ec9f39c8cc61bca66802ef9a2a12ee199f5b0c1442@%3Cdev.drill.apache.org%3E",
+        "https://lists.apache.org/thread.html/f9bc3e55f4e28d1dcd1a69aae6d53e609a758e34d2869b4d798e13cc@%3Cissues.drill.apache.org%3E",
+        "https://lists.apache.org/thread.html/r00097d0b5b6164ea428554007121d5dc1f88ba2af7b9e977a10572cd@%3Cdev.hbase.apache.org%3E",
+        "https://lists.apache.org/thread.html/r00d9ab1fc0f1daf14cd4386564dd84f7889404438d81462c86dfa836@%3Ccommon-dev.hadoop.apache.org%3E",
+        "https://lists.apache.org/thread.html/r02e39d7beb32eebcdbb4b516e95f67d71c90d5d462b26f4078d21eeb@%3Cdev.flink.apache.org%3E",
+        "https://lists.apache.org/thread.html/r02e39d7beb32eebcdbb4b516e95f67d71c90d5d462b26f4078d21eeb@%3Cuser.flink.apache.org%3E",
+        "https://lists.apache.org/thread.html/r0ca83171c4898dc92b86fa6f484a7be1dc96206765f4d01dce0f1b28@%3Ccommon-issues.hadoop.apache.org%3E",
+        "https://lists.apache.org/thread.html/r1263fa5b51e4ec3cb8f09ff40e4747428c71198e9bee93349ec96a3c@%3Ccommits.pulsar.apache.org%3E",
+        "https://lists.apache.org/thread.html/r14fa8d38d5757254f1a2e112270c996711d514de2e3b01c93d397ab4@%3Cissues.spark.apache.org%3E",
+        "https://lists.apache.org/thread.html/r17dc6f394429f6bffb5e4c66555d93c2e9923cbbdc5a93db9a56c1c7@%3Ccommits.pulsar.apache.org%3E",
+        "https://lists.apache.org/thread.html/r1d274d647b3c2060df9be21eade4ce56d3a59998cf19ac72662dd994@%3Ccommits.pulsar.apache.org%3E",
+        "https://lists.apache.org/thread.html/r2ea33ce5591a9cb9ed52750b6ab42ab658f529a7028c3166ba93c7d5@%3Ccommon-issues.hadoop.apache.org%3E",
+        "https://lists.apache.org/thread.html/r320dc858da88846ba00bb077bcca2cdf75b7dde0f6eb3a3d60dba6a1@%3Ccommits.pulsar.apache.org%3E",
+        "https://lists.apache.org/thread.html/r42e47994734cd1980ef3e204a40555336e10cc80096927aca2f37d90@%3Ccommits.pulsar.apache.org%3E",
+        "https://lists.apache.org/thread.html/r42ef6acfb0d86a2df0c2390702ecbe97d2104a331560f2790d17ca69@%3Ccommits.pulsar.apache.org%3E",
+        "https://lists.apache.org/thread.html/r4886108206d4c535db9b20c813fe4723d4fe6a91b9278382af8b9d08@%3Cissues.spark.apache.org%3E",
+        "https://lists.apache.org/thread.html/r4ef574a5621b0e670a3ce641e9922543e34f22bf4c9ee9584aa67fcf@%3Cissues.hbase.apache.org%3E",
+        "https://lists.apache.org/thread.html/r5741f4dbdd129dbb9885f5fb170dc1b24a06b9313bedef5e67fded94@%3Cissues.spark.apache.org%3E",
+        "https://lists.apache.org/thread.html/r5e52caf41dc49df55b4ee80758356fe1ff2a88179ff24c685de7c28d@%3Ccommits.pulsar.apache.org%3E",
+        "https://lists.apache.org/thread.html/r764fc66435ee4d185d359c28c0887d3e5866d7292a8d5598d9e7cbc4@%3Ccommon-issues.hadoop.apache.org%3E",
+        "https://lists.apache.org/thread.html/r7fed8dd9bee494094e7011cf3c2ab75bd8754ea314c6734688c42932@%3Ccommon-issues.hadoop.apache.org%3E",
+        "https://lists.apache.org/thread.html/r85c9a764b573c786224688cc906c27e28343e18f5b33387f94cae90f@%3Ccommits.pulsar.apache.org%3E",
+        "https://lists.apache.org/thread.html/ra28fed69eef3a71e5fe5daea001d0456b05b102044237330ec5c7c82@%3Ccommits.pulsar.apache.org%3E",
+        "https://lists.apache.org/thread.html/rb40dc9d63a5331bce8e80865b7fa3af9dd31e16555affd697b6f3526@%3Cissues.spark.apache.org%3E",
+        "https://lists.apache.org/thread.html/rb71dac1d9dd4e8a8ae3dbc033aeae514eda9be1263c1df3b42a530a2@%3Ccommits.pulsar.apache.org%3E",
+        "https://lists.apache.org/thread.html/rd64381fb8f92d640c1975dc50dcdf1b8512e02a2a7b20292d3565cae@%3Cissues.hbase.apache.org%3E",
+        "https://lists.apache.org/thread.html/re6d04a214424a97ea59c62190d79316edf311a0a6346524dfef3b940@%3Ccommits.pulsar.apache.org%3E",
+        "https://lists.apache.org/thread.html/rf7539287c90be979bac94af9aaba34118fbf968864944b4871af48dd@%3Ccommits.pulsar.apache.org%3E",
+        "http://www.openwall.com/lists/oss-security/2015/08/27/2",
+        "https://github.com/google/protobuf/releases/tag/v3.4.0",
+        "https://github.com/advisories/GHSA-jwvw-v7c5-m82h",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/protobuf/PYSEC-2017-65.yaml"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-jwvw-v7c5-m82h",
+        "CVE-2015-5237"
+      ],
+      "repository_url": "https://github.com/google/protobuf",
+      "blast_radius": 94.24620790732553,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.4.0",
+              "vulnerable_version_range": "< 3.4.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "protobuf"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.4.0",
+              "vulnerable_version_range": "< 3.4.0"
+            }
+          ],
+          "ecosystem": "packagist",
+          "package_name": "google/protobuf"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.4.0",
+              "vulnerable_version_range": "< 3.4.0"
+            }
+          ],
+          "ecosystem": "go",
+          "package_name": "github.com/protocolbuffers/protobuf"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.4.0",
+              "vulnerable_version_range": "< 3.4.0"
+            }
+          ],
+          "ecosystem": "maven",
+          "package_name": "com.google.protobuf:protobuf-parent"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.4.0",
+              "vulnerable_version_range": "< 3.4.0"
+            }
+          ],
+          "ecosystem": "nuget",
+          "package_name": "Google.Protobuf"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:18.486Z",
+      "updated_at": "2023-01-29T05:02:06.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS04Z3E5LTJ4OTgtdzhoZs4AAvAb",
+      "url": "https://github.com/advisories/GHSA-8gq9-2x98-w8hf",
+      "title": "protobuf-cpp and protobuf-python have potential Denial of Service issue",
+      "description": "### Summary\n\nA message parsing and memory management vulnerability in ProtocolBuffer\u2019s C++ and Python implementations can trigger an out of memory (OOM) failure when processing a specially crafted message, which could lead to a denial of service (DoS) on services using the libraries.\n\nReporter: [ClusterFuzz](https://google.github.io/clusterfuzz/)\n\nAffected versions: All versions of C++ Protobufs (including Python) prior to the versions listed below.\n\n### Severity & Impact\nAs scored by google  \n**Medium 5.7** - [CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H)  \nAsscored byt NIST  \n**High 7.5** - [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)\n\nA small (~500 KB) malicious payload can be constructed which causes the running service to allocate more than 3GB of RAM.\n\n### Proof of Concept\n\nFor reproduction details, please refer to the unit test that identifies the specific inputs that exercise this parsing weakness.\n\n### Mitigation / Patching\n\nPlease update to the latest available versions of the following packages:\n- protobuf-cpp (3.18.3, 3.19.5, 3.20.2, 3.21.6)\n- protobuf-python (3.18.3, 3.19.5, 3.20.2, 4.21.6)",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-09-23T20:31:15.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://github.com/protocolbuffers/protobuf/security/advisories/GHSA-8gq9-2x98-w8hf",
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-1941",
+        "https://cloud.google.com/support/bulletins#GCP-2022-019",
+        "http://www.openwall.com/lists/oss-security/2022/09/27/1",
+        "https://lists.debian.org/debian-lts-announce/2023/04/msg00019.html",
+        "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CBAUKJQL6O4TIWYBENORSY5P43TVB4M3",
+        "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MPCGUT3T5L6C3IDWUPSUO22QDCGQKTOP",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CBAUKJQL6O4TIWYBENORSY5P43TVB4M3",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MPCGUT3T5L6C3IDWUPSUO22QDCGQKTOP",
+        "https://security.netapp.com/advisory/ntap-20240705-0001",
+        "https://github.com/advisories/GHSA-8gq9-2x98-w8hf"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-8gq9-2x98-w8hf",
+        "CVE-2022-1941"
+      ],
+      "repository_url": "https://github.com/protocolbuffers/protobuf",
+      "blast_radius": 37.74530537501127,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.21.6",
+              "vulnerable_version_range": ">= 4.0.0, < 4.21.6"
+            },
+            {
+              "first_patched_version": "3.20.2",
+              "vulnerable_version_range": ">= 3.20.0, < 3.20.2"
+            },
+            {
+              "first_patched_version": "3.19.5",
+              "vulnerable_version_range": ">= 3.19.0, < 3.19.5"
+            },
+            {
+              "first_patched_version": "3.18.3",
+              "vulnerable_version_range": "< 3.18.3"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "protobuf"
+        }
+      ],
+      "created_at": "2022-12-21T16:11:57.057Z",
+      "updated_at": "2024-07-05T21:23:58.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/protobuf",
+  "docker_dependents_count": 11398,
+  "docker_downloads_count": 5176957738,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/protobuf",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/protobuf/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/protobuf/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/protobuf/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/protobuf/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/protobuf/related_packages",
+  "maintainers": [
+    {
+      "uuid": "protobuf-packages",
+      "login": "protobuf-packages",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 2,
+      "html_url": "https://pypi.org/user/protobuf-packages/",
+      "role": null,
+      "created_at": "2022-11-14T18:43:31.723Z",
+      "updated_at": "2022-11-14T18:43:31.723Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/protobuf-packages/packages"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": 1705209,
+  "name": "faker",
+  "ecosystem": "npm",
+  "description": "Generate massive amounts of fake contextual data",
+  "homepage": "https://github.com/Marak/Faker.js",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/Marak/Faker.js",
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 29,
+  "first_release_published_at": "2014-05-21T20:17:18.144Z",
+  "latest_release_published_at": "2022-01-05T01:38:36.409Z",
+  "latest_release_number": "6.6.6",
+  "last_synced_at": "2024-10-20T09:31:48.141Z",
+  "created_at": "2022-04-09T15:25:15.860Z",
+  "updated_at": "2024-10-20T09:31:48.141Z",
+  "registry_url": "https://www.npmjs.com/package/faker",
+  "install_command": "npm install faker",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "6.6.6"
+    }
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-09-08T15:29:00.855Z",
+  "dependent_packages_count": 5968,
+  "downloads": 8655313,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 85609,
+  "rankings": {
+    "downloads": 0.09587543036137706,
+    "dependent_repos_count": 0.1131818798598925,
+    "dependent_packages_count": 0.015782791984526538,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 0.2965382501282172,
+    "average": 0.13034458808350333
+  },
+  "purl": "pkg:npm/faker",
+  "advisories": [
+    {
+      "uuid": "GSA_kwCzR0hTQS01dzljLXJ2OTYtZnI3Z801FQ",
+      "url": "https://github.com/advisories/GHSA-5w9c-rv96-fr7g",
+      "title": "Removal of functional code in faker.js",
+      "description": "Faker.js helps users create large amounts of data for testing and development. The maintainer deliberately removed the functional code from this package. This appears to be a purposeful and successful attempt to make the package unusable. This is related to the colors.js [CVE-2021-23567](https://github.com/advisories/GHSA-gh88-3pxp-6fm8). \n\nThe functional code for this package was forked and can be found [here](https://github.com/faker-js/faker). ",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-03-22T19:28:24.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-23567",
+        "https://github.com/Marak/colors.js/issues/285",
+        "https://github.com/Marak/colors.js/issues/285%23issuecomment-1008212640",
+        "https://github.com/Marak/colors.js/commit/074a0f8ed0c31c35d13d28632bd8a049ff136fb6#diff-92bbac9a308cd5fcf9db165841f2d90ce981baddcb2b1e26cfff170929af3bd1R18",
+        "https://github.com/advisories/GHSA-gh88-3pxp-6fm8",
+        "https://snyk.io/vuln/SNYK-JS-COLORS-2331906",
+        "https://www.npmjs.com/package/@faker-js/faker",
+        "https://www.npmjs.com/package/faker",
+        "https://github.com/advisories/GHSA-5w9c-rv96-fr7g"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-5w9c-rv96-fr7g"
+      ],
+      "repository_url": "https://github.com/Marak/colors.js",
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": null,
+              "vulnerable_version_range": "= 6.6.6"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "faker"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:32.384Z",
+      "updated_at": "2023-01-11T05:06:08.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/faker",
+  "docker_dependents_count": 788,
+  "docker_downloads_count": 28863619,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/faker",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/faker/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/faker/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/faker/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/faker/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/faker/related_packages",
+  "maintainers": [
+    {
+      "uuid": "marak",
+      "login": "marak",
+      "name": null,
+      "email": "marak.squires@gmail.com",
+      "url": null,
+      "packages_count": 176,
+      "html_url": "https://www.npmjs.com/~marak",
+      "role": null,
+      "created_at": "2022-11-10T11:06:03.873Z",
+      "updated_at": "2022-11-10T11:06:03.873Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/marak/packages"
+    }
+  ]
+}

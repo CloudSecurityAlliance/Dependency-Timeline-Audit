@@ -1,0 +1,72 @@
+{
+  "id": 2496760,
+  "name": "uglifyjs",
+  "ecosystem": "npm",
+  "description": "Use 'uglify-js' instead - https://github.com/mishoo/UglifyJS2",
+  "homepage": null,
+  "licenses": null,
+  "normalized_licenses": [],
+  "repository_url": "",
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 3,
+  "first_release_published_at": "2015-03-12T02:32:40.942Z",
+  "latest_release_published_at": "2017-05-15T22:10:13.379Z",
+  "latest_release_number": "2.4.11",
+  "last_synced_at": "2024-10-21T10:35:41.999Z",
+  "created_at": "2022-04-10T02:37:43.796Z",
+  "updated_at": "2024-10-21T10:35:42.000Z",
+  "registry_url": "https://www.npmjs.com/package/uglifyjs",
+  "install_command": "npm install uglifyjs",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "2.4.11"
+    }
+  },
+  "repo_metadata": null,
+  "repo_metadata_updated_at": null,
+  "dependent_packages_count": 1631,
+  "downloads": 43723,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 28935,
+  "rankings": {
+    "downloads": 1.0216124552659274,
+    "dependent_repos_count": 0.16764419418146034,
+    "dependent_packages_count": 0.0459809665137517,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 0.4689722343331275,
+    "average": 0.4260524625735667
+  },
+  "purl": "pkg:npm/uglifyjs",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/uglifyjs",
+  "docker_dependents_count": 14,
+  "docker_downloads_count": 551579,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/uglifyjs",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/uglifyjs/dependencies",
+  "status": "deprecated",
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/uglifyjs/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/uglifyjs/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/uglifyjs/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/uglifyjs/related_packages",
+  "maintainers": [
+    {
+      "uuid": "alexlamsl",
+      "login": "alexlamsl",
+      "name": null,
+      "email": "alex+npm@starthq.com",
+      "url": null,
+      "packages_count": 14,
+      "html_url": "https://www.npmjs.com/~alexlamsl",
+      "role": null,
+      "created_at": "2022-11-10T11:49:16.322Z",
+      "updated_at": "2022-11-10T11:49:16.322Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/alexlamsl/packages"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": 1707784,
+  "name": "fastest-json-copy",
+  "ecosystem": "npm",
+  "description": "- Fastest JSON deep clone implementation for Node.js - Goal of this project is to track and maintain the fastest deep cloning function for plain JavaScript objects (POJOs), aka JSON objects. - Keeps track of benchmarks of all other implementations.",
+  "homepage": "https://github.com/streamich/fastest-json-copy",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/streamich/fastest-json-copy",
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 2,
+  "first_release_published_at": "2020-10-11T10:18:18.933Z",
+  "latest_release_published_at": "2020-10-11T10:23:28.188Z",
+  "latest_release_number": "1.0.1",
+  "last_synced_at": "2024-10-11T00:03:53.128Z",
+  "created_at": "2022-04-09T15:27:16.525Z",
+  "updated_at": "2024-10-11T00:07:27.443Z",
+  "registry_url": "https://www.npmjs.com/package/fastest-json-copy",
+  "install_command": "npm install fastest-json-copy",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "1.0.1"
+    }
+  },
+  "repo_metadata": {
+    "id": 49424824,
+    "uuid": "303075616",
+    "full_name": "streamich/fastest-json-copy",
+    "owner": "streamich",
+    "description": "Fastest JSON deep clone implementation",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2023-12-15T08:26:32.000Z",
+    "size": 141,
+    "stargazers_count": 14,
+    "open_issues_count": 5,
+    "forks_count": 2,
+    "subscribers_count": 4,
+    "default_branch": "main",
+    "last_synced_at": "2024-09-10T11:43:48.358Z",
+    "etag": null,
+    "topics": [],
+    "latest_commit_sha": null,
+    "homepage": null,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": null,
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/streamich.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": "CHANGELOG.md",
+        "contributing": null,
+        "funding": null,
+        "license": "LICENSE",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": null,
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null
+      }
+    },
+    "created_at": "2020-10-11T08:30:49.000Z",
+    "updated_at": "2024-06-26T03:56:52.000Z",
+    "dependencies_parsed_at": "2024-02-05T10:15:03.018Z",
+    "dependency_job_id": null,
+    "html_url": "https://github.com/streamich/fastest-json-copy",
+    "commit_stats": {
+      "total_commits": 13,
+      "total_committers": 2,
+      "mean_commits": 6.5,
+      "dds": "0.15384615384615385",
+      "last_synced_commit": "cbd70313d1f3f99dd621bf7986a72db44241e542"
+    },
+    "previous_names": [],
+    "tags_count": 2,
+    "template": false,
+    "template_full_name": "streamich/tpl-ts-lib",
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/streamich%2Ffastest-json-copy",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/streamich%2Ffastest-json-copy/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/streamich%2Ffastest-json-copy/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/streamich%2Ffastest-json-copy/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/streamich",
+    "download_url": "https://codeload.github.com/streamich/fastest-json-copy/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 219864520,
+      "owners_count": 16555938,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "streamich",
+      "name": "Va Da",
+      "uuid": "9773803",
+      "kind": "user",
+      "description": "SOL donations: LJJwteDZjL8u2Uhh5giwVpRa5KcHLkDogYAZntYbMsD",
+      "email": "",
+      "website": null,
+      "location": "Switzerland",
+      "twitter": null,
+      "company": null,
+      "icon_url": "https://avatars.githubusercontent.com/u/9773803?u=e858b1acd6d4832fa3773a69360a030288b31712&v=4",
+      "repositories_count": 385,
+      "last_synced_at": "2024-05-01T09:53:53.498Z",
+      "metadata": {
+        "has_sponsors_listing": true
+      },
+      "html_url": "https://github.com/streamich",
+      "funding_links": [
+        "https://github.com/sponsors/streamich"
+      ],
+      "total_stars": 50771,
+      "followers": 1815,
+      "following": 607,
+      "created_at": "2022-11-02T16:23:42.447Z",
+      "updated_at": "2024-05-01T09:55:33.695Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/streamich",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/streamich/repositories"
+    },
+    "tags": [
+      {
+        "name": "v1.0.1",
+        "sha": "cbd70313d1f3f99dd621bf7986a72db44241e542",
+        "kind": "commit",
+        "published_at": "2020-10-11T10:23:19.000Z",
+        "download_url": "https://codeload.github.com/streamich/fastest-json-copy/tar.gz/v1.0.1",
+        "html_url": "https://github.com/streamich/fastest-json-copy/releases/tag/v1.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/streamich%2Ffastest-json-copy/tags/v1.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/streamich%2Ffastest-json-copy/tags/v1.0.1/manifests"
+      },
+      {
+        "name": "v1.0.0",
+        "sha": "b008b1f850f67687304d46e18aac8dfaf0c85f96",
+        "kind": "commit",
+        "published_at": "2020-10-11T10:18:09.000Z",
+        "download_url": "https://codeload.github.com/streamich/fastest-json-copy/tar.gz/v1.0.0",
+        "html_url": "https://github.com/streamich/fastest-json-copy/releases/tag/v1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/streamich%2Ffastest-json-copy/tags/v1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/streamich%2Ffastest-json-copy/tags/v1.0.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-10-11T00:07:27.442Z",
+  "dependent_packages_count": 8,
+  "downloads": 11143,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 54,
+  "rankings": {
+    "downloads": 2.1231003920011293,
+    "dependent_repos_count": 1.8253903281825963,
+    "dependent_packages_count": 2.485557960960438,
+    "stargazers_count": 8.78388602292434,
+    "forks_count": 9.852579209879918,
+    "docker_downloads_count": null,
+    "average": 5.014102782789684
+  },
+  "purl": "pkg:npm/fastest-json-copy",
+  "advisories": [
+    {
+      "uuid": "GSA_kwCzR0hTQS1wNWc5LXJqY2YtOTV2as4AAvs_",
+      "url": "https://github.com/advisories/GHSA-p5g9-rjcf-95vj",
+      "title": "fastest-json-copy vulnerable to Prototype Pollution",
+      "description": "fastest-json-copy version 1.0.1 allows an external attacker to edit or add new properties to an object. This is possible because the application does not correctly validate the incoming JSON keys, thus allowing the `__proto__` property to be edited.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2022-11-04T12:00:25.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-41714",
+        "https://fluidattacks.com/advisories/guetta/",
+        "https://github.com/streamich/fastest-json-copy",
+        "https://github.com/advisories/GHSA-p5g9-rjcf-95vj"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-p5g9-rjcf-95vj",
+        "CVE-2022-41714"
+      ],
+      "repository_url": "https://github.com/streamich/fastest-json-copy",
+      "blast_radius": 9.181686927061733,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": null,
+              "vulnerable_version_range": "<= 1.0.1"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "fastest-json-copy"
+        }
+      ],
+      "created_at": "2022-12-21T16:11:52.060Z",
+      "updated_at": "2023-01-29T05:06:18.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/fastest-json-copy",
+  "docker_dependents_count": null,
+  "docker_downloads_count": null,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/fastest-json-copy",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/fastest-json-copy/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/streamich"
+  ],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/fastest-json-copy/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/fastest-json-copy/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/fastest-json-copy/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/fastest-json-copy/related_packages",
+  "maintainers": [
+    {
+      "uuid": "streamich",
+      "login": "streamich",
+      "name": null,
+      "email": "vadimsdaleckis@gmail.com",
+      "url": null,
+      "packages_count": 372,
+      "html_url": "https://www.npmjs.com/~streamich",
+      "role": null,
+      "created_at": "2022-11-12T08:07:51.000Z",
+      "updated_at": "2022-11-12T08:07:51.000Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/streamich/packages"
+    }
+  ]
+}

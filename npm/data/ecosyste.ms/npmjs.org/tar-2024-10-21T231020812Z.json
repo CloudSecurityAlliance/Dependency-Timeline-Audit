@@ -1,0 +1,2086 @@
+{
+  "id": 2430871,
+  "name": "tar",
+  "ecosystem": "npm",
+  "description": "tar for node",
+  "homepage": "https://github.com/isaacs/node-tar",
+  "licenses": "ISC",
+  "normalized_licenses": [
+    "ISC"
+  ],
+  "repository_url": "https://github.com/isaacs/node-tar",
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 129,
+  "first_release_published_at": "2011-11-20T07:11:18.109Z",
+  "latest_release_published_at": "2024-05-04T02:07:00.708Z",
+  "latest_release_number": "7.1.0",
+  "last_synced_at": "2024-10-21T15:35:33.393Z",
+  "created_at": "2022-04-10T01:41:02.596Z",
+  "updated_at": "2024-10-21T15:35:33.393Z",
+  "registry_url": "https://www.npmjs.com/package/tar",
+  "install_command": "npm install tar",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "v3-legacy": "3.2.3",
+      "v5-legacy": "5.0.11",
+      "v4-legacy": "4.4.19",
+      "latest": "7.4.3"
+    }
+  },
+  "repo_metadata": {
+    "id": 1420877,
+    "uuid": "1534331",
+    "full_name": "isaacs/node-tar",
+    "owner": "isaacs",
+    "description": "tar for node",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2024-04-18T09:58:44.000Z",
+    "size": 9915,
+    "stargazers_count": 811,
+    "open_issues_count": 17,
+    "forks_count": 172,
+    "subscribers_count": 39,
+    "default_branch": "main",
+    "last_synced_at": "2024-04-23T10:34:50.298Z",
+    "etag": null,
+    "topics": [
+      "npm-cli"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "",
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": "ebayopensource/turmeric-runtime",
+    "license": "isc",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/isaacs.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": "CHANGELOG.md",
+        "contributing": null,
+        "funding": null,
+        "license": "LICENSE",
+        "code_of_conduct": "CODE_OF_CONDUCT.md",
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": null,
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null,
+        "publiccode": null,
+        "codemeta": null
+      },
+      "funding": {
+        "github": [
+          "isaacs"
+        ]
+      }
+    },
+    "created_at": "2011-03-27T22:17:23.000Z",
+    "updated_at": "2024-05-04T03:21:18.371Z",
+    "dependencies_parsed_at": "2024-02-12T19:55:13.413Z",
+    "dependency_job_id": "8fb678c5-1359-49b1-b4f1-6e98963a1e30",
+    "html_url": "https://github.com/isaacs/node-tar",
+    "commit_stats": {
+      "total_commits": 675,
+      "total_committers": 38,
+      "mean_commits": "17.763157894736842",
+      "dds": 0.1333333333333333,
+      "last_synced_commit": "75d3081ccf91853e13b7e0e28a077347b5a1fe3e"
+    },
+    "previous_names": [
+      "npm/node-tar"
+    ],
+    "tags_count": 121,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/isaacs",
+    "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 217652414,
+      "owners_count": 16210716,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "isaacs",
+      "name": "isaacs",
+      "uuid": "9287",
+      "kind": "user",
+      "description": "npm inventor, founder npm, Inc.\r\nFormer Node BDFL.\r\nAll opinions are my own. Literally all of them. I own them all.",
+      "email": "",
+      "website": "http://blog.izs.me",
+      "location": "Oakland CA",
+      "twitter": null,
+      "company": "vlt.sh",
+      "icon_url": "https://avatars.githubusercontent.com/u/9287?u=55c7d6ddb9f37d0ad9785c313b50d737d58bf79b&v=4",
+      "repositories_count": 464,
+      "last_synced_at": "2024-05-20T14:46:38.194Z",
+      "metadata": {
+        "has_sponsors_listing": true,
+        "funding": {
+          "github": [
+            "isaacs"
+          ]
+        }
+      },
+      "html_url": "https://github.com/isaacs",
+      "funding_links": [
+        "https://github.com/sponsors/isaacs"
+      ],
+      "total_stars": 36530,
+      "followers": 14685,
+      "following": 4,
+      "created_at": "2022-11-02T16:19:00.493Z",
+      "updated_at": "2024-05-20T14:46:52.353Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/isaacs",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/isaacs/repositories"
+    },
+    "tags": [
+      {
+        "name": "v7.1.0",
+        "sha": "ce612d0aa818f93a133a5f76e14fe6eef2abb12f",
+        "kind": "tag",
+        "published_at": "2024-05-04T02:06:39.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v7.1.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v7.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v7.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v7.1.0/manifests"
+      },
+      {
+        "name": "v7.0.1",
+        "sha": "d99fce38ebf5175cce4c6623c53f4b17d6d31157",
+        "kind": "tag",
+        "published_at": "2024-04-14T21:45:09.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v7.0.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v7.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v7.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v7.0.1/manifests"
+      },
+      {
+        "name": "v7.0.0",
+        "sha": "b0fbdea4631f9f65f15786fb5333695a9164a536",
+        "kind": "tag",
+        "published_at": "2024-04-10T20:07:08.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v7.0.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v7.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v7.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v7.0.0/manifests"
+      },
+      {
+        "name": "v6.2.1",
+        "sha": "bef7b1e4ffab822681fea2a9b22187192ed14717",
+        "kind": "tag",
+        "published_at": "2024-03-21T21:17:13.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.2.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.2.1/manifests"
+      },
+      {
+        "name": "v6.2.0",
+        "sha": "5bc9d404e88c39870e0fbb55655a53de6fbf0a04",
+        "kind": "tag",
+        "published_at": "2023-09-05T05:33:21.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.2.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.2.0/manifests"
+      },
+      {
+        "name": "v6.1.15",
+        "sha": "3302cf7330052982ad7d7e9f85e823fa1bb945a4",
+        "kind": "tag",
+        "published_at": "2023-05-17T05:38:25.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.15",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.15",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.15",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.15/manifests"
+      },
+      {
+        "name": "v6.1.14",
+        "sha": "4aaffc862f4e991f7965ecf6527072c4423ecb49",
+        "kind": "tag",
+        "published_at": "2023-05-02T22:45:51.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.14",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.14",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.14",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.14/manifests"
+      },
+      {
+        "name": "v6.1.13",
+        "sha": "a044a87c6c7fb3ace4ea9bf903c63f0f15965398",
+        "kind": "commit",
+        "published_at": "2022-12-07T20:32:30.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.13",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.13",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.13",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.13/manifests"
+      },
+      {
+        "name": "v6.1.12",
+        "sha": "001eafbfe77b10aa41c06081d7d3c9a3a7913240",
+        "kind": "commit",
+        "published_at": "2022-11-01T16:33:33.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.12",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.12",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.12",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.12/manifests"
+      },
+      {
+        "name": "v6.1.11",
+        "sha": "e573aeea19d4d650908b7f6bf0a1ad8dce9f1736",
+        "kind": "tag",
+        "published_at": "2021-08-26T16:16:04.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.11",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.11",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.11",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.11/manifests"
+      },
+      {
+        "name": "v4.4.19",
+        "sha": "9a6faa017ca90538840f3ae2ccdb4550ac3f4dcf",
+        "kind": "tag",
+        "published_at": "2021-08-19T02:36:43.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.19",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.19",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.19",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.19/manifests"
+      },
+      {
+        "name": "v5.0.11",
+        "sha": "c01354990a450c5903919efeaa9e332976e074a3",
+        "kind": "tag",
+        "published_at": "2021-08-19T02:36:14.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v5.0.11",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v5.0.11",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.11",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.11/manifests"
+      },
+      {
+        "name": "v6.1.10",
+        "sha": "188baddc1d0e6ef5140c7a788f03fc2a6c3df2ea",
+        "kind": "tag",
+        "published_at": "2021-08-19T02:35:48.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.10",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.10/manifests"
+      },
+      {
+        "name": "v4.4.18",
+        "sha": "3e35515c09da615ac268254bed85fe43ee71e2f0",
+        "kind": "tag",
+        "published_at": "2021-08-19T02:27:56.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.18",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.18",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.18",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.18/manifests"
+      },
+      {
+        "name": "v5.0.10",
+        "sha": "df64c4d5d80292e1e043f590de34da237a2ea12c",
+        "kind": "tag",
+        "published_at": "2021-08-19T02:25:42.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v5.0.10",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v5.0.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.10/manifests"
+      },
+      {
+        "name": "v6.1.9",
+        "sha": "4f1f4a21fca64f3089da0e83ceea775c66b55052",
+        "kind": "tag",
+        "published_at": "2021-08-19T02:16:07.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.9",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.9/manifests"
+      },
+      {
+        "name": "v5.0.9",
+        "sha": "173800ddb104f5c74f241da0967b5992af9d45d7",
+        "kind": "tag",
+        "published_at": "2021-08-11T19:25:02.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v5.0.9",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v5.0.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.9/manifests"
+      },
+      {
+        "name": "v4.4.17",
+        "sha": "9bf70a8cf725c3af5fe2270f1e5d2e06d1559b93",
+        "kind": "tag",
+        "published_at": "2021-08-11T19:24:37.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.17",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.17",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.17",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.17/manifests"
+      },
+      {
+        "name": "v6.1.8",
+        "sha": "6a9c51da31a2c9b67d266d8ce7119e1e2c0d1e5d",
+        "kind": "tag",
+        "published_at": "2021-08-11T19:23:38.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.8",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.8/manifests"
+      },
+      {
+        "name": "v4.4.16",
+        "sha": "fd6accba697070560f301604b8f5f7e2995a2a8b",
+        "kind": "tag",
+        "published_at": "2021-08-09T23:17:01.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.16",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.16",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.16",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.16/manifests"
+      },
+      {
+        "name": "v5.0.8",
+        "sha": "8d2a3168021d12c3a48dbe74b4add954269d16a5",
+        "kind": "tag",
+        "published_at": "2021-08-09T23:15:27.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v5.0.8",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v5.0.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.8/manifests"
+      },
+      {
+        "name": "v6.1.7",
+        "sha": "d61628cb40381d89f119431a16a4aab2fbecb056",
+        "kind": "tag",
+        "published_at": "2021-08-09T23:15:02.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.7",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.7/manifests"
+      },
+      {
+        "name": "v6.1.6",
+        "sha": "9bc1729939eec1c822b528385b1cc513b9888835",
+        "kind": "tag",
+        "published_at": "2021-08-04T07:23:33.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.6",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.6/manifests"
+      },
+      {
+        "name": "v6.1.5",
+        "sha": "bd4691c90478f41b2649a97048199e34927dc046",
+        "kind": "tag",
+        "published_at": "2021-08-04T01:06:22.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.5",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.5/manifests"
+      },
+      {
+        "name": "v6.1.4",
+        "sha": "bf693837b3dcfeb76878b212310302dc5dc3d3dc",
+        "kind": "tag",
+        "published_at": "2021-08-03T21:37:04.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.4",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.4/manifests"
+      },
+      {
+        "name": "v6.1.3",
+        "sha": "0b78386c53b00dce422742e19de94f2a4d9389f3",
+        "kind": "tag",
+        "published_at": "2021-08-02T17:20:09.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.3",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.3/manifests"
+      },
+      {
+        "name": "v3.2.3",
+        "sha": "0532554701454050693bad82fe0470637715b400",
+        "kind": "tag",
+        "published_at": "2021-07-26T23:22:42.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.2.3",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.2.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.2.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.2.3/manifests"
+      },
+      {
+        "name": "v4.4.15",
+        "sha": "843c897e6844f70a34bb115df6c8a9b60112aaf5",
+        "kind": "tag",
+        "published_at": "2021-07-26T23:22:32.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.15",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.15",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.15",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.15/manifests"
+      },
+      {
+        "name": "v5.0.7",
+        "sha": "b10856c79362289c483b6bc9c8ced6bd04c2d1b1",
+        "kind": "tag",
+        "published_at": "2021-07-26T23:22:03.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v5.0.7",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v5.0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.7/manifests"
+      },
+      {
+        "name": "v6.1.2",
+        "sha": "3f7b20097e0daba10441507becbf5b87c6b83b8b",
+        "kind": "tag",
+        "published_at": "2021-07-26T23:11:13.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.2",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.2/manifests"
+      },
+      {
+        "name": "v6.1.1",
+        "sha": "1e33534e1e96ca6385b3a4749876aea2cda61cea",
+        "kind": "tag",
+        "published_at": "2021-07-23T22:50:40.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.1/manifests"
+      },
+      {
+        "name": "v3.2.2",
+        "sha": "9c393bb04023e58e3445127ab770ed7b0e9e6135",
+        "kind": "tag",
+        "published_at": "2021-07-23T22:46:49.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.2.2",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.2.2/manifests"
+      },
+      {
+        "name": "v4.4.14",
+        "sha": "df3aa4d10253a886be82519acb901b446ca3feeb",
+        "kind": "tag",
+        "published_at": "2021-07-23T22:45:27.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.14",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.14",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.14",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.14/manifests"
+      },
+      {
+        "name": "v5.0.6",
+        "sha": "fea868401c2860f4c84e17ff070d2317a6f8d349",
+        "kind": "tag",
+        "published_at": "2021-07-23T22:44:32.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v5.0.6",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v5.0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.6/manifests"
+      },
+      {
+        "name": "v6.1.0",
+        "sha": "259e6494b73936a68dd2b279ad16e2286bdb9344",
+        "kind": "tag",
+        "published_at": "2021-01-07T19:22:09.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.1.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.1.0/manifests"
+      },
+      {
+        "name": "v6.0.5",
+        "sha": "7028aeb3f5bb843bf80af8f5af09c47c3d97503f",
+        "kind": "tag",
+        "published_at": "2020-08-14T22:43:50.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.0.5",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.0.5/manifests"
+      },
+      {
+        "name": "v6.0.4",
+        "sha": "e8fcd639697e07e6ff27d72ceaf542443c5f5434",
+        "kind": "tag",
+        "published_at": "2020-08-14T22:33:57.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.0.4",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.0.4/manifests"
+      },
+      {
+        "name": "v6.0.3",
+        "sha": "f5e6cf6d930b32af698f3b10346fb9c60b1058fd",
+        "kind": "tag",
+        "published_at": "2020-08-14T22:32:43.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.0.3",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.0.3/manifests"
+      },
+      {
+        "name": "v6.0.2",
+        "sha": "0a55ace9898e8456799a0b4a8448fde670d79fa8",
+        "kind": "tag",
+        "published_at": "2020-04-27T21:02:49.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.0.2",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.0.2/manifests"
+      },
+      {
+        "name": "v6.0.1",
+        "sha": "97a74cde1ee7c3d55ee296ed063630e071e38b57",
+        "kind": "tag",
+        "published_at": "2020-01-29T04:37:28.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.0.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.0.1/manifests"
+      },
+      {
+        "name": "v6.0.0",
+        "sha": "a069020b2af38f3fddc57e49a870c27beb363fa0",
+        "kind": "tag",
+        "published_at": "2020-01-28T01:46:16.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v6.0.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v6.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v6.0.0/manifests"
+      },
+      {
+        "name": "v5.0.5",
+        "sha": "114efef625f3fe82f7afec838b50982867619130",
+        "kind": "tag",
+        "published_at": "2019-10-05T06:54:56.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v5.0.5",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v5.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.5/manifests"
+      },
+      {
+        "name": "v5.0.4",
+        "sha": "58668c6490e840e59b8d45d62299e6ba14ec2d00",
+        "kind": "tag",
+        "published_at": "2019-10-05T02:07:34.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v5.0.4",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v5.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.4/manifests"
+      },
+      {
+        "name": "v5.0.3",
+        "sha": "16d07b240b1ee4bdaadf1501a2bd63ca1ca53d47",
+        "kind": "tag",
+        "published_at": "2019-10-05T02:05:43.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v5.0.3",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v5.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.3/manifests"
+      },
+      {
+        "name": "v5.0.2",
+        "sha": "a2f8899feb46830cf71e4876eb88ab56d288d61e",
+        "kind": "tag",
+        "published_at": "2019-09-30T21:07:14.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v5.0.2",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v5.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.2/manifests"
+      },
+      {
+        "name": "v5.0.1",
+        "sha": "14dc6f48af4c5476d7613761adc7100c2f8d2a2d",
+        "kind": "tag",
+        "published_at": "2019-09-26T00:42:14.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v5.0.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v5.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.1/manifests"
+      },
+      {
+        "name": "v5.0.0",
+        "sha": "7bc7c20521154f26529b9ef8ae74c62a7fea0433",
+        "kind": "tag",
+        "published_at": "2019-09-25T06:00:05.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v5.0.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v5.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v5.0.0/manifests"
+      },
+      {
+        "name": "v4.4.13",
+        "sha": "65edb39114ad5956c06f8d7893365e942042ede1",
+        "kind": "tag",
+        "published_at": "2019-09-25T04:56:29.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.13",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.13",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.13",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.13/manifests"
+      },
+      {
+        "name": "v4.4.12",
+        "sha": "dbd6f52ba9cdfbce2a28d8cd28a016bc3435946a",
+        "kind": "tag",
+        "published_at": "2019-09-24T16:24:14.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.12",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.12",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.12",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.12/manifests"
+      },
+      {
+        "name": "v4.4.11",
+        "sha": "9232b3d7da934c142e3d0ab97ef35ec0ba3917fc",
+        "kind": "tag",
+        "published_at": "2019-09-17T17:43:04.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.11",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.11",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.11",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.11/manifests"
+      },
+      {
+        "name": "v4.4.10",
+        "sha": "84ab44d8201e04139f3635685ce7ea2c2e20710a",
+        "kind": "tag",
+        "published_at": "2019-06-02T22:16:35.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.10",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.10/manifests"
+      },
+      {
+        "name": "v4.4.9",
+        "sha": "8f85cab6b71483397fabac1b2aaa2276e3e37a11",
+        "kind": "tag",
+        "published_at": "2019-06-01T04:48:14.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.9",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.9/manifests"
+      },
+      {
+        "name": "v2.2.2",
+        "sha": "523c5c7fef48b10811fccd12b42803c61b6aead8",
+        "kind": "tag",
+        "published_at": "2019-05-15T00:43:37.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v2.2.2",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v2.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v2.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v2.2.2/manifests"
+      },
+      {
+        "name": "v4.4.8",
+        "sha": "074c89b1e639485468706af3c141a68ef8826728",
+        "kind": "tag",
+        "published_at": "2018-11-08T23:53:16.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.8",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.8/manifests"
+      },
+      {
+        "name": "v4.4.7",
+        "sha": "88d6071c248042e29258f6f72c1b71721904cf22",
+        "kind": "tag",
+        "published_at": "2018-11-05T21:13:45.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.7",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.7/manifests"
+      },
+      {
+        "name": "v4.4.6",
+        "sha": "8a34ca860e79f4c6d6b38ebd9ec44d95ed8d6df4",
+        "kind": "tag",
+        "published_at": "2018-08-02T00:15:14.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.6",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.6/manifests"
+      },
+      {
+        "name": "v4.4.5",
+        "sha": "b40376a9894bf12265e7a0f76a28dabf823bd771",
+        "kind": "tag",
+        "published_at": "2018-08-02T00:13:51.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.5",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.5/manifests"
+      },
+      {
+        "name": "v4.4.4",
+        "sha": "362bbc528c15e2d8e454699f8c3964f6b8bed560",
+        "kind": "tag",
+        "published_at": "2018-05-25T00:53:01.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.4",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.4/manifests"
+      },
+      {
+        "name": "v4.4.3",
+        "sha": "2131b0f6a2f672fe17a0ca4bd2f61c831184a7b3",
+        "kind": "tag",
+        "published_at": "2018-05-23T23:54:58.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.3",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.3/manifests"
+      },
+      {
+        "name": "v4.4.2",
+        "sha": "a5f77792dd158603b93cb00e230ef957bc3ce55b",
+        "kind": "tag",
+        "published_at": "2018-04-30T18:57:09.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.2",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.2/manifests"
+      },
+      {
+        "name": "v4.4.1",
+        "sha": "58a8d437abccd6dc884541b8bf6554901ec592cc",
+        "kind": "tag",
+        "published_at": "2018-03-20T16:59:49.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.1/manifests"
+      },
+      {
+        "name": "v4.4.0",
+        "sha": "c1f5de5a621bf03474e546aa5efad5ea7b2cd2ac",
+        "kind": "tag",
+        "published_at": "2018-02-20T19:36:28.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.4.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.4.0/manifests"
+      },
+      {
+        "name": "v4.3.3",
+        "sha": "9e92533a0724585c695e775d38fc1f64baf8f6ab",
+        "kind": "tag",
+        "published_at": "2018-02-06T20:16:43.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.3.3",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.3.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.3.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.3.3/manifests"
+      },
+      {
+        "name": "v4.3.2",
+        "sha": "5e3dff6e238c6ba74274dda018e9413d504a9249",
+        "kind": "tag",
+        "published_at": "2018-02-01T16:36:15.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.3.2",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.3.2/manifests"
+      },
+      {
+        "name": "v4.3.1",
+        "sha": "5afba25d097657916abd57cf580657cff818c8c6",
+        "kind": "tag",
+        "published_at": "2018-02-01T04:22:11.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.3.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.3.1/manifests"
+      },
+      {
+        "name": "v4.3.0",
+        "sha": "51b6e83761dedcce661404819571779cefd35d04",
+        "kind": "tag",
+        "published_at": "2018-01-18T01:16:32.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.3.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.3.0/manifests"
+      },
+      {
+        "name": "v4.2.0",
+        "sha": "13bd921a8b4022d518d663fecab63d15c043c8a0",
+        "kind": "tag",
+        "published_at": "2017-12-21T04:26:47.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.2.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.2.0/manifests"
+      },
+      {
+        "name": "v4.1.2",
+        "sha": "a4d8246ab22bd6c00d4d31c67363ac2e4244daa5",
+        "kind": "tag",
+        "published_at": "2017-12-21T03:16:20.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.1.2",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.1.2/manifests"
+      },
+      {
+        "name": "v4.1.1",
+        "sha": "1bfffcfd65df2b4254d85e34f4121b53d11fa4a5",
+        "kind": "tag",
+        "published_at": "2017-11-28T19:39:59.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.1.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.1.1/manifests"
+      },
+      {
+        "name": "v4.1.0",
+        "sha": "61908e63aec9eb437b15d34a81e7baa956d13a7e",
+        "kind": "tag",
+        "published_at": "2017-11-28T01:07:11.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.1.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.1.0/manifests"
+      },
+      {
+        "name": "v4.0.2",
+        "sha": "ec864233e717a978553be174dc352f9ca411a8e4",
+        "kind": "tag",
+        "published_at": "2017-10-18T19:29:45.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.0.2",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.0.2/manifests"
+      },
+      {
+        "name": "v3.2.1",
+        "sha": "1dea1df937846192453b8dfd02982c02c556c1d1",
+        "kind": "tag",
+        "published_at": "2017-08-21T01:12:27.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.2.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.2.1/manifests"
+      },
+      {
+        "name": "v4.0.1",
+        "sha": "89a14aa4d681ee4745d5038517c031154c2c8546",
+        "kind": "tag",
+        "published_at": "2017-08-21T01:10:18.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.0.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.0.1/manifests"
+      },
+      {
+        "name": "v4.0.0",
+        "sha": "90ac1e8464b819131f8dbe69374e879f16998253",
+        "kind": "tag",
+        "published_at": "2017-08-18T22:24:27.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v4.0.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v4.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v4.0.0/manifests"
+      },
+      {
+        "name": "v3.2.0",
+        "sha": "6a86ec4963d081e8362081a3a431f5b75a91984a",
+        "kind": "tag",
+        "published_at": "2017-08-17T00:55:43.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.2.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.2.0/manifests"
+      },
+      {
+        "name": "v3.1.15",
+        "sha": "ef33670d429409558879ce616d4347fe4ae0a52d",
+        "kind": "tag",
+        "published_at": "2017-08-17T00:50:30.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.15",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.15",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.15",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.15/manifests"
+      },
+      {
+        "name": "v3.1.14",
+        "sha": "0594dcf3c8c2d79bf71261f7cd1e462a7af65cf8",
+        "kind": "tag",
+        "published_at": "2017-08-16T23:29:35.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.14",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.14",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.14",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.14/manifests"
+      },
+      {
+        "name": "v3.1.13",
+        "sha": "2176335779cc0c7fcd28c778eeaf0b1d8963c254",
+        "kind": "tag",
+        "published_at": "2017-08-16T00:31:59.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.13",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.13",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.13",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.13/manifests"
+      },
+      {
+        "name": "v3.1.12",
+        "sha": "587a459ce7c72cfd50239188a1d7f6d095c44cb0",
+        "kind": "tag",
+        "published_at": "2017-08-15T23:43:24.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.12",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.12",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.12",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.12/manifests"
+      },
+      {
+        "name": "v3.1.11",
+        "sha": "474686b31782ae009ac0761b74ec07f91084aefc",
+        "kind": "tag",
+        "published_at": "2017-08-15T16:27:06.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.11",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.11",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.11",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.11/manifests"
+      },
+      {
+        "name": "v3.1.10",
+        "sha": "9780dc159e080607f24a6bee81277db2ceb0892c",
+        "kind": "tag",
+        "published_at": "2017-08-15T07:40:36.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.10",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.10/manifests"
+      },
+      {
+        "name": "v3.1.9",
+        "sha": "747bd164449a20689cba13001922375ffde4223b",
+        "kind": "tag",
+        "published_at": "2017-08-02T22:17:18.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.9",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.9/manifests"
+      },
+      {
+        "name": "v3.1.8",
+        "sha": "4b5fe3469c0280bacfa740a757da88c1ffabcd26",
+        "kind": "tag",
+        "published_at": "2017-08-01T22:44:05.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.8",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.8/manifests"
+      },
+      {
+        "name": "v3.1.7",
+        "sha": "18af12da7b639d6ffc3845f910f5e27a5d681ab0",
+        "kind": "tag",
+        "published_at": "2017-07-26T18:03:01.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.7",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.7/manifests"
+      },
+      {
+        "name": "v3.1.6",
+        "sha": "edc4a0c4644c1378b9aa9dbc259d69d77ab733a4",
+        "kind": "tag",
+        "published_at": "2017-07-25T23:03:14.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.6",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.6/manifests"
+      },
+      {
+        "name": "v3.1.5",
+        "sha": "fce07b25fae8b42d0f8e594f7d4d52e7077a2596",
+        "kind": "tag",
+        "published_at": "2017-06-03T00:16:51.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.5",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.5/manifests"
+      },
+      {
+        "name": "v3.1.4",
+        "sha": "0baac1f2274db222d7615c98bec9317947ee69e8",
+        "kind": "tag",
+        "published_at": "2017-06-02T23:41:08.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.4",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.4/manifests"
+      },
+      {
+        "name": "v3.1.3",
+        "sha": "a570fadc432ad91f3627ca09cc69c7e38ae39bed",
+        "kind": "tag",
+        "published_at": "2017-05-16T00:55:26.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.3",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.3/manifests"
+      },
+      {
+        "name": "v3.1.2",
+        "sha": "0525639c2d512791752ae9c4bf0f23eccd7e6833",
+        "kind": "tag",
+        "published_at": "2017-05-12T22:54:27.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.2",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.2/manifests"
+      },
+      {
+        "name": "v3.1.1",
+        "sha": "51f0d2ea7162c2e9f02c0e6845b82cfa94c71cbd",
+        "kind": "tag",
+        "published_at": "2017-05-12T17:02:05.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.1/manifests"
+      },
+      {
+        "name": "v3.1.0",
+        "sha": "2ba07e56f7f712cd90c20db9a7d1a99b1fc7aeed",
+        "kind": "tag",
+        "published_at": "2017-05-12T16:43:05.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.1.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.1.0/manifests"
+      },
+      {
+        "name": "v3.0.1",
+        "sha": "c3251a725663d014ed84f3a820d5e9e3167996b7",
+        "kind": "tag",
+        "published_at": "2017-05-10T17:49:02.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.0.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.0.1/manifests"
+      },
+      {
+        "name": "v3.0.0",
+        "sha": "1098f4b91d2f51aab7301279fdfa104b12eb45e8",
+        "kind": "tag",
+        "published_at": "2017-05-10T01:24:19.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v3.0.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v3.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v3.0.0/manifests"
+      },
+      {
+        "name": "v2.2.1",
+        "sha": "52237e39d2eb68d22a32d9a98f1d762189fe6a3d",
+        "kind": "tag",
+        "published_at": "2015-09-10T01:49:28.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v2.2.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v2.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v2.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v2.2.1/manifests"
+      },
+      {
+        "name": "v2.1.1",
+        "sha": "2cbe6c805fc5d87ce099183ed13c43faba962224",
+        "kind": "tag",
+        "published_at": "2015-05-08T00:37:15.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v2.1.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v2.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v2.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v2.1.1/manifests"
+      },
+      {
+        "name": "v2.1.0",
+        "sha": "b4c03a8e922fa522a3ddadaf2764bc1ab38d484e",
+        "kind": "tag",
+        "published_at": "2015-04-17T07:02:39.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v2.1.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v2.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v2.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v2.1.0/manifests"
+      },
+      {
+        "name": "v2.0.1",
+        "sha": "ce405d0b96f0fe186dd4cc68d666fabb0c59818d",
+        "kind": "tag",
+        "published_at": "2015-04-09T00:56:06.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v2.0.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v2.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v2.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v2.0.1/manifests"
+      },
+      {
+        "name": "v2.0.0",
+        "sha": "9bde260b9ebe6808837a85bedf9c6f7bb04e004f",
+        "kind": "tag",
+        "published_at": "2015-03-27T01:44:50.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v2.0.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v2.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v2.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v2.0.0/manifests"
+      },
+      {
+        "name": "v1.0.3",
+        "sha": "f4151128c585da236c6b1e278b762ecaedc20c15",
+        "kind": "tag",
+        "published_at": "2014-11-28T01:48:54.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v1.0.3",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v1.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v1.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v1.0.3/manifests"
+      },
+      {
+        "name": "v1.0.2",
+        "sha": "f31811bfa4ed1d1a89c380c65595ac92474dd84d",
+        "kind": "tag",
+        "published_at": "2014-10-28T06:48:51.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v1.0.2",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v1.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v1.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v1.0.2/manifests"
+      },
+      {
+        "name": "v1.0.1",
+        "sha": "476bf6f5882b9c33d1cbf66f175d0f25e3981044",
+        "kind": "tag",
+        "published_at": "2014-08-19T19:27:39.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v1.0.1",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v1.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v1.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v1.0.1/manifests"
+      },
+      {
+        "name": "v1.0.0",
+        "sha": "49979621a55c73c3f668d8e01830eba1ea9df862",
+        "kind": "tag",
+        "published_at": "2014-07-31T22:29:34.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v1.0.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v1.0.0/manifests"
+      },
+      {
+        "name": "v0.1.20",
+        "sha": "b5931010907cd1ef5a186bc947954391050cbcce",
+        "kind": "tag",
+        "published_at": "2014-06-24T20:51:59.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v0.1.20",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v0.1.20",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.20",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.20/manifests"
+      },
+      {
+        "name": "v0.1.19",
+        "sha": "52ac1201ac60bff17c044b69917f301001c9eee1",
+        "kind": "tag",
+        "published_at": "2013-12-09T17:26:14.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v0.1.19",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v0.1.19",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.19",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.19/manifests"
+      },
+      {
+        "name": "v0.1.18",
+        "sha": "c23e4a43acf25617527b712fa65393851980dba4",
+        "kind": "tag",
+        "published_at": "2013-07-24T03:34:07.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v0.1.18",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v0.1.18",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.18",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.18/manifests"
+      },
+      {
+        "name": "v0.1.17",
+        "sha": "338ed35bf0fab98e842a2e0d51e3e912f7412a8c",
+        "kind": "tag",
+        "published_at": "2013-03-20T06:22:29.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v0.1.17",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v0.1.17",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.17",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.17/manifests"
+      },
+      {
+        "name": "v0.1.16",
+        "sha": "4e211d31adc10f8e7d7b88fae8b366b5da4da46b",
+        "kind": "tag",
+        "published_at": "2013-02-02T19:20:29.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v0.1.16",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v0.1.16",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.16",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.16/manifests"
+      },
+      {
+        "name": "v0.1.15",
+        "sha": "d796ad8dcffe66adcbf7949f9cd77921d271d207",
+        "kind": "tag",
+        "published_at": "2013-02-02T02:40:18.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v0.1.15",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v0.1.15",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.15",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.15/manifests"
+      },
+      {
+        "name": "v0.1.14",
+        "sha": "94659884d8800ca827ad5b9163f6cf24f97c9f75",
+        "kind": "tag",
+        "published_at": "2012-12-03T04:10:26.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/v0.1.14",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/v0.1.14",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.14",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/v0.1.14/manifests"
+      },
+      {
+        "name": "0.1.13",
+        "sha": "30b902b79977d3608503834d075b505d295c95f0",
+        "kind": "tag",
+        "published_at": "2012-03-13T00:07:25.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/0.1.13",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/0.1.13",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.13",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.13/manifests"
+      },
+      {
+        "name": "0.1.12",
+        "sha": "a34291974c45a4f710bfac8e815163a8398d2298",
+        "kind": "tag",
+        "published_at": "2012-01-13T18:05:27.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/0.1.12",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/0.1.12",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.12",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.12/manifests"
+      },
+      {
+        "name": "0.1.11",
+        "sha": "f467930a3728a89e6420e8bc4ff54e0e3bb4b0a0",
+        "kind": "tag",
+        "published_at": "2012-01-06T01:47:19.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/0.1.11",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/0.1.11",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.11",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.11/manifests"
+      },
+      {
+        "name": "0.1.10",
+        "sha": "66b867137c5dfaf367aaf638de8c57565f2a96b0",
+        "kind": "tag",
+        "published_at": "2012-01-05T00:46:33.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/0.1.10",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/0.1.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.10/manifests"
+      },
+      {
+        "name": "0.1.9",
+        "sha": "d1d737f505d7c1e714c43cc3aadcff2312906353",
+        "kind": "tag",
+        "published_at": "2011-12-09T02:01:17.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/0.1.9",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/0.1.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.9/manifests"
+      },
+      {
+        "name": "0.1.8",
+        "sha": "d956ecc741940358b885a5009cb8b57733356610",
+        "kind": "tag",
+        "published_at": "2011-12-03T02:29:11.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/0.1.8",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/0.1.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.8/manifests"
+      },
+      {
+        "name": "0.1.7",
+        "sha": "8dc9d3aebc3acb01e4b92f62a642e2dc3c413aa1",
+        "kind": "tag",
+        "published_at": "2011-12-01T03:02:59.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/0.1.7",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/0.1.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.7/manifests"
+      },
+      {
+        "name": "0.1.6",
+        "sha": "b1cb2ac674887a89cf09cd133fc07aeb09972da8",
+        "kind": "tag",
+        "published_at": "2011-11-30T20:49:59.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/0.1.6",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/0.1.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.6/manifests"
+      },
+      {
+        "name": "0.1.5",
+        "sha": "2071bc5f340cd9bf959aa2864e5381fcaf7da813",
+        "kind": "tag",
+        "published_at": "2011-11-30T18:54:25.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/0.1.5",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/0.1.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.5/manifests"
+      },
+      {
+        "name": "0.1.3",
+        "sha": "8608877618d82780ab0a2228b1006e68540d2527",
+        "kind": "tag",
+        "published_at": "2011-11-23T00:21:23.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/0.1.3",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/0.1.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.3/manifests"
+      },
+      {
+        "name": "0.1.2",
+        "sha": "d31e8864daf6014586772e7814935ac77b1bda26",
+        "kind": "tag",
+        "published_at": "2011-11-21T22:31:07.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/0.1.2",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/0.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.2/manifests"
+      },
+      {
+        "name": "0.1.0",
+        "sha": "0920eafe2fba40ab7fffabfb8b596bb65ca83ce4",
+        "kind": "tag",
+        "published_at": "2011-11-20T07:48:49.000Z",
+        "download_url": "https://codeload.github.com/isaacs/node-tar/tar.gz/0.1.0",
+        "html_url": "https://github.com/isaacs/node-tar/releases/tag/0.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Fnode-tar/tags/0.1.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-09-09T22:12:08.466Z",
+  "dependent_packages_count": 5040,
+  "downloads": 113021985,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 3179743,
+  "rankings": {
+    "downloads": 0.012594720512199904,
+    "dependent_repos_count": 0.005092647859280831,
+    "dependent_packages_count": 0.017577849062678993,
+    "stargazers_count": 2.531757861569784,
+    "forks_count": 2.469003297626388,
+    "docker_downloads_count": 0.0017796887680282473,
+    "average": 0.83963434423306
+  },
+  "purl": "pkg:npm/tar",
+  "advisories": [
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTU5NTUtOXdwci0zN2po",
+      "url": "https://github.com/advisories/GHSA-5955-9wpr-37jh",
+      "title": "Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization",
+      "description": "### Impact\n\nArbitrary File Creation, Arbitrary File Overwrite, Arbitrary Code Execution\n\nnode-tar aims to guarantee that any file whose location would be outside of the extraction target directory is not extracted. This is, in part, accomplished by sanitizing absolute paths of entries within the archive, skipping archive entries that contain `..` path portions, and resolving the sanitized paths against the extraction target directory.\n\nThis logic was insufficient on Windows systems when extracting tar files that contained a path that was not an absolute path, but specified a drive letter different from the extraction target, such as `C:some\\path`.  If the drive letter does not match the extraction target, for example `D:\\extraction\\dir`, then the result of `path.resolve(extractionDirectory, entryPath)` would resolve against the current working directory on the `C:` drive, rather than the extraction target directory.\n\nAdditionally, a `..` portion of the path could occur immediately after the drive letter, such as `C:../foo`, and was not properly sanitized by the logic that checked for `..` within the normalized and split portions of the path.\n\nThis only affects users of `node-tar` on Windows systems.\n\n### Patches\n\n4.4.18 || 5.0.10 || 6.1.9\n\n### Workarounds\n\nThere is no reasonable way to work around this issue without performing the same path normalization procedures that node-tar now does.\n\nUsers are encouraged to upgrade to the latest patched versions of node-tar, rather than attempt to sanitize paths themselves.\n\n### Fix\n\nThe fixed versions strip path roots from all paths prior to being resolved against the extraction target folder, even if such paths are not \"absolute\".\n\nAdditionally, a path starting with a drive letter and then two dots, like `c:../`, would bypass the check for `..` path portions.  This is checked properly in the patched versions.\n\nFinally, a defense in depth check is added, such that if the `entry.absolute` is outside of the extraction taret, and we are not in preservePaths:true mode, a warning is raised on that entry, and it is skipped.  Currently, it is believed that this check is redundant, but it did catch some oversights in development.\n",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2021-08-31T16:05:05.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "references": [
+        "https://github.com/npm/node-tar/security/advisories/GHSA-5955-9wpr-37jh",
+        "https://www.npmjs.com/package/tar",
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-37713",
+        "https://www.oracle.com/security-alerts/cpuoct2021.html",
+        "https://cert-portal.siemens.com/productcert/pdf/ssa-389290.pdf",
+        "https://github.com/isaacs/node-tar/commit/52b09e309bcae0c741a7eb79a17ef36e7828b946",
+        "https://github.com/isaacs/node-tar/commit/82eac952f7c10765969ed464e549375854b26edc",
+        "https://github.com/isaacs/node-tar/commit/875a37e3ec031186fc6599f6807341f56c584598",
+        "https://github.com/advisories/GHSA-5955-9wpr-37jh"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-5955-9wpr-37jh",
+        "CVE-2021-37713"
+      ],
+      "repository_url": "https://github.com/npm/node-tar",
+      "blast_radius": 53.31961456337656,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "6.1.9",
+              "vulnerable_version_range": ">= 6.0.0, < 6.1.9"
+            },
+            {
+              "first_patched_version": "5.0.10",
+              "vulnerable_version_range": ">= 5.0.0, < 5.0.10"
+            },
+            {
+              "first_patched_version": "4.4.18",
+              "vulnerable_version_range": "< 4.4.18"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "tar"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:48.222Z",
+      "updated_at": "2023-11-29T22:26:30.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWdmanItM2ptbS00Zzl2",
+      "url": "https://github.com/advisories/GHSA-gfjr-3jmm-4g9v",
+      "title": "Symlink Arbitrary File Overwrite in tar",
+      "description": "Versions of `tar` prior to 2.0.0 are affected by an arbitrary file write vulnerability. The vulnerability occurs because `tar` does not verify that extracted symbolic links to not resolve to targets outside of the extraction root directory.\n\n\n\n## Recommendation\n\nUpdate to version 2.0.0 or later",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2017-10-24T18:33:36.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2015-8860",
+        "https://github.com/advisories/GHSA-gfjr-3jmm-4g9v",
+        "https://github.com/npm/npm/releases/tag/v2.7.5",
+        "https://www.npmjs.com/advisories/57",
+        "http://www.openwall.com/lists/oss-security/2016/04/20/11"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-gfjr-3jmm-4g9v",
+        "CVE-2015-8860"
+      ],
+      "repository_url": "https://github.com/npm/npm",
+      "blast_radius": 48.76794014942978,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.0.0",
+              "vulnerable_version_range": "< 2.0.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "tar"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:39.262Z",
+      "updated_at": "2023-01-09T05:02:54.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTNqZnEtZzQ1OC03cW05",
+      "url": "https://github.com/advisories/GHSA-3jfq-g458-7qm9",
+      "title": "Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization",
+      "description": "### Impact\n\nArbitrary File Creation, Arbitrary File Overwrite, Arbitrary Code Execution\n\n`node-tar` aims to prevent extraction of absolute file paths by turning absolute paths into relative paths when the `preservePaths` flag is not set to `true`. This is achieved by stripping the absolute path root from any absolute file paths contained in a tar file. For example `/home/user/.bashrc` would turn into `home/user/.bashrc`. \n\nThis logic was insufficient when file paths contained repeated path roots such as `////home/user/.bashrc`. `node-tar` would only strip a single path root from such paths. When given an absolute file path with repeating path roots, the resulting path (e.g. `///home/user/.bashrc`) would still resolve to an absolute path, thus allowing arbitrary file creation and overwrite. \n\n### Patches\n\n3.2.2 || 4.4.14 || 5.0.6 || 6.1.1\n\nNOTE: an adjacent issue [CVE-2021-32803](https://github.com/npm/node-tar/security/advisories/GHSA-r628-mhmh-qjhw) affects this release level. Please ensure you update to the latest patch levels that address CVE-2021-32803 as well if this adjacent issue affects your `node-tar` use case.\n\n### Workarounds\n\nUsers may work around this vulnerability without upgrading by creating a custom `onentry` method which sanitizes the `entry.path` or a `filter` method which removes entries with absolute paths.\n\n```js\nconst path = require('path')\nconst tar = require('tar')\n\ntar.x({\n  file: 'archive.tgz',\n  // either add this function...\n  onentry: (entry) => {\n    if (path.isAbsolute(entry.path)) {\n      entry.path = sanitizeAbsolutePathSomehow(entry.path)\n      entry.absolute = path.resolve(entry.path)\n    }\n  },\n\n  // or this one\n  filter: (file, entry) => {\n    if (path.isAbsolute(entry.path)) {\n      return false\n    } else {\n      return true\n    }\n  }\n})\n```\n\nUsers are encouraged to upgrade to the latest patch versions, rather than attempt to sanitize tar input themselves.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2021-08-03T19:06:36.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "references": [
+        "https://github.com/npm/node-tar/security/advisories/GHSA-3jfq-g458-7qm9",
+        "https://github.com/npm/node-tar/commit/1f036ca23f64a547bdd6c79c1a44bc62e8115da4",
+        "https://www.npmjs.com/advisories/1770",
+        "https://www.npmjs.com/package/tar",
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-32804",
+        "https://www.oracle.com/security-alerts/cpuoct2021.html",
+        "https://cert-portal.siemens.com/productcert/pdf/ssa-389290.pdf",
+        "https://github.com/advisories/GHSA-3jfq-g458-7qm9"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-3jfq-g458-7qm9",
+        "CVE-2021-32804"
+      ],
+      "repository_url": "https://github.com/npm/node-tar",
+      "blast_radius": 53.31961456337656,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "6.1.1",
+              "vulnerable_version_range": ">= 6.0.0, < 6.1.1"
+            },
+            {
+              "first_patched_version": "5.0.6",
+              "vulnerable_version_range": ">= 5.0.0, < 5.0.6"
+            },
+            {
+              "first_patched_version": "4.4.14",
+              "vulnerable_version_range": ">= 4.0.0, < 4.4.14"
+            },
+            {
+              "first_patched_version": "3.2.2",
+              "vulnerable_version_range": "< 3.2.2"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "tar"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:56.824Z",
+      "updated_at": "2023-02-01T05:05:55.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1mNXgzLTMyZzYteHEzNs4AA6O0",
+      "url": "https://github.com/advisories/GHSA-f5x3-32g6-xq36",
+      "title": "Denial of service while parsing a tar file due to lack of folders count validation",
+      "description": "## Description: \nDuring some analysis today on npm's `node-tar` package I came across the folder creation process, Basicly if you provide node-tar with a path like this `./a/b/c/foo.txt` it would create every folder and sub-folder here a, b and c until it reaches the last folder to create `foo.txt`, In-this case I noticed that there's no validation at all on the amount of folders being created, that said we're actually able to CPU and memory consume the system running node-tar and even crash the nodejs client within few seconds of running it using a path with too many sub-folders inside\n\n## Steps To Reproduce:\nYou can reproduce this issue by downloading the tar file I provided in the resources and using node-tar to extract it, you should get the same behavior as the video\n\n## Proof Of Concept:\nHere's a [video](https://hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com/3i7uojw8s52psar6pg8zkdo4h9io?response-content-disposition=attachment%3B%20filename%3D%22tar-dos-poc.webm%22%3B%20filename%2A%3DUTF-8%27%27tar-dos-poc.webm&response-content-type=video%2Fwebm&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGK6FURQSWWGDXHA%2F20240312%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240312T080103Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDcaCXVzLXdlc3QtMiJHMEUCID3xYDc6emXVPOg8iVR5dVk0u3gguTPIDJ0OIE%2BKxj17AiEAi%2BGiay1gGMWhH%2F031fvMYnSsa8U7CnpZpxvFAYqNRwgqsQUIQBADGgwwMTM2MTkyNzQ4NDkiDAaj6OgUL3gg4hhLLCqOBUUrOgWSqaK%2FmxN6nKRvB4Who3LIyzswFKm9LV94GiSVFP3zXYA480voCmAHTg7eBL7%2BrYgV2RtXbhF4aCFMCN3qu7GeXkIdH7xwVMi9zXHkekviSKZ%2FsZtVVjn7RFqOCKhJl%2FCoiLQJuDuju%2FtfdTGZbEbGsPgKHoILYbRp81K51zeRL21okjsOehmypkZzq%2BoGrXIX0ynPOKujxw27uqdF4T%2BF9ynodq01vGgwgVBEjHojc4OKOfr1oW5b%2FtGVV59%2BOBVI1hqIKHRG0Ed4SWmp%2BLd1hazGuZPvp52szmegnOj5qr3ubppnKL242bX%2FuAnQKzKK0HpwolqXjsuEeFeM85lxhqHV%2B1BJqaqSHHDa0HUMLZistMRshRlntuchcFQCR6HBa2c8PSnhpVC31zMzvYMfKsI12h4HB6l%2FudrmNrvmH4LmNpi4dZFcio21DzKj%2FRjWmxjH7l8egDyG%2FIgPMY6Ls4IiN7aR1jijYTrBCgPUUHets3BFvqLzHtPFnG3B7%2FYRPnhCLu%2FgzvKN3F8l38KqeTNMHJaxkuhCvEjpFB2SJbi2QZqZZbLj3xASqXoogzbsyPp0Tzp0tH7EKDhPA7H6wwiZukXfFhhlYzP8on9fO2Ajz%2F%2BTDkDjbfWw4KNJ0cFeDsGrUspqQZb5TAKlUge7iOZEc2TZ5uagatSy9Mg08E4nImBSE5QUHDc7Daya1gyqrETMDZBBUHH2RFkGA9qMpEtNrtJ9G%2BPedz%2FpPY1hh9OCp9Pg1BrX97l3SfVzlAMRfNibhywq6qnE35rVnZi%2BEQ1UgBjs9jD%2FQrW49%2FaD0oUDojVeuFFryzRnQxDbKtYgonRcItTvLT5Y0xaK9P0u6H1197%2FMk3XxmjD9%2Fb%2BvBjqxAQWWkKiIxpC1oHEWK9Jt8UdJ39xszDBGpBqjB6Tvt5ePAXSyX8np%2FrBi%2BAPx06O0%2Ba7pU4NmH800EVXxxhgfj9nMw3CeoUIdxorVKtU2Mxw%2FLaAiPgxPS4rqkt65NF7eQYfegcSYDTm2Z%2BHPbz9HfCaVZ28Zqeko6sR%2F29ML4bguqVvHAM4mWPLNDXH33mjG%2BuzLi8e1BF7tNveg2X9G%2FRdcMkojwKYbu6xN3M6aX2alQg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1e8235d885f1d61529b7d6b23ea3a0780c300c91d86e925dd8310d5b661ddbe2) show-casing the exploit: \n\n## Impact\n\nDenial of service by crashing the nodejs client when attempting to parse a tar archive, make it run out of heap memory and consuming server CPU and memory resources\n\n## Report resources\n[payload.txt](https://hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com/1e83ayb5dd3350fvj3gst0mqixwk?response-content-disposition=attachment%3B%20filename%3D%22payload.txt%22%3B%20filename%2A%3DUTF-8%27%27payload.txt&response-content-type=text%2Fplain&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGK6FURQSWWGDXHA%2F20240312%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240312T080103Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDcaCXVzLXdlc3QtMiJHMEUCID3xYDc6emXVPOg8iVR5dVk0u3gguTPIDJ0OIE%2BKxj17AiEAi%2BGiay1gGMWhH%2F031fvMYnSsa8U7CnpZpxvFAYqNRwgqsQUIQBADGgwwMTM2MTkyNzQ4NDkiDAaj6OgUL3gg4hhLLCqOBUUrOgWSqaK%2FmxN6nKRvB4Who3LIyzswFKm9LV94GiSVFP3zXYA480voCmAHTg7eBL7%2BrYgV2RtXbhF4aCFMCN3qu7GeXkIdH7xwVMi9zXHkekviSKZ%2FsZtVVjn7RFqOCKhJl%2FCoiLQJuDuju%2FtfdTGZbEbGsPgKHoILYbRp81K51zeRL21okjsOehmypkZzq%2BoGrXIX0ynPOKujxw27uqdF4T%2BF9ynodq01vGgwgVBEjHojc4OKOfr1oW5b%2FtGVV59%2BOBVI1hqIKHRG0Ed4SWmp%2BLd1hazGuZPvp52szmegnOj5qr3ubppnKL242bX%2FuAnQKzKK0HpwolqXjsuEeFeM85lxhqHV%2B1BJqaqSHHDa0HUMLZistMRshRlntuchcFQCR6HBa2c8PSnhpVC31zMzvYMfKsI12h4HB6l%2FudrmNrvmH4LmNpi4dZFcio21DzKj%2FRjWmxjH7l8egDyG%2FIgPMY6Ls4IiN7aR1jijYTrBCgPUUHets3BFvqLzHtPFnG3B7%2FYRPnhCLu%2FgzvKN3F8l38KqeTNMHJaxkuhCvEjpFB2SJbi2QZqZZbLj3xASqXoogzbsyPp0Tzp0tH7EKDhPA7H6wwiZukXfFhhlYzP8on9fO2Ajz%2F%2BTDkDjbfWw4KNJ0cFeDsGrUspqQZb5TAKlUge7iOZEc2TZ5uagatSy9Mg08E4nImBSE5QUHDc7Daya1gyqrETMDZBBUHH2RFkGA9qMpEtNrtJ9G%2BPedz%2FpPY1hh9OCp9Pg1BrX97l3SfVzlAMRfNibhywq6qnE35rVnZi%2BEQ1UgBjs9jD%2FQrW49%2FaD0oUDojVeuFFryzRnQxDbKtYgonRcItTvLT5Y0xaK9P0u6H1197%2FMk3XxmjD9%2Fb%2BvBjqxAQWWkKiIxpC1oHEWK9Jt8UdJ39xszDBGpBqjB6Tvt5ePAXSyX8np%2FrBi%2BAPx06O0%2Ba7pU4NmH800EVXxxhgfj9nMw3CeoUIdxorVKtU2Mxw%2FLaAiPgxPS4rqkt65NF7eQYfegcSYDTm2Z%2BHPbz9HfCaVZ28Zqeko6sR%2F29ML4bguqVvHAM4mWPLNDXH33mjG%2BuzLi8e1BF7tNveg2X9G%2FRdcMkojwKYbu6xN3M6aX2alQg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=bad9fe731f05a63a950f99828125653a8c1254750fe0ca7be882e89ecdd449ae)\n[archeive.tar.gz](https://hackerone-us-west-2-production-attachments.s3.us-west-2.amazonaws.com/ymkuh4xnfdcf1soeyi7jc2x4yt2i?response-content-disposition=attachment%3B%20filename%3D%22archive.tar.gz%22%3B%20filename%2A%3DUTF-8%27%27archive.tar.gz&response-content-type=application%2Fx-tar&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGK6FURQSWWGDXHA%2F20240312%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240312T080103Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDcaCXVzLXdlc3QtMiJHMEUCID3xYDc6emXVPOg8iVR5dVk0u3gguTPIDJ0OIE%2BKxj17AiEAi%2BGiay1gGMWhH%2F031fvMYnSsa8U7CnpZpxvFAYqNRwgqsQUIQBADGgwwMTM2MTkyNzQ4NDkiDAaj6OgUL3gg4hhLLCqOBUUrOgWSqaK%2FmxN6nKRvB4Who3LIyzswFKm9LV94GiSVFP3zXYA480voCmAHTg7eBL7%2BrYgV2RtXbhF4aCFMCN3qu7GeXkIdH7xwVMi9zXHkekviSKZ%2FsZtVVjn7RFqOCKhJl%2FCoiLQJuDuju%2FtfdTGZbEbGsPgKHoILYbRp81K51zeRL21okjsOehmypkZzq%2BoGrXIX0ynPOKujxw27uqdF4T%2BF9ynodq01vGgwgVBEjHojc4OKOfr1oW5b%2FtGVV59%2BOBVI1hqIKHRG0Ed4SWmp%2BLd1hazGuZPvp52szmegnOj5qr3ubppnKL242bX%2FuAnQKzKK0HpwolqXjsuEeFeM85lxhqHV%2B1BJqaqSHHDa0HUMLZistMRshRlntuchcFQCR6HBa2c8PSnhpVC31zMzvYMfKsI12h4HB6l%2FudrmNrvmH4LmNpi4dZFcio21DzKj%2FRjWmxjH7l8egDyG%2FIgPMY6Ls4IiN7aR1jijYTrBCgPUUHets3BFvqLzHtPFnG3B7%2FYRPnhCLu%2FgzvKN3F8l38KqeTNMHJaxkuhCvEjpFB2SJbi2QZqZZbLj3xASqXoogzbsyPp0Tzp0tH7EKDhPA7H6wwiZukXfFhhlYzP8on9fO2Ajz%2F%2BTDkDjbfWw4KNJ0cFeDsGrUspqQZb5TAKlUge7iOZEc2TZ5uagatSy9Mg08E4nImBSE5QUHDc7Daya1gyqrETMDZBBUHH2RFkGA9qMpEtNrtJ9G%2BPedz%2FpPY1hh9OCp9Pg1BrX97l3SfVzlAMRfNibhywq6qnE35rVnZi%2BEQ1UgBjs9jD%2FQrW49%2FaD0oUDojVeuFFryzRnQxDbKtYgonRcItTvLT5Y0xaK9P0u6H1197%2FMk3XxmjD9%2Fb%2BvBjqxAQWWkKiIxpC1oHEWK9Jt8UdJ39xszDBGpBqjB6Tvt5ePAXSyX8np%2FrBi%2BAPx06O0%2Ba7pU4NmH800EVXxxhgfj9nMw3CeoUIdxorVKtU2Mxw%2FLaAiPgxPS4rqkt65NF7eQYfegcSYDTm2Z%2BHPbz9HfCaVZ28Zqeko6sR%2F29ML4bguqVvHAM4mWPLNDXH33mjG%2BuzLi8e1BF7tNveg2X9G%2FRdcMkojwKYbu6xN3M6aX2alQg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=5e2c0d4b4de40373ac0fe91908c2659141a6dd4ab850271cc26042a3885c82ea)\n\n## Note\nThis report was originally reported to GitHub bug bounty program, they asked me to report it to you a month ago",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2024-03-22T16:57:05.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://github.com/isaacs/node-tar/security/advisories/GHSA-f5x3-32g6-xq36",
+        "https://nvd.nist.gov/vuln/detail/CVE-2024-28863",
+        "https://github.com/isaacs/node-tar/commit/fe8cd57da5686f8695415414bda49206a545f7f7",
+        "https://security.netapp.com/advisory/ntap-20240524-0005",
+        "https://github.com/advisories/GHSA-f5x3-32g6-xq36"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-f5x3-32g6-xq36",
+        "CVE-2024-28863"
+      ],
+      "repository_url": "https://github.com/isaacs/node-tar",
+      "blast_radius": 42.26554812950582,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "6.2.1",
+              "vulnerable_version_range": "< 6.2.1"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "tar"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "6.2.1",
+              "vulnerable_version_range": "< 6.2.1"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "node-tar"
+        }
+      ],
+      "created_at": "2024-03-22T17:04:53.360Z",
+      "updated_at": "2024-06-10T18:30:53.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTlyMnctMzk0di01M3Fj",
+      "url": "https://github.com/advisories/GHSA-9r2w-394v-53qc",
+      "title": "Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links",
+      "description": "### Impact\n\nArbitrary File Creation, Arbitrary File Overwrite, Arbitrary Code Execution\n\n`node-tar` aims to guarantee that any file whose location would be modified by a symbolic link is not extracted. This is, in part, achieved by ensuring that extracted directories are not symlinks. Additionally, in order to prevent unnecessary stat calls to determine whether a given path is a directory, paths are cached when directories are created.\n\nThis logic was insufficient when extracting tar files that contained both a directory and a symlink with the same name as the directory, where the symlink and directory names in the archive entry used backslashes as a path separator on posix systems. The cache checking logic used both `\\` and `/` characters as path separators, however `\\` is a valid filename character on posix systems.\n\nBy first creating a directory, and then replacing that directory with a symlink, it was thus possible to bypass node-tar symlink checks on directories, essentially allowing an untrusted tar file to symlink into an arbitrary location and subsequently extracting arbitrary files into that location, thus allowing arbitrary file creation and overwrite.\n\nAdditionally, a similar confusion could arise on case-insensitive filesystems.  If a tar archive contained a directory at `FOO`, followed by a symbolic link named `foo`, then on case-insensitive file systems, the creation of the symbolic link would remove the directory from the filesystem, but _not_ from the internal directory cache, as it would not be treated as a cache hit.  A subsequent file entry within the `FOO` directory would then be placed in the target of the symbolic link, thinking that the directory had already been created. \n\nThese issues were addressed in releases 4.4.16, 5.0.8 and 6.1.7.\n\nThe v3 branch of `node-tar` has been deprecated and did not receive patches for these issues. If you are still using a v3 release we recommend you update to a more recent version of `node-tar`. If this is not possible, a workaround is available below.\n\n### Patches\n\n4.4.16 || 5.0.8 || 6.1.7\n\n### Workarounds\n\nUsers may work around this vulnerability without upgrading by creating a custom filter method which prevents the extraction of symbolic links.\n\n```js\nconst tar = require('tar')\n\ntar.x({\n  file: 'archive.tgz',\n  filter: (file, entry) => {\n    if (entry.type === 'SymbolicLink') {\n      return false\n    } else {\n      return true\n    }\n  }\n})\n```\n\nUsers are encouraged to upgrade to the latest patched versions, rather than attempt to sanitize tar input themselves.\n\n### Fix\n\nThe problem is addressed in the following ways:\n\n1. All paths are normalized to use `/` as a path separator, replacing `\\` with `/` on Windows systems, and leaving `\\` intact in the path on posix systems.  This is performed in depth, at every level of the program where paths are consumed.\n2. Directory cache pruning is performed case-insensitively.  This _may_ result in undue cache misses on case-sensitive file systems, but the performance impact is negligible.\n\n#### Caveat\n\nNote that this means that the `entry` objects exposed in various parts of tar's API will now always use `/` as a path separator, even on Windows systems.  This is not expected to cause problems, as `/` is a valid path separator on Windows systems, but _may_ result in issues if `entry.path` is compared against a path string coming from some other API such as `fs.realpath()` or `path.resolve()`.\n\nUsers are encouraged to always normalize paths using a well-tested method such as `path.resolve()` before comparing paths to one another.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2021-08-31T16:05:27.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "references": [
+        "https://github.com/npm/node-tar/security/advisories/GHSA-9r2w-394v-53qc",
+        "https://www.npmjs.com/package/tar",
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-37701",
+        "https://www.oracle.com/security-alerts/cpuoct2021.html",
+        "https://www.debian.org/security/2021/dsa-5008",
+        "https://cert-portal.siemens.com/productcert/pdf/ssa-389290.pdf",
+        "https://lists.debian.org/debian-lts-announce/2022/12/msg00023.html",
+        "https://github.com/advisories/GHSA-9r2w-394v-53qc"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-9r2w-394v-53qc",
+        "CVE-2021-37701"
+      ],
+      "repository_url": "https://github.com/npm/node-tar",
+      "blast_radius": 53.31961456337656,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.4.16",
+              "vulnerable_version_range": ">= 3.0.0, < 4.4.16"
+            },
+            {
+              "first_patched_version": "6.1.7",
+              "vulnerable_version_range": ">= 6.0.0, < 6.1.7"
+            },
+            {
+              "first_patched_version": "5.0.8",
+              "vulnerable_version_range": ">= 5.0.0, < 5.0.8"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "tar"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:48.243Z",
+      "updated_at": "2024-02-02T23:30:44.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWo0NG0tcW02cC1ocDdt",
+      "url": "https://github.com/advisories/GHSA-j44m-qm6p-hp7m",
+      "title": "Arbitrary File Overwrite in tar",
+      "description": "Versions of `tar` prior to 4.4.2 for 4.x and 2.2.2 for 2.x are vulnerable to Arbitrary File Overwrite. Extracting tarballs containing a hardlink to a file that already exists in the system, and a file that matches the hardlink will overwrite the system's file with the contents of the extracted file.\n\n\n## Recommendation\n\nFor tar 4.x, upgrade to version 4.4.2 or later.\nFor tar 2.x, upgrade to version 2.2.2 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2019-05-01T18:37:31.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2018-20834",
+        "https://github.com/npm/node-tar/commit/b0c58433c22f5e7fe8b1c76373f27e3f81dcd4c8",
+        "https://hackerone.com/reports/344595",
+        "https://github.com/npm/node-tar/compare/58a8d43...a5f7779",
+        "https://github.com/npm/node-tar/commit/7ecef07da6a9e72cc0c4d0c9c6a8e85b6b52395d",
+        "https://access.redhat.com/errata/RHSA-2019:1821",
+        "https://github.com/npm/node-tar/commits/v2.2.2",
+        "https://github.com/advisories/GHSA-j44m-qm6p-hp7m"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-j44m-qm6p-hp7m",
+        "CVE-2018-20834"
+      ],
+      "repository_url": "https://github.com/npm/node-tar",
+      "blast_radius": 48.76794014942978,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.4.2",
+              "vulnerable_version_range": ">= 3.0.0, < 4.4.2"
+            },
+            {
+              "first_patched_version": "2.2.2",
+              "vulnerable_version_range": "< 2.2.2"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "tar"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:30.063Z",
+      "updated_at": "2023-11-29T22:25:50.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXFxODktaHEzZi0zOTNw",
+      "url": "https://github.com/advisories/GHSA-qq89-hq3f-393p",
+      "title": "Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links",
+      "description": "### Impact\nArbitrary File Creation, Arbitrary File Overwrite, Arbitrary Code Execution\n\nnode-tar aims to guarantee that any file whose location would be modified by a symbolic link is not extracted. This is, in part, achieved by ensuring that extracted directories are not symlinks. Additionally, in order to prevent unnecessary stat calls to determine whether a given path is a directory, paths are cached when directories are created.\n\nThis logic was insufficient when extracting tar files that contained two directories and a symlink with names containing unicode values that normalized to the same value. Additionally, on Windows systems, long path portions would resolve to the same file system entities as their 8.3 \"short path\" counterparts. A specially crafted tar archive could thus include directories with two forms of the path that resolve to the same file system entity, followed by a symbolic link with a name in the first form, lastly followed by a file using the second form. It led to bypassing node-tar symlink checks on directories, essentially allowing an untrusted tar file to symlink into an arbitrary location and subsequently extracting arbitrary files into that location, thus allowing arbitrary file creation and overwrite.\n\nThe v3 branch of `node-tar` has been deprecated and did not receive patches for these issues. If you are still using a v3 release we recommend you update to a more recent version of `node-tar`. If this is not possible, a workaround is available below.\n\n### Patches\n\n6.1.9 || 5.0.10 || 4.4.18\n\n### Workarounds\n\nUsers may work around this vulnerability without upgrading by creating a custom filter method which prevents the extraction of symbolic links.\n\n```js\nconst tar = require('tar')\n\ntar.x({\n  file: 'archive.tgz',\n  filter: (file, entry) => {\n    if (entry.type === 'SymbolicLink') {\n      return false\n    } else {\n      return true\n    }\n  }\n})\n```\n\nUsers are encouraged to upgrade to the latest patched versions, rather than attempt to sanitize tar input themselves.\n\n#### Fix\n\nThe problem is addressed in the following ways, when comparing paths in the directory cache and path reservation systems:\n\n1. The `String.normalize('NFKD')` method is used to first normalize all unicode to its maximally compatible and multi-code-point form.\n2. All slashes are normalized to `/` on Windows systems (on posix systems, `\\` is a valid filename character, and thus left intact).\n3. When a symbolic link is encountered on Windows systems, the entire directory cache is cleared.  Collisions related to use of 8.3 short names to replace directories with other (non-symlink) types of entries may make archives fail to extract properly, but will not result in arbitrary file writes.\n",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2021-08-31T16:05:17.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "references": [
+        "https://github.com/npm/node-tar/security/advisories/GHSA-qq89-hq3f-393p",
+        "https://www.npmjs.com/package/tar",
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-37712",
+        "https://www.oracle.com/security-alerts/cpuoct2021.html",
+        "https://www.debian.org/security/2021/dsa-5008",
+        "https://cert-portal.siemens.com/productcert/pdf/ssa-389290.pdf",
+        "https://lists.debian.org/debian-lts-announce/2022/12/msg00023.html",
+        "https://github.com/isaacs/node-tar/commit/1739408d3122af897caefd09662bce2ea477533b",
+        "https://github.com/isaacs/node-tar/commit/b6162c7fafe797f856564ef37f4b82747f051455",
+        "https://github.com/isaacs/node-tar/commit/bb93ba243746f705092905da1955ac3b0509ba1e",
+        "https://github.com/isaacs/node-tar/commit/2f1bca027286c23e110b8dfc7efc10756fa3db5a",
+        "https://github.com/isaacs/node-tar/commit/3aaf19b2501bbddb145d92b3322c80dcaed3c35f",
+        "https://github.com/isaacs/node-tar/commit/d56f790bda9fea807dd80c5083f24771dbdd6eb1",
+        "https://github.com/advisories/GHSA-qq89-hq3f-393p"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-qq89-hq3f-393p",
+        "CVE-2021-37712"
+      ],
+      "repository_url": "https://github.com/npm/node-tar",
+      "blast_radius": 53.31961456337656,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.4.18",
+              "vulnerable_version_range": ">= 3.0.0, < 4.4.18"
+            },
+            {
+              "first_patched_version": "6.1.9",
+              "vulnerable_version_range": ">= 6.0.0, < 6.1.9"
+            },
+            {
+              "first_patched_version": "5.0.10",
+              "vulnerable_version_range": ">= 5.0.0, < 5.0.10"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "tar"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:48.232Z",
+      "updated_at": "2024-02-07T18:41:26.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXI2MjgtbWhtaC1xamh3",
+      "url": "https://github.com/advisories/GHSA-r628-mhmh-qjhw",
+      "title": "Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning",
+      "description": "### Impact\n\nArbitrary File Creation, Arbitrary File Overwrite, Arbitrary Code Execution\n\n`node-tar` aims to guarantee that any file whose location would be modified by a symbolic link is not extracted. This is, in part, achieved by ensuring that extracted directories are not symlinks.  Additionally, in order to prevent unnecessary `stat` calls to determine whether a given path is a directory, paths are cached when directories are created.\n\nThis logic was insufficient when extracting tar files that contained both a directory and a symlink with the same name as the directory. This order of operations resulted in the directory being created and added to the `node-tar` directory cache. When a directory is present in the directory cache, subsequent calls to mkdir for that directory are skipped. However, this is also where `node-tar` checks for symlinks occur.\n\nBy first creating a directory, and then replacing that directory with a symlink, it was thus possible to bypass `node-tar` symlink checks on directories, essentially allowing an untrusted tar file to symlink into an arbitrary location and subsequently extracting arbitrary files into that location, thus allowing arbitrary file creation and overwrite.\n\nThis issue was addressed in releases 3.2.3, 4.4.15, 5.0.7 and 6.1.2.\n\n### Patches\n\n3.2.3 || 4.4.15 || 5.0.7 || 6.1.2\n\n### Workarounds\n\nUsers may work around this vulnerability without upgrading by creating a custom `filter` method which prevents the extraction of symbolic links.\n\n```js\nconst tar = require('tar')\n\ntar.x({\n  file: 'archive.tgz',\n  filter: (file, entry) => {\n    if (entry.type === 'SymbolicLink') {\n      return false\n    } else {\n      return true\n    }\n  }\n})\n```\n\nUsers are encouraged to upgrade to the latest patch versions, rather than attempt to sanitize tar input themselves.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2021-08-03T19:00:40.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.2,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "references": [
+        "https://github.com/npm/node-tar/security/advisories/GHSA-r628-mhmh-qjhw",
+        "https://github.com/npm/node-tar/commit/9dbdeb6df8e9dbd96fa9e84341b9d74734be6c20",
+        "https://www.npmjs.com/advisories/1771",
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-32803",
+        "https://www.npmjs.com/package/tar",
+        "https://www.oracle.com/security-alerts/cpuoct2021.html",
+        "https://cert-portal.siemens.com/productcert/pdf/ssa-389290.pdf",
+        "https://github.com/isaacs/node-tar/commit/46fe35083e2676e31c4e0a81639dce6da7aaa356",
+        "https://github.com/isaacs/node-tar/commit/5987d9a41f6bfbf1ddab1098e1fdcf1a5618f571",
+        "https://github.com/isaacs/node-tar/commit/85d3a942b4064e4ff171f91696fced7975167349",
+        "https://github.com/isaacs/node-tar/commit/9dbdeb6df8e9dbd96fa9e84341b9d74734be6c20",
+        "https://github.com/advisories/GHSA-r628-mhmh-qjhw"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-r628-mhmh-qjhw",
+        "CVE-2021-32803"
+      ],
+      "repository_url": "https://github.com/npm/node-tar",
+      "blast_radius": 53.31961456337656,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.2.3",
+              "vulnerable_version_range": ">= 3.0.0, < 3.2.3"
+            },
+            {
+              "first_patched_version": "6.1.2",
+              "vulnerable_version_range": ">= 6.0.0, < 6.1.2"
+            },
+            {
+              "first_patched_version": "5.0.7",
+              "vulnerable_version_range": ">= 5.0.0, < 5.0.7"
+            },
+            {
+              "first_patched_version": "4.4.15",
+              "vulnerable_version_range": ">= 4.0.0, < 4.4.15"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "tar"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:56.832Z",
+      "updated_at": "2024-01-26T20:00:13.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/tar",
+  "docker_dependents_count": 67795,
+  "docker_downloads_count": 15768112213,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/tar",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/tar/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/isaacs"
+  ],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/tar/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/tar/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/tar/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/tar/related_packages",
+  "maintainers": [
+    {
+      "uuid": "isaacs",
+      "login": "isaacs",
+      "name": null,
+      "email": "i@izs.me",
+      "url": null,
+      "packages_count": 442,
+      "html_url": "https://www.npmjs.com/~isaacs",
+      "role": null,
+      "created_at": "2024-04-20T07:10:11.832Z",
+      "updated_at": "2024-04-20T07:10:11.832Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/isaacs/packages"
+    }
+  ]
+}

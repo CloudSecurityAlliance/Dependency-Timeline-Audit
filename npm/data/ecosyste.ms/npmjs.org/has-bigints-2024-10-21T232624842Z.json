@@ -1,0 +1,246 @@
+{
+  "id": 1817072,
+  "name": "has-bigints",
+  "ecosystem": "npm",
+  "description": "Determine if the JS environment has BigInt support.",
+  "homepage": "https://github.com/ljharb/has-bigints",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/ljharb/has-bigints",
+  "keywords_array": [
+    "BigInt",
+    "bigints",
+    "typeof",
+    "ES2020"
+  ],
+  "namespace": null,
+  "versions_count": 3,
+  "first_release_published_at": "2019-08-11T05:54:02.979Z",
+  "latest_release_published_at": "2022-04-19T22:50:03.324Z",
+  "latest_release_number": "1.0.2",
+  "last_synced_at": "2024-10-08T14:17:23.760Z",
+  "created_at": "2022-04-09T16:58:18.807Z",
+  "updated_at": "2024-10-08T16:48:41.810Z",
+  "registry_url": "https://www.npmjs.com/package/has-bigints",
+  "install_command": "npm install has-bigints",
+  "documentation_url": null,
+  "metadata": {
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "dist-tags": {
+      "latest": "1.0.2"
+    }
+  },
+  "repo_metadata": {
+    "id": 35058505,
+    "uuid": "201714166",
+    "full_name": "inspect-js/has-bigints",
+    "owner": "inspect-js",
+    "description": "Determine if the JS environment has BigInt support.",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2022-10-31T05:11:20.000Z",
+    "size": 60,
+    "stargazers_count": 8,
+    "open_issues_count": 1,
+    "forks_count": 5,
+    "subscribers_count": 5,
+    "default_branch": "main",
+    "last_synced_at": "2024-10-07T21:15:26.349Z",
+    "etag": null,
+    "topics": [],
+    "latest_commit_sha": null,
+    "homepage": null,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "mit",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/inspect-js.png",
+    "metadata": {
+      "funding": {
+        "github": [
+          "ljharb"
+        ],
+        "patreon": null,
+        "open_collective": null,
+        "ko_fi": null,
+        "tidelift": "npm/deep-equal",
+        "community_bridge": null,
+        "liberapay": null,
+        "issuehunt": null,
+        "otechie": null,
+        "custom": null
+      }
+    },
+    "created_at": "2019-08-11T03:54:01.000Z",
+    "updated_at": "2024-09-26T00:52:23.000Z",
+    "dependencies_parsed_at": "2022-08-25T05:11:21.533Z",
+    "dependency_job_id": null,
+    "html_url": "https://github.com/inspect-js/has-bigints",
+    "commit_stats": null,
+    "previous_names": [
+      "ljharb/has-bigints"
+    ],
+    "tags_count": 3,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fhas-bigints",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fhas-bigints/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fhas-bigints/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fhas-bigints/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/inspect-js",
+    "download_url": "https://codeload.github.com/inspect-js/has-bigints/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 219868685,
+      "owners_count": 16555687,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "inspect-js",
+      "name": "Inspect JS",
+      "uuid": "54056128",
+      "kind": "organization",
+      "description": "JavaScript value inspection tools.",
+      "email": null,
+      "website": null,
+      "location": null,
+      "twitter": null,
+      "company": null,
+      "icon_url": "https://avatars.githubusercontent.com/u/54056128?v=4",
+      "repositories_count": 76,
+      "last_synced_at": "2024-04-09T13:35:49.657Z",
+      "metadata": {
+        "has_sponsors_listing": false,
+        "funding": {
+          "github": [
+            "ljharb"
+          ],
+          "patreon": null,
+          "open_collective": null,
+          "ko_fi": null,
+          "tidelift": "npm/deep-equal",
+          "community_bridge": null,
+          "liberapay": null,
+          "issuehunt": null,
+          "otechie": null,
+          "custom": null
+        }
+      },
+      "html_url": "https://github.com/inspect-js",
+      "funding_links": [
+        "https://github.com/sponsors/ljharb",
+        "https://tidelift.com/funding/github/npm/deep-equal"
+      ],
+      "total_stars": 1536,
+      "followers": 34,
+      "following": 0,
+      "created_at": "2022-11-02T16:19:14.654Z",
+      "updated_at": "2024-04-09T13:36:16.201Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/inspect-js",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/inspect-js/repositories"
+    },
+    "tags": [
+      {
+        "name": "v1.0.2",
+        "sha": "6aa1ab523edade31d6c558d57d34204639318633",
+        "kind": "tag",
+        "published_at": "2022-04-19T22:35:55.000Z",
+        "download_url": "https://codeload.github.com/inspect-js/has-bigints/tar.gz/v1.0.2",
+        "html_url": "https://github.com/inspect-js/has-bigints/releases/tag/v1.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fhas-bigints/tags/v1.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fhas-bigints/tags/v1.0.2/manifests"
+      },
+      {
+        "name": "v1.0.1",
+        "sha": "02979e38cb513890d26729d495a41970e0299d6c",
+        "kind": "tag",
+        "published_at": "2020-12-14T07:17:05.000Z",
+        "download_url": "https://codeload.github.com/inspect-js/has-bigints/tar.gz/v1.0.1",
+        "html_url": "https://github.com/inspect-js/has-bigints/releases/tag/v1.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fhas-bigints/tags/v1.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fhas-bigints/tags/v1.0.1/manifests"
+      },
+      {
+        "name": "v1.0.0",
+        "sha": "536dd610a18022c2279a61717ca1ef3ebca339c0",
+        "kind": "commit",
+        "published_at": "2019-08-11T05:02:12.000Z",
+        "download_url": "https://codeload.github.com/inspect-js/has-bigints/tar.gz/v1.0.0",
+        "html_url": "https://github.com/inspect-js/has-bigints/releases/tag/v1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fhas-bigints/tags/v1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fhas-bigints/tags/v1.0.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-10-08T16:48:41.809Z",
+  "dependent_packages_count": 879,
+  "downloads": 128252168,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 1609070,
+  "rankings": {
+    "downloads": 0.011444767769781651,
+    "dependent_repos_count": 0.02204076089634983,
+    "dependent_packages_count": 0.07641709771641289,
+    "stargazers_count": 10.695713385700005,
+    "forks_count": 8.106429798240736,
+    "docker_downloads_count": 0.009692458828953839,
+    "average": 3.1536230448587066
+  },
+  "purl": "pkg:npm/has-bigints",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/has-bigints",
+  "docker_dependents_count": 17138,
+  "docker_downloads_count": 8072212348,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/has-bigints",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/has-bigints/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/ljharb",
+    "https://tidelift.com/funding/github/npm/deep-equal"
+  ],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/has-bigints/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/has-bigints/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/has-bigints/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/has-bigints/related_packages",
+  "maintainers": [
+    {
+      "uuid": "ljharb",
+      "login": "ljharb",
+      "name": null,
+      "email": "ljharb@gmail.com",
+      "url": null,
+      "packages_count": 521,
+      "html_url": "https://www.npmjs.com/~ljharb",
+      "role": null,
+      "created_at": "2022-11-10T11:05:45.607Z",
+      "updated_at": "2022-11-10T11:05:45.607Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/ljharb/packages"
+    }
+  ]
+}

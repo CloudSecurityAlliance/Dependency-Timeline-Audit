@@ -1,0 +1,214 @@
+{
+  "id": 2501335,
+  "name": "unicode-length",
+  "ecosystem": "npm",
+  "description": "Get the length of unicode strings",
+  "homepage": "https://github.com/jviotti/unicode-length",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/jviotti/unicode-length",
+  "keywords_array": [
+    "unicode",
+    "string",
+    "length"
+  ],
+  "namespace": null,
+  "versions_count": 8,
+  "first_release_published_at": "2015-04-27T19:32:13.507Z",
+  "latest_release_published_at": "2022-08-12T22:25:18.814Z",
+  "latest_release_number": "2.1.0",
+  "last_synced_at": "2024-09-16T05:15:50.207Z",
+  "created_at": "2022-04-10T02:41:36.139Z",
+  "updated_at": "2024-09-16T05:24:49.502Z",
+  "registry_url": "https://www.npmjs.com/package/unicode-length",
+  "install_command": "npm install unicode-length",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "2.1.0"
+    }
+  },
+  "repo_metadata": {
+    "uuid": "34686676",
+    "full_name": "jviotti/unicode-length",
+    "owner": "jviotti",
+    "description": "Get the length of Unicode strings",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2022-08-12T22:27:30.000Z",
+    "size": 369,
+    "stargazers_count": 6,
+    "open_issues_count": 1,
+    "forks_count": 7,
+    "subscribers_count": 3,
+    "default_branch": "master",
+    "last_synced_at": "2023-03-16T16:31:55.016Z",
+    "etag": null,
+    "topics": [],
+    "latest_commit_sha": null,
+    "homepage": null,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "mit",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "logo_url": null,
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": null,
+        "contributing": null,
+        "funding": null,
+        "license": "LICENSE",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": null,
+        "support": null
+      }
+    },
+    "created_at": "2015-04-27T19:29:46.000Z",
+    "updated_at": "2022-08-12T22:23:42.000Z",
+    "dependencies_parsed_at": "2022-09-14T21:04:00.782Z",
+    "dependency_job_id": null,
+    "html_url": "https://github.com/jviotti/unicode-length",
+    "commit_stats": null,
+    "repository_url": "http://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/jviotti%2Funicode-length",
+    "tags_url": "http://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/jviotti%2Funicode-length/tags",
+    "manifests_url": "http://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/jviotti%2Funicode-length/manifests",
+    "owner_url": "http://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/jviotti",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 108921946,
+      "host_url": "http://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "http://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "http://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names"
+    },
+    "owner_record": {
+      "login": "jviotti",
+      "name": "Juan Cruz Viotti",
+      "uuid": "2192773",
+      "kind": "user",
+      "description": "Engineering Manager and Technical Lead at @postmanlabs. University of Oxford alumni researching binary serialization and JSON Schema at @sourcemeta.",
+      "email": "",
+      "website": "https://www.jviotti.com",
+      "location": null,
+      "twitter": "jviottidc",
+      "company": "@postmanlabs ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2192773?u=3572e50f57a44720d40219b33e264d44c9665d3c&v=4",
+      "repositories_count": 6,
+      "last_synced_at": "2023-02-19T23:16:22.024Z",
+      "metadata": {
+        "has_sponsors_listing": true
+      },
+      "owner_url": "http://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/jviotti"
+    },
+    "tags": [
+      {
+        "name": "v2.1.0",
+        "sha": "e5df37a7fcce03c3ebb1052cd33340456a3d60c4",
+        "kind": "tag",
+        "published_at": "2022-08-12T22:25:04.000Z",
+        "download_url": "https://codeload.github.com/jviotti/unicode-length/tar.gz/v2.1.0",
+        "html_url": "https://github.com/jviotti/unicode-length/releases/tag/v2.1.0"
+      },
+      {
+        "name": "v2.0.2",
+        "sha": "8cf253d244bc9ea40ec0880c6259d452a480a699",
+        "kind": "tag",
+        "published_at": "2019-05-30T14:01:49.000Z",
+        "download_url": "https://codeload.github.com/jviotti/unicode-length/tar.gz/v2.0.2",
+        "html_url": "https://github.com/jviotti/unicode-length/releases/tag/v2.0.2"
+      },
+      {
+        "name": "v1.0.2",
+        "sha": "ac7ec6e3dc1278d1cfdcd7a3bfcd66db0a4f131e",
+        "kind": "tag",
+        "published_at": "2016-08-24T14:48:05.000Z",
+        "download_url": "https://codeload.github.com/jviotti/unicode-length/tar.gz/v1.0.2",
+        "html_url": "https://github.com/jviotti/unicode-length/releases/tag/v1.0.2"
+      },
+      {
+        "name": "2.0.0",
+        "sha": "f4d66c7d59f9bd935519d64866f16dcb81eeb413",
+        "kind": "tag",
+        "published_at": "2016-08-24T14:47:17.000Z",
+        "download_url": "https://codeload.github.com/jviotti/unicode-length/tar.gz/2.0.0",
+        "html_url": "https://github.com/jviotti/unicode-length/releases/tag/2.0.0"
+      },
+      {
+        "name": "1.0.3",
+        "sha": "f0eedb5753ed320a7e195ccd770c52efb5355c8d",
+        "kind": "tag",
+        "published_at": "2016-08-24T14:31:47.000Z",
+        "download_url": "https://codeload.github.com/jviotti/unicode-length/tar.gz/1.0.3",
+        "html_url": "https://github.com/jviotti/unicode-length/releases/tag/1.0.3"
+      },
+      {
+        "name": "v1.0.1",
+        "sha": "93ea76df848251efc9710f02fb4c1d373b1f45cf",
+        "kind": "tag",
+        "published_at": "2016-07-19T01:19:47.000Z",
+        "download_url": "https://codeload.github.com/jviotti/unicode-length/tar.gz/v1.0.1",
+        "html_url": "https://github.com/jviotti/unicode-length/releases/tag/v1.0.1"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-09-16T05:24:49.425Z",
+  "dependent_packages_count": 17,
+  "downloads": 652256,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 27817,
+  "rankings": {
+    "downloads": 0.3551907436804444,
+    "dependent_repos_count": 0.17057340977787894,
+    "dependent_packages_count": 1.3477796304183076,
+    "stargazers_count": 10.887488623702064,
+    "forks_count": 7.008338139466941,
+    "docker_downloads_count": 0.2691331647128046,
+    "average": 3.339750618626407
+  },
+  "purl": "pkg:npm/unicode-length",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/unicode-length",
+  "docker_dependents_count": 527,
+  "docker_downloads_count": 34764624,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/unicode-length",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/unicode-length/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/jviotti"
+  ],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/unicode-length/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/unicode-length/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/unicode-length/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/unicode-length/related_packages",
+  "maintainers": [
+    {
+      "uuid": "jviotti",
+      "login": "jviotti",
+      "name": null,
+      "email": "jviottidc@gmail.com",
+      "url": null,
+      "packages_count": 57,
+      "html_url": "https://www.npmjs.com/~jviotti",
+      "role": null,
+      "created_at": "2022-11-15T05:25:28.452Z",
+      "updated_at": "2022-11-15T05:25:28.452Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/jviotti/packages"
+    }
+  ]
+}

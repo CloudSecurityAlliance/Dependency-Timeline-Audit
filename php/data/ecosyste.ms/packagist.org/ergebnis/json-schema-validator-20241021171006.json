@@ -1,0 +1,312 @@
+{
+    "id": 533835,
+    "name": "ergebnis\/json-schema-validator",
+    "ecosystem": "packagist",
+    "description": "Provides a JSON schema validator, building on top of justinrainbow\/json-schema.",
+    "homepage": "https:\/\/github.com\/ergebnis\/json-schema-validator",
+    "licenses": "MIT",
+    "normalized_licenses": [
+        "MIT"
+    ],
+    "repository_url": "https:\/\/github.com\/ergebnis\/json-schema-validator",
+    "keywords_array": [
+        "json",
+        "schema",
+        "validator"
+    ],
+    "namespace": "ergebnis",
+    "versions_count": 9,
+    "first_release_published_at": "2021-02-02T13:02:19.000Z",
+    "latest_release_published_at": "2024-01-29T16:50:15.000Z",
+    "latest_release_number": "4.2.0",
+    "last_synced_at": "2024-09-27T16:17:37.666Z",
+    "created_at": "2022-04-07T09:22:29.168Z",
+    "updated_at": "2024-09-27T16:18:03.245Z",
+    "registry_url": "https:\/\/packagist.org\/packages\/ergebnis\/json-schema-validator#",
+    "install_command": "composer require ergebnis\/json-schema-validator",
+    "documentation_url": null,
+    "metadata": {
+        "funding": []
+    },
+    "repo_metadata": {
+        "id": 37892998,
+        "uuid": "335242829",
+        "full_name": "ergebnis\/json-schema-validator",
+        "owner": "ergebnis",
+        "description": "\ud83d\udcc3 Provides a composer package with a JSON schema validator, building on top of justinrainbow\/json-schema.",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2024-05-27T22:52:29.000Z",
+        "size": 3270,
+        "stargazers_count": 24,
+        "open_issues_count": 3,
+        "forks_count": 0,
+        "subscribers_count": 2,
+        "default_branch": "main",
+        "last_synced_at": "2024-05-28T08:18:50.985Z",
+        "etag": null,
+        "topics": [
+            "json",
+            "schema",
+            "validator"
+        ],
+        "latest_commit_sha": null,
+        "homepage": null,
+        "language": "PHP",
+        "has_issues": true,
+        "has_wiki": null,
+        "has_pages": null,
+        "mirror_url": null,
+        "source_name": null,
+        "license": "mit",
+        "status": null,
+        "scm": "git",
+        "pull_requests_enabled": true,
+        "icon_url": "https:\/\/github.com\/ergebnis.png",
+        "metadata": {
+            "funding": {
+                "github": [
+                    "ergebnis",
+                    "localheinz"
+                ]
+            },
+            "files": {
+                "readme": "README.md",
+                "changelog": "CHANGELOG.md",
+                "contributing": ".github\/CONTRIBUTING.md",
+                "funding": null,
+                "license": "LICENSE.md",
+                "code_of_conduct": null,
+                "threat_model": null,
+                "audit": null,
+                "citation": null,
+                "codeowners": ".github\/CODEOWNERS",
+                "security": ".github\/SECURITY.md",
+                "support": null,
+                "governance": null,
+                "roadmap": null,
+                "authors": null,
+                "dei": null,
+                "publiccode": null,
+                "codemeta": null
+            }
+        },
+        "created_at": "2021-02-02T09:58:55.000Z",
+        "updated_at": "2024-05-30T01:24:37.460Z",
+        "dependencies_parsed_at": "2024-05-17T00:21:25.830Z",
+        "dependency_job_id": "9393203a-64a3-4430-b635-fd27c626d88e",
+        "html_url": "https:\/\/github.com\/ergebnis\/json-schema-validator",
+        "commit_stats": {
+            "total_commits": 329,
+            "total_committers": 3,
+            "mean_commits": "109.66666666666667",
+            "dds": 0.3009118541033434,
+            "last_synced_commit": "0ce9316ab88ea43310bb2c189bbdef59ea10bef0"
+        },
+        "previous_names": [],
+        "tags_count": 8,
+        "template": false,
+        "template_full_name": "ergebnis\/php-package-template",
+        "repository_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator",
+        "tags_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags",
+        "releases_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/releases",
+        "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/manifests",
+        "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/ergebnis",
+        "download_url": "https:\/\/codeload.github.com\/ergebnis\/json-schema-validator\/tar.gz\/refs\/heads\/main",
+        "host": {
+            "name": "GitHub",
+            "url": "https:\/\/github.com",
+            "kind": "github",
+            "repositories_count": 219875527,
+            "owners_count": 16554685,
+            "icon_url": "https:\/\/github.com\/github.png",
+            "version": null,
+            "created_at": "2022-05-30T11:31:42.601Z",
+            "updated_at": "2022-07-04T15:15:14.044Z",
+            "host_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories",
+            "repository_names_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repository_names",
+            "owners_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners"
+        },
+        "owner_record": {
+            "login": "ergebnis",
+            "name": "ergebnis",
+            "uuid": "52623233",
+            "kind": "organization",
+            "description": "",
+            "email": "hello@ergebn.is",
+            "website": "https:\/\/ergebn.is",
+            "location": "Berlin, Germany",
+            "twitter": "ergebnis",
+            "company": null,
+            "icon_url": "https:\/\/avatars.githubusercontent.com\/u\/52623233?v=4",
+            "repositories_count": 42,
+            "last_synced_at": "2024-05-20T14:38:23.043Z",
+            "metadata": {
+                "has_sponsors_listing": true,
+                "funding": {
+                    "github": [
+                        "ergebnis",
+                        "localheinz"
+                    ]
+                }
+            },
+            "html_url": "https:\/\/github.com\/ergebnis",
+            "funding_links": [
+                "https:\/\/github.com\/sponsors\/ergebnis",
+                "https:\/\/github.com\/sponsors\/localheinz"
+            ],
+            "total_stars": 2564,
+            "followers": 31,
+            "following": 0,
+            "created_at": "2022-11-02T16:35:13.135Z",
+            "updated_at": "2024-05-20T14:38:30.472Z",
+            "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/ergebnis",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/ergebnis\/repositories"
+        },
+        "tags": [
+            {
+                "name": "4.2.0",
+                "sha": "10ed514fdc3f9b71f8a92c567afea21a2f6fa1ef",
+                "kind": "tag",
+                "published_at": "2024-01-29T16:50:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/json-schema-validator\/tar.gz\/4.2.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/json-schema-validator\/releases\/tag\/4.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/4.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/4.2.0\/manifests"
+            },
+            {
+                "name": "4.1.0",
+                "sha": "d568ed85d1cdc2e49d650c2fc234dc2516f3f25b",
+                "kind": "tag",
+                "published_at": "2023-10-10T14:17:02.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/json-schema-validator\/tar.gz\/4.1.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/json-schema-validator\/releases\/tag\/4.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/4.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/4.1.0\/manifests"
+            },
+            {
+                "name": "4.0.0",
+                "sha": "a6166272ac5691a9bc791f185841e5f92a6d4723",
+                "kind": "tag",
+                "published_at": "2022-12-10T14:50:23.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/json-schema-validator\/tar.gz\/4.0.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/json-schema-validator\/releases\/tag\/4.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/4.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/4.0.0\/manifests"
+            },
+            {
+                "name": "3.2.0",
+                "sha": "dba66b66ff9ec6fa94003eb420b0d08a5d48069e",
+                "kind": "tag",
+                "published_at": "2022-11-28T11:24:03.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/json-schema-validator\/tar.gz\/3.2.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/json-schema-validator\/releases\/tag\/3.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/3.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/3.2.0\/manifests"
+            },
+            {
+                "name": "3.1.0",
+                "sha": "689bf18666b508aa8c64edf237223d475670589b",
+                "kind": "tag",
+                "published_at": "2022-03-21T10:36:57.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/json-schema-validator\/tar.gz\/3.1.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/json-schema-validator\/releases\/tag\/3.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/3.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/3.1.0\/manifests"
+            },
+            {
+                "name": "3.0.0",
+                "sha": "365d771958311eb1da6fa3a045f2e372cc62baa0",
+                "kind": "tag",
+                "published_at": "2022-01-30T12:07:56.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/json-schema-validator\/tar.gz\/3.0.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/json-schema-validator\/releases\/tag\/3.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/3.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/3.0.0\/manifests"
+            },
+            {
+                "name": "2.0.0",
+                "sha": "dacd8a47c1cc2c426ec71e952da3609ebe901fac",
+                "kind": "tag",
+                "published_at": "2021-12-13T16:56:29.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/json-schema-validator\/tar.gz\/2.0.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/json-schema-validator\/releases\/tag\/2.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/2.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/2.0.0\/manifests"
+            },
+            {
+                "name": "1.0.0",
+                "sha": "c4efc5e020c1d5eccdac3178d534738314b2924f",
+                "kind": "tag",
+                "published_at": "2021-02-02T13:03:00.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/json-schema-validator\/tar.gz\/1.0.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/json-schema-validator\/releases\/tag\/1.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/1.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Fjson-schema-validator\/tags\/1.0.0\/manifests"
+            }
+        ]
+    },
+    "repo_metadata_updated_at": "2024-09-27T16:18:03.244Z",
+    "dependent_packages_count": 5,
+    "downloads": 11839543,
+    "downloads_period": "total",
+    "dependent_repos_count": 243,
+    "rankings": {
+        "downloads": 0.29218316153697854,
+        "dependent_repos_count": 0.5896241177545711,
+        "dependent_packages_count": 3.7391487294057537,
+        "stargazers_count": 5.918668399790623,
+        "forks_count": 27.064414282459392,
+        "docker_downloads_count": 0.5135112804733017,
+        "average": 6.35292499523677
+    },
+    "purl": "pkg:composer\/ergebnis\/json-schema-validator",
+    "advisories": [],
+    "docker_usage_url": "https:\/\/docker.ecosyste.ms\/usage\/packagist\/ergebnis\/json-schema-validator",
+    "docker_dependents_count": 10,
+    "docker_downloads_count": 3262111,
+    "usage_url": "https:\/\/repos.ecosyste.ms\/usage\/packagist\/ergebnis\/json-schema-validator",
+    "dependent_repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/usage\/packagist\/ergebnis\/json-schema-validator\/dependencies",
+    "status": null,
+    "funding_links": [
+        "https:\/\/github.com\/sponsors\/ergebnis",
+        "https:\/\/github.com\/sponsors\/localheinz"
+    ],
+    "critical": null,
+    "versions_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/ergebnis%2Fjson-schema-validator\/versions",
+    "version_numbers_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/ergebnis%2Fjson-schema-validator\/version_numbers",
+    "dependent_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/ergebnis%2Fjson-schema-validator\/dependent_packages",
+    "related_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/ergebnis%2Fjson-schema-validator\/related_packages",
+    "maintainers": [
+        {
+            "uuid": "localheinz",
+            "login": "localheinz",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 60,
+            "html_url": "https:\/\/packagist.org\/users\/localheinz",
+            "role": null,
+            "created_at": "2022-11-15T07:59:14.343Z",
+            "updated_at": "2022-11-15T07:59:14.343Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/localheinz\/packages"
+        }
+    ]
+}

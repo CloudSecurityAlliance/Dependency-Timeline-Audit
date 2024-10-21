@@ -1,0 +1,136 @@
+{
+  "id": 2881903,
+  "name": "pyro",
+  "ecosystem": "pypi",
+  "description": "distributed object middleware for Python (IPC/RPC), version 3.x",
+  "homepage": null,
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": null,
+  "keywords_array": [
+    "distributed objects",
+    "middleware",
+    "network communication",
+    "DOT",
+    "RMI",
+    "IPC"
+  ],
+  "namespace": null,
+  "versions_count": 8,
+  "first_release_published_at": "2011-04-25T18:05:10.000Z",
+  "latest_release_published_at": "2011-04-25T18:18:09.000Z",
+  "latest_release_number": "3.9.1",
+  "last_synced_at": "2024-09-17T18:52:49.883Z",
+  "created_at": "2022-04-10T12:18:01.361Z",
+  "updated_at": "2024-10-15T18:00:16.276Z",
+  "registry_url": "https://pypi.org/project/pyro/",
+  "install_command": "pip install pyro --index-url https://pypi.org/simple",
+  "documentation_url": "https://pyro.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "Development Status :: 7 - Inactive",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 2.5",
+      "Programming Language :: Python :: 2.6",
+      "Programming Language :: Python :: 2.7",
+      "Topic :: Software Development :: Object Brokering",
+      "Topic :: System :: Distributed Computing",
+      "Topic :: System :: Networking"
+    ],
+    "normalized_name": "pyro"
+  },
+  "repo_metadata": null,
+  "repo_metadata_updated_at": null,
+  "dependent_packages_count": 4,
+  "downloads": 1598,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 11,
+  "rankings": {
+    "downloads": 5.168760579923767,
+    "dependent_repos_count": 4.393763170925506,
+    "dependent_packages_count": 2.3327095628808596,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": null,
+    "average": 3.965077771243377
+  },
+  "purl": "pkg:pypi/pyro",
+  "advisories": [
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXhycjQtNzRtYy1ycGpj",
+      "url": "https://github.com/advisories/GHSA-xrr4-74mc-rpjc",
+      "title": "Pyro mishandles pid files in temporary directory locations and opening the pid file as root",
+      "description": "pyro before 3.15 unsafely handles pid files in temporary directory locations and opening the pid file as root. An attacker can use this flaw to overwrite arbitrary files via symlinks.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2018-08-21T17:01:29.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2011-2765",
+        "https://github.com/irmen/Pyro3/commit/554e095a62c4412c91f981e72fd34a936ac2bf1e",
+        "https://bugs.debian.org/631912",
+        "https://pythonhosted.org/Pyro/12-changes.html",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pyro/PYSEC-2018-99.yaml",
+        "https://github.com/advisories/GHSA-xrr4-74mc-rpjc"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-xrr4-74mc-rpjc",
+        "CVE-2011-2765"
+      ],
+      "repository_url": "https://github.com/irmen/Pyro3",
+      "blast_radius": 7.810445138686687,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.15",
+              "vulnerable_version_range": "< 3.15"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pyro"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:36.573Z",
+      "updated_at": "2024-10-15T16:14:46.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/pyro",
+  "docker_dependents_count": null,
+  "docker_downloads_count": null,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/pyro",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/pyro/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/pyro/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/pyro/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/pyro/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/pyro/related_packages",
+  "maintainers": [
+    {
+      "uuid": "irmen",
+      "login": "irmen",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 10,
+      "html_url": "https://pypi.org/user/irmen/",
+      "role": null,
+      "created_at": "2023-02-25T05:23:31.042Z",
+      "updated_at": "2023-02-25T05:23:31.042Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/irmen/packages"
+    }
+  ]
+}

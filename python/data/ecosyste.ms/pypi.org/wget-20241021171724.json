@@ -1,0 +1,83 @@
+{
+  "id": 2969822,
+  "name": "wget",
+  "ecosystem": "pypi",
+  "description": "pure python download utility",
+  "homepage": "http://bitbucket.org/techtonik/python-wget/",
+  "licenses": "Public Domain",
+  "normalized_licenses": [
+    "Unlicense"
+  ],
+  "repository_url": "https://bitbucket.org/techtonik/python-wget",
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 16,
+  "first_release_published_at": "2010-02-04T16:30:07.000Z",
+  "latest_release_published_at": "2015-10-22T15:26:37.000Z",
+  "latest_release_number": "3.2",
+  "last_synced_at": "2024-10-20T18:01:53.352Z",
+  "created_at": "2022-04-10T13:04:08.297Z",
+  "updated_at": "2024-10-20T18:01:53.352Z",
+  "registry_url": "https://pypi.org/project/wget/",
+  "install_command": "pip install wget --index-url https://pypi.org/simple",
+  "documentation_url": "https://wget.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "Environment :: Console",
+      "License :: Public Domain",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 2",
+      "Programming Language :: Python :: 3",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Topic :: System :: Networking",
+      "Topic :: Utilities"
+    ],
+    "normalized_name": "wget"
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-09-08T05:16:34.734Z",
+  "dependent_packages_count": 477,
+  "downloads": 2082959,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 10081,
+  "rankings": {
+    "downloads": 0.26220309790296714,
+    "dependent_repos_count": 0.0894108358827593,
+    "dependent_packages_count": 0.05366436883205025,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 0.9645712030000987,
+    "average": 0.34246237640446886
+  },
+  "purl": "pkg:pypi/wget",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/wget",
+  "docker_dependents_count": 389,
+  "docker_downloads_count": 1987126,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/wget",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/wget/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/wget/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/wget/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/wget/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/wget/related_packages",
+  "maintainers": [
+    {
+      "uuid": "techtonik",
+      "login": "techtonik",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 21,
+      "html_url": "https://pypi.org/user/techtonik/",
+      "role": null,
+      "created_at": "2023-02-24T04:07:10.296Z",
+      "updated_at": "2023-02-24T04:07:10.296Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/techtonik/packages"
+    }
+  ]
+}

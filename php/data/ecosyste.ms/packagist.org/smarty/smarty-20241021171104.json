@@ -1,0 +1,1893 @@
+{
+    "id": 710785,
+    "name": "smarty\/smarty",
+    "ecosystem": "packagist",
+    "description": "Smarty - the compiling PHP template engine",
+    "homepage": "https:\/\/smarty-php.github.io\/smarty\/",
+    "licenses": "LGPL-3.0",
+    "normalized_licenses": [
+        "LGPL-3.0"
+    ],
+    "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+    "keywords_array": [
+        "templating"
+    ],
+    "namespace": "smarty",
+    "versions_count": 82,
+    "first_release_published_at": "2014-10-30T23:47:33.000Z",
+    "latest_release_published_at": "2024-04-22T22:22:15.000Z",
+    "latest_release_number": "v5.1.0",
+    "last_synced_at": "2024-10-21T07:31:52.785Z",
+    "created_at": "2022-04-07T11:16:22.469Z",
+    "updated_at": "2024-10-21T07:31:52.786Z",
+    "registry_url": "https:\/\/packagist.org\/packages\/smarty\/smarty#",
+    "install_command": "composer require smarty\/smarty",
+    "documentation_url": null,
+    "metadata": {
+        "funding": []
+    },
+    "repo_metadata": {
+        "id": 22644987,
+        "uuid": "25987947",
+        "full_name": "smarty-php\/smarty",
+        "owner": "smarty-php",
+        "description": "Smarty is a template engine for PHP, facilitating the separation of presentation (HTML\/CSS) from application logic.",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2024-05-16T15:22:43.000Z",
+        "size": 23728,
+        "stargazers_count": 2204,
+        "open_issues_count": 72,
+        "forks_count": 698,
+        "subscribers_count": 184,
+        "default_branch": "master",
+        "last_synced_at": "2024-05-23T00:01:30.600Z",
+        "etag": null,
+        "topics": [
+            "php",
+            "smarty"
+        ],
+        "latest_commit_sha": null,
+        "homepage": "",
+        "language": "PHP",
+        "has_issues": true,
+        "has_wiki": null,
+        "has_pages": null,
+        "mirror_url": null,
+        "source_name": null,
+        "license": "other",
+        "status": null,
+        "scm": "git",
+        "pull_requests_enabled": true,
+        "icon_url": "https:\/\/github.com\/smarty-php.png",
+        "metadata": {
+            "files": {
+                "readme": "README.md",
+                "changelog": "CHANGELOG.md",
+                "contributing": "CONTRIBUTING.md",
+                "funding": null,
+                "license": "LICENSE",
+                "code_of_conduct": null,
+                "threat_model": null,
+                "audit": null,
+                "citation": null,
+                "codeowners": null,
+                "security": "SECURITY.md",
+                "support": null,
+                "governance": null,
+                "roadmap": null,
+                "authors": null,
+                "dei": null,
+                "publiccode": null,
+                "codemeta": null
+            }
+        },
+        "created_at": "2014-10-30T20:15:10.000Z",
+        "updated_at": "2024-05-28T23:41:12.037Z",
+        "dependencies_parsed_at": "2023-11-06T23:22:57.217Z",
+        "dependency_job_id": "796e16ac-ec67-461e-ba31-c18b9439f0a3",
+        "html_url": "https:\/\/github.com\/smarty-php\/smarty",
+        "commit_stats": {
+            "total_commits": 4805,
+            "total_committers": 94,
+            "mean_commits": 51.11702127659574,
+            "dds": 0.7746097814776275,
+            "last_synced_commit": "e28cb0915b4e3749bf57d4ebae2984e25395cfe5"
+        },
+        "previous_names": [],
+        "tags_count": 79,
+        "template": false,
+        "template_full_name": null,
+        "repository_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty",
+        "tags_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags",
+        "releases_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/releases",
+        "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/manifests",
+        "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/smarty-php",
+        "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/refs\/heads\/master",
+        "host": {
+            "name": "GitHub",
+            "url": "https:\/\/github.com",
+            "kind": "github",
+            "repositories_count": 216706811,
+            "owners_count": 16067605,
+            "icon_url": "https:\/\/github.com\/github.png",
+            "version": null,
+            "created_at": "2022-05-30T11:31:42.601Z",
+            "updated_at": "2022-07-04T15:15:14.044Z",
+            "host_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories",
+            "repository_names_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repository_names",
+            "owners_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners"
+        },
+        "owner_record": {
+            "login": "smarty-php",
+            "name": "Smarty PHP Template Engine",
+            "uuid": "3492426",
+            "kind": "organization",
+            "description": null,
+            "email": null,
+            "website": "http:\/\/www.smarty.net\/",
+            "location": null,
+            "twitter": null,
+            "company": null,
+            "icon_url": "https:\/\/avatars.githubusercontent.com\/u\/3492426?v=4",
+            "repositories_count": 5,
+            "last_synced_at": "2024-03-25T21:15:23.412Z",
+            "metadata": {
+                "has_sponsors_listing": false
+            },
+            "html_url": "https:\/\/github.com\/smarty-php",
+            "funding_links": [],
+            "total_stars": 2212,
+            "followers": 47,
+            "following": 0,
+            "created_at": "2022-11-02T16:42:15.729Z",
+            "updated_at": "2024-03-25T21:15:23.965Z",
+            "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/smarty-php",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/smarty-php\/repositories"
+        },
+        "tags": [
+            {
+                "name": "v4.5.3",
+                "sha": "9fc96a13dbaf546c3d7bcf95466726578cd4e0fa",
+                "kind": "tag",
+                "published_at": "2024-05-28T21:46:03.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.5.3",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.5.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.5.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.5.3\/manifests"
+            },
+            {
+                "name": "v5.2.0",
+                "sha": "cdee97d3f1dff597be8583625adb42710da2c885",
+                "kind": "tag",
+                "published_at": "2024-05-28T21:45:19.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v5.2.0",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v5.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.2.0\/manifests"
+            },
+            {
+                "name": "v5.1.0",
+                "sha": "8d53d3cbf2a986f392d680349be0fc22661bf16c",
+                "kind": "tag",
+                "published_at": "2024-04-22T22:22:17.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v5.1.0",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v5.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.1.0\/manifests"
+            },
+            {
+                "name": "v4.5.2",
+                "sha": "732040276609d0c3ad3381781c7444e7c5df9456",
+                "kind": "tag",
+                "published_at": "2024-04-05T22:34:26.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.5.2",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.5.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.5.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.5.2\/manifests"
+            },
+            {
+                "name": "v5.0.2",
+                "sha": "bbd09c7bfaa6c2c091adc4568a944f765bb4f1d9",
+                "kind": "tag",
+                "published_at": "2024-03-28T10:23:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v5.0.2",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v5.0.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.0.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.0.2\/manifests"
+            },
+            {
+                "name": "v5.0.1",
+                "sha": "4fec27ccc274ff615df13612637160264b343bd9",
+                "kind": "tag",
+                "published_at": "2024-03-27T22:05:42.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v5.0.1",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v5.0.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.0.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.0.1\/manifests"
+            },
+            {
+                "name": "v5.0.0",
+                "sha": "e161babbd49840de2ae7a5e358e59f52d66c1f0a",
+                "kind": "tag",
+                "published_at": "2024-03-25T11:29:23.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v5.0.0",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v5.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.0.0\/manifests"
+            },
+            {
+                "name": "v4.5.1",
+                "sha": "42b869e3a098b1c8ee07922ccded0e5a5dceadcd",
+                "kind": "tag",
+                "published_at": "2024-03-18T14:19:10.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.5.1",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.5.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.5.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.5.1\/manifests"
+            },
+            {
+                "name": "v4.5.0",
+                "sha": "f4152e9b814ae2369b6e4935c05e1e0c3654318d",
+                "kind": "tag",
+                "published_at": "2024-03-18T14:12:28.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.5.0",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.5.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.5.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.5.0\/manifests"
+            },
+            {
+                "name": "v4.4.1",
+                "sha": "f4152e9b814ae2369b6e4935c05e1e0c3654318d",
+                "kind": "tag",
+                "published_at": "2024-02-26T13:58:57.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.4.1",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.4.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.4.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.4.1\/manifests"
+            },
+            {
+                "name": "checkout",
+                "sha": "29dd621b536017b17588674e92ab7404cb644205",
+                "kind": "tag",
+                "published_at": "2024-02-26T13:47:10.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/checkout",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/checkout",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/checkout",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/checkout\/manifests"
+            },
+            {
+                "name": "v4.4.0",
+                "sha": "29dd621b536017b17588674e92ab7404cb644205",
+                "kind": "tag",
+                "published_at": "2024-02-26T13:47:10.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.4.0",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.4.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.4.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.4.0\/manifests"
+            },
+            {
+                "name": "v5.0.0-rc3",
+                "sha": "7b5ec8a065a8297584430adebf9fc53b0bf1aeba",
+                "kind": "tag",
+                "published_at": "2024-02-26T13:36:59.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v5.0.0-rc3",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v5.0.0-rc3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.0.0-rc3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.0.0-rc3\/manifests"
+            },
+            {
+                "name": "v4.3.5",
+                "sha": "e0cbbdf6ea21768d0194e59d2f8c2e20d5f0868c",
+                "kind": "tag",
+                "published_at": "2024-01-23T10:48:30.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.3.5",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.3.5",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.3.5",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.3.5\/manifests"
+            },
+            {
+                "name": "v5.0.0-rc2",
+                "sha": "bc4e70f2c0a987e20dce9f77ec65e2e725630e18",
+                "kind": "tag",
+                "published_at": "2023-11-06T17:19:07.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v5.0.0-rc2",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v5.0.0-rc2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.0.0-rc2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.0.0-rc2\/manifests"
+            },
+            {
+                "name": "v4.3.3",
+                "sha": "3931d8f54b8f7a4ffab538582d34d4397ba8daa5",
+                "kind": "tag",
+                "published_at": "2023-09-14T12:08:38.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.3.3",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.3.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.3.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.3.3\/manifests"
+            },
+            {
+                "name": "v4.3.4",
+                "sha": "3931d8f54b8f7a4ffab538582d34d4397ba8daa5",
+                "kind": "tag",
+                "published_at": "2023-09-14T10:59:09.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.3.4",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.3.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.3.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.3.4\/manifests"
+            },
+            {
+                "name": "v5.0.0-rc1",
+                "sha": "548a67031d0cb37863c64aa3ef3e0535a4f5191d",
+                "kind": "tag",
+                "published_at": "2023-08-07T22:20:36.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v5.0.0-rc1",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v5.0.0-rc1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.0.0-rc1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v5.0.0-rc1\/manifests"
+            },
+            {
+                "name": "v4.3.2",
+                "sha": "1d9cda2be34fd6edb74924684260636fd0b89288",
+                "kind": "tag",
+                "published_at": "2023-07-19T10:27:38.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.3.2",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.3.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.3.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.3.2\/manifests"
+            },
+            {
+                "name": "v4.3.1",
+                "sha": "e28cb0915b4e3749bf57d4ebae2984e25395cfe5",
+                "kind": "tag",
+                "published_at": "2023-03-28T19:47:04.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.3.1",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.3.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.3.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.3.1\/manifests"
+            },
+            {
+                "name": "v3.1.48",
+                "sha": "2fc443806cdcaee4441be4d0bb09f8fa56a17f2c",
+                "kind": "tag",
+                "published_at": "2023-03-28T19:45:55.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.48",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.48",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.48",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.48\/manifests"
+            },
+            {
+                "name": "v4.3.0",
+                "sha": "c02e9e135ea719b91f457a0072748ded0e852e7d",
+                "kind": "tag",
+                "published_at": "2022-11-22T21:47:35.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.3.0",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.3.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.3.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.3.0\/manifests"
+            },
+            {
+                "name": "v3.1.47",
+                "sha": "a09364fe1706cb465e910eb040e592053d7effb8",
+                "kind": "tag",
+                "published_at": "2022-09-14T11:29:01.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.47",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.47",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.47",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.47\/manifests"
+            },
+            {
+                "name": "v4.2.1",
+                "sha": "ffa2b81a8e354a49fd8a2f24742dc9dc399e8007",
+                "kind": "tag",
+                "published_at": "2022-09-14T10:59:02.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.2.1",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.2.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.2.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.2.1\/manifests"
+            },
+            {
+                "name": "v3.1.46",
+                "sha": "b3ade90dece67812410954528e0039fb5b73bcf7",
+                "kind": "tag",
+                "published_at": "2022-08-01T21:58:15.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.46",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.46",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.46",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.46\/manifests"
+            },
+            {
+                "name": "v4.2.0",
+                "sha": "97aeb14c6fc2fb733938809926e2f9d6c581a70d",
+                "kind": "tag",
+                "published_at": "2022-08-01T21:57:39.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.2.0",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.2.0\/manifests"
+            },
+            {
+                "name": "v3.1.45",
+                "sha": "a2713ab89e6d773bc4819f11857af7f6b2e353a9",
+                "kind": "tag",
+                "published_at": "2022-05-17T12:57:53.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.45",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.45",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.45",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.45\/manifests"
+            },
+            {
+                "name": "v4.1.1",
+                "sha": "71036be8be02bf93735c47b0b745f722efbc729f",
+                "kind": "tag",
+                "published_at": "2022-05-17T12:56:29.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.1.1",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.1.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.1.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.1.1\/manifests"
+            },
+            {
+                "name": "v4.1.0",
+                "sha": "9e0536de18b53ba193364291ef0303b0ab9903e1",
+                "kind": "tag",
+                "published_at": "2022-02-06T20:34:28.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.1.0",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.1.0\/manifests"
+            },
+            {
+                "name": "v4.0.4",
+                "sha": "cdf0f2b164fbb9a96f86be97713a2426f0bb0c97",
+                "kind": "tag",
+                "published_at": "2022-01-17T23:17:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.0.4",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.0.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.0.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.0.4\/manifests"
+            },
+            {
+                "name": "v3.1.44",
+                "sha": "99085d8dc65eeb5e55ae3cba74d3dc6b3bb0205e",
+                "kind": "tag",
+                "published_at": "2022-01-17T23:12:05.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.44",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.44",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.44",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.44\/manifests"
+            },
+            {
+                "name": "v3.1.43",
+                "sha": "273f7e00fec034f6d61112552e9caf08d19565b7",
+                "kind": "tag",
+                "published_at": "2022-01-10T09:52:41.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.43",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.43",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.43",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.43\/manifests"
+            },
+            {
+                "name": "v4.0.3",
+                "sha": "f707dadecbc145bac40f77f47595f32ec18eed01",
+                "kind": "tag",
+                "published_at": "2022-01-10T09:52:15.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.0.3",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.0.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.0.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.0.3\/manifests"
+            },
+            {
+                "name": "v4.0.2",
+                "sha": "6f4f06db7ebbad6ae7bc98027d9385e60a016906",
+                "kind": "tag",
+                "published_at": "2022-01-09T23:09:09.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.0.2",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.0.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.0.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.0.2\/manifests"
+            },
+            {
+                "name": "v3.1.42",
+                "sha": "b674cba13d4ae61f063aec20f84a3ec40c006124",
+                "kind": "tag",
+                "published_at": "2022-01-09T23:08:37.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.42",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.42",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.42",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.42\/manifests"
+            },
+            {
+                "name": "v3.1.41",
+                "sha": "de7e15d4232fbfb1bd01f5984c0602151e0decb8",
+                "kind": "tag",
+                "published_at": "2022-01-09T22:21:21.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.41",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.41",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.41",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.41\/manifests"
+            },
+            {
+                "name": "v4.0.1",
+                "sha": "29c0e5ac515d77f9d27c98bba1d5776dd20a688a",
+                "kind": "tag",
+                "published_at": "2022-01-09T22:20:47.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.0.1",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.0.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.0.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.0.1\/manifests"
+            },
+            {
+                "name": "v4.0.0",
+                "sha": "baebd59bb4da9fca89da382811b38c8313949c49",
+                "kind": "tag",
+                "published_at": "2021-11-25T21:18:27.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.0.0",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.0.0\/manifests"
+            },
+            {
+                "name": "v2.6.33",
+                "sha": "533fa2abe308dcc009c7bdab977d530b32408346",
+                "kind": "tag",
+                "published_at": "2021-10-23T12:46:53.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v2.6.33",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v2.6.33",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.33",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.33\/manifests"
+            },
+            {
+                "name": "v2.6.32",
+                "sha": "2f3595a1abd0836d1c37c4fdb12ca30e82459d17",
+                "kind": "tag",
+                "published_at": "2021-10-22T14:42:40.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v2.6.32",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v2.6.32",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.32",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.32\/manifests"
+            },
+            {
+                "name": "v4.0.0-rc.0",
+                "sha": "64a6333d5d35d9bddd537dfe81cce768c3eafa50",
+                "kind": "tag",
+                "published_at": "2021-10-13T10:16:23.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v4.0.0-rc.0",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.0.0-rc.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.0.0-rc.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v4.0.0-rc.0\/manifests"
+            },
+            {
+                "name": "v3.1.40",
+                "sha": "9d4f8309ed49702e0d7152f9983c3a9c4b98eb9d",
+                "kind": "tag",
+                "published_at": "2021-10-13T10:04:31.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.40",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.40",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.40",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.40\/manifests"
+            },
+            {
+                "name": "v3.1.39",
+                "sha": "e27da524f7bcd7361e3ea5cdfa99c4378a7b5419",
+                "kind": "tag",
+                "published_at": "2021-02-17T21:57:54.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.39",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.39",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.39",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.39\/manifests"
+            },
+            {
+                "name": "v3.1.38",
+                "sha": "63b3c0aed0f614880cda21a5c08c606e97b489bb",
+                "kind": "tag",
+                "published_at": "2021-01-08T14:05:43.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.38",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.38",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.38",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.38\/manifests"
+            },
+            {
+                "name": "v3.1.37.1",
+                "sha": "f65e7ddd22acde2f09da82cb64f8b51d414b75f0",
+                "kind": "commit",
+                "published_at": "2021-01-06T23:34:08.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.37.1",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.37.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.37.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.37.1\/manifests"
+            },
+            {
+                "name": "v3.1.37",
+                "sha": "92e05d4f8d51b4a9e2503296241981b9b78f4156",
+                "kind": "commit",
+                "published_at": "2021-01-06T23:26:28.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.37",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.37",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.37",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.37\/manifests"
+            },
+            {
+                "name": "v3.1.36",
+                "sha": "fd148f7ade295014fff77f89ee3d5b20d9d55451",
+                "kind": "tag",
+                "published_at": "2020-04-14T14:44:27.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.36",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.36",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.36",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.36\/manifests"
+            },
+            {
+                "name": "v3.1.35",
+                "sha": "97f700971f7df65f66564b4ce14801f1059bcd8a",
+                "kind": "tag",
+                "published_at": "2020-04-13T22:03:33.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.35",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.35",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.35",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.35\/manifests"
+            },
+            {
+                "name": "v3.1.34",
+                "sha": "c9f0de05f41b9e52798b268ab1e625fac3b8578c",
+                "kind": "commit",
+                "published_at": "2019-02-28T06:42:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.34",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.34",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.34",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.34\/manifests"
+            },
+            {
+                "name": "v3.1.33",
+                "sha": "dd55b23121e55a3b4f1af90a707a6c4e5969530f",
+                "kind": "commit",
+                "published_at": "2018-09-12T20:54:16.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.33",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.33",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.33",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.33\/manifests"
+            },
+            {
+                "name": "v3.1.32",
+                "sha": "ac9d4b587e5bf53381e21881820a9830765cb459",
+                "kind": "commit",
+                "published_at": "2018-04-24T14:53:33.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.32",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.32",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.32",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.32\/manifests"
+            },
+            {
+                "name": "v2.6.31",
+                "sha": "4ab9757b492f08a38f68123a6e7c1df7110bbc49",
+                "kind": "tag",
+                "published_at": "2017-11-03T06:40:45.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v2.6.31",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v2.6.31",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.31",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.31\/manifests"
+            },
+            {
+                "name": "v3.1.31",
+                "sha": "c7d42e4a327c402897dd587871434888fde1e7a9",
+                "kind": "commit",
+                "published_at": "2016-12-14T21:57:25.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.31",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.31",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.31",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.31\/manifests"
+            },
+            {
+                "name": "v3.1.30",
+                "sha": "ed2b7f1146cfda13df1eea8a5f707a1b771b6e7e",
+                "kind": "tag",
+                "published_at": "2016-08-07T18:47:27.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.30",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.30",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.30",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.30\/manifests"
+            },
+            {
+                "name": "v2.6.30",
+                "sha": "c5c9d6514ceaf15fe35345886668726829560f93",
+                "kind": "commit",
+                "published_at": "2016-07-19T18:31:12.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v2.6.30",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v2.6.30",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.30",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.30\/manifests"
+            },
+            {
+                "name": "v3.1.29",
+                "sha": "35480f10e7ce9b0fdaf23d3799d7b79463919b1e",
+                "kind": "commit",
+                "published_at": "2015-12-21T01:57:06.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.29",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.29",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.29",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.29\/manifests"
+            },
+            {
+                "name": "v3.1.28",
+                "sha": "d234f79203ca236093989c579c824a1a882d1153",
+                "kind": "commit",
+                "published_at": "2015-12-13T14:19:58.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.28",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.28",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.28",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.28\/manifests"
+            },
+            {
+                "name": "v2.6.29",
+                "sha": "47fa66cdcf0bde5c44923fb0e15dd0921f8d3a83",
+                "kind": "commit",
+                "published_at": "2015-06-21T13:10:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v2.6.29",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v2.6.29",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.29",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.29\/manifests"
+            },
+            {
+                "name": "v3.1.27",
+                "sha": "4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2",
+                "kind": "commit",
+                "published_at": "2015-06-18T00:55:59.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.27",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.27",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.27",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.27\/manifests"
+            },
+            {
+                "name": "v3.1.26",
+                "sha": "2cdba79a7443c11d0f1b3bf1b423cb5a1f3d0b78",
+                "kind": "commit",
+                "published_at": "2015-06-18T00:08:42.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.26",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.26",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.26",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.26\/manifests"
+            },
+            {
+                "name": "v3.1.25",
+                "sha": "58616d6ee598674b682f8a2b81352ec4da7100c7",
+                "kind": "commit",
+                "published_at": "2015-06-15T22:23:24.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.25",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.25",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.25",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.25\/manifests"
+            },
+            {
+                "name": "v3.1.24",
+                "sha": "b58771e31b11c721f6aa8e574e16e4058f9edc5f",
+                "kind": "commit",
+                "published_at": "2015-05-23T17:22:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.24",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.24",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.24",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.24\/manifests"
+            },
+            {
+                "name": "v3.1.23",
+                "sha": "04f0090c40b1a0e1fb55dbe0297f08386b36de21",
+                "kind": "commit",
+                "published_at": "2015-05-12T02:08:22.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.23",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.23",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.23",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.23\/manifests"
+            },
+            {
+                "name": "v3.1.21",
+                "sha": "1f878e6d746ecc8ec8d00d9c75044cf7d23ad94a",
+                "kind": "commit",
+                "published_at": "2014-10-31T04:22:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.21",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.21",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.21",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.21\/manifests"
+            },
+            {
+                "name": "v3.1.20",
+                "sha": "cef27602bba3acd00ae14a8804ebd086e75e65e3",
+                "kind": "commit",
+                "published_at": "2014-10-31T04:12:39.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.20",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.20",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.20",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.20\/manifests"
+            },
+            {
+                "name": "v3.1.19",
+                "sha": "be0fd3186ceec57e4da9a44031f517c06ae2418a",
+                "kind": "tag",
+                "published_at": "2014-10-31T01:29:35.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.19",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.19",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.19",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.19\/manifests"
+            },
+            {
+                "name": "v3.1.18",
+                "sha": "bf1de6c1051ec648b546839ad84eeead76aea819",
+                "kind": "tag",
+                "published_at": "2014-10-31T01:20:38.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.18",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.18",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.18",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.18\/manifests"
+            },
+            {
+                "name": "v3.1.17",
+                "sha": "97decc4c047f9d0fe4a3577f9aa2d7819b825636",
+                "kind": "tag",
+                "published_at": "2014-10-31T01:10:45.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.17",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.17",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.17",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.17\/manifests"
+            },
+            {
+                "name": "v3.1.16",
+                "sha": "43be80762e349837182397a4a6e6202af80a22bf",
+                "kind": "tag",
+                "published_at": "2014-10-31T01:07:09.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.16",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.16",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.16",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.16\/manifests"
+            },
+            {
+                "name": "v3.1.15",
+                "sha": "1bdaf9a2a6d484d03b359f1b321ece3025f254f8",
+                "kind": "tag",
+                "published_at": "2014-10-31T01:03:12.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.15",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.15",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.15",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.15\/manifests"
+            },
+            {
+                "name": "v3.1.14",
+                "sha": "5ea2a50161a0ce2482222cd42467432fe7ab1baa",
+                "kind": "tag",
+                "published_at": "2014-10-31T00:55:46.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.14",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.14",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.14",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.14\/manifests"
+            },
+            {
+                "name": "v3.1.13",
+                "sha": "7b2a2c4a883ba745759fb5db26ab8134a5ae282b",
+                "kind": "tag",
+                "published_at": "2014-10-31T00:47:56.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.13",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.13",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.13",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.13\/manifests"
+            },
+            {
+                "name": "v3.1.12",
+                "sha": "014e8bc2be0bab447ed1c76d57c57ed0422c6286",
+                "kind": "tag",
+                "published_at": "2014-10-31T00:42:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.12",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.12",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.12",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.12\/manifests"
+            },
+            {
+                "name": "v3.1.11",
+                "sha": "0b24c4520b45706e4c62235655c952c32983fe5e",
+                "kind": "tag",
+                "published_at": "2014-10-31T00:35:52.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v3.1.11",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.11",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.11",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v3.1.11\/manifests"
+            },
+            {
+                "name": "v2.6.28",
+                "sha": "0ecdd6c41d0de08cba846087abd02a9adb5218e5",
+                "kind": "tag",
+                "published_at": "2014-10-31T00:07:50.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v2.6.28",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v2.6.28",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.28",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.28\/manifests"
+            },
+            {
+                "name": "v2.6.27",
+                "sha": "9a36601dad956db3be2ba3d8f3a0fbfe71483b4d",
+                "kind": "tag",
+                "published_at": "2014-10-31T00:03:43.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v2.6.27",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v2.6.27",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.27",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.27\/manifests"
+            },
+            {
+                "name": "v2.6.26",
+                "sha": "ad3e64b89060283a2156b3b254765e3fa6bfd66c",
+                "kind": "tag",
+                "published_at": "2014-10-30T23:58:25.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v2.6.26",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v2.6.26",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.26",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.26\/manifests"
+            },
+            {
+                "name": "v2.6.25",
+                "sha": "de8354e152b60c83858ba46be1145f9faa35b7be",
+                "kind": "tag",
+                "published_at": "2014-10-30T23:53:40.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v2.6.25",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v2.6.25",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.25",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.25\/manifests"
+            },
+            {
+                "name": "v2.6.24",
+                "sha": "79ce93d4fd5cc750406f979445bdef2713f482c5",
+                "kind": "tag",
+                "published_at": "2014-10-30T23:49:36.000Z",
+                "download_url": "https:\/\/codeload.github.com\/smarty-php\/smarty\/tar.gz\/v2.6.24",
+                "html_url": "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v2.6.24",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.24",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/smarty-php%2Fsmarty\/tags\/v2.6.24\/manifests"
+            }
+        ]
+    },
+    "repo_metadata_updated_at": "2024-09-08T13:42:34.126Z",
+    "dependent_packages_count": 465,
+    "downloads": 28317079,
+    "downloads_period": "total",
+    "dependent_repos_count": 2359,
+    "rankings": {
+        "downloads": 0.14712287418841855,
+        "dependent_repos_count": 0.18232094563797135,
+        "dependent_packages_count": 0.07875251957417931,
+        "stargazers_count": 0.17523068664093916,
+        "forks_count": 0.08609600210681982,
+        "docker_downloads_count": 0.1220537441631975,
+        "average": 0.13192946205192094
+    },
+    "purl": "pkg:composer\/smarty\/smarty",
+    "advisories": [
+        {
+            "uuid": "GSA_kwCzR0hTQS00aDljLXY1dmctNW02bc0hUA",
+            "url": "https:\/\/github.com\/advisories\/GHSA-4h9c-v5vg-5m6m",
+            "title": "Access to restricted PHP code by dynamic static class access in smarty",
+            "description": "### Impact\nTemplate authors could run restricted static php methods.\n\n### Patches\nPlease upgrade to 3.1.40 or higher.\n\n### References\nSee the [documentation on Smarty security features](https:\/\/www.smarty.net\/docs\/en\/advanced.features.tpl#advanced.features.security) on the static_classes access filter.\n\n### For more information\nIf you have any questions or comments about this advisory please open an issue in [the Smarty repo](https:\/\/github.com\/smarty-php\/smarty)\n",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2022-01-12T22:43:42.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 8.8,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:L\/PR:L\/UI:N\/S:U\/C:H\/I:H\/A:H",
+            "references": [
+                "https:\/\/github.com\/smarty-php\/smarty\/security\/advisories\/GHSA-4h9c-v5vg-5m6m",
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2021-21408",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/19ae410bf56007a5ef24441cdc6414619cfaf664",
+                "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.43",
+                "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.0.3",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2022\/05\/msg00005.html",
+                "https:\/\/www.debian.org\/security\/2022\/dsa-5151",
+                "https:\/\/security.gentoo.org\/glsa\/202209-09",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/L777JIBIWJV34HS7LXPIDWASG7TT4LNI\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/BRAJVDRGCIY5UZ2PQHKDTT7RMKG6WJQQ\/",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/smarty\/smarty\/CVE-2021-21408.yaml",
+                "https:\/\/github.com\/advisories\/GHSA-4h9c-v5vg-5m6m"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-4h9c-v5vg-5m6m",
+                "CVE-2021-21408"
+            ],
+            "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+            "blast_radius": 29.680005879793242,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.0.3",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.0.3"
+                        },
+                        {
+                            "first_patched_version": "3.1.43",
+                            "vulnerable_version_range": "< 3.1.43"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2022-12-21T16:12:38.763Z",
+            "updated_at": "2024-02-07T18:46:05.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS02MzR4LXBjM3EtY2Y0Y84AArNC",
+            "url": "https:\/\/github.com\/advisories\/GHSA-634x-pc3q-cf4c",
+            "title": "PHP Code Injection by malicious block or filename in Smarty",
+            "description": "### Impact\nTemplate authors could inject php code by choosing a malicous {block} name or {include} file name. Sites that cannot fully trust template authors should update asap.\n\n### Patches\nPlease upgrade to the most recent version of Smarty v3 or v4.\n\n### Workarounds\n_Is there a way for users to fix or remediate the vulnerability without upgrading?_\n\n### References\n_Are there any links users can visit to find out more?_\n\n### For more information\nIf you have any questions or comments about this advisory:\n* Open an issue in [the Smarty repo](https:\/\/github.com\/smarty-php\/smarty)\n",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2022-05-25T20:15:02.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 8.8,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:L\/PR:L\/UI:N\/S:U\/C:H\/I:H\/A:H",
+            "references": [
+                "https:\/\/github.com\/smarty-php\/smarty\/security\/advisories\/GHSA-634x-pc3q-cf4c",
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2022-29221",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/64ad6442ca1da31cefdab5c9874262b702cccddd",
+                "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.45",
+                "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.1.1",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2022\/05\/msg00044.html",
+                "https:\/\/www.debian.org\/security\/2022\/dsa-5151",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/smarty\/smarty\/CVE-2022-29221.yaml",
+                "https:\/\/security.gentoo.org\/glsa\/202209-09",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/L777JIBIWJV34HS7LXPIDWASG7TT4LNI\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/BRAJVDRGCIY5UZ2PQHKDTT7RMKG6WJQQ\/",
+                "https:\/\/github.com\/advisories\/GHSA-634x-pc3q-cf4c"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-634x-pc3q-cf4c",
+                "CVE-2022-29221"
+            ],
+            "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+            "blast_radius": 29.680005879793242,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.1.1",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.1.1"
+                        },
+                        {
+                            "first_patched_version": "3.1.45",
+                            "vulnerable_version_range": "< 3.1.45"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2022-12-21T16:12:22.584Z",
+            "updated_at": "2023-01-27T05:02:44.000Z"
+        },
+        {
+            "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXc1aHItam00ai05anZx",
+            "url": "https:\/\/github.com\/advisories\/GHSA-w5hr-jm4j-9jvq",
+            "title": "Sandbox escape through template_object in smarty",
+            "description": "Sandbox protection could be bypassed through access to an internal Smarty object that should have been blocked. Sites that rely on [Smarty Security features](https:\/\/www.smarty.net\/docs\/en\/advanced.features.tpl) should upgrade as soon as possible. Please upgrade to 3.1.39 or higher.",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2021-03-02T02:57:23.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 7.5,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:L\/PR:N\/UI:N\/S:U\/C:N\/I:H\/A:N",
+            "references": [
+                "https:\/\/github.com\/smarty-php\/smarty\/security\/advisories\/GHSA-w5hr-jm4j-9jvq",
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2021-26119",
+                "https:\/\/github.com\/smarty-php\/smarty\/blob\/master\/CHANGELOG.md",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/04\/msg00004.html",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/04\/msg00014.html",
+                "https:\/\/security.gentoo.org\/glsa\/202105-06",
+                "https:\/\/srcincite.io\/blog\/2021\/02\/18\/smarty-template-engine-multiple-sandbox-escape-vulnerabilities.html",
+                "https:\/\/www.debian.org\/security\/2022\/dsa-5151",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/smarty\/smarty\/CVE-2021-26119.yaml",
+                "https:\/\/github.com\/advisories\/GHSA-w5hr-jm4j-9jvq"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-w5hr-jm4j-9jvq",
+                "CVE-2021-26119"
+            ],
+            "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+            "blast_radius": 25.295459556641966,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.1.39",
+                            "vulnerable_version_range": "< 3.1.39"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2022-12-21T16:13:11.296Z",
+            "updated_at": "2024-02-07T18:46:01.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS02bTlmLTh2d3EtOTdwbc3Rzg",
+            "url": "https:\/\/github.com\/advisories\/GHSA-6m9f-8vwq-97pm",
+            "title": "Smarty Does Not Consider Umask Values When Setting Permissions",
+            "description": "Smarty before 3.0.0 beta 4 does not consider the umask value when setting the permissions of files, which might allow attackers to bypass intended access restrictions via standard filesystem operations.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2022-05-02T04:00:47.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 0,
+            "cvss_vector": null,
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2009-5054",
+                "https:\/\/web.archive.org\/web\/20101116174040\/http:\/\/smarty-php.googlecode.com\/svn\/trunk\/distribution\/change_log.txt",
+                "https:\/\/github.com\/advisories\/GHSA-6m9f-8vwq-97pm"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-6m9f-8vwq-97pm",
+                "CVE-2009-5054"
+            ],
+            "repository_url": null,
+            "blast_radius": 0,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.0.0-beta4",
+                            "vulnerable_version_range": "< 3.0.0-beta4"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2024-02-08T23:04:39.639Z",
+            "updated_at": "2024-02-08T22:08:39.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS05bTQ5LXZod3YtNDIyZ84AAXdy",
+            "url": "https:\/\/github.com\/advisories\/GHSA-9m49-vhwv-422g",
+            "title": "Smarty PHP code injection",
+            "description": "Smarty 3 before 3.1.32 is vulnerable to a PHP code injection when calling fetch() or display() functions on custom resources that does not sanitize template name.",
+            "origin": "UNSPECIFIED",
+            "severity": "CRITICAL",
+            "published_at": "2022-05-14T03:46:35.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 9.8,
+            "cvss_vector": "CVSS:3.0\/AV:N\/AC:L\/PR:N\/UI:N\/S:U\/C:H\/I:H\/A:H",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2017-1000480",
+                "https:\/\/github.com\/smarty-php\/smarty\/blob\/master\/change_log.txt",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2018\/01\/msg00023.html",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2018\/02\/msg00000.html",
+                "https:\/\/www.debian.org\/security\/2018\/dsa-4094",
+                "https:\/\/github.com\/advisories\/GHSA-9m49-vhwv-422g"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-9m49-vhwv-422g",
+                "CVE-2017-1000480"
+            ],
+            "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+            "blast_radius": 33.05273382067884,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.1.32",
+                            "vulnerable_version_range": ">= 3, < 3.1.32"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2024-04-24T23:04:59.857Z",
+            "updated_at": "2024-04-24T22:53:40.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS0ycG14LTZtbTYtNnY3Ms4AAZWA",
+            "url": "https:\/\/github.com\/advisories\/GHSA-2pmx-6mm6-6v72",
+            "title": "Smarty arbitrary PHP code execution",
+            "description": "Smarty before 3.1.21 allows remote attackers to bypass the secure mode restrictions and execute arbitrary PHP code as demonstrated by \"{literal}<{\/literal}script language=php>\" in a template.",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2022-05-17T01:13:38.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 0,
+            "cvss_vector": null,
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2014-8350",
+                "https:\/\/bugs.debian.org\/cgi-bin\/bugreport.cgi?bug=765920",
+                "https:\/\/code.google.com\/p\/smarty-php\/source\/browse\/trunk\/distribution\/change_log.txt?r=4902",
+                "https:\/\/exchange.xforce.ibmcloud.com\/vulnerabilities\/97725",
+                "http:\/\/advisories.mageia.org\/MGASA-2014-0468.html",
+                "http:\/\/seclists.org\/oss-sec\/2014\/q4\/420",
+                "http:\/\/seclists.org\/oss-sec\/2014\/q4\/421",
+                "http:\/\/www.mandriva.com\/security\/advisories?name=MDVSA-2014:221",
+                "http:\/\/www.securityfocus.com\/bid\/70708",
+                "https:\/\/github.com\/advisories\/GHSA-2pmx-6mm6-6v72"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-2pmx-6mm6-6v72",
+                "CVE-2014-8350"
+            ],
+            "repository_url": null,
+            "blast_radius": 0,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.1.21",
+                            "vulnerable_version_range": "< 3.1.21"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2024-04-24T23:04:59.896Z",
+            "updated_at": "2024-04-24T22:53:35.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS02NWo1LXZwbTctNnhwNM4AAU0X",
+            "url": "https:\/\/github.com\/advisories\/GHSA-65j5-vpm7-6xp4",
+            "title": "Smarty Path Traversal Vulnerability",
+            "description": "Smarty before 3.1.33-dev-4 allows attackers to bypass the trusted_dir protection mechanism via a `file:.\/..\/` substring in an include statement.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2022-05-14T01:58:46.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 5.9,
+            "cvss_vector": "CVSS:3.0\/AV:N\/AC:H\/PR:N\/UI:N\/S:U\/C:H\/I:N\/A:N",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-16831",
+                "https:\/\/github.com\/smarty-php\/smarty\/issues\/486",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/f9ca3c63d1250bb56b2bda609dcc9dd81f0065f8",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/smarty\/smarty\/CVE-2018-16831.yaml",
+                "https:\/\/github.com\/advisories\/GHSA-65j5-vpm7-6xp4"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-65j5-vpm7-6xp4",
+                "CVE-2018-16831"
+            ],
+            "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+            "blast_radius": 19.899094851225016,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.1.33",
+                            "vulnerable_version_range": "< 3.1.33"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2023-07-25T20:03:42.206Z",
+            "updated_at": "2024-02-07T18:54:27.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS03Z2Z4LXd4ZmgtN3J2bc3rxw",
+            "url": "https:\/\/github.com\/advisories\/GHSA-7gfx-wxfh-7rvm",
+            "title": "Smarty Path Traversal Vulnerability",
+            "description": "`Smarty_Security::isTrustedResourceDir()` in Smarty before 3.1.33 is prone to a path traversal vulnerability due to insufficient template code sanitization. This allows attackers controlling the executed template code to bypass the trusted directory security restriction and read arbitrary files.",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2022-05-13T01:05:24.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 7.5,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:L\/PR:N\/UI:N\/S:U\/C:H\/I:N\/A:N",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-13982",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/2e081a51b1effddb23f87952959139ac62654d50",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/8d21f38dc35c4cd6b31c2f23fc9b8e5adbc56dfe",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/bcedfd6b58bed4a7366336979ebaa5a240581531",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/c9dbe1d08c081912d02bd851d1d1b6388f6133d1",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/f9ca3c63d1250bb56b2bda609dcc9dd81f0065f8",
+                "https:\/\/github.com\/sbaresearch\/advisories\/tree\/public\/2018\/SBA-ADV-20180420-01_Smarty_Path_Traversal",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/04\/msg00004.html",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/04\/msg00014.html",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/10\/msg00015.html",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/smarty\/smarty\/CVE-2018-13982.yaml",
+                "https:\/\/github.com\/advisories\/GHSA-7gfx-wxfh-7rvm"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-7gfx-wxfh-7rvm",
+                "CVE-2018-13982"
+            ],
+            "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+            "blast_radius": 25.295459556641966,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.1.33",
+                            "vulnerable_version_range": "< 3.1.33"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2023-07-20T00:04:49.479Z",
+            "updated_at": "2024-02-07T18:46:51.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS1od3E3LTV2djktYzZjZs4AAu1C",
+            "url": "https:\/\/github.com\/advisories\/GHSA-hwq7-5vv9-c6cf",
+            "title": "Smarty Cross-site Scripting vulnerability in pages that use smarty_function_mailto",
+            "description": "In Smarty before 3.1.47 and 4.x before 4.2.1, `libs\/plugins\/function.mailto.php` allows cross-site scripting. A web page that uses `smarty_function_mailto`, and that could be parameterized using GET or POST input parameters, could allow injection of JavaScript code by a user.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2022-09-16T00:00:39.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 5.4,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:L\/PR:L\/UI:R\/S:C\/C:L\/I:L\/A:N",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2018-25047",
+                "https:\/\/github.com\/smarty-php\/smarty\/issues\/454",
+                "https:\/\/bugs.gentoo.org\/870100",
+                "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.47",
+                "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.2.1",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/55ea25d1f50f0406fb1ccedd212c527977793fc9",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/smarty\/smarty\/CVE-2018-25047.yaml",
+                "https:\/\/security.gentoo.org\/glsa\/202209-09",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2023\/01\/msg00002.html",
+                "https:\/\/github.com\/advisories\/GHSA-hwq7-5vv9-c6cf"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-hwq7-5vv9-c6cf",
+                "CVE-2018-25047"
+            ],
+            "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+            "blast_radius": 18.212730880782217,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.2.1",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.2.1"
+                        },
+                        {
+                            "first_patched_version": "3.1.47",
+                            "vulnerable_version_range": "< 3.1.47"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2022-12-21T16:11:58.216Z",
+            "updated_at": "2023-02-03T05:01:28.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS00cm1nLTI5Mm0td2czd84AA8jS",
+            "url": "https:\/\/github.com\/advisories\/GHSA-4rmg-292m-wg3w",
+            "title": "Smarty vulnerable to PHP Code Injection by malicious attribute in extends-tag",
+            "description": "### Impact\nTemplate authors could inject php code by choosing a malicous file name for an extends-tag. Users that cannot fully trust template authors should update asap.\n\n### Patches\nPlease upgrade to the most recent version of Smarty v4 or v5. There is no patch for v3.\n\n",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2024-05-29T18:44:30.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 7.3,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:L\/PR:L\/UI:R\/S:U\/C:H\/I:H\/A:N",
+            "references": [
+                "https:\/\/github.com\/smarty-php\/smarty\/security\/advisories\/GHSA-4rmg-292m-wg3w",
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2024-35226",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/0be92bc8a6fb83e6e0d883946f7e7c09ba4e857a",
+                "https:\/\/github.com\/advisories\/GHSA-4rmg-292m-wg3w"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-4rmg-292m-wg3w",
+                "CVE-2024-35226"
+            ],
+            "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+            "blast_radius": 24.620913968464848,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.5.3",
+                            "vulnerable_version_range": ">= 3.0.0, < 4.5.3"
+                        },
+                        {
+                            "first_patched_version": "5.1.1",
+                            "vulnerable_version_range": ">= 5.0.0, < 5.1.1"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2024-05-29T19:05:56.109Z",
+            "updated_at": "2024-05-29T18:44:31.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS05Z3FqLXBwdjItZjJocc4AAdhH",
+            "url": "https:\/\/github.com\/advisories\/GHSA-9gqj-ppv2-f2hq",
+            "title": "Cross-site Scripting in SmartyException",
+            "description": "Cross-site scripting (XSS) vulnerability in the `SmartyException` class in Smarty (aka smarty-php) before 3.1.12 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors that trigger a Smarty exception.",
+            "origin": "UNSPECIFIED",
+            "severity": "MODERATE",
+            "published_at": "2022-05-17T04:02:12.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 0,
+            "cvss_vector": null,
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2012-4437",
+                "https:\/\/code.google.com\/p\/smarty-php\/source\/browse\/trunk\/distribution\/change_log.txt",
+                "https:\/\/code.google.com\/p\/smarty-php\/source\/detail?r=4658",
+                "https:\/\/lists.fedoraproject.org\/pipermail\/package-announce\/2012-September\/088138.html",
+                "https:\/\/web.archive.org\/web\/20140201075419\/http:\/\/www.securityfocus.com\/bid\/55506",
+                "https:\/\/www.openwall.com\/lists\/oss-security\/2012\/09\/19\/1",
+                "https:\/\/www.openwall.com\/lists\/oss-security\/2012\/09\/20\/3",
+                "https:\/\/github.com\/advisories\/GHSA-9gqj-ppv2-f2hq"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-9gqj-ppv2-f2hq",
+                "CVE-2012-4437"
+            ],
+            "repository_url": null,
+            "blast_radius": 0,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.1.12",
+                            "vulnerable_version_range": "< 3.1.12"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2023-08-29T22:05:26.351Z",
+            "updated_at": "2023-08-29T21:35:13.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS02ZnJ4LTJyNXctYzUyNM0_IA",
+            "url": "https:\/\/github.com\/advisories\/GHSA-6frx-2r5w-c524",
+            "title": "Smarty3 Arbitrary PHP Code Execution",
+            "description": "The `$smarty.template` variable in Smarty3 allows attackers to possibly execute arbitrary PHP code via the `sysplugins\/smarty_internal_compile_private_special_variable.php` file.",
+            "origin": "UNSPECIFIED",
+            "severity": "CRITICAL",
+            "published_at": "2022-04-22T00:24:15.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 9.8,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:L\/PR:N\/UI:N\/S:U\/C:H\/I:H\/A:H",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2011-1028",
+                "https:\/\/seclists.org\/oss-sec\/2011\/q1\/313",
+                "https:\/\/security-tracker.debian.org\/tracker\/CVE-2011-1028",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/0154f17de2b2dd16ff9c016923015ac19af9c0cb",
+                "https:\/\/web.archive.org\/web\/20110609032516\/http:\/\/smarty-php.googlecode.com\/svn\/trunk\/distribution\/change_log.txt",
+                "https:\/\/www.smarty.net\/forums\/viewtopic.php?t=18815",
+                "https:\/\/github.com\/advisories\/GHSA-6frx-2r5w-c524"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-6frx-2r5w-c524",
+                "CVE-2011-1028"
+            ],
+            "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+            "blast_radius": 33.05273382067884,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.0.7",
+                            "vulnerable_version_range": "< 3.0.7"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2024-01-12T23:05:53.687Z",
+            "updated_at": "2024-01-12T22:38:47.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS0yOWdwLTJjM20tM2o2bc0hTw",
+            "url": "https:\/\/github.com\/advisories\/GHSA-29gp-2c3m-3j6m",
+            "title": "Sandbox Escape by math function in smarty",
+            "description": "### Impact\nTemplate authors could run arbitrary PHP code by crafting a malicious math string.\nIf a math string is passed through as user provided data to the math function, external users could run arbitrary PHP code by crafting a malicious math string.\n\n### Patches\nPlease upgrade to 4.0.2 or 3.1.42 or higher.\n\n### References\nSee [documentation on Math function](https:\/\/www.smarty.net\/docs\/en\/language.function.math.tpl).\n\n### For more information\nIf you have any questions or comments about this advisory please open an issue in [the Smarty repo](https:\/\/github.com\/smarty-php\/smarty)\n",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2022-01-12T22:43:00.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 8.1,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:L\/PR:N\/UI:R\/S:U\/C:H\/I:H\/A:N",
+            "references": [
+                "https:\/\/github.com\/smarty-php\/smarty\/security\/advisories\/GHSA-29gp-2c3m-3j6m",
+                "https:\/\/packagist.org\/packages\/smarty\/smarty",
+                "https:\/\/www.smarty.net\/docs\/en\/language.function.math.tpl",
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2021-29454",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/215d81a9fa3cd63d82fb3ab56ecaf97cf1e7db71",
+                "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v3.1.42",
+                "https:\/\/github.com\/smarty-php\/smarty\/releases\/tag\/v4.0.2",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2022\/05\/msg00005.html",
+                "https:\/\/www.debian.org\/security\/2022\/dsa-5151",
+                "https:\/\/security.gentoo.org\/glsa\/202209-09",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/L777JIBIWJV34HS7LXPIDWASG7TT4LNI\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/BRAJVDRGCIY5UZ2PQHKDTT7RMKG6WJQQ\/",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/smarty\/smarty\/CVE-2021-29454.yaml",
+                "https:\/\/github.com\/advisories\/GHSA-29gp-2c3m-3j6m"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-29gp-2c3m-3j6m",
+                "CVE-2021-29454"
+            ],
+            "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+            "blast_radius": 27.319096321173323,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "4.0.2",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.0.2"
+                        },
+                        {
+                            "first_patched_version": "3.1.42",
+                            "vulnerable_version_range": "< 3.1.42"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2022-12-21T16:12:38.772Z",
+            "updated_at": "2024-02-07T18:46:21.000Z"
+        },
+        {
+            "uuid": "GSA_kwCzR0hTQS03ajk4LWg3ZnAtNHZ3as4AAyaT",
+            "url": "https:\/\/github.com\/advisories\/GHSA-7j98-h7fp-4vwj",
+            "title": "smarty Cross-site Scripting vulnerability in Javascript escaping ",
+            "description": "### Impact\nAn attacker could exploit this vulnerability to execute arbitrary JavaScript code in the context of the user's browser session. This may lead to unauthorized access to sensitive user data, manipulation of the web application's behavior, or unauthorized actions performed on behalf of the user.\n\n### Patches\nPlease upgrade to the most recent version of Smarty v3 or v4.\n\n### For more information\nIf you have any questions or comments about this advisory please open an issue in [the Smarty repo](https:\/\/github.com\/smarty-php\/smarty)\n",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2023-03-29T18:31:35.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 7.1,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:L\/PR:N\/UI:R\/S:C\/C:L\/I:L\/A:L",
+            "references": [
+                "https:\/\/github.com\/smarty-php\/smarty\/security\/advisories\/GHSA-7j98-h7fp-4vwj",
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2023-28447",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/685662466f653597428966d75a661073104d713d",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/smarty\/smarty\/CVE-2023-28447.yaml",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/HSAUM3YHWHO4UCJXRGRLQGPJAO3MFOZZ\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/JBB35GLYTL6JL6EOM6BOZNYP47JKNNHT\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/P7O7SKTATM6GAP45S64QFXNLWIY5I7HP\/",
+                "https:\/\/github.com\/advisories\/GHSA-7j98-h7fp-4vwj"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-7j98-h7fp-4vwj",
+                "CVE-2023-28447"
+            ],
+            "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+            "blast_radius": 23.946368380287726,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.1.48",
+                            "vulnerable_version_range": "< 3.1.48"
+                        },
+                        {
+                            "first_patched_version": "4.3.1",
+                            "vulnerable_version_range": ">= 4.0.0, < 4.3.1"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2023-03-29T19:03:21.097Z",
+            "updated_at": "2024-02-01T17:59:15.000Z"
+        },
+        {
+            "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTNycGYtNXJxdi02ODlx",
+            "url": "https:\/\/github.com\/advisories\/GHSA-3rpf-5rqv-689q",
+            "title": "PHP Code Injection by malicious function name in smarty",
+            "description": "Template authors could inject php code by choosing a malicous {function} name. Sites that cannot fully trust template authors should update as soon as possible. Please upgrade to 3.1.39 or higher.\n",
+            "origin": "UNSPECIFIED",
+            "severity": "CRITICAL",
+            "published_at": "2021-02-26T19:53:24.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 9.8,
+            "cvss_vector": "CVSS:3.1\/AV:N\/AC:L\/PR:N\/UI:N\/S:U\/C:H\/I:H\/A:H",
+            "references": [
+                "https:\/\/github.com\/smarty-php\/smarty\/security\/advisories\/GHSA-3rpf-5rqv-689q",
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2021-26120",
+                "https:\/\/github.com\/smarty-php\/smarty\/commit\/165f1bd4d2eec328cfeaca517a725b46001de838",
+                "https:\/\/github.com\/smarty-php\/smarty\/blob\/master\/CHANGELOG.md#3139---2021-02-17",
+                "https:\/\/srcincite.io\/blog\/2021\/02\/18\/smarty-template-engine-multiple-sandbox-escape-vulnerabilities.html",
+                "https:\/\/github.com\/smarty-php\/smarty\/blob\/master\/CHANGELOG.md",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/04\/msg00004.html",
+                "https:\/\/lists.debian.org\/debian-lts-announce\/2021\/04\/msg00014.html",
+                "https:\/\/security.gentoo.org\/glsa\/202105-06",
+                "https:\/\/www.debian.org\/security\/2022\/dsa-5151",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/smarty\/smarty\/CVE-2021-26120.yaml",
+                "https:\/\/github.com\/advisories\/GHSA-3rpf-5rqv-689q"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-3rpf-5rqv-689q",
+                "CVE-2021-26120"
+            ],
+            "repository_url": "https:\/\/github.com\/smarty-php\/smarty",
+            "blast_radius": 33.05273382067884,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.1.39",
+                            "vulnerable_version_range": "< 3.1.39"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "smarty\/smarty"
+                }
+            ],
+            "created_at": "2022-12-21T16:13:11.330Z",
+            "updated_at": "2024-02-07T18:45:30.000Z"
+        }
+    ],
+    "docker_usage_url": "https:\/\/docker.ecosyste.ms\/usage\/packagist\/smarty\/smarty",
+    "docker_dependents_count": 66,
+    "docker_downloads_count": 49504343,
+    "usage_url": "https:\/\/repos.ecosyste.ms\/usage\/packagist\/smarty\/smarty",
+    "dependent_repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/usage\/packagist\/smarty\/smarty\/dependencies",
+    "status": null,
+    "funding_links": [],
+    "critical": null,
+    "versions_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/smarty%2Fsmarty\/versions",
+    "version_numbers_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/smarty%2Fsmarty\/version_numbers",
+    "dependent_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/smarty%2Fsmarty\/dependent_packages",
+    "related_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/smarty%2Fsmarty\/related_packages",
+    "maintainers": [
+        {
+            "uuid": "rodneyrehm",
+            "login": "rodneyrehm",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 1,
+            "html_url": "https:\/\/packagist.org\/users\/rodneyrehm",
+            "role": null,
+            "created_at": "2022-11-10T10:43:34.310Z",
+            "updated_at": "2022-11-10T10:43:34.310Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/rodneyrehm\/packages"
+        },
+        {
+            "uuid": "mohrt",
+            "login": "mohrt",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 1,
+            "html_url": "https:\/\/packagist.org\/users\/mohrt",
+            "role": null,
+            "created_at": "2022-11-10T10:43:34.312Z",
+            "updated_at": "2022-11-10T10:43:34.312Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/mohrt\/packages"
+        },
+        {
+            "uuid": "uwetews",
+            "login": "uwetews",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 1,
+            "html_url": "https:\/\/packagist.org\/users\/uwetews",
+            "role": null,
+            "created_at": "2022-11-10T10:43:34.314Z",
+            "updated_at": "2022-11-10T10:43:34.314Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/uwetews\/packages"
+        },
+        {
+            "uuid": "UTews",
+            "login": "UTews",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 6,
+            "html_url": "https:\/\/packagist.org\/users\/UTews",
+            "role": null,
+            "created_at": "2022-11-10T10:43:34.317Z",
+            "updated_at": "2022-11-10T10:43:34.317Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/UTews\/packages"
+        },
+        {
+            "uuid": "wisskid",
+            "login": "wisskid",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 1,
+            "html_url": "https:\/\/packagist.org\/users\/wisskid",
+            "role": null,
+            "created_at": "2022-11-10T10:43:34.319Z",
+            "updated_at": "2022-11-10T10:43:34.319Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/wisskid\/packages"
+        }
+    ]
+}

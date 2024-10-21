@@ -1,0 +1,80 @@
+{
+  "id": 2907563,
+  "name": "ruamel.std.pathlib",
+  "ecosystem": "pypi",
+  "description": "improvements over the standard pathlib module and pathlib2 package",
+  "homepage": "https://sourceforge.net/p/ruamel-std-pathlib/",
+  "licenses": "MIT License",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://bitbucket.org/ruamel/std.pathlib",
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 17,
+  "first_release_published_at": "2016-01-24T08:59:20.000Z",
+  "latest_release_published_at": "2024-03-03T06:56:48.000Z",
+  "latest_release_number": "0.13.0",
+  "last_synced_at": "2024-10-10T05:54:45.118Z",
+  "created_at": "2022-04-10T12:30:47.551Z",
+  "updated_at": "2024-10-10T05:54:45.118Z",
+  "registry_url": "https://pypi.org/project/ruamel.std.pathlib/",
+  "install_command": "pip install ruamel.std.pathlib --index-url https://pypi.org/simple",
+  "documentation_url": "https://ruamel.std.pathlib.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "Development Status :: 4 - Beta",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python"
+    ],
+    "normalized_name": "ruamel-std-pathlib"
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-08-09T05:12:45.353Z",
+  "dependent_packages_count": 5,
+  "downloads": 863,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 7,
+  "rankings": {
+    "downloads": 10.569390079065585,
+    "dependent_repos_count": 5.537584412077369,
+    "dependent_packages_count": 1.5927443127141883,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": null,
+    "average": 5.899906267952381
+  },
+  "purl": "pkg:pypi/ruamel.std.pathlib",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/ruamel.std.pathlib",
+  "docker_dependents_count": null,
+  "docker_downloads_count": null,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/ruamel.std.pathlib",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/ruamel.std.pathlib/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/ruamel.std.pathlib/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/ruamel.std.pathlib/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/ruamel.std.pathlib/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/ruamel.std.pathlib/related_packages",
+  "maintainers": [
+    {
+      "uuid": "anthon",
+      "login": "anthon",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 69,
+      "html_url": "https://pypi.org/user/anthon/",
+      "role": null,
+      "created_at": "2023-02-25T09:26:46.698Z",
+      "updated_at": "2023-02-25T09:26:46.698Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/anthon/packages"
+    }
+  ]
+}

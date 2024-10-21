@@ -1,0 +1,79 @@
+{
+  "id": 2170413,
+  "name": "pinkie",
+  "ecosystem": "npm",
+  "description": "Itty bitty little widdle twinkie pinkie ES2015 Promise implementation",
+  "homepage": null,
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "",
+  "keywords_array": [
+    "promise",
+    "promises",
+    "es2015",
+    "es6"
+  ],
+  "namespace": null,
+  "versions_count": 9,
+  "first_release_published_at": "2015-05-10T19:57:51.100Z",
+  "latest_release_published_at": "2016-02-01T11:08:46.357Z",
+  "latest_release_number": "2.0.4",
+  "last_synced_at": "2024-10-20T08:02:05.296Z",
+  "created_at": "2022-04-09T21:58:56.976Z",
+  "updated_at": "2024-10-20T08:02:05.297Z",
+  "registry_url": "https://www.npmjs.com/package/pinkie",
+  "install_command": "npm install pinkie",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "2.0.4"
+    }
+  },
+  "repo_metadata": null,
+  "repo_metadata_updated_at": null,
+  "dependent_packages_count": 541,
+  "downloads": 47553769,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 750502,
+  "rankings": {
+    "downloads": 0.03072016611888759,
+    "dependent_repos_count": 0.04161733734466055,
+    "dependent_packages_count": 0.10891695260332873,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 0.021055087117134188,
+    "average": 0.050577385796002766
+  },
+  "purl": "pkg:npm/pinkie",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/pinkie",
+  "docker_dependents_count": 12232,
+  "docker_downloads_count": 4496184442,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/pinkie",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/pinkie/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/pinkie/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/pinkie/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/pinkie/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/pinkie/related_packages",
+  "maintainers": [
+    {
+      "uuid": "floatdrop",
+      "login": "floatdrop",
+      "name": null,
+      "email": "floatdrop@gmail.com",
+      "url": null,
+      "packages_count": 103,
+      "html_url": "https://www.npmjs.com/~floatdrop",
+      "role": null,
+      "created_at": "2022-11-10T11:08:23.297Z",
+      "updated_at": "2022-11-10T11:08:23.297Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/floatdrop/packages"
+    }
+  ]
+}

@@ -1,0 +1,1510 @@
+{
+  "id": 2212590,
+  "name": "qs",
+  "ecosystem": "npm",
+  "description": "A querystring parser that supports nesting and arrays, with a depth limit",
+  "homepage": "https://github.com/ljharb/qs",
+  "licenses": "BSD-3-Clause",
+  "normalized_licenses": [
+    "BSD-3-Clause"
+  ],
+  "repository_url": "https://github.com/ljharb/qs",
+  "keywords_array": [
+    "querystring",
+    "qs",
+    "query",
+    "url",
+    "parse",
+    "stringify"
+  ],
+  "namespace": null,
+  "versions_count": 113,
+  "first_release_published_at": "2011-02-04T04:40:23.984Z",
+  "latest_release_published_at": "2024-04-12T22:24:25.107Z",
+  "latest_release_number": "6.12.1",
+  "last_synced_at": "2024-10-21T12:03:00.555Z",
+  "created_at": "2022-04-09T22:34:18.697Z",
+  "updated_at": "2024-10-21T12:03:00.555Z",
+  "registry_url": "https://www.npmjs.com/package/qs",
+  "install_command": "npm install qs",
+  "documentation_url": null,
+  "metadata": {
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "dist-tags": {
+      "v5.x-latest": "5.2.1",
+      "v6.2-latest": "6.2.4",
+      "v6.3-latest": "6.3.3",
+      "v6.4-latest": "6.4.1",
+      "v6.5-latest": "6.5.3",
+      "v6.6-latest": "6.6.1",
+      "v6.7-latest": "6.7.3",
+      "v6.8-latest": "6.8.3",
+      "v6.9-latest": "6.9.7",
+      "latest": "6.13.0"
+    }
+  },
+  "repo_metadata": {
+    "id": 19041618,
+    "uuid": "22266795",
+    "full_name": "ljharb/qs",
+    "owner": "ljharb",
+    "description": "A querystring parser with nesting support",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2024-04-12T22:24:46.000Z",
+    "size": 11973,
+    "stargazers_count": 8314,
+    "open_issues_count": 74,
+    "forks_count": 716,
+    "subscribers_count": 68,
+    "default_branch": "main",
+    "last_synced_at": "2024-04-14T08:40:49.137Z",
+    "etag": null,
+    "topics": [
+      "browsers",
+      "encoding",
+      "javascript",
+      "node",
+      "nodejs",
+      "parse",
+      "querystrings",
+      "stringify",
+      "url-parsing"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "",
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "bsd-3-clause",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/ljharb.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": "CHANGELOG.md",
+        "contributing": null,
+        "funding": ".github/FUNDING.yml",
+        "license": "LICENSE.md",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": null,
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null,
+        "publiccode": null,
+        "codemeta": null
+      },
+      "funding": {
+        "github": [
+          "ljharb"
+        ],
+        "patreon": null,
+        "open_collective": null,
+        "ko_fi": "ljharb",
+        "tidelift": null,
+        "community_bridge": null,
+        "liberapay": null,
+        "issuehunt": null,
+        "otechie": null,
+        "polar": null,
+        "buy_me_a_coffee": null,
+        "custom": null
+      }
+    },
+    "created_at": "2014-07-25T18:35:41.000Z",
+    "updated_at": "2024-06-06T20:59:30.299Z",
+    "dependencies_parsed_at": "2022-07-10T22:46:43.102Z",
+    "dependency_job_id": "72a838b0-9baf-4ec1-ba69-e02108952800",
+    "html_url": "https://github.com/ljharb/qs",
+    "commit_stats": {
+      "total_commits": 732,
+      "total_committers": 74,
+      "mean_commits": 9.891891891891891,
+      "dds": "0.45355191256830596",
+      "last_synced_commit": "29dda211e8b02654f60975bdb703bcc73a8ee409"
+    },
+    "previous_names": [
+      "hapijs/qs",
+      "hapijs/riddler"
+    ],
+    "tags_count": 81,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/ljharb",
+    "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 217958287,
+      "owners_count": 16257012,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "ljharb",
+      "name": "Jordan Harband",
+      "uuid": "45469",
+      "kind": "user",
+      "description": "software engineer/nerd/teacher/will try anything once; surgeon with git rebase. @TC39 ex @Coinbase @Airbnb @Twitter @MobBase. Fav punctuation ⸮, scent petrichor",
+      "email": "",
+      "website": null,
+      "location": "Hillsborough, CA",
+      "twitter": "LJHarb",
+      "company": "@herodevs @tc39 ",
+      "icon_url": "https://avatars.githubusercontent.com/u/45469?u=6ab74b3b934f9659a90b588062c2c4328e40c6be&v=4",
+      "repositories_count": 255,
+      "last_synced_at": "2024-06-11T15:41:32.189Z",
+      "metadata": {
+        "has_sponsors_listing": true,
+        "funding": {
+          "github": [
+            "ljharb"
+          ],
+          "patreon": null,
+          "open_collective": null,
+          "ko_fi": "ljharb",
+          "tidelift": null,
+          "community_bridge": null,
+          "liberapay": null,
+          "issuehunt": null,
+          "otechie": null,
+          "polar": null,
+          "buy_me_a_coffee": null,
+          "custom": null
+        }
+      },
+      "html_url": "https://github.com/ljharb",
+      "funding_links": [
+        "https://github.com/sponsors/ljharb",
+        "https://ko-fi.com/ljharb"
+      ],
+      "total_stars": 10683,
+      "followers": 6841,
+      "following": 380,
+      "created_at": "2022-11-02T16:19:00.017Z",
+      "updated_at": "2024-06-11T15:41:39.816Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/ljharb",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/ljharb/repositories"
+    },
+    "tags": [
+      {
+        "name": "v6.12.1",
+        "sha": "29dda211e8b02654f60975bdb703bcc73a8ee409",
+        "kind": "tag",
+        "published_at": "2024-04-12T22:24:39.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.12.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.12.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.12.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.12.1/manifests"
+      },
+      {
+        "name": "v6.12.0",
+        "sha": "062334aa584809829822c077f5f9f41c1e253dab",
+        "kind": "tag",
+        "published_at": "2024-03-06T18:12:05.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.12.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.12.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.12.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.12.0/manifests"
+      },
+      {
+        "name": "v6.11.2",
+        "sha": "410bdd3c8ae7f5d7ae9b52648b8642b8adc5e1c0",
+        "kind": "tag",
+        "published_at": "2023-05-15T16:08:13.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.11.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.11.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.11.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.11.2/manifests"
+      },
+      {
+        "name": "v6.11.1",
+        "sha": "9dca37f15de317fe9ad0ced907cdf250ba310880",
+        "kind": "tag",
+        "published_at": "2023-03-06T22:24:36.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.11.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.11.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.11.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.11.1/manifests"
+      },
+      {
+        "name": "v6.11.0",
+        "sha": "56763c12ec4fbf723333cbb32371cbd386c33cbb",
+        "kind": "tag",
+        "published_at": "2022-06-27T04:49:19.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.11.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.11.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.11.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.11.0/manifests"
+      },
+      {
+        "name": "v6.10.5",
+        "sha": "95bc0185e157d400da4f43f1fcf1c7f008fd847e",
+        "kind": "tag",
+        "published_at": "2022-06-06T21:57:18.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.10.5",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.10.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.10.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.10.5/manifests"
+      },
+      {
+        "name": "v6.10.4",
+        "sha": "ba9703c0340dfdeb73cb4387d6ab32c37768aa5b",
+        "kind": "tag",
+        "published_at": "2022-06-06T19:06:49.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.10.4",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.10.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.10.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.10.4/manifests"
+      },
+      {
+        "name": "v6.10.3",
+        "sha": "f92ddb56089ae2c74f5ca7b0447fef3a97e8c9bc",
+        "kind": "tag",
+        "published_at": "2022-01-11T04:05:59.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.10.3",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.10.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.10.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.10.3/manifests"
+      },
+      {
+        "name": "v6.2.4",
+        "sha": "90d9f2b45715b7b03da92113a7b8af236c01088d",
+        "kind": "tag",
+        "published_at": "2022-01-11T03:38:22.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.2.4",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.2.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.2.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.2.4/manifests"
+      },
+      {
+        "name": "v6.3.3",
+        "sha": "ff235b4ca81f82728b745b71fbd4bad173535305",
+        "kind": "tag",
+        "published_at": "2022-01-10T22:55:13.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.3.3",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.3.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.3.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.3.3/manifests"
+      },
+      {
+        "name": "v6.4.1",
+        "sha": "486aa46547b4e878d6e87183de95dd26d46fb020",
+        "kind": "tag",
+        "published_at": "2022-01-10T22:33:10.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.4.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.4.1/manifests"
+      },
+      {
+        "name": "v6.5.3",
+        "sha": "298bfa55d6db00ddea78dd0333509aadf9bb3077",
+        "kind": "tag",
+        "published_at": "2022-01-10T07:29:43.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.5.3",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.5.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.5.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.5.3/manifests"
+      },
+      {
+        "name": "v6.6.1",
+        "sha": "4cc653c08c583c0b39e2eea0bf1cd2226ac5ec51",
+        "kind": "tag",
+        "published_at": "2022-01-10T06:49:57.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.6.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.6.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.6.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.6.1/manifests"
+      },
+      {
+        "name": "v6.7.3",
+        "sha": "834389afb51ac8cc03a22a0c76604c65776dc468",
+        "kind": "tag",
+        "published_at": "2022-01-10T06:48:25.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.7.3",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.7.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.7.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.7.3/manifests"
+      },
+      {
+        "name": "v6.8.3",
+        "sha": "0db55386013a5d92503944ad42022fd8c112c983",
+        "kind": "tag",
+        "published_at": "2022-01-10T06:10:03.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.8.3",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.8.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.8.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.8.3/manifests"
+      },
+      {
+        "name": "v6.9.7",
+        "sha": "4cd003291fe3b347884f797e548b58a12150a0e3",
+        "kind": "tag",
+        "published_at": "2022-01-09T17:25:50.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.9.7",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.9.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.7/manifests"
+      },
+      {
+        "name": "v6.10.2",
+        "sha": "408ff95f1ab94ea73027bc8a7443afb62d41a72d",
+        "kind": "tag",
+        "published_at": "2021-12-06T05:47:08.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.10.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.10.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.10.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.10.2/manifests"
+      },
+      {
+        "name": "v6.10.1",
+        "sha": "dd0f954e4c00b02915f4cdc3ee5174ebc351f1c8",
+        "kind": "tag",
+        "published_at": "2021-03-22T03:02:16.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.10.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.10.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.10.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.10.1/manifests"
+      },
+      {
+        "name": "v6.10.0",
+        "sha": "7c1fcc53047ed2d7555910fbce9f72eed1e450b1",
+        "kind": "tag",
+        "published_at": "2021-03-18T19:38:41.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.10.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.10.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.10.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.10.0/manifests"
+      },
+      {
+        "name": "v6.9.6",
+        "sha": "b522d2e9993a47afd810ed9a19d35aadb6323988",
+        "kind": "tag",
+        "published_at": "2021-01-14T04:53:02.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.9.6",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.9.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.6/manifests"
+      },
+      {
+        "name": "v6.9.5",
+        "sha": "179fafc920123e60466a1729f9f2b43b2fd67212",
+        "kind": "tag",
+        "published_at": "2021-01-13T16:29:20.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.9.5",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.9.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.5/manifests"
+      },
+      {
+        "name": "v6.9.4",
+        "sha": "8e014a7b1749ccec52104121950e7b0d251caa78",
+        "kind": "commit",
+        "published_at": "2020-05-03T21:38:57.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.9.4",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.9.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.4/manifests"
+      },
+      {
+        "name": "v6.9.3",
+        "sha": "511e1c9e527679ca182b055895ce301ea82213ee",
+        "kind": "commit",
+        "published_at": "2020-03-25T19:50:51.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.9.3",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.9.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.3/manifests"
+      },
+      {
+        "name": "v6.8.2",
+        "sha": "808b0b233e9408e0b5a7d7d19eb01093944240c5",
+        "kind": "commit",
+        "published_at": "2020-03-25T19:20:19.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.8.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.8.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.8.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.8.2/manifests"
+      },
+      {
+        "name": "v6.7.2",
+        "sha": "bf93c5719c88e4c7ace17d747c62844988a65018",
+        "kind": "commit",
+        "published_at": "2020-03-25T19:10:46.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.7.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.7.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.7.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.7.2/manifests"
+      },
+      {
+        "name": "v6.7.1",
+        "sha": "92f97f25e40bcc7cb3396ddc2ea813bcac0b4dac",
+        "kind": "commit",
+        "published_at": "2020-03-24T04:56:02.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.7.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.7.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.7.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.7.1/manifests"
+      },
+      {
+        "name": "v6.8.1",
+        "sha": "47247f4ec3b527e5f71551fb6af5434672ecf756",
+        "kind": "commit",
+        "published_at": "2020-03-24T04:33:01.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.8.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.8.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.8.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.8.1/manifests"
+      },
+      {
+        "name": "v6.9.2",
+        "sha": "ddc1ff9ca16a4b8963d7cf72d0a881732e54b8c9",
+        "kind": "commit",
+        "published_at": "2020-03-22T07:14:49.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.9.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.9.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.2/manifests"
+      },
+      {
+        "name": "v6.9.1",
+        "sha": "7b368004723b8d11d4d237ff0479b9edcfb41449",
+        "kind": "commit",
+        "published_at": "2019-11-08T06:32:26.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.9.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.9.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.1/manifests"
+      },
+      {
+        "name": "v6.9.0",
+        "sha": "670254b63fc7770894eed9a0f020bc0b72698ce3",
+        "kind": "commit",
+        "published_at": "2019-09-21T21:03:59.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.9.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.9.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.9.0/manifests"
+      },
+      {
+        "name": "v6.8.0",
+        "sha": "7ebe4ad78f6abc9fcc15bdfd0e5a9a771b855cf5",
+        "kind": "commit",
+        "published_at": "2019-08-16T23:57:49.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.8.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.8.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.8.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.8.0/manifests"
+      },
+      {
+        "name": "v6.7.0",
+        "sha": "125e103b61f2bef245970f5a2a8dceffe5aab59a",
+        "kind": "commit",
+        "published_at": "2019-03-22T20:16:46.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.7.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.7.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.7.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.7.0/manifests"
+      },
+      {
+        "name": "v6.6.0",
+        "sha": "34af57edde61639054ea7b38fdfce050cffdab29",
+        "kind": "commit",
+        "published_at": "2018-09-17T23:06:12.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.6.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.6.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.6.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.6.0/manifests"
+      },
+      {
+        "name": "v6.5.2",
+        "sha": "eaabd05558b657c75a137caf2eb030e8e856b82f",
+        "kind": "commit",
+        "published_at": "2018-05-03T22:46:31.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.5.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.5.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.5.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.5.2/manifests"
+      },
+      {
+        "name": "v6.5.1",
+        "sha": "0e838daa71f91fecda456441ac64e615f38bed8b",
+        "kind": "commit",
+        "published_at": "2017-09-09T06:51:19.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.5.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.5.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.5.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.5.1/manifests"
+      },
+      {
+        "name": "v6.5.0",
+        "sha": "d66ac175bbf8afa44b41c2c85b04ae00bac7c916",
+        "kind": "commit",
+        "published_at": "2017-06-28T06:55:05.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.5.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.5.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.5.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.5.0/manifests"
+      },
+      {
+        "name": "v6.0.4",
+        "sha": "10233c9f92a4e3537009fbfbd0baf6f3738c4551",
+        "kind": "commit",
+        "published_at": "2017-03-06T07:25:37.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.0.4",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.0.4/manifests"
+      },
+      {
+        "name": "v6.1.2",
+        "sha": "68ca039dc2b23b9dabff79a34a906b56c17addaa",
+        "kind": "commit",
+        "published_at": "2017-03-06T07:20:16.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.1.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.1.2/manifests"
+      },
+      {
+        "name": "v6.3.2",
+        "sha": "9ee56121311dac6b6014bfe56b3df0ebbf4ed048",
+        "kind": "commit",
+        "published_at": "2017-03-06T07:10:34.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.3.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.3.2/manifests"
+      },
+      {
+        "name": "v6.2.3",
+        "sha": "1fb74cb66310c506e4b6bc04fa258a1759750222",
+        "kind": "commit",
+        "published_at": "2017-03-06T07:07:49.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.2.3",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.2.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.2.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.2.3/manifests"
+      },
+      {
+        "name": "v6.4.0",
+        "sha": "c7f87b8d2eedd377f6ace065655201f51bee6334",
+        "kind": "commit",
+        "published_at": "2017-03-06T06:31:15.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.4.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.4.0/manifests"
+      },
+      {
+        "name": "v6.2.2",
+        "sha": "ff662eca3f00b1505d05dbaa7442a19c26f7ebe0",
+        "kind": "commit",
+        "published_at": "2017-02-16T07:35:00.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.2.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.2.2/manifests"
+      },
+      {
+        "name": "v6.0.3",
+        "sha": "be1c4211a6031cac3443ce66220f4954338bde3f",
+        "kind": "commit",
+        "published_at": "2017-02-16T06:45:41.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.0.3",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.0.3/manifests"
+      },
+      {
+        "name": "v6.1.1",
+        "sha": "3b606162b92ac485d9a3e945f6653507d7ec1210",
+        "kind": "commit",
+        "published_at": "2017-02-16T04:56:38.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.1.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.1.1/manifests"
+      },
+      {
+        "name": "v6.3.1",
+        "sha": "153ce84948845330d90178cbad982fc7371df538",
+        "kind": "commit",
+        "published_at": "2017-02-16T04:37:50.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.3.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.3.1/manifests"
+      },
+      {
+        "name": "v6.3.0",
+        "sha": "8aa9c26f90335b5483a4f456dea9acbada8a881c",
+        "kind": "commit",
+        "published_at": "2016-10-15T06:03:57.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.3.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.3.0/manifests"
+      },
+      {
+        "name": "v6.2.1",
+        "sha": "335f839142e6c2c69f5302c4940d92acb0e77561",
+        "kind": "commit",
+        "published_at": "2016-07-20T19:39:26.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.2.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.2.1/manifests"
+      },
+      {
+        "name": "v5.2.1",
+        "sha": "872da25efd167985c153898a06277ef34ce97a63",
+        "kind": "commit",
+        "published_at": "2016-07-20T19:18:23.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v5.2.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v5.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v5.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v5.2.1/manifests"
+      },
+      {
+        "name": "v6.2.0",
+        "sha": "d67d315b606c6bb809fedcbeebbbdb7f863852aa",
+        "kind": "commit",
+        "published_at": "2016-05-08T22:26:29.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.2.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.2.0/manifests"
+      },
+      {
+        "name": "v6.1.0",
+        "sha": "5bd79545edb33d6a43398fec7df9ecef2da005ea",
+        "kind": "commit",
+        "published_at": "2016-02-04T05:52:40.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.1.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.1.0/manifests"
+      },
+      {
+        "name": "v6.0.2",
+        "sha": "47dfbd6740b3cc1593847825701c8aa136f636e3",
+        "kind": "commit",
+        "published_at": "2016-01-17T22:34:21.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.0.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.0.2/manifests"
+      },
+      {
+        "name": "v6.0.1",
+        "sha": "bbb6ae1bbf8adb3057a52363715a20a25bd8a68f",
+        "kind": "tag",
+        "published_at": "2015-11-24T17:03:53.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.0.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.0.1/manifests"
+      },
+      {
+        "name": "v6.0.0",
+        "sha": "ed169696b6cebacf8e7f7c6b4ba8eeb5f2cb2694",
+        "kind": "tag",
+        "published_at": "2015-11-03T03:02:45.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v6.0.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v6.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v6.0.0/manifests"
+      },
+      {
+        "name": "v5.2.0",
+        "sha": "a341cdf2fadba5ede1ce6c95c7051f6f31f37b81",
+        "kind": "tag",
+        "published_at": "2015-10-07T17:36:04.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v5.2.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v5.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v5.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v5.2.0/manifests"
+      },
+      {
+        "name": "v5.1.0",
+        "sha": "9e9759ec5be2dd99ce90961bbff47075cd5a8160",
+        "kind": "tag",
+        "published_at": "2015-09-11T17:08:57.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v5.1.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v5.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v5.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v5.1.0/manifests"
+      },
+      {
+        "name": "v5.0.0",
+        "sha": "90ac66b2f90dc357134ea138be6cededa1578e5f",
+        "kind": "tag",
+        "published_at": "2015-08-27T17:42:46.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v5.0.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v5.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v5.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v5.0.0/manifests"
+      },
+      {
+        "name": "v4.0.0",
+        "sha": "a846022c26b35206b3526efa62cf23c2cabfd0d9",
+        "kind": "tag",
+        "published_at": "2015-07-02T18:33:23.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v4.0.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v4.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v4.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v4.0.0/manifests"
+      },
+      {
+        "name": "v3.1.0",
+        "sha": "d7a6dd83ef43560c095c6d0bb6087fb0309b0c54",
+        "kind": "tag",
+        "published_at": "2015-05-27T16:07:37.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v3.1.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v3.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v3.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v3.1.0/manifests"
+      },
+      {
+        "name": "v3.0.0",
+        "sha": "482674af2389db626f9ff67c7ae6a7b9ca7a4891",
+        "kind": "tag",
+        "published_at": "2015-05-22T19:34:05.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v3.0.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v3.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v3.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v3.0.0/manifests"
+      },
+      {
+        "name": "v2.4.2",
+        "sha": "cdd64a9d1385dbc3dde48da6de98b5993f1607bd",
+        "kind": "tag",
+        "published_at": "2015-05-09T20:54:29.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.4.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.4.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.4.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.4.2/manifests"
+      },
+      {
+        "name": "v2.4.1",
+        "sha": "bbaba1e380f634b96e62efaa1b88346111b53b3a",
+        "kind": "tag",
+        "published_at": "2015-03-13T23:38:19.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.4.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.4.1/manifests"
+      },
+      {
+        "name": "v2.4.0",
+        "sha": "820be617369cadbb7b15701dacff3b4cc9a92b84",
+        "kind": "tag",
+        "published_at": "2015-03-12T17:22:44.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.4.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.4.0/manifests"
+      },
+      {
+        "name": "v2.3.3",
+        "sha": "9250c4cda5102fcf72441445816e6d311fc6813d",
+        "kind": "tag",
+        "published_at": "2014-11-14T00:53:46.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.3.3",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.3.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.3.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.3.3/manifests"
+      },
+      {
+        "name": "v2.3.2",
+        "sha": "58097c12559b4c5857af99927273b3141dff8529",
+        "kind": "tag",
+        "published_at": "2014-10-28T00:05:34.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.3.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.3.2/manifests"
+      },
+      {
+        "name": "v2.3.1",
+        "sha": "a601ae18bc419399db7debc2765c96c84e83c237",
+        "kind": "tag",
+        "published_at": "2014-10-23T16:25:02.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.3.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.3.1/manifests"
+      },
+      {
+        "name": "v2.3.0",
+        "sha": "ab5237f35ec779c8a52a63804abec2fef42a0bec",
+        "kind": "tag",
+        "published_at": "2014-10-22T21:43:21.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.3.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.3.0/manifests"
+      },
+      {
+        "name": "v2.2.5",
+        "sha": "211cbd9cd9ba6d16a5459c13073bc3a6b1dec018",
+        "kind": "tag",
+        "published_at": "2014-10-22T21:36:56.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.2.5",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.2.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.2.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.2.5/manifests"
+      },
+      {
+        "name": "v2.2.4",
+        "sha": "9775242fa57cbfa4db62e4b0aa4f82b23e2ce6af",
+        "kind": "tag",
+        "published_at": "2014-09-18T23:00:08.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.2.4",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.2.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.2.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.2.4/manifests"
+      },
+      {
+        "name": "v2.2.3",
+        "sha": "904528124a6eb879ebc5197376e9613069414f67",
+        "kind": "tag",
+        "published_at": "2014-09-05T18:32:10.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.2.3",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.2.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.2.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.2.3/manifests"
+      },
+      {
+        "name": "v2.2.2",
+        "sha": "2d954c31a94bf8468f890636c3bb0661f8c2636c",
+        "kind": "tag",
+        "published_at": "2014-08-29T20:34:38.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.2.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.2.2/manifests"
+      },
+      {
+        "name": "v2.2.1",
+        "sha": "32edf331cf876d907eb60b146c9251f8d46026b4",
+        "kind": "tag",
+        "published_at": "2014-08-28T20:37:39.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.2.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.2.1/manifests"
+      },
+      {
+        "name": "v2.2.0",
+        "sha": "9bc7567539828d67b02a0c7d8a3204ed3d86da0e",
+        "kind": "tag",
+        "published_at": "2014-08-27T16:35:20.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.2.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.2.0/manifests"
+      },
+      {
+        "name": "v2.1.0",
+        "sha": "07bb33ec67fe2fc2e34161a3e0d1d94e3d5bb810",
+        "kind": "tag",
+        "published_at": "2014-08-25T22:45:01.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.1.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.1.0/manifests"
+      },
+      {
+        "name": "v2.0.0",
+        "sha": "124ea733898f68586b2eeae496d035834fa89c7c",
+        "kind": "tag",
+        "published_at": "2014-08-25T20:03:30.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v2.0.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v2.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v2.0.0/manifests"
+      },
+      {
+        "name": "v1.2.2",
+        "sha": "bd9455fea88d1c51a80dbf57ef0f99b4e553177d",
+        "kind": "tag",
+        "published_at": "2014-08-14T20:16:10.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v1.2.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v1.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.2.2/manifests"
+      },
+      {
+        "name": "v1.2.1",
+        "sha": "96871b8ebe001a993454f8cbf79c2410dabd7eb9",
+        "kind": "tag",
+        "published_at": "2014-08-09T01:38:21.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v1.2.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v1.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.2.1/manifests"
+      },
+      {
+        "name": "v1.2.0",
+        "sha": "e1ff638989afe27a2c7f8ec7eecf9bab71a4fbf2",
+        "kind": "tag",
+        "published_at": "2014-08-07T14:02:10.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v1.2.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v1.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.2.0/manifests"
+      },
+      {
+        "name": "v1.1.0",
+        "sha": "03848fed725e50bb06379e8f3ee40b3f92a1b60d",
+        "kind": "tag",
+        "published_at": "2014-08-06T17:40:02.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v1.1.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v1.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.1.0/manifests"
+      },
+      {
+        "name": "v1.0.2",
+        "sha": "b7af068a898c8456a99613e474c8765dea7f41dc",
+        "kind": "tag",
+        "published_at": "2014-08-06T00:18:33.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v1.0.2",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v1.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.0.2/manifests"
+      },
+      {
+        "name": "v1.0.1",
+        "sha": "dc3cfcc7ee4af9fd8f464b19c5587f8d1ef9d252",
+        "kind": "commit",
+        "published_at": "2014-08-05T21:33:17.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v1.0.1",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v1.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.0.1/manifests"
+      },
+      {
+        "name": "v1.0.0",
+        "sha": "a66f9c78309b5e441d4840bf68d1a008486ae0db",
+        "kind": "commit",
+        "published_at": "2014-08-04T22:25:43.000Z",
+        "download_url": "https://codeload.github.com/ljharb/qs/tar.gz/v1.0.0",
+        "html_url": "https://github.com/ljharb/qs/releases/tag/v1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fqs/tags/v1.0.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-09-07T08:39:15.435Z",
+  "dependent_packages_count": 15944,
+  "downloads": 301817216,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 2110964,
+  "rankings": {
+    "downloads": 0.0019165879040304202,
+    "dependent_repos_count": 0.013744673254618157,
+    "dependent_packages_count": 0.0064068795649016895,
+    "stargazers_count": 1.0956859249069906,
+    "forks_count": 1.385391876514789,
+    "docker_downloads_count": 0.008460366604934282,
+    "average": 0.41860105145837734
+  },
+  "purl": "pkg:npm/qs",
+  "advisories": [
+    {
+      "uuid": "GSA_kwCzR0hTQS1ocnBwLWg5OTgtajNwcM4AAwDM",
+      "url": "https://github.com/advisories/GHSA-hrpp-h998-j3pp",
+      "title": "qs vulnerable to Prototype Pollution",
+      "description": "qs before 6.10.3 allows attackers to cause a Node process hang because an `__ proto__` key can be used. In many typical web framework use cases, an unauthenticated remote attacker can place the attack payload in the query string of the URL that is used to visit the application, such as `a[__proto__]=b&a[__proto__]&a[length]=100000000`. The fix was backported to qs 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, and 6.2.4.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-11-27T00:30:50.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-24999",
+        "https://github.com/ljharb/qs/pull/428",
+        "https://github.com/n8tz/CVE-2022-24999",
+        "https://github.com/ljharb/qs/commit/4310742efbd8c03f6495f07906b45213da0a32ec",
+        "https://github.com/ljharb/qs/commit/727ef5d34605108acb3513f72d5435972ed15b68",
+        "https://github.com/ljharb/qs/commit/73205259936317b40f447c5cdb71c5b341848e1b",
+        "https://github.com/ljharb/qs/commit/8b4cc14cda94a5c89341b77e5fe435ec6c41be2d",
+        "https://github.com/ljharb/qs/commit/ba24e74dd17931f825adb52f5633e48293b584e1",
+        "https://github.com/ljharb/qs/commit/e799ba57e573a30c14b67c1889c7c04d508b9105",
+        "https://github.com/ljharb/qs/commit/ed0f5dcbef4b168a8ae299d78b1e4a2e9b1baf1f",
+        "https://github.com/ljharb/qs/commit/f945393cfe442fe8c6e62b4156fd35452c0686ee",
+        "https://github.com/ljharb/qs/commit/fc3682776670524a42e19709ec4a8138d0d7afda",
+        "https://github.com/expressjs/express/releases/tag/4.17.3",
+        "https://lists.debian.org/debian-lts-announce/2023/01/msg00039.html",
+        "https://github.com/advisories/GHSA-hrpp-h998-j3pp"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-hrpp-h998-j3pp",
+        "CVE-2022-24999"
+      ],
+      "repository_url": "https://github.com/ljharb/qs",
+      "blast_radius": 47.43360620243178,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "6.2.4",
+              "vulnerable_version_range": "< 6.2.4"
+            },
+            {
+              "first_patched_version": "6.3.3",
+              "vulnerable_version_range": ">= 6.3.0, < 6.3.3"
+            },
+            {
+              "first_patched_version": "6.4.1",
+              "vulnerable_version_range": ">= 6.4.0, < 6.4.1"
+            },
+            {
+              "first_patched_version": "6.5.3",
+              "vulnerable_version_range": ">= 6.5.0, < 6.5.3"
+            },
+            {
+              "first_patched_version": "6.6.1",
+              "vulnerable_version_range": ">= 6.6.0, < 6.6.1"
+            },
+            {
+              "first_patched_version": "6.7.3",
+              "vulnerable_version_range": ">= 6.7.0, < 6.7.3"
+            },
+            {
+              "first_patched_version": "6.8.3",
+              "vulnerable_version_range": ">= 6.8.0, < 6.8.3"
+            },
+            {
+              "first_patched_version": "6.9.7",
+              "vulnerable_version_range": ">= 6.9.0, < 6.9.7"
+            },
+            {
+              "first_patched_version": "6.10.3",
+              "vulnerable_version_range": ">= 6.10.0, < 6.10.3"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "qs"
+        }
+      ],
+      "created_at": "2022-12-21T16:11:47.023Z",
+      "updated_at": "2024-02-13T20:35:50.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWpqdjctcXB4My1oNjJx",
+      "url": "https://github.com/advisories/GHSA-jjv7-qpx3-h62q",
+      "title": "Denial-of-Service Memory Exhaustion in qs",
+      "description": "Versions prior to 1.0 of `qs` are affected by a denial of service condition. This condition is triggered by parsing a crafted string that deserializes into very large sparse arrays, resulting in the process running out of memory and eventually crashing.\n\n\n## Recommendation\n\nUpdate to version 1.0.0 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2017-10-24T18:33:36.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2014-7191",
+        "https://github.com/visionmedia/node-querystring/issues/104",
+        "https://github.com/advisories/GHSA-jjv7-qpx3-h62q",
+        "https://www.npmjs.com/advisories/29",
+        "https://github.com/raymondfeng/node-querystring/commit/43a604b7847e56bba49d0ce3e222fe89569354d8",
+        "https://access.redhat.com/errata/RHSA-2016:1380",
+        "https://exchange.xforce.ibmcloud.com/vulnerabilities/96729",
+        "http://secunia.com/advisories/60026",
+        "http://secunia.com/advisories/62170",
+        "http://www-01.ibm.com/support/docview.wss?uid=swg21685987",
+        "http://www-01.ibm.com/support/docview.wss?uid=swg21687263",
+        "http://www-01.ibm.com/support/docview.wss?uid=swg21687928"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-jjv7-qpx3-h62q",
+        "CVE-2014-7191"
+      ],
+      "repository_url": "https://github.com/visionmedia/node-querystring",
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.0.0",
+              "vulnerable_version_range": "< 1.0.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "qs"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:38.979Z",
+      "updated_at": "2023-04-11T00:27:35.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWNydmotM2dqOS1nbTJw",
+      "url": "https://github.com/advisories/GHSA-crvj-3gj9-gm2p",
+      "title": "High severity vulnerability that affects qs",
+      "description": "Withdrawn, accidental duplicate publish.\r\n\r\nThe qs module before 1.0.0 in Node.js does not call the compact function for array data, which allows remote attackers to cause a denial of service (memory consumption) by using a large index value to create a sparse array.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2018-10-09T00:44:29.000Z",
+      "withdrawn_at": "2020-06-16T21:32:53.000Z",
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2014-7191",
+        "https://github.com/advisories/GHSA-crvj-3gj9-gm2p"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-crvj-3gj9-gm2p"
+      ],
+      "repository_url": null,
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.0.0",
+              "vulnerable_version_range": "< 1.0.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "qs"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:35.933Z",
+      "updated_at": "2023-01-09T05:02:51.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWY5Y20tcDN3Ni14dnIz",
+      "url": "https://github.com/advisories/GHSA-f9cm-p3w6-xvr3",
+      "title": "Denial-of-Service Extended Event Loop Blocking in qs",
+      "description": "Versions prior to 1.0.0 of `qs` are affected by a denial of service vulnerability that results from excessive recursion in parsing a deeply nested JSON string.\n\n\n\n\n## Recommendation\n\nUpdate to version 1.0.0 or later",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2018-10-09T00:38:48.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2014-10064",
+        "https://github.com/advisories/GHSA-f9cm-p3w6-xvr3",
+        "https://www.npmjs.com/advisories/28"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-f9cm-p3w6-xvr3",
+        "CVE-2014-10064"
+      ],
+      "repository_url": null,
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.0.0",
+              "vulnerable_version_range": "< 1.0.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "qs"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:35.943Z",
+      "updated_at": "2023-01-09T05:02:52.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWdxZ3YtNmpxNS1qamo5",
+      "url": "https://github.com/advisories/GHSA-gqgv-6jq5-jjj9",
+      "title": "Prototype Pollution Protection Bypass in qs",
+      "description": "Affected version of `qs` are vulnerable to Prototype Pollution because it is possible to bypass the protection. The `qs.parse` function fails to properly prevent an object's prototype to be altered when parsing arbitrary input. Input containing `[` or `]` may bypass the prototype pollution protection and alter the Object prototype. This allows attackers to override properties that will exist in all objects, which may lead to Denial of Service or Remote Code Execution in specific circumstances.\n\n\n## Recommendation\n\nUpgrade to 6.0.4, 6.1.2, 6.2.3, 6.3.2 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2020-04-30T17:16:47.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2017-1000048",
+        "https://github.com/ljharb/qs/issues/200",
+        "https://github.com/ljharb/qs/commit/beade029171b8cef9cee0d03ebe577e2dd84976d",
+        "https://access.redhat.com/errata/RHSA-2017:2672",
+        "https://snyk.io/vuln/npm:qs:20170213",
+        "https://www.npmjs.com/advisories/1469",
+        "https://github.com/advisories/GHSA-gqgv-6jq5-jjj9"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-gqgv-6jq5-jjj9",
+        "CVE-2017-1000048"
+      ],
+      "repository_url": "https://github.com/ljharb/qs",
+      "blast_radius": 47.43360620243178,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "6.3.2",
+              "vulnerable_version_range": ">= 6.3.0, < 6.3.2"
+            },
+            {
+              "first_patched_version": "6.2.3",
+              "vulnerable_version_range": ">= 6.2.0, < 6.2.3"
+            },
+            {
+              "first_patched_version": "6.1.2",
+              "vulnerable_version_range": ">= 6.1.0, < 6.1.2"
+            },
+            {
+              "first_patched_version": "6.0.4",
+              "vulnerable_version_range": "< 6.0.4"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "qs"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:24.994Z",
+      "updated_at": "2023-01-09T05:02:30.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/qs",
+  "docker_dependents_count": 60282,
+  "docker_downloads_count": 9070134413,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/qs",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/qs/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/ljharb",
+    "https://ko-fi.com/ljharb"
+  ],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/qs/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/qs/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/qs/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/qs/related_packages",
+  "maintainers": [
+    {
+      "uuid": "nlf",
+      "login": "nlf",
+      "name": null,
+      "email": "quitlahok@gmail.com",
+      "url": null,
+      "packages_count": 315,
+      "html_url": "https://www.npmjs.com/~nlf",
+      "role": null,
+      "created_at": "2022-11-10T11:28:49.800Z",
+      "updated_at": "2022-11-10T11:28:49.800Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/nlf/packages"
+    },
+    {
+      "uuid": "ljharb",
+      "login": "ljharb",
+      "name": null,
+      "email": "ljharb@gmail.com",
+      "url": null,
+      "packages_count": 525,
+      "html_url": "https://www.npmjs.com/~ljharb",
+      "role": null,
+      "created_at": "2022-11-10T11:28:49.797Z",
+      "updated_at": "2022-11-10T11:28:49.797Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/ljharb/packages"
+    }
+  ]
+}

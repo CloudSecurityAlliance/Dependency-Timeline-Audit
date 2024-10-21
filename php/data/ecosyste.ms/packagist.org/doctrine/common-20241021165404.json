@@ -1,0 +1,1354 @@
+{
+    "id": 521390,
+    "name": "doctrine\/common",
+    "ecosystem": "packagist",
+    "description": "PHP Doctrine Common project is a library that provides additional functionality that other Doctrine projects depend on such as better reflection support, proxies and much more.",
+    "homepage": "https:\/\/www.doctrine-project.org\/projects\/common.html",
+    "licenses": "MIT",
+    "normalized_licenses": [
+        "MIT"
+    ],
+    "repository_url": "https:\/\/github.com\/doctrine\/common",
+    "keywords_array": [
+        "php",
+        "doctrine",
+        "common"
+    ],
+    "namespace": "doctrine",
+    "versions_count": 65,
+    "first_release_published_at": "2011-11-21T14:50:00.000Z",
+    "latest_release_published_at": "2024-04-16T13:35:33.000Z",
+    "latest_release_number": "3.4.4",
+    "last_synced_at": "2024-10-21T15:33:25.601Z",
+    "created_at": "2022-04-07T09:15:38.677Z",
+    "updated_at": "2024-10-21T15:33:25.601Z",
+    "registry_url": "https:\/\/packagist.org\/packages\/doctrine\/common#",
+    "install_command": "composer require doctrine\/common",
+    "documentation_url": null,
+    "metadata": {
+        "funding": [
+            {
+                "url": "https:\/\/www.doctrine-project.org\/sponsorship.html",
+                "type": "custom"
+            },
+            {
+                "url": "https:\/\/www.patreon.com\/phpdoctrine",
+                "type": "patreon"
+            },
+            {
+                "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/doctrine%2Fcommon",
+                "type": "tidelift"
+            }
+        ]
+    },
+    "repo_metadata": {
+        "uuid": "677467",
+        "full_name": "doctrine\/common",
+        "owner": "doctrine",
+        "description": "Doctrine Common",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2023-08-10T07:28:48.000Z",
+        "size": 17072,
+        "stargazers_count": 5761,
+        "open_issues_count": 33,
+        "forks_count": 295,
+        "subscribers_count": 47,
+        "default_branch": "3.4.x",
+        "last_synced_at": "2024-04-14T01:08:20.807Z",
+        "etag": null,
+        "topics": [],
+        "latest_commit_sha": null,
+        "homepage": "https:\/\/www.doctrine-project.org\/projects\/common.html",
+        "language": "PHP",
+        "has_issues": true,
+        "has_wiki": null,
+        "has_pages": null,
+        "mirror_url": null,
+        "source_name": null,
+        "license": "mit",
+        "status": null,
+        "scm": "git",
+        "pull_requests_enabled": true,
+        "icon_url": "https:\/\/github.com\/doctrine.png",
+        "metadata": {
+            "files": {
+                "readme": "README.md",
+                "changelog": null,
+                "contributing": null,
+                "funding": ".github\/FUNDING.yml",
+                "license": "LICENSE",
+                "code_of_conduct": null,
+                "threat_model": null,
+                "audit": null,
+                "citation": null,
+                "codeowners": null,
+                "security": null,
+                "support": null,
+                "governance": null
+            },
+            "funding": {
+                "patreon": "phpdoctrine",
+                "tidelift": "packagist\/doctrine%2Fcommon",
+                "custom": "https:\/\/www.doctrine-project.org\/sponsorship.html"
+            }
+        },
+        "created_at": "2010-05-20T17:01:56.000Z",
+        "updated_at": "2024-04-11T13:27:46.000Z",
+        "dependencies_parsed_at": "2022-07-19T23:32:12.382Z",
+        "dependency_job_id": "30c70c57-0797-46a0-9c31-d26bf46f1622",
+        "html_url": "https:\/\/github.com\/doctrine\/common",
+        "commit_stats": {
+            "total_commits": 5646,
+            "total_committers": 226,
+            "mean_commits": 24.98230088495575,
+            "dds": 0.6778250088558271,
+            "last_synced_commit": "0a357f1bb08a95a2b170f7db19c9e775420b40b3"
+        },
+        "previous_names": [],
+        "tags_count": 81,
+        "template": false,
+        "template_full_name": null,
+        "repository_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon",
+        "tags_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags",
+        "releases_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/releases",
+        "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/manifests",
+        "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/doctrine",
+        "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/refs\/heads\/3.4.x",
+        "host": {
+            "name": "GitHub",
+            "url": "https:\/\/github.com",
+            "kind": "github",
+            "repositories_count": 199349988,
+            "owners_count": 13586047,
+            "icon_url": "https:\/\/github.com\/github.png",
+            "version": null,
+            "created_at": "2022-05-30T11:31:42.601Z",
+            "updated_at": "2022-07-04T15:15:14.044Z",
+            "host_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories",
+            "repository_names_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repository_names",
+            "owners_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners"
+        },
+        "owner_record": {
+            "login": "doctrine",
+            "name": "Doctrine",
+            "uuid": "209254",
+            "kind": "organization",
+            "description": "The Doctrine Project is the home to several PHP libraries primarily focused on database storage and object mapping.",
+            "email": null,
+            "website": "https:\/\/www.doctrine-project.org",
+            "location": "Planet Earth",
+            "twitter": null,
+            "company": null,
+            "icon_url": "https:\/\/avatars.githubusercontent.com\/u\/209254?v=4",
+            "repositories_count": 75,
+            "last_synced_at": "2024-04-14T20:45:01.158Z",
+            "metadata": {
+                "has_sponsors_listing": true
+            },
+            "html_url": "https:\/\/github.com\/doctrine",
+            "funding_links": [
+                "https:\/\/github.com\/sponsors\/doctrine"
+            ],
+            "total_stars": 121164,
+            "followers": 229,
+            "following": 0,
+            "created_at": "2022-11-02T16:26:47.143Z",
+            "updated_at": "2024-04-14T20:45:19.403Z",
+            "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/doctrine",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/doctrine\/repositories"
+        },
+        "tags": [
+            {
+                "name": "3.4.3",
+                "sha": "8b5e5650391f851ed58910b3e3d48a71062eeced",
+                "kind": "tag",
+                "published_at": "2022-10-09T11:49:56.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.4.3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.4.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.4.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.4.3\/manifests"
+            },
+            {
+                "name": "3.4.2",
+                "sha": "609c3a7b6af49a7b4b13945ca2fdf4af801946af",
+                "kind": "tag",
+                "published_at": "2022-09-28T14:27:19.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.4.2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.4.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.4.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.4.2\/manifests"
+            },
+            {
+                "name": "3.4.1",
+                "sha": "616d5fca274ea66b969cdebbbfd1dc33a87d461b",
+                "kind": "tag",
+                "published_at": "2022-09-26T17:19:21.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.4.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.4.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.4.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.4.1\/manifests"
+            },
+            {
+                "name": "3.4.0",
+                "sha": "e09556bbdf95b8420e649162b19ae9da2d1a80f3",
+                "kind": "tag",
+                "published_at": "2022-08-23T19:48:25.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.4.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.4.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.4.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.4.0\/manifests"
+            },
+            {
+                "name": "3.3.1",
+                "sha": "315d7e9014aa26cfc61e8b3d08be70fee08781d6",
+                "kind": "tag",
+                "published_at": "2022-08-20T10:50:29.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.3.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.3.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.3.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.3.1\/manifests"
+            },
+            {
+                "name": "3.3.0",
+                "sha": "54a5306a8423a9f2fe2c1a9966db656d0c8002f9",
+                "kind": "tag",
+                "published_at": "2022-04-15T10:46:27.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.3.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.3.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.3.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.3.0\/manifests"
+            },
+            {
+                "name": "3.2.2",
+                "sha": "1f3acef87c0d5c6ab2dccc6b714f1fb5640b8e63",
+                "kind": "tag",
+                "published_at": "2022-02-02T09:16:45.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.2.2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.2.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.2.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.2.2\/manifests"
+            },
+            {
+                "name": "3.2.1",
+                "sha": "df54b9d76fcbb8da17c7c56815e8ae2740ee0036",
+                "kind": "tag",
+                "published_at": "2021-12-26T22:40:29.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.2.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.2.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.2.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.2.1\/manifests"
+            },
+            {
+                "name": "3.2.0",
+                "sha": "e144e7dad96e5049d70ec92623c06e2d3d37fe6b",
+                "kind": "tag",
+                "published_at": "2021-10-19T06:47:58.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.2.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.2.0\/manifests"
+            },
+            {
+                "name": "3.1.2",
+                "sha": "c7f72d3d2b7253449a29b73e8d170a8a92874ffb",
+                "kind": "tag",
+                "published_at": "2021-04-01T19:28:30.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.1.2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.1.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.1.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.1.2\/manifests"
+            },
+            {
+                "name": "3.1.1",
+                "sha": "df134dc143d38a6df555289309763927a040a74c",
+                "kind": "tag",
+                "published_at": "2021-01-20T20:00:28.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.1.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.1.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.1.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.1.1\/manifests"
+            },
+            {
+                "name": "3.0.3",
+                "sha": "51dc5ac2b3781b7f2431e1b5278ee229b096d010",
+                "kind": "tag",
+                "published_at": "2020-12-04T09:46:50.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.0.3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.0.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.0.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.0.3\/manifests"
+            },
+            {
+                "name": "3.1.0",
+                "sha": "0112f9887612c277fbfee941af3accaa2d8fc6ee",
+                "kind": "tag",
+                "published_at": "2020-12-04T08:22:59.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.1.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.1.0\/manifests"
+            },
+            {
+                "name": "3.0.2",
+                "sha": "2c0874a9c433d0135747d96103be2e2c74255152",
+                "kind": "tag",
+                "published_at": "2020-06-05T17:03:49.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.0.2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.0.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.0.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.0.2\/manifests"
+            },
+            {
+                "name": "2.13.3",
+                "sha": "25b8ac441f6bcb3e4e9b6f02cd813d8696499a60",
+                "kind": "tag",
+                "published_at": "2020-06-05T16:49:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.13.3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.13.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.13.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.13.3\/manifests"
+            },
+            {
+                "name": "3.0.1",
+                "sha": "ad1bb78797a9381005eb02d2911940f7403c2c5d",
+                "kind": "tag",
+                "published_at": "2020-05-30T15:10:33.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.0.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.0.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.0.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.0.1\/manifests"
+            },
+            {
+                "name": "2.13.2",
+                "sha": "c58f582702adfcdaae5d61e584d372f3f911caa9",
+                "kind": "tag",
+                "published_at": "2020-05-30T15:10:28.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.13.2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.13.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.13.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.13.2\/manifests"
+            },
+            {
+                "name": "3.0.0",
+                "sha": "42a23e671b64bb842552fd5963e8b7189562063f",
+                "kind": "tag",
+                "published_at": "2020-05-25T20:43:12.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/3.0.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/3.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/3.0.0\/manifests"
+            },
+            {
+                "name": "2.13.1",
+                "sha": "75fe793a870932e857087a877fbcf96e59a159fa",
+                "kind": "tag",
+                "published_at": "2020-05-25T20:13:57.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.13.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.13.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.13.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.13.1\/manifests"
+            },
+            {
+                "name": "2.13.0",
+                "sha": "9d2c268ae5828ac8d430de769dcd1bb1622a6f18",
+                "kind": "tag",
+                "published_at": "2020-05-15T10:56:39.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.13.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.13.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.13.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.13.0\/manifests"
+            },
+            {
+                "name": "2.12.0",
+                "sha": "a540f39e43b49e8e8ae62fc31260854e44ad74c2",
+                "kind": "tag",
+                "published_at": "2020-01-10T15:52:11.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.12.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.12.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.12.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.12.0\/manifests"
+            },
+            {
+                "name": "v2.11.0",
+                "sha": "f198f24a4bd9adaa5dd22036c6b4721b38e35b03",
+                "kind": "tag",
+                "published_at": "2019-09-10T10:11:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.11.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.11.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.11.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.11.0\/manifests"
+            },
+            {
+                "name": "v2.10.0",
+                "sha": "731667ba083f5be2bc5115a015eedae7bb32322d",
+                "kind": "tag",
+                "published_at": "2018-11-21T01:38:12.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.10.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.10.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.10.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.10.0\/manifests"
+            },
+            {
+                "name": "v2.9.0",
+                "sha": "a4708bbd4dc39e5f6fda8f06266496e734dfcd1a",
+                "kind": "tag",
+                "published_at": "2018-07-12T21:26:16.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.9.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.9.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.9.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.9.0\/manifests"
+            },
+            {
+                "name": "v2.8.1",
+                "sha": "c11b6522d83d44a7563f49d881acb2501f63cdf8",
+                "kind": "tag",
+                "published_at": "2017-08-31T08:46:37.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.8.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.8.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.8.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.8.1\/manifests"
+            },
+            {
+                "name": "v2.8.0",
+                "sha": "a9ee9bdbbd0a12aeabb9710866f7e1d35e953e5f",
+                "kind": "tag",
+                "published_at": "2017-07-22T09:04:59.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.8.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.8.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.8.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.8.0\/manifests"
+            },
+            {
+                "name": "v2.7.3",
+                "sha": "a9e955831132758be6ae3ee74019658663e7aa05",
+                "kind": "tag",
+                "published_at": "2017-07-22T08:35:21.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.7.3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.7.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.7.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.7.3\/manifests"
+            },
+            {
+                "name": "v2.7.2",
+                "sha": "9bc457aa146b4df9b50334f8bdd836829f462f03",
+                "kind": "tag",
+                "published_at": "2017-01-13T14:09:07.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.7.2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.7.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.7.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.7.2\/manifests"
+            },
+            {
+                "name": "v2.7.1",
+                "sha": "59a927e639050c4d30fafefe2fc1b49b6efabc03",
+                "kind": "tag",
+                "published_at": "2016-12-03T08:17:03.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.7.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.7.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.7.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.7.1\/manifests"
+            },
+            {
+                "name": "v2.7.0",
+                "sha": "77a16f5f629cc0db3c80f65ff790962cf3d1ccad",
+                "kind": "tag",
+                "published_at": "2016-11-30T17:39:35.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.7.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.7.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.7.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.7.0\/manifests"
+            },
+            {
+                "name": "v2.6.2",
+                "sha": "34be47a0e169fbc850f0b93cfbeb273eb6e89d06",
+                "kind": "tag",
+                "published_at": "2016-11-30T17:15:18.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.6.2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.6.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.6.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.6.2\/manifests"
+            },
+            {
+                "name": "v2.6.1",
+                "sha": "ced19afa97d8317b2970c5671b3a4290e5dc987f",
+                "kind": "tag",
+                "published_at": "2015-12-25T13:20:04.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.6.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.6.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.6.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.6.1\/manifests"
+            },
+            {
+                "name": "v2.5.3",
+                "sha": "2bc2f1cf9eac1ba7d6061b0fad917d262c8bfb52",
+                "kind": "tag",
+                "published_at": "2015-12-25T13:10:27.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.5.3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.5.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.5.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.5.3\/manifests"
+            },
+            {
+                "name": "v2.6.0",
+                "sha": "d81c9b457ef32fd85e4cffd5238454509124efc4",
+                "kind": "tag",
+                "published_at": "2015-12-04T13:07:04.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.6.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.6.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.6.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.6.0\/manifests"
+            },
+            {
+                "name": "v2.5.2",
+                "sha": "7505ef3dfe49883ab3623254342843f8b5368d95",
+                "kind": "tag",
+                "published_at": "2015-12-04T12:49:55.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.5.2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.5.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.5.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.5.2\/manifests"
+            },
+            {
+                "name": "v2.4.3",
+                "sha": "b377393e6b1970781edcd74f3046da211e988a9c",
+                "kind": "tag",
+                "published_at": "2015-08-31T14:42:59.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.4.3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.4.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.4.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.4.3\/manifests"
+            },
+            {
+                "name": "v2.5.1",
+                "sha": "12e495b72625f097cc4e46867857948cb19fe85f",
+                "kind": "tag",
+                "published_at": "2015-08-31T13:02:01.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.5.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.5.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.5.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.5.1\/manifests"
+            },
+            {
+                "name": "v2.5.0",
+                "sha": "1382fc912c4a4aa44b412bf5167566a318a9e64a",
+                "kind": "tag",
+                "published_at": "2015-04-02T20:01:35.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.5.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.5.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.5.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.5.0\/manifests"
+            },
+            {
+                "name": "v2.5.0-beta1",
+                "sha": "a847c913857ae678bc8675130a9c3302f8076203",
+                "kind": "tag",
+                "published_at": "2015-03-26T00:27:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.5.0-beta1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.5.0-beta1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.5.0-beta1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.5.0-beta1\/manifests"
+            },
+            {
+                "name": "v2.4.2",
+                "sha": "f25296432bd7414b02c469cfe3999aaa2cfbc25c",
+                "kind": "tag",
+                "published_at": "2014-05-21T19:48:04.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.4.2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.4.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.4.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.4.2\/manifests"
+            },
+            {
+                "name": "v2.4.1",
+                "sha": "cf2e57ac95e2d337aabc760169568b9fef82b7fa",
+                "kind": "tag",
+                "published_at": "2013-09-07T10:20:34.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.4.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.4.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.4.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.4.1\/manifests"
+            },
+            {
+                "name": "v2.4.0",
+                "sha": "de27c21f90d19e2887a3113a8f8353a0d4cf8d84",
+                "kind": "tag",
+                "published_at": "2013-09-07T08:24:41.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/v2.4.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/v2.4.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.4.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/v2.4.0\/manifests"
+            },
+            {
+                "name": "2.4.0-RC4",
+                "sha": "35bb05cc49daa32a500e4a7c7f0f62f75113b69e",
+                "kind": "tag",
+                "published_at": "2013-06-30T09:26:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.4.0-RC4",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.4.0-RC4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.4.0-RC4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.4.0-RC4\/manifests"
+            },
+            {
+                "name": "2.4.0-RC3",
+                "sha": "93c665c3923b436dedd235b34d4f46417100ec4c",
+                "kind": "tag",
+                "published_at": "2013-05-27T19:11:46.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.4.0-RC3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.4.0-RC3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.4.0-RC3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.4.0-RC3\/manifests"
+            },
+            {
+                "name": "2.4.0-RC2",
+                "sha": "ce87784a45f93c73a4035748fd98ecbbda3098fb",
+                "kind": "commit",
+                "published_at": "2013-05-09T21:35:24.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.4.0-RC2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.4.0-RC2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.4.0-RC2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.4.0-RC2\/manifests"
+            },
+            {
+                "name": "2.4.0-RC1",
+                "sha": "1debc79dde17da3892afe93a97ccc7a9500b2dd2",
+                "kind": "tag",
+                "published_at": "2013-03-24T17:52:34.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.4.0-RC1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.4.0-RC1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.4.0-RC1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.4.0-RC1\/manifests"
+            },
+            {
+                "name": "2.3.0",
+                "sha": "b39f7d8c9f5b33fc8899e890e8eb86430806c9dd",
+                "kind": "tag",
+                "published_at": "2012-09-20T05:55:18.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.3.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.3.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.3.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.3.0\/manifests"
+            },
+            {
+                "name": "2.3.0-RC3",
+                "sha": "ad21786cc9a19eda318681a5b78130c8cf42b40c",
+                "kind": "tag",
+                "published_at": "2012-09-17T11:47:57.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.3.0-RC3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.3.0-RC3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.3.0-RC3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.3.0-RC3\/manifests"
+            },
+            {
+                "name": "2.3.0-RC2",
+                "sha": "f3a1470f9df4e42fc35a9002b9bcc51a5c77190f",
+                "kind": "tag",
+                "published_at": "2012-08-29T14:06:32.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.3.0-RC2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.3.0-RC2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.3.0-RC2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.3.0-RC2\/manifests"
+            },
+            {
+                "name": "2.2.3",
+                "sha": "f2695831391cf4fc2d1216c11290ceabcababeea",
+                "kind": "tag",
+                "published_at": "2012-08-29T08:04:14.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.2.3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.2.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.3\/manifests"
+            },
+            {
+                "name": "2.3.0-RC1",
+                "sha": "4d726cfd899cae8f95c94485ba769e6f62e52fc9",
+                "kind": "tag",
+                "published_at": "2012-07-29T10:44:28.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.3.0-RC1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.3.0-RC1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.3.0-RC1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.3.0-RC1\/manifests"
+            },
+            {
+                "name": "2.3.0-BETA1",
+                "sha": "3bb92916338fffacdede57ee67b7e4ac15f4f3d0",
+                "kind": "tag",
+                "published_at": "2012-07-16T12:58:02.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.3.0-BETA1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.3.0-BETA1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.3.0-BETA1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.3.0-BETA1\/manifests"
+            },
+            {
+                "name": "2.2.2",
+                "sha": "ac6c39b9440e304ea536fd32aadd9057b6a43a18",
+                "kind": "tag",
+                "published_at": "2012-04-13T07:46:44.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.2.2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.2.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.2\/manifests"
+            },
+            {
+                "name": "2.2.1",
+                "sha": "99bbce72e2e7612f2f461119cc5984c51d21396c",
+                "kind": "tag",
+                "published_at": "2012-03-03T21:05:52.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.2.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.2.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.1\/manifests"
+            },
+            {
+                "name": "2.2.0",
+                "sha": "d6960503e8a7bb9b2eb1e3f765cd562f87067239",
+                "kind": "tag",
+                "published_at": "2012-01-29T08:29:07.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.2.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0\/manifests"
+            },
+            {
+                "name": "2.2.0-RC5",
+                "sha": "d55242ed970f51005e9ad9c55371c0bba0e122dd",
+                "kind": "tag",
+                "published_at": "2012-01-16T12:41:15.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.2.0-RC5",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.2.0-RC5",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0-RC5",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0-RC5\/manifests"
+            },
+            {
+                "name": "2.2.0-RC4",
+                "sha": "b81d9480645f67a8cb38545098a8961939572c8d",
+                "kind": "tag",
+                "published_at": "2012-01-03T20:23:46.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.2.0-RC4",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.2.0-RC4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0-RC4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0-RC4\/manifests"
+            },
+            {
+                "name": "2.2.0-RC3",
+                "sha": "252301cd5aa9e9603cd55a287e8afd0c908c68cb",
+                "kind": "tag",
+                "published_at": "2011-12-19T13:02:01.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.2.0-RC3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.2.0-RC3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0-RC3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0-RC3\/manifests"
+            },
+            {
+                "name": "2.2.0-RC2",
+                "sha": "221eac58ec2c83e2d2604090e9dc775d53398452",
+                "kind": "tag",
+                "published_at": "2011-12-19T12:40:47.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.2.0-RC2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.2.0-RC2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0-RC2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0-RC2\/manifests"
+            },
+            {
+                "name": "2.2.0-RC1",
+                "sha": "04abc9a47334b8db10456ec689cc796b5a768def",
+                "kind": "tag",
+                "published_at": "2011-12-19T11:59:11.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.2.0-RC1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.2.0-RC1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0-RC1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0-RC1\/manifests"
+            },
+            {
+                "name": "2.2.0BETA2",
+                "sha": "8d0dd86c97c13b8103029ab61f66dc44a6b668c8",
+                "kind": "tag",
+                "published_at": "2011-12-12T19:47:43.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.2.0BETA2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.2.0BETA2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0BETA2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0BETA2\/manifests"
+            },
+            {
+                "name": "2.2.0BETA1",
+                "sha": "060ddaaf198c3c2230e4475407ac2e5e4d7e9f1a",
+                "kind": "tag",
+                "published_at": "2011-12-03T10:32:55.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.2.0BETA1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.2.0BETA1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0BETA1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.2.0BETA1\/manifests"
+            },
+            {
+                "name": "2.1.4",
+                "sha": "ebfb8b08fe6e174b6c62fc994da5d610d96944bf",
+                "kind": "tag",
+                "published_at": "2011-11-26T08:10:50.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.1.4",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.1.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.4\/manifests"
+            },
+            {
+                "name": "2.1.3",
+                "sha": "721ccd05ec4fce064cc8f6a38de278e91b6474b3",
+                "kind": "tag",
+                "published_at": "2011-11-21T14:50:00.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.1.3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.1.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.3\/manifests"
+            },
+            {
+                "name": "2.1.2",
+                "sha": "249a8e8d681ce30c97966c7e8469e66885c7a14f",
+                "kind": "tag",
+                "published_at": "2011-09-25T17:34:09.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.1.2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.1.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.2\/manifests"
+            },
+            {
+                "name": "2.1.1",
+                "sha": "93317b645fa3645112c10bed4a3eece06e0ad212",
+                "kind": "tag",
+                "published_at": "2011-08-25T21:40:36.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.1.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.1.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.1\/manifests"
+            },
+            {
+                "name": "2.1.0",
+                "sha": "e3a862e5b7d63404b36e8e2280939526527b73a9",
+                "kind": "tag",
+                "published_at": "2011-07-04T21:26:44.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.1.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.0\/manifests"
+            },
+            {
+                "name": "2.1.0RC3",
+                "sha": "8169a530b0007e6d4c6a4785cca8320d742b94f6",
+                "kind": "tag",
+                "published_at": "2011-07-02T20:22:12.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.1.0RC3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.1.0RC3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.0RC3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.0RC3\/manifests"
+            },
+            {
+                "name": "2.1.0RC2",
+                "sha": "ab6889953bd3909c98e10a596627d3468cb8817e",
+                "kind": "tag",
+                "published_at": "2011-06-28T21:06:35.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.1.0RC2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.1.0RC2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.0RC2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.0RC2\/manifests"
+            },
+            {
+                "name": "2.1.0RC1",
+                "sha": "1abfdb1e3a172501097be130c45e5f019be74a7f",
+                "kind": "tag",
+                "published_at": "2011-06-18T21:51:56.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.1.0RC1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.1.0RC1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.0RC1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.0RC1\/manifests"
+            },
+            {
+                "name": "2.1.0-BETA1",
+                "sha": "e2088ef60a153334d7e46110112c31af85912d3b",
+                "kind": "tag",
+                "published_at": "2011-05-16T18:58:51.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.1.0-BETA1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.1.0-BETA1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.0-BETA1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.1.0-BETA1\/manifests"
+            },
+            {
+                "name": "2.0.2",
+                "sha": "d0fddda0d45374e88af061b3b4d1089369a6050e",
+                "kind": "tag",
+                "published_at": "2011-04-07T18:41:26.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.0.2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.0.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.2\/manifests"
+            },
+            {
+                "name": "2.0.1",
+                "sha": "8c145844cf894a6f71f31bd86462af003cfa7b0e",
+                "kind": "tag",
+                "published_at": "2011-01-30T15:38:13.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.0.1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.0.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.1\/manifests"
+            },
+            {
+                "name": "2.0.0",
+                "sha": "f19ff333811b05dd9156d69681d7ae4549690f27",
+                "kind": "tag",
+                "published_at": "2010-12-20T22:11:08.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.0.0",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0\/manifests"
+            },
+            {
+                "name": "2.0.0-RC2",
+                "sha": "a41fdd7c78c05a1d9f9be3c0db80385ae38f7a95",
+                "kind": "tag",
+                "published_at": "2010-11-16T21:43:58.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.0.0-RC2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.0.0-RC2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0-RC2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0-RC2\/manifests"
+            },
+            {
+                "name": "2.0.0-RC1",
+                "sha": "4c11ec8e77b4f1bdc9ecee2f906fd2e88314da1c",
+                "kind": "tag",
+                "published_at": "2010-09-01T17:20:11.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.0.0-RC1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.0.0-RC1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0-RC1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0-RC1\/manifests"
+            },
+            {
+                "name": "2.0.0-BETA4",
+                "sha": "745f7e12226fc831cd43e53af390c0f311afd55d",
+                "kind": "tag",
+                "published_at": "2010-08-02T21:33:12.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.0.0-BETA4",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.0.0-BETA4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0-BETA4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0-BETA4\/manifests"
+            },
+            {
+                "name": "2.0.0-BETA3",
+                "sha": "f3225504bd0e582791c2763bab6d7e806d7e72dc",
+                "kind": "tag",
+                "published_at": "2010-06-16T14:30:22.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.0.0-BETA3",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.0.0-BETA3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0-BETA3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0-BETA3\/manifests"
+            },
+            {
+                "name": "2.0.0-BETA2",
+                "sha": "c5e75e9ce0e8f6fcafbfb065c359bbab1d7e9401",
+                "kind": "tag",
+                "published_at": "2010-06-13T16:59:13.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.0.0-BETA2",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.0.0-BETA2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0-BETA2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0-BETA2\/manifests"
+            },
+            {
+                "name": "2.0.0-BETA1",
+                "sha": "35e00a5d7008dab50e716840f6f8abdf78211bce",
+                "kind": "tag",
+                "published_at": "2010-05-23T11:14:38.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.0.0-BETA1",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.0.0-BETA1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0-BETA1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0.0-BETA1\/manifests"
+            },
+            {
+                "name": "2.0-standalone-init",
+                "sha": "bd5d922aaf5e098b240dcc75a6d0326128cd3bc1",
+                "kind": "tag",
+                "published_at": "2010-05-20T23:22:15.000Z",
+                "download_url": "https:\/\/codeload.github.com\/doctrine\/common\/tar.gz\/2.0-standalone-init",
+                "html_url": "https:\/\/github.com\/doctrine\/common\/releases\/tag\/2.0-standalone-init",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0-standalone-init",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/doctrine%2Fcommon\/tags\/2.0-standalone-init\/manifests"
+            }
+        ]
+    },
+    "repo_metadata_updated_at": "2024-09-07T11:05:42.130Z",
+    "dependent_packages_count": 1536,
+    "downloads": 296351674,
+    "downloads_period": "total",
+    "dependent_repos_count": 106320,
+    "rankings": {
+        "downloads": 0.023713656376895563,
+        "dependent_repos_count": 0.031047776905832335,
+        "dependent_packages_count": 0.025913892535576598,
+        "stargazers_count": 0.06160661244306889,
+        "forks_count": 0.20022149043997392,
+        "docker_downloads_count": 0.09852168577205066,
+        "average": 0.07350418574556633
+    },
+    "purl": "pkg:composer\/doctrine\/common",
+    "advisories": [
+        {
+            "uuid": "GSA_kwCzR0hTQS1wdzVjLXhxZjItNnhjMs4AAdEh",
+            "url": "https:\/\/github.com\/advisories\/GHSA-pw5c-xqf2-6xc2",
+            "title": "Doctrine Security Misconfiguration Vulnerability",
+            "description": "Doctrine Annotations before 1.2.7, Cache before 1.3.2 and 1.4.x before 1.4.2, Common before 2.4.3 and 2.5.x before 2.5.1, ORM before 2.4.8 or 2.5.x before 2.5.1, MongoDB ODM before 1.0.2, and MongoDB ODM Bundle before 3.0.1 use world-writable permissions for cache directories, which allows local users to execute arbitrary PHP code with additional privileges by leveraging an application with the umask set to 0 and that executes cache entries as code.",
+            "origin": "UNSPECIFIED",
+            "severity": "HIGH",
+            "published_at": "2022-05-17T03:44:28.000Z",
+            "withdrawn_at": null,
+            "classification": "GENERAL",
+            "cvss_score": 7.8,
+            "cvss_vector": "CVSS:3.0\/AV:L\/AC:L\/PR:L\/UI:N\/S:U\/C:H\/I:H\/A:H",
+            "references": [
+                "https:\/\/nvd.nist.gov\/vuln\/detail\/CVE-2015-5723",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/2IUUC7HPN4XE5NNTG4MR76OC662XRZUO\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce@lists.fedoraproject.org\/message\/HPS7A54FQ2CR6PH4NDR6UIYJIRNFXW67\/",
+                "http:\/\/framework.zend.com\/security\/advisory\/ZF2015-07",
+                "http:\/\/www.debian.org\/security\/2015\/dsa-3369",
+                "http:\/\/www.doctrine-project.org\/2015\/08\/31\/security_misconfiguration_vulnerability_in_various_doctrine_projects.html",
+                "https:\/\/github.com\/aws\/aws-sdk-php\/releases\/tag\/3.2.1",
+                "https:\/\/framework.zend.com\/security\/advisory\/ZF2015-07",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/aws\/aws-sdk-php\/CVE-2015-5723.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/doctrine\/cache\/CVE-2015-5723.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/doctrine\/orm\/CVE-2015-5723.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/zendframework\/zend-cache\/CVE-2015-5723.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/zendframework\/zendframework\/CVE-2015-5723.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/zendframework\/zendframework1\/CVE-2015-5723.yaml",
+                "https:\/\/github.com\/FriendsOfPHP\/security-advisories\/blob\/master\/zfcampus\/zf-apigility-doctrine\/CVE-2015-5723.yaml",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/2IUUC7HPN4XE5NNTG4MR76OC662XRZUO\/",
+                "https:\/\/lists.fedoraproject.org\/archives\/list\/package-announce%40lists.fedoraproject.org\/message\/HPS7A54FQ2CR6PH4NDR6UIYJIRNFXW67\/",
+                "https:\/\/www.doctrine-project.org\/2015\/08\/31\/security_misconfiguration_vulnerability_in_various_doctrine_projects.html",
+                "https:\/\/github.com\/advisories\/GHSA-pw5c-xqf2-6xc2"
+            ],
+            "source_kind": "github",
+            "identifiers": [
+                "GHSA-pw5c-xqf2-6xc2",
+                "CVE-2015-5723"
+            ],
+            "repository_url": "https:\/\/github.com\/aws\/aws-sdk-php",
+            "blast_radius": 40.351216632149196,
+            "packages": [
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.0.3",
+                            "vulnerable_version_range": ">= 1.0.0, < 1.0.3"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "zfcampus\/zf-apigility-doctrine"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "2.4.8",
+                            "vulnerable_version_range": ">= 2.4.0, < 2.4.8"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "zendframework\/zendframework"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "2.4.8",
+                            "vulnerable_version_range": ">= 2.4.0, < 2.4.8"
+                        },
+                        {
+                            "first_patched_version": "2.5.3",
+                            "vulnerable_version_range": ">= 2.5.0, < 2.5.3"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "zendframework\/zend-cache"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.3.2",
+                            "vulnerable_version_range": ">= 1.0.0, < 1.3.2"
+                        },
+                        {
+                            "first_patched_version": "1.4.2",
+                            "vulnerable_version_range": ">= 1.4.0, < 1.4.2"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "doctrine\/cache"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.2.1",
+                            "vulnerable_version_range": ">= 3.0.0, < 3.2.1"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "aws\/aws-sdk-php"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.12.16",
+                            "vulnerable_version_range": ">= 1.12.0, < 1.12.16"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "zendframework\/zendframework1"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "3.0.1",
+                            "vulnerable_version_range": "< 3.0.1"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "doctrine\/mongodb-odm-bundle"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.0.2",
+                            "vulnerable_version_range": "< 1.0.2"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "doctrine\/mongodb-odm"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "2.5.1",
+                            "vulnerable_version_range": ">= 2.5.0, < 2.5.1"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "doctrine\/orm"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "2.5.1",
+                            "vulnerable_version_range": ">= 2.5.0-stable, < 2.5.1"
+                        },
+                        {
+                            "first_patched_version": "2.4.3",
+                            "vulnerable_version_range": "< 2.4.3"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "doctrine\/common"
+                },
+                {
+                    "versions": [
+                        {
+                            "first_patched_version": "1.2.7",
+                            "vulnerable_version_range": "< 1.2.7"
+                        }
+                    ],
+                    "ecosystem": "packagist",
+                    "package_name": "doctrine\/annotations"
+                }
+            ],
+            "created_at": "2023-10-19T20:06:03.281Z",
+            "updated_at": "2024-02-05T10:27:56.000Z"
+        }
+    ],
+    "docker_usage_url": "https:\/\/docker.ecosyste.ms\/usage\/packagist\/doctrine\/common",
+    "docker_dependents_count": 337,
+    "docker_downloads_count": 67036606,
+    "usage_url": "https:\/\/repos.ecosyste.ms\/usage\/packagist\/doctrine\/common",
+    "dependent_repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/usage\/packagist\/doctrine\/common\/dependencies",
+    "status": null,
+    "funding_links": [
+        "https:\/\/www.doctrine-project.org\/sponsorship.html",
+        "https:\/\/www.patreon.com\/phpdoctrine",
+        "https:\/\/tidelift.com\/funding\/github\/packagist\/doctrine%2Fcommon",
+        "https:\/\/patreon.com\/phpdoctrine",
+        "https:\/\/github.com\/sponsors\/doctrine"
+    ],
+    "critical": true,
+    "versions_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/doctrine%2Fcommon\/versions",
+    "version_numbers_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/doctrine%2Fcommon\/version_numbers",
+    "dependent_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/doctrine%2Fcommon\/dependent_packages",
+    "related_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/doctrine%2Fcommon\/related_packages",
+    "maintainers": [
+        {
+            "uuid": "beberlei",
+            "login": "beberlei",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 119,
+            "html_url": "https:\/\/packagist.org\/users\/beberlei",
+            "role": null,
+            "created_at": "2022-11-10T10:39:04.834Z",
+            "updated_at": "2022-11-10T10:39:04.834Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/beberlei\/packages"
+        }
+    ]
+}

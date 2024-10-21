@@ -1,0 +1,965 @@
+{
+  "id": 1654226,
+  "name": "ejs",
+  "ecosystem": "npm",
+  "description": "Embedded JavaScript templates",
+  "homepage": "https://github.com/mde/ejs",
+  "licenses": "Apache-2.0",
+  "normalized_licenses": [
+    "Apache-2.0"
+  ],
+  "repository_url": "https://github.com/mde/ejs",
+  "keywords_array": [
+    "template",
+    "engine",
+    "ejs"
+  ],
+  "namespace": null,
+  "versions_count": 75,
+  "first_release_published_at": "2011-02-14T21:15:53.948Z",
+  "latest_release_published_at": "2024-04-12T15:23:09.278Z",
+  "latest_release_number": "3.1.10",
+  "last_synced_at": "2024-10-21T12:35:20.925Z",
+  "created_at": "2022-04-09T13:36:23.871Z",
+  "updated_at": "2024-10-21T12:35:20.926Z",
+  "registry_url": "https://www.npmjs.com/package/ejs",
+  "install_command": "npm install ejs",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "3.1.10"
+    }
+  },
+  "repo_metadata": {
+    "id": 25246794,
+    "uuid": "28671602",
+    "full_name": "mde/ejs",
+    "owner": "mde",
+    "description": "Embedded JavaScript templates -- http://ejs.co",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2024-04-12T15:32:18.000Z",
+    "size": 6987,
+    "stargazers_count": 7553,
+    "open_issues_count": 109,
+    "forks_count": 795,
+    "subscribers_count": 127,
+    "default_branch": "main",
+    "last_synced_at": "2024-04-15T02:20:54.353Z",
+    "etag": null,
+    "topics": [],
+    "latest_commit_sha": null,
+    "homepage": "",
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "apache-2.0",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/mde.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": null,
+        "contributing": null,
+        "funding": null,
+        "license": "LICENSE",
+        "code_of_conduct": "CODE_OF_CONDUCT.md",
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": "SECURITY.md",
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null,
+        "publiccode": null,
+        "codemeta": null
+      }
+    },
+    "created_at": "2014-12-31T17:49:35.000Z",
+    "updated_at": "2024-04-27T14:43:51.352Z",
+    "dependencies_parsed_at": "2023-01-17T00:30:28.705Z",
+    "dependency_job_id": "4b849e84-ef35-4ad7-948c-f4701a5d386c",
+    "html_url": "https://github.com/mde/ejs",
+    "commit_stats": {
+      "total_commits": 2644,
+      "total_committers": 160,
+      "mean_commits": 16.525,
+      "dds": 0.596444780635401,
+      "last_synced_commit": "f47d7aedd51a983e4f73045f962b1209096b5800"
+    },
+    "previous_names": [],
+    "tags_count": 47,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/mde",
+    "download_url": "https://codeload.github.com/mde/ejs/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 216653725,
+      "owners_count": 16059890,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "mde",
+      "name": "Matthew Eernisse",
+      "uuid": "757",
+      "kind": "user",
+      "description": "Literal rock star developer. JavaScript, music, Japanese, and serial commas. Author and maintainer of EJS.",
+      "email": "",
+      "website": "http://fleegix.org",
+      "location": "San Francisco, California, USA",
+      "twitter": null,
+      "company": "Viable",
+      "icon_url": "https://avatars.githubusercontent.com/u/757?u=597d535991b1d896c81adb3ba921ac656c886f56&v=4",
+      "repositories_count": 46,
+      "last_synced_at": "2024-04-16T00:35:38.947Z",
+      "metadata": {
+        "has_sponsors_listing": false
+      },
+      "html_url": "https://github.com/mde",
+      "funding_links": [],
+      "total_stars": 8695,
+      "followers": 701,
+      "following": 10,
+      "created_at": "2022-11-02T16:20:56.204Z",
+      "updated_at": "2024-04-16T00:35:47.795Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/mde",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/mde/repositories"
+    },
+    "tags": [
+      {
+        "name": "v3.1.10",
+        "sha": "d3f807dea9ce904e20a47a661f2310ce9134dc2a",
+        "kind": "tag",
+        "published_at": "2024-04-12T15:23:02.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v3.1.10",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v3.1.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.10/manifests"
+      },
+      {
+        "name": "v3.1.9",
+        "sha": "aed012481d11ee9e8ca024314262b90de7c6d91e",
+        "kind": "tag",
+        "published_at": "2023-03-12T19:29:51.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v3.1.9",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v3.1.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.9/manifests"
+      },
+      {
+        "name": "v3.1.8",
+        "sha": "5126ff57aafbbd732ae00dd268d89cba85a5b71a",
+        "kind": "tag",
+        "published_at": "2022-05-11T18:55:14.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v3.1.8",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v3.1.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.8/manifests"
+      },
+      {
+        "name": "v3.1.7",
+        "sha": "820855ad75034e303be82c482c5eb8c6616da5c5",
+        "kind": "tag",
+        "published_at": "2022-04-20T16:41:16.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v3.1.7",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v3.1.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.7/manifests"
+      },
+      {
+        "name": "v3.1.6",
+        "sha": "80bf3d7dcc20dffa38686a58b4e0ba70d5cac8a1",
+        "kind": "tag",
+        "published_at": "2021-02-06T20:27:48.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v3.1.6",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v3.1.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.6/manifests"
+      },
+      {
+        "name": "v3.1.5",
+        "sha": "1f58d4b927182e5dd37f3629751d1679eebbf0d8",
+        "kind": "tag",
+        "published_at": "2020-08-17T16:00:37.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v3.1.5",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v3.1.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.5/manifests"
+      },
+      {
+        "name": "v3.1.3",
+        "sha": "661d848eadcd85117f655b5f8327f13ae2cc85da",
+        "kind": "tag",
+        "published_at": "2020-05-17T06:59:01.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v3.1.3",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v3.1.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.3/manifests"
+      },
+      {
+        "name": "v3.1.2",
+        "sha": "e731c208fcc2fec1b65393ef5571dd080fdadabe",
+        "kind": "tag",
+        "published_at": "2020-04-24T04:27:06.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v3.1.2",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v3.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.1.2/manifests"
+      },
+      {
+        "name": "v3.0.2",
+        "sha": "e7ae463db4be9a24d4320ac529bf4f0cf6077c5b",
+        "kind": "tag",
+        "published_at": "2020-03-29T18:40:17.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v3.0.2",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v3.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.0.2/manifests"
+      },
+      {
+        "name": "v3.0.1",
+        "sha": "8ed85896bf2c2d6bd7e26a3f1b25028d81530e05",
+        "kind": "tag",
+        "published_at": "2019-11-24T01:39:03.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v3.0.1",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v3.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v3.0.1/manifests"
+      },
+      {
+        "name": "v2.7.4",
+        "sha": "1fe67b49c97b619004f7b5d9584acbfb7b674daa",
+        "kind": "tag",
+        "published_at": "2019-11-19T19:15:16.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.7.4",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.7.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.7.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.7.4/manifests"
+      },
+      {
+        "name": "v2.7.3",
+        "sha": "5cd81afdc5b7ceadfaf439c3da8b490cfb28114f",
+        "kind": "tag",
+        "published_at": "2019-11-19T01:59:52.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.7.3",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.7.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.7.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.7.3/manifests"
+      },
+      {
+        "name": "v2.7.2",
+        "sha": "bd3f7c8b2da62e479407bfe82ae5094c85317bb0",
+        "kind": "tag",
+        "published_at": "2019-11-13T20:52:11.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.7.2",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.7.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.7.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.7.2/manifests"
+      },
+      {
+        "name": "v2.7.1",
+        "sha": "3de0adee1f70ad113cf3305e362e8fe4e41e3f7f",
+        "kind": "tag",
+        "published_at": "2019-09-02T19:31:11.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.7.1",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.7.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.7.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.7.1/manifests"
+      },
+      {
+        "name": "v2.6.2",
+        "sha": "63a508202578dde14c28b665ca3eee792449f2d5",
+        "kind": "tag",
+        "published_at": "2019-06-15T15:26:33.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.6.2",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.6.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.6.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.6.2/manifests"
+      },
+      {
+        "name": "v2.6.1",
+        "sha": "ef26a6d9f2cdd39d8a2855b3e6604da833d6dccd",
+        "kind": "tag",
+        "published_at": "2018-05-05T18:52:13.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.6.1",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.6.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.6.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.6.1/manifests"
+      },
+      {
+        "name": "v2.5.9",
+        "sha": "a7a0d4204be4a4bf9fd5740139d674617dcca61f",
+        "kind": "tag",
+        "published_at": "2018-04-19T03:13:28.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.5.9",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.5.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.9/manifests"
+      },
+      {
+        "name": "v2.5.8",
+        "sha": "b470b65141a695f42d2722919ce64d4543fedb4b",
+        "kind": "tag",
+        "published_at": "2018-03-26T00:17:15.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.5.8",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.5.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.8/manifests"
+      },
+      {
+        "name": "v2.5.7",
+        "sha": "67ca0a80a5a68277774c693204ce49ef11bb84b4",
+        "kind": "tag",
+        "published_at": "2017-07-30T03:29:59.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.5.7",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.5.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.7/manifests"
+      },
+      {
+        "name": "v2.5.6",
+        "sha": "153fe11fc7f9f321e1e5adc8a6f844c1d3f34429",
+        "kind": "tag",
+        "published_at": "2017-02-16T20:42:57.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.5.6",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.5.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.6/manifests"
+      },
+      {
+        "name": "v2.5.5",
+        "sha": "a63b9731c49c62358bb3f220839a64cd66652a40",
+        "kind": "tag",
+        "published_at": "2016-12-06T08:05:27.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.5.5",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.5.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.5/manifests"
+      },
+      {
+        "name": "v2.5.4",
+        "sha": "2aa2123daf233bd0930abe8074aed6221f62ddc5",
+        "kind": "tag",
+        "published_at": "2016-12-05T22:08:59.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.5.4",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.5.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.4/manifests"
+      },
+      {
+        "name": "v2.5.3",
+        "sha": "89f006525f018ee4bd62b3d7527c81196cd7bea6",
+        "kind": "tag",
+        "published_at": "2016-11-28T21:18:16.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.5.3",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.5.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.3/manifests"
+      },
+      {
+        "name": "v2.5.2",
+        "sha": "7de0036448d5282e782c09c400fe0374dd237562",
+        "kind": "tag",
+        "published_at": "2016-09-07T14:46:15.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.5.2",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.5.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.2/manifests"
+      },
+      {
+        "name": "v2.5.1",
+        "sha": "469913d8aac83e744ac9ca47cd7b7493928c1638",
+        "kind": "tag",
+        "published_at": "2016-07-25T17:13:51.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.5.1",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.5.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.5.1/manifests"
+      },
+      {
+        "name": "v2.4.2",
+        "sha": "3c6671f84eae581f0e4a761a16b7856bb5bb9ec1",
+        "kind": "tag",
+        "published_at": "2016-05-24T19:20:31.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.4.2",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.4.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.4.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.4.2/manifests"
+      },
+      {
+        "name": "v2.4.1",
+        "sha": "a70dd953992cf4c92cca48e50750d6cc4c7caaea",
+        "kind": "tag",
+        "published_at": "2016-01-24T05:07:19.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.4.1",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.4.1/manifests"
+      },
+      {
+        "name": "v2.3.4",
+        "sha": "dd208d6984d35dc8277a71db694408eeabaad9c7",
+        "kind": "tag",
+        "published_at": "2015-09-07T04:06:07.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.3.4",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.3.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.3.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.3.4/manifests"
+      },
+      {
+        "name": "v2.3.3",
+        "sha": "d87c739da83b1b13cf0445fee44ca763848a7412",
+        "kind": "tag",
+        "published_at": "2015-07-11T20:10:33.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.3.3",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.3.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.3.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.3.3/manifests"
+      },
+      {
+        "name": "v2.3.2",
+        "sha": "a4cc57a15b891288a29bcf69a22737037cc43590",
+        "kind": "tag",
+        "published_at": "2015-06-29T00:23:52.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.3.2",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.3.2/manifests"
+      },
+      {
+        "name": "v2.3.1",
+        "sha": "17ce07dc23f1aa3b8667d2c76017ed422fceb301",
+        "kind": "tag",
+        "published_at": "2015-02-23T01:25:47.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.3.1",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.3.1/manifests"
+      },
+      {
+        "name": "v2.2.4",
+        "sha": "a56d13f85c32ee41769e90632c528f20de507a7b",
+        "kind": "tag",
+        "published_at": "2015-02-01T18:28:35.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.2.4",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.2.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.2.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.2.4/manifests"
+      },
+      {
+        "name": "v2.2.3",
+        "sha": "fa06a6ae4a5c33b12723acc55282731b096e5ceb",
+        "kind": "tag",
+        "published_at": "2015-01-23T23:49:12.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.2.3",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.2.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.2.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.2.3/manifests"
+      },
+      {
+        "name": "v2.2.2",
+        "sha": "02407d52c9ddd26d9227fb4f971b7df04d0109e7",
+        "kind": "tag",
+        "published_at": "2015-01-21T22:24:23.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.2.2",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.2.2/manifests"
+      },
+      {
+        "name": "v2.2.1",
+        "sha": "8422af990c18be4078b7ed8a0543b064791a343e",
+        "kind": "tag",
+        "published_at": "2015-01-20T06:08:12.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.2.1",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.2.1/manifests"
+      },
+      {
+        "name": "v2.1.4",
+        "sha": "4b5e7fec9a823332b651bdacd03d1c727d1905ce",
+        "kind": "tag",
+        "published_at": "2015-01-12T19:06:16.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.1.4",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.1.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.1.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.1.4/manifests"
+      },
+      {
+        "name": "v2.1.3",
+        "sha": "7d38b57c7bd626f57fdc84ea4cec76ed834da10e",
+        "kind": "tag",
+        "published_at": "2015-01-12T03:08:15.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.1.3",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.1.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.1.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.1.3/manifests"
+      },
+      {
+        "name": "v2.1.2",
+        "sha": "098cdd806695c53d16461bf7203ab65cbea82ff2",
+        "kind": "tag",
+        "published_at": "2015-01-11T20:14:19.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.1.2",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.1.2/manifests"
+      },
+      {
+        "name": "v2.1.1",
+        "sha": "f9561e1b07e269aecc03e0b6c46d93fdebbcdcb4",
+        "kind": "tag",
+        "published_at": "2015-01-11T17:53:07.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.1.1",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.1.1/manifests"
+      },
+      {
+        "name": "v2.0.8",
+        "sha": "198da47ac7a7b19564807fce5953ae27fad42134",
+        "kind": "tag",
+        "published_at": "2015-01-06T21:01:24.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.0.8",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.0.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.8/manifests"
+      },
+      {
+        "name": "v2.0.7",
+        "sha": "3bc675eb9c02361c2c91da2b8be8963c61a07f5c",
+        "kind": "tag",
+        "published_at": "2015-01-05T20:49:59.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.0.7",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.7/manifests"
+      },
+      {
+        "name": "v2.0.6",
+        "sha": "c0d8b3c35689d25dfc62c4739c892e6ac681a516",
+        "kind": "tag",
+        "published_at": "2015-01-05T00:42:40.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.0.6",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.6/manifests"
+      },
+      {
+        "name": "v2.0.5",
+        "sha": "1b9f6c02a981abacdb716f37e104841a3e3f8aaa",
+        "kind": "tag",
+        "published_at": "2015-01-04T23:20:19.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.0.5",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.5/manifests"
+      },
+      {
+        "name": "v2.0.4",
+        "sha": "aed81d1dcc3a26df786a2d5dee9695cc48f18ea6",
+        "kind": "tag",
+        "published_at": "2015-01-04T23:17:11.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.0.4",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.4/manifests"
+      },
+      {
+        "name": "v2.0.3",
+        "sha": "496630850797ff7f45f9e9732ca7970bd4aa66fa",
+        "kind": "tag",
+        "published_at": "2015-01-04T18:48:15.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.0.3",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.3/manifests"
+      },
+      {
+        "name": "v2.0.2",
+        "sha": "3b557c47a6c47e05c68f6cc326c30fa10351261c",
+        "kind": "tag",
+        "published_at": "2015-01-04T07:03:12.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.0.2",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.2/manifests"
+      },
+      {
+        "name": "v2.0.1",
+        "sha": "c69e939d7400531f798fc26ac60092b4c6788bde",
+        "kind": "tag",
+        "published_at": "2015-01-04T07:02:18.000Z",
+        "download_url": "https://codeload.github.com/mde/ejs/tar.gz/v2.0.1",
+        "html_url": "https://github.com/mde/ejs/releases/tag/v2.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/mde%2Fejs/tags/v2.0.1/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-09-06T03:43:33.355Z",
+  "dependent_packages_count": 15041,
+  "downloads": 70732292,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 1532080,
+  "rankings": {
+    "downloads": 0.02811908253484631,
+    "dependent_repos_count": 0.023272853120369388,
+    "dependent_packages_count": 0.00670805766410647,
+    "stargazers_count": 1.1618903470776416,
+    "forks_count": 1.3799432909019025,
+    "docker_downloads_count": 0.03553901570616407,
+    "average": 0.4392454411675051
+  },
+  "purl": "pkg:npm/ejs",
+  "advisories": [
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWh3Y2YtcHA4Ny03eDZw",
+      "url": "https://github.com/advisories/GHSA-hwcf-pp87-7x6p",
+      "title": "mde ejs vulnerable to XSS",
+      "description": "nodejs ejs version older than 2.5.5 is vulnerable to a Cross-site-scripting in the `ejs.renderFile()` resulting in code injection",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2017-11-30T23:15:05.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2017-1000188",
+        "https://github.com/mde/ejs/commit/49264e0037e313a0a3e033450b5c184112516d8f",
+        "https://github.com/advisories/GHSA-hwcf-pp87-7x6p",
+        "https://web.archive.org/web/20200227134555/http://www.securityfocus.com/bid/101889"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-hwcf-pp87-7x6p",
+        "CVE-2017-1000188"
+      ],
+      "repository_url": "https://github.com/mde/ejs",
+      "blast_radius": 37.73021680393175,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.5.5",
+              "vulnerable_version_range": "< 2.5.5"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "ejs"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:37.647Z",
+      "updated_at": "2023-09-08T21:35:57.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1waHdxLWo5Nm0tMmMycc1A-A",
+      "url": "https://github.com/advisories/GHSA-phwq-j96m-2c2q",
+      "title": "ejs template injection vulnerability",
+      "description": "The ejs (aka Embedded JavaScript templates) package 3.1.6 for Node.js allows server-side template injection in settings[view options][outputFunctionName]. This is parsed as an internal option, and overwrites the outputFunctionName option with an arbitrary OS command (which is executed upon template compilation).",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-04-26T00:00:40.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-29078",
+        "https://eslam.io/posts/ejs-server-side-template-injection-rce/",
+        "https://github.com/mde/ejs/commit/15ee698583c98dadc456639d6245580d17a24baf",
+        "https://github.com/mde/ejs/releases",
+        "https://security.netapp.com/advisory/ntap-20220804-0001/",
+        "https://github.com/advisories/GHSA-phwq-j96m-2c2q"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-phwq-j96m-2c2q",
+        "CVE-2022-29078"
+      ],
+      "repository_url": "https://github.com/mde/ejs",
+      "blast_radius": 60.615758144021505,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.1.7",
+              "vulnerable_version_range": "< 3.1.7"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "ejs"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:29.692Z",
+      "updated_at": "2023-01-30T05:02:57.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1naHI1LWNoM3AtdmNyNs4AA7Xa",
+      "url": "https://github.com/advisories/GHSA-ghr5-ch3p-vcr6",
+      "title": "ejs lacks certain pollution protection",
+      "description": "The ejs (aka Embedded JavaScript templates) package before 3.1.10 for Node.js lacks certain pollution protection.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2024-04-28T18:30:31.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 4,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2024-33883",
+        "https://github.com/mde/ejs/commit/e469741dca7df2eb400199e1cdb74621e3f89aa5",
+        "https://github.com/mde/ejs/compare/v3.1.9...v3.1.10",
+        "https://security.netapp.com/advisory/ntap-20240605-0003",
+        "https://github.com/advisories/GHSA-ghr5-ch3p-vcr6"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-ghr5-ch3p-vcr6",
+        "CVE-2024-33883"
+      ],
+      "repository_url": "https://github.com/mde/ejs",
+      "blast_radius": 24.74112577307,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.1.10",
+              "vulnerable_version_range": "< 3.1.10"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "ejs"
+        }
+      ],
+      "created_at": "2024-05-01T09:05:16.331Z",
+      "updated_at": "2024-08-02T15:45:54.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTN3NXYtcDU0Yy1mNzR4",
+      "url": "https://github.com/advisories/GHSA-3w5v-p54c-f74x",
+      "title": "ejs is vulnerable to remote code execution due to weak input validation",
+      "description": "nodejs ejs versions older than 2.5.3 is vulnerable to remote code execution due to weak input validation in `ejs.renderFile()` function",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2017-11-30T23:15:19.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2017-1000228",
+        "https://github.com/advisories/GHSA-3w5v-p54c-f74x",
+        "https://snyk.io/vuln/npm:ejs:20161128",
+        "https://web.archive.org/web/20171123041219/http://www.securityfocus.com/bid/101897"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-3w5v-p54c-f74x",
+        "CVE-2017-1000228"
+      ],
+      "repository_url": null,
+      "blast_radius": 60.615758144021505,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.5.5",
+              "vulnerable_version_range": "< 2.5.3"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "ejs"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:37.628Z",
+      "updated_at": "2023-09-08T20:54:25.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTZ4NzctcnBxZi1qNm13",
+      "url": "https://github.com/advisories/GHSA-6x77-rpqf-j6mw",
+      "title": "ejs vulnerable to DoS due to weak input validation",
+      "description": "nodejs ejs version older than 2.5.5 is vulnerable to a denial-of-service due to weak input validation in `ejs.renderFile()`",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2018-03-05T18:54:33.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2017-1000189",
+        "https://github.com/mde/ejs/commit/49264e0037e313a0a3e033450b5c184112516d8f",
+        "https://github.com/advisories/GHSA-6x77-rpqf-j6mw",
+        "https://web.archive.org/web/20171123041449/http://www.securityfocus.com/bid/101893"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-6x77-rpqf-j6mw",
+        "CVE-2017-1000189"
+      ],
+      "repository_url": "https://github.com/mde/ejs",
+      "blast_radius": 46.38961082450625,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.5.5",
+              "vulnerable_version_range": "< 2.5.5"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "ejs"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:37.638Z",
+      "updated_at": "2023-09-08T21:00:30.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/ejs",
+  "docker_dependents_count": 15585,
+  "docker_downloads_count": 3334471449,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/ejs",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/ejs/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/ejs/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/ejs/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/ejs/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/ejs/related_packages",
+  "maintainers": [
+    {
+      "uuid": "mde",
+      "login": "mde",
+      "name": null,
+      "email": "mde@fleegix.org",
+      "url": null,
+      "packages_count": 20,
+      "html_url": "https://www.npmjs.com/~mde",
+      "role": null,
+      "created_at": "2022-11-10T11:30:06.646Z",
+      "updated_at": "2022-11-10T11:30:06.646Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/mde/packages"
+    }
+  ]
+}
