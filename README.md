@@ -27,6 +27,8 @@ This process ensures a thorough examination of your project's dependency timelin
 * This functionality can be integrated into SBOM tools like Syft and vulnerability scanning tools like Grype
 * CI/CD compatible tooling so these checks can be easily integrated into build pipelines
 * Exceptions database (e.g. some old/unmaintained software is "done" and doesn't pose any significant risk
+* Data support:
+  * Ecosyste.ms (https://packages.ecosyste.ms/)
 * Language support:
   * .NET (C#, F#, VB.NET) (NuGet)
   * C++ (Conan, Vcpkg)
@@ -61,4 +63,27 @@ This process ensures a thorough examination of your project's dependency timelin
   * VDI: VirtualBox’s native format, convertible to other formats.
   * VHD/VHDX: Microsoft’s formats, used in Hyper-V and Azure.
   * VMDK: VMware’s format, also used in other hypervisors like VirtualBox.
-  * Wasm Containers
+* Software scanning tools:
+  * Anchore Grype: https://github.com/anchore/grype
+  * Clair: https://github.com/quay/clair
+  * CycloneDX: https://github.com/CycloneDX/cyclonedx-cli
+  * FOSSA CLI: https://github.com/fossas/fossa-cli
+  * OWASP Dependency-Check: https://owasp.org/www-project-dependency-check/
+  * Safety: https://github.com/pyupio/safety
+  * ScanCode Toolkit: https://github.com/nexB/scancode-toolkit
+  * Snyk: https://snyk.io
+  * Trivy: https://github.com/aquasecurity/trivy
+  * VulnDB: https://github.com/vulndb/data
+* SBOM generation tools (possible integrations):
+  * BOM: https://github.com/kubernetes-sigs/bom
+  * CycloneDX Generator: https://github.com/CycloneDX/cdxgen
+  * DISTRO2SBOM: https://github.com/anthonyharrison/distro2sbom
+  * Jake: https://github.com/sonatype-nexus-community/jake
+  * Retire.js: https://github.com/RetireJS/retire.js
+  * SPDX SBOM Generator: https://github.com/opensbom-generator/spdx-sbom-generator
+  * Syft: https://github.com/anchore/syft
+  * Tern: https://github.com/tern-tools/tern
+  * The SBOM Tool: https://github.com/microsoft/sbom-tool
+  * rebar3_sbom: https://github.com/voltone/rebar3_sbom
+  * sbom-rs: https://github.com/psastras/sbom-rs
+  
