@@ -1,0 +1,2511 @@
+{
+  "id": 2852018,
+  "name": "pillow",
+  "ecosystem": "pypi",
+  "description": "Python Imaging Library (Fork)",
+  "homepage": "https://python-pillow.org",
+  "licenses": "MIT-CMU",
+  "normalized_licenses": [
+    "HPND"
+  ],
+  "repository_url": "https://github.com/python-pillow/Pillow",
+  "keywords_array": [
+    "Imaging"
+  ],
+  "namespace": null,
+  "versions_count": 99,
+  "first_release_published_at": "2010-07-31T06:23:55.000Z",
+  "latest_release_published_at": "2024-04-01T12:17:01.000Z",
+  "latest_release_number": "10.3.0",
+  "last_synced_at": "2024-10-21T00:36:34.095Z",
+  "created_at": "2022-04-10T12:03:02.657Z",
+  "updated_at": "2024-10-21T00:36:34.096Z",
+  "registry_url": "https://pypi.org/project/pillow/",
+  "install_command": "pip install pillow --index-url https://pypi.org/simple",
+  "documentation_url": "https://pillow.readthedocs.io",
+  "metadata": {
+    "funding": "https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+    "documentation": "https://pillow.readthedocs.io",
+    "classifiers": [
+      "Development Status :: 6 - Mature",
+      "License :: OSI Approved :: CMU License (MIT-CMU)",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.13",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Topic :: Multimedia :: Graphics",
+      "Topic :: Multimedia :: Graphics :: Capture :: Digital Camera",
+      "Topic :: Multimedia :: Graphics :: Capture :: Screen Capture",
+      "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+      "Topic :: Multimedia :: Graphics :: Viewers",
+      "Typing :: Typed"
+    ],
+    "normalized_name": "pillow"
+  },
+  "repo_metadata": {
+    "id": 4067385,
+    "uuid": "5171600",
+    "full_name": "python-pillow/Pillow",
+    "owner": "python-pillow",
+    "description": "Python Imaging Library (Fork)",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2024-08-14T08:47:21.000Z",
+    "size": 203421,
+    "stargazers_count": 12004,
+    "open_issues_count": 131,
+    "forks_count": 2206,
+    "subscribers_count": 220,
+    "default_branch": "main",
+    "last_synced_at": "2024-08-14T09:43:14.025Z",
+    "etag": null,
+    "topics": [
+      "c",
+      "cross-platform",
+      "image",
+      "image-processing",
+      "pil",
+      "pillow",
+      "python",
+      "python-3"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "https://python-pillow.org",
+    "language": "Python",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "other",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/python-pillow.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": "CHANGES.rst",
+        "contributing": ".github/CONTRIBUTING.md",
+        "funding": ".github/FUNDING.yml",
+        "license": "LICENSE",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": ".github/SECURITY.md",
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null,
+        "publiccode": null,
+        "codemeta": null
+      },
+      "funding": {
+        "tidelift": "pypi/pillow"
+      }
+    },
+    "created_at": "2012-07-24T21:38:39.000Z",
+    "updated_at": "2024-08-15T15:00:10.177Z",
+    "dependencies_parsed_at": "2024-01-17T21:59:46.512Z",
+    "dependency_job_id": "6e9152fe-1f34-4701-acf2-7ba67d7d828c",
+    "html_url": "https://github.com/python-pillow/Pillow",
+    "commit_stats": {
+      "total_commits": 12692,
+      "total_committers": 491,
+      "mean_commits": 25.84928716904277,
+      "dds": 0.6697132051686101,
+      "last_synced_commit": "a90a9d5ea5fce7257cb22f904b6f013ec53d7eb3"
+    },
+    "previous_names": [
+      "python-imaging/pillow"
+    ],
+    "tags_count": 90,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/python-pillow",
+    "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 215567807,
+      "owners_count": 15898533,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "python-pillow",
+      "name": "Pillow",
+      "uuid": "2036701",
+      "kind": "organization",
+      "description": "The friendly PIL fork (Python Imaging Library)",
+      "email": "aclark@python-pillow.org",
+      "website": "https://python-pillow.org",
+      "location": null,
+      "twitter": null,
+      "company": null,
+      "icon_url": "https://avatars.githubusercontent.com/u/2036701?v=4",
+      "repositories_count": 18,
+      "last_synced_at": "2024-04-16T15:09:59.077Z",
+      "metadata": {
+        "has_sponsors_listing": false
+      },
+      "html_url": "https://github.com/python-pillow",
+      "funding_links": [],
+      "total_stars": 11805,
+      "followers": 134,
+      "following": 0,
+      "created_at": "2022-11-02T16:23:18.204Z",
+      "updated_at": "2024-04-16T15:10:07.230Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/python-pillow",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/python-pillow/repositories"
+    },
+    "tags": [
+      {
+        "name": "10.4.0",
+        "sha": "9b4fae77178e827ab17118fbc89c739ffd6a0fab",
+        "kind": "commit",
+        "published_at": "2024-07-01T05:42:12.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/10.4.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/10.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/10.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/10.4.0/manifests"
+      },
+      {
+        "name": "10.3.0",
+        "sha": "5c89d88eee199ba53f64581ea39b6a1bc52feb1a",
+        "kind": "commit",
+        "published_at": "2024-04-01T09:22:36.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/10.3.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/10.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/10.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/10.3.0/manifests"
+      },
+      {
+        "name": "10.2.0",
+        "sha": "6956d0b2853f5c7ec5f6ec4c60725c5a7ee73aeb",
+        "kind": "commit",
+        "published_at": "2024-01-02T07:32:31.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/10.2.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/10.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/10.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/10.2.0/manifests"
+      },
+      {
+        "name": "10.1.0",
+        "sha": "da59ad000d1405eaecd557175e29083a87d19f7c",
+        "kind": "commit",
+        "published_at": "2023-10-15T08:59:17.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/10.1.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/10.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/10.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/10.1.0/manifests"
+      },
+      {
+        "name": "10.0.1",
+        "sha": "e34d346f10c0b1c814661e662a3e0c1ef084cf1c",
+        "kind": "commit",
+        "published_at": "2023-09-15T11:55:25.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/10.0.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/10.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/10.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/10.0.1/manifests"
+      },
+      {
+        "name": "10.0.0",
+        "sha": "6e28ed1f36d0eb74053af54e1eddc9c29db698cd",
+        "kind": "commit",
+        "published_at": "2023-07-01T12:08:11.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/10.0.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/10.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/10.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/10.0.0/manifests"
+      },
+      {
+        "name": "9.5.0",
+        "sha": "204590600c6a8c5246d0564d3312abd6e6b0ed70",
+        "kind": "commit",
+        "published_at": "2023-04-01T07:49:41.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/9.5.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/9.5.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.5.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.5.0/manifests"
+      },
+      {
+        "name": "9.4.0",
+        "sha": "a5bbab1c1e63b439de191ef2040173713b26d2da",
+        "kind": "commit",
+        "published_at": "2023-01-01T23:29:07.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/9.4.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/9.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.4.0/manifests"
+      },
+      {
+        "name": "9.3.0",
+        "sha": "d594f4cb8dc47fb0c69ae58d9fff86faae4515bd",
+        "kind": "commit",
+        "published_at": "2022-10-29T12:25:53.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/9.3.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/9.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.3.0/manifests"
+      },
+      {
+        "name": "9.2.0",
+        "sha": "58acec3312fb8671c9d84829197e1c8150085589",
+        "kind": "commit",
+        "published_at": "2022-07-01T13:19:51.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/9.2.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/9.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.2.0/manifests"
+      },
+      {
+        "name": "9.1.1",
+        "sha": "0f44136e720cd3b2db72bdf29614897b7aa3e868",
+        "kind": "commit",
+        "published_at": "2022-05-17T10:33:52.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/9.1.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/9.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.1.1/manifests"
+      },
+      {
+        "name": "9.1.0",
+        "sha": "5d070222d21138d2ead002fd33fdf5adcb708941",
+        "kind": "commit",
+        "published_at": "2022-04-01T07:48:32.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/9.1.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/9.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.1.0/manifests"
+      },
+      {
+        "name": "9.0.1",
+        "sha": "6deac9e3a23caffbfdd75c00d3f0a1cd36cdbd5d",
+        "kind": "commit",
+        "published_at": "2022-02-02T23:45:27.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/9.0.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/9.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.0.1/manifests"
+      },
+      {
+        "name": "9.0.0",
+        "sha": "82541b6dec8452cb612067fcebba1c5a1a2bfdc8",
+        "kind": "commit",
+        "published_at": "2022-01-02T09:51:23.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/9.0.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/9.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/9.0.0/manifests"
+      },
+      {
+        "name": "8.4.0",
+        "sha": "40e7ff622669550733b26f14dc817fb72e096250",
+        "kind": "commit",
+        "published_at": "2021-10-15T06:27:22.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/8.4.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/8.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.4.0/manifests"
+      },
+      {
+        "name": "8.3.2",
+        "sha": "8013f130a5077b238a4346b73e149432b180a8ea",
+        "kind": "commit",
+        "published_at": "2021-09-02T12:13:00.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/8.3.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/8.3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.3.2/manifests"
+      },
+      {
+        "name": "8.3.1",
+        "sha": "92933b86574b9c80764bf52c357ed29e1ef53382",
+        "kind": "commit",
+        "published_at": "2021-07-06T14:05:28.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/8.3.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/8.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.3.1/manifests"
+      },
+      {
+        "name": "8.3.0",
+        "sha": "51591a80a4e14543ea8cbe93026db5e79354b8c4",
+        "kind": "commit",
+        "published_at": "2021-07-01T03:53:49.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/8.3.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/8.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.3.0/manifests"
+      },
+      {
+        "name": "8.2.0",
+        "sha": "e0e353c0ef7516979a9aedce3792596649ce4433",
+        "kind": "commit",
+        "published_at": "2021-04-01T17:58:27.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/8.2.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/8.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.2.0/manifests"
+      },
+      {
+        "name": "8.1.2",
+        "sha": "88bd672dafad68b419ea29bef941dfa17f941038",
+        "kind": "commit",
+        "published_at": "2021-03-06T02:38:55.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/8.1.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/8.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.1.2/manifests"
+      },
+      {
+        "name": "8.1.1",
+        "sha": "741d8744a54bedbc49f16922c61a06fcb3681f53",
+        "kind": "commit",
+        "published_at": "2021-03-01T08:24:03.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/8.1.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/8.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.1.1/manifests"
+      },
+      {
+        "name": "8.1.0",
+        "sha": "fcc42e0d344146ee9d265d1f43c094ce5a0ec4cf",
+        "kind": "commit",
+        "published_at": "2021-01-02T11:39:02.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/8.1.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/8.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.1.0/manifests"
+      },
+      {
+        "name": "8.0.1",
+        "sha": "d209b7cab2866cbf381cbfc193f57de91a403757",
+        "kind": "commit",
+        "published_at": "2020-10-22T15:05:53.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/8.0.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/8.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.0.1/manifests"
+      },
+      {
+        "name": "8.0.0",
+        "sha": "235a7d6d7deab9555dc2c1b42fdf11243f6080e8",
+        "kind": "commit",
+        "published_at": "2020-10-14T16:02:53.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/8.0.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/8.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/8.0.0/manifests"
+      },
+      {
+        "name": "7.2.0",
+        "sha": "2bd74943fb9f320def6c066e732b701d1c15f677",
+        "kind": "commit",
+        "published_at": "2020-06-30T07:50:35.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/7.2.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/7.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/7.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/7.2.0/manifests"
+      },
+      {
+        "name": "7.1.2",
+        "sha": "4f6145655b6fa35ec8dd3600041418087e399758",
+        "kind": "commit",
+        "published_at": "2020-04-25T05:47:14.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/7.1.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/7.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/7.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/7.1.2/manifests"
+      },
+      {
+        "name": "7.1.1",
+        "sha": "ed40d04ac4dc71518a1fcbb916d0d323ef70fbc5",
+        "kind": "commit",
+        "published_at": "2020-04-02T12:41:33.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/7.1.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/7.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/7.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/7.1.1/manifests"
+      },
+      {
+        "name": "7.1.0",
+        "sha": "f0fe60ae9f930faeda2f0c22f602bed1f8a0f1c7",
+        "kind": "commit",
+        "published_at": "2020-04-01T10:12:46.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/7.1.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/7.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/7.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/7.1.0/manifests"
+      },
+      {
+        "name": "7.0.0",
+        "sha": "1cecf08d16509c20473766b4cdb7a65169844819",
+        "kind": "commit",
+        "published_at": "2020-01-02T05:19:26.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/7.0.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/7.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/7.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/7.0.0/manifests"
+      },
+      {
+        "name": "6.2.2",
+        "sha": "a45c8583ff90312a2fddc38567ed736cef4af563",
+        "kind": "commit",
+        "published_at": "2020-01-02T05:18:32.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/6.2.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/6.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/6.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/6.2.2/manifests"
+      },
+      {
+        "name": "6.2.1",
+        "sha": "6e0f07bbe38def22d36ee176b2efd9ea74b453a6",
+        "kind": "commit",
+        "published_at": "2019-10-21T06:05:44.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/6.2.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/6.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/6.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/6.2.1/manifests"
+      },
+      {
+        "name": "6.2.0",
+        "sha": "8a30d135378dc6a1c3c08fa4bb9fbc15370feedf",
+        "kind": "commit",
+        "published_at": "2019-10-01T09:24:57.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/6.2.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/6.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/6.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/6.2.0/manifests"
+      },
+      {
+        "name": "6.1.0",
+        "sha": "aaca672173413883fbcefd659f04d74fe44fb5d5",
+        "kind": "commit",
+        "published_at": "2019-07-02T19:10:33.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/6.1.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/6.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/6.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/6.1.0/manifests"
+      },
+      {
+        "name": "6.0.0",
+        "sha": "4f3b44960f103bc201a742332dbf9a77de1eaa87",
+        "kind": "commit",
+        "published_at": "2019-04-01T22:25:27.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/6.0.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/6.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/6.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/6.0.0/manifests"
+      },
+      {
+        "name": "5.4.1",
+        "sha": "f38f01bbe3a0a9f49ce592c86ff20c01c9655133",
+        "kind": "commit",
+        "published_at": "2019-01-06T12:12:16.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/5.4.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/5.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/5.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/5.4.1/manifests"
+      },
+      {
+        "name": "5.4.0",
+        "sha": "d2d438794cdd80bdbc852c884f0473c86fb72ab3",
+        "kind": "commit",
+        "published_at": "2019-01-01T10:56:08.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/5.4.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/5.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/5.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/5.4.0/manifests"
+      },
+      {
+        "name": "5.3.0",
+        "sha": "0ac14725ef4444fdb2871a54bcc95fcd6b8807b3",
+        "kind": "commit",
+        "published_at": "2018-10-01T05:48:10.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/5.3.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/5.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/5.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/5.3.0/manifests"
+      },
+      {
+        "name": "5.2.0",
+        "sha": "c28bf86b7e752a9257a0d4451ca878c1385db15c",
+        "kind": "commit",
+        "published_at": "2018-07-01T19:40:29.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/5.2.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/5.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/5.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/5.2.0/manifests"
+      },
+      {
+        "name": "5.1.0",
+        "sha": "fda33d5c09142c4bb0e99964919d01c2cc5f5995",
+        "kind": "commit",
+        "published_at": "2018-04-02T18:40:12.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/5.1.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/5.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/5.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/5.1.0/manifests"
+      },
+      {
+        "name": "5.0.0",
+        "sha": "e5bd7eb6235cc24b9c8d3e7ce51ed48a780c7c70",
+        "kind": "commit",
+        "published_at": "2018-01-01T15:03:06.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/5.0.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/5.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/5.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/5.0.0/manifests"
+      },
+      {
+        "name": "4.3.0",
+        "sha": "636dc62f0e8f9b233f1f2b287292b45325df135d",
+        "kind": "commit",
+        "published_at": "2017-10-02T12:23:50.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/4.3.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/4.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.3.0/manifests"
+      },
+      {
+        "name": "4.2.1",
+        "sha": "bbde1fe6826f642d2a5967edb6c9816f8d82b8e9",
+        "kind": "commit",
+        "published_at": "2017-07-06T14:28:19.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/4.2.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/4.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.2.1/manifests"
+      },
+      {
+        "name": "4.2.0",
+        "sha": "acb19d8e45699bf961604e48b28002b099250ddd",
+        "kind": "commit",
+        "published_at": "2017-07-01T12:46:24.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/4.2.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/4.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.2.0/manifests"
+      },
+      {
+        "name": "4.1.1",
+        "sha": "2b4486a588bfa2bbf9ecc8dae51282d81fa5d668",
+        "kind": "commit",
+        "published_at": "2017-04-28T15:42:26.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/4.1.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/4.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.1.1/manifests"
+      },
+      {
+        "name": "4.1.0",
+        "sha": "38eff7400426de4b1a0b0d3e88c552d695c89252",
+        "kind": "commit",
+        "published_at": "2017-04-04T18:10:22.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/4.1.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/4.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.1.0/manifests"
+      },
+      {
+        "name": "4.0.0a",
+        "sha": "3f6db91ccc917e803227d245e38871169f08350f",
+        "kind": "commit",
+        "published_at": "2017-01-02T11:45:39.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/4.0.0a",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/4.0.0a",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.0.0a",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.0.0a/manifests"
+      },
+      {
+        "name": "4.0.0",
+        "sha": "a021d4978dd96371557f21c7b68feff2056a6e9b",
+        "kind": "commit",
+        "published_at": "2017-01-01T20:20:06.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/4.0.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/4.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/4.0.0/manifests"
+      },
+      {
+        "name": "3.4.2",
+        "sha": "1161d2054899ba2d9955870ad425553e7f0884ac",
+        "kind": "commit",
+        "published_at": "2016-10-17T08:35:19.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.4.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.4.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.4.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.4.2/manifests"
+      },
+      {
+        "name": "3.4.1",
+        "sha": "2e1a3c29aa3f8191d56cc7d91e9b220fab2a8cb8",
+        "kind": "commit",
+        "published_at": "2016-10-04T14:11:00.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.4.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.4.1/manifests"
+      },
+      {
+        "name": "3.3.3",
+        "sha": "b28c176817d340b2fa1bf9741a33f4dc3da4d382",
+        "kind": "commit",
+        "published_at": "2016-10-04T14:07:02.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.3.3",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.3.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.3.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.3.3/manifests"
+      },
+      {
+        "name": "3.4.0",
+        "sha": "ac5a212cee478f7f1448080d47c2c9daa29e297f",
+        "kind": "commit",
+        "published_at": "2016-10-03T15:00:29.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.4.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.4.0/manifests"
+      },
+      {
+        "name": "3.3.2",
+        "sha": "9cf752a6979606cf2ce325174c7c129380fb313f",
+        "kind": "commit",
+        "published_at": "2016-09-30T13:55:22.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.3.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.3.2/manifests"
+      },
+      {
+        "name": "3.3.1",
+        "sha": "aab33141f381d5577cdef9033b7fdff79122a10c",
+        "kind": "commit",
+        "published_at": "2016-08-17T20:35:58.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.3.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.3.1/manifests"
+      },
+      {
+        "name": "3.3.0",
+        "sha": "4f4c98222914353470336ab7288c1f1876b4b2b7",
+        "kind": "commit",
+        "published_at": "2016-07-01T12:57:19.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.3.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.3.0/manifests"
+      },
+      {
+        "name": "3.1.2",
+        "sha": "acf1c8559b720ec29f2438d7fb652e0dcf6cb0fb",
+        "kind": "commit",
+        "published_at": "2016-04-01T12:27:31.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.1.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.1.2/manifests"
+      },
+      {
+        "name": "3.2.0",
+        "sha": "344cb709ed0111adcc6ad47cc007507c3f5efeb3",
+        "kind": "commit",
+        "published_at": "2016-04-01T12:17:23.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.2.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.2.0/manifests"
+      },
+      {
+        "name": "3.1.1",
+        "sha": "eb72bf86fb867841f8a9e192e43e511bf4618709",
+        "kind": "commit",
+        "published_at": "2016-02-04T16:17:58.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.1.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.1.1/manifests"
+      },
+      {
+        "name": "3.1.0",
+        "sha": "fff5536b37c2d619c66c1189b6925fa0a8df3822",
+        "kind": "commit",
+        "published_at": "2016-01-04T10:04:23.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.1.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.1.0/manifests"
+      },
+      {
+        "name": "3.1.0-rc1",
+        "sha": "0f9f5cd8db3365dca23b1b2490dbccf819a07b5c",
+        "kind": "commit",
+        "published_at": "2016-01-01T16:00:32.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.1.0-rc1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.1.0-rc1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.1.0-rc1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.1.0-rc1/manifests"
+      },
+      {
+        "name": "3.0.0",
+        "sha": "0177cceac4adfd0020ecbf49fb44ad275dcc1f51",
+        "kind": "commit",
+        "published_at": "2015-10-01T20:39:00.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/3.0.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/3.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/3.0.0/manifests"
+      },
+      {
+        "name": "2.9.0",
+        "sha": "80672b61e8596c7d6dab7b4ef3ef1e4783902f51",
+        "kind": "commit",
+        "published_at": "2015-07-01T18:33:56.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.9.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.9.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.9.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.9.0/manifests"
+      },
+      {
+        "name": "2.9.0.dev2",
+        "sha": "445a8c06fce647249e6a832f595fcdfff1743ad0",
+        "kind": "commit",
+        "published_at": "2015-06-30T12:04:35.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.9.0.dev2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.9.0.dev2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.9.0.dev2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.9.0.dev2/manifests"
+      },
+      {
+        "name": "2.9.0.dev1",
+        "sha": "96944e2dd664efb98e25d0e86671420af26fda40",
+        "kind": "commit",
+        "published_at": "2015-06-29T12:57:55.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.9.0.dev1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.9.0.dev1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.9.0.dev1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.9.0.dev1/manifests"
+      },
+      {
+        "name": "2.9.0.dev0",
+        "sha": "efe925c26f4fb78613b5ed98d488f71a723d03e8",
+        "kind": "commit",
+        "published_at": "2015-06-28T19:07:01.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.9.0.dev0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.9.0.dev0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.9.0.dev0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.9.0.dev0/manifests"
+      },
+      {
+        "name": "2.8.2",
+        "sha": "0222a059d62723fe056daa17f007f87dc46595b4",
+        "kind": "commit",
+        "published_at": "2015-06-06T23:52:13.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.8.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.8.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.8.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.8.2/manifests"
+      },
+      {
+        "name": "2.8.1",
+        "sha": "3f09b8f1715b018e8249337f1432070301c61e18",
+        "kind": "commit",
+        "published_at": "2015-04-02T14:59:03.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.8.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.8.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.8.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.8.1/manifests"
+      },
+      {
+        "name": "2.8.0",
+        "sha": "d754598f146f868e8cd7d247b3af6cf3f3c8d510",
+        "kind": "commit",
+        "published_at": "2015-04-01T19:39:41.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.8.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.8.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.8.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.8.0/manifests"
+      },
+      {
+        "name": "2.7.0",
+        "sha": "0f05eb287a223ce106848cd048cfcb45e9faa565",
+        "kind": "commit",
+        "published_at": "2015-01-01T04:42:57.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.7.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.7.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.7.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.7.0/manifests"
+      },
+      {
+        "name": "2.6.2",
+        "sha": "9f0ec3b0d7637e04fa735d7dfb94464301b02c1e",
+        "kind": "commit",
+        "published_at": "2015-01-01T04:11:39.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.6.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.6.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.6.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.6.2/manifests"
+      },
+      {
+        "name": "2.6.1",
+        "sha": "4a8471dea18f6196161e4444ce5625f46cecd1e1",
+        "kind": "commit",
+        "published_at": "2014-10-13T17:13:17.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.6.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.6.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.6.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.6.1/manifests"
+      },
+      {
+        "name": "2.6.0",
+        "sha": "9634e437efeeda906ad6bfcc275b17732d64f32a",
+        "kind": "commit",
+        "published_at": "2014-10-01T16:59:00.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.6.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.6.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.6.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.6.0/manifests"
+      },
+      {
+        "name": "2.6.0-rc1",
+        "sha": "81ebc21abfdd9d152f05d8516b17efba26e4d5b7",
+        "kind": "commit",
+        "published_at": "2014-09-29T20:14:49.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.6.0-rc1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.6.0-rc1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.6.0-rc1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.6.0-rc1/manifests"
+      },
+      {
+        "name": "2.5.3",
+        "sha": "68c6904c280ad872620cc8d904e6d4e6ecc5b6f9",
+        "kind": "commit",
+        "published_at": "2014-08-14T22:38:52.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.5.3",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.5.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.5.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.5.3/manifests"
+      },
+      {
+        "name": "2.3.2",
+        "sha": "30529a02793354453971e874be0e78d554d770d9",
+        "kind": "commit",
+        "published_at": "2014-08-12T18:48:14.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.3.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.3.2/manifests"
+      },
+      {
+        "name": "2.5.2",
+        "sha": "4081f9f6a504c9d3b83237fafdecf2be042976a8",
+        "kind": "commit",
+        "published_at": "2014-08-12T18:44:56.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.5.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.5.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.5.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.5.2/manifests"
+      },
+      {
+        "name": "2.5.1",
+        "sha": "1ab78b8fb7e1f7078dd110bc8d9fba3cc0006e51",
+        "kind": "commit",
+        "published_at": "2014-07-10T21:54:59.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.5.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.5.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.5.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.5.1/manifests"
+      },
+      {
+        "name": "2.5.0",
+        "sha": "80d6137c860b9322572ee1390514df1975acb2e7",
+        "kind": "commit",
+        "published_at": "2014-07-01T22:39:40.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.5.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.5.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.5.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.5.0/manifests"
+      },
+      {
+        "name": "2.4.0",
+        "sha": "72de37caada5d9ff7c657ce5f4ad6f8a6a3870f0",
+        "kind": "commit",
+        "published_at": "2014-04-01T22:31:55.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.4.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.4.0/manifests"
+      },
+      {
+        "name": "2.3.1",
+        "sha": "b8d4895bd5c41fce88a8ad436672bd8033414797",
+        "kind": "commit",
+        "published_at": "2014-03-14T23:44:59.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.3.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.3.1/manifests"
+      },
+      {
+        "name": "2.3.0",
+        "sha": "b1b88cf4d255c4b9faf1dae05faaa78091268cb1",
+        "kind": "commit",
+        "published_at": "2014-01-01T21:10:13.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.3.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.3.0/manifests"
+      },
+      {
+        "name": "2.2.2",
+        "sha": "72e54e1c53478a173b7e51b5703348453d5a19d4",
+        "kind": "commit",
+        "published_at": "2013-12-11T23:05:54.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.2.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.2.2/manifests"
+      },
+      {
+        "name": "2.2.1",
+        "sha": "3c2496e117f4d045a99d7e376133e67b47217ce2",
+        "kind": "commit",
+        "published_at": "2013-10-02T17:07:32.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.2.1",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.2.1/manifests"
+      },
+      {
+        "name": "2.2.0",
+        "sha": "9b0bc48d26b021ba40bbf1aaf6291ef664f9d083",
+        "kind": "commit",
+        "published_at": "2013-10-02T11:18:39.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.2.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.2.0/manifests"
+      },
+      {
+        "name": "2.1.0",
+        "sha": "75af7e00db304ed34557c856c609d10ecf44d49c",
+        "kind": "commit",
+        "published_at": "2013-07-02T12:52:49.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.1.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.1.0/manifests"
+      },
+      {
+        "name": "2.0.0",
+        "sha": "baea361b9a29e9a1dfa5a9b8e11bc9624a9cee46",
+        "kind": "commit",
+        "published_at": "2013-03-15T12:59:50.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/2.0.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/2.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/2.0.0/manifests"
+      },
+      {
+        "name": "1.7.8",
+        "sha": "4a10a363e4a220149f7efbf109ac5bf0d1d85b35",
+        "kind": "commit",
+        "published_at": "2012-11-01T21:09:46.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/1.7.8",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/1.7.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/1.7.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/1.7.8/manifests"
+      },
+      {
+        "name": "1.7.7",
+        "sha": "aaac591549807d183ec8855e5f86bd4584411a87",
+        "kind": "commit",
+        "published_at": "2012-04-05T01:15:07.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/1.7.7",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/1.7.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/1.7.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/1.7.7/manifests"
+      },
+      {
+        "name": "1.7.6",
+        "sha": "3af55ff06f74711112c0c5b05a9ef1cd3eb58b7d",
+        "kind": "tag",
+        "published_at": "2012-01-21T00:58:59.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/1.7.6",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/1.7.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/1.7.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/1.7.6/manifests"
+      },
+      {
+        "name": "1.2",
+        "sha": "fb47c498ef1bed2fd5e8bf5c84427bd7ab410da5",
+        "kind": "tag",
+        "published_at": "2010-08-02T15:44:30.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/1.2",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/1.2/manifests"
+      },
+      {
+        "name": "1.0",
+        "sha": "b1030062ea8106abb34c97b83ab16149d33fb98f",
+        "kind": "tag",
+        "published_at": "2010-07-31T03:26:26.000Z",
+        "download_url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/1.0",
+        "html_url": "https://github.com/python-pillow/Pillow/releases/tag/1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/python-pillow%2FPillow/tags/1.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-09-08T01:58:44.214Z",
+  "dependent_packages_count": 4378,
+  "downloads": 127347497,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 88899,
+  "rankings": {
+    "downloads": 0.01265574359830303,
+    "dependent_repos_count": 0.013205993319968377,
+    "dependent_packages_count": 0.005685913790541941,
+    "stargazers_count": 0.43964952761061393,
+    "forks_count": 0.576294875157509,
+    "docker_downloads_count": 0.08198720852813703,
+    "average": 0.18824654366751223
+  },
+  "purl": "pkg:pypi/pillow",
+  "advisories": [
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTh4anEtOGZjZy1nNWh3",
+      "url": "https://github.com/advisories/GHSA-8xjq-8fcg-g5hw",
+      "title": "Out-of-bounds Write in Pillow",
+      "description": "An issue was discovered in Pillow before 8.1.1. In TiffDecode.c, there is a negative-offset memcpy with an invalid size.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2021-03-29T16:35:36.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-25290",
+        "https://github.com/python-pillow/Pillow/commit/86f02f7c70862a0954bfe8133736d352db978eaa",
+        "https://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html",
+        "https://security.gentoo.org/glsa/202107-33",
+        "https://lists.debian.org/debian-lts-announce/2021/07/msg00018.html",
+        "https://github.com/python-pillow/Pillow/commit/e25be1e33dc526bfd1094bc778a54d8e29bf66c9",
+        "https://github.com/advisories/GHSA-8xjq-8fcg-g5hw",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2021-36.yaml"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-8xjq-8fcg-g5hw",
+        "CVE-2021-25290"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 37.116726568053494,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "8.1.1",
+              "vulnerable_version_range": ">= 0, < 8.1.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:10.138Z",
+      "updated_at": "2024-10-08T13:11:58.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1qNmY3LWc0MjUtNGdteM4AAU-u",
+      "url": "https://github.com/advisories/GHSA-j6f7-g425-4gmx",
+      "title": "Pillow is vulnerable to Denial of Service (DOS) in the Jpeg2KImagePlugin",
+      "description": "The Jpeg2KImagePlugin plugin in Pillow before 2.5.3 allows remote attackers to cause a denial of service via a crafted image.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-14T02:05:20.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2014-3598",
+        "https://pypi.python.org/pypi/Pillow/2.5.3",
+        "http://lists.opensuse.org/opensuse-updates/2015-04/msg00056.html",
+        "https://github.com/python-pillow/Pillow/commit/347a1d8d956f9e64af4463ee25311b60cdd5657d",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2015-15.yaml",
+        "https://github.com/advisories/GHSA-j6f7-g425-4gmx"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-j6f7-g425-4gmx",
+        "CVE-2014-3598"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 37.116726568053494,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.5.3",
+              "vulnerable_version_range": "< 2.5.3"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2024-04-29T12:05:36.369Z",
+      "updated_at": "2024-10-09T20:48:47.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS01NnB3LW1wajQtZnh3d84AA2QC",
+      "url": "https://github.com/advisories/GHSA-56pw-mpj4-fxww",
+      "title": "Bundled libwebp in Pillow vulnerable",
+      "description": "Pillow versions before v10.0.1 bundled libwebp binaries in wheels that are vulnerable to CVE-2023-5129 (previously CVE-2023-4863). Pillow v10.0.1 upgrades the bundled libwebp binary to v1.3.2.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2023-10-05T00:06:58.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0.0,
+      "cvss_vector": null,
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2023-4863",
+        "https://nvd.nist.gov/vuln/detail/CVE-2023-5129",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2023-175.yaml",
+        "https://github.com/python-pillow/Pillow/blob/main/CHANGES.rst#1001-2023-09-15",
+        "https://github.com/advisories/GHSA-56pw-mpj4-fxww"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-56pw-mpj4-fxww"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "10.0.1",
+              "vulnerable_version_range": "< 10.0.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2023-10-05T01:05:51.504Z",
+      "updated_at": "2023-10-05T00:06:58.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWhnZ3gtM2g3Mi00OXd3",
+      "url": "https://github.com/advisories/GHSA-hggx-3h72-49ww",
+      "title": "Pillow Buffer overflow in ImagingLibTiffDecode",
+      "description": "Buffer overflow in the `ImagingLibTiffDecode` function in `libImaging/TiffDecode.c` in Pillow before 3.1.1 allows remote attackers to overwrite memory via a crafted TIFF file.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2018-07-24T20:03:51.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2016-0740",
+        "https://github.com/python-pillow/Pillow/commit/6dcbf5bd96b717c58d7b642949da8d323099928e",
+        "https://github.com/advisories/GHSA-hggx-3h72-49ww",
+        "https://github.com/python-pillow/Pillow/blob/c3cb690fed5d4bf0c45576759de55d054916c165/CHANGES.rst",
+        "https://security.gentoo.org/glsa/201612-52",
+        "http://www.debian.org/security/2016/dsa-3499",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2016-5.yaml"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-hggx-3h72-49ww",
+        "CVE-2016-0740"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 32.167829692313035,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.1.1",
+              "vulnerable_version_range": ">= 0, < 3.1.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:37.120Z",
+      "updated_at": "2024-10-09T19:42:55.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS00NHdtLWYyNDQteGhwM84AA6j6",
+      "url": "https://github.com/advisories/GHSA-44wm-f244-xhp3",
+      "title": "Pillow buffer overflow vulnerability",
+      "description": "In _imagingcms.c in Pillow before 10.3.0, a buffer overflow exists because strcpy is used instead of strncpy.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2024-04-03T03:30:30.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.7,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2024-28219",
+        "https://pillow.readthedocs.io/en/stable/releasenotes/10.3.0.html#security",
+        "https://github.com/python-pillow/Pillow/commit/2a93aba5cfcf6e241ab4f9392c13e3b74032c061",
+        "https://lists.debian.org/debian-lts-announce/2024/04/msg00008.html",
+        "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4XLPUT3VK4GQ6EVY525TT2QNUIXNRU5M",
+        "https://github.com/advisories/GHSA-44wm-f244-xhp3"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-44wm-f244-xhp3",
+        "CVE-2024-28219"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 33.157609067461124,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "10.3.0",
+              "vulnerable_version_range": "< 10.3.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2024-04-03T15:04:50.057Z",
+      "updated_at": "2024-08-21T14:26:17.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1oNXJmLXZncXgtd2p2Ms4AAU_b",
+      "url": "https://github.com/advisories/GHSA-h5rf-vgqx-wjv2",
+      "title": "Pillow denial of service via PNG bomb",
+      "description": "Pillow before 2.7.0 allows remote attackers to cause a denial of service via a compressed text chunk in a PNG image that has a large size when it is decompressed.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-14T02:05:56.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2014-9601",
+        "https://github.com/python-pillow/Pillow/pull/1060",
+        "http://lists.fedoraproject.org/pipermail/package-announce/2015-January/148442.html",
+        "http://lists.opensuse.org/opensuse-updates/2015-04/msg00056.html",
+        "http://pillow.readthedocs.org/releasenotes/2.7.0.html",
+        "http://www.oracle.com/technetwork/topics/security/bulletinjul2015-2511963.html",
+        "https://web.archive.org/web/20200227221255/http://www.securityfocus.com/bid/77758",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2015-16.yaml",
+        "https://www.djangoproject.com/weblog/2015/jan/02/pillow-security-release",
+        "https://github.com/advisories/GHSA-h5rf-vgqx-wjv2"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-h5rf-vgqx-wjv2",
+        "CVE-2014-9601"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 37.116726568053494,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.7.0",
+              "vulnerable_version_range": "< 2.7.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2023-08-16T23:05:12.094Z",
+      "updated_at": "2024-10-09T20:48:12.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWpncHYtNGg0Yy14aHcz",
+      "url": "https://github.com/advisories/GHSA-jgpv-4h4c-xhw3",
+      "title": "Uncontrolled Resource Consumption in pillow",
+      "description": "### Impact\n_Pillow before 8.1.1 allows attackers to cause a denial of service (memory consumption) because the reported size of a contained image is not properly checked for a BLP container, and thus an attempted memory allocation can be very large._\n\n### Patches\n_An issue was discovered in Pillow before 6.2.0. When reading specially crafted invalid image files, the library can either allocate very large amounts of memory or take an extremely long period of time to process the image._\n\n### Workarounds\n_An issue was discovered in Pillow before 6.2.0. When reading specially crafted invalid image files, the library can either allocate very large amounts of memory or take an extremely long period of time to process the image._\n\n### References\nhttps://nvd.nist.gov/vuln/detail/CVE-2021-27921\n\n### For more information\nIf you have any questions or comments about this advisory:\n* Open an issue in [example link to repo](http://example.com)\n* Email us at [example email address](mailto:example@example.com)",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2021-04-23T16:54:36.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://github.com/calix2/pyVulApp/security/advisories/GHSA-jgpv-4h4c-xhw3",
+        "https://github.com/advisories/GHSA-jgpv-4h4c-xhw3"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-jgpv-4h4c-xhw3"
+      ],
+      "repository_url": "https://github.com/calix2/pyVulApp",
+      "blast_radius": 37.116726568053494,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "8.1.2",
+              "vulnerable_version_range": "< 8.1.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:06.469Z",
+      "updated_at": "2023-01-09T05:04:45.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS14ODk1LTJ3cm0taHZwN84AAbcx",
+      "url": "https://github.com/advisories/GHSA-x895-2wrm-hvp7",
+      "title": "PIL and Pillow Vulnerable to Symlink Attack on Tmpfiles",
+      "description": "The (1) `load_djpeg` function in `JpegImagePlugin.py`, (2) `Ghostscript` function in `EpsImagePlugin.py`, (3) `load` function in `IptcImagePlugin.py`, and (4) `_copy` function in `Image.py` in Python Image Library (PIL) 1.1.7 and earlier and Pillow before 2.3.1 do not properly create temporary files, which allow local users to overwrite arbitrary files and obtain sensitive information via a symlink attack on the temporary file.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-17T02:39:13.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.7,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2014-1932",
+        "https://github.com/python-imaging/Pillow/commit/4e9f367dfd3f04c8f5d23f7f759ec12782e10ee7",
+        "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=737059",
+        "https://security.gentoo.org/glsa/201612-52",
+        "http://lists.opensuse.org/opensuse-updates/2014-05/msg00002.html",
+        "http://www.openwall.com/lists/oss-security/2014/02/11/1",
+        "http://www.ubuntu.com/usn/USN-2168-1",
+        "https://web.archive.org/web/20170103151725/http://www.securityfocus.com/bid/65511",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2014-22.yaml",
+        "https://github.com/advisories/GHSA-x895-2wrm-hvp7"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-x895-2wrm-hvp7",
+        "CVE-2014-1932"
+      ],
+      "repository_url": "https://github.com/python-imaging/Pillow",
+      "blast_radius": 38.10650594320159,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.3.1",
+              "vulnerable_version_range": "< 2.3.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2023-08-16T23:05:11.893Z",
+      "updated_at": "2024-10-09T20:14:02.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTU3aDMtOXJnci1jMjRt",
+      "url": "https://github.com/advisories/GHSA-57h3-9rgr-c24m",
+      "title": "Out of bounds write in Pillow",
+      "description": "An issue was discovered in Pillow before 8.1.1. TiffDecode has a heap-based buffer overflow when decoding crafted YCbCr files because of certain interpretation conflicts with LibTIFF in RGBA mode. NOTE: this issue exists because of an incomplete fix for CVE-2020-35654.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2021-03-29T16:35:16.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-25289",
+        "https://github.com/python-pillow/Pillow/commit/3fee28eb9479bf7d59e0fa08068f9cc4a6e2f04c",
+        "https://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html",
+        "https://security.gentoo.org/glsa/202107-33",
+        "https://github.com/python-pillow/Pillow/commit/cbfdde7b1f2295059a20a539ee9960f0bec7b299",
+        "https://github.com/advisories/GHSA-57h3-9rgr-c24m",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2021-35.yaml"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-57h3-9rgr-c24m",
+        "CVE-2021-25289"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 48.499189382256574,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "8.1.1",
+              "vulnerable_version_range": ">= 0, < 8.1.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:09.361Z",
+      "updated_at": "2024-10-08T13:11:34.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1xNG1wLWp2aDItNzZmas4AAv2m",
+      "url": "https://github.com/advisories/GHSA-q4mp-jvh2-76fj",
+      "title": "Pillow subject to DoS via SAMPLESPERPIXEL tag",
+      "description": "Pillow starting with 9.2.0 and prior to 9.3.0 allows denial of service via SAMPLESPERPIXEL. A large value in the SAMPLESPERPIXEL tag could lead to a memory and runtime DOS in TiffImagePlugin.py when setting up the context for image decoding. This issue has been patched in version 9.3.0.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-11-14T12:00:15.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-45199",
+        "https://github.com/python-pillow/Pillow/pull/6700",
+        "https://github.com/python-pillow/Pillow/commit/2444cddab2f83f28687c7c20871574acbb6dbcf3",
+        "https://bugs.gentoo.org/878769",
+        "https://github.com/python-pillow/Pillow/releases/tag/9.3.0",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2022-42980.yaml",
+        "https://security.gentoo.org/glsa/202211-10",
+        "https://github.com/advisories/GHSA-q4mp-jvh2-76fj"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-q4mp-jvh2-76fj",
+        "CVE-2022-45199"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 37.116726568053494,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "9.3.0",
+              "vulnerable_version_range": ">= 9.2.0, < 9.3.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:11:49.146Z",
+      "updated_at": "2024-10-11T20:42:02.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1jZm1yLTM4ZzktZjJoN84AAU-s",
+      "url": "https://github.com/advisories/GHSA-cfmr-38g9-f2h7",
+      "title": "Pillow denial of service via Crafted Block Size",
+      "description": "`PIL/IcnsImagePlugin.py` in Python Imaging Library (PIL) and Pillow before 2.3.2 and 2.5.x before 2.5.2 allows remote attackers to cause a denial of service via a crafted block size.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-14T02:05:20.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2014-3589",
+        "https://github.com/python-pillow/Pillow/commit/205e056f8f9b06ed7b925cf8aa0874bc4aaf8a7d",
+        "https://pypi.python.org/pypi/Pillow/2.3.2",
+        "https://pypi.python.org/pypi/Pillow/2.5.2",
+        "http://lists.opensuse.org/opensuse-updates/2015-04/msg00056.html",
+        "http://www.debian.org/security/2014/dsa-3009",
+        "https://github.com/python-pillow/Pillow/commit/5efeed77666bfd17708f3434b1d2daa9db1e1335",
+        "https://github.com/python-pillow/Pillow/commit/d47611e6fbb808ea109366781dd76559ffb80bcd",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2014-10.yaml",
+        "https://github.com/advisories/GHSA-cfmr-38g9-f2h7"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-cfmr-38g9-f2h7",
+        "CVE-2014-3589"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 37.116726568053494,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.5.2",
+              "vulnerable_version_range": ">= 2.5, < 2.5.2"
+            },
+            {
+              "first_patched_version": "2.3.2",
+              "vulnerable_version_range": "< 2.3.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2023-08-16T22:04:59.903Z",
+      "updated_at": "2024-10-08T13:08:07.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS03NTM0LW1tNDUtYzc0ds0WKQ",
+      "url": "https://github.com/advisories/GHSA-7534-mm45-c74v",
+      "title": "Buffer Overflow in Pillow",
+      "description": "Pillow through 8.2.0 and PIL (aka Python Imaging Library) through 1.1.7 allow an attacker to pass controlled parameters directly into a convert function to trigger a buffer overflow in Convert.c.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2021-10-05T20:24:41.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-34552",
+        "https://lists.debian.org/debian-lts-announce/2021/07/msg00018.html",
+        "https://pillow.readthedocs.io/en/stable/releasenotes/8.3.0.html#buffer-overflow",
+        "https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+        "https://github.com/python-pillow/Pillow/pull/5567",
+        "https://security.gentoo.org/glsa/202211-10",
+        "https://github.com/python-pillow/Pillow/commit/31c473898c29d1b7cb6555ce67d9503a4906b83f",
+        "https://github.com/advisories/GHSA-7534-mm45-c74v",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2021-331.yaml",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/7V6LCG525ARIX6LX5QRYNAWVDD2MD2SV",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VUGBBT63VL7G4JNOEIPDJIOC34ZFBKNJ"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-7534-mm45-c74v",
+        "CVE-2021-34552"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 48.499189382256574,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "8.3.0",
+              "vulnerable_version_range": "< 8.3.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:45.541Z",
+      "updated_at": "2024-10-09T21:03:04.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS04bTl4LXB4d3EtajIzNs4AAelu",
+      "url": "https://github.com/advisories/GHSA-8m9x-pxwq-j236",
+      "title": "Pillow command injection",
+      "description": "Python Image Library (PIL) 1.1.7 and earlier and Pillow before 2.5.0 might allow remote attackers to execute arbitrary commands via shell metacharacters in unspecified vectors related to CVE-2014-1932, possibly JpegImagePlugin.py.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-05-17T04:45:39.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2014-3007",
+        "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=737059",
+        "http://people.canonical.com/~ubuntu-security/cve/2014/CVE-2014-1932.html",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2014-87.yaml",
+        "https://github.com/advisories/GHSA-8m9x-pxwq-j236"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-8m9x-pxwq-j236",
+        "CVE-2014-3007"
+      ],
+      "repository_url": null,
+      "blast_radius": 48.499189382256574,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.5.0",
+              "vulnerable_version_range": "< 2.5.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2023-08-17T00:05:15.669Z",
+      "updated_at": "2024-10-09T20:47:17.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1tMnZ2LTV2ajUtMmhtN84AAv2p",
+      "url": "https://github.com/advisories/GHSA-m2vv-5vj5-2hm7",
+      "title": "Pillow vulnerable to Data Amplification attack.",
+      "description": "Pillow before 9.2.0 performs Improper Handling of Highly Compressed GIF Data (Data Amplification).",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-11-14T12:00:15.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-45198",
+        "https://github.com/python-pillow/Pillow/pull/6402",
+        "https://bugs.gentoo.org/855683",
+        "https://cwe.mitre.org/data/definitions/409.html",
+        "https://github.com/python-pillow/Pillow/releases/tag/9.2.0",
+        "https://github.com/python-pillow/Pillow/pull/6402/commits/c9f1b35e981075110a23487a8d4a6cbb59a588ea",
+        "https://github.com/python-pillow/Pillow/commit/11918eac0628ec8ac0812670d9838361ead2d6a4",
+        "https://security.gentoo.org/glsa/202211-10",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2022-42979.yaml",
+        "https://github.com/advisories/GHSA-m2vv-5vj5-2hm7"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-m2vv-5vj5-2hm7",
+        "CVE-2022-45198"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 37.116726568053494,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "9.2.0",
+              "vulnerable_version_range": "< 9.2.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:11:49.154Z",
+      "updated_at": "2024-10-11T20:44:47.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWh2cjgtNDY2cC03NXJo",
+      "url": "https://github.com/advisories/GHSA-hvr8-466p-75rh",
+      "title": "Pillow Integer overflow in ImagingResampleHorizontal",
+      "description": "Integer overflow in the `ImagingResampleHorizontal` function in `libImaging/Resample.c` in Pillow before 3.1.1 allows remote attackers to have unspecified impact via negative values of the new size, which triggers a heap-based buffer overflow.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2018-07-24T20:15:48.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2016-4009",
+        "https://github.com/python-pillow/Pillow/pull/1714",
+        "https://github.com/python-pillow/Pillow/commit/4e0d9b0b9740d258ade40cce248c93777362ac1e",
+        "https://github.com/advisories/GHSA-hvr8-466p-75rh",
+        "https://github.com/python-pillow/Pillow/blob/c3cb690fed5d4bf0c45576759de55d054916c165/CHANGES.rst",
+        "https://security.gentoo.org/glsa/201612-52",
+        "http://www.securityfocus.com/bid/86064",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2016-7.yaml"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-hvr8-466p-75rh",
+        "CVE-2016-4009"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 48.499189382256574,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.1.1",
+              "vulnerable_version_range": ">= 0, < 3.1.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:37.044Z",
+      "updated_at": "2024-10-08T13:06:58.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1yN3JtLThqNmgtcjkzM84AAjLe",
+      "url": "https://github.com/advisories/GHSA-r7rm-8j6h-r933",
+      "title": "Buffer Copy without Checking Size of Input in Pillow",
+      "description": "`libImaging/SgiRleDecode.c` in Pillow before 6.2.2 has an SGI buffer overflow.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-05-24T17:05:33.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2020-5311",
+        "https://github.com/python-pillow/Pillow/commit/a79b65c47c7dc6fe623aadf09aa6192fc54548f3",
+        "https://access.redhat.com/errata/RHSA-2020:0566",
+        "https://access.redhat.com/errata/RHSA-2020:0580",
+        "https://pillow.readthedocs.io/en/stable/releasenotes/6.2.2.html",
+        "https://www.debian.org/security/2020/dsa-4631",
+        "https://github.com/advisories/GHSA-r7rm-8j6h-r933",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2020-82.yaml",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/2MMU3WT2X64GS5WHDPKKC2WZA7UIIQ3A",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3DUMIBUYGJRAVJCTFUWBRLVQKOUTVX5P",
+        "https://usn.ubuntu.com/4272-1"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-r7rm-8j6h-r933",
+        "CVE-2020-5311"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 48.499189382256574,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "6.2.2",
+              "vulnerable_version_range": "<= 6.2.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:17.395Z",
+      "updated_at": "2024-10-08T13:04:09.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS12Y3FnLTNwMjkteHc3M80W2Q",
+      "url": "https://github.com/advisories/GHSA-vcqg-3p29-xw73",
+      "title": "Integer overflow in Pillow",
+      "description": "`libImaging/TiffDecode.c` in Pillow before 6.2.2 has a TIFF decoding integer overflow, related to realloc.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2021-11-03T18:04:41.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 8.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2020-5310",
+        "https://github.com/python-pillow/Pillow/commit/4e2def2539ec13e53a82e06c4b3daf00454100c4",
+        "https://github.com/pypa/advisory-db/blob/7872b0a91b4d980f749e6d75a81f8cc1af32829f/vulns/pillow/PYSEC-2020-81.yaml",
+        "https://pillow.readthedocs.io/en/stable/releasenotes/6.2.2.html",
+        "https://github.com/advisories/GHSA-vcqg-3p29-xw73",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2020-81.yaml",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/2MMU3WT2X64GS5WHDPKKC2WZA7UIIQ3A",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3DUMIBUYGJRAVJCTFUWBRLVQKOUTVX5P",
+        "https://usn.ubuntu.com/4272-1"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-vcqg-3p29-xw73",
+        "CVE-2020-5310"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 43.55029250651611,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "6.2.2",
+              "vulnerable_version_range": ">= 0, < 6.2.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:43.902Z",
+      "updated_at": "2024-10-08T13:03:45.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTNjNWMtNzIzNS05OTRq",
+      "url": "https://github.com/advisories/GHSA-3c5c-7235-994j",
+      "title": "Pillow buffer overflow in ImagingPcdDecode",
+      "description": "Buffer overflow in the `ImagingPcdDecode` function in `PcdDecode.c` in Pillow before 3.1.1 and Python Imaging Library (PIL) 1.1.7 and earlier allows remote attackers to cause a denial of service (crash) via a crafted PhotoCD file.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2018-07-24T20:15:13.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2016-2533",
+        "https://github.com/python-pillow/Pillow/pull/1706",
+        "https://github.com/python-pillow/Pillow/commit/5bdf54b5a76b54fb00bd05f2d733e0a4173eefc9#diff-8ff6909c159597e22288ad818938fd6b",
+        "https://github.com/python-pillow/Pillow/commit/ae453aa18b66af54e7ff716f4ccb33adca60afd4#diff-8ff6909c159597e22288ad818938fd6b",
+        "https://github.com/advisories/GHSA-3c5c-7235-994j",
+        "https://security.gentoo.org/glsa/201612-52",
+        "http://www.debian.org/security/2016/dsa-3499",
+        "http://www.openwall.com/lists/oss-security/2016/02/02/5",
+        "http://www.openwall.com/lists/oss-security/2016/02/22/2",
+        "http://www.oracle.com/technetwork/topics/security/bulletinjan2016-2867206.html",
+        "https://github.com/python-pillow/Pillow/blob/c3cb690fed5d4bf0c45576759de55d054916c165/CHANGES.rst?plain=1#L53",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2016-19.yaml",
+        "https://github.com/python-pillow/Pillow/blob/c3cb690fed5d4bf0c45576759de55d054916c165/CHANGES.rst"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-3c5c-7235-994j",
+        "CVE-2016-2533"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 32.167829692313035,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.1.1",
+              "vulnerable_version_range": ">= 0, < 3.1.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:37.091Z",
+      "updated_at": "2024-10-08T13:09:01.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXJ3cjMtYzJxOC1nbTU2",
+      "url": "https://github.com/advisories/GHSA-rwr3-c2q8-gm56",
+      "title": "Pillow Integer overflow in Map.c",
+      "description": "Pillow before 3.3.2 allows context-dependent attackers to obtain sensitive information by using the \"crafted image file\" approach, related to an \"Integer Overflow\" issue affecting the `Image.core.map_buffer` in `map.c` component.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2018-07-24T20:08:27.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2016-9189",
+        "https://github.com/python-pillow/Pillow/issues/2105",
+        "https://github.com/python-pillow/Pillow/pull/2146/commits/c50ebe6459a131a1ea8ca531f10da616d3ceaa0f",
+        "https://github.com/advisories/GHSA-rwr3-c2q8-gm56",
+        "https://security.gentoo.org/glsa/201612-52",
+        "http://pillow.readthedocs.io/en/3.4.x/releasenotes/3.3.2.html",
+        "http://www.debian.org/security/2016/dsa-3710",
+        "http://www.securityfocus.com/bid/94234",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2016-8.yaml"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-rwr3-c2q8-gm56",
+        "CVE-2016-9189"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 27.218932816572565,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.3.2",
+              "vulnerable_version_range": ">= 0, < 3.3.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:37.101Z",
+      "updated_at": "2024-10-08T13:06:31.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWY1ZzgtNXFxNy05Mzh3",
+      "url": "https://github.com/advisories/GHSA-f5g8-5qq7-938w",
+      "title": "Pillow Out-of-bounds Read",
+      "description": "In Pillow before 8.1.0, PcxDecode has a buffer over-read when decoding a crafted PCX file because the user-supplied stride value is trusted for buffer calculations.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2021-03-18T19:55:41.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2020-35653",
+        "https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+        "https://lists.debian.org/debian-lts-announce/2021/07/msg00018.html",
+        "https://github.com/python-pillow/Pillow/commit/2f409261eb1228e166868f8f0b5da5cda52e55bf",
+        "https://github.com/advisories/GHSA-f5g8-5qq7-938w",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2021-69.yaml",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6BYVI5G44MRIPERKYDQEL3S3YQCZTVHE",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BF553AMNNNBW7SH4IM4MNE4M6GNZQ7YD"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-f5g8-5qq7-938w",
+        "CVE-2020-35653"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 35.13716781775731,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "8.1.0",
+              "vulnerable_version_range": ">= 0, < 8.1.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:29.877Z",
+      "updated_at": "2024-10-08T13:05:46.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWhmNjQteDRncS1wOTlo",
+      "url": "https://github.com/advisories/GHSA-hf64-x4gq-p99h",
+      "title": "Pillow Out-of-bounds Read",
+      "description": "In Pillow before 8.1.0, SGIRleDecode has a 4-byte buffer over-read when decoding crafted SGI RLE image files because offsets and length tables are mishandled.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2021-03-18T19:55:34.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2020-35655",
+        "https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+        "https://github.com/python-pillow/Pillow/commit/2f409261eb1228e166868f8f0b5da5cda52e55bf",
+        "https://github.com/python-pillow/Pillow/commit/7e95c63fa7f503f185d3d9eb16b9cee1e54d1e46",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6BYVI5G44MRIPERKYDQEL3S3YQCZTVHE",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BF553AMNNNBW7SH4IM4MNE4M6GNZQ7YD",
+        "https://github.com/advisories/GHSA-hf64-x4gq-p99h",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2021-71.yaml"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-hf64-x4gq-p99h",
+        "CVE-2020-35655"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 26.72404312899852,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "8.1.0",
+              "vulnerable_version_range": ">= 4.3.0, < 8.1.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:10.923Z",
+      "updated_at": "2024-10-08T13:05:15.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTVnbTMtcHg2NC1ydzcy",
+      "url": "https://github.com/advisories/GHSA-5gm3-px64-rw72",
+      "title": "Uncontrolled Resource Consumption in Pillow",
+      "description": "There is a DoS vulnerability in Pillow before 6.2.2 caused by FpxImagePlugin.py calling the range function on an unvalidated 32-bit integer if the number of bands is large. On Windows running 32-bit Python, this results in an OverflowError or MemoryError due to the 2 GB limit. However, on Linux running 64-bit Python this results in the process being terminated by the OOM killer.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2020-04-01T16:36:44.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2019-19911",
+        "https://github.com/python-pillow/Pillow/commit/774e53bb132461d8d5ebefec1162e29ec0ebc63d",
+        "https://github.com/python-pillow/Pillow/blob/master/CHANGES.rst#622-2020-01-02",
+        "https://pillow.readthedocs.io/en/stable/releasenotes/6.2.2.html",
+        "https://www.debian.org/security/2020/dsa-4631",
+        "https://github.com/advisories/GHSA-5gm3-px64-rw72",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2020-172.yaml",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3DUMIBUYGJRAVJCTFUWBRLVQKOUTVX5P",
+        "https://usn.ubuntu.com/4272-1"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-5gm3-px64-rw72",
+        "CVE-2019-19911"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 37.116726568053494,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "6.2.2",
+              "vulnerable_version_range": ">= 0, < 6.2.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:25.500Z",
+      "updated_at": "2024-10-08T13:04:35.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS05OHZ2LXB3NnItcTZxNM0VnA",
+      "url": "https://github.com/advisories/GHSA-98vv-pw6r-q6q4",
+      "title": "Uncontrolled Resource Consumption in pillow",
+      "description": "The package pillow 5.2.0 and before 8.3.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via the getrgb function.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2021-09-07T23:08:10.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-23437",
+        "https://github.com/python-pillow/Pillow/commit/9e08eb8f78fdfd2f476e1b20b7cf38683754866b",
+        "https://pillow.readthedocs.io/en/stable/releasenotes/8.3.2.html",
+        "https://snyk.io/vuln/SNYK-PYTHON-PILLOW-1319443",
+        "https://security.gentoo.org/glsa/202211-10",
+        "https://lists.debian.org/debian-lts-announce/2024/03/msg00021.html",
+        "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RNSG6VFXTAROGF7ACYLMAZNQV4EJ6I2C",
+        "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VKRCL7KKAKOXCVD7M6WC5OKFGL4L3SJT",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RNSG6VFXTAROGF7ACYLMAZNQV4EJ6I2C",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VKRCL7KKAKOXCVD7M6WC5OKFGL4L3SJT",
+        "https://github.com/advisories/GHSA-98vv-pw6r-q6q4",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2021-317.yaml"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-98vv-pw6r-q6q4",
+        "CVE-2021-23437"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 37.116726568053494,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "8.3.2",
+              "vulnerable_version_range": ">= 5.2.0, < 8.3.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:11:49.161Z",
+      "updated_at": "2024-10-09T21:02:06.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS12OXBjLTltdnAteDg3Z84AAbp5",
+      "url": "https://github.com/advisories/GHSA-v9pc-9mvp-x87g",
+      "title": "Pillow Buffer overflow in Jpeg2KEncode.c",
+      "description": "Heap-based buffer overflow in the j2k_encode_entry function in Pillow 2.5.0 through 3.1.1 allows remote attackers to cause a denial of service (memory corruption) via a crafted Jpeg2000 file.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-17T02:47:20.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2016-3076",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=1321929",
+        "http://pillow.readthedocs.io/en/4.1.x/releasenotes/3.1.2.html",
+        "https://github.com/python-pillow/Pillow/blob/4.1.x/docs/releasenotes/3.1.2.rst",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2017-92.yaml",
+        "https://web.archive.org/web/20200227174644/http://www.securityfocus.com/bid/98042",
+        "https://github.com/advisories/GHSA-v9pc-9mvp-x87g"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-v9pc-9mvp-x87g",
+        "CVE-2016-3076"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 27.218932816572565,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.1.2",
+              "vulnerable_version_range": ">= 2.5.0, < 3.1.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2024-04-22T23:05:00.821Z",
+      "updated_at": "2024-10-09T21:04:58.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWo3bWotNzQ4eC03cDc4",
+      "url": "https://github.com/advisories/GHSA-j7mj-748x-7p78",
+      "title": "DOS attack in Pillow when processing specially crafted image files",
+      "description": "An issue was discovered in Pillow before 6.2.0. When reading specially crafted invalid image files, the library can either allocate very large amounts of memory or take an extremely long period of time to process the image.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2019-10-22T14:40:42.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2019-16865",
+        "https://github.com/python-pillow/Pillow/issues/4123",
+        "https://pillow.readthedocs.io/en/latest/releasenotes/6.2.0.html",
+        "https://access.redhat.com/errata/RHSA-2020:0566",
+        "https://access.redhat.com/errata/RHSA-2020:0578",
+        "https://access.redhat.com/errata/RHSA-2020:0580",
+        "https://www.debian.org/security/2020/dsa-4631",
+        "https://access.redhat.com/errata/RHSA-2020:0681",
+        "https://access.redhat.com/errata/RHSA-2020:0683",
+        "https://access.redhat.com/errata/RHSA-2020:0694",
+        "https://github.com/python-pillow/Pillow/commit/ab52630d0644e42a75eb88b78b9a9d7438a6fbeb",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EMJBUZQGQ2Q7HXYCQVRLU7OXNC7CAWWU",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LYDXD7EE4YAEVSTNIFZKNVPRVJX5ZOG3",
+        "https://ubuntu.com/security/notices/USN-4272-1",
+        "https://usn.ubuntu.com/4272-1",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2019-110.yaml",
+        "https://github.com/advisories/GHSA-j7mj-748x-7p78"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-j7mj-748x-7p78",
+        "CVE-2019-16865"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 37.116726568053494,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "6.2.0",
+              "vulnerable_version_range": "< 6.2.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:27.682Z",
+      "updated_at": "2024-10-09T21:07:20.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS04Z2hqLXA0dmotbXIzNc4AA250",
+      "url": "https://github.com/advisories/GHSA-8ghj-p4vj-mr35",
+      "title": "Pillow Denial of Service vulnerability",
+      "description": "An issue was discovered in Pillow before 10.0.0. It is a Denial of Service that uncontrollably allocates memory to process a given task, potentially causing a service to crash by having it run out of memory. This occurs for truetype in ImageFont when textlength in an ImageDraw instance operates on a long text argument.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2023-11-03T06:36:30.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2023-44271",
+        "https://github.com/python-pillow/Pillow/pull/7244",
+        "https://github.com/python-pillow/Pillow/commit/1fe1bb49c452b0318cad12ea9d97c3bef188e9a7",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/pillow/PYSEC-2023-227.yaml",
+        "https://devhub.checkmarx.com/cve-details/CVE-2023-44271",
+        "https://lists.debian.org/debian-lts-announce/2024/03/msg00021.html",
+        "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N2JOEDUJDQLCUII2LQYZYSM7RJL2I3P4",
+        "https://github.com/advisories/GHSA-8ghj-p4vj-mr35"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-8ghj-p4vj-mr35",
+        "CVE-2023-44271"
+      ],
+      "repository_url": "https://github.com/python-pillow/Pillow",
+      "blast_radius": 37.116726568053494,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "10.0.0",
+              "vulnerable_version_range": ">= 0, < 10.0.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "pillow"
+        }
+      ],
+      "created_at": "2023-11-03T20:05:50.749Z",
+      "updated_at": "2024-10-14T21:20:49.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/pillow",
+  "docker_dependents_count": 1623,
+  "docker_downloads_count": 814528772,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/pillow",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/pillow/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+    "https://tidelift.com/funding/github/pypi/pillow"
+  ],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/pillow/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/pillow/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/pillow/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/pillow/related_packages",
+  "maintainers": [
+    {
+      "uuid": "hugovk",
+      "login": "hugovk",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 24,
+      "html_url": "https://pypi.org/user/hugovk/",
+      "role": null,
+      "created_at": "2022-11-15T02:25:11.544Z",
+      "updated_at": "2022-11-15T02:25:11.544Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/hugovk/packages"
+    },
+    {
+      "uuid": "aclark",
+      "login": "aclark",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 95,
+      "html_url": "https://pypi.org/user/aclark/",
+      "role": null,
+      "created_at": "2022-11-15T02:25:11.525Z",
+      "updated_at": "2022-11-15T02:25:11.525Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/aclark/packages"
+    },
+    {
+      "uuid": "wiredfool",
+      "login": "wiredfool",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 4,
+      "html_url": "https://pypi.org/user/wiredfool/",
+      "role": null,
+      "created_at": "2022-11-15T02:25:11.532Z",
+      "updated_at": "2022-11-15T02:25:11.532Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/wiredfool/packages"
+    },
+    {
+      "uuid": "radarhere",
+      "login": "radarhere",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 2,
+      "html_url": "https://pypi.org/user/radarhere/",
+      "role": null,
+      "created_at": "2022-11-15T02:25:11.599Z",
+      "updated_at": "2022-11-15T02:25:11.599Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/radarhere/packages"
+    }
+  ]
+}

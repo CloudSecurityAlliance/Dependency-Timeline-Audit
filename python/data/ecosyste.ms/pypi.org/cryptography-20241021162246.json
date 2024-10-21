@@ -1,0 +1,2456 @@
+{
+  "id": 2683636,
+  "name": "cryptography",
+  "ecosystem": "pypi",
+  "description": "cryptography is a package which provides cryptographic recipes and primitives to Python developers.",
+  "homepage": null,
+  "licenses": "Apache-2.0 OR BSD-3-Clause",
+  "normalized_licenses": [
+    "Apache-2.0",
+    "BSD-3-Clause"
+  ],
+  "repository_url": "https://github.com/pyca/cryptography",
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 134,
+  "first_release_published_at": "2014-01-08T23:17:39.000Z",
+  "latest_release_published_at": "2024-05-06T16:55:26.000Z",
+  "latest_release_number": "42.0.7",
+  "last_synced_at": "2024-10-21T13:30:58.267Z",
+  "created_at": "2022-04-10T10:29:12.911Z",
+  "updated_at": "2024-10-21T13:30:58.268Z",
+  "registry_url": "https://pypi.org/project/cryptography/",
+  "install_command": "pip install cryptography --index-url https://pypi.org/simple",
+  "documentation_url": "https://cryptography.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "Development Status :: 5 - Production/Stable",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: Apache Software License",
+      "License :: OSI Approved :: BSD License",
+      "Natural Language :: English",
+      "Operating System :: MacOS :: MacOS X",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: POSIX",
+      "Operating System :: POSIX :: BSD",
+      "Operating System :: POSIX :: Linux",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3 :: Only",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: Implementation :: CPython",
+      "Programming Language :: Python :: Implementation :: PyPy",
+      "Topic :: Security :: Cryptography"
+    ],
+    "normalized_name": "cryptography"
+  },
+  "repo_metadata": {
+    "id": 9926844,
+    "uuid": "11939484",
+    "full_name": "pyca/cryptography",
+    "owner": "pyca",
+    "description": "cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2024-04-14T00:39:11.000Z",
+    "size": 54867,
+    "stargazers_count": 6265,
+    "open_issues_count": 44,
+    "forks_count": 1440,
+    "subscribers_count": 131,
+    "default_branch": "main",
+    "last_synced_at": "2024-04-14T07:01:15.478Z",
+    "etag": null,
+    "topics": [
+      "cryptography",
+      "python"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "https://cryptography.io",
+    "language": "Python",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "other",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/pyca.png",
+    "metadata": {
+      "files": {
+        "readme": "README.rst",
+        "changelog": "CHANGELOG.rst",
+        "contributing": "CONTRIBUTING.rst",
+        "funding": null,
+        "license": "LICENSE",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": "docs/security.rst",
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null
+      }
+    },
+    "created_at": "2013-08-07T02:23:38.000Z",
+    "updated_at": "2024-04-15T11:21:57.866Z",
+    "dependencies_parsed_at": "2023-09-24T14:02:14.320Z",
+    "dependency_job_id": "d5dc0f8b-3770-41b4-846d-990eeae096ae",
+    "html_url": "https://github.com/pyca/cryptography",
+    "commit_stats": {
+      "total_commits": 9815,
+      "total_committers": 318,
+      "mean_commits": "30.864779874213838",
+      "dds": 0.6791645440652063,
+      "last_synced_commit": "a70c92c01faf75a32abc0836fd525154d0583b9d"
+    },
+    "previous_names": [],
+    "tags_count": 127,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/pyca",
+    "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 217950218,
+      "owners_count": 16255827,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "pyca",
+      "name": "Python Cryptographic Authority",
+      "uuid": "5615737",
+      "kind": "organization",
+      "description": null,
+      "email": null,
+      "website": null,
+      "location": null,
+      "twitter": null,
+      "company": null,
+      "icon_url": "https://avatars.githubusercontent.com/u/5615737?v=4",
+      "repositories_count": 7,
+      "last_synced_at": "2024-03-25T19:58:32.183Z",
+      "metadata": {
+        "has_sponsors_listing": false
+      },
+      "html_url": "https://github.com/pyca",
+      "funding_links": [],
+      "total_stars": 9342,
+      "followers": 129,
+      "following": 0,
+      "created_at": "2022-11-02T16:22:49.629Z",
+      "updated_at": "2024-03-25T19:58:34.188Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/pyca",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/pyca/repositories"
+    },
+    "tags": [
+      {
+        "name": "42.0.5",
+        "sha": "33833f031d9d36234e11d9671be150d53b9e598d",
+        "kind": "tag",
+        "published_at": "2024-02-24T01:04:41.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/42.0.5",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/42.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/42.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/42.0.5/manifests"
+      },
+      {
+        "name": "42.0.4",
+        "sha": "fe18470f7d05f963e7267e34fdf985d81ea6ceea",
+        "kind": "tag",
+        "published_at": "2024-02-21T02:55:17.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/42.0.4",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/42.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/42.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/42.0.4/manifests"
+      },
+      {
+        "name": "42.0.3",
+        "sha": "c49a7a5271178c6e8ef36fa1c499f62c63ec19b9",
+        "kind": "tag",
+        "published_at": "2024-02-16T03:42:36.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/42.0.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/42.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/42.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/42.0.3/manifests"
+      },
+      {
+        "name": "42.0.2",
+        "sha": "2202123b50de1b8788f909a3e5afe350c56ad81e",
+        "kind": "tag",
+        "published_at": "2024-01-30T17:24:55.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/42.0.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/42.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/42.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/42.0.2/manifests"
+      },
+      {
+        "name": "42.0.1",
+        "sha": "337437dc2e62772bde4ad5544f4b1db9ee7572d9",
+        "kind": "tag",
+        "published_at": "2024-01-25T02:32:06.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/42.0.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/42.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/42.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/42.0.1/manifests"
+      },
+      {
+        "name": "42.0.0",
+        "sha": "4e64baf360a3a89bd92582f59344c12b5c0bd3fd",
+        "kind": "tag",
+        "published_at": "2024-01-23T01:07:16.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/42.0.0",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/42.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/42.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/42.0.0/manifests"
+      },
+      {
+        "name": "41.0.7",
+        "sha": "4054596afc6f2b6cfcc54f56c35c34e0e429cb66",
+        "kind": "tag",
+        "published_at": "2023-11-28T00:35:07.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/41.0.7",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/41.0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.7/manifests"
+      },
+      {
+        "name": "41.0.6",
+        "sha": "f09c261ca10a31fe41b1262306db7f8f1da0e48a",
+        "kind": "tag",
+        "published_at": "2023-11-27T19:38:42.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/41.0.6",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/41.0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.6/manifests"
+      },
+      {
+        "name": "41.0.5",
+        "sha": "5012bedaef2dc60af3955306774b77ef379116e3",
+        "kind": "tag",
+        "published_at": "2023-10-24T16:02:19.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/41.0.5",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/41.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.5/manifests"
+      },
+      {
+        "name": "41.0.4",
+        "sha": "fc11bce6930e591ce26a2317b31b9ce2b3e25512",
+        "kind": "tag",
+        "published_at": "2023-09-19T16:20:30.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/41.0.4",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/41.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.4/manifests"
+      },
+      {
+        "name": "41.0.3",
+        "sha": "b22271cf3c3dd8dc8978f8f4b00b5c7060b6538d",
+        "kind": "tag",
+        "published_at": "2023-08-01T20:02:21.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/41.0.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/41.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.3/manifests"
+      },
+      {
+        "name": "41.0.2",
+        "sha": "7431db737cf0407560fac689d24f1d2e5efc349d",
+        "kind": "tag",
+        "published_at": "2023-07-11T03:13:51.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/41.0.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/41.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.2/manifests"
+      },
+      {
+        "name": "41.0.1",
+        "sha": "d02de9f26e9a2353e89427c1cea8b9ed2bae969e",
+        "kind": "tag",
+        "published_at": "2023-06-01T12:20:02.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/41.0.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/41.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.1/manifests"
+      },
+      {
+        "name": "41.0.0",
+        "sha": "c4d494fd3ee907316bd846e90cbf4a8df75a25ac",
+        "kind": "tag",
+        "published_at": "2023-05-30T21:37:07.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/41.0.0",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/41.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/41.0.0/manifests"
+      },
+      {
+        "name": "40.0.2",
+        "sha": "f816b457494e010b655cd7fdcd30e3446f86a703",
+        "kind": "tag",
+        "published_at": "2023-04-14T12:23:51.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/40.0.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/40.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/40.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/40.0.2/manifests"
+      },
+      {
+        "name": "40.0.1",
+        "sha": "9dd0b26c48f567d5a7c4a0bc9f45ef2176a2d4a4",
+        "kind": "tag",
+        "published_at": "2023-03-25T01:12:42.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/40.0.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/40.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/40.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/40.0.1/manifests"
+      },
+      {
+        "name": "40.0.0",
+        "sha": "45e37718098edca2c5ac2135394bcf17fd7982f0",
+        "kind": "tag",
+        "published_at": "2023-03-24T04:23:41.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/40.0.0",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/40.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/40.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/40.0.0/manifests"
+      },
+      {
+        "name": "39.0.2",
+        "sha": "125b149dc0bd9db33b08455b66c0f1586b8ce257",
+        "kind": "tag",
+        "published_at": "2023-03-02T20:51:49.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/39.0.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/39.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/39.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/39.0.2/manifests"
+      },
+      {
+        "name": "39.0.1",
+        "sha": "d6951dca25de45abd52da51b608055371fbcde4e",
+        "kind": "tag",
+        "published_at": "2023-02-07T19:21:00.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/39.0.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/39.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/39.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/39.0.1/manifests"
+      },
+      {
+        "name": "39.0.0",
+        "sha": "338a65a7df74e189f6b5d1d3a6315ffa911b21c2",
+        "kind": "tag",
+        "published_at": "2023-01-02T03:08:05.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/39.0.0",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/39.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/39.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/39.0.0/manifests"
+      },
+      {
+        "name": "38.0.4",
+        "sha": "c18d0567386414efa3caef7ed586c4ca75bf3a8b",
+        "kind": "tag",
+        "published_at": "2022-11-27T18:53:48.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/38.0.4",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/38.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/38.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/38.0.4/manifests"
+      },
+      {
+        "name": "38.0.3",
+        "sha": "7d9c6c3d6a211091281c1cbe2a2fa1597ffb7c49",
+        "kind": "tag",
+        "published_at": "2022-11-01T21:21:32.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/38.0.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/38.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/38.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/38.0.3/manifests"
+      },
+      {
+        "name": "38.0.2",
+        "sha": "277ee0d58c6c8cfc9517df35c8a020bea33bddf4",
+        "kind": "tag",
+        "published_at": "2022-10-11T18:06:19.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/38.0.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/38.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/38.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/38.0.2/manifests"
+      },
+      {
+        "name": "38.0.1",
+        "sha": "3ff52182ba6e7f1a063079d48ed5c21616918d70",
+        "kind": "tag",
+        "published_at": "2022-09-07T12:24:19.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/38.0.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/38.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/38.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/38.0.1/manifests"
+      },
+      {
+        "name": "38.0.0",
+        "sha": "52d6f1a491f6ade379ace124b843ffba9fb4ab4f",
+        "kind": "tag",
+        "published_at": "2022-09-06T23:50:39.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/38.0.0",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/38.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/38.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/38.0.0/manifests"
+      },
+      {
+        "name": "37.0.4",
+        "sha": "7ad17d819affb996c6681c6aac57e43184c54865",
+        "kind": "tag",
+        "published_at": "2022-07-05T13:23:49.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/37.0.4",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/37.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/37.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/37.0.4/manifests"
+      },
+      {
+        "name": "37.0.3",
+        "sha": "b71c39202ba2d7dfb7a89215e04946e7fbf92896",
+        "kind": "tag",
+        "published_at": "2022-06-21T18:55:28.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/37.0.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/37.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/37.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/37.0.3/manifests"
+      },
+      {
+        "name": "37.0.2",
+        "sha": "5954a52f0900569a83138d71ec1c04971452ea5b",
+        "kind": "tag",
+        "published_at": "2022-05-04T00:34:56.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/37.0.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/37.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/37.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/37.0.2/manifests"
+      },
+      {
+        "name": "37.0.1",
+        "sha": "3fb93cfde75d073a91bc4a73a51f62962092501e",
+        "kind": "tag",
+        "published_at": "2022-04-27T22:26:21.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/37.0.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/37.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/37.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/37.0.1/manifests"
+      },
+      {
+        "name": "37.0.0",
+        "sha": "e0f6f38433e3a1cb57509dec1bec9107cbbe827d",
+        "kind": "tag",
+        "published_at": "2022-04-26T14:05:57.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/37.0.0",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/37.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/37.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/37.0.0/manifests"
+      },
+      {
+        "name": "36.0.2",
+        "sha": "df06889f348d7c3b7e9c35e4e5a1b1480f0b2c5a",
+        "kind": "tag",
+        "published_at": "2022-03-15T22:10:42.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/36.0.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/36.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/36.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/36.0.2/manifests"
+      },
+      {
+        "name": "36.0.1",
+        "sha": "3fd9d5a8424eef3e08260a622ae3644777ac5339",
+        "kind": "tag",
+        "published_at": "2021-12-14T22:01:48.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/36.0.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/36.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/36.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/36.0.1/manifests"
+      },
+      {
+        "name": "36.0.0",
+        "sha": "5d21990c32d0f93df4e54ef4ee7ff3a2dae3c3da",
+        "kind": "tag",
+        "published_at": "2021-11-21T21:29:14.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/36.0.0",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/36.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/36.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/36.0.0/manifests"
+      },
+      {
+        "name": "35.0.0",
+        "sha": "c7fbef767a94ee1569ae0630006fdb144d6a4e8d",
+        "kind": "tag",
+        "published_at": "2021-09-30T01:20:47.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/35.0.0",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/35.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/35.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/35.0.0/manifests"
+      },
+      {
+        "name": "3.4.8",
+        "sha": "70ccc2542cf3bf374861b55f6527424307722763",
+        "kind": "tag",
+        "published_at": "2021-08-24T17:18:00.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.4.8",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.4.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.8/manifests"
+      },
+      {
+        "name": "3.4.7",
+        "sha": "a19014a087759f3df72b2cd70ed7a0d8a6481340",
+        "kind": "tag",
+        "published_at": "2021-03-25T17:20:38.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.4.7",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.4.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.7/manifests"
+      },
+      {
+        "name": "3.4.6",
+        "sha": "75b002ae7fb1f263fdd4983d0c23493878e127fe",
+        "kind": "tag",
+        "published_at": "2021-02-16T20:27:54.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.4.6",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.4.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.6/manifests"
+      },
+      {
+        "name": "3.4.5",
+        "sha": "4d77fb9d3edab81652210da81a5af7fe6aa79d60",
+        "kind": "tag",
+        "published_at": "2021-02-13T22:35:05.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.4.5",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.4.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.5/manifests"
+      },
+      {
+        "name": "3.4.4",
+        "sha": "4a3018e6ae3e04a250be9fd1c1a1ad115727f517",
+        "kind": "tag",
+        "published_at": "2021-02-09T19:28:03.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.4.4",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.4.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.4/manifests"
+      },
+      {
+        "name": "3.4.3",
+        "sha": "86c9e4a763579d6b2369db83064c0c4b8e9c1c77",
+        "kind": "tag",
+        "published_at": "2021-02-09T04:28:32.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.4.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.4.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.3/manifests"
+      },
+      {
+        "name": "3.4.2",
+        "sha": "74a3df42c43d341014a4a6f111804f304a446902",
+        "kind": "tag",
+        "published_at": "2021-02-08T16:27:23.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.4.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.4.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.2/manifests"
+      },
+      {
+        "name": "3.4.1",
+        "sha": "ebde3be7ef92658bfbc322476a6f2604f41639fb",
+        "kind": "tag",
+        "published_at": "2021-02-07T21:54:54.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.4.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4.1/manifests"
+      },
+      {
+        "name": "3.4",
+        "sha": "2c11ad53c07179e03ea2f60813cb52d83f766292",
+        "kind": "tag",
+        "published_at": "2021-02-07T18:29:36.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.4",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.4/manifests"
+      },
+      {
+        "name": "3.3.2",
+        "sha": "82b6ce28389f0a317bc55ba2091a74b346db7cae",
+        "kind": "tag",
+        "published_at": "2021-02-07T16:39:48.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.3.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.3.2/manifests"
+      },
+      {
+        "name": "3.3.1",
+        "sha": "1ff0d50948bbb6f2aa53d5648f1188a567d941cd",
+        "kind": "tag",
+        "published_at": "2020-12-10T02:17:18.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.3.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.3.1/manifests"
+      },
+      {
+        "name": "3.3",
+        "sha": "7e8fff73cf0c597fe2df34daf2027506f84b9d3b",
+        "kind": "tag",
+        "published_at": "2020-12-09T00:29:24.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.3/manifests"
+      },
+      {
+        "name": "3.2.1",
+        "sha": "0c7592c34fd58f0634f493d6ce542ab35d940b26",
+        "kind": "tag",
+        "published_at": "2020-10-28T03:17:49.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.2.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.2.1/manifests"
+      },
+      {
+        "name": "3.2",
+        "sha": "c9e65222c91df8b6f61650a3460e30232962c1e0",
+        "kind": "tag",
+        "published_at": "2020-10-26T02:11:09.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.2/manifests"
+      },
+      {
+        "name": "3.1.1",
+        "sha": "d4e17ea937a50d69f615f7fe53d0482bd8660bb9",
+        "kind": "tag",
+        "published_at": "2020-09-22T16:54:53.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.1.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.1.1/manifests"
+      },
+      {
+        "name": "3.1",
+        "sha": "ba2c0e5e3e4fb242b80474d2ff7368c91e7ebeaf",
+        "kind": "tag",
+        "published_at": "2020-08-27T04:34:43.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.1/manifests"
+      },
+      {
+        "name": "3.0",
+        "sha": "b0d9bdcfc9659fffcb1d539cb00130f8fda3d011",
+        "kind": "tag",
+        "published_at": "2020-07-20T21:41:23.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/3.0",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/3.0/manifests"
+      },
+      {
+        "name": "2.9.2",
+        "sha": "9263178a208716bfb7b0e4fbe6aadf8c942e8547",
+        "kind": "tag",
+        "published_at": "2020-04-22T22:28:15.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.9.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.9.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.9.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.9.2/manifests"
+      },
+      {
+        "name": "2.9.1",
+        "sha": "6199f620ed4e765cc57f49c366f46a576bf17f3d",
+        "kind": "tag",
+        "published_at": "2020-04-21T15:22:55.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.9.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.9.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.9.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.9.1/manifests"
+      },
+      {
+        "name": "2.9",
+        "sha": "81b7fc65460247c4212efd9484779d8b3e516c26",
+        "kind": "tag",
+        "published_at": "2020-04-02T19:44:26.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.9",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.9/manifests"
+      },
+      {
+        "name": "2.8",
+        "sha": "25494f96d57b8995ee2fde099146b1192582ee1b",
+        "kind": "tag",
+        "published_at": "2019-10-17T13:00:55.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.8",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.8/manifests"
+      },
+      {
+        "name": "2.7",
+        "sha": "9c2637d7ee1e5e7ce66fb8838f6b3f1e8c106242",
+        "kind": "tag",
+        "published_at": "2019-05-30T23:36:14.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.7",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.7/manifests"
+      },
+      {
+        "name": "2.6.1",
+        "sha": "e4570532541be7284f7d6660a429eb12edf8b027",
+        "kind": "tag",
+        "published_at": "2019-02-27T23:28:21.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.6.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.6.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.6.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.6.1/manifests"
+      },
+      {
+        "name": "2.6",
+        "sha": "da259203be156990efff49c0ad8d1afaba1791cc",
+        "kind": "tag",
+        "published_at": "2019-02-27T14:00:25.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.6",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.6/manifests"
+      },
+      {
+        "name": "2.5",
+        "sha": "83aa36dd407d0eb9a10e20cc35c51274174cd5bc",
+        "kind": "tag",
+        "published_at": "2019-01-22T16:44:26.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.5",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.5/manifests"
+      },
+      {
+        "name": "2.4.2",
+        "sha": "704fe0fcaf206462b6a994ab69ad302601d9fad3",
+        "kind": "tag",
+        "published_at": "2018-11-21T03:08:45.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.4.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.4.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.4.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.4.2/manifests"
+      },
+      {
+        "name": "2.4.1",
+        "sha": "db08466131a2d495e4bf58e34bf8d0090be04a2d",
+        "kind": "tag",
+        "published_at": "2018-11-12T01:02:03.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.4.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.4.1/manifests"
+      },
+      {
+        "name": "2.4",
+        "sha": "5e52fdc5f8f3b6c970051c1bf3325b2d0ed8a5db",
+        "kind": "tag",
+        "published_at": "2018-11-12T00:12:27.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.4",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.4/manifests"
+      },
+      {
+        "name": "2.3.1",
+        "sha": "16f43545751bb24cee79cccba453d49992a7cc6c",
+        "kind": "tag",
+        "published_at": "2018-08-14T17:37:25.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.3.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.3.1/manifests"
+      },
+      {
+        "name": "2.3",
+        "sha": "0a846e294806478770469219a26cd49dcb5502d7",
+        "kind": "tag",
+        "published_at": "2018-07-18T11:57:58.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.3/manifests"
+      },
+      {
+        "name": "2.2.2",
+        "sha": "4ec6a48d5cb99636fe8e99e29d1a9221dcce8fde",
+        "kind": "tag",
+        "published_at": "2018-03-27T16:43:12.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.2.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.2.2/manifests"
+      },
+      {
+        "name": "2.2.1",
+        "sha": "4eaa511c62ecaf2f3d0b31a8b4f90fa0114e4468",
+        "kind": "tag",
+        "published_at": "2018-03-20T23:56:23.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.2.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.2.1/manifests"
+      },
+      {
+        "name": "2.2",
+        "sha": "4601fbab9552b0fc938ae3864e9c14e4476231c0",
+        "kind": "tag",
+        "published_at": "2018-03-19T02:57:11.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.2/manifests"
+      },
+      {
+        "name": "2.1.4",
+        "sha": "ed5a7717a50edd3b0a9b7c729b2281dabd18390d",
+        "kind": "tag",
+        "published_at": "2017-11-30T01:55:02.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.1.4",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.1.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.1.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.1.4/manifests"
+      },
+      {
+        "name": "2.1.3",
+        "sha": "2219ea7609eaacfa2d09f80d1baf60be7af5eaca",
+        "kind": "tag",
+        "published_at": "2017-11-02T19:01:15.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.1.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.1.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.1.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.1.3/manifests"
+      },
+      {
+        "name": "2.1.2",
+        "sha": "106de1cb976c8ab7057484cb555979bb27e2430e",
+        "kind": "tag",
+        "published_at": "2017-10-24T15:47:33.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.1.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.1.2/manifests"
+      },
+      {
+        "name": "2.1.1",
+        "sha": "85fa6ce5b29f94e27f1b712da015c2039cd108f9",
+        "kind": "tag",
+        "published_at": "2017-10-12T05:14:32.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.1.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.1.1/manifests"
+      },
+      {
+        "name": "2.1",
+        "sha": "0ed0e7e87b5e83270f4aca4efc630790c1fea429",
+        "kind": "tag",
+        "published_at": "2017-10-11T12:48:20.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.1/manifests"
+      },
+      {
+        "name": "2.0.3",
+        "sha": "87a6dcae8a527d6e0b5c8feabfa768cd8fa6e264",
+        "kind": "tag",
+        "published_at": "2017-08-03T21:51:48.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.0.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.0.3/manifests"
+      },
+      {
+        "name": "2.0.2",
+        "sha": "38a2d0b94852bcd4d017ee77cb6dec8dee3ce2ae",
+        "kind": "tag",
+        "published_at": "2017-07-27T03:25:52.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.0.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.0.2/manifests"
+      },
+      {
+        "name": "2.0.1",
+        "sha": "e758aa6066f79a4181ba8183112e1f4477bcce1b",
+        "kind": "tag",
+        "published_at": "2017-07-26T20:16:14.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.0.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.0.1/manifests"
+      },
+      {
+        "name": "2.0",
+        "sha": "9799e580c6b073a0a612bdc4f120365940d0da3d",
+        "kind": "tag",
+        "published_at": "2017-07-17T15:24:46.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/2.0",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/2.0/manifests"
+      },
+      {
+        "name": "1.9",
+        "sha": "23ead43fd70df17828937dac9521df1753ce9407",
+        "kind": "tag",
+        "published_at": "2017-05-30T02:20:21.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.9",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.9/manifests"
+      },
+      {
+        "name": "1.8.2",
+        "sha": "bd54a2c68f7771abde5ef9e8c30a1f73d5614e47",
+        "kind": "tag",
+        "published_at": "2017-05-26T06:36:22.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.8.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.8.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.8.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.8.2/manifests"
+      },
+      {
+        "name": "1.8.1",
+        "sha": "6c5a519f9b382a1746c1bda5f01aaeb2809250ef",
+        "kind": "tag",
+        "published_at": "2017-03-10T03:59:27.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.8.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.8.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.8.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.8.1/manifests"
+      },
+      {
+        "name": "1.8",
+        "sha": "928e4ee28564359973298624cf023ae5ea7f62c3",
+        "kind": "tag",
+        "published_at": "2017-03-10T02:57:55.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.8",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.8/manifests"
+      },
+      {
+        "name": "1.7.2",
+        "sha": "86b8b865b622fa8e81bb6f436c064a1e9476b4fd",
+        "kind": "tag",
+        "published_at": "2017-01-27T15:13:56.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.7.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.7.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.7.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.7.2/manifests"
+      },
+      {
+        "name": "1.7.1",
+        "sha": "605b918a9df69cfb1773d4b16ee03b42a002ec88",
+        "kind": "tag",
+        "published_at": "2016-12-13T22:53:44.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.7.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.7.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.7.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.7.1/manifests"
+      },
+      {
+        "name": "1.7",
+        "sha": "5df72e82c0156b0e60d355c5c03c85dcf2e694fb",
+        "kind": "tag",
+        "published_at": "2016-12-12T18:18:24.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.7",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.7/manifests"
+      },
+      {
+        "name": "1.6",
+        "sha": "4a2f36bc11342ca15cb49bfc313c20bbd4a045ae",
+        "kind": "tag",
+        "published_at": "2016-11-22T03:11:32.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.6",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.6/manifests"
+      },
+      {
+        "name": "1.5.3",
+        "sha": "090ece652bf47ee5bd081b6eab4c8e6953276752",
+        "kind": "tag",
+        "published_at": "2016-11-06T04:08:15.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.5.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.5.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.5.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.5.3/manifests"
+      },
+      {
+        "name": "1.5.2",
+        "sha": "cad77746539f504d53eb1bf9b278ec081ab8040a",
+        "kind": "tag",
+        "published_at": "2016-09-26T20:22:54.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.5.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.5.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.5.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.5.2/manifests"
+      },
+      {
+        "name": "1.5.1",
+        "sha": "1ed0235eae895d09b4702d8cf592050fbe9364ef",
+        "kind": "tag",
+        "published_at": "2016-09-22T20:08:34.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.5.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.5.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.5.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.5.1/manifests"
+      },
+      {
+        "name": "1.5",
+        "sha": "c0ee738a8460dc3551758400772978ed62a84d46",
+        "kind": "tag",
+        "published_at": "2016-08-26T15:13:13.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.5",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.5/manifests"
+      },
+      {
+        "name": "1.4",
+        "sha": "69365ce2041081fe6b109496bbb9c56f86ccb7b5",
+        "kind": "tag",
+        "published_at": "2016-06-04T17:07:02.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.4",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.4/manifests"
+      },
+      {
+        "name": "1.3.4",
+        "sha": "35fedcb1966dcaf610df79dbaaaf3545d3dbb189",
+        "kind": "tag",
+        "published_at": "2016-06-03T03:09:11.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.3.4",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.3.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.3.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.3.4/manifests"
+      },
+      {
+        "name": "1.3.3",
+        "sha": "9863d7334864a3eb5e43a2e698a32a4e6b6c7b14",
+        "kind": "tag",
+        "published_at": "2016-06-02T21:43:44.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.3.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.3.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.3.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.3.3/manifests"
+      },
+      {
+        "name": "1.3.2",
+        "sha": "afcd8f5ad8eb21f13be308c5183ef34ad28f9987",
+        "kind": "tag",
+        "published_at": "2016-05-04T16:09:45.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.3.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.3.2/manifests"
+      },
+      {
+        "name": "1.3.1",
+        "sha": "17259f2d701979fdd5647574dec77ec08199e551",
+        "kind": "tag",
+        "published_at": "2016-03-21T21:45:42.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.3.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.3.1/manifests"
+      },
+      {
+        "name": "1.3",
+        "sha": "bf1566ec4be14110cbca5a36ee339a76ac9f6272",
+        "kind": "tag",
+        "published_at": "2016-03-18T13:10:53.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.3/manifests"
+      },
+      {
+        "name": "1.2.3",
+        "sha": "cd7ee203c8459ff74a2cd782013ba1c05793130c",
+        "kind": "tag",
+        "published_at": "2016-03-02T02:10:58.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.2.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.2.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.2.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.2.3/manifests"
+      },
+      {
+        "name": "1.2.2",
+        "sha": "5b32344deadf371f3a5301ac4c71508eb1a6cf17",
+        "kind": "tag",
+        "published_at": "2016-01-29T19:27:02.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.2.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.2.2/manifests"
+      },
+      {
+        "name": "1.2.1",
+        "sha": "80543674d13b44ca9030b83443a1d922d492df1e",
+        "kind": "tag",
+        "published_at": "2016-01-08T21:28:50.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.2.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.2.1/manifests"
+      },
+      {
+        "name": "1.2",
+        "sha": "a617ee9d10f875b88db0c76eb18734537bc83904",
+        "kind": "tag",
+        "published_at": "2016-01-08T15:38:44.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.2/manifests"
+      },
+      {
+        "name": "1.1.2",
+        "sha": "d0237e6dcdbbedaa50f88b6cf821f9944b734678",
+        "kind": "tag",
+        "published_at": "2015-12-10T19:54:44.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.1.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.1.2/manifests"
+      },
+      {
+        "name": "1.1.1",
+        "sha": "a9d5ffb0c4dda2e5ddc6f14ec68be99ddc3d69b1",
+        "kind": "tag",
+        "published_at": "2015-11-19T04:01:52.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.1.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.1.1/manifests"
+      },
+      {
+        "name": "1.1",
+        "sha": "246a44e78c0d370452b3c5508d5fdabbb1b04c99",
+        "kind": "tag",
+        "published_at": "2015-10-28T22:26:34.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.1/manifests"
+      },
+      {
+        "name": "1.0.2",
+        "sha": "612e72e2d794c58bc413a3062e664dcc1a1259ee",
+        "kind": "tag",
+        "published_at": "2015-09-27T13:52:09.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.0.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.0.2/manifests"
+      },
+      {
+        "name": "1.0.1",
+        "sha": "34cb7cd8bc9c4c6dad38c3ea5285996cbea60162",
+        "kind": "tag",
+        "published_at": "2015-09-06T01:54:02.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.0.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.0.1/manifests"
+      },
+      {
+        "name": "1.0",
+        "sha": "4abba0474a751192b5abbd5a97c1817021aae337",
+        "kind": "tag",
+        "published_at": "2015-08-12T13:38:22.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/1.0",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/1.0/manifests"
+      },
+      {
+        "name": "0.9.3",
+        "sha": "c08a0dcf09ffa517a2c7df6d2fe7fcfabd6e14e4",
+        "kind": "tag",
+        "published_at": "2015-07-09T14:41:31.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.9.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.9.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.9.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.9.3/manifests"
+      },
+      {
+        "name": "0.9.2",
+        "sha": "b2ac9e59e069aa973c837da202cb459cb733530f",
+        "kind": "tag",
+        "published_at": "2015-07-03T22:57:29.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.9.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.9.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.9.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.9.2/manifests"
+      },
+      {
+        "name": "0.9.1",
+        "sha": "bd17d14bd05d49e3a851cabbc863f74ee5c86702",
+        "kind": "tag",
+        "published_at": "2015-06-06T21:23:18.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.9.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.9.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.9.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.9.1/manifests"
+      },
+      {
+        "name": "0.9",
+        "sha": "6199d8f04310aa22e862f8936fe47d895788daf3",
+        "kind": "tag",
+        "published_at": "2015-05-14T01:39:47.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.9",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.9/manifests"
+      },
+      {
+        "name": "0.8.2",
+        "sha": "8622f0e8c530a7326d885aeb47daa081e66b5ab1",
+        "kind": "tag",
+        "published_at": "2015-04-11T01:52:50.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.8.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.8.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.8.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.8.2/manifests"
+      },
+      {
+        "name": "0.8.1",
+        "sha": "53f947e99e972ef669f833a19b3d36e3fbd7b5da",
+        "kind": "tag",
+        "published_at": "2015-03-20T15:22:46.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.8.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.8.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.8.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.8.1/manifests"
+      },
+      {
+        "name": "0.8",
+        "sha": "3dd326767b34980f3095c67251d77a86bc9202fe",
+        "kind": "tag",
+        "published_at": "2015-03-09T04:49:31.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.8",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.8/manifests"
+      },
+      {
+        "name": "0.7.2",
+        "sha": "9ac7d55150c8410a08ee3b00b89bfeac3dbd8e8f",
+        "kind": "tag",
+        "published_at": "2015-01-16T14:15:57.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.7.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.7.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.7.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.7.2/manifests"
+      },
+      {
+        "name": "0.7.1",
+        "sha": "9a4f1a0f6c89e3e56b955e5acc6c0001e418443d",
+        "kind": "tag",
+        "published_at": "2014-12-29T01:47:43.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.7.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.7.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.7.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.7.1/manifests"
+      },
+      {
+        "name": "0.7",
+        "sha": "4597edf00274c71c1f71f0e75d0c6bcfd62dcb8a",
+        "kind": "tag",
+        "published_at": "2014-12-18T03:26:41.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.7",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.7/manifests"
+      },
+      {
+        "name": "0.6.1",
+        "sha": "3406be8667d35ed55ef8dc64822e9009d0386696",
+        "kind": "tag",
+        "published_at": "2014-10-16T04:10:17.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.6.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.6.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.6.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.6.1/manifests"
+      },
+      {
+        "name": "0.6",
+        "sha": "b2ab5ef112f8de507d2db72fdf4a5fa698a954e0",
+        "kind": "tag",
+        "published_at": "2014-09-30T02:27:05.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.6",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.6/manifests"
+      },
+      {
+        "name": "0.5.4",
+        "sha": "93281bfa89342ed9ccf48cb391b1f19cdb4fe78c",
+        "kind": "tag",
+        "published_at": "2014-08-21T06:02:10.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.5.4",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.5.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.5.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.5.4/manifests"
+      },
+      {
+        "name": "0.5.3",
+        "sha": "c787791c8fed109e128b577cfb7594d2aab8e3b6",
+        "kind": "tag",
+        "published_at": "2014-08-07T15:25:32.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.5.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.5.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.5.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.5.3/manifests"
+      },
+      {
+        "name": "0.5.2",
+        "sha": "544523f97f182157f8b27342ae11ef3520a49c62",
+        "kind": "tag",
+        "published_at": "2014-07-10T01:24:36.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.5.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.5.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.5.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.5.2/manifests"
+      },
+      {
+        "name": "0.5.1",
+        "sha": "d329d535d0a1598eae8dd63fd6d65ab7f5d30ad4",
+        "kind": "tag",
+        "published_at": "2014-07-08T03:01:25.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.5.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.5.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.5.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.5.1/manifests"
+      },
+      {
+        "name": "0.5",
+        "sha": "e4b1e854e0482ae4bc363f7938ad5b214c124d9f",
+        "kind": "tag",
+        "published_at": "2014-07-07T18:03:34.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.5",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.5/manifests"
+      },
+      {
+        "name": "0.4",
+        "sha": "0520c2973509f6a45d2ad06dc2d84a85958887b3",
+        "kind": "tag",
+        "published_at": "2014-05-03T14:33:59.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.4",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.4/manifests"
+      },
+      {
+        "name": "0.3",
+        "sha": "e0d2e1ea7367e05197634c8c869678b7b169c102",
+        "kind": "tag",
+        "published_at": "2014-03-27T21:01:33.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.3",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.3/manifests"
+      },
+      {
+        "name": "0.2.2",
+        "sha": "f36fcdbd055c236641e8704bfa559d8bbf274b61",
+        "kind": "tag",
+        "published_at": "2014-03-04T01:53:58.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.2.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.2.2/manifests"
+      },
+      {
+        "name": "0.2.1",
+        "sha": "aa4692c112d756fc12980f7039b030caec27bc0d",
+        "kind": "tag",
+        "published_at": "2014-02-22T21:35:44.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.2.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.2.1/manifests"
+      },
+      {
+        "name": "0.2",
+        "sha": "6a364d5262905d00ae422d24d91af822b87e899d",
+        "kind": "tag",
+        "published_at": "2014-02-20T19:46:18.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.2",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.2/manifests"
+      },
+      {
+        "name": "0.1",
+        "sha": "ec688200e2dde5cef94fe2eb60fa2f8f820eab47",
+        "kind": "tag",
+        "published_at": "2014-01-08T23:15:49.000Z",
+        "download_url": "https://codeload.github.com/pyca/cryptography/tar.gz/0.1",
+        "html_url": "https://github.com/pyca/cryptography/releases/tag/0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/pyca%2Fcryptography/tags/0.1/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-09-07T07:51:52.937Z",
+  "dependent_packages_count": 3396,
+  "downloads": 321920835,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 131580,
+  "rankings": {
+    "downloads": 0.0027512486083267453,
+    "dependent_repos_count": 0.006786413233872639,
+    "dependent_packages_count": 0.008620578972757136,
+    "stargazers_count": 0.7545757849770821,
+    "forks_count": 1.5489529664879578,
+    "docker_downloads_count": 0.0014673325911075978,
+    "average": 0.3871923874785173
+  },
+  "purl": "pkg:pypi/cryptography",
+  "advisories": [
+    {
+      "uuid": "GSA_kwCzR0hTQS1jZjdwLWdtMm0tODMzbc4AA0t4",
+      "url": "https://github.com/advisories/GHSA-cf7p-gm2m-833m",
+      "title": "cryptography mishandles SSH certificates",
+      "description": "The cryptography package before 41.0.2 for Python mishandles SSH certificates that have critical options.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2023-07-14T21:31:08.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2023-38325",
+        "https://github.com/pyca/cryptography/issues/9207",
+        "https://github.com/pyca/cryptography/pull/9208",
+        "https://github.com/pyca/cryptography/compare/41.0.1...41.0.2",
+        "https://pypi.org/project/cryptography/#history",
+        "https://github.com/pyca/cryptography/commit/1ca7adc97b76a9dfbd3d850628b613eb93b78fc3",
+        "https://github.com/pyca/cryptography/pull/7960",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/cryptography/PYSEC-2023-112.yaml",
+        "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NMCCTYY3CSNQBFFYYC5DAV6KATHWCUZK",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NMCCTYY3CSNQBFFYYC5DAV6KATHWCUZK",
+        "https://security.netapp.com/advisory/ntap-20230824-0010",
+        "https://github.com/advisories/GHSA-cf7p-gm2m-833m"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-cf7p-gm2m-833m",
+        "CVE-2023-38325"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 38.39392411545875,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "41.0.2",
+              "vulnerable_version_range": ">= 40.0.0, < 41.0.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2023-07-14T23:03:45.263Z",
+      "updated_at": "2024-09-13T20:06:13.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1oNGdoLXFxNDUtdmgyN84AA_QU",
+      "url": "https://github.com/advisories/GHSA-h4gh-qq45-vh27",
+      "title": "pyca/cryptography has a vulnerable OpenSSL included in cryptography wheels",
+      "description": "pyca/cryptography's wheels include a statically linked copy of OpenSSL. The versions of OpenSSL included in cryptography 37.0.0-43.0.0 are vulnerable to a security issue. More details about the vulnerability itself can be found in https://openssl-library.org/news/secadv/20240903.txt.\n\nIf you are building cryptography source (\"sdist\") then you are responsible for upgrading your copy of OpenSSL. Only users installing from wheels built by the cryptography project (i.e., those distributed on PyPI) need to update their cryptography versions.\n",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2024-09-03T21:59:48.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0.0,
+      "cvss_vector": null,
+      "references": [
+        "https://github.com/pyca/cryptography/security/advisories/GHSA-h4gh-qq45-vh27",
+        "https://openssl-library.org/news/secadv/20240903.txt",
+        "https://github.com/advisories/GHSA-h4gh-qq45-vh27"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-h4gh-qq45-vh27"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "43.0.1",
+              "vulnerable_version_range": ">= 37.0.0, < 43.0.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2024-09-03T22:05:59.113Z",
+      "updated_at": "2024-09-03T21:59:48.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS02dnF3LTN2NWotNTR4NM4AA5bN",
+      "url": "https://github.com/advisories/GHSA-6vqw-3v5j-54x4",
+      "title": "cryptography NULL pointer dereference with pkcs12.serialize_key_and_certificates when called with a non-matching certificate and private key and an hmac_hash override",
+      "description": "If `pkcs12.serialize_key_and_certificates` is called with both:\n\n1. A certificate whose public key did not match the provided private key\n2. An `encryption_algorithm` with `hmac_hash` set (via `PrivateFormat.PKCS12.encryption_builder().hmac_hash(...)`\n\nThen a NULL pointer dereference would occur, crashing the Python process.\n\nThis has been resolved, and now a `ValueError` is properly raised.\n\nPatched in https://github.com/pyca/cryptography/pull/10423",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2024-02-21T18:04:40.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://github.com/pyca/cryptography/security/advisories/GHSA-6vqw-3v5j-54x4",
+        "https://github.com/pyca/cryptography/pull/10423",
+        "https://github.com/pyca/cryptography/commit/97d231672763cdb5959a3b191e692a362f1b9e55",
+        "https://nvd.nist.gov/vuln/detail/CVE-2024-26130",
+        "https://github.com/advisories/GHSA-6vqw-3v5j-54x4"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-6vqw-3v5j-54x4",
+        "CVE-2024-26130"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 38.39392411545875,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "42.0.4",
+              "vulnerable_version_range": ">= 38.0.0, < 42.0.4"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2024-02-21T19:04:44.408Z",
+      "updated_at": "2024-02-21T22:45:35.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXJobTktcDl3NS1md203",
+      "url": "https://github.com/advisories/GHSA-rhm9-p9w5-fwm7",
+      "title": "PyCA Cryptography symmetrically encrypting large values can lead to integer overflow",
+      "description": "cryptography is a package designed to expose cryptographic primitives and recipes to Python developers. When certain sequences of `update()` calls with large values (multiple GBs) for symetric encryption or decryption occur, it's possible for an integer overflow to happen, leading to mishandling of buffers. This is patched in version 3.3.2 and newer.\n",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2021-02-10T01:32:27.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+      "references": [
+        "https://github.com/pyca/cryptography/security/advisories/GHSA-rhm9-p9w5-fwm7",
+        "https://nvd.nist.gov/vuln/detail/CVE-2020-36242",
+        "https://github.com/pyca/cryptography/issues/5615",
+        "https://github.com/pyca/cryptography/blob/master/CHANGELOG.rst",
+        "https://github.com/pyca/cryptography/commit/82b6ce28389f0a317bc55ba2091a74b346db7cae",
+        "https://github.com/pyca/cryptography/compare/3.3.1...3.3.2",
+        "https://www.oracle.com/security-alerts/cpuapr2022.html",
+        "https://www.oracle.com/security-alerts/cpujul2022.html",
+        "https://github.com/advisories/GHSA-rhm9-p9w5-fwm7",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/cryptography/PYSEC-2021-63.yaml",
+        "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/L7RGQLK4J5ZQFRLKCHVVG6BKZTUQMG7E",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L7RGQLK4J5ZQFRLKCHVVG6BKZTUQMG7E"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-rhm9-p9w5-fwm7",
+        "CVE-2020-36242"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 46.58462792675662,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.3.2",
+              "vulnerable_version_range": ">= 3.1, < 3.3.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:32.811Z",
+      "updated_at": "2024-09-13T18:33:14.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWZjZjktM3F3My1neG1q",
+      "url": "https://github.com/advisories/GHSA-fcf9-3qw3-gxmj",
+      "title": "PyCA Cryptography vulnerable to GCM tag forgery",
+      "description": "A flaw was found in python-cryptography versions between >=1.9.0 and <2.3. The finalize_with_tag API did not enforce a minimum tag length. If a user did not validate the input length prior to passing it to finalize_with_tag an attacker could craft an invalid payload with a shortened tag (e.g. 1 byte) such that they would have a 1 in 256 chance of passing the MAC check. GCM tag forgeries can cause key leakage.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2018-07-31T18:28:09.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2018-10903",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-10903",
+        "https://github.com/pyca/cryptography/pull/4342",
+        "https://github.com/pyca/cryptography/commit/d4378e42937b56f473ddade2667f919ce32208cb",
+        "https://access.redhat.com/errata/RHSA-2018:3600",
+        "https://github.com/advisories/GHSA-fcf9-3qw3-gxmj",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/cryptography/PYSEC-2018-52.yaml",
+        "https://usn.ubuntu.com/3720-1"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-fcf9-3qw3-gxmj",
+        "CVE-2018-10903"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 38.39392411545875,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.3",
+              "vulnerable_version_range": ">= 1.9.0, < 2.3"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:36.794Z",
+      "updated_at": "2024-09-13T18:13:04.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS05djloLWNnajgtaDY0cM4AA44M",
+      "url": "https://github.com/advisories/GHSA-9v9h-cgj8-h64p",
+      "title": "Null pointer dereference in PKCS12 parsing",
+      "description": "Issue summary: Processing a maliciously formatted PKCS12 file may lead OpenSSL\nto crash leading to a potential Denial of Service attack\n\nImpact summary: Applications loading files in the PKCS12 format from untrusted\nsources might terminate abruptly.\n\nA file in PKCS12 format can contain certificates and keys and may come from an\nuntrusted source. The PKCS12 specification allows certain fields to be NULL, but\nOpenSSL does not correctly check for this case. This can lead to a NULL pointer\ndereference that results in OpenSSL crashing. If an application processes PKCS12\nfiles from an untrusted source using the OpenSSL APIs then that application will\nbe vulnerable to this issue.\n\nOpenSSL APIs that are vulnerable to this are: PKCS12_parse(),\nPKCS12_unpack_p7data(), PKCS12_unpack_p7encdata(), PKCS12_unpack_authsafes()\nand PKCS12_newpass().\n\nWe have also fixed a similar issue in SMIME_write_PKCS7(). However since this\nfunction is related to writing data we do not consider it security significant.\n\nThe FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2024-01-26T09:30:23.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2024-0727",
+        "https://github.com/openssl/openssl/commit/09df4395b5071217b76dc7d3d2e630eb8c5a79c2",
+        "https://github.com/openssl/openssl/commit/775acfdbd0c6af9ac855f34969cdab0c0c90844a",
+        "https://github.com/openssl/openssl/commit/d135eeab8a5dbf72b3da5240bab9ddb7678dbd2c",
+        "https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8",
+        "https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539",
+        "https://www.openssl.org/news/secadv/20240125.txt",
+        "https://github.com/github/advisory-database/pull/3472",
+        "https://github.com/openssl/openssl/pull/23362",
+        "https://github.com/alexcrichton/openssl-src-rs/commit/add20f73b6b42be7451af2e1044d4e0e778992b2",
+        "https://github.com/pyca/cryptography/commit/3519591d255d4506fbcd0d04037d45271903c64d",
+        "https://security.netapp.com/advisory/ntap-20240208-0006",
+        "http://www.openwall.com/lists/oss-security/2024/03/11/1",
+        "https://github.com/advisories/GHSA-9v9h-cgj8-h64p"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-9v9h-cgj8-h64p",
+        "CVE-2024-0727"
+      ],
+      "repository_url": "https://github.com/openssl/openssl",
+      "blast_radius": 28.155544351336417,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "42.0.2",
+              "vulnerable_version_range": "< 42.0.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2024-02-16T21:04:38.629Z",
+      "updated_at": "2024-10-14T17:11:59.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS12OGdyLW01MzMtZ2hqOc4AA1_w",
+      "url": "https://github.com/advisories/GHSA-v8gr-m533-ghj9",
+      "title": "Vulnerable OpenSSL included in cryptography wheels",
+      "description": "pyca/cryptography's wheels include a statically linked copy of OpenSSL. The versions of OpenSSL included in cryptography 2.5-41.0.3 are vulnerable to several security issues. More details about the vulnerabilities themselves can be found in https://www.openssl.org/news/secadv/20230908.txt.\n\nIf you are building cryptography source (\"sdist\") then you are responsible for upgrading your copy of OpenSSL. Only users installing from wheels built by the cryptography project (i.e., those distributed on PyPI) need to update their cryptography versions.",
+      "origin": "UNSPECIFIED",
+      "severity": "LOW",
+      "published_at": "2023-09-21T17:07:01.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0.0,
+      "cvss_vector": null,
+      "references": [
+        "https://github.com/pyca/cryptography/security/advisories/GHSA-v8gr-m533-ghj9",
+        "https://github.com/pyca/cryptography/commit/fc11bce6930e591ce26a2317b31b9ce2b3e25512",
+        "https://github.com/advisories/GHSA-v8gr-m533-ghj9"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-v8gr-m533-ghj9"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "41.0.4",
+              "vulnerable_version_range": ">= 2.5, < 41.0.4"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2023-09-21T18:05:56.673Z",
+      "updated_at": "2023-09-21T17:07:01.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1qZmhtLTVnaGgtMmY5N84AA3Zw",
+      "url": "https://github.com/advisories/GHSA-jfhm-5ghh-2f97",
+      "title": "cryptography vulnerable to NULL-dereference when loading PKCS7 certificates",
+      "description": "### Summary\n\nCalling `load_pem_pkcs7_certificates` or `load_der_pkcs7_certificates` could lead to a NULL-pointer dereference and segfault.\n\n### PoC\nHere is a Python code that triggers the issue:\n```python\nfrom cryptography.hazmat.primitives.serialization.pkcs7 import load_der_pkcs7_certificates, load_pem_pkcs7_certificates\n\npem_p7 = b\"\"\"\n-----BEGIN PKCS7-----\nMAsGCSqGSIb3DQEHAg==\n-----END PKCS7-----\n\"\"\"\n\nder_p7 = b\"\\x30\\x0B\\x06\\x09\\x2A\\x86\\x48\\x86\\xF7\\x0D\\x01\\x07\\x02\"\n\nload_pem_pkcs7_certificates(pem_p7)\nload_der_pkcs7_certificates(der_p7)\n```\n\n### Impact\nExploitation of this vulnerability poses a serious risk of Denial of Service (DoS) for any application attempting to deserialize a PKCS7 blob/certificate. The consequences extend to potential disruptions in system availability and stability.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2023-11-28T20:46:46.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://github.com/pyca/cryptography/security/advisories/GHSA-jfhm-5ghh-2f97",
+        "https://github.com/pyca/cryptography/commit/f09c261ca10a31fe41b1262306db7f8f1da0e48a",
+        "https://nvd.nist.gov/vuln/detail/CVE-2023-49083",
+        "https://github.com/pyca/cryptography/pull/9926",
+        "http://www.openwall.com/lists/oss-security/2023/11/29/2",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/cryptography/PYSEC-2023-254.yaml",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QMNTYMUGFJSDBYBU22FUYBHFRZODRKXV",
+        "https://github.com/advisories/GHSA-jfhm-5ghh-2f97"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-jfhm-5ghh-2f97",
+        "CVE-2023-49083"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 30.203220304160887,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "41.0.6",
+              "vulnerable_version_range": ">= 3.1, < 41.0.6"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2023-11-28T21:06:00.277Z",
+      "updated_at": "2024-02-20T18:14:36.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1xM2NqLTJyMzQtMmN3Y84AAbxz",
+      "url": "https://github.com/advisories/GHSA-q3cj-2r34-2cwc",
+      "title": "Improper input validation in cryptography",
+      "description": "HKDF in cryptography before 1.5.3 returns an empty byte-string if used with a length less than algorithm.digest_size.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-17T02:51:56.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2016-9243",
+        "https://github.com/pyca/cryptography/issues/3211",
+        "https://github.com/pyca/cryptography/commit/b924696b2e8731f39696584d12cceeb3aeb2d874",
+        "https://cryptography.io/en/latest/changelog",
+        "http://www.openwall.com/lists/oss-security/2016/11/09/2",
+        "http://www.ubuntu.com/usn/USN-3138-1",
+        "https://cryptography.io/en/latest/changelog/#v1-5-3",
+        "https://github.com/advisories/GHSA-q3cj-2r34-2cwc",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/cryptography/PYSEC-2017-8.yaml",
+        "http://www.securityfocus.com/bid/94216",
+        "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/5R2ZOBMPWDFFHUZ6QOZZY36A6H5CGJXL",
+        "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/U23KDR2M2N7W2ZSREG63BVW7D4VC6CIZ",
+        "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WQ5G7KHKZC4SI23JE7277KZXM57GEQKT",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5R2ZOBMPWDFFHUZ6QOZZY36A6H5CGJXL",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U23KDR2M2N7W2ZSREG63BVW7D4VC6CIZ",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WQ5G7KHKZC4SI23JE7277KZXM57GEQKT"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-q3cj-2r34-2cwc",
+        "CVE-2016-9243"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 38.39392411545875,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.5.3",
+              "vulnerable_version_range": "< 1.5.3"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:18.669Z",
+      "updated_at": "2024-09-13T20:08:28.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS13N3BwLW04d2Ytdmo2cs4AAxeE",
+      "url": "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r",
+      "title": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+      "description": "Previously, `Cipher.update_into` would accept Python objects which implement the buffer protocol, but provide only immutable buffers:\n\n```pycon\n>>> outbuf = b\"\\x00\" * 32\n>>> c = ciphers.Cipher(AES(b\"\\x00\" * 32), modes.ECB()).encryptor()\n>>> c.update_into(b\"\\x00\" * 16, outbuf)\n16\n>>> outbuf\nb'\\xdc\\x95\\xc0x\\xa2@\\x89\\x89\\xadH\\xa2\\x14\\x92\\x84 \\x87\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'\n```\n\nThis would allow immutable objects (such as `bytes`) to be mutated, thus violating fundamental rules of Python. This is a soundness bug -- it allows programmers to misuse an API, it cannot be exploited by attacker controlled data alone.\n\nThis now correctly raises an exception.\n\nThis issue has been present since `update_into` was originally introduced in cryptography 1.8.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2023-02-07T20:54:10.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+      "references": [
+        "https://github.com/pyca/cryptography/security/advisories/GHSA-w7pp-m8wf-vj6r",
+        "https://nvd.nist.gov/vuln/detail/CVE-2023-23931",
+        "https://github.com/pyca/cryptography/commit/d6951dca25de45abd52da51b608055371fbcde4e",
+        "https://github.com/pyca/cryptography/pull/8230",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/cryptography/PYSEC-2023-11.yaml",
+        "https://github.com/advisories/GHSA-w7pp-m8wf-vj6r"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-w7pp-m8wf-vj6r",
+        "CVE-2023-23931"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 33.27473423339758,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "39.0.1",
+              "vulnerable_version_range": ">= 1.8, < 39.0.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2023-02-07T21:03:06.064Z",
+      "updated_at": "2024-09-13T20:07:53.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWhnZ20tanBnMy12NDc2",
+      "url": "https://github.com/advisories/GHSA-hggm-jpg3-v476",
+      "title": "RSA decryption vulnerable to Bleichenbacher timing vulnerability",
+      "description": "RSA decryption was vulnerable to Bleichenbacher timing vulnerabilities, which would impact people using RSA decryption in online scenarios. This is fixed in cryptography 3.2. ",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2020-10-27T20:33:13.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.9,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "references": [
+        "https://github.com/pyca/cryptography/security/advisories/GHSA-hggm-jpg3-v476",
+        "https://github.com/pyca/cryptography/commit/58494b41d6ecb0f56b7c5f05d5f5e3ca0320d494",
+        "https://nvd.nist.gov/vuln/detail/CVE-2020-25659",
+        "https://www.oracle.com/security-alerts/cpuapr2022.html",
+        "https://www.oracle.com/security-alerts/cpujul2022.html",
+        "https://github.com/pyca/cryptography/pull/5507",
+        "https://github.com/advisories/GHSA-hggm-jpg3-v476",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/cryptography/PYSEC-2021-62.yaml",
+        "https://pypi.org/project/cryptography"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-hggm-jpg3-v476",
+        "CVE-2020-25659"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 30.203220304160887,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.2",
+              "vulnerable_version_range": "< 3.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:13.271Z",
+      "updated_at": "2024-09-13T18:16:07.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS0zd3c0LWdnNGYtanI3Zs4AA5Eq",
+      "url": "https://github.com/advisories/GHSA-3ww4-gg4f-jr7f",
+      "title": "Python Cryptography package vulnerable to Bleichenbacher timing oracle attack",
+      "description": "A flaw was found in the python-cryptography package. This issue may allow a remote attacker to decrypt captured messages in TLS servers that use RSA key exchanges, which may lead to exposure of confidential or sensitive data.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2024-02-05T21:30:31.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2023-50782",
+        "https://access.redhat.com/security/cve/CVE-2023-50782",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2254432",
+        "https://github.com/pyca/cryptography/issues/9785",
+        "https://github.com/advisories/GHSA-3ww4-gg4f-jr7f"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-3ww4-gg4f-jr7f",
+        "CVE-2023-50782"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 38.39392411545875,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "42.0.0",
+              "vulnerable_version_range": "< 42.0.0"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2024-02-06T00:04:47.789Z",
+      "updated_at": "2024-08-08T05:10:55.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1qbTc3LXFwaGYtYzR3OM4AA0_V",
+      "url": "https://github.com/advisories/GHSA-jm77-qphf-c4w8",
+      "title": "pyca/cryptography's wheels include vulnerable OpenSSL",
+      "description": "pyca/cryptography's wheels include a statically linked copy of OpenSSL. The versions of OpenSSL included in cryptography 0.8-41.0.2 are vulnerable to several security issues. More details about the vulnerabilities themselves can be found in https://www.openssl.org/news/secadv/20230731.txt, https://www.openssl.org/news/secadv/20230719.txt, and https://www.openssl.org/news/secadv/20230714.txt.\n\nIf you are building cryptography source (\"sdist\") then you are responsible for upgrading your copy of OpenSSL. Only users installing from wheels built by the cryptography project (i.e., those distributed on PyPI) need to update their cryptography versions.",
+      "origin": "UNSPECIFIED",
+      "severity": "LOW",
+      "published_at": "2023-08-01T22:34:41.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0.0,
+      "cvss_vector": null,
+      "references": [
+        "https://github.com/pyca/cryptography/security/advisories/GHSA-jm77-qphf-c4w8",
+        "https://github.com/pyca/cryptography/commit/b22271cf3c3dd8dc8978f8f4b00b5c7060b6538d",
+        "https://github.com/pyca/cryptography/commit/bfa4d95f0f356f2d535efd5c775e0fb3efe90ef2",
+        "https://www.openssl.org/news/secadv/20230714.txt",
+        "https://www.openssl.org/news/secadv/20230719.txt",
+        "https://www.openssl.org/news/secadv/20230731.txt",
+        "https://github.com/advisories/GHSA-jm77-qphf-c4w8"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-jm77-qphf-c4w8"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "41.0.3",
+              "vulnerable_version_range": ">= 0.8, < 41.0.3"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2023-08-01T23:03:46.702Z",
+      "updated_at": "2023-08-01T22:34:41.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS01Y3BxLTh3ajctaGYyds4AAzmB",
+      "url": "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v",
+      "title": "Vulnerable OpenSSL included in cryptography wheels",
+      "description": "pyca/cryptography's wheels include a statically linked copy of OpenSSL. The versions of OpenSSL included in cryptography 0.5-40.0.2 are vulnerable to a security issue. More details about the vulnerability itself can be found in https://www.openssl.org/news/secadv/20230530.txt.\n\nIf you are building cryptography source (\"sdist\") then you are responsible for upgrading your copy of OpenSSL. Only users installing from wheels built by the cryptography project (i.e., those distributed on PyPI) need to update their cryptography versions.",
+      "origin": "UNSPECIFIED",
+      "severity": "LOW",
+      "published_at": "2023-06-02T17:13:10.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0.0,
+      "cvss_vector": null,
+      "references": [
+        "https://github.com/pyca/cryptography/security/advisories/GHSA-5cpq-8wj7-hf2v",
+        "https://github.com/pyca/cryptography/commit/8708245ccdeaff21d65eea68a4f8d2a7c5949a22",
+        "https://cryptography.io/en/latest/changelog/#v41-0-0",
+        "https://github.com/advisories/GHSA-5cpq-8wj7-hf2v"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-5cpq-8wj7-hf2v"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "41.0.0",
+              "vulnerable_version_range": ">= 0.5, <= 40.0.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2023-06-02T18:03:17.370Z",
+      "updated_at": "2023-06-02T17:13:11.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS0zOWhjLXY4N2otNzQ3eM4AAvq8",
+      "url": "https://github.com/advisories/GHSA-39hc-v87j-747x",
+      "title": "Vulnerable OpenSSL included in cryptography wheels",
+      "description": "pyca/cryptography's wheels include a statically linked copy of OpenSSL. The versions of OpenSSL included in cryptography 37.0.0-38.0.3 are vulnerable to a number of security issues. More details about the vulnerabilities themselves can be found in https://www.openssl.org/news/secadv/20221101.txt.\n\nIf you are building cryptography source (\"sdist\") then you are responsible for upgrading your copy of OpenSSL. Only users installing from wheels built by the cryptography project (i.e., those distributed on PyPI) need to update their cryptography versions.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2022-11-02T18:11:56.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0.0,
+      "cvss_vector": null,
+      "references": [
+        "https://github.com/pyca/cryptography/security/advisories/GHSA-39hc-v87j-747x",
+        "https://github.com/pyca/cryptography/commit/382e759bcded5773330eeed748c86b213ec618c5",
+        "https://github.com/pyca/cryptography/commit/cf2ada625d1188d6cd46396f301b98095da577f7",
+        "https://github.com/advisories/GHSA-39hc-v87j-747x"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-39hc-v87j-747x"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "38.0.3",
+              "vulnerable_version_range": ">= 37.0.0, < 38.0.3"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2022-12-21T16:11:53.468Z",
+      "updated_at": "2023-01-08T05:03:03.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS14NHFyLTJmdmYtM21yNc4AAxfn",
+      "url": "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5",
+      "title": "Vulnerable OpenSSL included in cryptography wheels",
+      "description": "pyca/cryptography's wheels include a statically linked copy of OpenSSL. The versions of OpenSSL included in cryptography 0.8.1-39.0.0  are vulnerable to a security issue. More details about the vulnerabilities themselves can be found in https://www.openssl.org/news/secadv/20221213.txt and https://www.openssl.org/news/secadv/20230207.txt.\n\nIf you are building cryptography source (\"sdist\") then you are responsible for upgrading your copy of OpenSSL. Only users installing from wheels built by the cryptography project (i.e., those distributed on PyPI) need to update their cryptography versions.\n\n",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2023-02-08T22:17:06.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H",
+      "references": [
+        "https://github.com/pyca/cryptography/security/advisories/GHSA-x4qr-2fvf-3mr5",
+        "https://nvd.nist.gov/vuln/detail/CVE-2023-0286",
+        "https://rustsec.org/advisories/RUSTSEC-2023-0006.html",
+        "https://www.openssl.org/news/secadv/20230207.txt",
+        "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=2c6c9d439b484e1ba9830d8454a34fa4f80fdfe9",
+        "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=2f7530077e0ef79d98718138716bc51ca0cad658",
+        "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=fd2af07dc083a350c959147097003a14a5e8ac4d",
+        "https://access.redhat.com/security/cve/cve-2023-0286",
+        "https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-3.6.2-relnotes.txt",
+        "https://ftp.openbsd.org/pub/OpenBSD/patches/7.2/common/018_x509.patch.sig",
+        "https://security.gentoo.org/glsa/202402-08",
+        "https://github.com/advisories/GHSA-x4qr-2fvf-3mr5"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-x4qr-2fvf-3mr5",
+        "CVE-2023-0286"
+      ],
+      "repository_url": "https://github.com/pyca/cryptography",
+      "blast_radius": 64.19864363293055,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "300.0.12",
+              "vulnerable_version_range": ">= 300.0.0, < 300.0.12"
+            },
+            {
+              "first_patched_version": "111.25.0",
+              "vulnerable_version_range": "< 111.25.0"
+            }
+          ],
+          "ecosystem": "cargo",
+          "package_name": "openssl-src"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": "39.0.1",
+              "vulnerable_version_range": ">= 0.8.1, < 39.0.1"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "cryptography"
+        }
+      ],
+      "created_at": "2023-02-08T23:03:18.370Z",
+      "updated_at": "2024-02-05T20:44:21.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/cryptography",
+  "docker_dependents_count": 20440,
+  "docker_downloads_count": 15967514223,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/cryptography",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/cryptography/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/cryptography/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/cryptography/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/cryptography/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/cryptography/related_packages",
+  "maintainers": [
+    {
+      "uuid": "reaperhulk",
+      "login": "reaperhulk",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 7,
+      "html_url": "https://pypi.org/user/reaperhulk/",
+      "role": null,
+      "created_at": "2022-11-27T19:19:59.964Z",
+      "updated_at": "2022-11-27T19:19:59.964Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/reaperhulk/packages"
+    }
+  ]
+}

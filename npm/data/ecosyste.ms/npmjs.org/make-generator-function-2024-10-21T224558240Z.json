@@ -1,0 +1,257 @@
+{
+  "id": 1987040,
+  "name": "make-generator-function",
+  "ecosystem": "npm",
+  "description": "Returns an arbitrary generator function, or undefined if generator syntax is unsupported.",
+  "homepage": "https://github.com/ljharb/make-generator-function",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/ljharb/make-generator-function",
+  "keywords_array": [
+    "generator function",
+    "ES6",
+    "generator",
+    "function*"
+  ],
+  "namespace": null,
+  "versions_count": 4,
+  "first_release_published_at": "2014-12-15T07:50:27.158Z",
+  "latest_release_published_at": "2020-01-28T03:32:20.857Z",
+  "latest_release_number": "2.0.0",
+  "last_synced_at": "2024-10-15T22:13:25.582Z",
+  "created_at": "2022-04-09T19:14:29.077Z",
+  "updated_at": "2024-10-15T22:13:26.275Z",
+  "registry_url": "https://www.npmjs.com/package/make-generator-function",
+  "install_command": "npm install make-generator-function",
+  "documentation_url": null,
+  "metadata": {
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "dist-tags": {
+      "latest": "2.0.0"
+    }
+  },
+  "repo_metadata": {
+    "id": 24616626,
+    "uuid": "28025498",
+    "full_name": "ljharb/make-generator-function",
+    "owner": "ljharb",
+    "description": "Returns an arbitrary generator function, or undefined if generator syntax is unsupported.",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2022-10-27T19:01:40.000Z",
+    "size": 82,
+    "stargazers_count": 6,
+    "open_issues_count": 1,
+    "forks_count": 3,
+    "subscribers_count": 3,
+    "default_branch": "main",
+    "last_synced_at": "2024-10-05T17:41:20.501Z",
+    "etag": null,
+    "topics": [],
+    "latest_commit_sha": null,
+    "homepage": "",
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "mit",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/ljharb.png",
+    "metadata": {
+      "funding": {
+        "github": [
+          "ljharb"
+        ],
+        "patreon": null,
+        "open_collective": null,
+        "ko_fi": null,
+        "tidelift": null,
+        "community_bridge": null,
+        "liberapay": null,
+        "issuehunt": null,
+        "otechie": null,
+        "custom": null
+      }
+    },
+    "created_at": "2014-12-15T07:24:13.000Z",
+    "updated_at": "2024-06-03T02:11:20.000Z",
+    "dependencies_parsed_at": "2022-07-23T05:16:15.918Z",
+    "dependency_job_id": null,
+    "html_url": "https://github.com/ljharb/make-generator-function",
+    "commit_stats": null,
+    "previous_names": [],
+    "tags_count": 4,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fmake-generator-function",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fmake-generator-function/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fmake-generator-function/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fmake-generator-function/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/ljharb",
+    "download_url": "https://codeload.github.com/ljharb/make-generator-function/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 219848151,
+      "owners_count": 16556335,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "ljharb",
+      "name": "Jordan Harband",
+      "uuid": "45469",
+      "kind": "user",
+      "description": "software engineer/nerd/teacher/will try anything once; surgeon with git rebase. @TC39 ex @Coinbase @Airbnb @Twitter @MobBase. Fav punctuation ⸮, scent petrichor",
+      "email": "",
+      "website": null,
+      "location": "Hillsborough, CA",
+      "twitter": "LJHarb",
+      "company": "@herodevs @tc39 ",
+      "icon_url": "https://avatars.githubusercontent.com/u/45469?u=6ab74b3b934f9659a90b588062c2c4328e40c6be&v=4",
+      "repositories_count": 255,
+      "last_synced_at": "2024-06-11T15:41:32.189Z",
+      "metadata": {
+        "has_sponsors_listing": true,
+        "funding": {
+          "github": [
+            "ljharb"
+          ],
+          "patreon": null,
+          "open_collective": null,
+          "ko_fi": "ljharb",
+          "tidelift": null,
+          "community_bridge": null,
+          "liberapay": null,
+          "issuehunt": null,
+          "otechie": null,
+          "polar": null,
+          "buy_me_a_coffee": null,
+          "custom": null
+        }
+      },
+      "html_url": "https://github.com/ljharb",
+      "funding_links": [
+        "https://github.com/sponsors/ljharb",
+        "https://ko-fi.com/ljharb"
+      ],
+      "total_stars": 10683,
+      "followers": 6841,
+      "following": 380,
+      "created_at": "2022-11-02T16:19:00.017Z",
+      "updated_at": "2024-06-11T15:41:39.816Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/ljharb",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/ljharb/repositories"
+    },
+    "tags": [
+      {
+        "name": "v2.0.0",
+        "sha": "3bae65adc19929e30aef00964c286312b50c5425",
+        "kind": "commit",
+        "published_at": "2020-01-28T00:47:16.000Z",
+        "download_url": "https://codeload.github.com/ljharb/make-generator-function/tar.gz/v2.0.0",
+        "html_url": "https://github.com/ljharb/make-generator-function/releases/tag/v2.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fmake-generator-function/tags/v2.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fmake-generator-function/tags/v2.0.0/manifests"
+      },
+      {
+        "name": "v1.1.1",
+        "sha": "21857d723ccea02063e59e604cdeb40461f9144d",
+        "kind": "commit",
+        "published_at": "2020-01-27T22:28:53.000Z",
+        "download_url": "https://codeload.github.com/ljharb/make-generator-function/tar.gz/v1.1.1",
+        "html_url": "https://github.com/ljharb/make-generator-function/releases/tag/v1.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fmake-generator-function/tags/v1.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fmake-generator-function/tags/v1.1.1/manifests"
+      },
+      {
+        "name": "v1.1.0",
+        "sha": "531cfb23bcf46d1fb949cfa5df38155a3f63c434",
+        "kind": "commit",
+        "published_at": "2015-03-03T18:39:18.000Z",
+        "download_url": "https://codeload.github.com/ljharb/make-generator-function/tar.gz/v1.1.0",
+        "html_url": "https://github.com/ljharb/make-generator-function/releases/tag/v1.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fmake-generator-function/tags/v1.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fmake-generator-function/tags/v1.1.0/manifests"
+      },
+      {
+        "name": "v1.0.0",
+        "sha": "7d5e297069acf8f7fdb123a0520a6f0481bf9a08",
+        "kind": "commit",
+        "published_at": "2014-12-15T07:47:37.000Z",
+        "download_url": "https://codeload.github.com/ljharb/make-generator-function/tar.gz/v1.0.0",
+        "html_url": "https://github.com/ljharb/make-generator-function/releases/tag/v1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fmake-generator-function/tags/v1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/ljharb%2Fmake-generator-function/tags/v1.0.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-10-15T22:13:26.274Z",
+  "dependent_packages_count": 41,
+  "downloads": 3592,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 49736,
+  "rankings": {
+    "downloads": 2.2804184047163747,
+    "dependent_repos_count": 0.13494531407022148,
+    "dependent_packages_count": 0.6902738472191268,
+    "stargazers_count": 11.484691694615584,
+    "forks_count": 9.829962547236521,
+    "docker_downloads_count": 0.5229060840602224,
+    "average": 4.157199648653008
+  },
+  "purl": "pkg:npm/make-generator-function",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/make-generator-function",
+  "docker_dependents_count": 141,
+  "docker_downloads_count": 610647,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/make-generator-function",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/make-generator-function/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/ljharb"
+  ],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/make-generator-function/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/make-generator-function/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/make-generator-function/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/make-generator-function/related_packages",
+  "maintainers": [
+    {
+      "uuid": "ljharb",
+      "login": "ljharb",
+      "name": null,
+      "email": "ljharb@gmail.com",
+      "url": null,
+      "packages_count": 525,
+      "html_url": "https://www.npmjs.com/~ljharb",
+      "role": null,
+      "created_at": "2022-11-13T05:20:17.063Z",
+      "updated_at": "2022-11-13T05:20:17.063Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/ljharb/packages"
+    }
+  ]
+}

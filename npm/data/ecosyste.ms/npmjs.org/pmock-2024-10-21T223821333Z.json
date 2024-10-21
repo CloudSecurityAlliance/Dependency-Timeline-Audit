@@ -1,0 +1,83 @@
+{
+  "id": 2177525,
+  "name": "pmock",
+  "ecosystem": "npm",
+  "description": "Mock any process property of Node.",
+  "homepage": "https://github.com/arjanfrans/node-pmock",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/arjanfrans/node-pmock",
+  "keywords_array": [
+    "environment variables",
+    "process mock",
+    "mock process",
+    "stub process",
+    "mocking",
+    "environment mock",
+    "env mock",
+    "env mocking"
+  ],
+  "namespace": null,
+  "versions_count": 6,
+  "first_release_published_at": "2015-07-24T21:43:27.500Z",
+  "latest_release_published_at": "2015-12-13T16:54:17.861Z",
+  "latest_release_number": "0.2.3",
+  "last_synced_at": "2024-10-20T14:31:28.134Z",
+  "created_at": "2022-04-09T22:04:54.393Z",
+  "updated_at": "2024-10-20T14:31:28.135Z",
+  "registry_url": "https://www.npmjs.com/package/pmock",
+  "install_command": "npm install pmock",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "0.2.3"
+    }
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-09-07T16:36:46.197Z",
+  "dependent_packages_count": 57,
+  "downloads": 527,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 13271,
+  "rankings": {
+    "downloads": 4.944897099491839,
+    "dependent_repos_count": 0.22415952088144006,
+    "dependent_packages_count": 0.5438780305388817,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": null,
+    "average": 1.9043115503040535
+  },
+  "purl": "pkg:npm/pmock",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/pmock",
+  "docker_dependents_count": null,
+  "docker_downloads_count": null,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/pmock",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/pmock/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/pmock/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/pmock/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/pmock/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/pmock/related_packages",
+  "maintainers": [
+    {
+      "uuid": "arjanfrans",
+      "login": "arjanfrans",
+      "name": null,
+      "email": "arjanfrans.com@gmail.com",
+      "url": null,
+      "packages_count": 28,
+      "html_url": "https://www.npmjs.com/~arjanfrans",
+      "role": null,
+      "created_at": "2022-11-13T19:40:38.017Z",
+      "updated_at": "2022-11-13T19:40:38.017Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/arjanfrans/packages"
+    }
+  ]
+}

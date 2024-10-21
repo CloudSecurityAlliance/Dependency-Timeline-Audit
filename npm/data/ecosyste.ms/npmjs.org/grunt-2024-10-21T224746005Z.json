@@ -1,0 +1,691 @@
+{
+  "id": 1792894,
+  "name": "grunt",
+  "ecosystem": "npm",
+  "description": "The JavaScript Task Runner",
+  "homepage": "https://gruntjs.com/",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/gruntjs/grunt",
+  "keywords_array": [
+    "task",
+    "async",
+    "cli",
+    "minify",
+    "uglify",
+    "build",
+    "lodash",
+    "unit",
+    "test",
+    "qunit",
+    "nodeunit",
+    "server",
+    "init",
+    "scaffold",
+    "make",
+    "jake",
+    "tool"
+  ],
+  "namespace": null,
+  "versions_count": 71,
+  "first_release_published_at": "2012-01-12T13:08:51.911Z",
+  "latest_release_published_at": "2023-01-31T15:11:06.534Z",
+  "latest_release_number": "1.6.1",
+  "last_synced_at": "2024-10-21T00:00:41.489Z",
+  "created_at": "2022-04-09T16:39:49.222Z",
+  "updated_at": "2024-10-21T00:00:41.490Z",
+  "registry_url": "https://www.npmjs.com/package/grunt",
+  "install_command": "npm install grunt",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "1.6.1",
+      "03-devel": "0.3.13-a",
+      "devel": "0.4.0-rc2",
+      "master": "0.4.0-rc8",
+      "rc1": "1.0.0-rc1"
+    }
+  },
+  "repo_metadata": {
+    "uuid": "2430537",
+    "full_name": "gruntjs/grunt",
+    "owner": "gruntjs",
+    "description": "Grunt: The JavaScript Task Runner",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2023-12-06T01:36:47.000Z",
+    "size": 2781,
+    "stargazers_count": 12245,
+    "open_issues_count": 163,
+    "forks_count": 1500,
+    "subscribers_count": 484,
+    "default_branch": "main",
+    "last_synced_at": "2024-03-22T23:45:25.708Z",
+    "etag": null,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "http://gruntjs.com/",
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "other",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/gruntjs.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": "CHANGELOG",
+        "contributing": "CONTRIBUTING.md",
+        "funding": null,
+        "license": "LICENSE",
+        "code_of_conduct": "CODE_OF_CONDUCT.md",
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": "SECURITY.md",
+        "support": null,
+        "governance": null
+      }
+    },
+    "created_at": "2011-09-21T15:16:20.000Z",
+    "updated_at": "2024-03-22T20:34:12.000Z",
+    "dependencies_parsed_at": "2023-07-06T10:32:47.368Z",
+    "dependency_job_id": "a2dfd940-0547-4d5a-9e45-fb94e51400d0",
+    "html_url": "https://github.com/gruntjs/grunt",
+    "commit_stats": {
+      "total_commits": 1439,
+      "total_committers": 84,
+      "mean_commits": 17.13095238095238,
+      "dds": 0.2175121612230716,
+      "last_synced_commit": "8372e118eb8c4c6d40e9c6c5684948a786dee8a9"
+    },
+    "previous_names": [],
+    "tags_count": 26,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/gruntjs",
+    "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 194354565,
+      "owners_count": 12961587,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "gruntjs",
+      "name": "grunt",
+      "uuid": "1630826",
+      "kind": "organization",
+      "description": "",
+      "email": null,
+      "website": "https://gruntjs.com",
+      "location": null,
+      "twitter": null,
+      "company": null,
+      "icon_url": "https://avatars.githubusercontent.com/u/1630826?v=4",
+      "repositories_count": 66,
+      "last_synced_at": "2023-04-09T05:07:01.408Z",
+      "metadata": {
+        "has_sponsors_listing": false
+      },
+      "html_url": "https://github.com/gruntjs",
+      "funding_links": [],
+      "total_stars": 29399,
+      "followers": null,
+      "following": null,
+      "created_at": "2022-11-02T16:20:25.483Z",
+      "updated_at": "2023-04-09T05:07:01.754Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/gruntjs",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/gruntjs/repositories"
+    },
+    "tags": [
+      {
+        "name": "v1.6.1",
+        "sha": "8372e118eb8c4c6d40e9c6c5684948a786dee8a9",
+        "kind": "tag",
+        "published_at": "2023-01-31T15:10:51.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.6.1",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.6.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.6.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.6.1/manifests"
+      },
+      {
+        "name": "v1.6.0",
+        "sha": "0afeb5c631199d806fa560c680987dd907263b83",
+        "kind": "tag",
+        "published_at": "2023-01-29T01:40:24.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.6.0",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.6.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.6.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.6.0/manifests"
+      },
+      {
+        "name": "v1.5.3",
+        "sha": "82d79b803798f2a5f19662df9e12bef977dfa189",
+        "kind": "tag",
+        "published_at": "2022-05-10T12:06:08.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.5.3",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.5.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.5.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.5.3/manifests"
+      },
+      {
+        "name": "v1.5.2",
+        "sha": "ac667b24cabfff77cf769f9dbf9ddba9576b3dc2",
+        "kind": "tag",
+        "published_at": "2022-04-12T11:58:07.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.5.2",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.5.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.5.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.5.2/manifests"
+      },
+      {
+        "name": "v1.5.1",
+        "sha": "d5969eccf2493c2c579c55a617c70cab48dc12d3",
+        "kind": "tag",
+        "published_at": "2022-04-11T15:17:35.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.5.1",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.5.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.5.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.5.1/manifests"
+      },
+      {
+        "name": "v1.5.0",
+        "sha": "a7ab0a83ab7e2e9ca1ab08a6a2514f5f50102b7f",
+        "kind": "tag",
+        "published_at": "2022-04-11T03:26:59.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.5.0",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.5.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.5.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.5.0/manifests"
+      },
+      {
+        "name": "v1.4.1",
+        "sha": "ee722d15ed214c824d2925d04afef10f217338c3",
+        "kind": "tag",
+        "published_at": "2021-05-24T14:25:00.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.4.1",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.4.1/manifests"
+      },
+      {
+        "name": "v1.4.0",
+        "sha": "63b2e89eef0e58b318414c144fc49b4d39a8a9b3",
+        "kind": "commit",
+        "published_at": "2021-04-22T15:29:27.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.4.0",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.4.0/manifests"
+      },
+      {
+        "name": "v1.3.0",
+        "sha": "6f49017a394db9a7573ba402db87602e05fb9368",
+        "kind": "tag",
+        "published_at": "2020-08-18T19:48:31.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.3.0",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.3.0/manifests"
+      },
+      {
+        "name": "v1.2.1",
+        "sha": "3b7508567d8ba09d2d8a9e11e8583096189ca8ef",
+        "kind": "tag",
+        "published_at": "2020-07-07T14:27:48.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.2.1",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.2.1/manifests"
+      },
+      {
+        "name": "v1.2.0",
+        "sha": "27bc5d9ed220ac072c04c410864598ecfd997fbf",
+        "kind": "commit",
+        "published_at": "2020-07-03T17:27:36.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.2.0",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.2.0/manifests"
+      },
+      {
+        "name": "v1.1.0",
+        "sha": "d5cdac0e87d2f2a288e2da47466c29d237075d17",
+        "kind": "commit",
+        "published_at": "2020-03-17T02:33:14.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.1.0",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.1.0/manifests"
+      },
+      {
+        "name": "v1.0.4",
+        "sha": "8fcbed1fe80086fe9e68f044084e19296d314d35",
+        "kind": "tag",
+        "published_at": "2019-03-22T18:48:20.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.0.4",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.0.4/manifests"
+      },
+      {
+        "name": "v1.0.3",
+        "sha": "9ba3a995fa23e3b6857d996eedf1a3827fa1aca2",
+        "kind": "tag",
+        "published_at": "2018-06-04T00:25:09.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.0.3",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.0.3/manifests"
+      },
+      {
+        "name": "v1.0.2",
+        "sha": "ccc316360ba9056ccb794cc358a46cc7b8cafef9",
+        "kind": "tag",
+        "published_at": "2018-02-07T21:43:07.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.0.2",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.0.2/manifests"
+      },
+      {
+        "name": "v1.0.1",
+        "sha": "8ada4948b69c6ec9b1e956b5e6b2e6814fa054ca",
+        "kind": "tag",
+        "published_at": "2016-04-05T18:16:39.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.0.1",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.0.1/manifests"
+      },
+      {
+        "name": "v1.0.0",
+        "sha": "26c6c3c80ce9db13e0c8d83bceff48c5c87b3bb7",
+        "kind": "tag",
+        "published_at": "2016-04-04T23:26:44.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.0.0",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.0.0/manifests"
+      },
+      {
+        "name": "v1.0.0-rc1",
+        "sha": "c8a5251d44cbe1092c552438ffc075ab1a62a58a",
+        "kind": "tag",
+        "published_at": "2016-02-11T18:06:00.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v1.0.0-rc1",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v1.0.0-rc1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.0.0-rc1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v1.0.0-rc1/manifests"
+      },
+      {
+        "name": "_pr1170_author_head",
+        "sha": "416a57344685974c091babcca62388fd03503fc7",
+        "kind": "commit",
+        "published_at": "2014-06-20T17:37:35.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/_pr1170_author_head",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/_pr1170_author_head",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/_pr1170_author_head",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/_pr1170_author_head/manifests"
+      },
+      {
+        "name": "v0.4.5",
+        "sha": "e6f9cdfd61e35f8dc81649c544b8645621ab103d",
+        "kind": "tag",
+        "published_at": "2014-05-12T17:43:50.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v0.4.5",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v0.4.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v0.4.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v0.4.5/manifests"
+      },
+      {
+        "name": "_pr1108_author_head",
+        "sha": "a85a304b36f0983d7b42ffbe15ff098766759411",
+        "kind": "commit",
+        "published_at": "2014-03-31T02:32:04.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/_pr1108_author_head",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/_pr1108_author_head",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/_pr1108_author_head",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/_pr1108_author_head/manifests"
+      },
+      {
+        "name": "v0.4.4",
+        "sha": "bfc869e0551992e3418a498920c49646a425ea76",
+        "kind": "commit",
+        "published_at": "2014-03-12T20:28:35.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v0.4.4",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v0.4.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v0.4.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v0.4.4/manifests"
+      },
+      {
+        "name": "v0.4.3",
+        "sha": "8bbc8acec090b2129b5cc23605ded8c87678db6a",
+        "kind": "tag",
+        "published_at": "2014-03-07T18:24:37.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v0.4.3",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v0.4.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v0.4.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v0.4.3/manifests"
+      },
+      {
+        "name": "v0.4.2",
+        "sha": "5ab7a3ed6885fdbf4b458d72d65d488cf9eedf48",
+        "kind": "commit",
+        "published_at": "2013-12-16T19:35:58.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v0.4.2",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v0.4.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v0.4.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v0.4.2/manifests"
+      },
+      {
+        "name": "v0.4.1",
+        "sha": "c5cb63483aa5d0f933b914a1872b8c2366203a2e",
+        "kind": "commit",
+        "published_at": "2013-03-13T14:16:48.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v0.4.1",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v0.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v0.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v0.4.1/manifests"
+      },
+      {
+        "name": "v0.4.0",
+        "sha": "fc956fa002eb0b6b2e9fc07abbe3415067f7f36c",
+        "kind": "commit",
+        "published_at": "2013-02-18T16:50:07.000Z",
+        "download_url": "https://codeload.github.com/gruntjs/grunt/tar.gz/v0.4.0",
+        "html_url": "https://github.com/gruntjs/grunt/releases/tag/v0.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v0.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/gruntjs%2Fgrunt/tags/v0.4.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-04-02T20:05:29.454Z",
+  "dependent_packages_count": 39195,
+  "downloads": 3048065,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 720585,
+  "rankings": {
+    "downloads": 0.16359601930726242,
+    "dependent_repos_count": 0.043579610836374946,
+    "dependent_packages_count": 0.002903390959415481,
+    "stargazers_count": 0.9441919236186208,
+    "forks_count": 1.0073564551536136,
+    "docker_downloads_count": 0.10831660529779735,
+    "average": 0.3783240008621808
+  },
+  "purl": "pkg:npm/grunt",
+  "advisories": [
+    {
+      "uuid": "GSA_kwCzR0hTQS1ybTM2LTk0ZzgtODM1cs3k_w",
+      "url": "https://github.com/advisories/GHSA-rm36-94g8-835r",
+      "title": "Race Condition in Grunt",
+      "description": "file.copy operations in GruntJS are vulnerable to a TOCTOU race condition leading to arbitrary file write in GitHub repository gruntjs/grunt prior to 1.5.3. This vulnerability is capable of arbitrary file writes which can lead to local privilege escalation to the GruntJS user if a lower-privileged user has write access to both source and destination directories as the lower-privileged user can create a symlink to the GruntJS user's .bashrc file or replace /etc/shadow file if the GruntJS user is root.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-05-11T00:01:37.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-1537",
+        "https://github.com/gruntjs/grunt/commit/58016ffac5ed9338b63ecc2a63710f5027362bae",
+        "https://huntr.dev/bounties/0179c3e5-bc02-4fc9-8491-a1a319b51b4d",
+        "https://lists.debian.org/debian-lts-announce/2023/04/msg00006.html",
+        "https://github.com/advisories/GHSA-rm36-94g8-835r"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-rm36-94g8-835r",
+        "CVE-2022-1537"
+      ],
+      "repository_url": "https://github.com/gruntjs/grunt",
+      "blast_radius": 41.00379652197016,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.5.3",
+              "vulnerable_version_range": "< 1.5.3"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "grunt"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:23.127Z",
+      "updated_at": "2023-04-06T22:55:43.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1qMzgzLTM1cG0tYzVoNM06qQ",
+      "url": "https://github.com/advisories/GHSA-j383-35pm-c5h4",
+      "title": "Path Traversal in Grunt",
+      "description": "Grunt prior to version 1.5.2 is vulnerable to path traversal.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2022-04-13T00:00:16.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.5,
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-0436",
+        "https://github.com/gruntjs/grunt/commit/aad3d4521c3098fb255fb2db8f2e1d691a033665",
+        "https://huntr.dev/bounties/f55315e9-9f6d-4dbb-8c40-bae50c1ae92b",
+        "https://github.com/gruntjs/grunt/pull/1743",
+        "https://github.com/gruntjs/grunt/commit/b0ec6e12426fc8d5720dee1702f6a67455c5986c",
+        "https://lists.debian.org/debian-lts-announce/2023/04/msg00008.html",
+        "https://github.com/advisories/GHSA-j383-35pm-c5h4"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-j383-35pm-c5h4",
+        "CVE-2022-0436"
+      ],
+      "repository_url": "https://github.com/gruntjs/grunt",
+      "blast_radius": 32.217268695833695,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.5.2",
+              "vulnerable_version_range": "< 1.5.2"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "grunt"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:29.709Z",
+      "updated_at": "2023-04-06T22:55:45.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLW01cGotdmpqZi00bTNo",
+      "url": "https://github.com/advisories/GHSA-m5pj-vjjf-4m3h",
+      "title": "Arbitrary Code Execution in grunt",
+      "description": "The package grunt before 1.3.0 are vulnerable to Arbitrary Code Execution due to the default usage of the function load() instead of its secure replacement safeLoad() of the package js-yaml inside grunt.file.readYAML.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2021-05-06T18:27:18.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2020-7729",
+        "https://github.com/gruntjs/grunt/commit/e350cea1724eb3476464561a380fb6a64e61e4e7",
+        "https://github.com/gruntjs/grunt/blob/master/lib/grunt/file.js%23L249",
+        "https://lists.debian.org/debian-lts-announce/2020/09/msg00008.html",
+        "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-607922",
+        "https://snyk.io/vuln/SNYK-JS-GRUNT-597546",
+        "https://usn.ubuntu.com/4595-1/",
+        "https://github.com/advisories/GHSA-m5pj-vjjf-4m3h"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-m5pj-vjjf-4m3h",
+        "CVE-2020-7729"
+      ],
+      "repository_url": "https://github.com/gruntjs/grunt",
+      "blast_radius": 41.58956504371258,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "1.3.0",
+              "vulnerable_version_range": "< 1.3.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "grunt"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:05.457Z",
+      "updated_at": "2023-02-01T05:05:28.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/grunt",
+  "docker_dependents_count": 1885,
+  "docker_downloads_count": 505382156,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/grunt",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/grunt/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/grunt/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/grunt/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/grunt/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/grunt/related_packages",
+  "maintainers": [
+    {
+      "uuid": "cowboy",
+      "login": "cowboy",
+      "name": null,
+      "email": "cowboy@rj3.net",
+      "url": null,
+      "packages_count": 66,
+      "html_url": "https://www.npmjs.com/~cowboy",
+      "role": null,
+      "created_at": "2022-11-10T11:24:45.448Z",
+      "updated_at": "2022-11-10T11:24:45.448Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/cowboy/packages"
+    },
+    {
+      "uuid": "tkellen",
+      "login": "tkellen",
+      "name": null,
+      "email": "tyler@sleekcode.net",
+      "url": null,
+      "packages_count": 92,
+      "html_url": "https://www.npmjs.com/~tkellen",
+      "role": null,
+      "created_at": "2022-11-10T11:24:45.452Z",
+      "updated_at": "2022-11-10T11:24:45.452Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/tkellen/packages"
+    },
+    {
+      "uuid": "vladikoff",
+      "login": "vladikoff",
+      "name": null,
+      "email": "vlad@vladikoff.com",
+      "url": null,
+      "packages_count": 97,
+      "html_url": "https://www.npmjs.com/~vladikoff",
+      "role": null,
+      "created_at": "2022-11-10T11:24:45.454Z",
+      "updated_at": "2022-11-10T11:24:45.454Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/vladikoff/packages"
+    },
+    {
+      "uuid": "shama",
+      "login": "shama",
+      "name": null,
+      "email": "kyle@dontkry.com",
+      "url": null,
+      "packages_count": 222,
+      "html_url": "https://www.npmjs.com/~shama",
+      "role": null,
+      "created_at": "2022-11-10T11:24:45.457Z",
+      "updated_at": "2022-11-10T11:24:45.457Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/shama/packages"
+    }
+  ]
+}

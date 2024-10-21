@@ -1,0 +1,90 @@
+{
+  "id": 8063765,
+  "name": "@tapjs/clock",
+  "ecosystem": "npm",
+  "description": "a make believe clock for tests involving time",
+  "homepage": null,
+  "licenses": "BlueOak-1.0.0",
+  "normalized_licenses": [
+    "BlueOak-1.0.0"
+  ],
+  "repository_url": "",
+  "keywords_array": [
+    "tapjs plugin"
+  ],
+  "namespace": "tapjs",
+  "versions_count": 57,
+  "first_release_published_at": "2023-08-12T19:10:22.659Z",
+  "latest_release_published_at": "2024-05-13T00:19:11.864Z",
+  "latest_release_number": "1.1.22",
+  "last_synced_at": "2024-10-05T09:45:58.413Z",
+  "created_at": "2023-08-12T19:29:51.607Z",
+  "updated_at": "2024-10-05T09:45:58.414Z",
+  "registry_url": "https://www.npmjs.com/package/@tapjs/clock",
+  "install_command": "npm install @tapjs/clock",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "pre": "1.0.0",
+      "latest": "3.0.0"
+    }
+  },
+  "repo_metadata": null,
+  "repo_metadata_updated_at": null,
+  "dependent_packages_count": 1,
+  "downloads": 3074,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 2,
+  "rankings": {
+    "downloads": 5.876347962077038,
+    "dependent_repos_count": 7.707233236952677,
+    "dependent_packages_count": 21.11775581326721,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": null,
+    "average": 11.567112337432308
+  },
+  "purl": "pkg:npm/%40tapjs/clock",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/@tapjs/clock",
+  "docker_dependents_count": null,
+  "docker_downloads_count": null,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/@tapjs/clock",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/@tapjs/clock/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/@tapjs%2Fclock/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/@tapjs%2Fclock/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/@tapjs%2Fclock/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/@tapjs%2Fclock/related_packages",
+  "maintainers": [
+    {
+      "uuid": "ljharb",
+      "login": "ljharb",
+      "name": null,
+      "email": "ljharb@gmail.com",
+      "url": null,
+      "packages_count": 525,
+      "html_url": "https://www.npmjs.com/~ljharb",
+      "role": null,
+      "created_at": "2023-08-13T17:46:23.877Z",
+      "updated_at": "2023-08-13T17:46:23.877Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/ljharb/packages"
+    },
+    {
+      "uuid": "isaacs",
+      "login": "isaacs",
+      "name": null,
+      "email": "i@izs.me",
+      "url": null,
+      "packages_count": 442,
+      "html_url": "https://www.npmjs.com/~isaacs",
+      "role": null,
+      "created_at": "2023-08-13T17:46:24.313Z",
+      "updated_at": "2023-08-13T17:46:24.313Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/isaacs/packages"
+    }
+  ]
+}

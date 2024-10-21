@@ -1,0 +1,93 @@
+{
+  "id": 1565002,
+  "name": "coverify",
+  "ecosystem": "npm",
+  "description": "code coverage browserify transform",
+  "homepage": "https://github.com/substack/coverify",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/substack/coverify",
+  "keywords_array": [
+    "code",
+    "coverage",
+    "browserify",
+    "browserify-transform",
+    "test"
+  ],
+  "namespace": null,
+  "versions_count": 30,
+  "first_release_published_at": "2013-09-30T18:34:49.979Z",
+  "latest_release_published_at": "2018-12-30T21:19:29.428Z",
+  "latest_release_number": "1.5.1",
+  "last_synced_at": "2024-10-21T13:00:39.424Z",
+  "created_at": "2022-04-09T06:05:39.753Z",
+  "updated_at": "2024-10-21T13:00:39.425Z",
+  "registry_url": "https://www.npmjs.com/package/coverify",
+  "install_command": "npm install coverify",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "1.5.1"
+    }
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-09-07T03:07:28.192Z",
+  "dependent_packages_count": 104,
+  "downloads": 5380,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 502,
+  "rankings": {
+    "downloads": 1.9913789858397788,
+    "dependent_repos_count": 0.792824065759282,
+    "dependent_packages_count": 0.3466012243702621,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": null,
+    "average": 1.0436014253231076
+  },
+  "purl": "pkg:npm/coverify",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/coverify",
+  "docker_dependents_count": null,
+  "docker_downloads_count": null,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/coverify",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/coverify/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/coverify/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/coverify/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/coverify/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/coverify/related_packages",
+  "maintainers": [
+    {
+      "uuid": "ljharb",
+      "login": "ljharb",
+      "name": null,
+      "email": "ljharb@gmail.com",
+      "url": null,
+      "packages_count": 525,
+      "html_url": "https://www.npmjs.com/~ljharb",
+      "role": null,
+      "created_at": "2022-11-11T21:27:09.192Z",
+      "updated_at": "2022-11-11T21:27:09.192Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/ljharb/packages"
+    },
+    {
+      "uuid": "chromakode",
+      "login": "chromakode",
+      "name": null,
+      "email": "npm@chromakode.com",
+      "url": null,
+      "packages_count": 9,
+      "html_url": "https://www.npmjs.com/~chromakode",
+      "role": null,
+      "created_at": "2022-11-11T21:27:09.224Z",
+      "updated_at": "2022-11-11T21:27:09.224Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/chromakode/packages"
+    }
+  ]
+}

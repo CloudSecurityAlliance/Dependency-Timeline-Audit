@@ -1,0 +1,332 @@
+{
+    "id": 533830,
+    "name": "ergebnis\/license",
+    "ecosystem": "packagist",
+    "description": "Provides an abstraction of an open-source license.",
+    "homepage": "https:\/\/github.com\/ergebnis\/license",
+    "licenses": "MIT",
+    "normalized_licenses": [
+        "MIT"
+    ],
+    "repository_url": "https:\/\/github.com\/ergebnis\/license",
+    "keywords_array": [
+        "license"
+    ],
+    "namespace": "ergebnis",
+    "versions_count": 11,
+    "first_release_published_at": "2020-01-19T13:40:34.000Z",
+    "latest_release_published_at": "2023-11-30T13:28:53.000Z",
+    "latest_release_number": "2.4.0",
+    "last_synced_at": "2024-09-27T15:17:58.452Z",
+    "created_at": "2022-04-07T09:22:29.002Z",
+    "updated_at": "2024-09-27T15:17:58.452Z",
+    "registry_url": "https:\/\/packagist.org\/packages\/ergebnis\/license#",
+    "install_command": "composer require ergebnis\/license",
+    "documentation_url": null,
+    "metadata": {
+        "funding": []
+    },
+    "repo_metadata": {
+        "id": 36938489,
+        "uuid": "231464774",
+        "full_name": "ergebnis\/license",
+        "owner": "ergebnis",
+        "description": "\ud83d\udcbc Provides a composer package with an abstraction of an open-source license.",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2024-08-23T15:30:49.000Z",
+        "size": 3469,
+        "stargazers_count": 14,
+        "open_issues_count": 0,
+        "forks_count": 1,
+        "subscribers_count": 2,
+        "default_branch": "main",
+        "last_synced_at": "2024-08-23T17:30:12.270Z",
+        "etag": null,
+        "topics": [
+            "license"
+        ],
+        "latest_commit_sha": null,
+        "homepage": null,
+        "language": "PHP",
+        "has_issues": true,
+        "has_wiki": null,
+        "has_pages": null,
+        "mirror_url": null,
+        "source_name": null,
+        "license": "mit",
+        "status": null,
+        "scm": "git",
+        "pull_requests_enabled": true,
+        "icon_url": "https:\/\/github.com\/ergebnis.png",
+        "metadata": {
+            "files": {
+                "readme": "README.md",
+                "changelog": "CHANGELOG.md",
+                "contributing": ".github\/CONTRIBUTING.md",
+                "funding": null,
+                "license": "LICENSE.md",
+                "code_of_conduct": null,
+                "threat_model": null,
+                "audit": null,
+                "citation": null,
+                "codeowners": ".github\/CODEOWNERS",
+                "security": ".github\/SECURITY.md",
+                "support": null,
+                "governance": null,
+                "roadmap": null,
+                "authors": null,
+                "dei": null,
+                "publiccode": null,
+                "codemeta": null
+            },
+            "funding": {
+                "github": [
+                    "ergebnis",
+                    "localheinz"
+                ]
+            }
+        },
+        "created_at": "2020-01-02T21:48:03.000Z",
+        "updated_at": "2024-08-23T15:30:51.000Z",
+        "dependencies_parsed_at": "2023-01-17T07:21:12.835Z",
+        "dependency_job_id": "ee24460a-0e26-4017-b343-7f464fe88fff",
+        "html_url": "https:\/\/github.com\/ergebnis\/license",
+        "commit_stats": {
+            "total_commits": 583,
+            "total_committers": 4,
+            "mean_commits": 145.75,
+            "dds": 0.3739279588336192,
+            "last_synced_commit": "8226af97e6b7e32e806e1a79d57aa889a440eccd"
+        },
+        "previous_names": [],
+        "tags_count": 10,
+        "template": false,
+        "template_full_name": "ergebnis\/php-package-template",
+        "repository_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense",
+        "tags_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags",
+        "releases_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/releases",
+        "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/manifests",
+        "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/ergebnis",
+        "download_url": "https:\/\/codeload.github.com\/ergebnis\/license\/tar.gz\/refs\/heads\/main",
+        "host": {
+            "name": "GitHub",
+            "url": "https:\/\/github.com",
+            "kind": "github",
+            "repositories_count": 216660346,
+            "owners_count": 16060918,
+            "icon_url": "https:\/\/github.com\/github.png",
+            "version": null,
+            "created_at": "2022-05-30T11:31:42.601Z",
+            "updated_at": "2022-07-04T15:15:14.044Z",
+            "host_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories",
+            "repository_names_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repository_names",
+            "owners_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners"
+        },
+        "owner_record": {
+            "login": "ergebnis",
+            "name": "ergebnis",
+            "uuid": "52623233",
+            "kind": "organization",
+            "description": "",
+            "email": "hello@ergebn.is",
+            "website": "https:\/\/ergebn.is",
+            "location": "Berlin, Germany",
+            "twitter": "ergebnis",
+            "company": null,
+            "icon_url": "https:\/\/avatars.githubusercontent.com\/u\/52623233?v=4",
+            "repositories_count": 42,
+            "last_synced_at": "2024-05-20T14:38:23.043Z",
+            "metadata": {
+                "has_sponsors_listing": true,
+                "funding": {
+                    "github": [
+                        "ergebnis",
+                        "localheinz"
+                    ]
+                }
+            },
+            "html_url": "https:\/\/github.com\/ergebnis",
+            "funding_links": [
+                "https:\/\/github.com\/sponsors\/ergebnis",
+                "https:\/\/github.com\/sponsors\/localheinz"
+            ],
+            "total_stars": 2564,
+            "followers": 31,
+            "following": 0,
+            "created_at": "2022-11-02T16:35:13.135Z",
+            "updated_at": "2024-05-20T14:38:30.472Z",
+            "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/ergebnis",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/ergebnis\/repositories"
+        },
+        "tags": [
+            {
+                "name": "2.4.0",
+                "sha": "629cbbdaa4980e2cf770b9be9ffb5c1b0ceb5160",
+                "kind": "tag",
+                "published_at": "2023-11-30T13:29:09.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/license\/tar.gz\/2.4.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/license\/releases\/tag\/2.4.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/2.4.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/2.4.0\/manifests"
+            },
+            {
+                "name": "2.3.0",
+                "sha": "896ebf196a4def609e17899ab04b13e5cbca4415",
+                "kind": "tag",
+                "published_at": "2023-11-27T16:14:26.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/license\/tar.gz\/2.3.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/license\/releases\/tag\/2.3.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/2.3.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/2.3.0\/manifests"
+            },
+            {
+                "name": "2.2.0",
+                "sha": "a2d16677fa146d8eda69b160a6ab8f95c8a90246",
+                "kind": "tag",
+                "published_at": "2023-09-13T15:31:49.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/license\/tar.gz\/2.2.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/license\/releases\/tag\/2.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/2.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/2.2.0\/manifests"
+            },
+            {
+                "name": "2.1.0",
+                "sha": "7a2c4a89ebf284eab2867cd660f54d50fd049368",
+                "kind": "tag",
+                "published_at": "2022-11-28T10:46:11.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/license\/tar.gz\/2.1.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/license\/releases\/tag\/2.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/2.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/2.1.0\/manifests"
+            },
+            {
+                "name": "2.0.0",
+                "sha": "4776a6e8aa1fa62dd4fd7b2a9e339d8b74bc0018",
+                "kind": "tag",
+                "published_at": "2022-10-01T10:47:10.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/license\/tar.gz\/2.0.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/license\/releases\/tag\/2.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/2.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/2.0.0\/manifests"
+            },
+            {
+                "name": "1.2.0",
+                "sha": "c46cf24ca122c7c38508b2692ad307c703e0239b",
+                "kind": "tag",
+                "published_at": "2022-01-03T16:50:53.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/license\/tar.gz\/1.2.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/license\/releases\/tag\/1.2.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/1.2.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/1.2.0\/manifests"
+            },
+            {
+                "name": "1.1.0",
+                "sha": "7b3022e34d650cffa907c123946ec2332a0c8780",
+                "kind": "tag",
+                "published_at": "2020-08-30T11:43:08.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/license\/tar.gz\/1.1.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/license\/releases\/tag\/1.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/1.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/1.1.0\/manifests"
+            },
+            {
+                "name": "1.0.1",
+                "sha": "d6dde05ae2067ec0b8e68c46e85f7e12b3cbd7d3",
+                "kind": "tag",
+                "published_at": "2020-08-30T11:34:29.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/license\/tar.gz\/1.0.1",
+                "html_url": "https:\/\/github.com\/ergebnis\/license\/releases\/tag\/1.0.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/1.0.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/1.0.1\/manifests"
+            },
+            {
+                "name": "1.0.0",
+                "sha": "d36cbe3a4ca62c9df902e4133f0a84307a75034a",
+                "kind": "tag",
+                "published_at": "2020-05-04T17:38:06.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/license\/tar.gz\/1.0.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/license\/releases\/tag\/1.0.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/1.0.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/1.0.0\/manifests"
+            },
+            {
+                "name": "0.1.0",
+                "sha": "ca94bcaabcbd56e663899fc4510e9cfdd8c6329c",
+                "kind": "tag",
+                "published_at": "2020-01-19T13:41:15.000Z",
+                "download_url": "https:\/\/codeload.github.com\/ergebnis\/license\/tar.gz\/0.1.0",
+                "html_url": "https:\/\/github.com\/ergebnis\/license\/releases\/tag\/0.1.0",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/0.1.0",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/ergebnis%2Flicense\/tags\/0.1.0\/manifests"
+            }
+        ]
+    },
+    "repo_metadata_updated_at": "2024-08-23T17:48:07.330Z",
+    "dependent_packages_count": 56,
+    "downloads": 1190414,
+    "downloads_period": "total",
+    "dependent_repos_count": 63,
+    "rankings": {
+        "downloads": 1.091765787507901,
+        "dependent_repos_count": 1.212923861165946,
+        "dependent_packages_count": 0.4691844734416105,
+        "stargazers_count": 7.231116364027076,
+        "forks_count": 27.03269907259354,
+        "docker_downloads_count": null,
+        "average": 7.407537911747215
+    },
+    "purl": "pkg:composer\/ergebnis\/license",
+    "advisories": [],
+    "docker_usage_url": "https:\/\/docker.ecosyste.ms\/usage\/packagist\/ergebnis\/license",
+    "docker_dependents_count": null,
+    "docker_downloads_count": null,
+    "usage_url": "https:\/\/repos.ecosyste.ms\/usage\/packagist\/ergebnis\/license",
+    "dependent_repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/usage\/packagist\/ergebnis\/license\/dependencies",
+    "status": null,
+    "funding_links": [
+        "https:\/\/github.com\/sponsors\/ergebnis",
+        "https:\/\/github.com\/sponsors\/localheinz"
+    ],
+    "critical": null,
+    "versions_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/ergebnis%2Flicense\/versions",
+    "version_numbers_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/ergebnis%2Flicense\/version_numbers",
+    "dependent_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/ergebnis%2Flicense\/dependent_packages",
+    "related_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/ergebnis%2Flicense\/related_packages",
+    "maintainers": [
+        {
+            "uuid": "localheinz",
+            "login": "localheinz",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 60,
+            "html_url": "https:\/\/packagist.org\/users\/localheinz",
+            "role": null,
+            "created_at": "2022-11-15T07:59:12.552Z",
+            "updated_at": "2022-11-15T07:59:12.552Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/localheinz\/packages"
+        }
+    ]
+}

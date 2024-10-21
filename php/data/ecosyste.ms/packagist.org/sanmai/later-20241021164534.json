@@ -1,0 +1,268 @@
+{
+    "id": 697260,
+    "name": "sanmai\/later",
+    "ecosystem": "packagist",
+    "description": "Later: deferred wrapper object",
+    "homepage": "",
+    "licenses": "Apache-2.0",
+    "normalized_licenses": [
+        "Apache-2.0"
+    ],
+    "repository_url": "https:\/\/github.com\/sanmai\/later",
+    "keywords_array": [],
+    "namespace": "sanmai",
+    "versions_count": 5,
+    "first_release_published_at": "2020-03-15T03:31:32.000Z",
+    "latest_release_published_at": "2023-10-24T00:25:28.000Z",
+    "latest_release_number": "0.1.4",
+    "last_synced_at": "2024-10-15T14:19:17.078Z",
+    "created_at": "2022-04-07T11:04:25.490Z",
+    "updated_at": "2024-10-15T14:28:17.841Z",
+    "registry_url": "https:\/\/packagist.org\/packages\/sanmai\/later#",
+    "install_command": "composer require sanmai\/later",
+    "documentation_url": null,
+    "metadata": {
+        "funding": [
+            {
+                "url": "https:\/\/github.com\/sanmai",
+                "type": "github"
+            }
+        ]
+    },
+    "repo_metadata": {
+        "id": 44596827,
+        "uuid": "246492459",
+        "full_name": "sanmai\/later",
+        "owner": "sanmai",
+        "description": "Later: a deferred object manager. Zero callbacks required. Futures for PHP.",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2024-05-18T05:10:17.000Z",
+        "size": 82,
+        "stargazers_count": 66,
+        "open_issues_count": 1,
+        "forks_count": 2,
+        "subscribers_count": 4,
+        "default_branch": "main",
+        "last_synced_at": "2024-09-19T03:14:37.206Z",
+        "etag": null,
+        "topics": [
+            "deferred-execution",
+            "php-library"
+        ],
+        "latest_commit_sha": null,
+        "homepage": "",
+        "language": "PHP",
+        "has_issues": true,
+        "has_wiki": null,
+        "has_pages": null,
+        "mirror_url": null,
+        "source_name": null,
+        "license": "apache-2.0",
+        "status": null,
+        "scm": "git",
+        "pull_requests_enabled": true,
+        "icon_url": "https:\/\/github.com\/sanmai.png",
+        "metadata": {
+            "files": {
+                "readme": "README.md",
+                "changelog": null,
+                "contributing": null,
+                "funding": ".github\/FUNDING.yml",
+                "license": "LICENSE",
+                "code_of_conduct": null,
+                "threat_model": null,
+                "audit": null,
+                "citation": null,
+                "codeowners": null,
+                "security": null,
+                "support": null,
+                "governance": null,
+                "roadmap": null,
+                "authors": null,
+                "dei": null,
+                "publiccode": null,
+                "codemeta": null
+            },
+            "funding": {
+                "github": [
+                    "sanmai"
+                ]
+            }
+        },
+        "created_at": "2020-03-11T06:27:58.000Z",
+        "updated_at": "2024-07-13T07:07:28.000Z",
+        "dependencies_parsed_at": "2024-02-17T09:23:57.994Z",
+        "dependency_job_id": "f58226af-6748-4e60-9867-8e2444503ea7",
+        "html_url": "https:\/\/github.com\/sanmai\/later",
+        "commit_stats": {
+            "total_commits": 50,
+            "total_committers": 2,
+            "mean_commits": 25,
+            "dds": "0.040000000000000036",
+            "last_synced_commit": "e74c05fcd26fd8642a9e40d185ced9b5e9b915a5"
+        },
+        "previous_names": [],
+        "tags_count": 5,
+        "template": false,
+        "template_full_name": null,
+        "repository_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater",
+        "tags_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/tags",
+        "releases_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/releases",
+        "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/manifests",
+        "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/sanmai",
+        "download_url": "https:\/\/codeload.github.com\/sanmai\/later\/tar.gz\/refs\/heads\/main",
+        "host": {
+            "name": "GitHub",
+            "url": "https:\/\/github.com",
+            "kind": "github",
+            "repositories_count": 219843779,
+            "owners_count": 16556501,
+            "icon_url": "https:\/\/github.com\/github.png",
+            "version": null,
+            "created_at": "2022-05-30T11:31:42.601Z",
+            "updated_at": "2022-07-04T15:15:14.044Z",
+            "host_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories",
+            "repository_names_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repository_names",
+            "owners_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners"
+        },
+        "owner_record": {
+            "login": "sanmai",
+            "name": "Alexey Kopytko",
+            "uuid": "139488",
+            "kind": "user",
+            "description": "Hacking around",
+            "email": "",
+            "website": "https:\/\/www.alexeykopytko.com",
+            "location": "Japan, Kobe",
+            "twitter": null,
+            "company": null,
+            "icon_url": "https:\/\/avatars.githubusercontent.com\/u\/139488?u=077427575b640ed057e364912e4b0df3a3887e30&v=4",
+            "repositories_count": 225,
+            "last_synced_at": "2024-05-20T15:09:49.579Z",
+            "metadata": {
+                "has_sponsors_listing": true
+            },
+            "html_url": "https:\/\/github.com\/sanmai",
+            "funding_links": [
+                "https:\/\/github.com\/sponsors\/sanmai"
+            ],
+            "total_stars": 279,
+            "followers": 68,
+            "following": 7,
+            "created_at": "2022-11-06T22:37:27.058Z",
+            "updated_at": "2024-05-20T15:09:51.999Z",
+            "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/sanmai",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/sanmai\/repositories"
+        },
+        "tags": [
+            {
+                "name": "0.1.4",
+                "sha": "e24c4304a4b1349c2a83151a692cec0c10579f60",
+                "kind": "tag",
+                "published_at": "2023-10-24T00:27:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/sanmai\/later\/tar.gz\/0.1.4",
+                "html_url": "https:\/\/github.com\/sanmai\/later\/releases\/tag\/0.1.4",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/tags\/0.1.4",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/tags\/0.1.4\/manifests"
+            },
+            {
+                "name": "0.1.3",
+                "sha": "88a1d39965aa3659ceb96622e2801b9194d16e2c",
+                "kind": "tag",
+                "published_at": "2023-10-23T13:39:37.000Z",
+                "download_url": "https:\/\/codeload.github.com\/sanmai\/later\/tar.gz\/0.1.3",
+                "html_url": "https:\/\/github.com\/sanmai\/later\/releases\/tag\/0.1.3",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/tags\/0.1.3",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/tags\/0.1.3\/manifests"
+            },
+            {
+                "name": "0.1.2",
+                "sha": "9b659fecef2030193fd02402955bc39629d5606f",
+                "kind": "tag",
+                "published_at": "2021-01-02T13:30:20.000Z",
+                "download_url": "https:\/\/codeload.github.com\/sanmai\/later\/tar.gz\/0.1.2",
+                "html_url": "https:\/\/github.com\/sanmai\/later\/releases\/tag\/0.1.2",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/tags\/0.1.2",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/tags\/0.1.2\/manifests"
+            },
+            {
+                "name": "0.1.1",
+                "sha": "d42e29e587fbac5a7a64e4081348206c2fb0987c",
+                "kind": "commit",
+                "published_at": "2020-09-14T14:07:41.000Z",
+                "download_url": "https:\/\/codeload.github.com\/sanmai\/later\/tar.gz\/0.1.1",
+                "html_url": "https:\/\/github.com\/sanmai\/later\/releases\/tag\/0.1.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/tags\/0.1.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/tags\/0.1.1\/manifests"
+            },
+            {
+                "name": "0.1",
+                "sha": "992e37bf3b76f244ae4d2ab0e181a07152e39387",
+                "kind": "tag",
+                "published_at": "2020-03-15T03:52:15.000Z",
+                "download_url": "https:\/\/codeload.github.com\/sanmai\/later\/tar.gz\/0.1",
+                "html_url": "https:\/\/github.com\/sanmai\/later\/releases\/tag\/0.1",
+                "dependencies_parsed_at": null,
+                "dependency_job_id": null,
+                "tag_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/tags\/0.1",
+                "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/sanmai%2Flater\/tags\/0.1\/manifests"
+            }
+        ]
+    },
+    "repo_metadata_updated_at": "2024-10-15T14:28:17.841Z",
+    "dependent_packages_count": 3,
+    "downloads": 11813087,
+    "downloads_period": "total",
+    "dependent_repos_count": 390,
+    "rankings": {
+        "downloads": 0.2639555915923408,
+        "dependent_repos_count": 0.45306555229838463,
+        "dependent_packages_count": 4.686724232996435,
+        "stargazers_count": 2.611182368530062,
+        "forks_count": 12.123321507163066,
+        "docker_downloads_count": 1.0964884924842513,
+        "average": 3.5391229575107563
+    },
+    "purl": "pkg:composer\/sanmai\/later",
+    "advisories": [],
+    "docker_usage_url": "https:\/\/docker.ecosyste.ms\/usage\/packagist\/sanmai\/later",
+    "docker_dependents_count": 5,
+    "docker_downloads_count": 20434,
+    "usage_url": "https:\/\/repos.ecosyste.ms\/usage\/packagist\/sanmai\/later",
+    "dependent_repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/usage\/packagist\/sanmai\/later\/dependencies",
+    "status": null,
+    "funding_links": [
+        "https:\/\/github.com\/sanmai",
+        "https:\/\/github.com\/sponsors\/sanmai"
+    ],
+    "critical": null,
+    "versions_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/sanmai%2Flater\/versions",
+    "version_numbers_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/sanmai%2Flater\/version_numbers",
+    "dependent_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/sanmai%2Flater\/dependent_packages",
+    "related_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/sanmai%2Flater\/related_packages",
+    "maintainers": [
+        {
+            "uuid": "sanmai",
+            "login": "sanmai",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 30,
+            "html_url": "https:\/\/packagist.org\/users\/sanmai",
+            "role": null,
+            "created_at": "2022-11-20T08:15:46.931Z",
+            "updated_at": "2022-11-20T08:15:46.931Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/sanmai\/packages"
+        }
+    ]
+}

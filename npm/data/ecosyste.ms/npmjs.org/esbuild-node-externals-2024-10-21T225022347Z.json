@@ -1,0 +1,79 @@
+{
+  "id": 1677041,
+  "name": "esbuild-node-externals",
+  "ecosystem": "npm",
+  "description": null,
+  "homepage": null,
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "",
+  "keywords_array": [
+    "esbuild",
+    "node_modules",
+    "esbuild-plugin",
+    "bundle"
+  ],
+  "namespace": null,
+  "versions_count": 21,
+  "first_release_published_at": "2020-11-18T18:37:17.002Z",
+  "latest_release_published_at": "2024-05-07T12:26:27.951Z",
+  "latest_release_number": "1.13.1",
+  "last_synced_at": "2024-10-21T00:31:58.287Z",
+  "created_at": "2022-04-09T14:37:33.882Z",
+  "updated_at": "2024-10-21T00:31:58.287Z",
+  "registry_url": "https://www.npmjs.com/package/esbuild-node-externals",
+  "install_command": "npm install esbuild-node-externals",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "1.15.0"
+    }
+  },
+  "repo_metadata": null,
+  "repo_metadata_updated_at": null,
+  "dependent_packages_count": 802,
+  "downloads": 269896,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 460,
+  "rankings": {
+    "downloads": 0.43957804540980694,
+    "dependent_repos_count": 0.7875063820438569,
+    "dependent_packages_count": 0.0808628658785595,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 1.402104445573326,
+    "average": 0.6775129347263873
+  },
+  "purl": "pkg:npm/esbuild-node-externals",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/esbuild-node-externals",
+  "docker_dependents_count": 14,
+  "docker_downloads_count": 288265,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/esbuild-node-externals",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/esbuild-node-externals/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/esbuild-node-externals/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/esbuild-node-externals/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/esbuild-node-externals/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/esbuild-node-externals/related_packages",
+  "maintainers": [
+    {
+      "uuid": "leopradel",
+      "login": "leopradel",
+      "name": null,
+      "email": "pradel.leo@gmail.com",
+      "url": null,
+      "packages_count": 88,
+      "html_url": "https://www.npmjs.com/~leopradel",
+      "role": null,
+      "created_at": "2022-11-10T11:49:30.214Z",
+      "updated_at": "2022-11-10T11:49:30.214Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/leopradel/packages"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 2479874,
+  "name": "try-resolve",
+  "ecosystem": "npm",
+  "description": "Try and resolve a filename",
+  "homepage": "https://github.com/sebmck/try-resolve",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/sebmck/try-resolve",
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 2,
+  "first_release_published_at": "2015-07-25T01:45:50.857Z",
+  "latest_release_published_at": "2015-07-25T01:50:28.780Z",
+  "latest_release_number": "1.0.1",
+  "last_synced_at": "2024-10-20T17:31:09.835Z",
+  "created_at": "2022-04-10T02:23:09.324Z",
+  "updated_at": "2024-10-20T17:31:09.835Z",
+  "registry_url": "https://www.npmjs.com/package/try-resolve",
+  "install_command": "npm install try-resolve",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "1.0.1"
+    }
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-09-07T14:04:41.165Z",
+  "dependent_packages_count": 36,
+  "downloads": 703757,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 24450,
+  "rankings": {
+    "downloads": 0.31384469962673267,
+    "dependent_repos_count": 0.1900834619338606,
+    "dependent_packages_count": 0.7440806346483901,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 0.1919808467626015,
+    "average": 0.3599974107428962
+  },
+  "purl": "pkg:npm/try-resolve",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/try-resolve",
+  "docker_dependents_count": 400,
+  "docker_downloads_count": 83864927,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/try-resolve",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/try-resolve/dependencies",
+  "status": "deprecated",
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/try-resolve/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/try-resolve/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/try-resolve/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/try-resolve/related_packages",
+  "maintainers": [
+    {
+      "uuid": "sebmck",
+      "login": "sebmck",
+      "name": null,
+      "email": "sebmck@gmail.com",
+      "url": null,
+      "packages_count": 50,
+      "html_url": "https://www.npmjs.com/~sebmck",
+      "role": null,
+      "created_at": "2022-11-15T03:41:46.417Z",
+      "updated_at": "2022-11-15T03:41:46.417Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/sebmck/packages"
+    }
+  ]
+}

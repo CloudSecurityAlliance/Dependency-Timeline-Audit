@@ -1,0 +1,312 @@
+{
+  "id": 1880195,
+  "name": "is-string",
+  "ecosystem": "npm",
+  "description": "Is this value a JS String object or primitive? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+  "homepage": "https://github.com/ljharb/is-string",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/ljharb/is-string",
+  "keywords_array": [
+    "String",
+    "string",
+    "ES6",
+    "toStringTag",
+    "@@toStringTag",
+    "String object"
+  ],
+  "namespace": null,
+  "versions_count": 7,
+  "first_release_published_at": "2015-01-29T08:31:52.824Z",
+  "latest_release_published_at": "2021-08-06T01:26:34.304Z",
+  "latest_release_number": "1.0.7",
+  "last_synced_at": "2024-10-07T14:46:59.756Z",
+  "created_at": "2022-04-09T17:49:22.313Z",
+  "updated_at": "2024-10-07T14:48:23.721Z",
+  "registry_url": "https://www.npmjs.com/package/is-string",
+  "install_command": "npm install is-string",
+  "documentation_url": null,
+  "metadata": {
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "dist-tags": {
+      "latest": "1.0.7"
+    }
+  },
+  "repo_metadata": {
+    "id": 26556412,
+    "uuid": "30010185",
+    "full_name": "inspect-js/is-string",
+    "owner": "inspect-js",
+    "description": "Is this value a JS String object or primitive? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2022-11-02T04:12:04.000Z",
+    "size": 82,
+    "stargazers_count": 20,
+    "open_issues_count": 2,
+    "forks_count": 3,
+    "subscribers_count": 5,
+    "default_branch": "main",
+    "last_synced_at": "2024-10-07T04:31:54.563Z",
+    "etag": null,
+    "topics": [
+      "javascript",
+      "object",
+      "string"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "",
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "mit",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/inspect-js.png",
+    "metadata": {
+      "funding": {
+        "github": [
+          "ljharb"
+        ],
+        "patreon": null,
+        "open_collective": null,
+        "ko_fi": null,
+        "tidelift": "npm/deep-equal",
+        "community_bridge": null,
+        "liberapay": null,
+        "issuehunt": null,
+        "otechie": null,
+        "custom": null
+      }
+    },
+    "created_at": "2015-01-29T08:08:38.000Z",
+    "updated_at": "2024-05-10T01:33:10.000Z",
+    "dependencies_parsed_at": "2022-09-18T11:11:08.007Z",
+    "dependency_job_id": null,
+    "html_url": "https://github.com/inspect-js/is-string",
+    "commit_stats": null,
+    "previous_names": [
+      "ljharb/is-string"
+    ],
+    "tags_count": 8,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/inspect-js",
+    "download_url": "https://codeload.github.com/inspect-js/is-string/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 219868986,
+      "owners_count": 16555584,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "inspect-js",
+      "name": "Inspect JS",
+      "uuid": "54056128",
+      "kind": "organization",
+      "description": "JavaScript value inspection tools.",
+      "email": null,
+      "website": null,
+      "location": null,
+      "twitter": null,
+      "company": null,
+      "icon_url": "https://avatars.githubusercontent.com/u/54056128?v=4",
+      "repositories_count": 76,
+      "last_synced_at": "2024-04-09T13:35:49.657Z",
+      "metadata": {
+        "has_sponsors_listing": false,
+        "funding": {
+          "github": [
+            "ljharb"
+          ],
+          "patreon": null,
+          "open_collective": null,
+          "ko_fi": null,
+          "tidelift": "npm/deep-equal",
+          "community_bridge": null,
+          "liberapay": null,
+          "issuehunt": null,
+          "otechie": null,
+          "custom": null
+        }
+      },
+      "html_url": "https://github.com/inspect-js",
+      "funding_links": [
+        "https://github.com/sponsors/ljharb",
+        "https://tidelift.com/funding/github/npm/deep-equal"
+      ],
+      "total_stars": 1536,
+      "followers": 34,
+      "following": 0,
+      "created_at": "2022-11-02T16:19:14.654Z",
+      "updated_at": "2024-04-09T13:36:16.201Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/inspect-js",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/inspect-js/repositories"
+    },
+    "tags": [
+      {
+        "name": "v1.0.7",
+        "sha": "e8a5b6d659f59e744ae03b2557e0482cd69194b3",
+        "kind": "tag",
+        "published_at": "2021-08-06T01:02:20.000Z",
+        "download_url": "https://codeload.github.com/inspect-js/is-string/tar.gz/v1.0.7",
+        "html_url": "https://github.com/inspect-js/is-string/releases/tag/v1.0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.7/manifests"
+      },
+      {
+        "name": "v1.0.6",
+        "sha": "19b18d18fb869a4aba24cd138d5a14db18781007",
+        "kind": "tag",
+        "published_at": "2021-05-08T04:05:28.000Z",
+        "download_url": "https://codeload.github.com/inspect-js/is-string/tar.gz/v1.0.6",
+        "html_url": "https://github.com/inspect-js/is-string/releases/tag/v1.0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.6/manifests"
+      },
+      {
+        "name": "v1.0.5",
+        "sha": "fdf72b6bf93438b8e7a54345467ab8cf35ef56e2",
+        "kind": "commit",
+        "published_at": "2019-12-19T04:53:40.000Z",
+        "download_url": "https://codeload.github.com/inspect-js/is-string/tar.gz/v1.0.5",
+        "html_url": "https://github.com/inspect-js/is-string/releases/tag/v1.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.5/manifests"
+      },
+      {
+        "name": "v1.0.4",
+        "sha": "bfc054522e27639dbd279a39bd7302fc859a1fd6",
+        "kind": "tag",
+        "published_at": "2015-01-30T07:43:50.000Z",
+        "download_url": "https://codeload.github.com/inspect-js/is-string/tar.gz/v1.0.4",
+        "html_url": "https://github.com/inspect-js/is-string/releases/tag/v1.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.4/manifests"
+      },
+      {
+        "name": "v1.0.3",
+        "sha": "7c27f9f7fb3c6b2fbc8d5034336fd514e3ac0986",
+        "kind": "tag",
+        "published_at": "2015-01-29T18:43:19.000Z",
+        "download_url": "https://codeload.github.com/inspect-js/is-string/tar.gz/v1.0.3",
+        "html_url": "https://github.com/inspect-js/is-string/releases/tag/v1.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.3/manifests"
+      },
+      {
+        "name": "v1.0.2",
+        "sha": "9e147ee789890b3a9c5eb5270d300ae0fc9584a7",
+        "kind": "tag",
+        "published_at": "2015-01-29T17:43:16.000Z",
+        "download_url": "https://codeload.github.com/inspect-js/is-string/tar.gz/v1.0.2",
+        "html_url": "https://github.com/inspect-js/is-string/releases/tag/v1.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.2/manifests"
+      },
+      {
+        "name": "v1.0.1",
+        "sha": "cdcb9ff46f78715e8aea501520931a364b55cb38",
+        "kind": "tag",
+        "published_at": "2015-01-29T17:36:46.000Z",
+        "download_url": "https://codeload.github.com/inspect-js/is-string/tar.gz/v1.0.1",
+        "html_url": "https://github.com/inspect-js/is-string/releases/tag/v1.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.1/manifests"
+      },
+      {
+        "name": "v1.0.0",
+        "sha": "b85f8e81b1b00643d732a91a28df2556b9019c0f",
+        "kind": "commit",
+        "published_at": "2015-01-29T08:26:42.000Z",
+        "download_url": "https://codeload.github.com/inspect-js/is-string/tar.gz/v1.0.0",
+        "html_url": "https://github.com/inspect-js/is-string/releases/tag/v1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/inspect-js%2Fis-string/tags/v1.0.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-10-07T14:48:23.721Z",
+  "dependent_packages_count": 1198,
+  "downloads": 125768733,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 1277601,
+  "rankings": {
+    "downloads": 0.010924551052973394,
+    "dependent_repos_count": 0.02737982720043457,
+    "dependent_packages_count": 0.05946898467934389,
+    "stargazers_count": 7.92035644164002,
+    "forks_count": 8.73183998238929,
+    "docker_downloads_count": 0.009500800038550798,
+    "average": 2.7932450978334358
+  },
+  "purl": "pkg:npm/is-string",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/is-string",
+  "docker_dependents_count": 18384,
+  "docker_downloads_count": 8261197389,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/is-string",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/is-string/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/ljharb",
+    "https://tidelift.com/funding/github/npm/deep-equal"
+  ],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/is-string/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/is-string/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/is-string/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/is-string/related_packages",
+  "maintainers": [
+    {
+      "uuid": "ljharb",
+      "login": "ljharb",
+      "name": null,
+      "email": "ljharb@gmail.com",
+      "url": null,
+      "packages_count": 521,
+      "html_url": "https://www.npmjs.com/~ljharb",
+      "role": null,
+      "created_at": "2022-11-10T11:05:25.847Z",
+      "updated_at": "2022-11-10T11:05:25.847Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/ljharb/packages"
+    }
+  ]
+}

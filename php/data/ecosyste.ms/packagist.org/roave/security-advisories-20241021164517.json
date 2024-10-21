@@ -1,0 +1,217 @@
+{
+    "id": 690387,
+    "name": "roave\/security-advisories",
+    "ecosystem": "packagist",
+    "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
+    "homepage": "",
+    "licenses": "MIT",
+    "normalized_licenses": [
+        "MIT"
+    ],
+    "repository_url": "https:\/\/github.com\/Roave\/SecurityAdvisories",
+    "keywords_array": [
+        "dev"
+    ],
+    "namespace": "roave",
+    "versions_count": 0,
+    "first_release_published_at": null,
+    "latest_release_published_at": "2024-05-18T00:22:37.494Z",
+    "latest_release_number": null,
+    "last_synced_at": "2024-10-21T15:34:16.814Z",
+    "created_at": "2022-04-07T10:58:27.717Z",
+    "updated_at": "2024-10-21T15:34:16.814Z",
+    "registry_url": "https:\/\/packagist.org\/packages\/roave\/security-advisories#",
+    "install_command": "composer require roave\/security-advisories",
+    "documentation_url": null,
+    "metadata": {
+        "funding": [
+            {
+                "url": "https:\/\/github.com\/Ocramius",
+                "type": "github"
+            },
+            {
+                "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/roave\/security-advisories",
+                "type": "tidelift"
+            }
+        ]
+    },
+    "repo_metadata": {
+        "id": 22875458,
+        "uuid": "26223397",
+        "full_name": "Roave\/SecurityAdvisories",
+        "owner": "Roave",
+        "description": ":closed_lock_with_key: Security advisories as a simple composer exclusion list, updated daily",
+        "archived": false,
+        "fork": false,
+        "pushed_at": "2024-09-04T15:05:12.000Z",
+        "size": 827,
+        "stargazers_count": 2698,
+        "open_issues_count": 3,
+        "forks_count": 105,
+        "subscribers_count": 78,
+        "default_branch": "latest",
+        "last_synced_at": "2024-09-06T15:04:54.049Z",
+        "etag": null,
+        "topics": [
+            "composer",
+            "infosec",
+            "php",
+            "security-advisories",
+            "security-vulnerabilities",
+            "security-vulnerability"
+        ],
+        "latest_commit_sha": null,
+        "homepage": "",
+        "language": null,
+        "has_issues": true,
+        "has_wiki": null,
+        "has_pages": null,
+        "mirror_url": null,
+        "source_name": null,
+        "license": "mit",
+        "status": null,
+        "scm": "git",
+        "pull_requests_enabled": true,
+        "icon_url": "https:\/\/github.com\/Roave.png",
+        "metadata": {
+            "files": {
+                "readme": "README.md",
+                "changelog": null,
+                "contributing": null,
+                "funding": ".github\/FUNDING.yml",
+                "license": "LICENSE",
+                "code_of_conduct": null,
+                "threat_model": null,
+                "audit": null,
+                "citation": null,
+                "codeowners": null,
+                "security": "SECURITY.md",
+                "support": null,
+                "governance": null,
+                "roadmap": null,
+                "authors": null,
+                "dei": null,
+                "publiccode": null,
+                "codemeta": null
+            },
+            "funding": {
+                "github": [
+                    "Ocramius"
+                ],
+                "tidelift": "packagist\/roave\/security-advisories"
+            }
+        },
+        "created_at": "2014-11-05T14:34:26.000Z",
+        "updated_at": "2024-09-04T15:05:17.000Z",
+        "dependencies_parsed_at": "2023-12-18T23:09:45.986Z",
+        "dependency_job_id": "f72d68b2-bc26-4cb6-9ad6-0e4758235868",
+        "html_url": "https:\/\/github.com\/Roave\/SecurityAdvisories",
+        "commit_stats": {
+            "total_commits": 1107,
+            "total_committers": 12,
+            "mean_commits": 92.25,
+            "dds": "0.013550135501354976",
+            "last_synced_commit": "5eb9b0587e4625150e4892e569bb223714c86256"
+        },
+        "previous_names": [],
+        "tags_count": 0,
+        "template": false,
+        "template_full_name": null,
+        "repository_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/Roave%2FSecurityAdvisories",
+        "tags_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/Roave%2FSecurityAdvisories\/tags",
+        "releases_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/Roave%2FSecurityAdvisories\/releases",
+        "manifests_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories\/Roave%2FSecurityAdvisories\/manifests",
+        "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/Roave",
+        "download_url": "https:\/\/codeload.github.com\/Roave\/SecurityAdvisories\/tar.gz\/refs\/heads\/latest",
+        "host": {
+            "name": "GitHub",
+            "url": "https:\/\/github.com",
+            "kind": "github",
+            "repositories_count": 218212527,
+            "owners_count": 16294578,
+            "icon_url": "https:\/\/github.com\/github.png",
+            "version": null,
+            "created_at": "2022-05-30T11:31:42.601Z",
+            "updated_at": "2022-07-04T15:15:14.044Z",
+            "host_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repositories",
+            "repository_names_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/repository_names",
+            "owners_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners"
+        },
+        "owner_record": {
+            "login": "Roave",
+            "name": "Roave, LLC",
+            "uuid": "3029050",
+            "kind": "organization",
+            "description": "",
+            "email": "info@roave.com",
+            "website": "http:\/\/roave.com",
+            "location": "Earth, Solar System, Orion Arm, Milky Way, Local Group, Virgo Supercluster, The Universe ",
+            "twitter": null,
+            "company": null,
+            "icon_url": "https:\/\/avatars.githubusercontent.com\/u\/3029050?v=4",
+            "repositories_count": 47,
+            "last_synced_at": "2024-03-25T20:21:22.292Z",
+            "metadata": {
+                "has_sponsors_listing": false
+            },
+            "html_url": "https:\/\/github.com\/Roave",
+            "funding_links": [],
+            "total_stars": 6797,
+            "followers": 54,
+            "following": 0,
+            "created_at": "2022-11-02T16:30:22.246Z",
+            "updated_at": "2024-03-25T20:21:25.939Z",
+            "owner_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/Roave",
+            "repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/hosts\/GitHub\/owners\/Roave\/repositories"
+        },
+        "tags": []
+    },
+    "repo_metadata_updated_at": "2024-09-08T21:28:28.000Z",
+    "dependent_packages_count": 5796,
+    "downloads": 69411015,
+    "downloads_period": "total",
+    "dependent_repos_count": 15190,
+    "rankings": {
+        "downloads": 0.07994191376541082,
+        "dependent_repos_count": 0.07651932418524032,
+        "dependent_packages_count": 0.005622825738851526,
+        "stargazers_count": 0.13714805389111764,
+        "forks_count": 0.5718169305727704,
+        "docker_downloads_count": 0.3689062626055197,
+        "average": 0.20665921845981838
+    },
+    "purl": "pkg:composer\/roave\/security-advisories",
+    "advisories": [],
+    "docker_usage_url": "https:\/\/docker.ecosyste.ms\/usage\/packagist\/roave\/security-advisories",
+    "docker_dependents_count": 50,
+    "docker_downloads_count": 273463,
+    "usage_url": "https:\/\/repos.ecosyste.ms\/usage\/packagist\/roave\/security-advisories",
+    "dependent_repositories_url": "https:\/\/repos.ecosyste.ms\/api\/v1\/usage\/packagist\/roave\/security-advisories\/dependencies",
+    "status": null,
+    "funding_links": [
+        "https:\/\/github.com\/Ocramius",
+        "https:\/\/tidelift.com\/funding\/github\/packagist\/roave\/security-advisories",
+        "https:\/\/github.com\/sponsors\/Ocramius"
+    ],
+    "critical": true,
+    "versions_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/roave%2Fsecurity-advisories\/versions",
+    "version_numbers_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/roave%2Fsecurity-advisories\/version_numbers",
+    "dependent_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/roave%2Fsecurity-advisories\/dependent_packages",
+    "related_packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/packages\/roave%2Fsecurity-advisories\/related_packages",
+    "maintainers": [
+        {
+            "uuid": "Ocramius",
+            "login": "Ocramius",
+            "name": null,
+            "email": null,
+            "url": null,
+            "packages_count": 57,
+            "html_url": "https:\/\/packagist.org\/users\/Ocramius",
+            "role": null,
+            "created_at": "2022-11-10T10:43:08.325Z",
+            "updated_at": "2022-11-10T10:43:08.325Z",
+            "packages_url": "https:\/\/packages.ecosyste.ms\/api\/v1\/registries\/packagist.org\/maintainers\/Ocramius\/packages"
+        }
+    ]
+}

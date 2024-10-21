@@ -1,0 +1,88 @@
+{
+  "id": 2960620,
+  "name": "uri-template",
+  "ecosystem": "pypi",
+  "description": "RFC 6570 URI Template Processor",
+  "homepage": null,
+  "licenses": "MIT License",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": null,
+  "keywords_array": [
+    "config"
+  ],
+  "namespace": null,
+  "versions_count": 5,
+  "first_release_published_at": "2020-01-27T03:18:33.000Z",
+  "latest_release_published_at": "2023-06-21T01:49:03.000Z",
+  "latest_release_number": "1.3.0",
+  "last_synced_at": "2024-10-21T14:09:28.766Z",
+  "created_at": "2022-04-10T12:58:25.267Z",
+  "updated_at": "2024-10-21T14:09:28.766Z",
+  "registry_url": "https://pypi.org/project/uri-template/",
+  "install_command": "pip install uri-template --index-url https://pypi.org/simple",
+  "documentation_url": "https://uri-template.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Software Development :: Libraries :: Python Modules"
+    ],
+    "normalized_name": "uri-template"
+  },
+  "repo_metadata": null,
+  "repo_metadata_updated_at": "2023-04-26T17:51:48.520Z",
+  "dependent_packages_count": 49,
+  "downloads": 20008298,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 8519,
+  "rankings": {
+    "downloads": 0.0649294671565112,
+    "dependent_repos_count": 0.09574345156977075,
+    "dependent_packages_count": 0.38517480516574437,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 0.37710447591465257,
+    "average": 0.23073804995166972
+  },
+  "purl": "pkg:pypi/uri-template",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/uri-template",
+  "docker_dependents_count": 958,
+  "docker_downloads_count": 568871305,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/uri-template",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/uri-template/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/uri-template/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/uri-template/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/uri-template/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/uri-template/related_packages",
+  "maintainers": [
+    {
+      "uuid": "plinss",
+      "login": "plinss",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 15,
+      "html_url": "https://pypi.org/user/plinss/",
+      "role": null,
+      "created_at": "2023-02-25T17:52:09.908Z",
+      "updated_at": "2023-02-25T17:52:09.908Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/plinss/packages"
+    }
+  ]
+}

@@ -1,0 +1,775 @@
+{
+  "id": 1487146,
+  "name": "braces",
+  "ecosystem": "npm",
+  "description": "Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.",
+  "homepage": "https://github.com/micromatch/braces",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/micromatch/braces",
+  "keywords_array": [
+    "alpha",
+    "alphabetical",
+    "bash",
+    "brace",
+    "braces",
+    "expand",
+    "expansion",
+    "filepath",
+    "fill",
+    "fs",
+    "glob",
+    "globbing",
+    "letter",
+    "match",
+    "matches",
+    "matching",
+    "number",
+    "numerical",
+    "path",
+    "range",
+    "ranges",
+    "sh"
+  ],
+  "namespace": null,
+  "versions_count": 37,
+  "first_release_published_at": "2014-10-20T16:26:32.656Z",
+  "latest_release_published_at": "2019-04-16T19:51:12.829Z",
+  "latest_release_number": "3.0.2",
+  "last_synced_at": "2024-10-21T12:05:52.757Z",
+  "created_at": "2022-04-09T03:00:20.631Z",
+  "updated_at": "2024-10-21T12:05:52.757Z",
+  "registry_url": "https://www.npmjs.com/package/braces",
+  "install_command": "npm install braces",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "3.0.3"
+    }
+  },
+  "repo_metadata": {
+    "id": 22144171,
+    "uuid": "25475303",
+    "full_name": "micromatch/braces",
+    "owner": "micromatch",
+    "description": "Faster brace expansion for node.js. Besides being faster, braces is not subject to DoS attacks like minimatch, is more accurate, and has more complete support for Bash 4.3.",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2024-07-04T15:56:08.000Z",
+    "size": 396,
+    "stargazers_count": 217,
+    "open_issues_count": 11,
+    "forks_count": 62,
+    "subscribers_count": 11,
+    "default_branch": "master",
+    "last_synced_at": "2024-08-29T11:10:32.180Z",
+    "etag": null,
+    "topics": [
+      "brace-expansion",
+      "brace-matching",
+      "brace-patterns",
+      "braces",
+      "expansion",
+      "glob",
+      "glob-matcher",
+      "glob-pattern",
+      "globbing",
+      "javascript",
+      "minimatch",
+      "multimatch",
+      "node",
+      "nodejs",
+      "regular-expression",
+      "tidelift"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "https://github.com/jonschlinkert",
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "mit",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/micromatch.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": "CHANGELOG.md",
+        "contributing": null,
+        "funding": null,
+        "license": "LICENSE",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": null,
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null,
+        "publiccode": null,
+        "codemeta": null
+      },
+      "funding": {
+        "github": [
+          "doowb",
+          "jonschlinkert"
+        ]
+      }
+    },
+    "created_at": "2014-10-20T16:26:13.000Z",
+    "updated_at": "2024-08-29T00:22:23.000Z",
+    "dependencies_parsed_at": "2024-05-21T08:51:51.939Z",
+    "dependency_job_id": "5a76b7ee-1a09-42cc-bdea-f80d68e1e92c",
+    "html_url": "https://github.com/micromatch/braces",
+    "commit_stats": {
+      "total_commits": 217,
+      "total_committers": 9,
+      "mean_commits": 24.11111111111111,
+      "dds": "0.20276497695852536",
+      "last_synced_commit": "98414f9f1fabe021736e26836d8306d5de747e0d"
+    },
+    "previous_names": [],
+    "tags_count": 30,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/micromatch",
+    "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/refs/heads/master",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 217598303,
+      "owners_count": 16201843,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "micromatch",
+      "name": "micromatch",
+      "uuid": "26890389",
+      "kind": "organization",
+      "description": "Libraries for fast, accurate glob matching.",
+      "email": null,
+      "website": "https://github.com/jonschlinkert",
+      "location": null,
+      "twitter": "jonschlinkert",
+      "company": null,
+      "icon_url": "https://avatars.githubusercontent.com/u/26890389?v=4",
+      "repositories_count": 28,
+      "last_synced_at": "2024-03-25T19:35:16.965Z",
+      "metadata": {
+        "has_sponsors_listing": false,
+        "funding": {
+          "github": [
+            "doowb",
+            "jonschlinkert"
+          ]
+        }
+      },
+      "html_url": "https://github.com/micromatch",
+      "funding_links": [
+        "https://github.com/sponsors/doowb",
+        "https://github.com/sponsors/jonschlinkert"
+      ],
+      "total_stars": 4648,
+      "followers": 40,
+      "following": 0,
+      "created_at": "2022-11-02T16:18:53.320Z",
+      "updated_at": "2024-03-25T19:35:24.848Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/micromatch",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/micromatch/repositories"
+    },
+    "tags": [
+      {
+        "name": "3.0.3",
+        "sha": "74b2db2938fad48a2ea54a9c8bf27a37a62c350d",
+        "kind": "tag",
+        "published_at": "2024-05-21T09:00:29.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/3.0.3",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/3.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/3.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/3.0.3/manifests"
+      },
+      {
+        "name": "3.0.2",
+        "sha": "25791512d219b284bd62bb068cae85d8e68bd05b",
+        "kind": "tag",
+        "published_at": "2019-04-16T19:50:48.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/3.0.2",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/3.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/3.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/3.0.2/manifests"
+      },
+      {
+        "name": "3.0.1",
+        "sha": "3c51342023661b8d07444509c32ce294b6cb43e7",
+        "kind": "commit",
+        "published_at": "2019-04-10T11:29:54.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/3.0.1",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/3.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/3.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/3.0.1/manifests"
+      },
+      {
+        "name": "2.3.1",
+        "sha": "b37f6972503348af5ecec46ff65a3a9d12d21274",
+        "kind": "commit",
+        "published_at": "2018-02-18T04:16:37.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/2.3.1",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/2.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.3.1/manifests"
+      },
+      {
+        "name": "2.3.0",
+        "sha": "91e78bb8c4a208343fd3801a29c018c5c46e34e7",
+        "kind": "commit",
+        "published_at": "2017-10-19T13:37:13.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/2.3.0",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/2.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.3.0/manifests"
+      },
+      {
+        "name": "2.2.2",
+        "sha": "088bf030f28aacf1ebbc49b05820c5f5742e9f5f",
+        "kind": "commit",
+        "published_at": "2017-05-31T09:56:33.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/2.2.2",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/2.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.2.2/manifests"
+      },
+      {
+        "name": "2.2.1",
+        "sha": "2ff58709c2dc334a99868895f1073e38e1c2cc83",
+        "kind": "commit",
+        "published_at": "2017-05-31T01:21:13.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/2.2.1",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/2.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.2.1/manifests"
+      },
+      {
+        "name": "1.8.4",
+        "sha": "de218311bfb9d3c72531beafec67c6572b5e9c18",
+        "kind": "tag",
+        "published_at": "2017-05-31T01:12:46.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.8.4",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.8.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.8.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.8.4/manifests"
+      },
+      {
+        "name": "1.8.3",
+        "sha": "ce680b7c1eb81a77e43096adec26c7c4ebfd3332",
+        "kind": "tag",
+        "published_at": "2017-05-31T01:12:46.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.8.3",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.8.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.8.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.8.3/manifests"
+      },
+      {
+        "name": "1.8.1",
+        "sha": "04aa03dccdadaf469bb7cad86ac8a31d21e974d7",
+        "kind": "tag",
+        "published_at": "2017-05-31T01:12:46.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.8.1",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.8.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.8.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.8.1/manifests"
+      },
+      {
+        "name": "1.8.0",
+        "sha": "363b6a1e62c480210758ec5de8faa6b277dc5ae0",
+        "kind": "tag",
+        "published_at": "2017-05-31T01:12:46.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.8.0",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.8.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.8.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.8.0/manifests"
+      },
+      {
+        "name": "1.5.1",
+        "sha": "25551ac2f8dade4ee68b4eeece4a338a9d8263f2",
+        "kind": "tag",
+        "published_at": "2017-05-31T01:12:46.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.5.1",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.5.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.5.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.5.1/manifests"
+      },
+      {
+        "name": "1.5.0",
+        "sha": "54cf0d928f4b3085e46318d6b0201f8a2a9af9da",
+        "kind": "tag",
+        "published_at": "2017-05-31T01:12:46.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.5.0",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.5.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.5.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.5.0/manifests"
+      },
+      {
+        "name": "1.0.0",
+        "sha": "6580dac823789ff177572789e7f4159c59978ece",
+        "kind": "tag",
+        "published_at": "2017-05-31T01:12:46.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.0.0",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.0.0/manifests"
+      },
+      {
+        "name": "0.1.4",
+        "sha": "5ab996d4513a7cbc9d254cb9c14cf9866c872d6b",
+        "kind": "tag",
+        "published_at": "2017-05-31T01:12:46.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/0.1.4",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/0.1.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/0.1.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/0.1.4/manifests"
+      },
+      {
+        "name": "2.1.1",
+        "sha": "9a2ca2624823578aa68b624ffe71e089da66261d",
+        "kind": "tag",
+        "published_at": "2017-05-31T01:12:46.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/2.1.1",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/2.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.1.1/manifests"
+      },
+      {
+        "name": "2.2.0",
+        "sha": "6acf24280dbdeff24ea0b2d76fef3314ee2869dd",
+        "kind": "commit",
+        "published_at": "2017-05-28T23:30:08.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/2.2.0",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/2.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.2.0/manifests"
+      },
+      {
+        "name": "2.1.0",
+        "sha": "3bfb5df3f4cf18cf098f22f0005b365d96a7ca62",
+        "kind": "commit",
+        "published_at": "2017-04-26T22:38:43.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/2.1.0",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/2.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.1.0/manifests"
+      },
+      {
+        "name": "2.0.4",
+        "sha": "338007157b42a05b31c0cfb2185f731ba7f89b0a",
+        "kind": "commit",
+        "published_at": "2017-04-12T01:12:46.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/2.0.4",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/2.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.0.4/manifests"
+      },
+      {
+        "name": "2.0.3",
+        "sha": "c76c49e07d227a7e866fb1110ac36cabcc0af016",
+        "kind": "commit",
+        "published_at": "2016-12-11T01:13:26.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/2.0.3",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/2.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.0.3/manifests"
+      },
+      {
+        "name": "2.0.2",
+        "sha": "ce5d32c763415b197d8552a20dadb890b2dd8ccf",
+        "kind": "commit",
+        "published_at": "2016-10-21T06:46:43.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/2.0.2",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/2.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.0.2/manifests"
+      },
+      {
+        "name": "2.0.1",
+        "sha": "1a83fff4d11f3694f960b9b8b9aa15137a9785d3",
+        "kind": "commit",
+        "published_at": "2016-10-20T21:05:31.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/2.0.1",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/2.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.0.1/manifests"
+      },
+      {
+        "name": "2.0.0",
+        "sha": "0a51e21e960305fd4b22fd6136ede8d977da221c",
+        "kind": "commit",
+        "published_at": "2016-10-20T01:32:13.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/2.0.0",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/2.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/2.0.0/manifests"
+      },
+      {
+        "name": "1.8.5",
+        "sha": "abbde9b411389ddb25c35bb80975bc2b84059c49",
+        "kind": "tag",
+        "published_at": "2016-05-21T15:15:23.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.8.5",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.8.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.8.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.8.5/manifests"
+      },
+      {
+        "name": "1.8.2",
+        "sha": "9ab31c0dbf663ad08a7d9519286858f24e2ea9ac",
+        "kind": "tag",
+        "published_at": "2015-10-19T17:45:52.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.8.2",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.8.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.8.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.8.2/manifests"
+      },
+      {
+        "name": "1.7.0",
+        "sha": "3960c6f34a4383b657e9bac59fe1345e5d3177c1",
+        "kind": "tag",
+        "published_at": "2015-01-31T00:21:08.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.7.0",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.7.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.7.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.7.0/manifests"
+      },
+      {
+        "name": "1.4.0",
+        "sha": "4026752b8795c282a4ba2546eb88c9d1ee9b6653",
+        "kind": "tag",
+        "published_at": "2015-01-25T00:30:30.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.4.0",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.4.0/manifests"
+      },
+      {
+        "name": "1.3.0",
+        "sha": "42d77469232dcf7a2d6cea0fbee1932fb8b56b86",
+        "kind": "tag",
+        "published_at": "2015-01-24T11:31:18.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.3.0",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.3.0/manifests"
+      },
+      {
+        "name": "1.2.0",
+        "sha": "0255915a73f3feaf271261e589cc8975c1e15596",
+        "kind": "tag",
+        "published_at": "2015-01-16T11:52:26.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.2.0",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.2.0/manifests"
+      },
+      {
+        "name": "1.1.0",
+        "sha": "762112a749c669e7fae57eace98e481e145b3bfa",
+        "kind": "tag",
+        "published_at": "2015-01-12T00:42:01.000Z",
+        "download_url": "https://codeload.github.com/micromatch/braces/tar.gz/1.1.0",
+        "html_url": "https://github.com/micromatch/braces/releases/tag/1.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/micromatch%2Fbraces/tags/1.1.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-09-08T12:06:45.354Z",
+  "dependent_packages_count": 2619,
+  "downloads": 281276371,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 1237028,
+  "rankings": {
+    "downloads": 0.002436804620838677,
+    "dependent_repos_count": 0.02809170270764587,
+    "dependent_packages_count": 0.030665406464486723,
+    "stargazers_count": 4.102346889268312,
+    "forks_count": 4.716640692337262,
+    "docker_downloads_count": 0.007447312998518203,
+    "average": 1.4812714680661774
+  },
+  "purl": "pkg:npm/braces",
+  "advisories": [
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWN3ZnctNGdxNS1tcnF4",
+      "url": "https://github.com/advisories/GHSA-cwfw-4gq5-mrqx",
+      "title": "Regular Expression Denial of Service (ReDoS) in braces",
+      "description": "A vulnerability was found in Braces versions prior to 2.3.1. Affected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) attacks.",
+      "origin": "UNSPECIFIED",
+      "severity": "LOW",
+      "published_at": "2022-01-06T20:42:03.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2018-1109",
+        "https://github.com/micromatch/braces/commit/abdafb0cae1e0c00f184abbadc692f4eaa98f451",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=1547272",
+        "https://snyk.io/vuln/npm:braces:20180219",
+        "https://github.com/advisories/GHSA-cwfw-4gq5-mrqx"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-cwfw-4gq5-mrqx",
+        "CVE-2018-1109"
+      ],
+      "repository_url": "https://github.com/micromatch/braces",
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.3.1",
+              "vulnerable_version_range": "< 2.3.1"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "braces"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:09.004Z",
+      "updated_at": "2023-02-01T05:05:12.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWc5NWYtcDI5cS05eHc0",
+      "url": "https://github.com/advisories/GHSA-g95f-p29q-9xw4",
+      "title": "Regular Expression Denial of Service in braces",
+      "description": "Versions of `braces` prior to 2.3.1 are vulnerable to Regular Expression Denial of Service (ReDoS). Untrusted input may cause catastrophic backtracking while matching regular expressions. This can cause the application to be unresponsive leading to Denial of Service.\n\n\n## Recommendation\n\nUpgrade to version 2.3.1 or higher.",
+      "origin": "UNSPECIFIED",
+      "severity": "LOW",
+      "published_at": "2019-06-06T15:30:30.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 3.7,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "references": [
+        "https://github.com/micromatch/braces/commit/abdafb0cae1e0c00f184abbadc692f4eaa98f451",
+        "https://www.npmjs.com/advisories/786",
+        "https://snyk.io/vuln/npm:braces:20180219",
+        "https://github.com/advisories/GHSA-g95f-p29q-9xw4"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-g95f-p29q-9xw4"
+      ],
+      "repository_url": "https://github.com/micromatch/braces",
+      "blast_radius": 22.541804260817816,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.3.1",
+              "vulnerable_version_range": "< 2.3.1"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "braces"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:29.610Z",
+      "updated_at": "2023-01-09T05:01:42.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1ncnY3LWZnNWMteG1qZ84AA7_S",
+      "url": "https://github.com/advisories/GHSA-grv7-fg5c-xmjg",
+      "title": "Uncontrolled resource consumption in braces",
+      "description": "The NPM package `braces` fails to limit the number of characters it can handle, which could lead to Memory Exhaustion. In `lib/parse.js,` if a malicious user sends \"imbalanced braces\" as input, the parsing will enter a loop, which will cause the program to start allocating heap memory without freeing it at any moment of the loop. Eventually, the JavaScript heap limit is reached, and the program will crash.\n",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2024-05-14T18:30:54.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2024-4068",
+        "https://github.com/micromatch/braces/issues/35",
+        "https://devhub.checkmarx.com/cve-details/CVE-2024-4068",
+        "https://github.com/micromatch/braces/blob/98414f9f1fabe021736e26836d8306d5de747e0d/lib/parse.js#L308",
+        "https://github.com/micromatch/braces/pull/37",
+        "https://github.com/micromatch/braces/pull/40",
+        "https://github.com/micromatch/braces/commit/415d660c3002d1ab7e63dbf490c9851da80596ff",
+        "https://github.com/advisories/GHSA-grv7-fg5c-xmjg"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-grv7-fg5c-xmjg",
+        "CVE-2024-4068"
+      ],
+      "repository_url": "https://github.com/micromatch/braces",
+      "blast_radius": 45.692846474630706,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "3.0.3",
+              "vulnerable_version_range": "< 3.0.3"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "braces"
+        }
+      ],
+      "created_at": "2024-06-10T21:05:31.295Z",
+      "updated_at": "2024-07-05T21:25:08.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/braces",
+  "docker_dependents_count": 45424,
+  "docker_downloads_count": 10298451925,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/braces",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/braces/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/doowb",
+    "https://github.com/sponsors/jonschlinkert"
+  ],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/braces/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/braces/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/braces/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/braces/related_packages",
+  "maintainers": [
+    {
+      "uuid": "es128",
+      "login": "es128",
+      "name": null,
+      "email": "elan.shanker+npm@gmail.com",
+      "url": null,
+      "packages_count": 46,
+      "html_url": "https://www.npmjs.com/~es128",
+      "role": null,
+      "created_at": "2022-11-11T15:39:41.674Z",
+      "updated_at": "2022-11-11T15:39:41.674Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/es128/packages"
+    },
+    {
+      "uuid": "doowb",
+      "login": "doowb",
+      "name": null,
+      "email": "brian.woodward@gmail.com",
+      "url": null,
+      "packages_count": 813,
+      "html_url": "https://www.npmjs.com/~doowb",
+      "role": null,
+      "created_at": "2022-11-11T15:39:41.664Z",
+      "updated_at": "2022-11-11T15:39:41.664Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/doowb/packages"
+    },
+    {
+      "uuid": "jonschlinkert",
+      "login": "jonschlinkert",
+      "name": null,
+      "email": "github@sellside.com",
+      "url": null,
+      "packages_count": 1473,
+      "html_url": "https://www.npmjs.com/~jonschlinkert",
+      "role": null,
+      "created_at": "2022-11-11T15:39:41.684Z",
+      "updated_at": "2022-11-11T15:39:41.684Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/jonschlinkert/packages"
+    },
+    {
+      "uuid": "paulmillr",
+      "login": "paulmillr",
+      "name": null,
+      "email": "paul@paulmillr.com",
+      "url": null,
+      "packages_count": 145,
+      "html_url": "https://www.npmjs.com/~paulmillr",
+      "role": null,
+      "created_at": "2024-05-17T22:32:54.887Z",
+      "updated_at": "2024-05-17T22:32:54.887Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/paulmillr/packages"
+    }
+  ]
+}

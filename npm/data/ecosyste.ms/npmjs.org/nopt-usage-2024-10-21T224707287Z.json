@@ -1,0 +1,80 @@
+{
+  "id": 2109523,
+  "name": "nopt-usage",
+  "ecosystem": "npm",
+  "description": "This module generates a usage string for nopt options. It's based on [this](https://github.com/npm/nopt/pull/13) PR from Filirom1.",
+  "homepage": null,
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "",
+  "keywords_array": [
+    "nopt",
+    "option",
+    "parser",
+    "help",
+    "usage"
+  ],
+  "namespace": null,
+  "versions_count": 1,
+  "first_release_published_at": "2014-01-12T19:16:47.902Z",
+  "latest_release_published_at": "2014-01-12T19:16:47.902Z",
+  "latest_release_number": "0.1.0",
+  "last_synced_at": "2024-10-21T17:01:45.286Z",
+  "created_at": "2022-04-09T21:08:13.469Z",
+  "updated_at": "2024-10-21T17:01:45.287Z",
+  "registry_url": "https://www.npmjs.com/package/nopt-usage",
+  "install_command": "npm install nopt-usage",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "0.1.0"
+    }
+  },
+  "repo_metadata": null,
+  "repo_metadata_updated_at": null,
+  "dependent_packages_count": 22,
+  "downloads": 282826,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 408,
+  "rankings": {
+    "downloads": 0.5909156628936683,
+    "dependent_repos_count": 0.8251545045556252,
+    "dependent_packages_count": 1.1044834754801922,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": 1.7097092989687372,
+    "average": 1.0575657354745558
+  },
+  "purl": "pkg:npm/nopt-usage",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/nopt-usage",
+  "docker_dependents_count": 9,
+  "docker_downloads_count": 1362,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/nopt-usage",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/nopt-usage/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/nopt-usage/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/nopt-usage/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/nopt-usage/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/nopt-usage/related_packages",
+  "maintainers": [
+    {
+      "uuid": "zaach",
+      "login": "zaach",
+      "name": null,
+      "email": "zack.carter@gmail.com",
+      "url": null,
+      "packages_count": 38,
+      "html_url": "https://www.npmjs.com/~zaach",
+      "role": null,
+      "created_at": "2022-11-13T13:52:54.474Z",
+      "updated_at": "2022-11-13T13:52:54.474Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/zaach/packages"
+    }
+  ]
+}

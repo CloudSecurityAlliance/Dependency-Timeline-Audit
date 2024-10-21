@@ -1,0 +1,255 @@
+{
+  "id": 2511389,
+  "name": "util-extend",
+  "ecosystem": "npm",
+  "description": "Node's internal object extension function",
+  "homepage": "https://github.com/isaacs/util-extend",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/isaacs/util-extend",
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 4,
+  "first_release_published_at": "2013-02-23T17:59:04.954Z",
+  "latest_release_published_at": "2016-01-10T02:22:29.145Z",
+  "latest_release_number": "1.0.3",
+  "last_synced_at": "2024-10-17T15:23:34.689Z",
+  "created_at": "2022-04-10T02:49:54.540Z",
+  "updated_at": "2024-10-17T15:23:37.104Z",
+  "registry_url": "https://www.npmjs.com/package/util-extend",
+  "install_command": "npm install util-extend",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "1.0.3"
+    }
+  },
+  "repo_metadata": {
+    "id": 7088579,
+    "uuid": "8379254",
+    "full_name": "isaacs/util-extend",
+    "owner": "isaacs",
+    "description": "Node's internal object extension function, for you!",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2023-03-07T12:03:57.000Z",
+    "size": 258,
+    "stargazers_count": 29,
+    "open_issues_count": 3,
+    "forks_count": 4,
+    "subscribers_count": 2,
+    "default_branch": "main",
+    "last_synced_at": "2024-10-11T00:09:42.405Z",
+    "etag": null,
+    "topics": [],
+    "latest_commit_sha": null,
+    "homepage": null,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "mit",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/isaacs.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": null,
+        "contributing": null,
+        "funding": null,
+        "license": "LICENSE",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": null,
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null,
+        "publiccode": null,
+        "codemeta": null
+      },
+      "funding": {
+        "github": [
+          "isaacs"
+        ]
+      }
+    },
+    "created_at": "2013-02-23T17:57:56.000Z",
+    "updated_at": "2023-12-11T03:29:59.000Z",
+    "dependencies_parsed_at": "2024-06-18T14:01:17.272Z",
+    "dependency_job_id": "7cb244af-900a-4ae0-84d0-52591873f231",
+    "html_url": "https://github.com/isaacs/util-extend",
+    "commit_stats": {
+      "total_commits": 13,
+      "total_committers": 3,
+      "mean_commits": 4.333333333333333,
+      "dds": "0.15384615384615385",
+      "last_synced_commit": "584e75cc534081e354fc4a3445daab67abf9ae50"
+    },
+    "previous_names": [],
+    "tags_count": 4,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Futil-extend",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Futil-extend/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Futil-extend/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Futil-extend/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/isaacs",
+    "download_url": "https://codeload.github.com/isaacs/util-extend/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 220089941,
+      "owners_count": 16592908,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "isaacs",
+      "name": "isaacs",
+      "uuid": "9287",
+      "kind": "user",
+      "description": "npm inventor, founder npm, Inc.\r\nFormer Node BDFL.\r\nAll opinions are my own. Literally all of them. I own them all.",
+      "email": "",
+      "website": "http://blog.izs.me",
+      "location": "Oakland CA",
+      "twitter": null,
+      "company": "vlt.sh",
+      "icon_url": "https://avatars.githubusercontent.com/u/9287?u=55c7d6ddb9f37d0ad9785c313b50d737d58bf79b&v=4",
+      "repositories_count": 464,
+      "last_synced_at": "2024-05-20T14:46:38.194Z",
+      "metadata": {
+        "has_sponsors_listing": true,
+        "funding": {
+          "github": [
+            "isaacs"
+          ]
+        }
+      },
+      "html_url": "https://github.com/isaacs",
+      "funding_links": [
+        "https://github.com/sponsors/isaacs"
+      ],
+      "total_stars": 36530,
+      "followers": 14685,
+      "following": 4,
+      "created_at": "2022-11-02T16:19:00.493Z",
+      "updated_at": "2024-05-20T14:46:52.353Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/isaacs",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/isaacs/repositories"
+    },
+    "tags": [
+      {
+        "name": "v1.0.3",
+        "sha": "22757dc229edbb253af63d533f27a837184f4a51",
+        "kind": "tag",
+        "published_at": "2016-01-10T02:22:14.000Z",
+        "download_url": "https://codeload.github.com/isaacs/util-extend/tar.gz/v1.0.3",
+        "html_url": "https://github.com/isaacs/util-extend/releases/tag/v1.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Futil-extend/tags/v1.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Futil-extend/tags/v1.0.3/manifests"
+      },
+      {
+        "name": "v1.0.2",
+        "sha": "8f27dbc5ef0c13c75dc5b6151ffc346a444045f3",
+        "kind": "tag",
+        "published_at": "2016-01-10T02:20:17.000Z",
+        "download_url": "https://codeload.github.com/isaacs/util-extend/tar.gz/v1.0.2",
+        "html_url": "https://github.com/isaacs/util-extend/releases/tag/v1.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Futil-extend/tags/v1.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Futil-extend/tags/v1.0.2/manifests"
+      },
+      {
+        "name": "v1.0.1",
+        "sha": "21819130fc18bf83a05317a60e31938c75b7ebc8",
+        "kind": "tag",
+        "published_at": "2013-07-22T19:45:45.000Z",
+        "download_url": "https://codeload.github.com/isaacs/util-extend/tar.gz/v1.0.1",
+        "html_url": "https://github.com/isaacs/util-extend/releases/tag/v1.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Futil-extend/tags/v1.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Futil-extend/tags/v1.0.1/manifests"
+      },
+      {
+        "name": "v1.0.0",
+        "sha": "257cbaafd53e191eaa2c1ff4a780da67571126c9",
+        "kind": "tag",
+        "published_at": "2013-02-23T17:58:27.000Z",
+        "download_url": "https://codeload.github.com/isaacs/util-extend/tar.gz/v1.0.0",
+        "html_url": "https://github.com/isaacs/util-extend/releases/tag/v1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Futil-extend/tags/v1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Futil-extend/tags/v1.0.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-10-17T15:23:37.104Z",
+  "dependent_packages_count": 178,
+  "downloads": 3714072,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 98903,
+  "rankings": {
+    "downloads": 0.14486834444467184,
+    "dependent_repos_count": 0.09909241439859033,
+    "dependent_packages_count": 0.24582575641605786,
+    "stargazers_count": 6.995771353654686,
+    "forks_count": 8.203523442042984,
+    "docker_downloads_count": 0.02234134491532574,
+    "average": 2.618570442645386
+  },
+  "purl": "pkg:npm/util-extend",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/util-extend",
+  "docker_dependents_count": 23090,
+  "docker_downloads_count": 3161575297,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/util-extend",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/util-extend/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/isaacs"
+  ],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/util-extend/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/util-extend/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/util-extend/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/util-extend/related_packages",
+  "maintainers": [
+    {
+      "uuid": "isaacs",
+      "login": "isaacs",
+      "name": null,
+      "email": "i@izs.me",
+      "url": null,
+      "packages_count": 442,
+      "html_url": "https://www.npmjs.com/~isaacs",
+      "role": null,
+      "created_at": "2022-11-15T06:11:27.257Z",
+      "updated_at": "2022-11-15T06:11:27.257Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/isaacs/packages"
+    }
+  ]
+}

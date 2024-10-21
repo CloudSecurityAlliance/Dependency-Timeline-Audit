@@ -1,0 +1,1031 @@
+{
+  "id": 1371183,
+  "name": "@xmldom/xmldom",
+  "ecosystem": "npm",
+  "description": "A pure JavaScript W3C standard-based (XML DOM Level 2 Core) DOMParser and XMLSerializer module.",
+  "homepage": "https://github.com/xmldom/xmldom",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/xmldom/xmldom",
+  "keywords_array": [
+    "w3c",
+    "dom",
+    "xml",
+    "parser",
+    "javascript",
+    "DOMParser",
+    "XMLSerializer",
+    "ponyfill"
+  ],
+  "namespace": "xmldom",
+  "versions_count": 41,
+  "first_release_published_at": "2021-08-19T19:35:11.460Z",
+  "latest_release_published_at": "2023-07-19T18:31:26.770Z",
+  "latest_release_number": "0.8.10",
+  "last_synced_at": "2024-10-21T15:31:07.160Z",
+  "created_at": "2022-04-08T22:45:25.721Z",
+  "updated_at": "2024-10-21T15:31:07.161Z",
+  "registry_url": "https://www.npmjs.com/package/@xmldom/xmldom",
+  "install_command": "npm install @xmldom/xmldom",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "lts": "0.8.10",
+      "next": "0.9.0",
+      "latest": "0.9.4"
+    }
+  },
+  "repo_metadata": {
+    "id": 37351951,
+    "uuid": "229145432",
+    "full_name": "xmldom/xmldom",
+    "owner": "xmldom",
+    "description": "A pure JavaScript W3C standard-based (XML DOM Level 2 Core) `DOMParser` and `XMLSerializer` module.",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2024-04-13T11:31:49.000Z",
+    "size": 3190,
+    "stargazers_count": 316,
+    "open_issues_count": 31,
+    "forks_count": 84,
+    "subscribers_count": 8,
+    "default_branch": "master",
+    "last_synced_at": "2024-04-14T05:44:30.345Z",
+    "etag": null,
+    "topics": [
+      "dom",
+      "hacktoberfest",
+      "html",
+      "javascript",
+      "xml"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "",
+    "language": "HTML",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "mit",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/xmldom.png",
+    "metadata": {
+      "files": {
+        "readme": "readme.md",
+        "changelog": "CHANGELOG.md",
+        "contributing": null,
+        "funding": null,
+        "license": "LICENSE",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": "SECURITY.md",
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null
+      }
+    },
+    "created_at": "2019-12-19T21:59:46.000Z",
+    "updated_at": "2024-04-15T19:31:01.794Z",
+    "dependencies_parsed_at": "2023-10-22T09:59:57.900Z",
+    "dependency_job_id": "92d0c564-599e-4b30-9069-a7dd8a9135e2",
+    "html_url": "https://github.com/xmldom/xmldom",
+    "commit_stats": {
+      "total_commits": 483,
+      "total_committers": 47,
+      "mean_commits": 10.27659574468085,
+      "dds": 0.6915113871635611,
+      "last_synced_commit": "535050f7e82b4062b4d003f21085fbdc5a9bb73b"
+    },
+    "previous_names": [],
+    "tags_count": 53,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/xmldom",
+    "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/refs/heads/master",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 217687729,
+      "owners_count": 16215899,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "xmldom",
+      "name": "xmldom",
+      "uuid": "34722805",
+      "kind": "organization",
+      "description": "The group of maintainers behind the the xmldom library",
+      "email": null,
+      "website": "https://xmldom.org",
+      "location": null,
+      "twitter": null,
+      "company": null,
+      "icon_url": "https://avatars.githubusercontent.com/u/34722805?v=4",
+      "repositories_count": 4,
+      "last_synced_at": "2024-03-25T20:05:24.435Z",
+      "metadata": {
+        "has_sponsors_listing": false
+      },
+      "html_url": "https://github.com/xmldom",
+      "funding_links": [],
+      "total_stars": 317,
+      "followers": 2,
+      "following": 0,
+      "created_at": "2022-11-02T16:25:18.619Z",
+      "updated_at": "2024-03-25T20:05:24.447Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/xmldom",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/xmldom/repositories"
+    },
+    "tags": [
+      {
+        "name": "0.9.0-beta.11",
+        "sha": "6ca5743b796aec160914e90bf3c18173f2d943b1",
+        "kind": "tag",
+        "published_at": "2023-07-30T08:12:05.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.9.0-beta.11",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.9.0-beta.11",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.11",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.11/manifests"
+      },
+      {
+        "name": "0.9.0-beta.10",
+        "sha": "1f882d792b43c346c8100cfb82b906f12b85b328",
+        "kind": "tag",
+        "published_at": "2023-07-19T19:01:00.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.9.0-beta.10",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.9.0-beta.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.10/manifests"
+      },
+      {
+        "name": "0.8.10",
+        "sha": "252395e8f0409ad7193589a87b62aa6a8ced8cdc",
+        "kind": "tag",
+        "published_at": "2023-07-19T18:31:15.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.8.10",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.8.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.10/manifests"
+      },
+      {
+        "name": "0.7.13",
+        "sha": "282f0ada331a445d721f3a8224836123e9b916b9",
+        "kind": "tag",
+        "published_at": "2023-07-19T18:25:26.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.13",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.13",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.13",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.13/manifests"
+      },
+      {
+        "name": "0.9.0-beta.9",
+        "sha": "48953f6e6d1d49093c8014c4585b31833de78812",
+        "kind": "tag",
+        "published_at": "2023-07-13T03:11:43.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.9.0-beta.9",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.9.0-beta.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.9/manifests"
+      },
+      {
+        "name": "0.8.9",
+        "sha": "b87f2bdd83c3fa27f8184b2cfbc492bd2442f90d",
+        "kind": "tag",
+        "published_at": "2023-07-13T02:46:05.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.8.9",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.8.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.9/manifests"
+      },
+      {
+        "name": "0.7.12",
+        "sha": "f3c7be329e9a453b07624bf8e103a227d1964888",
+        "kind": "tag",
+        "published_at": "2023-07-13T02:36:34.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.12",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.12",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.12",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.12/manifests"
+      },
+      {
+        "name": "0.9.0-beta.8",
+        "sha": "b4441ee72485aff9798b749bb9f1fa29442e6b7a",
+        "kind": "tag",
+        "published_at": "2023-06-11T14:44:40.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.9.0-beta.8",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.9.0-beta.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.8/manifests"
+      },
+      {
+        "name": "0.9.0-beta.7",
+        "sha": "2db14b976cb929bbed222337843c89f9eade5741",
+        "kind": "tag",
+        "published_at": "2023-06-09T13:00:20.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.9.0-beta.7",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.9.0-beta.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.7/manifests"
+      },
+      {
+        "name": "0.7.11",
+        "sha": "44477fc10639a61a689f99c131936564e4a696a5",
+        "kind": "tag",
+        "published_at": "2023-05-30T19:12:09.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.11",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.11",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.11",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.11/manifests"
+      },
+      {
+        "name": "0.8.8",
+        "sha": "a26058a3367896141c51a7ae8dfea19f3c7a5bf7",
+        "kind": "tag",
+        "published_at": "2023-05-30T19:02:18.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.8.8",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.8.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.8/manifests"
+      },
+      {
+        "name": "0.8.7",
+        "sha": "b69bbbe278f81c63900959c38a8869f690482631",
+        "kind": "tag",
+        "published_at": "2023-03-31T09:15:37.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.8.7",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.8.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.7/manifests"
+      },
+      {
+        "name": "0.7.10",
+        "sha": "f97cb3a833e8fdac332adbb52b24684a1e1aa5b1",
+        "kind": "tag",
+        "published_at": "2023-03-31T08:48:57.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.10",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.10/manifests"
+      },
+      {
+        "name": "0.7.9",
+        "sha": "927392f627e8f9cf1ea051612c7996596a904c78",
+        "kind": "tag",
+        "published_at": "2022-11-05T10:14:35.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.9",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.9/manifests"
+      },
+      {
+        "name": "0.8.6",
+        "sha": "238b1ea8431fae8817812c68d55b4933248af07e",
+        "kind": "tag",
+        "published_at": "2022-11-05T10:00:42.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.8.6",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.8.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.6/manifests"
+      },
+      {
+        "name": "0.9.0-beta.6",
+        "sha": "4ca999173d86f0e6ff89c3fd09295fe1c28562eb",
+        "kind": "tag",
+        "published_at": "2022-11-03T08:03:35.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.9.0-beta.6",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.9.0-beta.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.6/manifests"
+      },
+      {
+        "name": "0.7.8",
+        "sha": "0d6e3a132ec6eb32a67cfca327477a2098d4b55c",
+        "kind": "tag",
+        "published_at": "2022-10-31T16:25:01.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.8",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.8/manifests"
+      },
+      {
+        "name": "0.8.5",
+        "sha": "afc57ec6f7348e96a5ca6aa59d4c21a106ca2cd8",
+        "kind": "tag",
+        "published_at": "2022-10-31T08:59:36.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.8.5",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.8.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.5/manifests"
+      },
+      {
+        "name": "0.9.0-beta.5",
+        "sha": "784786b4301b8d15bb73403d3a73fc2d7ae091ee",
+        "kind": "tag",
+        "published_at": "2022-10-31T08:41:12.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.9.0-beta.5",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.9.0-beta.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.5/manifests"
+      },
+      {
+        "name": "0.8.4",
+        "sha": "27fec1ff2fbc5a57ac3ab372d0a1efa230ece918",
+        "kind": "tag",
+        "published_at": "2022-10-29T22:04:40.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.8.4",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.8.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.4/manifests"
+      },
+      {
+        "name": "0.7.7",
+        "sha": "fe5b043fd07bbfed7f039b77d0b9e1a1eb832a2a",
+        "kind": "tag",
+        "published_at": "2022-10-29T21:56:23.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.7",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.7/manifests"
+      },
+      {
+        "name": "0.9.0-beta.4",
+        "sha": "39bc1fcb5d7593f657349836c219f7b489c45518",
+        "kind": "tag",
+        "published_at": "2022-10-29T21:44:58.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.9.0-beta.4",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.9.0-beta.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.4/manifests"
+      },
+      {
+        "name": "0.9.0-beta.3",
+        "sha": "4a990d364e513f4cf35b86ebd7c08ab67a6210a2",
+        "kind": "tag",
+        "published_at": "2022-10-18T05:33:39.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.9.0-beta.3",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.9.0-beta.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.3/manifests"
+      },
+      {
+        "name": "0.7.6",
+        "sha": "3ca016d7da634686dbcadd076dda07d28a8ffd45",
+        "kind": "tag",
+        "published_at": "2022-10-16T16:31:37.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.6",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.6/manifests"
+      },
+      {
+        "name": "0.8.3",
+        "sha": "c9df7a299aa2862780c7b6e308f0f0dbcffd0a8c",
+        "kind": "tag",
+        "published_at": "2022-10-11T03:54:58.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.8.3",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.8.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.3/manifests"
+      },
+      {
+        "name": "0.9.0-beta.2",
+        "sha": "e20c2d4a030865559b6ceb6f8f6c7d7e3c447828",
+        "kind": "tag",
+        "published_at": "2022-10-11T03:47:00.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.9.0-beta.2",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.9.0-beta.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.2/manifests"
+      },
+      {
+        "name": "0.9.0-beta.1",
+        "sha": "0b21623512cf859a6341122524abda5bbf92b44f",
+        "kind": "tag",
+        "published_at": "2022-10-09T00:14:47.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.9.0-beta.1",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.9.0-beta.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.9.0-beta.1/manifests"
+      },
+      {
+        "name": "0.8.2",
+        "sha": "021211132164ad4686d0a561cf4aa063dd1674e1",
+        "kind": "tag",
+        "published_at": "2022-04-05T18:34:03.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.8.2",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.8.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.2/manifests"
+      },
+      {
+        "name": "0.8.1",
+        "sha": "21b6142c641f4c7778c35afb545533ad3c22b393",
+        "kind": "tag",
+        "published_at": "2022-02-14T13:22:43.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.8.1",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.8.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.1/manifests"
+      },
+      {
+        "name": "0.8.0",
+        "sha": "01672e13958c1b0bff7e42784dbdb3de32566e98",
+        "kind": "tag",
+        "published_at": "2021-12-22T20:08:02.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.8.0",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.8.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.8.0/manifests"
+      },
+      {
+        "name": "0.7.5",
+        "sha": "03fcf987307a9b1963075007d9fe2e8720fa7e25",
+        "kind": "tag",
+        "published_at": "2021-09-14T05:24:49.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.5",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.5/manifests"
+      },
+      {
+        "name": "0.7.4",
+        "sha": "e075e99f137e6b2c71533e837b5af12cfefcf4fb",
+        "kind": "tag",
+        "published_at": "2021-09-01T07:41:56.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.4",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.4/manifests"
+      },
+      {
+        "name": "0.7.3",
+        "sha": "8333dfc82a6d782d691e927876aeac6fc5186977",
+        "kind": "tag",
+        "published_at": "2021-08-28T05:23:13.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.3",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.3/manifests"
+      },
+      {
+        "name": "0.7.2",
+        "sha": "05736c315e4ef2e8a90b9b912ffbf7ef0e810a93",
+        "kind": "tag",
+        "published_at": "2021-08-20T12:52:54.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.2",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.2/manifests"
+      },
+      {
+        "name": "0.7.1",
+        "sha": "24011dcc5a3df7dade831618107899f9a2da9116",
+        "kind": "tag",
+        "published_at": "2021-08-20T05:17:22.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.1",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.1/manifests"
+      },
+      {
+        "name": "0.7.0+scoped",
+        "sha": "322c55b2fc59d5654a59279b575869aa768b2f40",
+        "kind": "commit",
+        "published_at": "2021-08-19T19:31:26.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.0+scoped",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.0+scoped",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.0+scoped",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.0+scoped/manifests"
+      },
+      {
+        "name": "v0.7.0",
+        "sha": "c568938641cc1f121cef5b4df80fcfda1e489b6e",
+        "kind": "tag",
+        "published_at": "2021-07-27T20:51:24.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/v0.7.0",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/v0.7.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.7.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.7.0/manifests"
+      },
+      {
+        "name": "0.7.0",
+        "sha": "c568938641cc1f121cef5b4df80fcfda1e489b6e",
+        "kind": "commit",
+        "published_at": "2021-07-27T20:51:18.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.0",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.0/manifests"
+      },
+      {
+        "name": "0.7.0+unscoped",
+        "sha": "c568938641cc1f121cef5b4df80fcfda1e489b6e",
+        "kind": "commit",
+        "published_at": "2021-07-27T20:51:18.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.7.0+unscoped",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.7.0+unscoped",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.0+unscoped",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.7.0+unscoped/manifests"
+      },
+      {
+        "name": "0.6.0",
+        "sha": "c80a161172cc4d8733583bf0cf59abfa589f6d9e",
+        "kind": "commit",
+        "published_at": "2021-04-17T16:38:12.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.6.0",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.6.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.6.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.6.0/manifests"
+      },
+      {
+        "name": "0.5.0",
+        "sha": "f763b002fb01d3e58010b04be35a3be50f9777e8",
+        "kind": "commit",
+        "published_at": "2021-03-09T03:57:53.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.5.0",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.5.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.5.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.5.0/manifests"
+      },
+      {
+        "name": "0.4.0",
+        "sha": "9df224b212f8c3fab60d0a688679b16166a6a862",
+        "kind": "commit",
+        "published_at": "2020-10-27T00:42:58.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.4.0",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.4.0/manifests"
+      },
+      {
+        "name": "0.3.0",
+        "sha": "69d754508a910919ddc108b47d18327f96a079f2",
+        "kind": "commit",
+        "published_at": "2020-03-04T16:31:42.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.3.0",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.3.0/manifests"
+      },
+      {
+        "name": "0.2.1",
+        "sha": "cb7c16a953b9acd243091306445dbc6a4ee6b813",
+        "kind": "commit",
+        "published_at": "2019-12-20T00:39:16.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.2.1",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.2.1/manifests"
+      },
+      {
+        "name": "0.2.0",
+        "sha": "1bcd95e788aa233bed2fac70da9508cc407434c5",
+        "kind": "commit",
+        "published_at": "2019-12-20T00:19:17.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/0.2.0",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/0.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/0.2.0/manifests"
+      },
+      {
+        "name": "v0.1.31",
+        "sha": "91e456310880c24ae97629bd5754f96ffcb623c5",
+        "kind": "commit",
+        "published_at": "2019-12-19T22:33:43.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/v0.1.31",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/v0.1.31",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.31",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.31/manifests"
+      },
+      {
+        "name": "v0.1.30",
+        "sha": "1710ba339a81ad18235d4a4c626c6e8805b1a17d",
+        "kind": "commit",
+        "published_at": "2019-12-19T22:29:39.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/v0.1.30",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/v0.1.30",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.30",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.30/manifests"
+      },
+      {
+        "name": "v0.1.29",
+        "sha": "226be66a785fd6ccc11ccdd14bd32fa4c9f65780",
+        "kind": "commit",
+        "published_at": "2019-12-19T22:10:04.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/v0.1.29",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/v0.1.29",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.29",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.29/manifests"
+      },
+      {
+        "name": "v0.1.28-not-published",
+        "sha": "0be2ae910a8a22c9ec2cac042e04de4c04317d2a",
+        "kind": "tag",
+        "published_at": "2019-12-19T22:09:51.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/v0.1.28-not-published",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/v0.1.28-not-published",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.28-not-published",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.28-not-published/manifests"
+      },
+      {
+        "name": "v0.1.27",
+        "sha": "0ee90e6092ffeeaada9d81d000a30d7f127413b4",
+        "kind": "tag",
+        "published_at": "2019-12-19T21:39:02.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/v0.1.27",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/v0.1.27",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.27",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.27/manifests"
+      },
+      {
+        "name": "v0.1.28-xmldom-alpha",
+        "sha": "0be2ae910a8a22c9ec2cac042e04de4c04317d2a",
+        "kind": "commit",
+        "published_at": "2017-05-09T05:05:33.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/v0.1.28-xmldom-alpha",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/v0.1.28-xmldom-alpha",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.28-xmldom-alpha",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.28-xmldom-alpha/manifests"
+      },
+      {
+        "name": "xmldom-aplha@v0.1.28",
+        "sha": "ffd8cac8f65a56286bc654946aaaa49620018d49",
+        "kind": "commit",
+        "published_at": "2017-05-08T02:44:57.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/xmldom-aplha@v0.1.28",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/xmldom-aplha@v0.1.28",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/xmldom-aplha@v0.1.28",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/xmldom-aplha@v0.1.28/manifests"
+      },
+      {
+        "name": "v0.1.16",
+        "sha": "b47c082dad42811f63e46b76e8daf12495c7902b",
+        "kind": "commit",
+        "published_at": "2013-05-04T14:59:01.000Z",
+        "download_url": "https://codeload.github.com/xmldom/xmldom/tar.gz/v0.1.16",
+        "html_url": "https://github.com/xmldom/xmldom/releases/tag/v0.1.16",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.16",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/xmldom%2Fxmldom/tags/v0.1.16/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-09-08T21:28:41.726Z",
+  "dependent_packages_count": 605,
+  "downloads": 33266274,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 85555,
+  "rankings": {
+    "downloads": 0.048024230058513445,
+    "dependent_repos_count": 0.10648017713657855,
+    "dependent_packages_count": 0.10062089251142356,
+    "stargazers_count": 3.4745831625516144,
+    "forks_count": 3.181016574930531,
+    "docker_downloads_count": 0.056292940137003214,
+    "average": 1.1611696628876107
+  },
+  "purl": "pkg:npm/%40xmldom/xmldom",
+  "advisories": [
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTVmZzgtMjU0Ny1tcjhx",
+      "url": "https://github.com/advisories/GHSA-5fg8-2547-mr8q",
+      "title": "Misinterpretation of malicious XML input",
+      "description": "### Impact\nxmldom versions 0.6.0 and older do not correctly escape special characters when serializing elements removed from their ancestor. This may lead to unexpected syntactic changes during XML processing in some downstream applications.\n\n### Patches\nUpdate to one of the fixed versions of `@xmldom/xmldom` (`>=0.7.0`)\n\nSee issue #271 for the status of publishing `xmldom` to npm or join #270 for Q&A/discussion until it's resolved.\n\n### Workarounds\n\nDownstream applications can validate the input and reject the maliciously crafted documents.\n\n### References\n\nSimilar to this one reported on the Go standard library:\n\n- https://mattermost.com/blog/coordinated-disclosure-go-xml-vulnerabilities/\n- https://mattermost.com/blog/securing-xml-implementations-across-the-web/\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n* Open an issue in [`xmldom/xmldom`](https://github.com/xmldom/xmldom)\n* Email us: send an email to **all** addresses that are shown by `npm owner ls @xmldom/xmldom`\n",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2021-08-03T16:57:05.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "references": [
+        "https://github.com/xmldom/xmldom/security/advisories/GHSA-5fg8-2547-mr8q",
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-32796",
+        "https://github.com/xmldom/xmldom/commit/7b4b743917a892d407356e055b296dcd6d107e8b",
+        "https://www.npmjs.com/package/@xmldom/xmldom",
+        "https://mattermost.com/blog/coordinated-disclosure-go-xml-vulnerabilities",
+        "https://mattermost.com/blog/securing-xml-implementations-across-the-web",
+        "https://github.com/advisories/GHSA-5fg8-2547-mr8q"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-5fg8-2547-mr8q",
+        "CVE-2021-32796"
+      ],
+      "repository_url": "https://github.com/xmldom/xmldom",
+      "blast_radius": 36.58047342279371,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.7.0",
+              "vulnerable_version_range": "< 0.7.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "@xmldom/xmldom"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": null,
+              "vulnerable_version_range": "<= 0.6.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "xmldom"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:40.151Z",
+      "updated_at": "2024-02-22T19:03:29.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS05cGdoLXFxcGYtN3dxas4AAvPc",
+      "url": "https://github.com/advisories/GHSA-9pgh-qqpf-7wqj",
+      "title": "Withdrawn: Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') in @xmldom/xmldom and xmldom",
+      "description": "## Withdrawn\n\nThis advisory has been withdrawn because the maintainers of `@xmldom/xmldom` and multiple third parties disputed the validity of the issue. Attempts to create or replicate a proof of concept have been unsuccessful.\n\n## Original Description\n\n### Impact\nA prototype pollution vulnerability exists in the function copy in dom.js in the xmldom (published as @xmldom/xmldom) package.\n\n### Patches\nUpdate to `@xmldom/xmldom@~0.7.6`, `@xmldom/xmldom@~0.8.3` (dist-tag `latest`) or `@xmldom/xmldom@>=0.9.0-beta.2` (dist-tag `next`).\n\n### Workarounds\nNone\n\n### References\nhttps://github.com/xmldom/xmldom/pull/437\n\n### For more information\nIf you have any questions or comments about this advisory:\n* Email us at security@xmldom.org\n* Add information to https://github.com/xmldom/xmldom/issues/436\n",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-10-11T20:42:57.000Z",
+      "withdrawn_at": "2022-11-08T19:35:06.000Z",
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://github.com/xmldom/xmldom/security/advisories/GHSA-9pgh-qqpf-7wqj",
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-37616",
+        "https://github.com/xmldom/xmldom/issues/436",
+        "https://github.com/xmldom/xmldom/pull/437",
+        "https://github.com/xmldom/xmldom/blob/bc36efddf9948aba15618f85dc1addfc2ac9d7b2/lib/dom.js#L1",
+        "https://github.com/xmldom/xmldom/blob/bc36efddf9948aba15618f85dc1addfc2ac9d7b2/lib/dom.js#L3",
+        "https://github.com/xmldom/xmldom/blob/master/CHANGELOG.md#076",
+        "https://lists.debian.org/debian-lts-announce/2022/10/msg00023.html",
+        "https://github.com/xmldom/xmldom/issues/436#issuecomment-1319412826",
+        "https://github.com/xmldom/xmldom/issues/436#issuecomment-1327776560",
+        "https://dl.acm.org/doi/abs/10.1145/3488932.3497769",
+        "https://dl.acm.org/doi/pdf/10.1145/3488932.3497769",
+        "http://users.encs.concordia.ca/~mmannan/publications/JS-vulnerability-aisaccs2022.pdf",
+        "https://github.com/advisories/GHSA-9pgh-qqpf-7wqj"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-9pgh-qqpf-7wqj",
+        "CVE-2022-37616"
+      ],
+      "repository_url": "https://github.com/xmldom/xmldom",
+      "blast_radius": 55.15209839128898,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.7.6",
+              "vulnerable_version_range": "< 0.7.6"
+            },
+            {
+              "first_patched_version": "0.8.3",
+              "vulnerable_version_range": ">= 0.8.0, < 0.8.3"
+            },
+            {
+              "first_patched_version": "0.9.0-beta.2",
+              "vulnerable_version_range": "= 0.9.0-beta.1"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "@xmldom/xmldom"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": null,
+              "vulnerable_version_range": "<= 0.6.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "xmldom"
+        }
+      ],
+      "created_at": "2022-12-21T16:11:55.452Z",
+      "updated_at": "2023-02-02T05:07:15.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1jcmg2LWZwNjctNjg4M84AAvn0",
+      "url": "https://github.com/advisories/GHSA-crh6-fp67-6883",
+      "title": "xmldom allows multiple root nodes in a DOM",
+      "description": "### Impact\nxmldom parses XML that is not well-formed because it contains multiple top level elements, and adds all root nodes to the `childNodes` collection of the `Document`, without reporting any error or throwing.\nThis breaks the assumption that there is only a single root node in the tree, which led to https://nvd.nist.gov/vuln/detail/CVE-2022-39299 and is a potential issue for dependents.\n\n### Patches\nUpdate to `@xmldom/xmldom@~0.7.7`, `@xmldom/xmldom@~0.8.4` (dist-tag `latest`) or `@xmldom/xmldom@>=0.9.0-beta.4` (dist-tag `next`).\n\n### Workarounds\nOne of the following approaches might help, depending on your use case:\n- Instead of searching for elements in the whole DOM, only search in the `documentElement`.\n- Reject a document with a document that has more then 1 `childNode`.\n\n### References\n- https://nvd.nist.gov/vuln/detail/CVE-2022-39299\n- https://github.com/jindw/xmldom/issues/150\n\n### For more information\nIf you have any questions or comments about this advisory:\n* Email us at security@xmldom.org\n",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2022-11-01T17:29:11.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "references": [
+        "https://github.com/xmldom/xmldom/security/advisories/GHSA-crh6-fp67-6883",
+        "https://github.com/xmldom/xmldom/releases/tag/0.7.7",
+        "https://github.com/xmldom/xmldom/releases/tag/0.8.4",
+        "https://github.com/xmldom/xmldom/releases/tag/0.9.0-beta.4",
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-39353",
+        "https://github.com/jindw/xmldom/issues/150",
+        "https://lists.debian.org/debian-lts-announce/2023/01/msg00000.html",
+        "https://github.com/xmldom/xmldom/commit/52a708360c35aa160fcca8621720d71fd0f95f1a",
+        "https://github.com/xmldom/xmldom/commit/7ff7c10ab2961703ac1752e95b4ff60ee4ee6643",
+        "https://github.com/xmldom/xmldom/commit/c02f786216bed70825f9a351c65e61500f51e931",
+        "https://github.com/advisories/GHSA-crh6-fp67-6883"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-crh6-fp67-6883",
+        "CVE-2022-39353"
+      ],
+      "repository_url": "https://github.com/xmldom/xmldom",
+      "blast_radius": 55.15209839128898,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.9.0-beta.4",
+              "vulnerable_version_range": ">= 0.9.0-beta.1, < 0.9.0-beta.4"
+            },
+            {
+              "first_patched_version": "0.8.4",
+              "vulnerable_version_range": ">= 0.8.0, < 0.8.4"
+            },
+            {
+              "first_patched_version": "0.7.7",
+              "vulnerable_version_range": "< 0.7.7"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "@xmldom/xmldom"
+        },
+        {
+          "versions": [
+            {
+              "first_patched_version": null,
+              "vulnerable_version_range": "<= 0.6.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "xmldom"
+        }
+      ],
+      "created_at": "2022-12-21T16:11:54.095Z",
+      "updated_at": "2023-03-31T16:06:26.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/@xmldom/xmldom",
+  "docker_dependents_count": 1627,
+  "docker_downloads_count": 1138889338,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/@xmldom/xmldom",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/@xmldom/xmldom/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/@xmldom%2Fxmldom/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/@xmldom%2Fxmldom/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/@xmldom%2Fxmldom/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/@xmldom%2Fxmldom/related_packages",
+  "maintainers": [
+    {
+      "uuid": "karfau",
+      "login": "karfau",
+      "name": null,
+      "email": "coder@karfau.de",
+      "url": null,
+      "packages_count": 3,
+      "html_url": "https://www.npmjs.com/~karfau",
+      "role": null,
+      "created_at": "2022-11-20T08:47:08.924Z",
+      "updated_at": "2022-11-20T08:47:08.924Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/karfau/packages"
+    }
+  ]
+}

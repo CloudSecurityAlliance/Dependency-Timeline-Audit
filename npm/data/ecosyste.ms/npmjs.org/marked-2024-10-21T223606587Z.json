@@ -1,0 +1,2910 @@
+{
+  "id": 1081344,
+  "name": "marked",
+  "ecosystem": "npm",
+  "description": "A markdown parser built for speed",
+  "homepage": "https://marked.js.org",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/markedjs/marked",
+  "keywords_array": [
+    "markdown",
+    "markup",
+    "html"
+  ],
+  "namespace": null,
+  "versions_count": 179,
+  "first_release_published_at": "2011-07-24T13:15:10.144Z",
+  "latest_release_published_at": "2024-04-19T05:13:06.397Z",
+  "latest_release_number": "12.0.2",
+  "last_synced_at": "2024-10-21T13:03:17.025Z",
+  "created_at": "2022-04-08T02:00:14.043Z",
+  "updated_at": "2024-10-21T13:03:17.026Z",
+  "registry_url": "https://www.npmjs.com/package/marked",
+  "install_command": "npm install marked",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "14.1.3"
+    }
+  },
+  "repo_metadata": {
+    "id": 37236644,
+    "uuid": "2096579",
+    "full_name": "markedjs/marked",
+    "owner": "markedjs",
+    "description": "A markdown parser and compiler. Built for speed.",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2024-04-29T16:38:17.000Z",
+    "size": 9895,
+    "stargazers_count": 31924,
+    "open_issues_count": 25,
+    "forks_count": 3349,
+    "subscribers_count": 387,
+    "default_branch": "master",
+    "last_synced_at": "2024-05-01T20:51:45.085Z",
+    "etag": null,
+    "topics": [
+      "commonmark",
+      "compiler",
+      "gfm",
+      "hacktoberfest",
+      "markdown",
+      "parser"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "https://marked.js.org",
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "other",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/markedjs.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": "CHANGELOG.md",
+        "contributing": "docs/CONTRIBUTING.md",
+        "funding": null,
+        "license": "LICENSE.md",
+        "code_of_conduct": "docs/CODE_OF_CONDUCT.md",
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": "SECURITY.md",
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null,
+        "publiccode": null,
+        "codemeta": null
+      }
+    },
+    "created_at": "2011-07-24T13:15:51.000Z",
+    "updated_at": "2024-05-06T02:29:26.563Z",
+    "dependencies_parsed_at": "2022-07-14T07:20:38.670Z",
+    "dependency_job_id": "a4308737-bc45-4185-9b01-795d4c879acc",
+    "html_url": "https://github.com/markedjs/marked",
+    "commit_stats": {
+      "total_commits": 2769,
+      "total_committers": 181,
+      "mean_commits": "15.298342541436464",
+      "dds": 0.7771758757674251,
+      "last_synced_commit": "39cee771b659ea0eba49bd69dba10817403550d6"
+    },
+    "previous_names": [
+      "chjj/marked"
+    ],
+    "tags_count": 168,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/markedjs",
+    "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/refs/heads/master",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 217597392,
+      "owners_count": 16201776,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "markedjs",
+      "name": "Marked",
+      "uuid": "19886934",
+      "kind": "organization",
+      "description": "",
+      "email": null,
+      "website": "https://marked.js.org",
+      "location": null,
+      "twitter": null,
+      "company": null,
+      "icon_url": "https://avatars.githubusercontent.com/u/19886934?v=4",
+      "repositories_count": 14,
+      "last_synced_at": "2024-03-25T20:03:03.610Z",
+      "metadata": {
+        "has_sponsors_listing": false
+      },
+      "html_url": "https://github.com/markedjs",
+      "funding_links": [],
+      "total_stars": 31819,
+      "followers": 82,
+      "following": 0,
+      "created_at": "2022-11-02T16:23:32.891Z",
+      "updated_at": "2024-03-25T20:03:03.623Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/markedjs",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/markedjs/repositories"
+    },
+    "tags": [
+      {
+        "name": "v12.0.2",
+        "sha": "c6a98ea66c36d12255543e2fabd8f8236dbc5276",
+        "kind": "commit",
+        "published_at": "2024-04-19T05:13:02.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v12.0.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v12.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v12.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v12.0.2/manifests"
+      },
+      {
+        "name": "v12.0.1",
+        "sha": "339eca1e0c591ce42b6cadbc9c7088724097acdf",
+        "kind": "commit",
+        "published_at": "2024-03-06T07:43:03.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v12.0.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v12.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v12.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v12.0.1/manifests"
+      },
+      {
+        "name": "v12.0.0",
+        "sha": "cd151602170433b2ab3cd854f8e639185dbadfd0",
+        "kind": "commit",
+        "published_at": "2024-02-03T16:27:26.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v12.0.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v12.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v12.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v12.0.0/manifests"
+      },
+      {
+        "name": "v11.2.0",
+        "sha": "f0507cbd83c63f42b16cda6f9c18de71dfb17ebb",
+        "kind": "commit",
+        "published_at": "2024-01-27T00:32:26.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v11.2.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v11.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v11.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v11.2.0/manifests"
+      },
+      {
+        "name": "v11.1.1",
+        "sha": "05cbf5f0f35cfd9668340a0b24f6d43371a46281",
+        "kind": "commit",
+        "published_at": "2023-12-31T02:33:39.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v11.1.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v11.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v11.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v11.1.1/manifests"
+      },
+      {
+        "name": "v11.1.0",
+        "sha": "0d3e9e72603d31720b6754f640eb27a672ff1d0e",
+        "kind": "commit",
+        "published_at": "2023-12-12T06:08:09.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v11.1.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v11.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v11.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v11.1.0/manifests"
+      },
+      {
+        "name": "v11.0.1",
+        "sha": "39da399dc23230f6a42aa4b9cf3d667d5364c0b4",
+        "kind": "commit",
+        "published_at": "2023-12-08T07:23:36.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v11.0.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v11.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v11.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v11.0.1/manifests"
+      },
+      {
+        "name": "v11.0.0",
+        "sha": "f45cfc3e2d6082736e7835862cc6deb911218633",
+        "kind": "commit",
+        "published_at": "2023-11-29T04:02:14.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v11.0.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v11.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v11.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v11.0.0/manifests"
+      },
+      {
+        "name": "v10.0.0",
+        "sha": "dc484fe30a1aa1e2bd111ed6f9f540f2b999eb9a",
+        "kind": "commit",
+        "published_at": "2023-11-11T05:55:49.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v10.0.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v10.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v10.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v10.0.0/manifests"
+      },
+      {
+        "name": "v9.1.6",
+        "sha": "86e0eb5485a950b5ddbe542c1c239245f15e3415",
+        "kind": "commit",
+        "published_at": "2023-11-10T07:48:16.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v9.1.6",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v9.1.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.6/manifests"
+      },
+      {
+        "name": "v9.1.5",
+        "sha": "9d9debc80607f12fb3bd21a2a42f20af2f01de94",
+        "kind": "commit",
+        "published_at": "2023-11-02T04:35:05.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v9.1.5",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v9.1.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.5/manifests"
+      },
+      {
+        "name": "v9.1.4",
+        "sha": "77ca54686aa6ccaa443dd68ca7a36ba46e81e704",
+        "kind": "commit",
+        "published_at": "2023-10-31T02:02:26.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v9.1.4",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v9.1.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.4/manifests"
+      },
+      {
+        "name": "v9.1.3",
+        "sha": "4d32b308037b2502781fd5b434c5676a242a139b",
+        "kind": "commit",
+        "published_at": "2023-10-28T05:17:05.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v9.1.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v9.1.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.3/manifests"
+      },
+      {
+        "name": "v9.1.2",
+        "sha": "32e11bd9fe598efcbd044453727f6ae26cd3db4c",
+        "kind": "commit",
+        "published_at": "2023-10-13T19:58:55.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v9.1.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v9.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.2/manifests"
+      },
+      {
+        "name": "v9.1.1",
+        "sha": "bbce7dd0c20d77f08e7f6e5a6a359a50f6e0795c",
+        "kind": "commit",
+        "published_at": "2023-10-11T20:28:47.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v9.1.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v9.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.1/manifests"
+      },
+      {
+        "name": "v9.1.0",
+        "sha": "7242d58462a51afef0634dc3a8a9edc2e4df4576",
+        "kind": "commit",
+        "published_at": "2023-10-05T02:12:07.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v9.1.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v9.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.1.0/manifests"
+      },
+      {
+        "name": "v9.0.3",
+        "sha": "2ec4c00966844abc86c4d5f6106d71ba7b8b9f82",
+        "kind": "commit",
+        "published_at": "2023-09-18T17:44:13.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v9.0.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v9.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.0.3/manifests"
+      },
+      {
+        "name": "v9.0.2",
+        "sha": "5d836978efda871a5468f248a5b94087711f3a01",
+        "kind": "commit",
+        "published_at": "2023-09-16T23:30:11.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v9.0.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v9.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.0.2/manifests"
+      },
+      {
+        "name": "v9.0.1",
+        "sha": "56cee0a033d0319cb5ac4c785cb1536b1b38701e",
+        "kind": "commit",
+        "published_at": "2023-09-15T19:30:44.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v9.0.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v9.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.0.1/manifests"
+      },
+      {
+        "name": "v9.0.0",
+        "sha": "329eba8e11a02ad30ff81ca65c9ea2a6d49a3a55",
+        "kind": "commit",
+        "published_at": "2023-09-09T23:57:39.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v9.0.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v9.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v9.0.0/manifests"
+      },
+      {
+        "name": "v8.0.1",
+        "sha": "ccc7a8fb3427152d11d24720847c19f355d27e8d",
+        "kind": "commit",
+        "published_at": "2023-09-06T19:03:52.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v8.0.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v8.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v8.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v8.0.1/manifests"
+      },
+      {
+        "name": "v8.0.0",
+        "sha": "4a855a8cfb3e77f96a0727dfe8fe042fea658a11",
+        "kind": "commit",
+        "published_at": "2023-09-03T04:08:20.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v8.0.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v8.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v8.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v8.0.0/manifests"
+      },
+      {
+        "name": "v7.0.5",
+        "sha": "0ef23ba54821f306cb5480257d6d8d9ff4e7538e",
+        "kind": "commit",
+        "published_at": "2023-08-26T16:02:56.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v7.0.5",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v7.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v7.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v7.0.5/manifests"
+      },
+      {
+        "name": "v7.0.4",
+        "sha": "f2a6368b6b3e9e5d5bbe582f35e17cb2b0b3166f",
+        "kind": "commit",
+        "published_at": "2023-08-19T23:04:14.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v7.0.4",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v7.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v7.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v7.0.4/manifests"
+      },
+      {
+        "name": "v7.0.3",
+        "sha": "6c2c64c19358974d6367b764e590b1ce4893c344",
+        "kind": "commit",
+        "published_at": "2023-08-15T00:20:58.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v7.0.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v7.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v7.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v7.0.3/manifests"
+      },
+      {
+        "name": "v7.0.2",
+        "sha": "f10fc84b80299c78f8ee044067d12d808dd0d902",
+        "kind": "commit",
+        "published_at": "2023-08-10T05:39:47.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v7.0.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v7.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v7.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v7.0.2/manifests"
+      },
+      {
+        "name": "v7.0.1",
+        "sha": "95f52e7d5570bd6c725466dfdf40e866e677b8d0",
+        "kind": "commit",
+        "published_at": "2023-08-07T22:56:38.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v7.0.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v7.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v7.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v7.0.1/manifests"
+      },
+      {
+        "name": "v7.0.0",
+        "sha": "66b717c38fd8470e79c8792193f49ad2a93533bd",
+        "kind": "commit",
+        "published_at": "2023-08-06T23:54:31.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v7.0.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v7.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v7.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v7.0.0/manifests"
+      },
+      {
+        "name": "v6.0.0",
+        "sha": "9927247dd09aea02c70e9dcb4767127b322158c0",
+        "kind": "commit",
+        "published_at": "2023-07-31T21:49:40.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v6.0.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v6.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v6.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v6.0.0/manifests"
+      },
+      {
+        "name": "v5.1.2",
+        "sha": "929d235ed294e0e89f837cd3c2f4f308b7fce0ab",
+        "kind": "commit",
+        "published_at": "2023-07-25T05:13:27.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v5.1.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v5.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.1.2/manifests"
+      },
+      {
+        "name": "v5.1.1",
+        "sha": "19b8ced8ffad1d6e42537984785be02ea9ca9b0e",
+        "kind": "commit",
+        "published_at": "2023-07-07T14:46:13.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v5.1.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v5.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.1.1/manifests"
+      },
+      {
+        "name": "v5.1.0",
+        "sha": "a26f002d1819462c6cae75bb0c26dc064e17b4db",
+        "kind": "commit",
+        "published_at": "2023-06-10T03:15:44.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v5.1.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v5.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.1.0/manifests"
+      },
+      {
+        "name": "v5.0.5",
+        "sha": "d08031bfb8e27eb01175d6ecd69fff167b67d081",
+        "kind": "commit",
+        "published_at": "2023-06-07T04:24:25.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v5.0.5",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v5.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.0.5/manifests"
+      },
+      {
+        "name": "v5.0.4",
+        "sha": "5adcd5321eebd401819b16b621988ae686982f6d",
+        "kind": "commit",
+        "published_at": "2023-05-30T22:28:12.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v5.0.4",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v5.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.0.4/manifests"
+      },
+      {
+        "name": "v5.0.3",
+        "sha": "e2a5ddeb08c9649893270f18e3b44312f2ae88ce",
+        "kind": "commit",
+        "published_at": "2023-05-26T16:56:28.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v5.0.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v5.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.0.3/manifests"
+      },
+      {
+        "name": "v5.0.2",
+        "sha": "f019379853d683790e54f7bbb1bd434716796bb5",
+        "kind": "commit",
+        "published_at": "2023-05-11T15:19:55.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v5.0.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v5.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.0.2/manifests"
+      },
+      {
+        "name": "v5.0.1",
+        "sha": "d86209385033d214a3194344de8a0215fb717227",
+        "kind": "commit",
+        "published_at": "2023-05-06T20:52:39.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v5.0.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v5.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.0.1/manifests"
+      },
+      {
+        "name": "v5.0.0",
+        "sha": "17315bc5cbdda9d0fee9abfb6ef85fec412441fe",
+        "kind": "commit",
+        "published_at": "2023-05-02T04:37:21.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v5.0.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v5.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v5.0.0/manifests"
+      },
+      {
+        "name": "v4.3.0",
+        "sha": "d65cf6353c93bde557665787270daa3a25514ce8",
+        "kind": "commit",
+        "published_at": "2023-03-22T05:54:37.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.3.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.3.0/manifests"
+      },
+      {
+        "name": "v4.2.12",
+        "sha": "137d3b4cc040b2d1e806da870d1cc0bd908419a7",
+        "kind": "commit",
+        "published_at": "2023-01-14T06:41:44.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.12",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.12",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.12",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.12/manifests"
+      },
+      {
+        "name": "v4.2.11",
+        "sha": "3c140c697d74bcf023814d18aca0b3bb68a08708",
+        "kind": "commit",
+        "published_at": "2023-01-14T06:28:50.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.11",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.11",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.11",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.11/manifests"
+      },
+      {
+        "name": "v4.2.10",
+        "sha": "fd759b3d7765027841f234fcb55f6c9c16b29258",
+        "kind": "commit",
+        "published_at": "2023-01-14T06:13:59.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.10",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.10/manifests"
+      },
+      {
+        "name": "v4.2.9",
+        "sha": "5367a77db71099454a0dc7ec8c6e3e0e0f557412",
+        "kind": "commit",
+        "published_at": "2023-01-14T06:02:37.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.9",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.9/manifests"
+      },
+      {
+        "name": "v4.2.8",
+        "sha": "5ca781ee214d553dbefd9eb677281841f8bb566f",
+        "kind": "commit",
+        "published_at": "2023-01-14T05:56:47.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.8",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.8/manifests"
+      },
+      {
+        "name": "v4.2.7",
+        "sha": "e43753b365369dc82321950c58d8e65c45738dea",
+        "kind": "commit",
+        "published_at": "2023-01-14T04:46:21.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.7",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.7/manifests"
+      },
+      {
+        "name": "v4.2.6",
+        "sha": "cb87794867b146e94cf9cf4230b52b7bd5f44a7e",
+        "kind": "commit",
+        "published_at": "2023-01-14T03:52:22.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.6",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.6/manifests"
+      },
+      {
+        "name": "v4.2.5",
+        "sha": "813234f7b5d72d3d9302ec8c7d45e5554997dd29",
+        "kind": "commit",
+        "published_at": "2022-12-23T15:42:49.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.5",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.5/manifests"
+      },
+      {
+        "name": "v4.2.4",
+        "sha": "f2f99690196f75bce14ec6b39f33ce96e8b1b11f",
+        "kind": "commit",
+        "published_at": "2022-12-07T07:48:31.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.4",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.4/manifests"
+      },
+      {
+        "name": "v4.2.3",
+        "sha": "b430f8b2ebb33ddb37db8e35afcdbbafa4dbdcef",
+        "kind": "commit",
+        "published_at": "2022-11-20T16:10:12.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.3/manifests"
+      },
+      {
+        "name": "v4.2.2",
+        "sha": "48e28e7c4a9ca2e14e16d3770d55cdb7c49b22f1",
+        "kind": "commit",
+        "published_at": "2022-11-05T00:44:09.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.2/manifests"
+      },
+      {
+        "name": "v4.2.1",
+        "sha": "3d389d5bd3154c766e3331f1b907beb2ff98446e",
+        "kind": "commit",
+        "published_at": "2022-11-02T02:07:36.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.1/manifests"
+      },
+      {
+        "name": "v4.2.0",
+        "sha": "54410cdbb961e5dec6610b80c317ee12249cf265",
+        "kind": "commit",
+        "published_at": "2022-10-31T23:10:53.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.2.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.2.0/manifests"
+      },
+      {
+        "name": "v4.1.1",
+        "sha": "8075e150f0660515e97001bd1e78da3d85194e5c",
+        "kind": "commit",
+        "published_at": "2022-10-01T01:35:45.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.1.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.1.1/manifests"
+      },
+      {
+        "name": "v4.1.0",
+        "sha": "64b22d0e9178db89690010d313b6ef7ef0460609",
+        "kind": "commit",
+        "published_at": "2022-08-30T14:40:16.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.1.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.1.0/manifests"
+      },
+      {
+        "name": "v4.0.19",
+        "sha": "95f37bd23bd9794e145c37046d3546783ffba007",
+        "kind": "commit",
+        "published_at": "2022-08-21T16:24:54.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.19",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.19",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.19",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.19/manifests"
+      },
+      {
+        "name": "v4.0.18",
+        "sha": "459085b993a6bef2f72b5b5c840c919a73adf7bc",
+        "kind": "commit",
+        "published_at": "2022-07-11T15:17:46.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.18",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.18",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.18",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.18/manifests"
+      },
+      {
+        "name": "v4.0.17",
+        "sha": "a9c22e17c80a82fa70b935727e8911dbdc2a4cce",
+        "kind": "commit",
+        "published_at": "2022-06-13T03:18:46.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.17",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.17",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.17",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.17/manifests"
+      },
+      {
+        "name": "v4.0.16",
+        "sha": "2002557d004139ca2208c910d9ca999829b65406",
+        "kind": "commit",
+        "published_at": "2022-05-17T13:32:41.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.16",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.16",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.16",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.16/manifests"
+      },
+      {
+        "name": "v4.0.15",
+        "sha": "d6c13cbc4548c7b6535f73b2920c7fe0d82ff722",
+        "kind": "commit",
+        "published_at": "2022-05-02T06:14:10.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.15",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.15",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.15",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.15/manifests"
+      },
+      {
+        "name": "v4.0.14",
+        "sha": "7a6dc09bdd2239f549e806d59efadc28a559ba97",
+        "kind": "commit",
+        "published_at": "2022-04-11T00:38:43.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.14",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.14",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.14",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.14/manifests"
+      },
+      {
+        "name": "v4.0.13",
+        "sha": "3dc35bb7b8281f41a009e8a6c68b1ad2dd48c901",
+        "kind": "commit",
+        "published_at": "2022-04-08T01:54:37.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.13",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.13",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.13",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.13/manifests"
+      },
+      {
+        "name": "v4.0.12",
+        "sha": "4c5b974b391f913ac923610bd3740ef27ccdae95",
+        "kind": "commit",
+        "published_at": "2022-01-27T04:12:12.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.12",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.12",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.12",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.12/manifests"
+      },
+      {
+        "name": "v4.0.11",
+        "sha": "83753142a1351aebc0b6cd69ea1526a52b5b8dbe",
+        "kind": "commit",
+        "published_at": "2022-01-26T21:52:26.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.11",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.11",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.11",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.11/manifests"
+      },
+      {
+        "name": "v4.0.10",
+        "sha": "ae01170085e89ccd85c233547011eb88420a90cf",
+        "kind": "commit",
+        "published_at": "2022-01-13T02:03:28.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.10",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.10/manifests"
+      },
+      {
+        "name": "v4.0.9",
+        "sha": "e5171a996d8a8a581c756eefb03fde25f68ffb8f",
+        "kind": "commit",
+        "published_at": "2022-01-06T15:33:38.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.9",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.9/manifests"
+      },
+      {
+        "name": "v4.0.8",
+        "sha": "59375fbaa732ddcbef71e19ca52c1c80b0654b39",
+        "kind": "commit",
+        "published_at": "2021-12-19T00:22:54.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.8",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.8/manifests"
+      },
+      {
+        "name": "v4.0.7",
+        "sha": "9b5e264569ef55398edb0da8cf78fb504a3f0501",
+        "kind": "commit",
+        "published_at": "2021-12-09T23:59:52.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.7",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.7/manifests"
+      },
+      {
+        "name": "v4.0.6",
+        "sha": "1aa5118a76ccdad172f28050b69cf7d2b4a270dd",
+        "kind": "commit",
+        "published_at": "2021-12-02T03:19:49.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.6",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.6/manifests"
+      },
+      {
+        "name": "v4.0.5",
+        "sha": "66f8dc46c30497f65093ad646fba7f38d4db115c",
+        "kind": "commit",
+        "published_at": "2021-11-25T00:12:15.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.5",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.5/manifests"
+      },
+      {
+        "name": "v4.0.4",
+        "sha": "0ed66bd9d725c576769e26a4fc11c6f8919b4878",
+        "kind": "commit",
+        "published_at": "2021-11-19T14:09:14.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.4",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.4/manifests"
+      },
+      {
+        "name": "v4.0.3",
+        "sha": "92da674fcec0491defdd1f604d805df95f680fb1",
+        "kind": "commit",
+        "published_at": "2021-11-13T04:33:51.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.3/manifests"
+      },
+      {
+        "name": "v4.0.2",
+        "sha": "6b9e079e23a34640a74bd7ec545328b8f916cf31",
+        "kind": "commit",
+        "published_at": "2021-11-12T21:39:37.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.2/manifests"
+      },
+      {
+        "name": "v4.0.1",
+        "sha": "c05e577eb491e08742071b24798300e0a9f3541f",
+        "kind": "commit",
+        "published_at": "2021-11-11T02:35:13.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.1/manifests"
+      },
+      {
+        "name": "v4.0.0",
+        "sha": "7c09bb0a62d8abf5ceaaeccca5b9d41f705a2c9a",
+        "kind": "commit",
+        "published_at": "2021-11-02T14:42:24.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v4.0.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v4.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v4.0.0/manifests"
+      },
+      {
+        "name": "v3.0.8",
+        "sha": "d7f5e68128bb9473de3c4385cad39dfc4eb04cca",
+        "kind": "commit",
+        "published_at": "2021-10-24T05:05:30.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v3.0.8",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v3.0.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.8/manifests"
+      },
+      {
+        "name": "v3.0.7",
+        "sha": "d571894d98465660adc86642358cade7266ca999",
+        "kind": "commit",
+        "published_at": "2021-10-07T14:02:52.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v3.0.7",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v3.0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.7/manifests"
+      },
+      {
+        "name": "v3.0.6",
+        "sha": "3306813f395d15068f56d8495f92bc8e827f13c0",
+        "kind": "commit",
+        "published_at": "2021-10-06T21:57:10.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v3.0.6",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v3.0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.6/manifests"
+      },
+      {
+        "name": "v3.0.5",
+        "sha": "6c65489af8a28ed002b71381851b4622a4b10625",
+        "kind": "commit",
+        "published_at": "2021-10-06T20:34:15.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v3.0.5",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v3.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.5/manifests"
+      },
+      {
+        "name": "v3.0.4",
+        "sha": "189fef4d430506559fa61a1feb600312c0ba4782",
+        "kind": "commit",
+        "published_at": "2021-09-14T17:50:05.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v3.0.4",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v3.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.4/manifests"
+      },
+      {
+        "name": "v3.0.3",
+        "sha": "784ba5fe9b10dab594c89560d54e314d4c3a229c",
+        "kind": "commit",
+        "published_at": "2021-09-08T20:22:16.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v3.0.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v3.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.3/manifests"
+      },
+      {
+        "name": "v3.0.2",
+        "sha": "d1b7d521c41bcf915f81f0218b0e5acd607c1b72",
+        "kind": "commit",
+        "published_at": "2021-08-25T02:25:19.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v3.0.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v3.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.2/manifests"
+      },
+      {
+        "name": "v3.0.1",
+        "sha": "ce30ed4109a79a533a99348ad9287241675e258d",
+        "kind": "commit",
+        "published_at": "2021-08-23T18:48:58.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v3.0.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v3.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.1/manifests"
+      },
+      {
+        "name": "v3.0.0",
+        "sha": "e781b18b0faf8d23691c88769638027a33fcaaec",
+        "kind": "commit",
+        "published_at": "2021-08-16T03:09:29.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v3.0.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v3.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v3.0.0/manifests"
+      },
+      {
+        "name": "v2.1.3",
+        "sha": "3a81bde4eb21f2eef432d4bf2ca9b2d58ef0ccf4",
+        "kind": "commit",
+        "published_at": "2021-06-25T20:15:44.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v2.1.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v2.1.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.1.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.1.3/manifests"
+      },
+      {
+        "name": "v2.1.2",
+        "sha": "c7b4664b10efafe78860a90b6fbe0da2cb41e9e2",
+        "kind": "commit",
+        "published_at": "2021-06-22T17:27:07.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v2.1.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v2.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.1.2/manifests"
+      },
+      {
+        "name": "v2.1.1",
+        "sha": "a2af658aa2043eb1e3be191317b98f1ae0b5bfbe",
+        "kind": "commit",
+        "published_at": "2021-06-16T13:50:11.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v2.1.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v2.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.1.1/manifests"
+      },
+      {
+        "name": "v2.1.0",
+        "sha": "a86701fd7c19085aab8296a1c8ab17041957842a",
+        "kind": "commit",
+        "published_at": "2021-06-15T23:23:30.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v2.1.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v2.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.1.0/manifests"
+      },
+      {
+        "name": "v2.0.7",
+        "sha": "7fe631ea04ebd50cc450dd526e71e363787400a4",
+        "kind": "commit",
+        "published_at": "2021-06-01T19:27:59.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v2.0.7",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v2.0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.7/manifests"
+      },
+      {
+        "name": "v2.0.6",
+        "sha": "38c364544f98cf73bad06e4ac9e00af64490e732",
+        "kind": "commit",
+        "published_at": "2021-05-27T16:17:04.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v2.0.6",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v2.0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.6/manifests"
+      },
+      {
+        "name": "v2.0.5",
+        "sha": "b5e12729e305beb9c9fe1ee9d198dcb31b41a404",
+        "kind": "commit",
+        "published_at": "2021-05-21T20:54:21.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v2.0.5",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v2.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.5/manifests"
+      },
+      {
+        "name": "v2.0.4",
+        "sha": "29a301bf8ce5b6bf3524eb49efb0e1e669982303",
+        "kind": "commit",
+        "published_at": "2021-05-20T13:44:04.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v2.0.4",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v2.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.4/manifests"
+      },
+      {
+        "name": "v2.0.3",
+        "sha": "d4699f42cedaec1d2213b6c6d0773c56a7abc198",
+        "kind": "commit",
+        "published_at": "2021-04-11T19:09:19.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v2.0.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v2.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.3/manifests"
+      },
+      {
+        "name": "v2.0.2",
+        "sha": "856c4adb94388f695dea567732f3cd0393c97a31",
+        "kind": "commit",
+        "published_at": "2021-04-10T20:23:33.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v2.0.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v2.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.2/manifests"
+      },
+      {
+        "name": "v2.0.1",
+        "sha": "f5ebaac6ca6be482b4f8007159ea2e016027b4cb",
+        "kind": "commit",
+        "published_at": "2021-02-27T05:52:44.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v2.0.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v2.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.1/manifests"
+      },
+      {
+        "name": "v2.0.0",
+        "sha": "8a7502f54fcc236027ae38e5432c4caf30accf23",
+        "kind": "commit",
+        "published_at": "2021-02-07T22:26:26.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v2.0.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v2.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v2.0.0/manifests"
+      },
+      {
+        "name": "v1.2.9",
+        "sha": "f2535f1912050e559db79404e4fb4197654e083b",
+        "kind": "commit",
+        "published_at": "2021-02-03T19:47:55.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.2.9",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.2.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.9/manifests"
+      },
+      {
+        "name": "v1.2.8",
+        "sha": "57d41b88801566eb063cd66a210d7c34249cb7dc",
+        "kind": "commit",
+        "published_at": "2021-01-26T14:21:39.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.2.8",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.2.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.8/manifests"
+      },
+      {
+        "name": "v1.2.7",
+        "sha": "8bb7f8bfaad181459b4834552ed49d9e357ebda0",
+        "kind": "commit",
+        "published_at": "2020-12-15T20:15:47.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.2.7",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.2.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.7/manifests"
+      },
+      {
+        "name": "v1.2.6",
+        "sha": "75212191aa4c32d007407b68d6f53a62bac93cf2",
+        "kind": "commit",
+        "published_at": "2020-12-10T16:30:18.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.2.6",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.2.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.6/manifests"
+      },
+      {
+        "name": "v1.2.5",
+        "sha": "4ec889bb45c68b1fb370ad2619fd198b1da8a0a7",
+        "kind": "commit",
+        "published_at": "2020-11-19T14:32:12.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.2.5",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.2.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.5/manifests"
+      },
+      {
+        "name": "v1.2.4",
+        "sha": "da071c9e408faceec944c0df4b8d4fac43c47d3d",
+        "kind": "commit",
+        "published_at": "2020-11-15T02:05:05.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.2.4",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.2.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.4/manifests"
+      },
+      {
+        "name": "v1.2.3",
+        "sha": "ec2954e20076bd27693d8075157f9d85765d90a7",
+        "kind": "commit",
+        "published_at": "2020-11-04T21:24:52.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.2.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.2.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.3/manifests"
+      },
+      {
+        "name": "v1.2.2",
+        "sha": "2f45eecd92e4b1a229671d0455a10e82626e65dd",
+        "kind": "commit",
+        "published_at": "2020-10-21T14:58:06.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.2.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.2/manifests"
+      },
+      {
+        "name": "v1.2.1",
+        "sha": "7183d4fee94ead089cf66367443e8f031a7eb977",
+        "kind": "tag",
+        "published_at": "2020-10-21T14:50:40.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.2.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.1/manifests"
+      },
+      {
+        "name": "v1.1.2",
+        "sha": "36f59459be576621da73f43587ec0073072c1648",
+        "kind": "commit",
+        "published_at": "2020-10-21T14:40:27.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.1.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.1.2/manifests"
+      },
+      {
+        "name": "v1.20",
+        "sha": "cdaf80a489ae799c990c40bf97662e0607fb4479",
+        "kind": "commit",
+        "published_at": "2020-09-28T01:04:49.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.20",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.20",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.20",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.20/manifests"
+      },
+      {
+        "name": "v1.2.0",
+        "sha": "4343f57d86f8ae9077ecaff75f17e240662c1423",
+        "kind": "tag",
+        "published_at": "2020-09-27T15:24:35.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.2.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.2.0/manifests"
+      },
+      {
+        "name": "v1.1.1",
+        "sha": "1ad8e69e9b959d0be03e6a345767daad28993f5d",
+        "kind": "commit",
+        "published_at": "2020-07-14T01:36:17.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.1.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.1.1/manifests"
+      },
+      {
+        "name": "v1.1.0",
+        "sha": "8cfa29ccd2a2759e8e60fe0d8d6df8c022beda4e",
+        "kind": "commit",
+        "published_at": "2020-05-16T21:42:50.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.1.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.1.0/manifests"
+      },
+      {
+        "name": "v1.0.0",
+        "sha": "178794768c094ce1956078f01c28a69e415f9bc4",
+        "kind": "commit",
+        "published_at": "2020-04-21T01:03:48.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v1.0.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v1.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v1.0.0/manifests"
+      },
+      {
+        "name": "v0.8.2",
+        "sha": "4af69d33434f47b85630ea435a0ddeccea244838",
+        "kind": "commit",
+        "published_at": "2020-03-22T15:37:37.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.8.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.8.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.8.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.8.2/manifests"
+      },
+      {
+        "name": "v0.8.1",
+        "sha": "b8c5541ad0c98a4c617a93de6df35ce60af25f2e",
+        "kind": "commit",
+        "published_at": "2020-03-18T21:41:13.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.8.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.8.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.8.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.8.1/manifests"
+      },
+      {
+        "name": "v0.8.0",
+        "sha": "416003b50daea11c698b4f12ca3b92ce7e67c5cb",
+        "kind": "commit",
+        "published_at": "2019-12-12T20:47:15.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.8.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.8.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.8.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.8.0/manifests"
+      },
+      {
+        "name": "v0.7.0",
+        "sha": "26ae990e231c6acee689d08f02118b58671452b0",
+        "kind": "commit",
+        "published_at": "2019-07-06T04:11:26.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.7.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.7.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.7.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.7.0/manifests"
+      },
+      {
+        "name": "v0.6.3",
+        "sha": "124c57690eaf97b0b173c8bcfb780ba7ec74db7e",
+        "kind": "commit",
+        "published_at": "2019-06-30T02:11:04.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.6.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.6.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.6.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.6.3/manifests"
+      },
+      {
+        "name": "v0.6.2",
+        "sha": "529a8d4e185a8aa561e4d8d2891f8556b5717cd4",
+        "kind": "commit",
+        "published_at": "2019-04-05T14:26:50.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.6.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.6.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.6.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.6.2/manifests"
+      },
+      {
+        "name": "v0.6.1",
+        "sha": "c679e5edb5e5b8adc609928853ef980f06baaf18",
+        "kind": "commit",
+        "published_at": "2019-02-19T20:02:08.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.6.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.6.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.6.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.6.1/manifests"
+      },
+      {
+        "name": "v0.6.0",
+        "sha": "88a856137646c183196ce96632c290d78ab27ee0",
+        "kind": "commit",
+        "published_at": "2019-01-01T00:47:55.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.6.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.6.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.6.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.6.0/manifests"
+      },
+      {
+        "name": "v0.5.2",
+        "sha": "97be813c267b3d60a1bcef6f0b7ffa6014abc230",
+        "kind": "commit",
+        "published_at": "2018-11-20T00:03:46.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.5.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.5.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.5.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.5.2/manifests"
+      },
+      {
+        "name": "v0.5.1",
+        "sha": "f1ddca7febad16eb7861af0a7135989df0eb8e80",
+        "kind": "commit",
+        "published_at": "2018-09-26T01:49:37.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.5.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.5.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.5.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.5.1/manifests"
+      },
+      {
+        "name": "v0.5.0",
+        "sha": "78c977bc3a47f9e2fb146477d1ca3dad0cb134e6",
+        "kind": "commit",
+        "published_at": "2018-08-16T22:01:41.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.5.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.5.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.5.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.5.0/manifests"
+      },
+      {
+        "name": "0.4.0",
+        "sha": "78db8fb774afa651c87fdb09af2a0160e4f4619f",
+        "kind": "commit",
+        "published_at": "2018-05-20T20:18:02.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/0.4.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/0.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/0.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/0.4.0/manifests"
+      },
+      {
+        "name": "v0.3.19",
+        "sha": "5d1baa4d7ca55b27cb08029ac785e98b6378fcf0",
+        "kind": "commit",
+        "published_at": "2018-03-26T02:56:52.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.3.19",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.3.19",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.19",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.19/manifests"
+      },
+      {
+        "name": "v0.3.18",
+        "sha": "c1e19a9dec09a3c92524506128754aa4672b365b",
+        "kind": "commit",
+        "published_at": "2018-03-22T17:00:26.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.3.18",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.3.18",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.18",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.18/manifests"
+      },
+      {
+        "name": "v0.3.17",
+        "sha": "4252cad46232530a87215aa32d30a97f20b3c44f",
+        "kind": "commit",
+        "published_at": "2018-02-26T22:33:04.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.3.17",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.3.17",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.17",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.17/manifests"
+      },
+      {
+        "name": "0.3.15",
+        "sha": "9dce805578f57b321b517c0bb85fe1b53e70f21f",
+        "kind": "commit",
+        "published_at": "2018-02-19T04:32:40.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/0.3.15",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/0.3.15",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/0.3.15",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/0.3.15/manifests"
+      },
+      {
+        "name": "0.3.14",
+        "sha": "f663cb4c10ed7476def538af9d1bdd708d50d3ba",
+        "kind": "commit",
+        "published_at": "2018-02-16T13:36:06.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/0.3.14",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/0.3.14",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/0.3.14",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/0.3.14/manifests"
+      },
+      {
+        "name": "v0.3.12",
+        "sha": "1dc772bb94815a1e9364c8a143cc303002aefe4f",
+        "kind": "commit",
+        "published_at": "2018-01-09T00:10:48.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.3.12",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.3.12",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.12",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.12/manifests"
+      },
+      {
+        "name": "0.3.9",
+        "sha": "3a4f7a5dae661f0844cb7b07e8667b5666ffc83e",
+        "kind": "commit",
+        "published_at": "2017-12-23T17:55:50.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/0.3.9",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/0.3.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/0.3.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/0.3.9/manifests"
+      },
+      {
+        "name": "v0.3.7",
+        "sha": "39fbc8aedb3e17e0b098cf753492402614bd6b3e",
+        "kind": "commit",
+        "published_at": "2017-12-01T18:08:23.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.3.7",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.3.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.7/manifests"
+      },
+      {
+        "name": "v0.3.6",
+        "sha": "eddec20467c2d10c7769061ee9074e268500966f",
+        "kind": "commit",
+        "published_at": "2016-07-30T03:09:38.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.3.6",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.3.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.6/manifests"
+      },
+      {
+        "name": "v0.3.5",
+        "sha": "88ce4df47c4d994dc1b1df1477a21fb893e11ddc",
+        "kind": "commit",
+        "published_at": "2015-07-31T09:38:48.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.3.5",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.3.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.5/manifests"
+      },
+      {
+        "name": "v0.3.4",
+        "sha": "cb4981c553d8ee22953f5eacca989e65a821c764",
+        "kind": "commit",
+        "published_at": "2015-07-29T10:16:23.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.3.4",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.3.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.4/manifests"
+      },
+      {
+        "name": "v0.3.3",
+        "sha": "2b5802f258c5e23e48366f2377fbb4c807f47658",
+        "kind": "commit",
+        "published_at": "2015-01-25T23:51:07.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.3.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.3.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.3/manifests"
+      },
+      {
+        "name": "v0.3.2",
+        "sha": "43db549e31af5ff6e4a3b12e41a23513b9f88c99",
+        "kind": "commit",
+        "published_at": "2014-03-10T07:19:09.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.3.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.2/manifests"
+      },
+      {
+        "name": "v0.3.1",
+        "sha": "52e445f6ee41f151e247f9cf8add54786efae88e",
+        "kind": "commit",
+        "published_at": "2014-01-31T23:00:36.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.3.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.1/manifests"
+      },
+      {
+        "name": "v0.3.0",
+        "sha": "5a982b9c81919b5a975e8cd668c35ed5e392c1da",
+        "kind": "commit",
+        "published_at": "2013-12-24T14:08:54.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.3.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.3.0/manifests"
+      },
+      {
+        "name": "v0.2.10",
+        "sha": "0d27d58f16e3aa478cbc89a9a304e592e2862c5a",
+        "kind": "commit",
+        "published_at": "2013-11-02T23:07:41.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.2.10",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.2.10",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.10",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.10/manifests"
+      },
+      {
+        "name": "v0.2.9",
+        "sha": "df8640cd366e67525ffb45b5552f50d8078d909c",
+        "kind": "commit",
+        "published_at": "2013-05-29T01:39:47.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.2.9",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.2.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.9/manifests"
+      },
+      {
+        "name": "v0.2.8",
+        "sha": "46eaa21ad5ee985d339e7e16b2ee23b165bcb6a7",
+        "kind": "commit",
+        "published_at": "2013-02-02T02:41:29.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.2.8",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.2.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.8/manifests"
+      },
+      {
+        "name": "v0.2.7",
+        "sha": "1524ea4fe43d1bc9a57a44669e8896d973df7bfd",
+        "kind": "commit",
+        "published_at": "2013-01-05T13:28:29.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.2.7",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.2.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.7/manifests"
+      },
+      {
+        "name": "v0.2.6",
+        "sha": "84e472d8c194cc286a96fd234295d32b249e8a60",
+        "kind": "commit",
+        "published_at": "2012-11-23T15:58:53.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.2.6",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.2.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.6/manifests"
+      },
+      {
+        "name": "v0.2.5c",
+        "sha": "74878aa25c6038c1ccb8c01691ca7715db11698d",
+        "kind": "commit",
+        "published_at": "2012-11-03T08:53:45.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.2.5c",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.2.5c",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.5c",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.5c/manifests"
+      },
+      {
+        "name": "v0.2.5",
+        "sha": "d49ab2c6f50775af23b51e6c01b6057703c71475",
+        "kind": "commit",
+        "published_at": "2012-05-11T17:32:20.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.2.5",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.2.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.5/manifests"
+      },
+      {
+        "name": "v0.2.4",
+        "sha": "e30319528e936e91a8b93eff5b9bb2f49fec17a5",
+        "kind": "commit",
+        "published_at": "2012-04-12T07:28:24.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.2.4",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.2.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.4/manifests"
+      },
+      {
+        "name": "v0.2.3",
+        "sha": "c66b9a735e124057b5384267d69a31c084064316",
+        "kind": "commit",
+        "published_at": "2012-03-11T07:45:52.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.2.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.2.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.3/manifests"
+      },
+      {
+        "name": "v0.2.2",
+        "sha": "8d64bb4e2c1b14ddfca60393d9ef196fc2b9472a",
+        "kind": "commit",
+        "published_at": "2012-03-10T22:37:08.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.2.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.2.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.2/manifests"
+      },
+      {
+        "name": "v0.2.1",
+        "sha": "cdc2ab7396470467193342c9dadba386bd298936",
+        "kind": "commit",
+        "published_at": "2012-02-20T15:19:07.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.2.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.1/manifests"
+      },
+      {
+        "name": "v0.2.0",
+        "sha": "b202ceece603a54ff5bac1b6a86e44a52bae4d7a",
+        "kind": "commit",
+        "published_at": "2012-02-16T19:55:03.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.2.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.2.0/manifests"
+      },
+      {
+        "name": "v0.1.9",
+        "sha": "2292d64c41172219fde80b23ff951a9841e145ab",
+        "kind": "commit",
+        "published_at": "2012-01-30T18:18:30.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.1.9",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.1.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.9/manifests"
+      },
+      {
+        "name": "v0.1.8",
+        "sha": "60f0d2b9f272ed9fa25a82c6e093476137f6e506",
+        "kind": "commit",
+        "published_at": "2012-01-25T20:58:04.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.1.8",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.1.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.8/manifests"
+      },
+      {
+        "name": "v0.1.7",
+        "sha": "beaedc06cd0781e9ebea24a539568993ad171b71",
+        "kind": "commit",
+        "published_at": "2012-01-21T15:34:17.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.1.7",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.1.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.7/manifests"
+      },
+      {
+        "name": "v0.1.6",
+        "sha": "2a44eb3087dfe6a172bc03c8dcb5a19913662629",
+        "kind": "commit",
+        "published_at": "2012-01-15T13:15:25.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.1.6",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.1.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.6/manifests"
+      },
+      {
+        "name": "v0.1.5",
+        "sha": "0ccf2d7c82a323bfbbb5baa66e7ec272ab96f9e3",
+        "kind": "commit",
+        "published_at": "2012-01-04T07:59:00.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.1.5",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.1.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.5/manifests"
+      },
+      {
+        "name": "v0.1.4",
+        "sha": "3e2d9223c7fd27d0f707ea2e3f6e1de41d89c9dc",
+        "kind": "commit",
+        "published_at": "2011-12-05T03:49:07.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.1.4",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.1.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.4/manifests"
+      },
+      {
+        "name": "v0.1.3",
+        "sha": "9ab262b2cd9bda689dcaf95594d226ff28e676d2",
+        "kind": "commit",
+        "published_at": "2011-11-27T04:15:18.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.1.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.1.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.3/manifests"
+      },
+      {
+        "name": "v0.1.2",
+        "sha": "9d370fb8c37f93b9116ce8aa6e37403a5142439f",
+        "kind": "commit",
+        "published_at": "2011-10-22T14:16:14.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.1.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.2/manifests"
+      },
+      {
+        "name": "v0.1.1",
+        "sha": "094db6566e9232906e14d96dbc0244cdc2551f00",
+        "kind": "commit",
+        "published_at": "2011-10-14T23:30:42.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.1.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.1/manifests"
+      },
+      {
+        "name": "v0.1.0",
+        "sha": "9527426b6579b5f5c412cc5c1a6b16caad015b57",
+        "kind": "commit",
+        "published_at": "2011-09-14T17:41:51.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.1.0",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.1.0/manifests"
+      },
+      {
+        "name": "v0.0.9",
+        "sha": "7df4585a8158ba8d78f9414c98a9e66f3598ce8c",
+        "kind": "commit",
+        "published_at": "2011-08-27T23:49:11.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.0.9",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.0.9",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.9",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.9/manifests"
+      },
+      {
+        "name": "v0.0.8",
+        "sha": "1118034ad7dc27ea1b6b047f09be501a44d9d86d",
+        "kind": "commit",
+        "published_at": "2011-08-26T06:19:29.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.0.8",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.0.8",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.8",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.8/manifests"
+      },
+      {
+        "name": "v0.0.7",
+        "sha": "45798f2b7f61f3278b6178bae0cd897d8b9fe861",
+        "kind": "commit",
+        "published_at": "2011-08-24T16:38:27.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.0.7",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.0.7",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.7",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.7/manifests"
+      },
+      {
+        "name": "v0.0.6",
+        "sha": "75c345f08643f70c762f54c9f56e108083bb6bc2",
+        "kind": "commit",
+        "published_at": "2011-08-23T05:07:50.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.0.6",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.0.6",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.6",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.6/manifests"
+      },
+      {
+        "name": "v0.0.5",
+        "sha": "871e554269d4dacf70ec4e06e0cec8a9178de3c6",
+        "kind": "commit",
+        "published_at": "2011-08-19T00:46:04.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.0.5",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.0.5",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.5",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.5/manifests"
+      },
+      {
+        "name": "v0.0.4",
+        "sha": "76d7ee9bc4d5b2b435a215c5956849b3b0a3369e",
+        "kind": "commit",
+        "published_at": "2011-08-18T23:04:06.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.0.4",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.4/manifests"
+      },
+      {
+        "name": "v0.0.3",
+        "sha": "f5aa6b7f1de78fbd353459ad70b87cf72b05040f",
+        "kind": "commit",
+        "published_at": "2011-08-14T05:07:51.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.0.3",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.3/manifests"
+      },
+      {
+        "name": "v0.0.2",
+        "sha": "f881913833655f266bb14582508581ad55f446bc",
+        "kind": "commit",
+        "published_at": "2011-08-14T05:04:16.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.0.2",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.2/manifests"
+      },
+      {
+        "name": "v0.0.1",
+        "sha": "ccfc53b4a32a0854b379789ad1459710675adb30",
+        "kind": "commit",
+        "published_at": "2011-07-24T13:15:35.000Z",
+        "download_url": "https://codeload.github.com/markedjs/marked/tar.gz/v0.0.1",
+        "html_url": "https://github.com/markedjs/marked/releases/tag/v0.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/markedjs%2Fmarked/tags/v0.0.1/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-09-07T05:41:02.220Z",
+  "dependent_packages_count": 12165,
+  "downloads": 39008741,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 468889,
+  "rankings": {
+    "downloads": 0.042137565598661456,
+    "dependent_repos_count": 0.05344543732851667,
+    "dependent_packages_count": 0.008268710078489772,
+    "stargazers_count": 0.5058972056962103,
+    "forks_count": 0.6107072129162727,
+    "docker_downloads_count": 0.046655238323664146,
+    "average": 0.21118522832363584
+  },
+  "purl": "pkg:npm/marked",
+  "advisories": [
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTdweDctN3hqeC1oeG04",
+      "url": "https://github.com/advisories/GHSA-7px7-7xjx-hxm8",
+      "title": "Marked vulnerable to XSS from data URIs",
+      "description": "marked version 0.3.6 and earlier is vulnerable to an XSS attack in the data: URI parser.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2018-01-04T21:04:19.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2017-1000427",
+        "https://github.com/advisories/GHSA-7px7-7xjx-hxm8",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BO2RMVVZVV6NFTU46B5RYRK7ZCXYARZS/",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M6BJG6RGDH7ZWVVAUFBFI5L32RSMQN2S/",
+        "https://snyk.io/vuln/npm:marked:20170112"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-7px7-7xjx-hxm8",
+        "CVE-2017-1000427"
+      ],
+      "repository_url": null,
+      "blast_radius": 34.593527271057894,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.3.7",
+              "vulnerable_version_range": "< 0.3.7"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:37.516Z",
+      "updated_at": "2023-09-07T22:53:22.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS13am1mLTU4dmMteHFqcs4AAuAc",
+      "url": "https://github.com/advisories/GHSA-wjmf-58vc-xqjr",
+      "title": "Content injection in marked",
+      "description": "Versions 0.3.7 and earlier of marked When mangling is disabled via option mangle don't escape target href. This allow attacker to inject arbitrary html-event into resulting a tag.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2021-02-25T02:01:56.000Z",
+      "withdrawn_at": "2021-02-25T02:01:56.000Z",
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://github.com/markedjs/marked/issues/926",
+        "https://github.com/markedjs/marked/commit/cb72584c5d9d32ebfdbb99e35fb9b81af2b79686",
+        "https://github.com/advisories/GHSA-wjmf-58vc-xqjr"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-wjmf-58vc-xqjr"
+      ],
+      "repository_url": "https://github.com/markedjs/marked",
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.3.9",
+              "vulnerable_version_range": "< 0.3.9"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:01.404Z",
+      "updated_at": "2023-01-09T05:01:42.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWNoNTItdmdxMi05NDNm",
+      "url": "https://github.com/advisories/GHSA-ch52-vgq2-943f",
+      "title": "Regular Expression Denial of Service in marked",
+      "description": "Affected versions of `marked` are vulnerable to Regular Expression Denial of Service (ReDoS). The `_label` subrule may significantly degrade parsing performance of malformed input.\n\n\n## Recommendation\n\nUpgrade to version 0.7.0 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "LOW",
+      "published_at": "2020-09-03T18:15:53.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://www.npmjs.com/advisories/1076",
+        "https://github.com/advisories/GHSA-ch52-vgq2-943f"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-ch52-vgq2-943f"
+      ],
+      "repository_url": null,
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.7.0",
+              "vulnerable_version_range": ">= 0.4.0, < 0.7.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:17.166Z",
+      "updated_at": "2023-04-11T00:33:14.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTRyNjItdjR2cS1ocjk2",
+      "url": "https://github.com/advisories/GHSA-4r62-v4vq-hr96",
+      "title": "Regular Expression Denial of Service (REDoS) in Marked",
+      "description": "### Impact\n_What kind of vulnerability is it? Who is impacted?_\n\n[Regular expression Denial of Service](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS)\n\nA Denial of Service attack can affect anyone who runs user generated code through `marked`.\n\n### Patches\n_Has the problem been patched? What versions should users upgrade to?_\n\npatched in v2.0.0\n\n### Workarounds\n_Is there a way for users to fix or remediate the vulnerability without upgrading?_\n\nNone.\n\n### References\n_Are there any links users can visit to find out more?_\n\nhttps://github.com/markedjs/marked/issues/1927\nhttps://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS\n\n### For more information\nIf you have any questions or comments about this advisory:\n* Open an issue in [marked](https://github.com/markedjs/marked/issues)",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2021-02-08T21:17:58.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "references": [
+        "https://github.com/markedjs/marked/security/advisories/GHSA-4r62-v4vq-hr96",
+        "https://github.com/markedjs/marked/issues/1927",
+        "https://github.com/markedjs/marked/pull/1864",
+        "https://github.com/markedjs/marked/commit/7293251c438e3ee968970f7609f1a27f9007bccd",
+        "https://www.npmjs.com/package/marked",
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-21306",
+        "https://github.com/advisories/GHSA-4r62-v4vq-hr96"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-4r62-v4vq-hr96",
+        "CVE-2021-21306"
+      ],
+      "repository_url": "https://github.com/markedjs/marked",
+      "blast_radius": 30.05667123550932,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "2.0.0",
+              "vulnerable_version_range": ">= 1.1.1, < 2.0.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:11.591Z",
+      "updated_at": "2023-02-01T05:05:06.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXg1cGctODh3Zi1xcTRw",
+      "url": "https://github.com/advisories/GHSA-x5pg-88wf-qq4p",
+      "title": "Regular Expression Denial of Service in marked",
+      "description": "Affected versions of `marked` are vulnerable to a regular expression denial of service. \n\nThe amplification in this vulnerability is significant, with 1,000 characters resulting in the event loop being blocked for around 6 seconds.\n\n\n## Recommendation\n\nUpdate to version 0.3.9 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2018-07-24T20:10:52.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2017-16114",
+        "https://github.com/chjj/marked/issues/937",
+        "https://github.com/advisories/GHSA-x5pg-88wf-qq4p",
+        "https://www.npmjs.com/advisories/531"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-x5pg-88wf-qq4p",
+        "CVE-2017-16114"
+      ],
+      "repository_url": "https://github.com/chjj/marked",
+      "blast_radius": 42.53302533326791,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.3.9",
+              "vulnerable_version_range": "< 0.3.9"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:32.860Z",
+      "updated_at": "2023-09-07T22:11:27.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1ycnJtLXFqbTQtdjhoZs0jUw",
+      "url": "https://github.com/advisories/GHSA-rrrm-qjm4-v8hf",
+      "title": "Inefficient Regular Expression Complexity in marked",
+      "description": "### Impact\n\n_What kind of vulnerability is it?_\n\nDenial of service.\n\nThe regular expression `block.def` may cause catastrophic backtracking against some strings.\nPoC is the following.\n\n```javascript\nimport * as marked from \"marked\";\n\nmarked.parse(`[x]:${' '.repeat(1500)}x ${' '.repeat(1500)} x`);\n```\n\n_Who is impacted?_\n\nAnyone who runs untrusted markdown through marked and does not use a worker with a time limit.\n\n### Patches\n\n_Has the problem been patched?_\n\nYes\n\n_What versions should users upgrade to?_\n\n4.0.10\n\n### Workarounds\n\n_Is there a way for users to fix or remediate the vulnerability without upgrading?_\n\nDo not run untrusted markdown through marked or run marked on a [worker](https://marked.js.org/using_advanced#workers) thread and set a reasonable time limit to prevent draining resources.\n\n### References\n\n_Are there any links users can visit to find out more?_\n\n- https://marked.js.org/using_advanced#workers\n- https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n* Open an issue in [marked](https://github.com/markedjs/marked)\n",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-01-14T21:04:41.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://github.com/markedjs/marked/security/advisories/GHSA-rrrm-qjm4-v8hf",
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-21680",
+        "https://github.com/markedjs/marked/commit/c4a3ccd344b6929afa8a1d50ac54a721e57012c0",
+        "https://github.com/markedjs/marked/releases/tag/v4.0.10",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AIXDMC3CSHYW3YWVSQOXAWLUYQHAO5UX/",
+        "https://github.com/advisories/GHSA-rrrm-qjm4-v8hf"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-rrrm-qjm4-v8hf",
+        "CVE-2022-21680"
+      ],
+      "repository_url": "https://github.com/markedjs/marked",
+      "blast_radius": 42.53302533326791,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.0.10",
+              "vulnerable_version_range": "< 4.0.10"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:38.491Z",
+      "updated_at": "2023-11-29T20:51:52.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWNybXgtdjgzNS1oY3A0",
+      "url": "https://github.com/advisories/GHSA-crmx-v835-hcp4",
+      "title": "Moderate severity vulnerability that affects marked",
+      "description": "# Withdrawn\n\nThis advisory has been withdrawn, per NVD: [\"This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue.\"](https://nvd.nist.gov/vuln/detail/CVE-2017-17461)\n\n# Original Description\n\nA Regular expression Denial of Service (ReDoS) vulnerability in the file marked.js of the marked npm package (tested on version 0.3.7) allows a remote attacker to overload and crash a server by passing a maliciously crafted string.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2018-01-04T21:04:09.000Z",
+      "withdrawn_at": "2021-12-02T22:47:36.000Z",
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2017-17461",
+        "https://github.com/advisories/GHSA-crmx-v835-hcp4"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-crmx-v835-hcp4",
+        "CVE-2017-17461"
+      ],
+      "repository_url": null,
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.3.9",
+              "vulnerable_version_range": "< 0.3.9"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:37.526Z",
+      "updated_at": "2023-01-09T05:03:05.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWNmamgtcDNnNC0zcTJm",
+      "url": "https://github.com/advisories/GHSA-cfjh-p3g4-3q2f",
+      "title": "VBScript Content Injection in marked",
+      "description": "Versions 0.3.2 and earlier of `marked` are affected by a cross-site scripting vulnerability even when `sanitize:true` is set. \n\n## Proof of Concept ( IE10 Compatibility Mode Only )\n\n`[xss link](vbscript:alert(1&#41;)`\n\nwill get a link\n\n`<a href=\"vbscript:alert(1)\">xss link</a>`\n\n\n## Recommendation\n\nUpdate to version 0.3.3 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2017-10-24T18:33:36.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2015-1370",
+        "https://github.com/markedjs/marked/issues/492",
+        "https://github.com/markedjs/marked/commit/fc372d1c6293267722e33f2719d57cebd67b3da1",
+        "https://www.npmjs.com/advisories/24",
+        "https://www.npmjs.com/advisories/24/versions",
+        "https://github.com/chjj/marked/issues/492",
+        "https://github.com/evilpacket/marked/commit/3c191144939107c45a7fa11ab6cb88be6694a1ba",
+        "http://www.openwall.com/lists/oss-security/2015/01/23/2",
+        "https://github.com/advisories/GHSA-cfjh-p3g4-3q2f"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-cfjh-p3g4-3q2f",
+        "CVE-2015-1370"
+      ],
+      "repository_url": "https://github.com/markedjs/marked",
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.3.3",
+              "vulnerable_version_range": "< 0.3.3"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:39.067Z",
+      "updated_at": "2023-01-09T05:03:04.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTljdzItanFwNS03eDM5",
+      "url": "https://github.com/advisories/GHSA-9cw2-jqp5-7x39",
+      "title": "Multiple Content Injection Vulnerabilities in marked",
+      "description": "Versions 0.3.0 and earlier of `marked` are affected by two cross-site scripting vulnerabilities, even when `sanitize: true` is set.\n\nThe attack vectors for this vulnerability are GFM Codeblocks and JavaScript URLs.\n\n\n## Recommendation\n\nUpgrade to version 0.3.1 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2020-08-31T22:52:52.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2014-1850",
+        "https://www.npmjs.com/advisories/22",
+        "https://github.com/advisories/GHSA-9cw2-jqp5-7x39"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-9cw2-jqp5-7x39",
+        "CVE-2014-3743"
+      ],
+      "repository_url": null,
+      "blast_radius": 34.593527271057894,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.3.1",
+              "vulnerable_version_range": "<= 0.3.0"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:22.611Z",
+      "updated_at": "2023-01-09T05:03:33.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS03bTdxLXE1M3YtajQ3ds4AAuAb",
+      "url": "https://github.com/advisories/GHSA-7m7q-q53v-j47v",
+      "title": "Regular Expression Denial of Service",
+      "description": "A flaw was found in nodejs-marked versions from 0.5.0 to before 0.6.1. Affected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS). Input to the host variable is vulnerable when input contains parenthesis in link URIs, coupled with a high number of link tokens in a single line.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2021-02-25T02:01:47.000Z",
+      "withdrawn_at": "2021-02-25T02:01:47.000Z",
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://github.com/Feder1co5oave/marktex/commit/cc8a45288b59ca10a8fedaed9028072021be9999",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=1679550",
+        "https://github.com/advisories/GHSA-7m7q-q53v-j47v"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-7m7q-q53v-j47v"
+      ],
+      "repository_url": "https://github.com/Feder1co5oave/marktex",
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.6.1",
+              "vulnerable_version_range": ">= 0.5.0, < 0.6.1"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:01.412Z",
+      "updated_at": "2023-01-09T05:01:35.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXhmNXAtODdjaC1neHcy",
+      "url": "https://github.com/advisories/GHSA-xf5p-87ch-gxw2",
+      "title": "Marked ReDoS due to email addresses being evaluated in quadratic time",
+      "description": "Versions of `marked` from 0.3.14 until 0.6.2 are vulnerable to Regular Expression Denial of Service. Email addresses may be evaluated in quadratic time, allowing attackers to potentially crash the node process due to resource exhaustion.\n\n\n## Recommendation\n\nUpgrade to version 0.6.2 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2019-06-05T14:10:03.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "references": [
+        "https://github.com/markedjs/marked/commit/b15e42b67cec9ded8505e9d68bb8741ad7a9590d",
+        "https://github.com/markedjs/marked/pull/1460",
+        "https://snyk.io/vuln/SNYK-JS-MARKED-174116",
+        "https://www.npmjs.com/advisories/812",
+        "https://github.com/markedjs/marked/releases/tag/v0.6.2",
+        "https://github.com/advisories/GHSA-xf5p-87ch-gxw2"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-xf5p-87ch-gxw2"
+      ],
+      "repository_url": "https://github.com/markedjs/marked",
+      "blast_radius": 30.05667123550932,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.6.2",
+              "vulnerable_version_range": ">= 0.3.14, < 0.6.2"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:09.308Z",
+      "updated_at": "2023-01-11T05:08:03.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS04d3AzLWNwOXYtNDRmbc4AAuAa",
+      "url": "https://github.com/advisories/GHSA-8wp3-cp9v-44fm",
+      "title": "Cross-Site Scripting in marked",
+      "description": "Versions 0.3.7 and earlier of marked unescape only lowercase while owsers support both lowercase and uppercase x in hexadecimal form of HTML character entity",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2021-02-25T02:01:15.000Z",
+      "withdrawn_at": "2021-02-25T02:01:15.000Z",
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://github.com/markedjs/marked/issues/925",
+        "https://github.com/markedjs/marked/commit/6d1901ff71abb83aa32ca9a5ce47471382ea42a9",
+        "https://github.com/advisories/GHSA-8wp3-cp9v-44fm"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-8wp3-cp9v-44fm"
+      ],
+      "repository_url": "https://github.com/markedjs/marked",
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.3.9",
+              "vulnerable_version_range": "< 0.3.9"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:01.421Z",
+      "updated_at": "2023-01-09T05:01:41.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLXZmdmYtbXFxOC1yd3Fj",
+      "url": "https://github.com/advisories/GHSA-vfvf-mqq8-rwqc",
+      "title": "Sanitization bypass using HTML Entities in marked",
+      "description": "Affected versions of `marked` are susceptible to a cross-site scripting vulnerability in link components when `sanitize:true` is configured. \n\n## Proof of Concept\n\nThis flaw exists because link URIs containing HTML entities get processed in an abnormal manner. Any HTML Entities get parsed on a best-effort basis and included in the resulting link, while if that parsing fails that character is omitted.\n\nFor example:\n\nA link URI such as\n```\njavascript&#x58document;alert&#40;1&#41;\n```\nRenders a valid link that when clicked will execute `alert(1)`.\n\n\n## Recommendation\n\nUpdate to version 0.3.6 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2019-02-18T23:58:20.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2016-10531",
+        "https://github.com/chjj/marked/pull/592",
+        "https://github.com/chjj/marked/pull/592/commits/2cff85979be8e7a026a9aca35542c470cf5da523",
+        "https://github.com/advisories/GHSA-vfvf-mqq8-rwqc",
+        "https://www.npmjs.com/advisories/101"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-vfvf-mqq8-rwqc",
+        "CVE-2016-10531"
+      ],
+      "repository_url": "https://github.com/chjj/marked",
+      "blast_radius": 34.593527271057894,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.3.6",
+              "vulnerable_version_range": "< 0.3.6"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:31.430Z",
+      "updated_at": "2023-09-07T22:23:30.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTMydnctcjc3Yy1nbTY3",
+      "url": "https://github.com/advisories/GHSA-32vw-r77c-gm67",
+      "title": "Moderate severity vulnerability that affects marked",
+      "description": "Versions 0.3.2 and earlier of marked are affected by a cross-site scripting vulnerability even when sanitize:true is set.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2020-08-03T17:57:05.000Z",
+      "withdrawn_at": "2020-08-03T17:57:05.000Z",
+      "classification": "GENERAL",
+      "cvss_score": 0,
+      "cvss_vector": null,
+      "references": [
+        "https://github.com/markedjs/marked/issues/492",
+        "https://github.com/markedjs/marked/commit/fc372d1c6293267722e33f2719d57cebd67b3da1",
+        "https://www.npmjs.com/advisories/24",
+        "https://www.npmjs.com/advisories/24/versions",
+        "https://github.com/advisories/GHSA-32vw-r77c-gm67"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-32vw-r77c-gm67"
+      ],
+      "repository_url": "https://github.com/markedjs/marked",
+      "blast_radius": 0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.3.3",
+              "vulnerable_version_range": "< 0.3.3"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:01.505Z",
+      "updated_at": "2023-01-09T05:01:41.000Z"
+    },
+    {
+      "uuid": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWhqY3AtajM4OS01OWZm",
+      "url": "https://github.com/advisories/GHSA-hjcp-j389-59ff",
+      "title": "Regular Expression Denial of Service in marked",
+      "description": "Versions 0.3.3 and earlier of `marked` are affected by a regular expression denial of service ( ReDoS ) vulnerability when passed inputs that reach the `em` inline rule.\n\n\n\n## Recommendation\n\nUpdate to version 0.3.4 or later.",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2017-10-24T18:33:36.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2015-8854",
+        "https://github.com/chjj/marked/issues/497",
+        "https://github.com/advisories/GHSA-hjcp-j389-59ff",
+        "https://www.npmjs.com/advisories/23",
+        "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BO2RMVVZVV6NFTU46B5RYRK7ZCXYARZS/",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M6BJG6RGDH7ZWVVAUFBFI5L32RSMQN2S/",
+        "https://support.f5.com/csp/article/K05052081?utm_source=f5support&amp;utm_medium=RSS",
+        "http://www.openwall.com/lists/oss-security/2016/04/20/11"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-hjcp-j389-59ff",
+        "CVE-2015-8854"
+      ],
+      "repository_url": "https://github.com/chjj/marked",
+      "blast_radius": 42.53302533326791,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.3.4",
+              "vulnerable_version_range": "< 0.3.4"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:13:39.204Z",
+      "updated_at": "2024-02-09T17:50:44.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS01djJoLXIyY3gtNXhnas0jVA",
+      "url": "https://github.com/advisories/GHSA-5v2h-r2cx-5xgj",
+      "title": "Inefficient Regular Expression Complexity in marked",
+      "description": "### Impact\n\n_What kind of vulnerability is it?_\n\nDenial of service.\n\nThe regular expression `inline.reflinkSearch` may cause catastrophic backtracking against some strings.\nPoC is the following.\n\n```javascript\nimport * as marked from 'marked';\n\nconsole.log(marked.parse(`[x]: x\n\n\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](\\\\[\\\\](`));\n```\n\n_Who is impacted?_\n\nAnyone who runs untrusted markdown through marked and does not use a worker with a time limit.\n\n### Patches\n\n_Has the problem been patched?_\n\nYes\n\n_What versions should users upgrade to?_\n\n4.0.10\n\n### Workarounds\n\n_Is there a way for users to fix or remediate the vulnerability without upgrading?_\n\nDo not run untrusted markdown through marked or run marked on a [worker](https://marked.js.org/using_advanced#workers) thread and set a reasonable time limit to prevent draining resources.\n\n### References\n\n_Are there any links users can visit to find out more?_\n\n- https://marked.js.org/using_advanced#workers\n- https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n* Open an issue in [marked](https://github.com/markedjs/marked)\n",
+      "origin": "UNSPECIFIED",
+      "severity": "HIGH",
+      "published_at": "2022-01-14T21:04:46.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "references": [
+        "https://github.com/markedjs/marked/security/advisories/GHSA-5v2h-r2cx-5xgj",
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-21681",
+        "https://github.com/markedjs/marked/commit/8f806573a3f6c6b7a39b8cdb66ab5ebb8d55a5f5",
+        "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AIXDMC3CSHYW3YWVSQOXAWLUYQHAO5UX/",
+        "https://github.com/markedjs/marked/commit/c4a3ccd344b6929afa8a1d50ac54a721e57012c0",
+        "https://github.com/advisories/GHSA-5v2h-r2cx-5xgj"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-5v2h-r2cx-5xgj",
+        "CVE-2022-21681"
+      ],
+      "repository_url": "https://github.com/markedjs/marked",
+      "blast_radius": 42.53302533326791,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "4.0.10",
+              "vulnerable_version_range": "< 4.0.10"
+            }
+          ],
+          "ecosystem": "npm",
+          "package_name": "marked"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:38.482Z",
+      "updated_at": "2023-11-29T20:51:17.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/marked",
+  "docker_dependents_count": 10161,
+  "docker_downloads_count": 3078341284,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/marked",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/marked/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/marked/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/marked/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/marked/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/marked/related_packages",
+  "maintainers": [
+    {
+      "uuid": "amidknight",
+      "login": "amidknight",
+      "name": null,
+      "email": "josh@8fold.pro",
+      "url": null,
+      "packages_count": 5,
+      "html_url": "https://www.npmjs.com/~amidknight",
+      "role": null,
+      "created_at": "2022-11-10T10:55:11.370Z",
+      "updated_at": "2022-11-10T10:55:11.370Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/amidknight/packages"
+    },
+    {
+      "uuid": "styfle",
+      "login": "styfle",
+      "name": null,
+      "email": "steven@ceriously.com",
+      "url": null,
+      "packages_count": 33,
+      "html_url": "https://www.npmjs.com/~styfle",
+      "role": null,
+      "created_at": "2022-11-10T10:55:11.364Z",
+      "updated_at": "2022-11-10T10:55:11.364Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/styfle/packages"
+    },
+    {
+      "uuid": "chjj",
+      "login": "chjj",
+      "name": null,
+      "email": "chjjeffrey@gmail.com",
+      "url": null,
+      "packages_count": 133,
+      "html_url": "https://www.npmjs.com/~chjj",
+      "role": null,
+      "created_at": "2022-11-10T10:55:11.357Z",
+      "updated_at": "2022-11-10T10:55:11.357Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/chjj/packages"
+    },
+    {
+      "uuid": "tonybrix",
+      "login": "tonybrix",
+      "name": null,
+      "email": "tony@brix.ninja",
+      "url": null,
+      "packages_count": 49,
+      "html_url": "https://www.npmjs.com/~tonybrix",
+      "role": null,
+      "created_at": "2022-11-10T10:55:11.377Z",
+      "updated_at": "2022-11-10T10:55:11.377Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/tonybrix/packages"
+    }
+  ]
+}

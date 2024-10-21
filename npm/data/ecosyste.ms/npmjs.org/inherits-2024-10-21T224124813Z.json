@@ -1,0 +1,286 @@
+{
+  "id": 1867525,
+  "name": "inherits",
+  "ecosystem": "npm",
+  "description": "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+  "homepage": "https://github.com/isaacs/inherits",
+  "licenses": "ISC",
+  "normalized_licenses": [
+    "ISC"
+  ],
+  "repository_url": "https://github.com/isaacs/inherits",
+  "keywords_array": [
+    "inheritance",
+    "class",
+    "klass",
+    "oop",
+    "object-oriented",
+    "inherits",
+    "browser",
+    "browserify"
+  ],
+  "namespace": null,
+  "versions_count": 7,
+  "first_release_published_at": "2011-04-07T00:35:15.718Z",
+  "latest_release_published_at": "2019-06-19T20:18:52.465Z",
+  "latest_release_number": "2.0.4",
+  "last_synced_at": "2024-10-21T12:05:57.638Z",
+  "created_at": "2022-04-09T17:38:46.886Z",
+  "updated_at": "2024-10-21T12:05:57.639Z",
+  "registry_url": "https://www.npmjs.com/package/inherits",
+  "install_command": "npm install inherits",
+  "documentation_url": null,
+  "metadata": {
+    "funding": null,
+    "dist-tags": {
+      "latest": "2.0.4"
+    }
+  },
+  "repo_metadata": {
+    "id": 43514042,
+    "uuid": "1580001",
+    "full_name": "isaacs/inherits",
+    "owner": "isaacs",
+    "description": "Easy simple tiny inheritance in JavaScript",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2023-10-17T12:35:10.000Z",
+    "size": 176,
+    "stargazers_count": 352,
+    "open_issues_count": 5,
+    "forks_count": 86,
+    "subscribers_count": 23,
+    "default_branch": "main",
+    "last_synced_at": "2024-08-29T08:38:53.958Z",
+    "etag": null,
+    "topics": [],
+    "latest_commit_sha": null,
+    "homepage": "",
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "isc",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/isaacs.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": null,
+        "contributing": "CONTRIBUTING.md",
+        "funding": null,
+        "license": "LICENSE",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": null,
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null
+      },
+      "funding": {
+        "github": [
+          "isaacs"
+        ]
+      }
+    },
+    "created_at": "2011-04-07T00:30:10.000Z",
+    "updated_at": "2024-08-28T00:11:15.000Z",
+    "dependencies_parsed_at": "2024-02-26T01:49:23.461Z",
+    "dependency_job_id": "13a824d9-1271-4617-8241-8cb3cb03aa9f",
+    "html_url": "https://github.com/isaacs/inherits",
+    "commit_stats": {
+      "total_commits": 32,
+      "total_committers": 7,
+      "mean_commits": 4.571428571428571,
+      "dds": 0.21875,
+      "last_synced_commit": "b44e1f5699d0f6f0c9fa3808271bea33dc600549"
+    },
+    "previous_names": [],
+    "tags_count": 6,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/isaacs",
+    "download_url": "https://codeload.github.com/isaacs/inherits/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 217766413,
+      "owners_count": 16226934,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "isaacs",
+      "name": "isaacs",
+      "uuid": "9287",
+      "kind": "user",
+      "description": "npm inventor, founder npm, Inc.\r\nFormer Node BDFL.\r\nAll opinions are my own. Literally all of them. I own them all.",
+      "email": "",
+      "website": "http://blog.izs.me",
+      "location": "Oakland CA",
+      "twitter": null,
+      "company": "vlt.sh",
+      "icon_url": "https://avatars.githubusercontent.com/u/9287?u=55c7d6ddb9f37d0ad9785c313b50d737d58bf79b&v=4",
+      "repositories_count": 464,
+      "last_synced_at": "2024-05-20T14:46:38.194Z",
+      "metadata": {
+        "has_sponsors_listing": true,
+        "funding": {
+          "github": [
+            "isaacs"
+          ]
+        }
+      },
+      "html_url": "https://github.com/isaacs",
+      "funding_links": [
+        "https://github.com/sponsors/isaacs"
+      ],
+      "total_stars": 36530,
+      "followers": 14685,
+      "following": 4,
+      "created_at": "2022-11-02T16:19:00.493Z",
+      "updated_at": "2024-05-20T14:46:52.353Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/isaacs",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/isaacs/repositories"
+    },
+    "tags": [
+      {
+        "name": "v2.0.4",
+        "sha": "9a2c29400c6d491e0b7beefe0c32efa3b462545d",
+        "kind": "tag",
+        "published_at": "2019-06-19T20:18:34.000Z",
+        "download_url": "https://codeload.github.com/isaacs/inherits/tar.gz/v2.0.4",
+        "html_url": "https://github.com/isaacs/inherits/releases/tag/v2.0.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags/v2.0.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags/v2.0.4/manifests"
+      },
+      {
+        "name": "v2.0.3",
+        "sha": "e05d0fb27c61a3ec687214f0476386b765364d5f",
+        "kind": "tag",
+        "published_at": "2016-09-08T00:49:29.000Z",
+        "download_url": "https://codeload.github.com/isaacs/inherits/tar.gz/v2.0.3",
+        "html_url": "https://github.com/isaacs/inherits/releases/tag/v2.0.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags/v2.0.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags/v2.0.3/manifests"
+      },
+      {
+        "name": "v2.0.2",
+        "sha": "acf10b28b20d573a0abd24d6de837cfe1280cfe6",
+        "kind": "tag",
+        "published_at": "2016-09-07T20:33:46.000Z",
+        "download_url": "https://codeload.github.com/isaacs/inherits/tar.gz/v2.0.2",
+        "html_url": "https://github.com/isaacs/inherits/releases/tag/v2.0.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags/v2.0.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags/v2.0.2/manifests"
+      },
+      {
+        "name": "v1.0.1",
+        "sha": "8cc604cb8bd24a427eb92e96bca4d25a87ce4ea1",
+        "kind": "tag",
+        "published_at": "2015-08-26T22:11:48.000Z",
+        "download_url": "https://codeload.github.com/isaacs/inherits/tar.gz/v1.0.1",
+        "html_url": "https://github.com/isaacs/inherits/releases/tag/v1.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags/v1.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags/v1.0.1/manifests"
+      },
+      {
+        "name": "v2.0.1",
+        "sha": "3af5a10c6b51f9e99d9f90394645d7ea630d5eaa",
+        "kind": "tag",
+        "published_at": "2013-08-19T22:10:15.000Z",
+        "download_url": "https://codeload.github.com/isaacs/inherits/tar.gz/v2.0.1",
+        "html_url": "https://github.com/isaacs/inherits/releases/tag/v2.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags/v2.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags/v2.0.1/manifests"
+      },
+      {
+        "name": "v2.0.0",
+        "sha": "e8fd3e37699351ac55b89eecae9b048d49b9f7dc",
+        "kind": "tag",
+        "published_at": "2013-05-16T14:43:42.000Z",
+        "download_url": "https://codeload.github.com/isaacs/inherits/tar.gz/v2.0.0",
+        "html_url": "https://github.com/isaacs/inherits/releases/tag/v2.0.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags/v2.0.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/isaacs%2Finherits/tags/v2.0.0/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-09-07T18:29:43.048Z",
+  "dependent_packages_count": 6194,
+  "downloads": 315696569,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 2323492,
+  "rankings": {
+    "downloads": 0.0017249291136273782,
+    "dependent_repos_count": 0.011444767769781651,
+    "dependent_packages_count": 0.014976765478637712,
+    "stargazers_count": 3.325526431937583,
+    "forks_count": 3.19183160963584,
+    "docker_downloads_count": 0.00043807723520695313,
+    "average": 1.0909904301951128
+  },
+  "purl": "pkg:npm/inherits",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/npm/inherits",
+  "docker_dependents_count": 71540,
+  "docker_downloads_count": 19726727856,
+  "usage_url": "https://repos.ecosyste.ms/usage/npm/inherits",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/npm/inherits/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/isaacs"
+  ],
+  "critical": true,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/inherits/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/inherits/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/inherits/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/packages/inherits/related_packages",
+  "maintainers": [
+    {
+      "uuid": "isaacs",
+      "login": "isaacs",
+      "name": null,
+      "email": "i@izs.me",
+      "url": null,
+      "packages_count": 442,
+      "html_url": "https://www.npmjs.com/~isaacs",
+      "role": null,
+      "created_at": "2022-11-12T20:07:14.458Z",
+      "updated_at": "2022-11-12T20:07:14.458Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/npmjs.org/maintainers/isaacs/packages"
+    }
+  ]
+}
