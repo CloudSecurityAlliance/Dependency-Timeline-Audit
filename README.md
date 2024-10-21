@@ -94,3 +94,12 @@ This process ensures a thorough examination of your project's dependency timelin
   * rebar3_sbom: https://github.com/voltone/rebar3_sbom
   * sbom-rs: https://github.com/psastras/sbom-rs
   
+
+## Use cases
+
+Example use cases
+
+* CI/CD integrated gate keeper (e.g. with GitHub)
+* Run on project and get results
+* Give feedback on specific package(s)
+* Help select/find packages for a specific purpose (e.g. PDF reader)

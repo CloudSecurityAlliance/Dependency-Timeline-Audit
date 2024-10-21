@@ -1,0 +1,79 @@
+{
+  "id": 5930529,
+  "name": "llm-kira",
+  "ecosystem": "pypi",
+  "description": "chatbot client for llm",
+  "homepage": "https://github.com/sudoskys/llm_kira",
+  "licenses": "LGPL-2.1-or-later",
+  "normalized_licenses": [
+    "SSPL-1.0"
+  ],
+  "repository_url": "https://github.com/sudoskys/llm_kira",
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 77,
+  "first_release_published_at": "2023-01-23T16:48:46.000Z",
+  "latest_release_published_at": "2023-03-03T08:57:25.000Z",
+  "latest_release_number": "0.7.4",
+  "last_synced_at": "2023-10-20T00:40:47.258Z",
+  "created_at": "2023-01-23T17:03:55.406Z",
+  "updated_at": "2024-05-13T07:47:50.425Z",
+  "registry_url": "https://pypi.org/project/llm-kira/",
+  "install_command": "pip install llm-kira --index-url https://pypi.org/simple",
+  "documentation_url": "https://llm-kira.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "classifiers": [
+      "License :: OSI Approved",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "normalized_name": "llm-kira"
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2023-09-19T12:43:06.324Z",
+  "dependent_packages_count": 0,
+  "downloads": 346,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 0,
+  "rankings": {
+    "downloads": 3.4142381086087297,
+    "dependent_repos_count": 30.61104109666564,
+    "dependent_packages_count": 6.633233862033089,
+    "stargazers_count": null,
+    "forks_count": null,
+    "average": 13.552837689102487
+  },
+  "purl": "pkg:pypi/llm-kira",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/llm-kira",
+  "docker_dependents_count": 1,
+  "docker_downloads_count": 28,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/llm-kira",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/llm-kira/dependencies",
+  "status": "removed",
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/llm-kira/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/llm-kira/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/llm-kira/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/llm-kira/related_packages",
+  "maintainers": [
+    {
+      "uuid": "Yumiya233",
+      "login": "Yumiya233",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 15,
+      "html_url": "https://pypi.org/user/Yumiya233/",
+      "role": null,
+      "created_at": "2023-01-27T07:07:53.424Z",
+      "updated_at": "2023-01-27T07:07:53.424Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/Yumiya233/packages"
+    }
+  ]
+}

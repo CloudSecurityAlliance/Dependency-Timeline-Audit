@@ -1,0 +1,805 @@
+{
+  "id": 2970278,
+  "name": "whoogle-search",
+  "ecosystem": "pypi",
+  "description": "Self-hosted, ad-free, privacy-respecting metasearch engine",
+  "homepage": "https://github.com/benbusby/whoogle-search",
+  "licenses": "MIT",
+  "normalized_licenses": [
+    "MIT"
+  ],
+  "repository_url": "https://github.com/benbusby/whoogle-search",
+  "keywords_array": [
+    "search",
+    "metasearch",
+    "flask",
+    "adblock",
+    "degoogle",
+    "privacy"
+  ],
+  "namespace": null,
+  "versions_count": 27,
+  "first_release_published_at": "2020-05-08T16:34:22.000Z",
+  "latest_release_published_at": "2023-11-01T22:05:14.000Z",
+  "latest_release_number": "0.8.4",
+  "last_synced_at": "2024-10-14T10:55:39.251Z",
+  "created_at": "2022-04-10T13:04:25.529Z",
+  "updated_at": "2024-10-14T11:37:14.350Z",
+  "registry_url": "https://pypi.org/project/whoogle-search/",
+  "install_command": "pip install whoogle-search --index-url https://pypi.org/simple",
+  "documentation_url": "https://whoogle-search.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "Operating System :: OS Independent",
+      "Programming Language :: Python :: 3"
+    ],
+    "normalized_name": "whoogle-search"
+  },
+  "repo_metadata": {
+    "id": 37016141,
+    "uuid": "235434204",
+    "full_name": "benbusby/whoogle-search",
+    "owner": "benbusby",
+    "description": "A self-hosted, ad-free, privacy-respecting metasearch engine",
+    "archived": false,
+    "fork": false,
+    "pushed_at": "2024-09-30T18:25:03.000Z",
+    "size": 2591,
+    "stargazers_count": 9457,
+    "open_issues_count": 67,
+    "forks_count": 931,
+    "subscribers_count": 97,
+    "default_branch": "main",
+    "last_synced_at": "2024-10-14T10:40:52.292Z",
+    "etag": null,
+    "topics": [
+      "adblock",
+      "docker",
+      "easy-deploy",
+      "flask",
+      "heroku",
+      "metasearch",
+      "metasearch-engine",
+      "privacy",
+      "python",
+      "search",
+      "search-engine"
+    ],
+    "latest_commit_sha": null,
+    "homepage": "https://pypi.org/project/whoogle-search/",
+    "language": "Python",
+    "has_issues": true,
+    "has_wiki": null,
+    "has_pages": null,
+    "mirror_url": null,
+    "source_name": null,
+    "license": "mit",
+    "status": null,
+    "scm": "git",
+    "pull_requests_enabled": true,
+    "icon_url": "https://github.com/benbusby.png",
+    "metadata": {
+      "files": {
+        "readme": "README.md",
+        "changelog": null,
+        "contributing": null,
+        "funding": ".github/FUNDING.yml",
+        "license": "LICENSE",
+        "code_of_conduct": null,
+        "threat_model": null,
+        "audit": null,
+        "citation": null,
+        "codeowners": null,
+        "security": null,
+        "support": null,
+        "governance": null,
+        "roadmap": null,
+        "authors": null,
+        "dei": null,
+        "publiccode": null,
+        "codemeta": null
+      },
+      "funding": {
+        "github": "benbusby",
+        "ko_fi": "benbusby",
+        "tidelift": null,
+        "community_bridge": null,
+        "liberapay": null,
+        "issuehunt": null,
+        "otechie": null,
+        "custom": null
+      }
+    },
+    "created_at": "2020-01-21T20:22:33.000Z",
+    "updated_at": "2024-10-14T09:03:56.000Z",
+    "dependencies_parsed_at": "2024-06-20T17:32:28.052Z",
+    "dependency_job_id": "eca3d874-225b-4177-b4a9-5b48ed13ce8b",
+    "html_url": "https://github.com/benbusby/whoogle-search",
+    "commit_stats": {
+      "total_commits": 782,
+      "total_committers": 131,
+      "mean_commits": 5.969465648854962,
+      "dds": 0.7583120204603581,
+      "last_synced_commit": "9bfdd88a5ed46a5046a4768f4787f36a9fef3b0c"
+    },
+    "previous_names": [],
+    "tags_count": 29,
+    "template": false,
+    "template_full_name": null,
+    "repository_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search",
+    "tags_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags",
+    "releases_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/releases",
+    "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/manifests",
+    "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/benbusby",
+    "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/refs/heads/main",
+    "host": {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "kind": "github",
+      "repositories_count": 219847410,
+      "owners_count": 16556391,
+      "icon_url": "https://github.com/github.png",
+      "version": null,
+      "created_at": "2022-05-30T11:31:42.601Z",
+      "updated_at": "2022-07-04T15:15:14.044Z",
+      "host_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories",
+      "repository_names_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repository_names",
+      "owners_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners"
+    },
+    "owner_record": {
+      "login": "benbusby",
+      "name": "Ben Busby",
+      "uuid": "33362396",
+      "kind": "user",
+      "description": "",
+      "email": "",
+      "website": "https://benbusby.com",
+      "location": "Twin Peaks",
+      "twitter": null,
+      "company": "@bstaero, @meddlehead",
+      "icon_url": "https://avatars.githubusercontent.com/u/33362396?u=cd009b1052351ae95a7052940af8030771ace8d2&v=4",
+      "repositories_count": 26,
+      "last_synced_at": "2024-05-20T14:25:01.059Z",
+      "metadata": {
+        "has_sponsors_listing": true
+      },
+      "html_url": "https://github.com/benbusby",
+      "funding_links": [
+        "https://github.com/sponsors/benbusby"
+      ],
+      "total_stars": 9948,
+      "followers": 263,
+      "following": 0,
+      "created_at": "2022-11-13T12:07:22.544Z",
+      "updated_at": "2024-05-20T14:25:02.312Z",
+      "owner_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/benbusby",
+      "repositories_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/owners/benbusby/repositories"
+    },
+    "tags": [
+      {
+        "name": "v0.8.4",
+        "sha": "b97f3dd4c063d5bc35fcdc8fde299c721ec56594",
+        "kind": "commit",
+        "published_at": "2023-11-01T20:45:42.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.8.4",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.8.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.8.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.8.4/manifests"
+      },
+      {
+        "name": "v0.8.3",
+        "sha": "92e8ede24e9277a5440d403f75877209f1269884",
+        "kind": "commit",
+        "published_at": "2023-08-21T21:06:17.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.8.3",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.8.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.8.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.8.3/manifests"
+      },
+      {
+        "name": "v0.8.2",
+        "sha": "25e7134bef067d0078c2864a1b739783251c9ff4",
+        "kind": "commit",
+        "published_at": "2023-03-28T16:45:01.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.8.2",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.8.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.8.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.8.2/manifests"
+      },
+      {
+        "name": "v0.8.1",
+        "sha": "c9c197bb5f358f137aefe925bdacf123ac24bdb5",
+        "kind": "commit",
+        "published_at": "2022-12-19T17:52:02.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.8.1",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.8.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.8.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.8.1/manifests"
+      },
+      {
+        "name": "v0.8.0",
+        "sha": "d099b463362e432ff101fcd8ce57247248165658",
+        "kind": "commit",
+        "published_at": "2022-11-23T18:43:42.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.8.0",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.8.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.8.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.8.0/manifests"
+      },
+      {
+        "name": "v0.7.4",
+        "sha": "2600ad5a059d069aa79c581d83a87b2a5df5fcb2",
+        "kind": "commit",
+        "published_at": "2022-06-13T16:40:55.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.7.4",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.7.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.7.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.7.4/manifests"
+      },
+      {
+        "name": "v0.7.3",
+        "sha": "47df4da4b58d36bac151aac321da2dfcf2056e07",
+        "kind": "commit",
+        "published_at": "2022-06-03T20:33:53.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.7.3",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.7.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.7.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.7.3/manifests"
+      },
+      {
+        "name": "v0.7.2",
+        "sha": "8a0b872337247e1fa5514b67768122a1121a159c",
+        "kind": "commit",
+        "published_at": "2022-04-26T22:49:30.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.7.2",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.7.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.7.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.7.2/manifests"
+      },
+      {
+        "name": "v0.7.1",
+        "sha": "1af4566991f5248fd0d3576ca4fbcc0a84293004",
+        "kind": "commit",
+        "published_at": "2022-01-26T17:41:41.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.7.1",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.7.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.7.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.7.1/manifests"
+      },
+      {
+        "name": "v0.7.0",
+        "sha": "84b5987ac5a569d5958c725d7ff25972a71ab4ab",
+        "kind": "commit",
+        "published_at": "2021-12-16T00:16:56.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.7.0",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.7.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.7.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.7.0/manifests"
+      },
+      {
+        "name": "v0.6.0",
+        "sha": "c6716e6d46fbf8bc1368846b646c5976ad38a291",
+        "kind": "commit",
+        "published_at": "2021-10-12T02:22:29.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.6.0",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.6.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.6.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.6.0/manifests"
+      },
+      {
+        "name": "v0.5.4",
+        "sha": "904091f44032961c6d494eb667862c49b5a695f7",
+        "kind": "commit",
+        "published_at": "2021-06-06T17:45:03.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.5.4",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.5.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.5.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.5.4/manifests"
+      },
+      {
+        "name": "v0.5.3",
+        "sha": "a64a86efb6b272e0d88963a7852a9c2639a5d0fd",
+        "kind": "commit",
+        "published_at": "2021-06-04T15:31:03.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.5.3",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.5.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.5.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.5.3/manifests"
+      },
+      {
+        "name": "v0.5.2",
+        "sha": "cbe32a081eff36640b0c0e3b5e68b62e59f06fcd",
+        "kind": "commit",
+        "published_at": "2021-05-29T16:22:37.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.5.2",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.5.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.5.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.5.2/manifests"
+      },
+      {
+        "name": "v0.5.1",
+        "sha": "43faaee77f930b9105d609da2327edd927765449",
+        "kind": "commit",
+        "published_at": "2021-05-27T16:01:57.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.5.1",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.5.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.5.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.5.1/manifests"
+      },
+      {
+        "name": "v0.5.0",
+        "sha": "75e74109816c5e9a00db0c0d3fa81cb1cdf034e4",
+        "kind": "commit",
+        "published_at": "2021-05-21T15:22:43.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.5.0",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.5.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.5.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.5.0/manifests"
+      },
+      {
+        "name": "v0.4.1",
+        "sha": "a321d55f1368f960403649945ea1c53fa20b6abc",
+        "kind": "commit",
+        "published_at": "2021-04-08T13:43:41.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.4.1",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.4.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.4.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.4.1/manifests"
+      },
+      {
+        "name": "v0.4.0",
+        "sha": "30be540b97a3fad6e9d134bcd7ff9e30a88b91b9",
+        "kind": "commit",
+        "published_at": "2021-04-05T15:00:56.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.4.0",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.4.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.4.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.4.0/manifests"
+      },
+      {
+        "name": "v0.3.2",
+        "sha": "b57c86a1d0896c7b8612d1fbe3e3b51d56b0cfd9",
+        "kind": "commit",
+        "published_at": "2021-04-02T16:57:15.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.3.2",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.3.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.3.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.3.2/manifests"
+      },
+      {
+        "name": "v0.3.1",
+        "sha": "0a6575d21901f70ed4089aa4c5c64fe812f23d57",
+        "kind": "commit",
+        "published_at": "2021-02-07T23:55:27.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.3.1",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.3.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.3.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.3.1/manifests"
+      },
+      {
+        "name": "v0.3.0",
+        "sha": "406e2366664c9e99de586e67c28f21470413f06c",
+        "kind": "commit",
+        "published_at": "2021-01-18T04:07:43.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.3.0",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.3.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.3.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.3.0/manifests"
+      },
+      {
+        "name": "v0.2.1",
+        "sha": "a8914e4e78745883a0046e7510f3f51b4279d39e",
+        "kind": "commit",
+        "published_at": "2020-10-04T23:39:04.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.2.1",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.2.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.2.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.2.1/manifests"
+      },
+      {
+        "name": "0.2.0",
+        "sha": "b2133edaa326a7b14a49a0506d2f76d1424efe8f",
+        "kind": "commit",
+        "published_at": "2020-06-11T19:38:51.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/0.2.0",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/0.2.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/0.2.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/0.2.0/manifests"
+      },
+      {
+        "name": "v0.1.4",
+        "sha": "2c01e1d6bc58db6c41ebb5b97cdc7c3c5927e208",
+        "kind": "commit",
+        "published_at": "2020-05-22T21:52:17.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.1.4",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.1.4",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.1.4",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.1.4/manifests"
+      },
+      {
+        "name": "v0.1.3",
+        "sha": "b131f47641be7a304de46f4edcd5b2f1b38fea4f",
+        "kind": "commit",
+        "published_at": "2020-05-22T16:45:49.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.1.3",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.1.3",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.1.3",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.1.3/manifests"
+      },
+      {
+        "name": "v0.1.2",
+        "sha": "f1e17d81190b7dfacc5078ed4490ca3e8aa20040",
+        "kind": "commit",
+        "published_at": "2020-05-22T16:38:58.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.1.2",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.1.2",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.1.2",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.1.2/manifests"
+      },
+      {
+        "name": "v0.1.1",
+        "sha": "e3d002f6c13f2670b0d5a046fe25056490ff683e",
+        "kind": "commit",
+        "published_at": "2020-05-15T16:07:11.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.1.1",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.1.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.1.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.1.1/manifests"
+      },
+      {
+        "name": "v0.1.0",
+        "sha": "68da3cd4cd22f927346db2c1e2d63b84a8c9dc28",
+        "kind": "commit",
+        "published_at": "2020-05-08T16:38:01.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.1.0",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.1.0",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.1.0",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.1.0/manifests"
+      },
+      {
+        "name": "v0.0.1",
+        "sha": "31b9e19af722c9306254e5820a53bf6fb74a5b41",
+        "kind": "commit",
+        "published_at": "2020-04-19T21:28:40.000Z",
+        "download_url": "https://codeload.github.com/benbusby/whoogle-search/tar.gz/v0.0.1",
+        "html_url": "https://github.com/benbusby/whoogle-search/releases/tag/v0.0.1",
+        "dependencies_parsed_at": null,
+        "dependency_job_id": null,
+        "tag_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.0.1",
+        "manifests_url": "https://repos.ecosyste.ms/api/v1/hosts/GitHub/repositories/benbusby%2Fwhoogle-search/tags/v0.0.1/manifests"
+      }
+    ]
+  },
+  "repo_metadata_updated_at": "2024-10-14T11:37:14.349Z",
+  "dependent_packages_count": 0,
+  "downloads": 2106,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 1,
+  "rankings": {
+    "downloads": 8.860677356682913,
+    "dependent_repos_count": 21.615158380108443,
+    "dependent_packages_count": 10.09540786432578,
+    "stargazers_count": 0.30537556422906986,
+    "forks_count": 1.4691456511532928,
+    "docker_downloads_count": null,
+    "average": 8.4691529632999
+  },
+  "purl": "pkg:pypi/whoogle-search",
+  "advisories": [
+    {
+      "uuid": "GSA_kwCzR0hTQS1xOTdnLWMyOWgteDJwN84AA6Ab",
+      "url": "https://github.com/advisories/GHSA-q97g-c29h-x2p7",
+      "title": "Whoogle Search Path Traversal vulnerability",
+      "description": "Whoogle Search is a self-hosted metasearch engine. In versions prior to 0.8.4, the `element` method in `app/routes.py` does not validate the user-controlled `src_type` and `element_url` variables and passes them to the `send` method which sends a GET request on lines 339-343 in `request.py`, which leads to a server-side request forgery. This issue allows for crafting GET requests to internal and external resources on behalf of the server. For example, this issue would allow for accessing resources on the internal network that the server has access to, even though these resources may not be accessible on the internet. This issue is fixed in version 0.8.4.",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2024-03-14T20:37:57.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2024-22203",
+        "https://github.com/benbusby/whoogle-search/commit/3a2e0b262e4a076a20416b45e6b6f23fd265aeda",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/request.py#L339-L343",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L465-L490",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L466",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L476",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L479",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/whoogle-search/PYSEC-2024-20.yaml",
+        "https://securitylab.github.com/advisories/GHSL-2023-186_GHSL-2023-189_benbusby_whoogle-search",
+        "https://github.com/advisories/GHSA-q97g-c29h-x2p7"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-q97g-c29h-x2p7",
+        "CVE-2024-22203"
+      ],
+      "repository_url": "https://github.com/benbusby/whoogle-search",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.8.4",
+              "vulnerable_version_range": ">= 0, < 0.8.4"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "whoogle-search"
+        }
+      ],
+      "created_at": "2024-03-21T20:04:44.742Z",
+      "updated_at": "2024-03-14T20:37:58.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1oaDJxLXF2NjYtamNxZ84AA6AZ",
+      "url": "https://github.com/advisories/GHSA-hh2q-qv66-jcqg",
+      "title": "Whoogle Search Path Traversal vulnerability",
+      "description": "Whoogle Search is a self-hosted metasearch engine. Versions 0.8.3 and prior have a limited file write vulnerability when the configuration options in Whoogle are enabled. The `config` function in `app/routes.py` does not validate the user-controlled `name` variable on line 447 and `config_data` variable on line 437. The `name` variable is insecurely concatenated in `os.path.join`, leading to path manipulation. The POST data from the `config_data` variable is saved with `pickle.dump` which leads to a limited file write. However, the data that is saved is earlier transformed into a dictionary and the `url` key value pair is added before the file is saved on the system. All in all, the issue allows us to save and overwrite files on the system that the application has permissions to, with a dictionary containing arbitrary data and the `url` key value, which is a limited file write. Version 0.8.4 contains a patch for this issue.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2024-03-14T20:37:57.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.3,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2024-22204",
+        "https://github.com/benbusby/whoogle-search/commit/3a2e0b262e4a076a20416b45e6b6f23fd265aeda",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L419-L452",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L437",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L444",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L447",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/whoogle-search/PYSEC-2024-23.yaml",
+        "https://securitylab.github.com/advisories/GHSL-2023-186_GHSL-2023-189_benbusby_whoogle-search",
+        "https://github.com/advisories/GHSA-hh2q-qv66-jcqg"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-hh2q-qv66-jcqg",
+        "CVE-2024-22204"
+      ],
+      "repository_url": "https://github.com/benbusby/whoogle-search",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.8.4",
+              "vulnerable_version_range": ">= 0, < 0.8.4"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "whoogle-search"
+        }
+      ],
+      "created_at": "2024-03-21T20:04:44.792Z",
+      "updated_at": "2024-03-14T20:37:58.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS0zcTZnLXFtcHgtcnF3NM4AA6AY",
+      "url": "https://github.com/advisories/GHSA-3q6g-qmpx-rqw4",
+      "title": "Whoogle Search Server-Side Request Forgery vulnerability",
+      "description": "Whoogle Search is a self-hosted metasearch engine. In versions 0.8.3 and prior, the `window` endpoint does not sanitize user-supplied input from the `location` variable and passes it to the `send` method which sends a `GET` request on lines 339-343 in `request.py,` which leads to a server-side request forgery. This issue allows for crafting GET requests to internal and external resources on behalf of the server. For example, this issue would allow for accessing resources on the internal network that the server has access to, even though these resources may not be accessible on the internet. This issue is fixed in version 0.8.4.\n\n",
+      "origin": "UNSPECIFIED",
+      "severity": "CRITICAL",
+      "published_at": "2024-03-14T20:37:57.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2024-22205",
+        "https://github.com/benbusby/whoogle-search/commit/3a2e0b262e4a076a20416b45e6b6f23fd265aeda",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/request.py#L339-L343",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L479",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L496-L557",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L497",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/whoogle-search/PYSEC-2024-18.yaml",
+        "https://securitylab.github.com/advisories/GHSL-2023-186_GHSL-2023-189_benbusby_whoogle-search",
+        "https://github.com/advisories/GHSA-3q6g-qmpx-rqw4"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-3q6g-qmpx-rqw4",
+        "CVE-2024-22205"
+      ],
+      "repository_url": "https://github.com/benbusby/whoogle-search",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.8.4",
+              "vulnerable_version_range": ">= 0, < 0.8.4"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "whoogle-search"
+        }
+      ],
+      "created_at": "2024-03-21T20:04:44.818Z",
+      "updated_at": "2024-03-14T20:37:58.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1waGc2LTQ0bTctaHgzaM4AA6AX",
+      "url": "https://github.com/advisories/GHSA-phg6-44m7-hx3h",
+      "title": "Whoogle Search Cross-site Scripting vulnerability",
+      "description": "Whoogle Search is a self-hosted metasearch engine. In versions 0.8.3 and prior, the `element` method in `app/routes.py` does not validate the user-controlled `src_type` and `element_url` variables and passes them to the `send` method which sends a `GET` request on lines 339-343 in `requests.py`. The returned contents of the URL are then passed to and reflected back to the user in the `send_file` function on line 484, together with the user-controlled `src_type`, which allows the attacker to control the HTTP response content type leading to a cross-site scripting vulnerability. An attacker could craft a special URL to point to a malicious website and send the link to a victim. The fact that the link would contain a trusted domain (e.g. from one of public Whoogle instances) could be used to trick the user into clicking the link.The malicious website could, for example, be a copy of a real website, meant to steal a person\u2019s credentials to the website, or trick that person in another way. Version 0.8.4 contains a patch for this issue.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2024-03-14T20:37:57.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 6.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2024-22417",
+        "https://github.com/benbusby/whoogle-search/commit/3a2e0b262e4a076a20416b45e6b6f23fd265aeda",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/request.py#L339-L343",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L465-L490",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L466",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L476",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L479",
+        "https://github.com/benbusby/whoogle-search/blob/92e8ede24e9277a5440d403f75877209f1269884/app/routes.py#L484C6-L484C7",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/whoogle-search/PYSEC-2024-19.yaml",
+        "https://securitylab.github.com/advisories/GHSL-2023-186_GHSL-2023-189_benbusby_whoogle-search",
+        "https://github.com/advisories/GHSA-phg6-44m7-hx3h"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-phg6-44m7-hx3h",
+        "CVE-2024-22417"
+      ],
+      "repository_url": "https://github.com/benbusby/whoogle-search",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.8.4",
+              "vulnerable_version_range": ">= 0, < 0.8.4"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "whoogle-search"
+        }
+      ],
+      "created_at": "2024-03-21T20:04:44.841Z",
+      "updated_at": "2024-03-14T20:37:57.000Z"
+    },
+    {
+      "uuid": "GSA_kwCzR0hTQS1teHZjLWZ3Z3gtajc3OM4AAtZ1",
+      "url": "https://github.com/advisories/GHSA-mxvc-fwgx-j778",
+      "title": "Whoogle Search Cross-site Scripting via string parameter",
+      "description": "The package whoogle-search before version 0.7.2 is vulnerable to Cross-site Scripting (XSS) via the query string parameter q. In the case where it does not contain the http string, it is used to build the error_message that is then rendered in the error.html template, using the [flask.render_template](https://flask.palletsprojects.com/en/2.1.x/api/flask.render_template) function. However, the error_message is rendered using the [| safe filter](https://jinja.palletsprojects.com/en/3.1.x/templates/working-with-automatic-escaping), meaning the user input is not escaped.",
+      "origin": "UNSPECIFIED",
+      "severity": "MODERATE",
+      "published_at": "2022-07-15T15:37:39.000Z",
+      "withdrawn_at": null,
+      "classification": "GENERAL",
+      "cvss_score": 5.4,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2022-25303",
+        "https://github.com/benbusby/whoogle-search/commit/abc30d7da3b5c67be7ce84d4699f327442d44606",
+        "https://github.com/benbusby/whoogle-search/blob/6d362ca5c7a00d2f691a2512461c5dfbfc01cbb3/app/routes.py%23L448",
+        "https://github.com/pypa/advisory-database/tree/main/vulns/whoogle-search/PYSEC-2022-226.yaml",
+        "https://snyk.io/vuln/SNYK-PYTHON-WHOOGLESEARCH-2803306",
+        "https://github.com/advisories/GHSA-mxvc-fwgx-j778"
+      ],
+      "source_kind": "github",
+      "identifiers": [
+        "GHSA-mxvc-fwgx-j778",
+        "CVE-2022-25303"
+      ],
+      "repository_url": "https://github.com/benbusby/whoogle-search",
+      "blast_radius": 0.0,
+      "packages": [
+        {
+          "versions": [
+            {
+              "first_patched_version": "0.7.2",
+              "vulnerable_version_range": "< 0.7.2"
+            }
+          ],
+          "ecosystem": "pypi",
+          "package_name": "whoogle-search"
+        }
+      ],
+      "created_at": "2022-12-21T16:12:10.722Z",
+      "updated_at": "2023-08-17T05:02:13.000Z"
+    }
+  ],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/whoogle-search",
+  "docker_dependents_count": null,
+  "docker_downloads_count": null,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/whoogle-search",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/whoogle-search/dependencies",
+  "status": null,
+  "funding_links": [
+    "https://github.com/sponsors/benbusby",
+    "https://ko-fi.com/benbusby"
+  ],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/whoogle-search/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/whoogle-search/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/whoogle-search/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/whoogle-search/related_packages",
+  "maintainers": [
+    {
+      "uuid": "benbusby",
+      "login": "benbusby",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 2,
+      "html_url": "https://pypi.org/user/benbusby/",
+      "role": null,
+      "created_at": "2023-02-02T11:30:35.746Z",
+      "updated_at": "2023-02-02T11:30:35.746Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/benbusby/packages"
+    }
+  ]
+}

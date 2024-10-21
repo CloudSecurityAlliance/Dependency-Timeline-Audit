@@ -1,0 +1,81 @@
+{
+  "id": 2773128,
+  "name": "jimit",
+  "ecosystem": "pypi",
+  "description": "James Iter's common library by python.",
+  "homepage": "https://github.com/jamesiter/jimitlib-py.git",
+  "licenses": "BSD",
+  "normalized_licenses": [
+    "BSD-3-Clause"
+  ],
+  "repository_url": "https://github.com/jamesiter/jimitlib-py",
+  "keywords_array": [],
+  "namespace": null,
+  "versions_count": 92,
+  "first_release_published_at": "2015-04-20T10:50:51.000Z",
+  "latest_release_published_at": "2023-07-10T09:28:04.000Z",
+  "latest_release_number": "3.9.5",
+  "last_synced_at": "2024-10-05T18:16:54.791Z",
+  "created_at": "2022-04-10T11:21:49.429Z",
+  "updated_at": "2024-10-05T18:18:07.027Z",
+  "registry_url": "https://pypi.org/project/jimit/",
+  "install_command": "pip install jimit --index-url https://pypi.org/simple",
+  "documentation_url": "https://jimit.readthedocs.io/",
+  "metadata": {
+    "funding": null,
+    "documentation": null,
+    "classifiers": [
+      "Development Status :: 1 - Planning",
+      "Environment :: Plugins",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: BSD License",
+      "Operating System :: POSIX :: Linux",
+      "Programming Language :: Python"
+    ],
+    "normalized_name": "jimit"
+  },
+  "repo_metadata": {},
+  "repo_metadata_updated_at": "2024-10-05T18:18:07.005Z",
+  "dependent_packages_count": 0,
+  "downloads": 1444,
+  "downloads_period": "last-month",
+  "dependent_repos_count": 3,
+  "rankings": {
+    "downloads": 32.588151047882754,
+    "dependent_repos_count": 8.97361465479046,
+    "dependent_packages_count": 10.069287946036377,
+    "stargazers_count": null,
+    "forks_count": null,
+    "docker_downloads_count": null,
+    "average": 17.21035121623653
+  },
+  "purl": "pkg:pypi/jimit",
+  "advisories": [],
+  "docker_usage_url": "https://docker.ecosyste.ms/usage/pypi/jimit",
+  "docker_dependents_count": null,
+  "docker_downloads_count": null,
+  "usage_url": "https://repos.ecosyste.ms/usage/pypi/jimit",
+  "dependent_repositories_url": "https://repos.ecosyste.ms/api/v1/usage/pypi/jimit/dependencies",
+  "status": null,
+  "funding_links": [],
+  "critical": null,
+  "versions_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/jimit/versions",
+  "version_numbers_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/jimit/version_numbers",
+  "dependent_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/jimit/dependent_packages",
+  "related_packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/packages/jimit/related_packages",
+  "maintainers": [
+    {
+      "uuid": "james_iter",
+      "login": "james_iter",
+      "name": null,
+      "email": null,
+      "url": null,
+      "packages_count": 2,
+      "html_url": "https://pypi.org/user/james_iter/",
+      "role": null,
+      "created_at": "2023-02-24T12:18:59.917Z",
+      "updated_at": "2023-02-24T12:18:59.917Z",
+      "packages_url": "https://packages.ecosyste.ms/api/v1/registries/pypi.org/maintainers/james_iter/packages"
+    }
+  ]
+}
