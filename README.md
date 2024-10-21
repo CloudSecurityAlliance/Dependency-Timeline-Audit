@@ -22,6 +22,13 @@ Dependency Timeline Audit follows these steps to provide a comprehensive timelin
 
 This process ensures a thorough examination of your project's dependency timeline, providing valuable insights for risk management and maintenance planning.
 
+## Easy to measure and potentially useful data
+
+- [ ] Who is the primary contributor for each of your dependencies?
+- [ ] Does one person maintain a significant percentage of your dependencies?
+- [ ] When was a package _first_ released?
+   - [ ] Packages that were released in the last few days/hours? (potential typosquat/hallucination attack)
+
 ## Future plans include 
 
 * This functionality can be integrated into SBOM tools like Syft and vulnerability scanning tools like Grype
