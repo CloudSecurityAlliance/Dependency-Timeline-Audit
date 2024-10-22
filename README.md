@@ -81,6 +81,7 @@ This process ensures a thorough examination of your project's dependency timelin
 - [ ] Does the project have a public repo/website/etc?
 - [ ] When was a package _first_ released?
 - [ ] Packages that were released in the last few days/hours? (potential typosquat/hallucination attack)
+- [ ] Orphan URLs and domains
 
 ## Future plans include 
 
