@@ -47,23 +47,30 @@ function getPackageDependencies(packageName, version) {
       res.on('data', (chunk) => data += chunk);
       res.on('end', () => {
         if (res.statusCode === 200) {
-          const packageData = JSON.parse(data);
-          if (packageData && packageData.dependencies && Array.isArray(packageData.dependencies)) {
-            resolve(packageData.dependencies.map(dep => dep.package_name));
-          } else {
-            resolve([]);
-          }
+          resolve(JSON.parse(data));
         } else {
-          resolve([]);
+          resolve(null);
         }
       });
     }).on('error', reject);
   });
 }
 
+// Function to generate a timestamp in YYYYMMDDHHMMSS format
+function generateTimestamp() {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  const hours = String(now.getHours()).padStart(2, '0');
+  const minutes = String(now.getMinutes()).padStart(2, '0');
+  const seconds = String(now.getSeconds()).padStart(2, '0');
+  return `${year}${month}${day}${hours}${minutes}${seconds}`;
+}
+
 // Function to write data to cache
 async function writeToCache(cacheDir, packageName, data) {
-  const timestamp = new Date().toISOString().replace(/[:.]/g, '');
+  const timestamp = generateTimestamp();
   let fileName, dirPath;
 
   if (packageName.startsWith('@')) {

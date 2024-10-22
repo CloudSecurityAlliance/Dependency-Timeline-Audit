@@ -23,7 +23,7 @@ Once the inventory of dependencies is gathered, check the specific versions of p
 - Virtual environments (if applicable).
 - Remote systems (as needed).
 
-Goal: create an actual baseline of what is installed and used. Do not require the use of third party tools.
+Goal: Create an actual baseline of what is installed and used. Do not require the use of third party tools, but we want to support third party tools.
 
 ## 3. Get Package Information
 
@@ -87,7 +87,7 @@ This process ensures a thorough examination of your project's dependency timelin
 
 * This functionality can be integrated into SBOM tools like Syft and vulnerability scanning tools like Grype
 * CI/CD compatible tooling so these checks can be easily integrated into build pipelines
-* Exceptions database (e.g. some old/unmaintained software is "done" and doesn't pose any significant risk
+* Exceptions database (e.g. some old/unmaintained software is "done" and doesn't pose any significant risk)
 * Data support:
   * Ecosyste.ms (https://packages.ecosyste.ms/)
   * Libraries.io (https://libraries.io/)
