@@ -4,30 +4,83 @@ Traditional software audits check what versions of software you are using and if
 
 ## Process
 
-Dependency Timeline Audit follows these steps to provide a comprehensive timeline view of your project's dependencies:
+### 1. Software Inventory
 
-1. Software Inventory: Create an inventory of all software dependencies used in the project, including versions when possible. Please note these are proof of concept tools, the ultimate goal is to embed support for this process into SBOM and other auditing tools that are already a part of peoples toolchains.
-2. System Version Check: If needed, inventory the specific versions of dependencies installed on the system running the audit, or within the virtuualenv, or the remote system and so on.
-3. Release Date Query: Query the appropriate language-specific package database to find:
-   - The release date of the specific version you're using
-   - The latest version available and its release date
-   - Cache these results and also update the latest release as needed
-4. Exceptions / information database
-   - We are looking to provide a database of information, e.g. in Python the importlib-metadata has some weird verisoning issues and older versions are ok, basically we want to reduce the incidence of false positives
-   - We also want to allow people to flag and log their own exceptions so that they can reduce false positives and focus on what actually matters.
-5. Reporting: Generate a report that includes:
-   - Detailed data on each dependency, including current version, release date, latest version, and latest release date
-   - A simple CLI GUI tool to visualize and interact with the timeline data
-   - Options for human readable output and JSON formatted output
+Create a comprehensive inventory of all software dependencies used in the project. This inventory can be generated in the following ways:
+
+- An explicit list of packages (simple text file or command line argument)
+- Scan project files for dependencies using regex-based import scanning
+- Scan project files for dependencies using imports and loading (e.g. Python ast)
+- Scan SBOM file (SPDX, CycloneDX)
+- Lock files (e.g., `package-lock.json`, `Pipfile.lock`).
+
+Goal: Embed support for SBOM and other auditing tools already integrated into project toolchains, making the process seamless.
+
+### 2. System Version Check
+
+Once the inventory of dependencies is gathered, check the specific versions of packages installed on:
+- The system running the audit.
+- Virtual environments (if applicable).
+- Remote systems (as needed).
+
+Goal: create an actual baseline of what is installed and used. Do not require the use of third party tools.
+
+## 3. Get Package Information
+
+Query relevant package ecosystems (via APIs or scraping language-specific package repositories) to gather detailed package information and compare it to the versions installed on the system:
+
+- Data sources:
+  - ecosyste.ms API for package metadata.
+  - Libraries.io API for ecosystem-wide package data.
+  - Snyk API for security and package health insights.
+  - Language-specific databases (e.g., `pypi.org` for Python).
+- Gather:
+  - The latest available version in the ecosystem.
+  - Dependency relationships, license information, security vulnerabilities, etc.
+- Cache results for future comparisons and periodically update them to ensure accuracy.
+
+Goal: get a blended set of data that is useful and easy, it also must be free.
+
+## 4. Exceptions / Information Database
+Maintain a custom database to manage exceptions and reduce false positives:
+- Custom Exceptions: Allow users to flag certain dependency versions or known issues (e.g., older versions of `importlib-metadata` causing issues).
+- False Positive Mitigation: Store exceptions to avoid unnecessary warnings and focus the audit on critical updates or issues.
+- Known problems, e.g. youtube-downloader should be replaced with yt-dlp
+
+Goal: allow people to easily contribute, once they research a problem they should be able to submit their analysis easily.
+
+## 5. Analyzing data
+
+Analyze data:
+  - Version Comparison: Compare the installed version against the latest available version from the ecosystem, and flag any discrepancies.
+  - Check if the URLs listed work
+  - Check how active the package maintainers are
+
+GFoal: allow people to create new ways to analyze the data.
+
+## 6. Reporting
+Generate comprehensive reports with detailed data on each dependency, including:
+- **Detailed Dependency Data**:
+  - Current version installed on the system.
+  - Specified version in the project or SBOM.
+  - Latest available version in the ecosystem.
+  - Release dates, dependency relationships, license information, and potential vulnerabilities.
+  - Highlight discrepancies between installed versions and the latest versions available.
+- **Interactive Visualization**:
+  - A simple CLI GUI tool to visualize and interact with the dependency timeline data, providing an intuitive view of the project’s dependencies and any version mismatches.
+- **Output Options**:
+  - Human-readable output for easier review by developers or project managers.
+  - JSON-formatted output for automated integration into CI/CD pipelines or auditing tools.
 
 This process ensures a thorough examination of your project's dependency timeline, providing valuable insights for risk management and maintenance planning.
 
-## Easy to measure and potentially useful data
+## Example of easy to measure and potentially useful data
 
 - [ ] Who is the primary contributor for each of your dependencies?
 - [ ] Does one person maintain a significant percentage of your dependencies?
+- [ ] Does the project have a public repo/website/etc?
 - [ ] When was a package _first_ released?
-   - [ ] Packages that were released in the last few days/hours? (potential typosquat/hallucination attack)
+- [ ] Packages that were released in the last few days/hours? (potential typosquat/hallucination attack)
 
 ## Future plans include 
 
@@ -36,6 +89,8 @@ This process ensures a thorough examination of your project's dependency timelin
 * Exceptions database (e.g. some old/unmaintained software is "done" and doesn't pose any significant risk
 * Data support:
   * Ecosyste.ms (https://packages.ecosyste.ms/)
+  * Libraries.io (https://libraries.io/)
+  * Snyk (https://snyk.io/advisor/)
 * Language support:
   * .NET (C#, F#, VB.NET) (NuGet)
   * C++ (Conan, Vcpkg)
@@ -94,7 +149,6 @@ This process ensures a thorough examination of your project's dependency timelin
   * rebar3_sbom: https://github.com/voltone/rebar3_sbom
   * sbom-rs: https://github.com/psastras/sbom-rs
   
-
 ## Use cases
 
 Example use cases
