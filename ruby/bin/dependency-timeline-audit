@@ -13,6 +13,7 @@ begin
     opts.on('-i', '--interactive-ignore', 'Allows interactively generating an ignore file')
     opts.on('-v', '--verbose', 'Provides more verbose output')
     opts.on('--lockfile=LOCKFILE', 'Allows overwriting where the lockfile is located (default: "Gemfile.lock")')
+    opts.on('--no-lockfile', "Don't use a lockfile")
     opts.on('--outdated-threshold=YEARS', Integer, 'Allows overwriting the number of years before a gem is considered outdated (default: 1)')
     opts.on_tail('-h', '--help', 'Prints this help') do
       puts opts
@@ -28,7 +29,6 @@ rescue OptionParser::InvalidOption, OptionParser::MissingArgument => e
   exit(1)
 end
 
-DependencyTimelineAudit::Check.check(
-  lockfile: options[:lockfile],
-  verbose: options[:verbose]
-)
+config = DependencyTimelineAudit::Config.new(options)
+checker = DependencyTimelineAudit::Check.new(config: config)
+checker.check
