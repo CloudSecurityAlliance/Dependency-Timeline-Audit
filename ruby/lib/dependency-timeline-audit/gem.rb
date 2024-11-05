@@ -29,6 +29,7 @@ module DependencyTimelineAudit
     end
 
     def format_date(date_string)
+      return 'Unknown' if date_string.nil?
       date = Date.parse(date_string)
       date.strftime("%Y-%m-%d")
     end

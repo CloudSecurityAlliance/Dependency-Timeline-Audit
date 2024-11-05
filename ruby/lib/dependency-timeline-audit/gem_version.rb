@@ -18,7 +18,9 @@ module DependencyTimelineAudit
       name.to_s
     end
 
+    # If release date is unknown, leave it as not outdated
     def outdated?
+      return false if released_at.nil?
       released_at <= config.outdated_threshold
     end
 

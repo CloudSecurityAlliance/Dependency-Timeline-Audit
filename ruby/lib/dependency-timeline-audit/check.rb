@@ -34,8 +34,12 @@ module DependencyTimelineAudit
 
     def locked_gems
       lockfile_parser = Bundler::LockfileParser.new(File.read(config.lockfile))
-      lockfile_parser.specs.map do |gem|
-        Gem.new(config: config, name: gem.name, locked_version: gem.version)
+      lockfile_parser.specs.map do |spec|
+        if spec.source.is_a?(Bundler::Source::Git)
+          Gem.new(config: config, name: spec.name, locked_version: spec.source.revision)
+        else
+          Gem.new(config: config, name: spec.name, locked_version: spec.version)
+        end
       end
     end
   end
