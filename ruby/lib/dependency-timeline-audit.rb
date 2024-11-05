@@ -1,5 +1,3 @@
-require 'byebug'
-
 module DependencyTimelineAudit
   autoload :API,             'dependency-timeline-audit/api'
   autoload :Check,           'dependency-timeline-audit/check'
